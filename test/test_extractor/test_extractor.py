@@ -25,10 +25,14 @@ class TestExtractor:
 
 
 	def test_getHeaders(self):
-		assert self.extractors["test_simple"].getHeaders() == ['A_HEADER', 'B_HEADER', u'ID']
+		assert self.extractors["test_simple"].getHeaders() == ['A_HEADER', 'B_HEADER', 'ID']
 
 	def test_getRowData(self):
-		assert list(self.extractors["test_simple"].getRowData()) == [[u'a_value1', u'b_value1', u'id_1'],
-					    									[u'a_value2', u'b_value2', u'id_2']]
+		assert list(self.extractors["test_simple"].getRowData()) == [['a_value1', 'b_value1', 1],
+					    									['a_value2', 'b_value2', 2]]
 
-	
+	def test_buildRowDict(self):
+		self.extractors["test_simple"].id_column = "ID"
+		row = ['a_value1', 'b_value1', 1]
+		assert self.extractors["test_simple"].buildRowDict(row) == { '1' : { 'A_HEADER' : 'a_value1', 'B_HEADER': 'b_value1', 'ID': 1 }}
+
