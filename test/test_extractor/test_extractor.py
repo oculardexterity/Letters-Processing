@@ -20,11 +20,13 @@ class TestExtractor:
 		return files
 
 
-
-
 	def test_sanityTest(self):
 		assert self.extractors["test_simple"].thing() == 'test'
 
 
 	def test_getHeaders(self):
 		assert self.extractors["test_simple"].getHeaders() == ['A_HEADER', 'B_HEADER', u'ID']
+
+	def test_getRowData(self):
+		assert list(self.extractors["test_simple"].getRowData()) == [[u'a_value1', u'b_value1', u'id_1'],
+					    									[u'a_value2', u'b_value2', u'id_2']]

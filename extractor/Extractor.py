@@ -8,4 +8,10 @@ class Extractor:
 		return 'test'
 
 	def getHeaders(self):
-		return 'nonsense'
+		headers = [self.sheet.cell(0, col_index).value for col_index in range(self.sheet.ncols)]
+		return headers
+
+	def getRowData(self):
+		yield from [[self.sheet.cell(i, col_index).value 
+						for col_index in range(self.sheet.ncols)]
+						for i in range(1,self.sheet.nrows)]
