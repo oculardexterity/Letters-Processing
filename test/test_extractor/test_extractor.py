@@ -7,7 +7,7 @@ from Extractor.Extractor import Extractor
 class TestExtractor:
 
 	def setup(self):
-		self.test_sheets_dir = "test/test_extractor/test_sheets"
+		self.test_sheets_dir = "test/test_extractor/test_sheets/"
 		self.extractors = {name: Extractor(f_name) 
 							for name, f_name in self.get_test_sheets().items()}
 
@@ -16,7 +16,7 @@ class TestExtractor:
 		files = {}
 		for f in os.listdir(self.test_sheets_dir):
 			if f.endswith('.xlsx') and not f.startswith('~'):
-				files[f.strip('.xslx')] = f
+				files[f.strip('.xslx')] = self.test_sheets_dir + f
 		return files
 
 
@@ -27,4 +27,4 @@ class TestExtractor:
 
 
 	def test_getHeaders(self):
-		assert self.extractors["test_simple"].getHeaders == ['A_HEADER', 'B_HEADER', u'ID']
+		assert self.extractors["test_simple"].getHeaders() == ['A_HEADER', 'B_HEADER', u'ID']
