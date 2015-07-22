@@ -1,14 +1,17 @@
 import os
 import shelve
-import xlrd
+from openpyxl import load_workbook
+
+from datetime import datetime
 
 class Stream:
 	def __init__(self, f):
 		# Dependent on file type:
 		if f.endswith('xlsx'):
-			self.sheet = xlrd.open_workbook(f).sheet_by_index(0)
-			self.headers = self.getHeaders()
+			wb = load_workbook(filename = f, read_only=True)
+			self.sheet = wb["Translations"]
 			self.stream = self.outputRowsFromFile
+			self.id_column = "Page"
 		elif f.endswith('shelve'):
 			print('endswith shelve')
 			self.shelf_file = f
@@ -20,21 +23,24 @@ class Stream:
 	def thing(self): # A sanity test
 		return 'test'
 
-	def getHeaders(self):
-		headers = [self.sheet.cell(0, col_index).value for col_index in range(self.sheet.ncols)]
-		return headers
+	def setHeaders(self, row):
+		self.headers = [cell.value for cell in row]
 
 	def getRowData(self):
-		yield from [[self.sheet.cell(i, col_index).value 
-						for col_index in range(self.sheet.ncols)]
-						for i in range(1,self.sheet.nrows)]
+		for i, row in enumerate(self.sheet.iter_rows()):
+			if i == 0:
+				self.setHeaders(row)
+			else:
+				#print([cell.value for cell in row])
+				yield row
 
 	def buildRowTuple(self, row):
-		id_index = self.headers.index(self.id_column)
-		return (str(row[id_index]), {self.headers[i]: cell for i, cell in enumerate(row)})
+		idcol = self.headers.index(self.id_column)
+		return (str(row[idcol].value), {self.headers[i]: cell.value for i, cell in enumerate(row)})
 	
 	def outputRowsFromFile(self):
-		yield from [self.buildRowTuple(row) for row in self.getRowData()]
+		for row in self.getRowData():
+			yield self.buildRowTuple(row)
 	
 	
 	def outputRowsFromShelf(self):
@@ -70,16 +76,18 @@ class Merge(Stream):
 					index = str(fields['Letter'])
 
 				if index in new_shelf:
-					print('index in new shelf')
+					#print('index in new shelf')
 					new_shelf[index] = self.resolve(new_shelf[index], fields)
 				else:
-					print('index not in new shelf')
+					#print('index not in new shelf')
 					new_shelf[index] = self.transform(fields)
 		
 		
 
 	def pageDuplicatesResolve(self, old, new):
-		print(old['Translation_Timestamp'], new['Translation_Timestamp'])
+
+		#print(old['Translation_Timestamp'], new['Translation_Timestamp'])
+
 		if old['Translation_Timestamp'] >= new['Translation_Timestamp']:
 			return old
 		elif new['Translation_Timestamp'] >= old['Translation_Timestamp']:
@@ -112,11 +120,14 @@ class Merge(Stream):
 
 
 if __name__ == "__main__":
-	merge = Merge('spreadsheets/1916letters_all_translations07072015.xlsx', 'remove_page_duplicates', 'output/datemerge.shelve')
-	
-	merge.merge()
 
+	startTime = datetime.now()
+	merge = Merge('spreadsheets/1916letters_all_translations07072015.xlsx', 'remove_page_duplicates', 'output/datemerge.shelve')
+	print(datetime.now() - startTime)
+	merge.merge()
+	print(datetime.now() - startTime)
 	merge = Merge('output/datemerge.shelve', 'merge_letter_pages', 'output/lettermerge.shelve')
 	merge.merge()
-	
+	print(datetime.now() - startTime)
+
 
