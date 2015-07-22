@@ -10,8 +10,9 @@ class Stream:
 			self.headers = self.getHeaders()
 			self.stream = self.outputRowsFromFile
 		elif f.endswith('shelve'):
-			self.shelf = shelve.open(f)
-			self.stream = outputRowsFromShelf
+			print('endswith shelve')
+			self.shelf_file = f
+			self.stream = self.outputRowsFromShelf
 		else:
 			raise ValueError("File must be an Excel spreadsheet or a Shelve file")
 
@@ -37,16 +38,18 @@ class Stream:
 	
 	
 	def outputRowsFromShelf(self):
-		yield from [(k,v) for item in self.shelf]
+		with shelve.open(self.shelf_file) as shelf:
+			yield from [item for item in shelf.items()]
 
 
 class Merge(Stream):
 	def __init__(self, f, merge_type, outputFilePath):
 		super().__init__(f)
+		self.merge_type = merge_type
 		if merge_type == 'remove_page_duplicates':
 			self.resolve = self.pageDuplicatesResolve
 			self.transform = self.pageDuplicatesTransform
-			self.id_column = 'ID'
+			self.id_column = 'Page'
 		elif merge_type == 'merge_letter_pages':
 			self.resolve = self.mergeLetterPagesResolve
 			self.transform = self.mergeLetterPagesTransform
@@ -55,15 +58,16 @@ class Merge(Stream):
 		if os.path.isfile(outputFilePath):
 			os.remove(outputFilePath)
 
-		self.shelf_file = outputFilePath
+		self.new_shelf_file = outputFilePath
 
 
 	def merge(self):
-		with shelve.open(self.shelf_file) as new_shelf:
+		with shelve.open(self.new_shelf_file) as new_shelf:
 			for index, fields in self.stream():
 
-				print(type(self.resolve))
-				# Set up a clash of ids...
+				# Set up ID clash
+				if self.merge_type == 'merge_letter_pages':
+					index = str(fields['Letter'])
 
 				if index in new_shelf:
 					print('index in new shelf')
@@ -72,28 +76,47 @@ class Merge(Stream):
 					print('index not in new shelf')
 					new_shelf[index] = self.transform(fields)
 		
-			for k, v in new_shelf.items():
-				print(k, v)
+		
 
 	def pageDuplicatesResolve(self, old, new):
-		if old['DT'] > new['DT']:
+		print(old['Translation_Timestamp'], new['Translation_Timestamp'])
+		if old['Translation_Timestamp'] >= new['Translation_Timestamp']:
 			return old
-		elif new['DT'] > old['DT']:
+		elif new['Translation_Timestamp'] >= old['Translation_Timestamp']:
 			return new
 
 	def pageDuplicatesTransform(self, field):
 		return field
 
 	def mergeLetterPagesResolve(self, old, new):
-		letter_key = a
+		print('merge resolve called')
+		letter = old
+		letter['Pages'][new['Page']] = self.mergeLetterBuildPageDict(new)
+		return letter
 
 	def mergeLetterPagesTransform(self, field):
-		return field
+		print('merge transform called')
+		letter = field
+		letter['Pages'] = {field['Page']: self.mergeLetterBuildPageDict(field)}
+		return self.mergeLetterDeleteFields(letter)
+
+	def mergeLetterBuildPageDict(self,field):
+		return {"Translation": field['Translation'], 
+				"Original_Filename": field['Original_Filename'], 
+				"Archive_Filename": field['Archive_Filename']}
+
+	def mergeLetterDeleteFields(self,letter):
+		for key in ["Translation", "Page", "Original_Filename", "Archive_Filename"]:
+			del letter[key]
+		return letter
+
 
 if __name__ == "__main__":
-	merge = Merge('spreadsheets/test_datetime.xlsx', 'remove_page_duplicates', 'output/datemerge.shelve')
+	merge = Merge('spreadsheets/1916letters_all_translations07072015.xlsx', 'remove_page_duplicates', 'output/datemerge.shelve')
 	
 	merge.merge()
 
+	merge = Merge('output/datemerge.shelve', 'merge_letter_pages', 'output/lettermerge.shelve')
+	merge.merge()
 	
 
