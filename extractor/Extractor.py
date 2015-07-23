@@ -97,13 +97,13 @@ class Merge(Stream):
 		return field
 
 	def mergeLetterPagesResolve(self, old, new):
-		print('merge resolve called')
+		#print('merge resolve called')
 		letter = old
 		letter['Pages'][new['Page']] = self.mergeLetterBuildPageDict(new)
 		return letter
 
 	def mergeLetterPagesTransform(self, field):
-		print('merge transform called')
+		#print('merge transform called')
 		letter = field
 		letter['Pages'] = {field['Page']: self.mergeLetterBuildPageDict(field)}
 		return self.mergeLetterDeleteFields(letter)
