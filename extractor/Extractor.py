@@ -30,9 +30,14 @@ class Merge(Stream):
 		with shelve.open(self.new_shelf_file) as new_shelf:
 			for index, fields in self.stream():
 
+				#Do I need to declare __which__ field it is that's going to clash... 
+				#Or should that be declared in the stream()?? 
+				# A. Need to grab as input to this class, pass to stream... else not going
+				# to get there any other way... methinks.	
 				# Set up ID clash
 				if self.merge_type == 'merge_letter_pages':
 					index = str(fields['Letter'])
+				#Anyway, extrapolate said line to the Stream. class which can take care of it.
 
 				if index in new_shelf:
 					#print('index in new shelf')
