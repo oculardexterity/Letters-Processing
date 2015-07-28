@@ -73,9 +73,11 @@ if __name__ == "__main__":
 	or previously-constructed .shelve file.
 
 	Your 'work' class should subclass or
-	initialise a new Stream instance.
+	initialise a new Stream instance. Stream.stream() 
+	is an iterable Generator object.
 
-	Stream.stream() is an iterable Generator object.
+	View --help for more info on running from
+	the command line.
 	"""
 
 
@@ -98,9 +100,9 @@ if __name__ == "__main__":
 		for i in s.stream():
 			print(i)
 	elif filepath or key:
-		print("You must specify both a file path and key ID to output directly")
+		sys.exit("You must specify both a file path and key ID to output directly")
 	else:
-		print(message)
+		sys.exit(message)
 		
 
 
