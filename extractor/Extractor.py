@@ -1,43 +1,22 @@
-import os
-import shelve
-from openpyxl import load_workbook
-
 from datetime import datetime
+import os
+from openpyxl import load_workbook
+import shelve
+from Stream import Stream
 
 
 
-
-class Merge(Stream):
-	def __init__(self, f, merge_type, outputFilePath):
-		super().__init__(f)
-		self.merge_type = merge_type
-		if merge_type == 'remove_page_duplicates':
-			self.resolve = self.pageDuplicatesResolve
-			self.transform = self.pageDuplicatesTransform
-			self.id_column = 'Page'
-		elif merge_type == 'merge_letter_pages':
-			self.resolve = self.mergeLetterPagesResolve
-			self.transform = self.mergeLetterPagesTransform
-			self.id_column = 'Letter'
-		
-		if os.path.isfile(outputFilePath):
-			os.remove(outputFilePath)
-
-		self.new_shelf_file = outputFilePath
+class Merge:
+	def __init__(self): # f, outputFilePath):
+		self.stream = Stream(self.inputFilePath, self.dict_key)
+		if os.path.isfile(self.outputFilePath):
+			os.remove(self.outputFilePath)
+		self.new_shelf_file = self.outputFilePath
 
 
-	def merge(self):
+	def process(self):
 		with shelve.open(self.new_shelf_file) as new_shelf:
-			for index, fields in self.stream():
-
-				#Do I need to declare __which__ field it is that's going to clash... 
-				#Or should that be declared in the stream()?? 
-				# A. Need to grab as input to this class, pass to stream... else not going
-				# to get there any other way... methinks.	
-				# Set up ID clash
-				if self.merge_type == 'merge_letter_pages':
-					index = str(fields['Letter'])
-				#Anyway, extrapolate said line to the Stream. class which can take care of it.
+			for index, fields in self.stream.stream():
 
 				if index in new_shelf:
 					#print('index in new shelf')
@@ -48,10 +27,18 @@ class Merge(Stream):
 		
 		
 
+	
+
+class RemovePageDuplicates(Merge):
+	def __init__(self, inputFilePath, outputFilePath):
+		self.resolve = self.pageDuplicatesResolve
+		self.transform = self.pageDuplicatesTransform
+		self.dict_key = 'Page'
+		self.inputFilePath = inputFilePath
+		self.outputFilePath = outputFilePath
+		super().__init__()
+
 	def pageDuplicatesResolve(self, old, new):
-
-		#print(old['Translation_Timestamp'], new['Translation_Timestamp'])
-
 		if old['Translation_Timestamp'] >= new['Translation_Timestamp']:
 			return old
 		elif new['Translation_Timestamp'] >= old['Translation_Timestamp']:
@@ -59,6 +46,19 @@ class Merge(Stream):
 
 	def pageDuplicatesTransform(self, field):
 		return field
+
+
+
+
+class MergeLetterPages(Merge):
+	def __init__(self, inputFilePath, outputFilePath):
+		self.resolve = self.mergeLetterPagesResolve
+		self.transform = self.mergeLetterPagesTransform
+		self.dict_key = 'Letter'
+		self.inputFilePath = inputFilePath
+		self.outputFilePath = outputFilePath
+		super().__init__()
+
 
 	def mergeLetterPagesResolve(self, old, new):
 		#print('merge resolve called')
@@ -83,15 +83,14 @@ class Merge(Stream):
 		return letter
 
 
+
+
+
+
+
 if __name__ == "__main__":
+	#r = RemovePageDuplicates('spreadsheets/1916letters_all_translations07072015.xlsx','output/testout.shelve')
+	#r.process()
 
-	startTime = datetime.now()
-	merge = Merge('spreadsheets/1916letters_all_translations07072015.xlsx', 'remove_page_duplicates', 'output/datemerge.shelve')
-	print(datetime.now() - startTime)
-	merge.merge()
-	print(datetime.now() - startTime)
-	merge = Merge('output/datemerge.shelve', 'merge_letter_pages', 'output/lettermerge.shelve')
-	merge.merge()
-	print(datetime.now() - startTime)
-
-
+	m = MergeLetterPages('output/testout.shelve', 'lettermerge.shelve')
+	m.process()

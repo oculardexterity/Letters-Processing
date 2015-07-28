@@ -52,7 +52,7 @@ class Stream:
 	def outputRowsFromShelf(self):
 		with shelve.open(self.shelf_file) as shelf:
 			for item in shelf.items():
-				yield item[1][self.dict_key], item[1]
+				yield str(item[1][self.dict_key]), item[1]
 
 
 
