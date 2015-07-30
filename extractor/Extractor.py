@@ -6,7 +6,7 @@ from Stream import Stream
 
 
 
-class Merge:
+class Processor:
 	def __init__(self): # f, outputFilePath):
 		self.stream = Stream(self.inputFilePath, self.dict_key)
 		if os.path.isfile(self.outputFilePath):
@@ -29,7 +29,7 @@ class Merge:
 
 	
 
-class RemovePageDuplicates(Merge):
+class RemovePageDuplicates(Processor):
 	def __init__(self, inputFilePath, outputFilePath):
 		self.resolve = self.pageDuplicatesResolve
 		self.transform = self.pageDuplicatesTransform
@@ -50,7 +50,7 @@ class RemovePageDuplicates(Merge):
 
 
 
-class MergeLetterPages(Merge):
+class MergeLetterPages(Processor):
 	def __init__(self, inputFilePath, outputFilePath):
 		self.resolve = self.mergeLetterPagesResolve
 		self.transform = self.mergeLetterPagesTransform

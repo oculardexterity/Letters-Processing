@@ -57,6 +57,8 @@ class Stream:
 
 
 
+	def __len__(self):
+		return sum(1 for item in self.stream())
 
 
 
