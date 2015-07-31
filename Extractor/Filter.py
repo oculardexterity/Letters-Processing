@@ -1,22 +1,31 @@
 from Extractor import Stream
 import os
+import shelve
 #from openpyxl import load_workbook
 import sys
 
 class Filter:
-	def __init__(self):
+	def __init__(self, inputFilePath, outputFilePath):
 		self.inclusionList = []
 		self.exclusionList = []
-		self.stream = Stream(inputFilePath, dictKey)
+		self.stream = Stream(inputFilePath, 'Letter')
+		self.new_shelve_file = outputFilePath
 
-	def inclusionListAdd(filterList):
-		self.inclusionList += filterList
+	def inclusionListAdd(self, filterList):
+		self.inclusionList += filterList()
 
-	def exclusionListAdd(filterList):
-		self.inclusionList += filterList
+	def exclusionListAdd(self, filterList):
+		self.inclusionList += filterList()
 
-	def process(self):
-		pass
+	def filter(self):
+		
+		with shelve.open(self.new_shelve_file) as new_shelf:
+			for index, fields in self.stream.stream():
+				#print(str(index))
+				if str(index)+'.0'  in self.inclusionList: #and index not in self.exclusionList:
+					print(index)
+					new_shelf[index] = fields
+		
 
 
 class FilterList:
@@ -56,4 +65,12 @@ class ListFromExcel(FilterList):
 
 if __name__ == "__main__":
 	l = ListFromExcel('spreadsheets/Completed Letters to be proofed.xlsx', 'ID#')
-	print(l())
+	#print(l())
+
+	
+	f = Filter('output/lettermerge.shelve', 'output/filtered.shelve')
+	f.inclusionListAdd(l)
+
+	#print(f.inclusionList)
+
+	f.filter()

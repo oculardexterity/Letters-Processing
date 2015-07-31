@@ -101,6 +101,7 @@ if __name__ == "__main__":
 		s = Stream(filepath, key, print_out=True)
 		for i in s.stream():
 			print(i)
+		print(len(s))
 	elif filepath or key:
 		sys.exit("You must specify both a file path and key ID to output directly")
 	else:
