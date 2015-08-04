@@ -1,8 +1,10 @@
+import argparse
 from datetime import datetime
 import os
 from openpyxl import load_workbook
 import shelve
 from Stream import Stream
+import sys
 
 
 
@@ -89,8 +91,43 @@ class MergeLetterPages(Processor):
 
 
 if __name__ == "__main__":
-	#r = RemovePageDuplicates('spreadsheets/1916letters_all_translations07072015.xlsx','output/testout.shelve')
-	#r.process()
 
-	m = MergeLetterPages('output/testout.shelve', 'lettermerge.shelve')
-	m.process()
+	message = """
+	This script has two functions:
+	RPD = Extracting Excel data to a Python object while removing page duplicates
+	MLP = Merging pages into a dict object beloning to a single Letter object
+
+	This script may be called directly with command-line arguments,
+	or instances of RemovePageDuplicates and MergeLetterPages may
+	be used in a script.
+
+	View --help for more info on running from
+	the command line.
+	"""
+
+	parser = argparse.ArgumentParser(description=message)
+	parser.add_argument('--inputFilePath', '-i', help="Specify the path of an input file.")
+	parser.add_argument('--outputFilePath', '-o', help="Specify the path to output file")
+	parser.add_argument('--process', '-p', help="Specify a process (RPD or MLP).")
+
+
+	inputFilePath = parser.parse_args().inputFilePath
+	outputFilePath = parser.parse_args().outputFilePath
+	process = parser.parse_args().process
+	
+	if not inputFilePath or not outputFilePath:
+		raise ValueError('An input file [-i] and output file path [-o] must be specified.')
+
+
+	if not process or (process != 'RPD' and process != 'MLP'):
+		raise ValueError('A process [-p] (either RPD or MLP) must be specified')
+
+	if process == 'RPD':
+		r = RemovePageDuplicates(inputFilePath, outputFilePath)
+		r.process()
+		print("Data has been extracted to the shelf file '%s'" % outputFilePath)
+	elif process == 'MLP':
+		m = MergeLetterPages(inputFilePath, outputFilePath)
+		m.process()
+		print("Data has been extracted to the shelf file '%s'" % outputFilePath)
+

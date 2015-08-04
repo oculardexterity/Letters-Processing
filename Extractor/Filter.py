@@ -15,14 +15,14 @@ class Filter:
 		self.inclusionList += filterList()
 
 	def exclusionListAdd(self, filterList):
-		self.inclusionList += filterList()
+		self.exclusionList += filterList()
 
 	def filter(self):
 		
 		with shelve.open(self.new_shelve_file) as new_shelf:
 			for index, fields in self.stream.stream():
 				#print(str(index))
-				if str(index)+'.0'  in self.inclusionList: #and index not in self.exclusionList:
+				if str(index)+'.0'  in self.inclusionList and str(index)+'.0' not in self.exclusionList:
 					print(index)
 					new_shelf[index] = fields
 		
@@ -40,6 +40,19 @@ class FilterList:
 
 	def __len__(self):
 		return len(self.values)
+
+
+class ListFromDirectory(FilterList):
+	def __init__(self,path):
+		if os.path.isdir(path):
+			self.path = path
+			self.values = self.getValuesFromDirFiles()
+			super().__init__()
+		else:
+			raise TypeError("'%s' is not a directory" % path)
+
+	def getValuesFromDirFiles(self):
+		return [str(f[:-4]) for f in os.listdir(self.path) if f.endswith('.xml')]
 
 
 class ListFromExcel(FilterList):
@@ -64,13 +77,16 @@ class ListFromExcel(FilterList):
  		"""
 
 if __name__ == "__main__":
-	l = ListFromExcel('spreadsheets/Completed Letters to be proofed.xlsx', 'ID#')
-	#print(l())
-
 	
-	f = Filter('output/lettermerge.shelve', 'output/filtered.shelve')
-	f.inclusionListAdd(l)
+	incList = ListFromExcel('spreadsheets/Completed Letters to be proofed.xlsx', 'ID#')
+	
 
-	#print(f.inclusionList)
+	exList = ListFromDirectory('xmlfiles')
+
+
+	f = Filter('output/lettermerge.shelve', 'output/filtered.shelve')
+	
+	f.inclusionListAdd(incList)
+	f.exclusionListAdd(exList)
 
 	f.filter()
