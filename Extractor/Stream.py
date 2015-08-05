@@ -47,15 +47,17 @@ class Stream:
 	def outputRowsFromFile(self):
 		for row in self.getRowData():
 			yield self.buildRowTuple(row)
+			#STREAM AS OBJECT???
 	
 	
 	def outputRowsFromShelf(self):
 		with shelve.open(self.shelf_file) as shelf:
 			for item in shelf.items():
 				yield str(item[1][self.dict_key]), item[1]
+				#STREAM AS OBJECT??
 
-
-
+	def list(self):
+		return list[self.stream()]
 
 	def __len__(self):
 		return sum(1 for item in self.stream())

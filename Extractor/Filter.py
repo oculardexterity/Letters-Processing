@@ -1,4 +1,4 @@
-from Extractor import Stream
+from Extractor import Stream # is this right? From Stream import Stream surely???
 import os
 import shelve
 #from openpyxl import load_workbook
@@ -27,7 +27,7 @@ class Filter:
 					new_shelf[index] = fields
 		
 
-
+# Extract these to different file and import...
 class FilterList:
 	def __init__(self):
 		pass
