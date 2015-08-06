@@ -41,7 +41,7 @@ class Stream:
 
 	def buildRowTuple(self, row):
 		idcol = self.headers.index(self.dict_key)
-		# Change this to return a dict
+		## Maybe have a NILL value or something??
 		return (str(row[idcol].value), {self.headers[i]: cell.value for i, cell in enumerate(row)})
 	
 	def outputRowsFromFile(self):
@@ -56,8 +56,8 @@ class Stream:
 				yield str(item[1][self.dict_key]), item[1]
 				#STREAM AS OBJECT??
 
-	def list(self):
-		return list[self.stream()]
+	def as_dict(self):
+		return {k: v for k, v in self.stream()}
 
 	def __len__(self):
 		return sum(1 for item in self.stream())

@@ -1,31 +1,9 @@
-from Extractor import Stream # is this right? From Stream import Stream surely???
 import os
 import shelve
-#from openpyxl import load_workbook
 import sys
 
-class Filter:
-	def __init__(self, inputFilePath, outputFilePath):
-		self.inclusionList = []
-		self.exclusionList = []
-		self.stream = Stream(inputFilePath, 'Letter')
-		self.new_shelve_file = outputFilePath
-
-	def inclusionListAdd(self, filterList):
-		self.inclusionList += filterList()
-
-	def exclusionListAdd(self, filterList):
-		self.exclusionList += filterList()
-
-	def filter(self):
-		
-		with shelve.open(self.new_shelve_file) as new_shelf:
-			for index, fields in self.stream.stream():
-				#print(str(index))
-				if str(index)+'.0'  in self.inclusionList and str(index)+'.0' not in self.exclusionList:
-					print(index)
-					new_shelf[index] = fields
-		
+from Processor import Filter
+from Stream import Stream		
 
 # Extract these to different file and import...
 class FilterList:
@@ -68,13 +46,8 @@ class ListFromExcel(FilterList):
 	def getValuesFromFile(self):
  		stream = Stream(self.filePath, self.column, sheet="ID NUMBERS")
  		return [k for k, v in stream.stream()]
- 		"""
- 		# Replaced with Stream() modules... haha!
- 		wb = load_workbook(filename=self.filePath, read_only=True)
- 		sheet = wb.active # Or some sheet title
- 		return [str(row[0].value) for row in sheet.iter_rows()][1:] #List index to ignore header row
- 		## Maybe change this to use Stream class -- which will allow selection by column???
- 		"""
+
+ 		
 
 if __name__ == "__main__":
 	
