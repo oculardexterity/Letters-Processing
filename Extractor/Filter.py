@@ -5,7 +5,7 @@ import sys
 from Processor import Filter
 from Stream import Stream		
 
-# Extract these to different file and import...
+### Filterlist should inherit from list type --- self=values...
 class FilterList:
 	def __init__(self):
 		pass
@@ -47,7 +47,7 @@ class ListFromExcel(FilterList):
  		stream = Stream(self.filePath, self.column, sheet="ID NUMBERS")
  		return [k for k, v in stream.stream()]
 
- 		
+
 
 if __name__ == "__main__":
 	

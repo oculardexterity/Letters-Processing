@@ -48,6 +48,7 @@ class EditLogger(MergeData):
 
 		## This should be passed in --- maybe as a DATA_TO_MERGE class, like the FilterList classes?
 		## Would only need half as many classes then!
+		## Why does the filter class need to be a class?
 	    self.data = Stream(self.editDetails['dataFile'], self.editDetails['matchColumn'],\
 											 sheet=self.editDetails['dataSheet']).as_dict()
 		self.dataField = "Edits"
@@ -61,22 +62,29 @@ class EditLogger(MergeData):
 
 
 
+class EditsDict(dict):
+	def __init__(self, values):
+		self = values
 
-
-
+class EditsFromExcelSpreadsheet(EditsDict):
+	def __init__(self):
+		#Get values, pass to Super()
 
 # No, edit logger being the thing that adjusts edit type... 
 # So actually a thing that writes fields into the Editing thing?
 
 # So the EditLogger should be a thing that operates on the letter[edits] thing and uses the 'merge' function as above?
 
+# THIs SORT of balls is way too many args!
 editDetails = {'dataFile': 'spreadsheets/Completed Letters to be proofed.xlsx', 
 			'dataSheet': 'DRI LETTERS', 'matchColumn': 'NUMBER', 'type': 'OmekaProof', 'editor': 'PROOFED BY'}
 
 editLogger = EditLogger('output/filtered.shelve', 'output/editInfoAdded.shelve', editDetails)
 editLogger.process()
 
+'''
 newEditDetails = {'dataFile': 'spreadsheets/Completed Letters to be proofed.xlsx', 
 			'dataSheet': 'OTHER', 'matchColumn': 'NUMBER', 'type': 'OmekaProof', 'editor': 'PROOFED BY'}
 newEditLogger = EditLogger('output/editInfoAdded.shelve', 'output/editInfoAdded2.shelve', newEditDetails)
 newEditLogger.process()
+'''
