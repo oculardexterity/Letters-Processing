@@ -1,5 +1,7 @@
 import os
 import shelve
+import sys
+
 from Stream import Stream
 
 
@@ -22,7 +24,7 @@ class Filter:
 			for index, fields in self.stream.stream():
 				#print(str(index))
 				if str(index)+'.0'  in self.inclusionList and str(index)+'.0' not in self.exclusionList:
-					print(index)
+				
 					new_shelf[index] = fields
 
 class Processor:
@@ -41,7 +43,8 @@ class Processor:
 				else:
 					#print('index not in new shelf')
 					new_shelf[index] = self.transform(fields)
-					print(index, new_shelf[index])
+					#print(index, new_shelf[index])
+		
 		
 class ShelveManager:
 	def __init__(self, shelfFile, auto=False):
