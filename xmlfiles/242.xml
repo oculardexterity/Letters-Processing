@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_242">
+ <fileDesc>
+            <titleStmt>
+                <title>Postcard from St John Ervine to Thomas Nally, 14 Jan. 1916</title>
+                
+                <author>St John Ervine</author>
+                
+                <editor></editor>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_242"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        <p>Postcard written on Abbey Theatre letterhead sent to Thomas Nally 1916 from St John Ervine</p>
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>National Library of Ireland</repository>
+                        
+                        <idno type="collection">Thomas Nally Papers, NLI Ms 36,213/4</idno><!-- NOT ALWAYS -->
+                    	
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc>
+                
+				<correspAction type="receiving">
+				
+            		<persName>Thomas Nally</persName>
+            	
+            	
+                    <placeName>Sandymount, Dublin</placeName>
+                
+                <!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+                </correspAction>
+                  
+				<correspAction type="sending">
+					 
+                    <persName>St John Ervine</persName>
+                    
+                     
+                    <placeName>Abbey Theatre, Dublin 1</placeName>
+                    
+                    
+                    <date when="1916-01-14">1916-01-14</date>
+                    
+            	</correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                        
+                        <item n="assigned_category">Art and literature</item>
+                    
+                    	
+                        	<item n="tag">Art and literature</item>
+                    	
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">English</language>
+            </langUsage>
+	 </profileDesc>
+    <encodingDesc>
+        <samplingDecl>
+            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.
+            </ab>
+        </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-11 14:33:08.352243" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:08.353019" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:47.959740" who="#PythonScript_mergeLetterPagesTransform">
+                New Letter created
+            </change>
+        
+            <change when="2015-08-11 14:33:48.228439" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 15:55:03.307148" who="#PythonScript">
+                Filtered from Completed List
+            </change>
+        
+    </revisionDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+           
+                <pb n="621" facs="0bdd55836613a43110ba660635380f85.jpg"/>
+                <date>14/1/16</date>
+<p>I've just heard from Yeats<lb/> 
+about your letter of the<lb/> 
+10<hi rend="superscript">th</hi> &amp; in view of what<lb/> 
+you say it won't be<lb/> 
+necessary to change the<lb/> 
+names of your characters.</p>
+St John <hi rend="underline">Ervine</hi>
+           
+                <pb n="622" facs="1acbeb6814b3b6362f83cc00f909b2a8.jpg"/>
+                <address>T.H. Nally.Esq.<lb/>
+Gilford Lodge<lb/>
+Gilford Rd<lb/>
+Sandy<hi rend="underline">mount</hi></address>
+
+<note>Roof. (Lyal's <unclear>play</unclear> in page 63)</note>
+           
+        </body>
+    </text>
+     
+
+</TEI>
+
+
+    

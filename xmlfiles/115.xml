@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_115">
+ <fileDesc>
+            <titleStmt>
+                <title>Letter from Reginald Brabazon (Earl of Meath) to Lord Clonbrock, 16 September 1916</title>
+                
+                <author>Reginal Brabazon (Earl of Meath)</author>
+                
+                <editor></editor>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_115"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        <p>The letter is from Reginald Brabazon, 12th Earl of Meath (1841-1929), to Luke Gerald Dillon, 4th Baron Clonbrock. Meath requests Clonbrock to form a committee representing &#39;loyal Ireland&#39; (those in Ireland loyal to the British Crown) to oversee the &#39;R.I.C. and Police Fund&#39; in Galway and to contribute personally to the fund an amount that would encourage others to do likewise.</p>
+                    
+                        <p>The Irish Police &amp; Constabulary Recognition Fund was founded by Meath to recognise the work of the police during the Easter Rising. It presented certificates, war bonds and awards to policemen who were in active service in the Royal Irish Constabulary or Dublin Metropolitan Police during the Rising and compensation to the widows and dependants of those killed or injured.</p>
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>National Library of Ireland</repository>
+                        
+                        <idno type="collection">Clonbrock Estate Papers, Collection List No 54; Ms. 35,766 (12)</idno><!-- NOT ALWAYS -->
+                    	
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc>
+                
+				<correspAction type="receiving">
+				
+            		<persName>Lord Clonbrock</persName>
+            	
+            	  
+				<correspAction type="sending">
+					 
+                    <persName>Reginal Brabazon (Earl of Meath)</persName>
+                    
+                    
+                    
+                    <date when="1916-09-16">1916-09-16</date>
+                    
+            	</correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item><!--put an IF -->
+                        
+                        <item n="assigned_category">Patronage</item>
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">English</language>
+            </langUsage>
+	 </profileDesc>
+    <encodingDesc>
+        <samplingDecl>
+            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.
+            </ab>
+        </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-11 14:33:07.010745" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:07.011918" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:48.108979" who="#PythonScript_mergeLetterPagesTransform">
+                New Letter created
+            </change>
+        
+            <change when="2015-08-11 14:33:48.345035" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 15:55:03.253685" who="#PythonScript">
+                Filtered from Completed List
+            </change>
+        
+    </revisionDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+           
+                <pb n="250" facs="705344bfe5edf8c73c3c719c22b2df41.jpg"/>
+                K<lb/>
+
+<p>As H. M. L. for the County of Galway, will you assist me<lb/>
+in this effort, by joining a small Committee representative of loyal Ireland<lb/>
+to collect and manage such a Fund? Will you raise subscriptions in your<lb/>
+County and will you kindly supplement this £100 by some substantial sum which<lb/>
+may persuade others to follow your example?  Lord Iveagh has been good enough<lb/>
+to send me a cheque for £100.</p>
+<salute>Yours sincerely</salute>
+Meath
+           
+                <pb n="251" facs="69ecd5923cf65f8fc37ee7fb85ed784c.jpg"/>
+                <date>Sep 16 1916</date>
+L: Meath<lb/>
+R I.C. &amp; Police<lb/>
+Fund
+           
+        </body>
+    </text>
+     
+
+</TEI>
+
+
+    

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_326">
+ <fileDesc>
+            <titleStmt>
+                <title>Letter from Marie Martin to her mother Mary Martin, 27 December 1915</title>
+                
+                <author>Marie Martin</author>
+                
+                <editor></editor>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_326"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        <p>Marie Martin writes in response to a telegram her mother sent her, on foot of her mother receiving a telegram from the War Office advising the family that Marie&#39;s brother, Charlie, was  wounded on a nearby front. </p>
+                    
+                        <p></p>
+                    
+                        <p>Marie immediately began to do what she could to discover any information about Charlie from her end, which she relates in detail to her mother. The news about Charlie sets of months of searching, by both Marie and her Mother, as to Charlie&#39;s whereabouts.  She closes by writing about spending Christmas in Malta.</p>
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Medical Missionaries of Mary</repository>
+                        
+                        <idno type="collection">Medical Missionaries of Mary, BF121</idno><!-- NOT ALWAYS -->
+                    	
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc>
+                
+				<correspAction type="receiving">
+				
+            		<persName>Mary Martin</persName>
+            	
+            	
+                    <placeName>Greenbank, Monkstown</placeName>
+                
+                <!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+                </correspAction>
+                  
+				<correspAction type="sending">
+					 
+                    <persName>Marie Martin</persName>
+                    
+                     
+                    <placeName>Malta</placeName>
+                    
+                    
+                    <date when="1915-12-27">1915-12-27</date>
+                    
+            	</correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Female</item><!--put an IF -->
+                        
+                        <item n="assigned_category">World War 1: 1914-1918</item>
+                    
+                    	
+                        	<item n="tag">World War 1: 1914-1918</item>
+                    	
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">English</language>
+            </langUsage>
+	 </profileDesc>
+    <encodingDesc>
+        <samplingDecl>
+            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.
+            </ab>
+        </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-11 14:33:09.100770" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:47.867562" who="#PythonScript_mergeLetterPagesTransform">
+                New Letter created
+            </change>
+        
+            <change when="2015-08-11 14:33:48.236171" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 14:33:48.381166" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 14:33:48.857481" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 15:55:03.423513" who="#PythonScript">
+                Filtered from Completed List
+            </change>
+        
+    </revisionDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+           
+                <pb n="1180" facs="638ca9a370ced9822f16e6c87d31c6e6.jpg"/>
+                who I heard was attached to the 6<hi rend="superscript">th</hi> D.F. &amp; was<lb/> invalided at the Blue Sister but unfortunately<lb/> he was out, so could get no news but one<lb/> of the sisters said she would telephone me i<lb/>f he had any news but I have been anxious-<lb/> ly awaiting but no news as yet. I know<lb/> what all of you must be going through &amp;<lb/>only wish I could be of some use, I shall<lb/> of course cable as soon as he arrives, it<lb/> would be bad luck if he never came here<lb/> &amp; I so near. Poor old Charlie he has had a<lb/> hard time but I was delighted to hear<lb/> that they have done so well.  I have one of<lb/> his men here who <sic>know</sic> him quite well &amp; <lb/> says he is the youngest Officer of <sic>there</sic> lot<lb/> &amp; that he is always smiling, so evidently <lb/> it runs in the family as I am <sic>alway</sic><lb/> told here that I am always smiling.<lb/>  Let me know as soon as you get news of him<lb/> again.  Did they say whether it was serious or<lb/> not?  I am thinking of cabling to a Canadian<lb/> sister who is at <sic>Solonica</sic> asking her to find <lb/>out if he is in Hospital there &amp; to try & get <lb/> him sent to Malta.</p>
+<p>Really these last few <sic>day</sic> I have had time<lb/> for nothing.  Xmas went off very well &amp; the<lb/> men were delighted with their day. <sic>certainly</sic> <lb/> the wards were beautifully decorated I have taken<pb/>
+           
+                <pb n="1181" facs="66eb4e7baf5261410b59d42e87aa76e1.jpg"/>
+                <note>B/F/1/21</note>
+<date>27<hi rend="underline"><hi rend="superscript">th</hi></hi> Dec: 1915</date>
+<salute>My very dearest Mother,</salute>
+<p>I cannot tell you how sorry I<lb/> was to get cable about Charlie &amp; am anxious- <lb/> ly awaiting more news.  I sincerely hope  it<lb/> is nothing serious.  The day I got your cable<lb/> I immediately rang up the <unclear>N.B.O.</unclear> to see if<lb/> by any chance he had arrived with the<lb/> last batch of men who all came from <lb/>Solonika but as I have all ready told you<lb/> he was all right when they left him but<lb/> that was two days before the retreat.  Another<lb/> Ship arrived on Saturday &amp; I have telephoned<lb/> each day to try&amp; get news but he has not<lb/> arrived on the Island yet, of course he may<lb/> turn up yet as all the men who arrived<lb/> about a week ago were 3 weeks at Solonika<lb/> <del>to</del> in Hospital before coming here. I do wish<lb/> he would come here &amp; there ought to be a very<lb/> good chance now as the Colonel says they<lb/> are not able to send any more wounded<lb/> or sick men to Egypt owing to the natives<lb/> who are giving a good deal of trouble, in fact<lb/> most of the Hospitals are being cleared &amp;<lb/> all women folk are <sic>been</sic> <sic>order</sic> away, things<lb/> do look black at present. The day I got<lb/> your cable I went to see a Lieut Grove White <pb/>
+           
+                <pb n="1182" facs="3bfe6e7e044a5b0342bf11bfa4c59703.jpg"/>
+                a photo of one which I shall send you if it<lb/> turns out well.</p>
+<p>Christmas Eve we were terrible busy getting <lb/>everything ready &amp; did not go off duty till 11 o'<unclear>ck</unclear><lb/> a great number went round carol<del>ing</del> singing<lb/> starting at 9 but we could not spare the<lb/> time I went to mid-night Mass at Sliema<!-- a town in Malta --><lb/> St.Patrick Church which was beautiful it was<lb/> simply a glorious night &amp; had to walk back a good<lb/> way home as we could not get a <unclear>Poriose</unclear><lb/> but eventually picked one up &amp; got home at<lb/> 2.30. Only for the money you all so kindly<lb/> sent out the Xmas would have been very<lb/> dull for the men but as well as what you<lb/> sent I was able to get £6&#x2014;0&#x2014;0 from another<lb/> Irish Girl who got money sent from home so<lb/> we were able to give them a very good<lb/> Tea. a packet of cigarettes &amp;<lb/>sweets in their stocking each. Coffee &amp; cakes for their 11 O'ck<lb/> feeds. &amp; in the evening we had a concert &amp;<lb/> dance in one of our wards so that they<lb/> really all enjoyed themselves immensely &amp; at<lb/> 7.30 a.m.  I sang in the concert for the <sic>Orderlys</sic><lb/> the Colonel & all officers being present &amp;at 8.15<lb/> we had our Xmas dinner of Turkey & Ham<lb/>, Plum Pudding &amp; Port wine &#x2014; we were all dead tired<lb/> &amp; just going off to bed when we got a<lb/> message to say that the Colonel was coming to see us<pb/>
+           
+                <pb n="1183" facs="fbee155e844d1553976ecfcecac3edb5.jpg"/>
+                so we all had coffee to&#x2014;gether & he kept us talking<lb/> till after 11 O'ck. I could not help all day long<lb/> thinking of you all especially poor Charlie &amp; <lb/>what a miserable Xmas it would be for you<lb/> all with the news of him being wounded, I am<lb/> only hoping it is not serious.</p>
+<p>To&#x2014;morrow I shall write you a real nice long<lb/> letter but have very little time to&#x2014;day &amp; also<lb/> feel rather anxious &#x2014; Did Tommy manage to<lb/> get up  I do hope he did, it will have <lb/>cheered you up a bit,  I did enjoy my<lb/> Xmas when I saw the great pleasure you<lb/> all at home with you kindness &amp; generosity<lb/> gave to the men, they were enchanted with<lb/> themselves. Yesterday I took ten out for a <lb/>drive, with some money U.Charlie sent me<lb/> &amp; it did me more good than anything else<lb/> I could have done with the money, <sic>immagine</sic><lb/> some of the men have been here for<lb/> over two months &amp; have not been out of <lb/>the Hospital till yesterday so you can imagine <lb/> their joy. Now I must close this as it<lb/> is time for duty, hoping you will have <lb/>had good news since.</p>
+<p>With very best love in great haste <del>t</del><lb/>
+Tell me how long this takes to reach you.<lb/>
+posted on Monday. <salute>With love.</salute></p>
+<hi rend="underline">Marie</hi>
+           
+        </body>
+    </text>
+     
+
+</TEI>
+
+
+    

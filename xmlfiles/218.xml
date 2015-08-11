@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_218">
+ <fileDesc>
+            <titleStmt>
+                <title>Copy of a letter from George Gavan Duffy to Michael F. Doyle, 7 August 1916</title>
+                
+                <author>George Gavan Duffy</author>
+                
+                <editor></editor>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_218"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        <p>Copy of a letter from George Gavan Duffy to Michael F. Doyle in which he states that Casement went to his death ‘fearlessly and proudly’ and that it seems ‘hardly conceivable that the immense efforts made by his friends here and elsewhere are in vain’. Thanks Doyle for his ‘splendid efforts’. Underneath, a copy of a letter from Gavan Duffy to Colonel Moore (27 July 1916), in which he states that in Ireland the slanders (about the diaries) are being treated with contempt. Also states that it would not be possible to take any step that would not involve a disagreeable newspaper controversy and would probably do more harm than good.</p>
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>University College Dublin Archives</repository>
+                        
+                        <idno type="collection">George Gavan Duffy Papers P152/13</idno><!-- NOT ALWAYS -->
+                    	
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc>
+                
+				<correspAction type="receiving">
+				
+            		<persName>Michael F. Doyle</persName>
+            	
+            	  
+				<correspAction type="sending">
+					 
+                    <persName>George Gavan Duffy</persName>
+                    
+                    
+                    
+                    <date when="1916-08-07">1916-08-07</date>
+                    
+            	</correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item><!--put an IF -->
+                        
+                        <item n="assigned_category">Easter Rising Ireland 1916</item>
+                    
+                    	
+                        	<item n="tag">Easter Rising Ireland 1916</item>
+                    	
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">English</language>
+            </langUsage>
+	 </profileDesc>
+    <encodingDesc>
+        <samplingDecl>
+            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.
+            </ab>
+        </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-11 14:33:08.054073" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:08.054895" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:48.462844" who="#PythonScript_mergeLetterPagesTransform">
+                New Letter created
+            </change>
+        
+            <change when="2015-08-11 15:55:03.282876" who="#PythonScript">
+                Filtered from Completed List
+            </change>
+        
+    </revisionDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+           
+                <pb n="541" facs="9749903fc471a14f58211bed8c303d55.jpg"/>
+                <date>7<hi rend="superscript">th</hi> August 1916</date>
+<address>Michael F. Doyle,</address>
+
+<salute>Dear M<hi rend="superscript">r</hi>. D.,</salute>
+
+<p>R. C. went to his death like the man he<lb/> was. He died quite fearlessly and proudly.</p> 
+<p>It seems hardly conceivable that the<lb/> immense efforts made by his friends here and<lb/> elsewhere cd be in vain, but there is a section<lb/> of politicians here who can learn nothing and<lb/> who will never learn anything. The Misses Ban<lb/> and all his friends are deeply grateful for<lb/> splendid efforts you made on his behalf<lb/> which we can never forget.</p>
+. . . .
+<salute>Yrs very sincerely,</salute>
+G. G. D.
+
+<address>Colonel Moore.</address>
+<date>27 July 1916</date>
+<p>We over here are treating the slanders<lb/> with contempt. If I could only ascertain<lb/> which Govt Dept. is responsible for<lb/> propagation of story I cd. take<lb/> effective measures but I <del>have</del> <add>so far it has not</add> <lb/><del>not got</del> <address>been possible to get</address> the necessary evidence<lb/> for it is not possible to take any step that would<lb/> not involve a very disagreeable newspaper controversy<lb/> and wd. probably do more harm than good</p>
+           
+        </body>
+    </text>
+     
+
+</TEI>
+
+
+    

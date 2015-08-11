@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_482">
+ <fileDesc>
+            <titleStmt>
+                <title>Letter from George Bernard Shaw to Gertrude Bannister, 12 July 1916</title>
+                
+                <author>George Bernard Shaw</author>
+                
+                <editor></editor>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_482"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        <p>The letter is from playwright George Bernard Shaw (1856-1950) to Gertrude Parry (née Bannister). Bannister was a cousin of Sir Roger Casement (1864-1916). The letter was written while Casement was imprisoned after he had been arrested while landing on the coast of Kerry in a submarine on the eve of the Easter Rising. Bannister and Shaw were heavily involved in raising public support for Casement during his trial for treason. The letter refers to an enclosure that has not survived and a letter by Shaw that was refused for publication in the Times and Daily News newspapers.</p>
+                    
+                        <p>Casement was hanged in London in August 1916.</p>
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>National Library of Ireland</repository>
+                        
+                        <idno type="collection">Roger Casement Papers, Collection List A15; Ms. 10,075/1</idno><!-- NOT ALWAYS -->
+                    	
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc>
+                
+				<correspAction type="receiving">
+				
+            		<persName>Gertrude Bannister</persName>
+            	
+            	
+                    <placeName>45 Connaught Street, Dublin</placeName>
+                
+                <!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+                </correspAction>
+                  
+				<correspAction type="sending">
+					 
+                    <persName>George Bernard Shaw</persName>
+                    
+                     
+                    <placeName>Ayot St Lawrence, Hertfordshire, England</placeName>
+                    
+                    
+                    <date when="1916-07-12">1916-07-12</date>
+                    
+            	</correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item><!--put an IF -->
+                        
+                        <item n="assigned_category">Easter Rising Ireland 1916</item>
+                    
+                    	
+                        	<item n="tag">Easter Rising Ireland 1916</item>
+                    	
+                        	<item n="tag">politics</item>
+                    	
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">English</language>
+            </langUsage>
+	 </profileDesc>
+    <encodingDesc>
+        <samplingDecl>
+            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.
+            </ab>
+        </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-11 14:33:10.305982" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:47.983210" who="#PythonScript_mergeLetterPagesTransform">
+                New Letter created
+            </change>
+        
+            <change when="2015-08-11 14:33:48.380438" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 15:55:03.256770" who="#PythonScript">
+                Filtered from Completed List
+            </change>
+        
+    </revisionDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+           
+                <pb n="1342" facs="9b96ca2df4aa981b37e59c0067b7dc86.jpg"/>
+                <p>Ayot St. Lawrence, Welwyn, Herts.<lb/>
+Station : Wheathampstead, G.N.R. 21/4 miles.<lb/>
+Telegrams : Bernard Shaw, Codicote.</p>
+<address>10 Adelphi Terrace W.C.</address>
+<date>12<hi rend="superscript">th</hi> July 1916.</date>
+
+<salute>Dear Miss Bannister</salute>
+<p>Read the enclosed, which you need not return. Shorter is married<lb/> to Dora Sigerson : hence his sympathy. I have told him that you have<lb/> copies of three other petitions. Please send him copies of them : he might<lb/> get signatures.</p>
+
+<p>Both the Times & the Daily News refuse my letter : the D.N.<lb/> because it wishes to prevent the sentence being carried out and the T. probably<lb/> for the opposite reason.</p>
+
+<salute>Yours sincerely</salute>
+G. Bernard Shaw.
+           
+                <pb n="1343" facs="a8ab894caadef63c655ce17f66c1b082.jpg"/>
+                <address>Miss Gertrude Bannister,<lb/> 45 Connaught St <lb/>W.</address>
+<note>Bernard Shaw</note>
+           
+        </body>
+    </text>
+     
+
+</TEI>
+
+
+    

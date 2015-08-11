@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1617">
+ <fileDesc>
+            <titleStmt>
+                <title>Letter from Samuel Alex Wray to the Henry Arthur Wynne, 19 May 1916</title>
+                
+                <author>Samuel Alex Wray</author>
+                
+                <editor></editor>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_1617"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        <p>This is a letter from Samuel Alex Wray (b.1875), a solicitor, to Henry Arthur Wynne (1867-1945), the chief crown solicitor for Ireland. In the letter, Wray states he is the solicitor for Professor Valentine Steinberger (b.1853), a German professor in University College Galway who was arrested in Galway following the Easter Rising and deported to Wandsworth prison, and his wife Elizabeth Steinberger (b. 1858). Wray states that he wishes to consult Steinberger regarding his half of the rent payment, also requesting to be informed of Steinberger&#39;s whereabouts.</p>
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>National Archives of Ireland</repository>
+                        
+                        <idno type="collection">Cheif Secretary&#39;s Office Registered Papers; CSO RP/1916/5611/8624/1</idno><!-- NOT ALWAYS -->
+                    	
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc>
+                
+				<correspAction type="receiving">
+				
+            		<persName>Henry Arthur Wynne</persName>
+            	
+            	
+                    <placeName>Dublin Castle, Dublin, Ireland</placeName>
+                
+                <!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+                </correspAction>
+                  
+				<correspAction type="sending">
+					 
+                    <persName>Samuel Alex Wray</persName>
+                    
+                     
+                    <placeName>Coleraine, Derry, Ireland</placeName>
+                    
+                    
+                    <date when="1916-05-19">1916-05-19</date>
+                    
+            	</correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item><!--put an IF -->
+                        
+                        <item n="assigned_category">Easter Rising Ireland 1916</item>
+                    
+                    	
+                        	<item n="tag">Easter Rising Ireland 1916</item>
+                    	
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">English</language>
+            </langUsage>
+	 </profileDesc>
+    <encodingDesc>
+        <samplingDecl>
+            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.
+            </ab>
+        </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-11 14:33:16.027981" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:48.269715" who="#PythonScript_mergeLetterPagesTransform">
+                New Letter created
+            </change>
+        
+            <change when="2015-08-11 15:55:03.372024" who="#PythonScript">
+                Filtered from Completed List
+            </change>
+        
+    </revisionDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+           
+                <pb n="4092" facs="fec8f073de61312e7c6d6cf83face4be.jpg"/>
+                SAMUEL A. WRAY,<lb/>
+S<hi rend="underline">OLICITO</hi>R.<lb/>
+COMMISS<hi rend="underline">IONER FO</hi>R OATHS<lb/>
+TELEPHONE N<hi rend="superscript">O</hi> 28<lb/>
+
+
+<note>Attorney General<lb/>
+For your directions<lb/>
+<unclear></unclear><lb/>
+<date>20.V.16</date></note>
+
+<address>COLERAINE.</address>
+
+<date>19th May 1916.</date>
+
+<salute>Dear Sir,</salute>
+<p>I act as solicitor and agent for Professor Steinberger of<lb/>
+Belmore Galway and his wife who are joint owners of some house<lb/>
+property in this town. My custom after completion of my collection<lb/>
+of the May and November rents has been to send a statement, and a<lb/>
+cheque for one half of amount payable, to each. Following upon the<lb/>
+Sinn Fein rebellion the Professor has been arrested and I would<lb/>
+be glad to hear from you if there would be any objection on the part<lb/>
+of the Crown to my remitting to him his half of the rents or taking <lb/>
+his instructions as to the disposal thereof and, if there is no such<lb/>
+objection, I would feel obliged if you would tell me where he is now<lb/>
+to be found.</p>
+<salute>Yours faithfully,</salute>
+Samuel A. Wray<lb/>
+The Chief Crown Solicitor,<lb/>
+Dublin Castle,<lb/>
+Dublin.<lb/>
+
+<note>Inform Mr Way that Professor<lb/>
+Steinberger is in the custody of <lb/>
+the military authorities &amp; that he<lb/>
+should apply to them<lb/>
+<unclear>MN</unclear><date>22.5.10</date></note>
+           
+        </body>
+    </text>
+     
+
+</TEI>
+
+
+    

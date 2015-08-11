@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1738">
+ <fileDesc>
+            <titleStmt>
+                <title>Letter from John Waters to John Francis Hogan, 2 July 1916</title>
+                
+                <author>John Waters</author>
+                
+                <editor></editor>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_1738"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        <p>This letter was addressed to John Francis Hogan (1858–1918). Hogan was a priest, author, and president of St Patrick&#39;s College, Maynooth. </p>
+                    
+                        <p></p>
+                    
+                        <p>During the Easter Rising a group of Volunteers from the town of Maynooth entered the college to seek a blessing before setting off for Dublin. Hogan reputedly refused to give his blessing to their ‘foolish and most ill-advised expedition’ and urged them to return home. They in turn refused; responding to their spiritual needs, he blessed them, while remaining totally opposed to their activities. He subsequently addressed the students on the need to show proper respect for authority.</p>
+                    
+                        <p></p>
+                    
+                        <p>In this letter Rev Waters (b. 1871)  is asking Hogan for information about the programme of examination for a bachelor of arts degree in Theology at Maynooth so his students can prepare themselves properly.</p>
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>St Patrick&#39;s College, Maynooth</repository>
+                        
+                        <idno type="collection">John F. Hogan Papers, 21/12/35</idno><!-- NOT ALWAYS -->
+                    	
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc>
+                
+				<correspAction type="receiving">
+				
+            		<persName>John Francis Hogan</persName>
+            	
+            	  
+				<correspAction type="sending">
+					 
+                    <persName>John Waters</persName>
+                    
+                     
+                    <placeName>Holy Cross College, Clonliffe, Dublin, Ireland</placeName>
+                    
+                    
+                    <date when="1916-07-02">1916-07-02</date>
+                    
+            	</correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item><!--put an IF -->
+                        
+                        <item n="assigned_category">Faith</item>
+                    
+                    	
+                        	<item n="tag">faith</item>
+                    	
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">English</language>
+            </langUsage>
+	 </profileDesc>
+    <encodingDesc>
+        <samplingDecl>
+            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.
+            </ab>
+        </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-11 14:33:16.544662" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:48.456881" who="#PythonScript_mergeLetterPagesTransform">
+                New Letter created
+            </change>
+        
+            <change when="2015-08-11 14:33:48.895075" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 15:55:03.423281" who="#PythonScript">
+                Filtered from Completed List
+            </change>
+        
+    </revisionDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+           
+                <pb n="4332" facs="a60aeecb74ce993ace9096ae445b8179.jpg"/>
+                <note>12/35</note>
+<address>Holy Cross College, <lb/>Clonliffe, <lb/>Dublin</address>
+July <hi rend="underline">2<hi rend="superscript">nd</hi> 16</hi>
+<salute>My Dear Monsignor Hogan,</salute>
+<p>Some of our students <lb/>who are going down to Maynooth <lb/>next year would naturally join <lb/>your <hi rend="underline">Ba class 2</hi>nd year, as <lb/>they have already done the Ba <lb/>course 1st year (corresponding to the <lb/>old 2<hi rend="superscript">nd</hi> Arts) at University College./p>
+<p>There is no programme publish-<lb/>ed of Subjects for Examination <lb/>for <lb/>this class in Maynooth &#x2014; as far as</p>
+<pb/>
+           
+                <pb n="4333" facs="07f44d1db5f348c8c1f832cc05763cdc.jpg"/>
+                <p>I know. In the '<foreign>Ordo</foreign>,' there is the <lb/>programme of Examination for <lb/>admission into Ba degree class <lb/><hi rend="underline">First</hi> year, and into <hi rend="underline">First years <lb/>Theology</hi>, but none for admission <lb/>into the class between these two, i.e., <lb/>into <hi rend="underline">Ba degree class second year.</hi> <lb/>There is no <unclear>bad</unclear> to candidates <lb/>coming to Maynooth for this class.</p> 
+<p>I should feel very grateful if you <lb/>would send me information about <lb/>the programme, as our students <lb/>would like to prepare themselves <lb/>for the Examination. If you kindly send <lb/>me the details I will communicate <lb/>these to students.</p>
+<salute>Kindest Regards<lb/>
+Yours Sincerely</salute>
+<hi rend="underline">John Waters</hi>
+           
+        </body>
+    </text>
+     
+
+</TEI>
+
+
+    

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_450">
+ <fileDesc>
+            <titleStmt>
+                <title>Letter from Peter McBrien to Geraldine Plunkett Dillon, 15 October 1916</title>
+                
+                <author>Peter McBrien</author>
+                
+                <editor></editor>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_450"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        <p>The letter is from Peter McBrien to Geraldine Plunkett Dillon (1891-1986). Geraldine was a sister of Joseph Mary Plunkett, one of the signatories of the proclamation of the Irish republic who was executed for his part in the Easter Rising. The letter refers to a collection of Joseph&#39;s poetry which was posthumously published under the title &#39;The poems of Joseph Mary Plunkett&#39; and edited by Geraldine, who also provided a preface. McBrien praises both the preface and the book.</p>
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Military Archives of Ireland</repository>
+                        
+                        <idno type="collection">Bureau of Military History Contemporary Documents, Geraldine Plunkett Dillon Collection; BMH CD/5/8/19</idno><!-- NOT ALWAYS -->
+                    	
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc>
+                
+				<correspAction type="receiving">
+				
+            		<persName>Geraldine Plunkett Dillon</persName>
+            	
+            	  
+				<correspAction type="sending">
+					 
+                    <persName>Peter McBrien</persName>
+                    
+                     
+                    <placeName>56 Fitzroy Avenue, Dublin</placeName>
+                    
+                    
+                    <date when="1916-10-15">1916-10-15</date>
+                    
+            	</correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item><!--put an IF -->
+                        
+                        <item n="assigned_category">Art and literature</item>
+                    
+                    	
+                        	<item n="tag">Easter Rising Ireland 1916</item>
+                    	
+                        	<item n="tag">Art and literature</item>
+                    	
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">English</language>
+            </langUsage>
+	 </profileDesc>
+    <encodingDesc>
+        <samplingDecl>
+            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.
+            </ab>
+        </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-11 14:33:09.955729" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:09.957270" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:48.739031" who="#PythonScript_mergeLetterPagesTransform">
+                New Letter created
+            </change>
+        
+            <change when="2015-08-11 15:55:03.344172" who="#PythonScript">
+                Filtered from Completed List
+            </change>
+        
+    </revisionDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+           
+                <pb n="1239" facs="60aae83a9d2586e91d955ef3de059f2d.jpg"/>
+                <address>56 Fitzroy Av.,<lb/>
+Dublin</address>
+<date>15th. Oct., 1916</date>
+<salute>Dear Mrs. Dillon,</salute>
+<p>I am sorry to be adding to your work and worry at<lb/> such a time as this. Your preface I liked very much; what struck me<lb/> most about it was its homeliness, sincerity, and its sense of the difficulty of reach&#x2014;<lb/>ing to the mastery of his instrument your brother showed. On the<lb/> whole I agree with your criticism of his work, too. The whole<lb/> book is very fine and will live.</p>
+<salute>I am, dear Mrs. Dillon,<lb/>
+Very gratefully yours,</salute>
+Peter McBrien
+<p>P.S. : I shall be at Larkfield about 8.15, p.m., next Tuesday, 17<hi rend="superscript">th</hi>. : your sister<lb/> must be blessing me. <hi rend="underline">PMcB.</hi></p>
+           
+        </body>
+    </text>
+     
+
+</TEI>
+
+
+    

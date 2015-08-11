@@ -4,6 +4,8 @@ from Stream import Stream
 
 '''
 Am I really going to rewrite all of this in Decorator fashion??
+
+YES THIS IS SHITTTTTT!!!!!!!!
 '''
 
 
@@ -28,9 +30,10 @@ class MergeData(Processor):
 
 	def merge(self, row):
 		# self.writeGenericToAll allows some generic thing to be written to all rows
-		if str(row[self.dict_key]) + '.0' in self.data or self.writeGenericToAll:
+		if str(row[self.dict_key]) + '.0' in self.data:
 			if self.dataField in row:
-				if type(self.dataField) is list:
+				if type(row[self.dataField]) is list:
+
 					row[self.dataField].append(self.get_merge_data(row, self.row_match_field))
 					return row
 				else:
@@ -62,29 +65,30 @@ class EditLogger(MergeData):
     
     #Implement choice here... match from dict... or Generic option??
 	def merge_data(self, row, match_field):
-		identifier = str(row[match_field]) + '.0'
-		return [{"EditType": self.editsDict.editType, 
-					"Editor": self.editsDict.values[identifier][self.editsDict.editorColumn]}]
+		identifier = str(row[match_field])
+		return [ {"EditType": self.editsDict.editType, 
+				  "Editor": self.editsDict.values[identifier][self.editsDict.editorColumn], 
+				  "datetime": self.editsDict.values[identifier][self.editsDict.editorColumn] } ]
+
 
 
 	def generic_data(self, row, match_field):
-		return ["Edit type": self.editsDict.editType]
-		### CHECK THIS WORKS!!!
+		return [{ "Edit type": self.editsDict.editType }]
 
 
 class EditsDict:
-	def __init__(self, editType, editorColumn, values):
+	def __init__(self, editType, editorColumn, dateColumn, values):
 		self.editType = editType
 		self.values = values
 		self.editorColumn = editorColumn
-
+		self.dateColumn = dateColumn
 
 
 class EditsFromExcelSpreadsheet(EditsDict):
-	def __init__(self, dataFile, dataSheet, matchColumn, editorColumn, editType):
+	def __init__(self, dataFile, dataSheet, matchColumn, editorColumn, dateColumn, editType):
 		# Gets data
 		data = Stream(dataFile, matchColumn, sheet=dataSheet).as_dict()
-		super().__init__(editType, editorColumn, data)
+		super().__init__(editType, editorColumn, dateColumn, data)
 
 
 
@@ -95,7 +99,7 @@ class EditsFromExcelSpreadsheet(EditsDict):
 
 # THIs SORT of balls is way too many args!
 editDetails = EditsFromExcelSpreadsheet('spreadsheets/Completed Letters to be proofed.xlsx', 
-			'DRI LETTERS', 'NUMBER', 'PROOFED BY', 'OmekaProof')
+			'ID NUMBERS', 'ID', 'PROOFED BY', 'DATE', 'OmekaProof')
 #print(editDetails.values)
 
 editLogger = EditLogger('output/filtered.shelve', 'output/editInfoAdded.shelve', editDetails)

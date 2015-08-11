@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_906">
+ <fileDesc>
+            <titleStmt>
+                <title>Letter from Eoin MacNeill to Éamon de Valera, 23 April 1916</title>
+                
+                <author>Eoin MacNeill</author>
+                
+                <editor></editor>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_906"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        <p>This letter is from Eoin MacNeill (1867-1945), to Éamon deValera (1882-1975). MacNeill was a founder of the Irish Volunteers in 1913 and, despite holding the post of chief-of-staff at the outbreak of the Easter Rising, he took no part in its planning. MacNeill was against a rising without a firm chance of success or without British provocation and once he learned of the plans for the Rising tried to prevent it.</p>
+                    
+                        <p></p>
+                    
+                        <p>De Valera (1882-1975) had joined the Irish Volunteers in 1913 and was adjutant to Thomas MacDonagh (1878-1916), Dublin Brigade commandant. He went on to command forces at Bolands Mill during the Rising and was the most senior participant to escape execution.</p>
+                    
+                        <p></p>
+                    
+                        <p>In this letter, sent on Easter Sunday on MacNeill&#39;s home, he issues a direct order to de Valera that no movement of Irish Volunteers is to take place that day. He also commands that the order be made known to other officers. The order was issued to de Valera as MacDonagh was &#39;not accessible&#39;.</p>
+                    
+                        <p></p>
+                    
+                        <p>MacNeill had put a notice in that day&#39;s &#39;Sunday Independent&#39; to the same effect and he includes a note with this letter confirming the authenticity of the notice.</p>
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>University College Dublin Archives</repository>
+                        
+                        <idno type="collection">De Valera Papers, P150/426/1</idno><!-- NOT ALWAYS -->
+                    	
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc>
+                
+				<correspAction type="receiving">
+				
+            		<persName>Éamon de Valera</persName>
+            	
+            	
+                    <placeName>Dublin, Ireland</placeName>
+                
+                <!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+                </correspAction>
+                  
+				<correspAction type="sending">
+					 
+                    <persName>Eoin MacNeill</persName>
+                    
+                     
+                    <placeName>Woodtown Park, Rathfarnham, Dublin, Ireland</placeName>
+                    
+                    
+                    <date when="1916-04-23">1916-04-23</date>
+                    
+            	</correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item><!--put an IF -->
+                        
+                        <item n="assigned_category">Easter Rising Ireland 1916</item>
+                    
+                    	
+                        	<item n="tag">Easter Rising Ireland 1916</item>
+                    	
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">English</language>
+            </langUsage>
+	 </profileDesc>
+    <encodingDesc>
+        <samplingDecl>
+            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.
+            </ab>
+        </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-11 14:33:12.159838" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:48.145415" who="#PythonScript_mergeLetterPagesTransform">
+                New Letter created
+            </change>
+        
+            <change when="2015-08-11 14:33:48.559159" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 15:55:03.467853" who="#PythonScript">
+                Filtered from Completed List
+            </change>
+        
+    </revisionDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+           
+                <pb n="2322" facs="811b078439d27fb10543cc2a4f1d893d.jpg"/>
+                <address>Woodtown Park,<lb/> Rathfarnham,<lb/> Co. Dublin.</address>
+<date>Easter Sunday<lb/>
+1.20 p.m.</date>
+<salute>Commt
+<lb/>Eamon de Bhailéara</salute>
+<p>As Commt MacDonagh is not<lb/> accessible, I have to give you this<lb/> order direct.  Commt MacDonagh<lb/> left me last night with the understanding<lb/> that he would return or send me a message.<lb/>  He has done neither.</p>
+<p>As Chief of Staff, I have ordered<lb/>and hereby order that no movement<lb/> whatsoever of Irish Volunteers is to<lb/> be made today.  You will carry out<lb/> this order in your own command and<lb/> make it known to other commands.</p>
+<salute>Eóin MacNéill</salute><pb/>
+           
+                <pb n="2323" facs="3be1e10d0b7e865150860827a12b72b4.jpg"/>
+                <date>Easter Sunday</date>
+<address>Woodtown Park,<lb/>
+<lb/> Rathfarnham,<lb/>
+<lb/> Co Dublin.</address>
+
+<p>The order to Irish Volunteers printed<lb/> over my name in todays Sunday<lb/> Independent is hereby authenticated.<lb/>  Every influence should be used<lb/> immediately and throughout the day<lb/> to secure faithful execution of this<lb/> order as any failure to obey it may<lb/> result in a very grave catastrophe.</p>
+<salute>Eóin MacNéill</salute>
+           
+        </body>
+    </text>
+     
+
+</TEI>
+
+
+    

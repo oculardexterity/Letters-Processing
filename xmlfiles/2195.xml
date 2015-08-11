@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2195">
+ <fileDesc>
+            <titleStmt>
+                <title>Letter from Denis Hurley to his brother John Hurley, 17 March 1916</title>
+                
+                <author>Denis Hurley</author>
+                
+                <editor></editor>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_2195"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        <p>This letter was written by Denis Hurley (1849 - 1926). Denis was from a farming family in Tawnies, near Clonakilty, County Cork. After emigrating to Carson City, Nevada in the United States in 1873 Denis went on to become one of Carson City&#39;s most prominent citizens. </p>
+                    
+                        <p></p>
+                    
+                        <p>In this letter, Denis writes to his brother, John (b. 1844) who is at home in Cork. He thanks him for the bunch of shamrock and mentions that John&#39;s letter had the honour of &#34;being opened by the censor&#34;. He mentions his hopes that the war will be over soon and refers to some trouble beginning with Mexico.  Additionally, Denis is curious whether any Clonakilty men have destinguished themselves in the war.</p>
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cork City and County Archives</repository>
+                        
+                        <idno type="collection">Hurley Papers U170/71</idno><!-- NOT ALWAYS -->
+                    	
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc>
+                
+				<correspAction type="receiving">
+				
+            		<persName>John Hurley</persName>
+            	
+            	
+                    <placeName>Tawnies, Clonakilty, County Cork, Ireland</placeName>
+                
+                <!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+                </correspAction>
+                  
+				<correspAction type="sending">
+					 
+                    <persName>Denis Hurley</persName>
+                    
+                     
+                    <placeName>Carson City, Nevada, United States</placeName>
+                    
+                    
+                    <date when="1916-03-17">1916-03-17</date>
+                    
+            	</correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item><!--put an IF -->
+                        
+                        <item n="assigned_category">Family life</item>
+                    
+                    	
+                        	<item n="tag">Family life</item>
+                    	
+                        	<item n="tag">World War 1: 1914-1918</item>
+                    	
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">English</language>
+            </langUsage>
+	 </profileDesc>
+    <encodingDesc>
+        <samplingDecl>
+            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.
+            </ab>
+        </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-11 14:33:18.961136" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:47.906702" who="#PythonScript_mergeLetterPagesTransform">
+                New Letter created
+            </change>
+        
+            <change when="2015-08-11 14:33:48.228198" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 14:33:48.918786" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 15:55:03.438846" who="#PythonScript">
+                Filtered from Completed List
+            </change>
+        
+    </revisionDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+           
+                <pb n="5709" facs="9dca402c2569a46615b2727c84bfec6f.jpg"/>
+                <address>Carson city,</address> <date>March 17 &#x2014;16</date>
+
+Mr. John Hurley
+<address>Tannies</address>
+
+<p><salute>Dear John &#x2014;</salute>Your welcome<lb/> letter received on the 10<hi rend="superscript">th</hi> inst<lb/>.  Thanks for the bunch of shamrocks.<lb/> I am sorry that you suffered<lb/> the loss of your horse, but there<lb/> are losses of one kind or another<lb/> as we go through life.</p>
+
+<p>My health is pretty good, thank <lb/>God.  Michael I have not from<lb/> in a couple of months.  I was<lb/> with him for a couple of weeks<lb/> last October.</p>
+
+<p>Your letter was honored by be <lb/>ing opened by the censor. I hope<lb/> this awful war will come to an <lb/>early close.  It looks like some<lb/> trouble with Mexico just now<pb/>
+           
+                <pb n="5710" facs="70200bd63651b0459319e4edf92536d3.jpg"/>
+                We are having delightful weather<lb/> here now &#x2014; the month of January<lb/> was very severe.  Has any Clona<lb/>kilty man distinguished himself<lb/> in this war.</p>
+
+I hope you are all well.<lb/>
+
+<salute>I remain your Brother<lb/>
+Denis</salute>
+           
+                <pb n="5711" facs="4fe4b6a5fab2c913960d5f199e40d28d.jpg"/>
+                Mr. John Hurley<lb/>
+<address>Tannies, Clonakilty<lb/>,
+Co Cork<lb/>
+Ireland</address>
+           
+        </body>
+    </text>
+     
+
+</TEI>
+
+
+    

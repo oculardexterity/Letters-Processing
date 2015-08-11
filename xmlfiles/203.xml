@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_203">
+ <fileDesc>
+            <titleStmt>
+                <title>Letter from Patrick Langford Beazley to Piaras Béaslaí , 27 January 1916</title>
+                
+                <author>Patrick Langford Beazley</author>
+                
+                <editor></editor>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_203"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        <p>Letter from  Piaras&#39;s father on the increased employment opportunities for women. He states that they are getting a good wage but not as high as the men they have replaced.</p>
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>National Library of Ireland</repository>
+                        
+                        <idno type="collection">MS 33,972 / 11</idno><!-- NOT ALWAYS -->
+                    	
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc>
+                
+				<correspAction type="receiving">
+				
+            		<persName>Piaras Béaslaí</persName>
+            	
+            	  
+				<correspAction type="sending">
+					 
+                    <persName>Patrick Langford Beazley</persName>
+                    
+                     
+                    <placeName>Cheshire, England</placeName>
+                    
+                    
+                    <date when="1916-01-27">1916-01-27</date>
+                    
+            	</correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item><!--put an IF -->
+                        
+                        <item n="assigned_category">City and town life</item>
+                    
+                    	
+                        	<item n="tag">City and town life</item>
+                    	
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">English</language>
+            </langUsage>
+	 </profileDesc>
+    <encodingDesc>
+        <samplingDecl>
+            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.
+            </ab>
+        </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-11 14:33:07.774601" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:07.776514" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:47.778761" who="#PythonScript_mergeLetterPagesTransform">
+                New Letter created
+            </change>
+        
+            <change when="2015-08-11 14:33:48.845577" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 15:55:03.423856" who="#PythonScript">
+                Filtered from Completed List
+            </change>
+        
+    </revisionDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+           
+                <pb n="486" facs="a78cd7184f26cada9aa9d8d1df52130a.jpg"/>
+                <address>Glengariff,<lb/>
+Rudgrave Square,<lb/>
+Egremont,<lb/>
+Cheshire,</address>
+<date>27<hi rend="superscript"><hi rend="underline">th</hi></hi> Jan., 1916.</date>
+
+<salute>My dearest Pierce,</salute>
+<p>I hope you got through<lb/> your journey to Dublin <lb/> <sic>allright</sic>.  We were hoping <lb/> to have a line from you; <lb/> I have no doubt it will<lb/> come in a day or so.  The<lb/> weather was, I think, pleas&#x2014;<lb/>ant for travelling, and I <lb/>dare say the sea was fairly<lb/> calm.  If you had gone <lb/> the previous day you would <lb/> have found it pretty rough, if <lb/>one may judge from the con&#x2014;<pb/>
+           
+                <pb n="487" facs="a5735d1ea76635fbab877c9c43404716.jpg"/>
+                dition of the <unclear>waves</unclear>. We are <lb/> both well, thank God, but have<lb/> no news.  There can be no <lb/> doubt that the women here<lb/> are taking advantage of the<lb/> chances offered them.  They are <lb/> crowding into all the out&#x2014;<lb/>door employments in which <lb/> their services are demanded and <lb/> in a great many of the offi&#x2014;<lb/>ces they are performing the <lb/> work of clerks and book&#x2014;<lb/>keepers.  They are getting very <lb/>good wages, but not such high <lb/>pay as the men whom they re&#x2014;<lb/>place got.  It is probable there <lb/> will be ructions on the subject <lb/> after the war. </p>  
+<p>Take good care of your health <lb/> and write.</p>
+<salute>With fondest love from mother and myself,<lb/>
+Ever affectionately</salute> Father.
+           
+        </body>
+    </text>
+     
+
+</TEI>
+
+
+    

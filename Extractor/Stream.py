@@ -88,7 +88,8 @@ if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description=message)
 	parser.add_argument('--filepath', '-f', help="Specify a file to stream.")
 	parser.add_argument('--key', '-k', help="Specify a column to use as dict key.")
-	
+	parser.add_argument('--sheet', '-s', help="Specify a sheet if using an Excel document.")
+
 	try:
 		filepath = parser.parse_args().filepath
 	except AttributeError:
@@ -98,9 +99,14 @@ if __name__ == "__main__":
 	except AttributeError:
 		key = False
 
+	try:
+		sheet = parser.parse_args().sheet
+	except AttributeError:
+		sheet = 'Translations'
+
 
 	if filepath and key:
-		s = Stream(filepath, key, print_out=True)
+		s = Stream(filepath, key, print_out=True, sheet=sheet)
 		for i in s.stream():
 			print(i)
 		print(len(s))

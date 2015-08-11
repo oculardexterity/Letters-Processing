@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1182">
+ <fileDesc>
+            <titleStmt>
+                <title>Letter from Andrew Phillip Magill to Francis E. Meehan, 4 April 1916.</title>
+                
+                <author>Andrew Phillip Magill</author>
+                
+                <editor></editor>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_1182"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        <p>This letter is Andrew Phillip Magill (1871-1941), private secretary to the chief secretary of Ireland (Augustine Birrell in 1916) responding to the M.P. of North Leitrim Francis E. Meehan (d. 1946). The letter informs Meehan that he had received Meehan&#39;s previous letter suggesting Mr Thomas W. Delany for the position of Chief Crown Solicitor which had been vacated on the death of Sir Malachy J. Kelly.</p>
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>National Archives of Ireland</repository>
+                        
+                        <idno type="collection">Chief Secretary&#39;s Office Registered Papers; CSO RP/1916/6258/4</idno><!-- NOT ALWAYS -->
+                    	
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc>
+                
+				<correspAction type="receiving">
+				
+            		<persName>Francis Edward Meehan</persName>
+            	
+            	
+                    <placeName>Manorhamilton, Leitrim, Ireland</placeName>
+                
+                <!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+                </correspAction>
+                  
+				<correspAction type="sending">
+					 
+                    <persName>Andrew Phillip Magill</persName>
+                    
+                     
+                    <placeName>Dublin, Ireland</placeName>
+                    
+                    
+                    <date when="1916-04-04">1916-04-04</date>
+                    
+            	</correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item><!--put an IF -->
+                        
+                        <item n="assigned_category">Official documents</item>
+                    
+                    	
+                        	<item n="tag">politics</item>
+                    	
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">English</language>
+            </langUsage>
+	 </profileDesc>
+    <encodingDesc>
+        <samplingDecl>
+            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.
+            </ab>
+        </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-11 14:33:13.943840" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:48.540857" who="#PythonScript_mergeLetterPagesTransform">
+                New Letter created
+            </change>
+        
+            <change when="2015-08-11 15:55:03.278436" who="#PythonScript">
+                Filtered from Completed List
+            </change>
+        
+    </revisionDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+           
+                <pb n="3118" facs="8d9bbe1b5f6e8973766e80558ade1b2a.jpg"/>
+                <add><hi rend="underline">Copy</hi></add>
+<add>409</add>
+<salute>Dear Mr. Meehan, </salute>
+<p>I am desired by Mr. Birrell to acknowledge the <lb/>
+receipt of your letter of the 3rd instant recommending <lb/>
+Mr. Delany for appointment as Chief Crown Solicitor for <lb/>
+Ireland, and to say that Mr. Birrell has taken a note <lb/>
+of your recommendation of Mr. Delany.</p>
+<salute>Yours faithfully,</salute>
+(Sd.) A.P.M<lb/>
+Under Secretary<lb/>
+A.P.M<lb/>
+<date>4/4/16</date>
+
+<note>Despd 4/4</note>
+<note>Put with the papers<lb/>
+<gap/>
+5/4</note>
+<address>F.E. Meehan, Esq., M.P.,<lb/>
+Manorhamilton,<lb/>
+Co. Leitrim.</address>
+           
+        </body>
+    </text>
+     
+
+</TEI>
+
+
+    

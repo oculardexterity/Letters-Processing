@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_448">
+ <fileDesc>
+            <titleStmt>
+                <title>Letter from George Noble Plunkett to Geraldine Plunkett Dillon, 13 May 1916</title>
+                
+                <author>George Noble Plunkett</author>
+                
+                <editor></editor>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_448"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        <p>The letter is from Count George Noble Plunkett (1851-1948) to his daughter Geraldine (b. 1891). Count Plunkett has a nationalist and a papal count. He had been sworn in to the IRB by his son, Joseph Mary Plunkett (1887-1916), before the Rising and arrested afterwards. Joseph was a signatory of the proclamation of the Irish republic and was executed for his part in the Rising. Count Plunkett was elected as an MP in 1918 and was a member of the first Dáil. The letter is from Richmond Barracks where he was being held. He requests food, makes reference to a visit by Geraldine that &#39;lifted his heart&#39; and the &#39;joy&#39; of being clean. He also asks that she communicates with her mother, who had also been arrested.</p>
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Military Archives of Ireland</repository>
+                        
+                        <idno type="collection">Bureau of Military History Contemporary Documents, Geraldine Plunkett Dillon Collection; BMH CD/5/8/6</idno><!-- NOT ALWAYS -->
+                    	
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc>
+                
+				<correspAction type="receiving">
+				
+            		<persName>Geraldine Plunkett Dillon</persName>
+            	
+            	
+                    <placeName>13 Belgrave Road, Rathfarnham, Dublin</placeName>
+                
+                <!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+                </correspAction>
+                  
+				<correspAction type="sending">
+					 
+                    <persName>George Noble Plunkett</persName>
+                    
+                     
+                    <placeName>Block F, Richmond Barracks, Dublin</placeName>
+                    
+                    
+                    <date when="1916-03-13">1916-03-13</date>
+                    
+            	</correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item><!--put an IF -->
+                        
+                        <item n="assigned_category">Easter Rising Ireland 1916</item>
+                    
+                    	
+                        	<item n="tag">Easter Rising Ireland 1916</item>
+                    	
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">English</language>
+            </langUsage>
+	 </profileDesc>
+    <encodingDesc>
+        <samplingDecl>
+            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.
+            </ab>
+        </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-11 14:33:09.917427" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:09.920256" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:48.352249" who="#PythonScript_mergeLetterPagesTransform">
+                New Letter created
+            </change>
+        
+            <change when="2015-08-11 14:33:48.818927" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 15:55:03.376685" who="#PythonScript">
+                Filtered from Completed List
+            </change>
+        
+    </revisionDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+           
+                <pb n="1235" facs="f5bc52931a8f4f68c70454cdb3dd86e5.jpg"/>
+                <address>Richmond Barracks<lb/>
+Top Guard Room, Block F</address>
+<date>Saturday, 13<hi rend="superscript"><hi rend="underline">th</hi></hi> May 1916</date>
+
+<salute>My dear Gerry</salute>
+<p>Some sandwiches,<lb/> and apples or oranges would be<lb/> a Godsend to me. Also <add>a small tumbler little mirror,</add> some matches, <add>&amp;<lb/> stamps.</add></p>
+<p>God bless you all. You lifted up<lb/> my heart today.</p>
+<salute>With all my love to all, <lb/>
+Your loving,</salute> 
+Father.
+<p>O the luxury of feeling clean!<lb/> (In body as well as spirit.)</p>
+<p>Perhaps you could now communicate<lb/> with Mammy, even if you could<lb/> not see her yet.</p>
+<p>I gave the name of Mr. Mathews<lb/> (of Denning's) as my solicitor today.</p>
+           
+                <pb n="1236" facs="46199cd8dd501fa80d704c629ca8bff0.jpg"/>
+                <address>Mrs. Geraldine Dillon <lb/>
+13 Belgrave Road<lb/>
+Rathmines<lb/>
+Co. Dublin</address>
+
+<note>C.R.G. Heath<lb/> 2/6 SF</note>
+           
+        </body>
+    </text>
+     
+
+</TEI>
+
+
+    

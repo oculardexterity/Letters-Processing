@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1148">
+ <fileDesc>
+            <titleStmt>
+                <title>Letter from Patrick Alphonsus Carroll to Army Veterinary Service, 29 December 1915</title>
+                
+                <author>Patrick Alphonsus Carroll t</author>
+                
+                <editor></editor>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_1148"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        <p>Letter with an application from Patrick Alphonsus Carroll to Army Veterinary Corps.</p>
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Pat Carroll, Private Collection</repository>
+                        
+                        <idno type="collection">Carroll_Pat</idno><!-- NOT ALWAYS -->
+                    	
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc>
+                
+				<correspAction type="receiving">
+				
+            		<persName>Army Veterinary Service</persName>
+            	
+            	
+                    <placeName>London</placeName>
+                
+                <!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+                </correspAction>
+                  
+				<correspAction type="sending">
+					 
+                    <persName>Patrick Alphonsus Carroll t</persName>
+                    
+                     
+                    <placeName>Reddy&#39;s Hotel, Carlow, Co.Carlow, Ireland</placeName>
+                    
+                    
+                    <date when="1915-12-29">1915-12-29</date>
+                    
+            	</correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item><!--put an IF -->
+                        
+                        <item n="assigned_category">World War 1: 1914-1918</item>
+                    
+                    	
+                        	<item n="tag">World War 1: 1914-1918</item>
+                    	
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">English</language>
+            </langUsage>
+	 </profileDesc>
+    <encodingDesc>
+        <samplingDecl>
+            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.
+            </ab>
+        </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-11 14:33:13.730561" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:13.731727" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:48.517267" who="#PythonScript_mergeLetterPagesTransform">
+                New Letter created
+            </change>
+        
+            <change when="2015-08-11 15:55:03.299903" who="#PythonScript">
+                Filtered from Completed List
+            </change>
+        
+    </revisionDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+           
+                <pb n="3041" facs="634f6b4c20ada217ed4cf20499204a21.jpg"/>
+                A. CARROLL M.R.C.V.S.<lb/>
+VETERINARY SURGEON<lb/>
+<address>Reddy's Hotel<lb/>
+Carlow</address>
+<date>Dec <hi rend="underline">29<hi rend="superscript">th</hi> 1915</hi></date>
+<salute>Sir,</salute> 
+<p>I beg to apply for a<lb/>
+Commission in the Army<lb/>
+Veterinary Corps. Circumstances<lb/>
+prevented me from applying<lb/>Earlier.</p>
+<salute>Yours respectfully,</salute>
+P.A.Carroll <unclear>a.n.c.es</unclear><lb/>
+<address>Director General<lb/>
+Army Veterinary Service,<lb/>
+16 Victoria Street,<lb/>
+London, SW</address>
+           
+        </body>
+    </text>
+     
+
+</TEI>
+
+
+    

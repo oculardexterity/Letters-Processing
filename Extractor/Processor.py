@@ -3,7 +3,9 @@ import shelve
 import sys
 
 from Stream import Stream
+from decTest import EditLogger
 
+editLogger = EditLogger()
 
 class Filter:
 	def __init__(self, inputFilePath, outputFilePath):
@@ -18,14 +20,18 @@ class Filter:
 	def exclusionListAdd(self, filterList):
 		self.exclusionList += filterList()
 
+
 	def filter(self):
-		
 		with ShelveManager(self.new_shelve_file) as new_shelf:
 			for index, fields in self.stream.stream():
 				#print(str(index))
 				if str(index)+'.0'  in self.inclusionList and str(index)+'.0' not in self.exclusionList:
 				
-					new_shelf[index] = fields
+					new_shelf[index] = self._get_fields(fields)
+
+	@editLogger('Filtered from Completed List', 'PythonScript')
+	def _get_fields(self, fields):
+		return fields
 
 class Processor:
 	def __init__(self): # f, outputFilePath):
@@ -39,6 +45,8 @@ class Processor:
 
 				if index in new_shelf:
 					#print('index in new shelf')
+					### Some sort of check whether self.resolve.. returns anything, otherwise don't set the index?
+
 					new_shelf[index] = self.resolve(new_shelf[index], fields)
 				else:
 					#print('index not in new shelf')

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_219">
+ <fileDesc>
+            <titleStmt>
+                <title>Letter from John Quinn to George Gavan Duffy, 9 September 1916</title>
+                
+                <author>John Quinn</author>
+                
+                <editor></editor>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_219"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        <p>This is a copy of a letter from American lawyer John Quinn (1870-1924) to George Gavan Duffy (1882-1951), politician and judge. Quinn was a successful lawyer and friend and patron of many of the leading Irish literary and political figures of the twentieth century. Gavan Duffy had represented Sir Roger Casement (1964-1916) in his trial for treason after he was arrested on the eve of the Easter Rising.</p>
+                    
+                        <p>The letter concerns an article published by Quinn in the &#39;New York Times&#39; on 9 September 1916, a month after Casement&#39;s execution. He informs Duffy that he dictated notes about Casement which were published by the New York Times a few weeks previously and tates that he spoke frankly but would like Gavan Duffy to confirm his statement about Germany. He also notes that ‘the English have been circulating reports on Casement’s degeneracy and admits that he was shown what ‘purported to be photographic copies of his diary and the handwriting looked like his. Declares that ‘it was a dirty piece of business to circulate such reports, that even if the statements were true his private life had nothing to do with his public acts’.</p>
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>University College Dublin Archives</repository>
+                        
+                        <idno type="collection">George Gavan Duffy Papers P152/14</idno><!-- NOT ALWAYS -->
+                    	
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc>
+                
+				<correspAction type="receiving">
+				
+            		<persName>George Gavan Duffy</persName>
+            	
+            	  
+				<correspAction type="sending">
+					 
+                    <persName>John Quinn</persName>
+                    
+                    
+                    
+                    <date when="1916-09-09">1916-09-09</date>
+                    
+            	</correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                        
+                        <item n="assigned_category">Easter Rising Ireland 1916</item>
+                    
+                    	
+                        	<item n="tag">Easter Rising Ireland 1916</item>
+                    	
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">English</language>
+            </langUsage>
+	 </profileDesc>
+    <encodingDesc>
+        <samplingDecl>
+            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.
+            </ab>
+        </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-11 14:33:08.068958" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:47.754596" who="#PythonScript_mergeLetterPagesTransform">
+                New Letter created
+            </change>
+        
+            <change when="2015-08-11 14:33:48.751259" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 15:55:03.326852" who="#PythonScript">
+                Filtered from Completed List
+            </change>
+        
+    </revisionDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+           
+                <pb n="542" facs="afac6b6c06cb5f71797ef36e6c441b06.jpg"/>
+                <date>September 9, 1916</date>
+<address>G. Gavan Duffy, Esq.,<lb/>
+4 Raymond Buildings, <lb/>
+Gray's Inn,<lb/>
+London. W.C.</address> 
+
+<salute>Dear Mr Duffy:</salute>
+<p>I have just returned from Washington and find your<lb/> letter of August 3rd received at my office on August 28th. </p>
+<p>I I am very sorry that my cable arrived too late. I<lb/> dictated some notes about Casement and they were published in<lb/> the New York Times of a few Sundays ago. I sent you a copy two<lb/> or three weeks ago. I hope you will receive it. I shall be glad<lb/> if will you will let me know what you think of it. I spoke frankly.<lb/> If you can give me a word of confirmation regarding the statements<lb/> in the last paragraph against Germany, I should much value it<lb/> and would promise not to quote you directly, but I should like<lb/> to be fortified by a statement from you in that respect. Kuno<lb/> Meyer has threatened to "show me up" and prove the falsity of<lb/> that statement, which I made on the very best direct evidence.</p>
+<p>Shane Leslie told me of your courageous act in defending<lb/> Casement. You did a fine courageous thing. It was an act that<lb/> I would expect of a man of your name and blood. </p>
+<p>The English have been circulating reports on Casement's<lb/> degeneracy. They came to me from all quarters. I was finally<lb/> shown what was purported to be photographic copies of his diary<lb/> and the handwriting looked like his. But I wrote to the<lb/> Ambassador and to the Naval Attachee stating that I thought<lb/> it was a dirty piece of business to circulate such reports, that<lb/> even if the statements were true his private life had nothing<lb/> to do with his public acts, and that if this stuff or semi&#x2014;official<lb/> Scotland Yard business were continued , I would open up again,<lb/> would re&#x2014;tell the whole story of the Piggott forgeries, would<lb/> point out the fact that they had this diary for months, that if<lb/> they had used it when he was in Germany it would have prevented<lb/> his return to Ireland, and would have made him literally a man<pb/>
+           
+                <pb n="543" facs="dcd943ff41b57ffa5ae24313a621f985.jpg"/>
+                without a country, but  that they held it until they had him<lb/> within their power, until he could not fight back or take any<lb/> action or vindicate his name, and that I would let the American<lb/> people judge as to its genuineness and authenticity and as<lb/> to the baseness of the motives of those who were circulating it.<lb/> A few days went by and the Naval Attachee told me that he had<lb/> received a peremptory cable from Gray under no circumstances to<lb/> show the diary. I think that my word of warning worked.</p>
+<salute>Sincerely yours,</salute>
+           
+        </body>
+    </text>
+     
+
+</TEI>
+
+
+    

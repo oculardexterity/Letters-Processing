@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_252">
+ <fileDesc>
+            <titleStmt>
+                <title>A Letter from Alice Katherine Wynne to Veronica Wynne, 8 Dec 1916</title>
+                
+                <author>Alice Katherine Wynne</author>
+                
+                <editor></editor>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_252"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        <p>A letter from Alice Katherine Wynne to her daughter Veronica Wynne about recuperating from illness, visiting family and offering to lend her money if she needs it</p>
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Trinity College Dublin</repository>
+                        
+                        <idno type="collection">TCD MS 10247/1/569</idno><!-- NOT ALWAYS -->
+                    	
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc>
+                
+				<correspAction type="receiving">
+				
+            		<persName>Veronica Wynne</persName>
+            	
+            	  
+				<correspAction type="sending">
+					 
+                    <persName>Alice Katherine Wynne</persName>
+                    
+                     
+                    <placeName>Dublin, Ireland</placeName>
+                    
+                    
+                    <date when="1916-12-08">1916-12-08</date>
+                    
+            	</correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Female</item><!--put an IF -->
+                        
+                        <item n="assigned_category">Children</item>
+                    
+                    	
+                        	<item n="tag">Family life</item>
+                    	
+                        	<item n="tag">Children</item>
+                    	
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">English</language>
+            </langUsage>
+	 </profileDesc>
+    <encodingDesc>
+        <samplingDecl>
+            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.
+            </ab>
+        </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-11 14:33:08.523387" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:48.025759" who="#PythonScript_mergeLetterPagesTransform">
+                New Letter created
+            </change>
+        
+            <change when="2015-08-11 14:33:48.351166" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 14:33:48.619914" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 15:55:03.416437" who="#PythonScript">
+                Filtered from Completed List
+            </change>
+        
+    </revisionDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+           
+                <pb n="647" facs="c842038925151959c9e143cbcd474245.jpg"/>
+                we shal<lb/>l please god<lb/> very soon be together<lb/> for a bit  <unclear>ever</unclear><lb/> darling child.<lb/><salute><unclear>=love</unclear> Mother</salute> <hi rend="underline">Alice  K Wynne</hi>
+<!-- Above section is the end of letter written sideways on the top of the first page -->
+
+<address>50 Weymouth St.</address>
+<date>Dec. 8th</date> 
+<salute>My dearest Veronica</salute>
+<p>I must begin a<lb/> letter to you tonight<lb/> to finish tomorrow.<lb/>  It was very nice to<lb/> get you last long let<lb/>ter yesterday.  I am<lb/> so glad  that you had<lb/> the week end at <unclear>Burn<lb/>aby</unclear> Lodge. &#x2014; I am<lb/> getting on very well<lb/> now able to walk<lb/> about the room &amp;<pb/>
+           
+                <pb n="648" facs="9f9bbcbe022b57acc4d1e90caaa0eeab.jpg"/>
+                and have been out twice<lb/> in a Bath&#x2014;chair. Je&#x2014;<lb/> <unclear>tue</unclear> &amp; <unclear>Eyrn</unclear> were at<lb/> St Leonard's today<lb/> and have taken rooms<lb/> there.  We hope to go<lb/> on Tues &amp; after a week<lb/> there to go on to<lb/> <unclear>Groney</unclear> where it will<lb/> be very very joyful<lb/> to be together again.<lb/>  I am sure you are<lb/> very busy with the<lb/> Exams.  I do hope<pb/> that you will come<lb/> out well I wonder<lb/> when the results will<lb/> be known. I <unclear>think</unclear><lb/> you all seem to be<lb/> a very rowdy set!<lb/> in residence.  Is there<lb/> any talk of dancing<pb/> lessons later on?<lb/> Do not forget about<lb/> Xmas presents &amp; if you<lb/> go shopping the sooner<lb/> the better, shops get<lb/> so crowded.  There is<lb/> a wonderful 1<hi rend="superscript">d</hi> bazaar<pb/>
+           
+                <pb n="649" facs="c925c74cde025c9c972d10cf2b24306a.jpg"/>
+                near Pims on the op&#x2014;<lb/>posite side of the street<lb/> &amp; higher up if you<lb/> want any 1<hi rend="superscript">d</hi> togs.<lb/>  If you want money<lb/> let me know.  I<lb/> have a lot of time<lb/> for reading here &amp;<lb/> get through a great<lb/> many books &amp; more.<lb/>  I will end for tonight<lb/> &amp; finish later.&#x2014;</p>
+<unclear>Second</unclear>. I am sorry to hear<lb/> that that "arrangement" has<lb/> not come right but I think<lb/> it may, perhaps next time<lb/> &amp; in any case I hope now that<pb/>
+           
+        </body>
+    </text>
+     
+
+</TEI>
+
+
+    

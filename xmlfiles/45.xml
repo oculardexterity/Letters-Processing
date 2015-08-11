@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_45">
+ <fileDesc>
+            <titleStmt>
+                <title>Letter from Robert Edward Dillon to his mother Augusta Dillon (Lady Clonbrock), 17 July 1916</title>
+                
+                <author>Robert Edward Dillon</author>
+                
+                <editor></editor>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_45"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        <p>Letter sent by Robert Edward Dillon to his mother, Augusta Caroline Dillon (Lady Clonbrock) to congratulate her on her Golden Wedding, dated 17 July 1916.</p>
+                    
+                        <p></p>
+                    
+                        <p>Augusta Caroline Dillon (née Crofton) was the wife of Luke Gerald Dillon (1834 - 1917), the 4th Baron of Clonbrock, Co. Galway and the daughter of Lord Crofton of Mote Park (Edward Henry Churchill Crofton, 3rd Baron), Co. Roscommon. Augusta was a skilled photographer and was responsible for creating much of the collection of 3,000 negatives and prints, now held by the National Photographic Archive of Ireland, which illustrates many aspects of life on the estate over a period of seventy years. She was also very active in promoting home industries at Clonbrock and in organizing voluntary work on behalf of local men serving with the British Army during the First World War, for which she was awarded an OBE in 1920. </p>
+                    
+                        <p></p>
+                    
+                        <p>Robert Edward Dillon was the only son of Luke and Caroline Dillon and succeded his father as the 5th Baron of Clonbrock in 1917. Already in poor health, the 5th Baron, inherited a much reduced estate and died unmarried in</p>
+                    
+                        <p>1926 when the title became extinct. Clonbrock House continued to be occupied by the 5th Baron’s unmarried sister, the Hon. Ethel Dillon, until the 1960s when the property passed to the 5th Baron’s grand-nephew, Sir Luke Dillon Mahon, who sold the remainder of the estate in 1976. </p>
+                    
+                        <p></p>
+                    
+                        <p>The Dillon family of Clonbrock was descended from Sir Henry de Leon, an Anglo-Norman nobleman who arrived in Ireland with the Earl of Moreton (later King John of England) in 1185. As a reward for helping Prince John to establish his Lordship of Ireland, de Leon was granted a large tract of land on the Westmeath frontier with Connacht on which he built a castle at Drumrany. This family was among the first of the Anglo-Norman settlers in this part of Ireland and later spread into adjoining counties.</p>
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>National Library of Ireland</repository>
+                        
+                        <idno type="collection">NLI, Collection List 54, MS 35795-7-1</idno><!-- NOT ALWAYS -->
+                    	
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc>
+                
+				<correspAction type="receiving">
+				
+            		<persName>Lady Clonbrock</persName>
+            	
+            	  
+				<correspAction type="sending">
+					 
+                    <persName>Robert Edward Dillon</persName>
+                    
+                    
+                    
+                    <date when="1916-07-17">1916-07-17</date>
+                    
+            	</correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item><!--put an IF -->
+                        
+                        <item n="assigned_category">Family life</item>
+                    
+                    	
+                        	<item n="tag">Family life</item>
+                    	
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">English</language>
+            </langUsage>
+	 </profileDesc>
+    <encodingDesc>
+        <samplingDecl>
+            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.
+            </ab>
+        </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-11 14:33:06.615306" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:06.616081" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:47.749998" who="#PythonScript_mergeLetterPagesTransform">
+                New Letter created
+            </change>
+        
+            <change when="2015-08-11 15:55:03.420350" who="#PythonScript">
+                Filtered from Completed List
+            </change>
+        
+    </revisionDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+           
+                <pb n="68" facs="93079275df514320ab6c46e368866366.jpg"/>
+                <address>Country Club<lb/>
+Galway</address>
+<date>July 17<hi rend="superscript">th</hi> 1916</date>
+<salute>My dear Mama</salute>
+<p>Just a line to <lb/>congratulate you on your <lb/> 
+golden wedding &#x2014; no time <lb/>
+for more &amp; catch the post<lb/> 
+as I put off decision about <lb/>
+starting till so late &#x2014; I enclose <lb/> 
+some lines I wrote wh I <lb/> 
+think express my thoughts better <lb/> 
+than I can in a letter</p>
+<salute>With much love &amp; much <unclear>respect</unclear><lb/>
+Your</salute> <hi rend="underline">R. E. Dillon</hi> 
+ <gap/> my slightly better &#x2014;
+           
+        </body>
+    </text>
+     
+
+</TEI>
+
+
+    

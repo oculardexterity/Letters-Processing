@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_213">
+ <fileDesc>
+            <titleStmt>
+                <title>Letter from Patrick Langford Beazley to Piaras Béaslaí to Piaras on submitting an article on the Irish Language, 17 February 1916</title>
+                
+                <author>Patrick Langford Beazley</author>
+                
+                <editor></editor>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_213"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        <p>Piaras&#39;s father discusses Piaras submitting an article under a pseudonym on the Irish language for the St. Patrick&#39;s day edition of an unnamed newspaper. He suggests that Piaras should mention the fact that Irish was the language St. Patrick used.</p>
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>National Library of Ireland</repository>
+                        
+                        <idno type="collection">Piaras Béaslaí Papers, Collection List 44, MS 33,972 / 11</idno><!-- NOT ALWAYS -->
+                    	
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc>
+                
+				<correspAction type="receiving">
+				
+            		<persName>Piaras Béaslaí</persName>
+            	
+            	  
+				<correspAction type="sending">
+					 
+                    <persName>Patrick Langford Beazley</persName>
+                    
+                     
+                    <placeName>Cheshire, England</placeName>
+                    
+                    
+                    <date when="1916-02-17">1916-02-17</date>
+                    
+            	</correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item><!--put an IF -->
+                        
+                        <item n="assigned_category">Art and literature</item>
+                    
+                    	
+                        	<item n="tag">Art and literature</item>
+                    	
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">English</language>
+            </langUsage>
+	 </profileDesc>
+    <encodingDesc>
+        <samplingDecl>
+            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.
+            </ab>
+        </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-11 14:33:07.988847" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:47.847234" who="#PythonScript_mergeLetterPagesTransform">
+                New Letter created
+            </change>
+        
+            <change when="2015-08-11 14:33:48.623553" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 14:33:48.961218" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 15:55:03.280014" who="#PythonScript">
+                Filtered from Completed List
+            </change>
+        
+    </revisionDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+           
+                <pb n="526" facs="03a9ae73fa7b77ded8559be284629500.jpg"/>
+                <address>"GLENGARIFF"<lb/>
+RUDGRAVE SQUARE,<lb/>
+EGREMONT,<lb/>
+CHESHIRE.</address>
+
+<date>17<hi rend="superscript">th</hi> Feb., 1916.</date>
+<salute>My dearest Pierce,</salute>
+<p>I just lost the post in<lb/>writing this letter. I find I<lb/>cannot now catch the 8 o'clock<lb/>post, which would bring this<lb/>letter to you in the morning,<lb/>but you ought to have it<lb/>to&#x2014;morrow evening. About<lb/>that article, which you sug&#x2014;<lb/>gested for next week. I can&#x2014;<lb/>not take one for next week<lb/>because I have one, and had<lb/>it when I got your letter in<lb/>hand for next week, and<lb/>I have received for consider&#x2014;<lb/>ation two others or so to which<pb/>
+           
+                <pb n="527" facs="9f2073b728adc1852d72b76d0978521c.jpg"/>
+                I am more or less committed.<lb/> The position, as I explained to you,<lb/> is rather delicate and diffi&#x2014;<lb/>cult for me. You would have<lb/> to use a pseudonym be&#x2014;<lb/>cause it would not do to<lb/> let people think I was writ&#x2014;<lb/>ing the articles myself or<lb/> favoring my son by giving<lb/> prominence to his writings<lb/> &#x2014; one or other of which that they<lb/> would be sure to think if<lb/> you wrote under your name.<lb/> But with a good pseudonym<lb/> &#x2014; the name, as it were, of<lb/> some living person &#x2014; I might<lb/> be able to get in an occas&#x2014;<lb/>ional article. They would have<lb/> to be good and appropriate so<lb/> that no obligation could be<lb/> raised on that score, and not<pb/> more than about a column in<lb/> length, that is, about fourteen or<lb/> fifteen hundred words. I would<lb/> suggest that you should send<lb/> me <hi rend="underline">by Monday, March 2</hi> &#x2014; nothing<lb/> can be done for next week<lb/> as I have indicated &#x2014; an article<lb/> for <hi rend="underline">the issue of March 10</hi>, in<lb/> preparation for St. Patrick's Day,<lb/> showing how desirable it is<lb/> that <hi rend="underline"> with English</hi>the Irish peo&#x2014;<lb/>ple should grip the language<lb/> <del>as well as</del> St. Patrick used as<lb/> well as the faith he preached<lb/> so successfully in Ireland. It <lb/>seems to me that the subject is a<lb/> charming one and might be<lb/> made a great deal of by pointing<lb/> out some of the beautiful re&#x2014;<lb/>ligious expressions in the old<lb/> tongue (giving only the English<lb/> translation, except in two<lb/> or three particular cases, per&#x2014;<lb/>haps, to <del>give</del> <add>impart</add> a tone to the article),<pb/>
+           
+                <pb n="528" facs="ac4e299fa4e9948adfe35f047802c864.jpg"/>
+                explaining how the old tongue<lb/> was associated with the most<lb/> flourishing periods of the faith<lb/> in Ireland, how it is, as it were<lb/>, turned round the old ruin s &#x2014;<lb/> the ruins of chapels and wells &#x2014;<lb/> towers whose bring it to<lb/> mind, and dwelling on the con&#x2014;<lb/>trast between the cold secular<lb/> spirit indicated by the language<lb/> of ordinary social life in English<lb/> speaking lands and the brotherly,<lb/> Christian warmth conveyed in<lb/> Irish in the language of social inter&#x2014;<lb/>course. Make your sentences<lb/> fairly crisp and let yourself go.<lb/> If you throw in some strengthen<lb/>ing< figures in the middle or so,<lb/> so much the better. I have an<lb/> article on St. Patrick (to which I am<lb/> committed) for the issue of <hi rend="underline">March 17</hi>,<lb/> but it does not touch on this.<lb/> Don't forget to choose a name. If you<lb/> think of a good heading so much the better.</p>
+<p>You will have had mother's letter.<lb/> Don't forget to write <hi rend="underline">very soon again</hi><lb/> if you want another such letter.<lb/> We are well thank God. I dont know<lb/> yet what affect the shortening of paper supplies<lb/> will have on the C.T.</p> <salute>With fond love form mother,<lb/> Ever affectionately</salute> Father.
+           
+        </body>
+    </text>
+     
+
+</TEI>
+
+
+    

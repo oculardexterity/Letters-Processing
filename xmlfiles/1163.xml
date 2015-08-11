@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1163">
+ <fileDesc>
+            <titleStmt>
+                <title>Letter from Kate English to her son, Patrick, 23 May 1916</title>
+                
+                <author>Kate English</author>
+                
+                <editor></editor>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_1163"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        <p>This letter is from a collection Patrick English, who at the time of writing was a prisoner in Stafford Prison and Frongoch internment camp.</p>
+                    
+                        <p>In this letter, Kate English writes to inform her son, Patrick, that she received his letter and how happy she was to get it.  She mentions that Patrick&#39;s cousin, Mickie is serving at the front and was surprised when he heard of the trouble.  She tells him to let the officer in charge of him that he has six cousins who are fighting in France, and lists them.</p>
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Private Collection, Patrick English</repository>
+                        
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc>
+                
+				<correspAction type="receiving">
+				
+            		<persName>Patrick English</persName>
+            	
+            	
+                    <placeName>Frongoch Prison, Wales</placeName>
+                
+                <!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+                </correspAction>
+                  
+				<correspAction type="sending">
+					 
+                    <persName>Kate English</persName>
+                    
+                     
+                    <placeName>Dunsink Cottage, Castleknock, Dublin, Ireland</placeName>
+                    
+                    
+                    <date when="1916-05-23">1916-05-23</date>
+                    
+            	</correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Female</item><!--put an IF -->
+                        
+                        <item n="assigned_category">Easter Rising Ireland 1916</item>
+                    
+                    	
+                        	<item n="tag">Easter Rising Ireland 1916</item>
+                    	
+                        	<item n="tag">World War 1: 1914-1918</item>
+                    	
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">English</language>
+            </langUsage>
+	 </profileDesc>
+    <encodingDesc>
+        <samplingDecl>
+            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.
+            </ab>
+        </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-11 14:33:13.803697" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:47.828100" who="#PythonScript_mergeLetterPagesTransform">
+                New Letter created
+            </change>
+        
+            <change when="2015-08-11 14:33:48.175401" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 14:33:48.551098" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 15:55:03.265557" who="#PythonScript">
+                Filtered from Completed List
+            </change>
+        
+    </revisionDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+           
+                <pb n="3077" facs="f701e2cc305f78cb1fe784bfe58de74d.jpg"/>
+                anything you want let me<lb/>
+know or will you be let<lb/>
+take money. let me know<lb/>
+in your next letter</p>
+<p>I am keeping strong myself<lb/>
+I hope you are the same<lb/>
+<sic>dont</sic> be fretting as you<lb/>
+will be a man yet.  you<lb/>
+are but a child.  Keep up<lb/>
+your poor heart as we<lb/>
+are all praying for you.<lb/>
+We had a letter from Mickie<lb/>
+at the front he has got<lb/>
+promotion. he was surprised<lb/>
+when he heard of the<lb/>
+trouble.</p>
+<p>Tell the officers in charge<lb/>
+<pb/>
+of you that you have 6<lb/>
+first cousins fighting in<lb/>
+France. Michael English Christy Fenlon Annie's Husband<lb/>
+<sic>thats</sic> Joe O'Mahony Brigid Reillys<lb/>
+Husband. Sergeant Kelly and<lb/>
+the 2 Reillys of the high<lb/>
+Road.  Lord Wimborne is<lb/>
+leaving Ireland and Nellie<lb/>
+&amp; Frank expects to be going <lb/>
+away with them. Jamesy<lb/>
+David Katie Nellie and<lb/>
+all the rest of us join<lb/>
+sending you our best love<lb/>
+hoping to hear from you<lb/>
+soon again.  my eyes will <lb/>
+be strained watching an<lb/>
+answer to know if you<lb/>
+</pb>
+           
+                <pb n="3078" facs="170aa57ae4ee471b559c19b1fc251535.jpg"/>
+                <address>Dunsink Cottages<lb/>
+Castleknock</address>
+<date>23<hi rend="superscript">rd</hi> May 1916</date>
+
+<salute>My Dear Patrick</salute>
+
+<p>I received your<lb/>
+letter on Monday 22 May I<lb/>
+was delighted when I got it<lb/>
+as I was anxious to hear <unclear>from</unclear><lb/>
+<gap/>
+for 3<lb/>
+letters and I got no reply<lb/>
+perhaps you did not receive<lb/>
+them.  I am sending you a<lb/>
+parcel it contains a cake<lb/>
+shirt socks tie brush <add>7</add> books<lb/>
+collar and <del>and tie</del> towel & soap<lb/>
+Beads if you are allowed<lb/>
+to get tea or sugar or
+<pb/>
+           
+                <pb n="3079" facs="0dc6e9caf436a40d7be5e7238ec16e01.jpg"/>
+                got the parcel all right<lb/>
+<salute>Good&#x2014;Bye. My Dear<lb/>
+Son Patrick and God<lb/>
+Bless you. Good&#x2014;Bye
+x x x x x x<lb/>
+x x x x x x<lb/>
+I remain<lb/>
+Your Ever Loving <add>Widow</add> Mother<lb/></salute>
+M<hi rend="superscript">rs</hi> <hi rend="underline">K. English</hi>
+           
+        </body>
+    </text>
+     
+
+</TEI>
+
+
+    

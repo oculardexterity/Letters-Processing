@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_241">
+ <fileDesc>
+            <titleStmt>
+                <title>Thomas Nally to WB Yeats, 9 January 1916.</title>
+                
+                <author>Thomas Nally</author>
+                
+                <editor></editor>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_241"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        <p>Thomas Nally writes to W.B. Yeats about his decision to change the names of some of the characters in his play &#39;Spancel of Death&#39;.</p>
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>National Library of Ireland</repository>
+                        
+                        <idno type="collection">Thomas Nally Papers, NLI Ms 36,213/4</idno><!-- NOT ALWAYS -->
+                    	
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc>
+                
+				<correspAction type="receiving">
+				
+            		<persName>W.B. Yeats</persName>
+            	
+            	  
+				<correspAction type="sending">
+					 
+                    <persName>Thomas Nally</persName>
+                    
+                     
+                    <placeName>Sandymount, Dublin</placeName>
+                    
+                    
+                    <date when="1916-01-09">1916-01-09</date>
+                    
+            	</correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item><!--put an IF -->
+                        
+                        <item n="assigned_category">Art and literature</item>
+                    
+                    	
+                        	<item n="tag">Art and literature</item>
+                    	
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">English</language>
+            </langUsage>
+	 </profileDesc>
+    <encodingDesc>
+        <samplingDecl>
+            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.
+            </ab>
+        </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-11 14:33:08.344685" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:47.781119" who="#PythonScript_mergeLetterPagesTransform">
+                New Letter created
+            </change>
+        
+            <change when="2015-08-11 14:33:47.906370" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 14:33:48.124703" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 15:55:03.261436" who="#PythonScript">
+                Filtered from Completed List
+            </change>
+        
+    </revisionDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+           
+                <pb n="618" facs="cd6602bda7fd93e0475b6fcc2e061fb8.jpg"/>
+                4
+<address>Gilford Lodge<lb/>
+Gilford Road<lb/>
+Sandymount<lb/>
+Dublin</address>
+<date>9.1.16</date>
+<salute>Dear Mr. Yeates</salute>
+<p>Mr. St. John Ervine tells me<lb/> you have suggested changing the<lb/> names of the characters in "The<lb/> "Spancel of Death" lest their retention<lb/> might cause pain, or give offence,<lb/> to any living descendants of the<lb/> persons dealt with.</p>
+ <p>Needless to say I should be exceedingly<pb/>
+           
+                <pb n="619" facs="2e7a9f4950ceb984a96a15424a0aaf19.jpg"/>
+                Sorry to give offence to any one, and<lb/> 
+therefore before writing those names
+I fully<lb/> considered such a possibility, there<lb/>
+was &#x2014; up to about five weeks ago &#x2014; just <lb/>
+one person living who might possibly <lb/>
+feel agrieved. &#x2014; Miss Lynch&#x2014;Blosse,<lb/>
+an old lady of 94 years, who was a<lb/>
+great grand niece of Sir Harry Lynch&#x2014;<lb/>
+Blosse. But she died at Monkstown<lb/>
+about five or six weeks ago, and there<lb/>
+is no one else left. As for Sibella<lb/>
+Cottle, all the remains of her is merely<lb/>
+a memory. She was not a native<lb/>
+in the district. Neither was she a<lb/>
+peasant. There remains then but the<pb/>
+name of the old peasant sorceress<lb/> Judy Holian. and whilst there<lb/> are still some peasant descendants<lb/> of remote kinship to her they most<lb/> certainly would not claim the<lb/> connection.</p> 
+<p>Beyond all this, <del>all</del> the names<lb/> mentioned by me are given in<lb/> Archdeacon's book, published some<lb/> sixty years ago, and subscribed for<lb/> at the time by the then existing<lb/> Lynch Blosses, Moores. Blakes and<lb/> others whose names happen to<lb/> occur in "The Spancel of Death"</p> 
+<p>The rather gloried in the notoriety</p> 
+<p>You may possibly remember<lb/> also that Mrs Tynan Hinksom<pb/>
+           
+                <pb n="620" facs="e27076a456de3cd8fda509f89f997d3d.jpg"/>
+                at that time &#x2014; K.Tynan &#x2014; published a<lb/>
+story dealing with the same<lb/>
+incidents and giving the correct<lb/>
+names. I happened to tell her the<lb/>
+story once at Whitehall and she<lb/>
+subsequently published it in some<lb/>
+local journal. I remember she<lb/>
+did not change the names. So I <lb/>
+really do not think it necessary.</p>
+<p>Of course, if you still think otherwise<lb/> I shall, <hi rend="underline">but with regret</hi>, part with<lb/>
+the names; for they are dear to me.</p>
+<p> You might please let me know as<lb/> 
+the play has not yet been put into<lb/> 
+rehearsal.</p>
+<salute>Yours Sincerely</salute>
+T.H. <hi rend="underline">Nally</hi>.
+           
+        </body>
+    </text>
+     
+
+</TEI>
+
+
+    

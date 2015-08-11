@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_141">
+ <fileDesc>
+            <titleStmt>
+                <title>Letter from Jane Coffey to her son Diarmid Coffey, 16 October 1916</title>
+                
+                <author>Jane Coffey</author>
+                
+                <editor></editor>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_141"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        <p>This letter was addressed to Diarmid Coffey (1888-1964). Coffey joined the Irish Volunteers in 1914 and became secretary of the Irish National Volunteers after the organisation split in 1915. He  would later serve as assistant clerk of the Seanad.</p>
+                    
+                        <p></p>
+                    
+                        <p>The letter was written by Diarmaid&#39;s mother, Jane Coffey (née l&#39;Estrange) (1857-1921).</p>
+                    
+                        <p></p>
+                    
+                        <p>The letter refers to a planned trip to London. The trip is a welcome replacement for a journey to Wales, however, Jane feels that England is an &#39;unpleasant place for an Irish Irelander right now&#39; .</p>
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>National Library of Ireland</repository>
+                        
+                        <idno type="collection">Coffey &amp; Chenevix Trench Papers, Collection List No 153; 46,301/2</idno><!-- NOT ALWAYS -->
+                    	
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc>
+                
+				<correspAction type="receiving">
+				
+            		<persName>Diarmid Coffey</persName>
+            	
+            	
+                    <placeName>Mount Townshend, Foynes, County Limerick</placeName>
+                
+                <!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+                </correspAction>
+                  
+				<correspAction type="sending">
+					 
+                    <persName>Jane Coffey</persName>
+                    
+                     
+                    <placeName>Bath, UK</placeName>
+                    
+                    
+                    <date when="1916-10-16">1916-10-16</date>
+                    
+            	</correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                        
+                        <item n="assigned_category">Family life</item>
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">English</language>
+            </langUsage>
+	 </profileDesc>
+    <encodingDesc>
+        <samplingDecl>
+            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.
+            </ab>
+        </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-11 14:33:07.159856" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:47.872140" who="#PythonScript_mergeLetterPagesTransform">
+                New Letter created
+            </change>
+        
+            <change when="2015-08-11 14:33:48.076427" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 14:33:48.358473" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 14:33:48.955950" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 15:55:03.390803" who="#PythonScript">
+                Filtered from Completed List
+            </change>
+        
+    </revisionDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+           
+                <pb n="335" facs="f30d15bd33bed01bf1bae90a132c91eb.jpg"/>
+                <note>you addressed <lb/><sic>yr</sic> letter to<lb/> Harcourt Terrace <sic>wh</sic> delayed it late <lb/>it came this <lb/>afternoon! <lb/>too late to<lb/> <hi rend="underline">write</hi></note>
+<address>Langridge, <lb/>
+Bath</address>
+<date><hi rend="underline">16.10.16</hi></date>
+
+<salute>Dearest D.</salute>
+Phyllis & Basil have <lb/>written that they come<lb/> out for weekend so <lb/>I have given up being <lb/><gap/>& hope to go<lb/> to London  with them<lb/> on Monday to the Unions<pb/>
+           
+                <pb n="336" facs="50154e873ac9d862ada4a7ac1dd847ce.jpg"/>
+                &amp; home Wed or Thursday &#x2014;<lb/> It is a terrible journey<lb/> from here to Wales &amp; I<lb/> am not sorry to give it<lb/> up &#x2014; tho' I never would<lb/> neglect to see <unclear>heng</unclear> but<lb/> England is unpleasant<lb/> for an Irish Irelander<lb/> just now &#x2014;</p>
+<p>Mrs Finlay <add>u</add> has written me <lb/>a most kind invitation<lb/> & they would be a bit<lb/> sympathetic &#x2014; so expect<lb/> me home Wed eve of<lb/> next week &#x2014; Anne left <lb/>today she was very nice<lb/> I find her more sympathetic <lb/>than Alec just now <lb/>and will be glad<lb/> to be at home again</p>
+<pb/>
+           
+                <pb n="337" facs="0b7496b8de992b51b1e7aa00be4bea23.jpg"/>
+                <p>You can tell <unclear>Margaret</unclear> to<lb/> have something in &#x2014;but<lb/> there is plenty of time &#x2014;<lb/> &amp; will have had enough <unclear>held</unclear><lb/> by Wed. I was very much<lb/> disappointed at no letter <lb/>from you today.</p>
+<salute><sic>Yr</sic> loving<lb/>
+<hi rend="underline">Mother</hi></salute>
+<note>no letter<gap/><gap/></note>
+How good to meet soldiers<lb/> not imperialist &#x2014;
+           
+                <pb n="338" facs="96dc31141571fa3c3df2bbce5108beca.jpg"/>
+                <!-- envelope postmarked -->Bath <lb/><date>11.45am<lb/> 17 Oct 16</date>
+Diarmid Coffey <sic>Esqu</sic>,<lb/> <address>Mount Trenchard,<pb/> Foynes,<lb/> Co. Limerick, Ireland</address>
+           
+        </body>
+    </text>
+     
+
+</TEI>
+
+
+    

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_44">
+ <fileDesc>
+            <titleStmt>
+                <title>Letter from Minsie Arkwight to Lady Clonbrock</title>
+                
+                <author>Minsie Arkwright</author>
+                
+                <editor></editor>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_44"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        <p>The letter was forwarded from the Clonbrock house in Galway to Cadogan Gardens, London. The sender signed as cousin Minsie Arkwright - written on the envelop Mary Arkwright.</p>
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>National Library of Ireland</repository>
+                        
+                        <idno type="collection">NLI Collection List 54, Ms 35,793 (9)</idno><!-- NOT ALWAYS -->
+                    	
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc>
+                
+				<correspAction type="receiving">
+				
+            		<persName>Lady Clonbrock</persName>
+            	
+            	
+                    <placeName>London, UK</placeName>
+                
+                <!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+                </correspAction>
+                  
+				<correspAction type="sending">
+					 
+                    <persName>Minsie Arkwright</persName>
+                    
+                     
+                    <placeName>Perthshire, Scotland</placeName>
+                    
+                    
+                    <date when="1916-07-22">1916-07-22</date>
+                    
+            	</correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Female</item><!--put an IF -->
+                        
+                        <item n="assigned_category">Family life</item>
+                    
+                    	
+                        	<item n="tag">Family life</item>
+                    	
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">English</language>
+            </langUsage>
+	 </profileDesc>
+    <encodingDesc>
+        <samplingDecl>
+            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.
+            </ab>
+        </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-11 14:33:06.598091" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:47.863240" who="#PythonScript_mergeLetterPagesTransform">
+                New Letter created
+            </change>
+        
+            <change when="2015-08-11 14:33:48.413381" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 14:33:48.564132" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 15:55:03.291443" who="#PythonScript">
+                Filtered from Completed List
+            </change>
+        
+    </revisionDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+           
+                <pb n="65" facs="718b5732d6985f402fd05b5cc6b27830.jpg"/>
+                <hi rend="underline">July 22<hi rend="superscript">nd</hi></hi>
+<address>Birnam<lb/>
+Perthshire<lb/>
+Scotland</address>
+<salute>My dearest Tweety.</salute>
+<p>I have just seen a <lb/>
+picture of you both <lb/>
+celebrating your Golden <lb/>
+Wedding to day, &amp; it <lb/>
+is <hi rend="underline">our</hi> Wedding day, but<lb/>
+<hi rend="underline">54</hi> years! &#x2014;</p>
+<p>My heartiest congratulations<pb/>
+           
+                <pb n="66" facs="917f43fe811db65f1af2dd9d510315a0.jpg"/>
+                10 Cadogan Gardens
+Chelsea
+London
+SW
+The Lady Clonbrock
+<del>Clonbrock</del>
+<del>Ahascragh</del>
+<del>Galway</del>
+<del>Ireland</del>
+<note>on the left side</note> Mary Arkwright ans'd
+           
+                <pb n="67" facs="499cfc98540becfe4b419c647d63ddaf.jpg"/>
+                to you both from<lb/>
+your very aff<hi rend="superscript">tc</hi><lb/>
+cousin</p>
+<hi rend="underline">Minnie Arkwright</hi>
+           
+        </body>
+    </text>
+     
+
+</TEI>
+
+
+    

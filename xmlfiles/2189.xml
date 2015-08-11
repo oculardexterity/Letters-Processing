@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2189">
+ <fileDesc>
+            <titleStmt>
+                <title>Letter from Alice Fitzgerald to her son Seamus Fitzgerald, 19 June 1916</title>
+                
+                <author>Alice Fitzgerald</author>
+                
+                <editor></editor>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_2189"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        <p>This letter was written to Seamus Fitzgerald (1896–1972). Fitzgerald was a Cork politician and joined the Irish Volunteers and Sinn Féin after Easter Week 1916. He was subsequently arrested and sent to Frongoch, Wales, one of the seven places in which he was interned in later years.</p>
+                    
+                        <p></p>
+                    
+                        <p>In this letter to Seamus his mother Alice counsels him to keep his spirits up for fear &#34;you will make me worse than what I am&#34;. She hopes his friends will be sent to the same place so they could be company for him. His father has not been told of Seamus&#39; arrest</p>
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cork City and County Archives</repository>
+                        
+                        <idno type="collection">Papers of Seamus Fitzgerald (1876-1972)  PR/6/3</idno><!-- NOT ALWAYS -->
+                    	
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc>
+                
+				<correspAction type="receiving">
+				
+            		<persName>Seamus Fitzgerald</persName>
+            	
+            	
+                    <placeName>Wakefield Prison Camp, West Yorkshire, England</placeName>
+                
+                <!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+                </correspAction>
+                  
+				<correspAction type="sending">
+					 
+                    <persName>Alice Fitzgerald</persName>
+                    
+                     
+                    <placeName>3 East Hill, Queenstown, Co. Cork, Ireland</placeName>
+                    
+                    
+                    <date when="1916-06-19">1916-06-19</date>
+                    
+            	</correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Female</item><!--put an IF -->
+                        
+                        <item n="assigned_category">Easter Rising Ireland 1916</item>
+                    
+                    	
+                        	<item n="tag">Easter Rising Ireland 1916</item>
+                    	
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">English</language>
+            </langUsage>
+	 </profileDesc>
+    <encodingDesc>
+        <samplingDecl>
+            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.
+            </ab>
+        </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-11 14:33:18.910358" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:47.743990" who="#PythonScript_mergeLetterPagesTransform">
+                New Letter created
+            </change>
+        
+            <change when="2015-08-11 14:33:48.096250" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 14:33:48.437733" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 15:55:03.459557" who="#PythonScript">
+                Filtered from Completed List
+            </change>
+        
+    </revisionDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+           
+                <pb n="5689" facs="3a2730445aced2c440baa8b3b88e6714.jpg"/>
+                <address>3 Coast Hill<lb/> Queenstown</address>
+<date>June.19.1916</date>
+<salute>My Own Dearest Jim</salute>
+So your shifted <lb/>after all.<lb/>Now Jim <hi rend="underline">What</hi><lb/><hi rend="underline">ever</hi> <hi rend="underline">you</hi> <hi rend="underline">do</hi> I dont want<lb/>you to feel down hearted<lb/>Keep your spirit up &amp; the<lb/>Great God in his mercy is<lb/> Great. We wont despair<lb/>yet. More mind cheer<lb/>up if you'll get downhearted<lb/> you will make me worse<lb/> than what I am.I dare <lb/> say you have seen Liel &amp;Thom<lb/> by now. They will tell you all.<pb/>
+           
+                <pb n="5690" facs="980e060524e6c7a3ba515397930b1184.jpg"/>
+                Tis strange your not getting<lb/> my letters.<lb/> Mick Leahy has the same to say<lb/>about his mothers. I can't<lb/>understand it.<lb/> Is <gap/><gap/><lb/>O'Brien with you.I hope<lb/> they are for they would<lb/> be company for you.<lb/> Now Lily will make<lb/> arrangements with some one<lb/>outside to visit you &amp;<lb/> see to you &amp; dont at all<lb/> fear him But everything<lb/> that possibly can be done<lb/> <hi rend="underline">will be done</hi> for you love <lb/> I'm giving you great hope<lb/> &amp; another thing if you are<lb/> kept there very long Bob<lb/> &amp; myself &amp; maybe Patrick<lb/> will go over to see you <lb/> for we are all dying to<lb/> see you. I haven't told<lb/> your father anything about<lb/> you up to the present<lb/> God is good &amp; Blessed Mother<lb/> you may be home before <lb/>him yet. Poor Bob has<lb/> missed you terrible We<lb/> havent done a thing since <lb/>you left. You must have<lb/> felt in a terrible way<lb/> when you heard of this shift<lb/> again that's why I'm<lb/><pb/>
+           
+                <pb n="5691" facs="766793cfa0731e0aa18b6f05917e2177.jpg"/>
+                warning <hi rend="superscript">you</hi> not to despair<lb/> don't take it to heart Jim <lb/> for mercy sake, that's <lb/> what I'm grieving for.<lb/> I will be dying for Liel &amp; Thom to come home to tell<lb/> me all about you. So I<lb/> will now conclude with<lb/> fondest Love from all<lb/> at home &amp;again asking <lb/> you to cheer up &amp; with<lb/> God's help you may be <lb/> with us sooner than what you <lb/> expect is this dearest <lb/> Wish of your loving <lb/> <salute>Mother A. Fitzgerald</salute> xxxxxxx
+           
+        </body>
+    </text>
+     
+
+</TEI>
+
+
+    

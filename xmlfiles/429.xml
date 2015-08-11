@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_429">
+ <fileDesc>
+            <titleStmt>
+                <title>Letter from Gerald O&#39;Driscoll to his father Denis, 24 May 1916</title>
+                
+                <author>Gerald O&#39;Driscoll</author>
+                
+                <editor></editor>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_429"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        <p>Gerald O&#39;Dricoll (d. 1946) was in the British Navy and this letter, to his father, was written from H.M.S.Temeraire.  In the letter he describes his shock at the &#39;rebellion in Dublin&#39; and refers to the reaction of he and his fellow soldiers at the front to the Rising, noting that &#39;our fellow country-men at the front felt it all the more keenly&#39;. His reaction is typical of many Irish soldiers in the British army; he laments the destruction of Sackville Street (O&#39;Connell Street) and refers to one of the rebels as a &#39;half-demented, crazy, misguided fool&#39;. He also writes about family matters and an annual boxing tournament.</p>
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Denis McGrath, private collection</repository>
+                        
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc>
+                
+				<correspAction type="receiving">
+				
+            		<persName>Denis O&#39;Driscoll</persName>
+            	
+            	
+                    <placeName>Dublin, Ireland</placeName>
+                
+                <!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+                </correspAction>
+                  
+				<correspAction type="sending">
+					 
+                    <persName>Gerald O&#39;Driscoll</persName>
+                    
+                     
+                    <placeName>H.M.S. Temeraire, Grand Fleet</placeName>
+                    
+                    
+                    <date when="1916-05-24">1916-05-24</date>
+                    
+            	</correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item><!--put an IF -->
+                        
+                        <item n="assigned_category">Easter Rising Ireland 1916</item>
+                    
+                    	
+                        	<item n="tag">Easter Rising Ireland 1916</item>
+                    	
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">English</language>
+            </langUsage>
+	 </profileDesc>
+    <encodingDesc>
+        <samplingDecl>
+            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.
+            </ab>
+        </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-11 14:33:09.732353" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:47.769907" who="#PythonScript_mergeLetterPagesTransform">
+                New Letter created
+            </change>
+        
+            <change when="2015-08-11 14:33:48.636047" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 15:55:03.455877" who="#PythonScript">
+                Filtered from Completed List
+            </change>
+        
+    </revisionDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+           
+                <pb n="1137" facs="7fcf9749625d690e9f52b319b43ca735.jpg"/>
+                <note>Must be 1916</note>
+<address>H.M.S. Temeraire,<lb/>
+Grand Fleet,<lb/>
+c/o G.P.O. London</address>
+<date>24/5/6</date>
+
+<salute>My dear Father,</salute>
+<p>In a letter from Maggie I was very<lb/> pleased to learn of Finneen's arrival home and also<lb/> to be assured of his general health &amp; fitness. I have<lb/> not replied to Maggie yet as for some time past I<lb/> have been too busy altogether. I was of course <lb/>shocked by the Dublin rebellion and indeed not a<lb/> little anxious for the safety of those near and dear to<lb/> me. I was worried and restless. The possibility of<lb/> Maggie &amp; Barbara being in the danger zone, and this<lb/> coupled with the temporary stoppage of mails &amp;<lb/> communication of every description increased my<lb/> solicitude. But I will not waste time in dogmatising<lb/> on such madness; we and our fellow countrymen at<lb/> the front felt it all the more keenly. It would<lb/> seem as if the temple of glory built by our brave<lb/> Irish regiments, had been pulled down by their<lb/> own kindred. In a paper that Maggie sent me<lb/> I notice the name <add>&amp; address</add> of Dot's brother as one of<lb/> the rebels deported. I wonder what his ow<lb/>n brother Jack will say when he hears the news at<lb/> the front. That half-demented, crazy, misguided<pb/>
+           
+                <pb n="1138" facs="7d3307fc9f788a6381b46591c67b06af.jpg"/>
+                fool Willie Halpin is also one of them. Patriotism!<lb/> My God! and he knows as much about Irish<lb/> History as a Fiji cannibal. The outcome of it <lb/>was death and sorrow, and the destruction of the<lb/> finest and statliest street in Europe; &#x2014; a street<lb/> that every Dublin <hi rend="underline">man</hi>, <hi rend="underline">must</hi> have been justly proud.</p>
+<p>Things up here are very much the same, as far as I<lb/> am at liberty to disclose. In order to relieve the tenor of<lb/> a <add><del>ratl</del> rather</add> multifarious routine, the annual boxing tournament took<lb/> place recently; a sort of inter&#x2014;ship for the championship<lb/> of the squadron. Our friend Bob Hanley <del>took</del> won the<lb/> lightweight championship of our own particular squadron after<lb/> four fights. It appeared to me to be an easy thing for<lb/> him. He is a skilful and clean fighter, a hard hitter,<lb/> and I have little doubt that he will win the championship<lb/> of the Grand Fleet <hi rend="underline">should that competition</hi> ever come off.</p>
+<p>I had a field service post card this morning from<lb/> Finneen in which I am assured that he is quite well.</p>
+<p>I was not aware that he <del>was</del> is a full corporal but<lb/> was certainly not surprised. I passed a preliminary exam<lb/> recently with a fairly decent margin of marks. I am the more<lb/> elated because I was totally unprepared for such. It in no way<lb/> embraced <add>the</add> category of my present study. The latter is varied<lb/> and complicated but I have every confidence for the ultimate<lb/> result. That is all. It is late and I am for duty. Adieu for<lb/> the present with love to Mother and Babs.</p> <salute>Your affectionate Son,</salute> <hi rend="underline">Gerald</hi>
+           
+        </body>
+    </text>
+     
+
+</TEI>
+
+
+    

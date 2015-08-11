@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_335">
+ <fileDesc>
+            <titleStmt>
+                <title>Postcard from Louis Moran to his brother Eamonn</title>
+                
+                <author>Louis Moran</author>
+                
+                <editor></editor>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_335"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        <p>Both O&#39;Modhráin brothers, Louis &amp; Eamonn (Edward), were taken into custody soon after the 1916 Rising and transported to prisons in England. By June 1916, Louis had been released and was writing to his brother, still held captive in Wakefield Prison.</p>
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Private Collection</repository>
+                        
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc>
+                
+				<correspAction type="receiving">
+				
+            		<persName>Edward Moran (Eamonn O&#39;Modhráin)</persName>
+            	
+            	
+                    <placeName>Wakefield Prison, England</placeName>
+                
+                <!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+                </correspAction>
+                  
+				<correspAction type="sending">
+					 
+                    <persName>Louis Moran</persName>
+                    
+                     
+                    <placeName>Dublin</placeName>
+                    
+                    
+                    <date when="1916-06-03">1916-06-03</date>
+                    
+            	</correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item><!--put an IF -->
+                        
+                        <item n="assigned_category">Easter Rising Ireland 1916</item>
+                    
+                    	
+                        	<item n="tag">Easter Rising Ireland 1916</item>
+                    	
+                        	<item n="tag">Family life</item>
+                    	
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">English</language>
+            </langUsage>
+	 </profileDesc>
+    <encodingDesc>
+        <samplingDecl>
+            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.
+            </ab>
+        </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-11 14:33:09.228982" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:48.334210" who="#PythonScript_mergeLetterPagesTransform">
+                New Letter created
+            </change>
+        
+            <change when="2015-08-11 14:33:48.595661" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter
+            </change>
+        
+            <change when="2015-08-11 15:55:03.488268" who="#PythonScript">
+                Filtered from Completed List
+            </change>
+        
+    </revisionDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+           
+                <pb n="884" facs="327ba1e95f7a31f749a07061c648abd5.jpg"/>
+                <address>Dublin</address> <date>3-6-16</date>
+
+<salute>Dearest Ed,</salute>
+<p>I arrived here safe &amp; sound<lb/> 
+this morning &amp; gave them<lb/>
+ all a great surprise.</p>
+<p>Everything is going on splendidly<lb/>
+ here. I am going home<lb/>
+ this evening &amp; hope to<lb/>
+ find all there in the best<lb/>
+ of form.</p>
+<p>No News so I will wind<lb/> 
+up hoping to have you<lb/>
+home on the next Draft.</p>
+
+L
+           
+                <pb n="885" facs="2f2d0599532c3810df69319a7a401741.jpg"/>
+                <address>Mr. Edward Moran,<lb/>
+Irish Prisoner,<lb/>
+Wakefield,<lb/>
+C.O. Chief Postal Censor,<lb/>
+London</address>
+
+<note>ut. 3. 56<lb/>
+<hi rend="underline">963</hi></note>
+           
+        </body>
+    </text>
+     
+
+</TEI>
+
+
+    

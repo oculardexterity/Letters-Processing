@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_121">
+ <fileDesc>
+            <titleStmt>
+                <title>Letter to Lord Clonbrock from Edward H. Andrews, 7 Nov 1916</title>
+                
+                <author>not known????</author>
+                
+                <editor></editor>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_121"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        <p>Letter acknowledging receipt of a letter.</p>
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>National Library of Ireland</repository>
+                        
+                        <idno type="collection">NLI MS 35,766/12</idno><!-- NOT ALWAYS -->
+                    	
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc>
+                
+				<correspAction type="receiving">
+				
+            		<persName>Lord Clonbrock</persName>
+            	
+            	
+                    <placeName>Galway, Ireland</placeName>
+                
+                <!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+                </correspAction>
+                  
+				<correspAction type="sending">
+					
+                     
+                    <placeName>Dublin</placeName>
+                    
+                    
+                    <date when="1917-11-07">1917-11-07</date>
+                    
+            	</correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                        
+                        <item n="assigned_category">Business</item>
+                    
+                    	
+                        	<item n="tag">business</item>
+                    	
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">English</language>
+            </langUsage>
+	 </profileDesc>
+    <encodingDesc>
+        <samplingDecl>
+            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.
+            </ab>
+        </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-11 14:33:07.026682" who="#PythonScript_pageDublicatesResolve">
+                Old page dublicate removed
+            </change>
+        
+            <change when="2015-08-11 14:33:47.814114" who="#PythonScript_mergeLetterPagesTransform">
+                New Letter created
+            </change>
+        
+            <change when="2015-08-11 15:55:03.421340" who="#PythonScript">
+                Filtered from Completed List
+            </change>
+        
+    </revisionDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+           
+                <pb n="259" facs="1fb6a35a6f7cb3c4b050d56181c2d3eb.jpg"/>
+                Irish Police &amp; Co<hi rend="underline">nstabulary Re</hi>cognition fund.<lb/>
+President : The Right Hon. The EARL OF MEATH, K.P., H.M.L.<lb/>
+Vice&#x2014;President: SIR JOHN ARNOTT< Bart.<lb/>
+Chairman of Committee : SIR MAURICE DOCKRELL, D.L.      Hon. Treasurer : RICHARD W. BOOTH, J.P.<lb/>
+Deputy-Chairman : JOHN MOONEY, C.V.O., D L.                   Hon. Secs : V. C. LE FANU J.P., and ED. H. ANDREWS, J.P.<lb/>
+Committee:<lb/>
+<!-- Written in 3 columns across page -->
+LORD BARRYMORE, H.M.L.         VISCOUNT POWERSCOURT, H.M.L.       LORD TALBOT DE MALAHIDE.<lb/>
+RT. HON. MR JUSTICE ROSS.     LORD HARLECH, H.M.L                           THE HIGH SHERIFF OF THE CITY OF DUBLIN.<lb/>
+RT. HON. THE EARL OF MEATH, K.P , H.M.L.      RT. HON. T. LOUGH, M.P.    JOHN MOONEY, C.V.O., D. L.<lb/>
+RT. HON. THE LORD MAYOR OF DUBLIN            J. JACKSON CLARK, H.M.L.  V. C. LE FANU, J.P.<lb/>
+MARQUIS F SLIGO, H.M.L.          SIR THOMAS TALBOT POWER, BART.         COL. EDGEWORTH JONSTONE.<lb/>
+WELLINGTON DARLEY, J.P         J. F. HEALY                                                  LADY POWERSCOURT.<lb/>
+LORD RATHDONNELL, H.M.L.      SIR ANDREW HORNE.                                  LADY ARDILAUN.<lb/>
+EARL OF KENMARE, H.M.L.        RICHARD W. BOOTH, J.P.                             MISS PRESTON.<lb/>
+SIR JAMES MURPHY, BART., D.L.    ANDREW BEATTIE, D.L.                          SIR F. AND LADY SHAW.<lb/>
+EDWARD H. ANDREWS, J.P.       SIR WILLIAM J. GOULDING, BART, D.L.        MATTHEW J. MINCH, J.P.<lb/>
+COMMANDER  GAISFORD ST. LAWRENCE, R.N., D.L.    SIR W. WATSON.       T. L. PLUNKETT D.L.<lb/>
+SIRE MAURICE DOCKRELL, D.L.      BIRGADIER&#x2014;GENERAL BYRNE.    S. W. MADDOCK, J.P.<lb/>
+
+<address>Chamber of Commerce,<lb/>
+Dublin,</address> <date>7th Novr 1916</date>
+<salute>My Lord,</salute>
+<p>We are in receipt of your letter of the 31st ulto re the case<lb/> 
+of William Clery, and have handed your letter on to General Byrne,<lb/> 
+Commanding the R.I.C., who will no doubt take the case into his <lb/>
+consideration when dealing with the other cases.</p>
+
+<salute>I am,<lb/>
+My Lord,<lb/>
+Your Lordship's obedient Servant.</salute>
+<hi rend="underline">Edward H. Andrews</hi><lb/>
+On behalf of the Hon. Secretaries.<lb/>
+
+
+<address>The Rt. Hon. Lord Clonbrock, P.C., H.M.L.,<lb/>
+Ahascragh,<lb/>
+Galway.</address>
+           
+        </body>
+    </text>
+     
+
+</TEI>
+
+
+    

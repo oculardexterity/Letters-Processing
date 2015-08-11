@@ -4,6 +4,10 @@ import os
 import sys
 
 from Processor import Processor
+from decTest import EditLogger
+
+editLogger = EditLogger()
+
 
 
 class RemovePageDuplicates(Processor):
@@ -15,12 +19,14 @@ class RemovePageDuplicates(Processor):
 		self.outputFilePath = outputFilePath
 		super().__init__()
 
+	@editLogger('Old page dublicate removed', 'PythonScript_pageDublicatesResolve')
 	def pageDuplicatesResolve(self, old, new):
 		if old['Translation_Timestamp'] >= new['Translation_Timestamp']:
 			return old
 		elif new['Translation_Timestamp'] >= old['Translation_Timestamp']:
 			return new
 
+	@editLogger('New page instance created', 'PythonScript_pageDuplicatesTransform')
 	def pageDuplicatesTransform(self, field):
 		return field
 
@@ -37,24 +43,26 @@ class MergeLetterPages(Processor):
 		super().__init__()
 
 
+	@editLogger('Additional page merged into Letter', 'PythonScript_mergeLetterPagesResolve')
 	def mergeLetterPagesResolve(self, old, new):
 		#print('merge resolve called')
 		letter = old
-		letter['Pages'][new['Page']] = self.mergeLetterBuildPageDict(new)
+		letter['Pages'][new['Page']] = self._mergeLetterBuildPageDict(new)
 		return letter
 
+	@editLogger('New Letter created', 'PythonScript_mergeLetterPagesTransform')
 	def mergeLetterPagesTransform(self, field):
 		#print('merge transform called')
 		letter = field
-		letter['Pages'] = {field['Page']: self.mergeLetterBuildPageDict(field)}
-		return self.mergeLetterDeleteFields(letter)
+		letter['Pages'] = {field['Page']: self._mergeLetterBuildPageDict(field)}
+		return self._mergeLetterDeleteFields(letter)
 
-	def mergeLetterBuildPageDict(self,field):
+	def _mergeLetterBuildPageDict(self,field):
 		return {"Translation": field['Translation'], 
 				"Original_Filename": field['Original_Filename'], 
 				"Archive_Filename": field['Archive_Filename']}
 
-	def mergeLetterDeleteFields(self,letter):
+	def _mergeLetterDeleteFields(self,letter):
 		for key in ["Translation", "Page", "Original_Filename", "Archive_Filename"]:
 			del letter[key]
 		return letter
