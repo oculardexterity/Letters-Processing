@@ -16,8 +16,8 @@ class EditLogger:
 	## Something here... GET
 	def build_your_edit(self, row, match_field):
 		identifier = str(row[match_field]) + '.0'
-		return [{"EditType": self.editsDict.editType, 
-					"Editor": self.editsDict.values[identifier][self.editsDict.editorColumn]}]
+		return {"EditType": self.editsDict.editType, 
+					"Editor": self.editsDict.values[identifier][self.editsDict.editorColumn]}
 	'''
 
 				# THESE THINGS PASSED IN --- also need to allow an EDITDICT
@@ -61,3 +61,7 @@ class EditsFromExcelSpreadsheet(EditsDict):
 		# Gets data
 		data = Stream(dataFile, matchColumn, sheet=dataSheet).as_dict()
 		super().__init__(editType, editorColumn, data)
+
+
+class LogEditProcess(Processor):
+	pass
