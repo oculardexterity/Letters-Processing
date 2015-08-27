@@ -58,6 +58,8 @@ class ListFromExcel(FilterList):
 
 
 if __name__ == "__main__":
+
+	
 	
 	incList = ListFromExcel('spreadsheets/Completed Letters to be proofed.xlsx', 'ID', date='7 July')
 	
@@ -65,7 +67,7 @@ if __name__ == "__main__":
 	exList = ListFromDirectory('xmlfiles')
 
 
-	f = Filter('output/letterMerge.shelve', 'output/filtered.shelve')
+	f = Filter('output/letterPagesMerged.shelve', 'output/filtered.shelve')
 	
 	f.inclusionListAdd(incList)
 	f.exclusionListAdd(exList)

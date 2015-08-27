@@ -8,7 +8,7 @@
                 {% if Creator %}
                 <author>{{Creator|e}}</author>
                 {% else %}
-                <author>not known????</author>
+                <author>MISSING</author>
                 {% endif %}
                 <editor></editor>
             </titleStmt>
@@ -62,17 +62,23 @@
         </fileDesc>
     <profileDesc>
             <correspDesc>
-                {% if Recipient %}
-				<correspAction type="receiving">
-				
-            		<persName>{{Recipient|e}}</persName>
-            	{% endif %}
-            	{% if Recipient_s_location %}
-                    <placeName>{{Recipient_s_location|e}}</placeName>
                 
+
+				<correspAction type="receiving">
+				{% if Recipient %}
+            		<persName>{{Recipient|e}}</persName>
+                {% else %}
+                    <persName>MISSING</persName>
+            	{% endif %}
+            	
+
+
+                {% if Recipient_s_location %}
+                    <placeName>{{Recipient_s_location|e}}</placeName>
+                {% endif %}
                 <!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
                 </correspAction>
-                {% endif %}  
+                 
 				<correspAction type="sending">
 					{% if Creator %} 
                     <persName>{{Creator|e}}</persName>

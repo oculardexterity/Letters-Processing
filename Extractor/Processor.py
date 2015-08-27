@@ -3,7 +3,7 @@ import shelve
 import sys
 
 from Stream import Stream
-from decTest import EditLogger
+from EditLogger import EditLogger
 
 editLogger = EditLogger()
 
@@ -76,3 +76,8 @@ class ShelveManager:
 				print('\nFile overwriting')
 			else:
 				sys.exit('\nProcess stopped to prevent data file overwrite')
+
+
+if __name__ == '__main__':
+	print("\nThis file contains class definitions for processing which must be implemented. \
+		\nThere is no option to call this script from the command line.")

@@ -3,8 +3,8 @@ from datetime import datetime
 import os
 import sys
 
-from Processor import Processor
-from decTest import EditLogger
+from Processor import Processor as Processor
+from EditLogger import EditLogger
 
 editLogger = EditLogger()
 
