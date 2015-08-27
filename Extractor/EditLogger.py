@@ -1,3 +1,4 @@
+import argparse
 import datetime
 
 
@@ -92,13 +93,33 @@ class EditsFromExcelSpreadsheet(EditsDict):
 
 
 if __name__ == '__main__':
+
+	message = """
+	This script called alone will merge an edit type with a person specified as in
+	the 'Completed Letters' file.
+
+	View --help for more info on running from
+	the command line.
+	"""
+
+	parser = argparse.ArgumentParser(description=message)
+	parser.add_argument('--inputFilePath', '-i', help="Specify the path of an input file.")
+	parser.add_argument('--outputFilePath', '-o', help="Specify the path to output file")
+	parser.add_argument('--editFilePath', '-f', help="Specify an xlsx file containing edit and matching ID numbers")
+
+	inputFilePath = parser.parse_args().inputFilePath
+	outputFilePath = parser.parse_args().outputFilePath
+	editFilePath = parser.parse_args().editFilePath
+
+	
+
 	from Processor import Processor as Processor
-	edits = EditsFromExcelSpreadsheet('spreadsheets/Completed Letters to be proofed.xlsx', 
+	edits = EditsFromExcelSpreadsheet(editFilePath, 
 				'ID NUMBERS', 'ID', 'PROOFED BY', 'DATE', 'OmekaProof')
 
 	editLogger = EditLogger(editDict=edits)
 
-
+	# Maybe add a generic thing to write a default string as well?
 	class LogEditProcess(Processor):
 		def __init__(self, inputFilePath, outputFilePath):
 			self.resolve = self._logEditProcess
@@ -112,8 +133,8 @@ if __name__ == '__main__':
 		def _logEditProcess(self, field):
 			return field
 
-	lep = LogEditProcess('output/filtered.shelve', 'output/omekaProofEditsLogged.shelve')
+	lep = LogEditProcess(inputFilePath, outputFilePath)
 	lep.process()
 
-
+	print("Data has been extracted to the shelf file '%s'" % outputFilePath)
 
