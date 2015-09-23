@@ -3,8 +3,8 @@
 test/test-extractor/test-tmp
 spreadsheets
 __pycache__
-shelve_files
-xmlfiles
+
+xmlfiles/*.xml
 
 # Compiled source #
 ###################
