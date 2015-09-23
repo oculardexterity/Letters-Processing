@@ -52,10 +52,16 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>{{Source|e}}</repository>
-                        {% if Document_Collection_Number %}
-                        <idno type="collection">{{Document_Collection_Number|e}}</idno><!-- NOT ALWAYS -->
-                    	{% endif %}
+                        {% if 'Private' in Source %}
+                        <repository ref="#{{Source|e}}"></repository>
+                        <collection type='private'>{{Source|e}}</collection><!--MANDATORY-->
+                        {% else %}
+                        <repository ref="#{{Source|e}}">{{Source|e}}</repository>
+                            {% if Document_Collection_Number %}
+                                <collection type='public'>{{Document_Collection_Number|e}}</collection><!--MANDATORY -->
+                                <idno>{{Document_Collection_Number|e}}</idno>
+                            {% endif %}
+                       {% endif %}
                     </msIdentifier>
                 </msDesc>
            </sourceDesc>
@@ -66,25 +72,25 @@
 
 				<correspAction type="receiving">
 				{% if Recipient %}
-            		<persName>{{Recipient|e}}</persName>
+				    <persName ref="#{{to_snake(Recipient)|e}}">{{Recipient|e}}</persName>
                 {% else %}
-                    <persName>MISSING</persName>
+				    <persName>MISSING</persName>
             	{% endif %}
             	
 
 
                 {% if Recipient_s_location %}
-                    <placeName>{{Recipient_s_location|e}}</placeName>
+				    <placeName  ref="#{{to_snake(Recipient_s_location)|e}}">{{Recipient_s_location|e}}</placeName>
                 {% endif %}
                 <!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
                 </correspAction>
                  
 				<correspAction type="sending">
 					{% if Creator %} 
-                    <persName>{{Creator|e}}</persName>
+				    <persName ref="#{{to_snake(Creator)|e}}">{{Creator|e}}</persName>
                     {% endif %}
                     {% if Sender_s_location %} 
-                    <placeName>{{Sender_s_location|e}}</placeName>
+				    <placeName ref="#{{to_snake(Sender_s_location)|e}}">{{Sender_s_location|e}}</placeName>
                     {% endif %}
                     {% if DATE_created %}
                     <date when="{{DATE_created}}">{{DATE_created|e}}</date>
@@ -97,7 +103,10 @@
                     <list>
                     {% if Authors_gender %}
                         <item n="gender">{{Authors_gender|e}}</item><!--put an IF -->
-                    {% endif %}    
+                    {% endif %}  
+                    {% if Year_of_death_of_author %}
+                        <item n="death">{{Year_of_death_of_author|e}}</item>
+                        {% endif %}
                         <item n="assigned_category">{{Collection|e}}</item>{# who decide the collection?? #}
                     {% if Topics %}
                     	{% for topic in Topics.split(',') %}
@@ -108,7 +117,7 @@
                 </keywords>
             </textClass>
             <langUsage>
-                <language ident="en-EN">{{Language|e}}</language>
+                <language ident="en">{{Language|e}}</language>
             </langUsage>
 	 </profileDesc>
     <encodingDesc>
@@ -126,15 +135,18 @@
         {% endfor %}
     </revisionDesc>
 </teiHeader>
-<facsimile> 
-        <graphic />
-</facsimile> <!-- Stick some page iterator here. graphic/@xml:id=standard filename-->
+    
+        <facsimile> 
+            {% for key, page in sorted(Pages.items()) %}
+            <graphic xml:id="L1916_{{Letter}}_img_{{loop.index}}" url="{{page.Archive_Filename}}"/> 
+            {% endfor %}
+        </facsimile>               
 
    
     <text type="letter"><!-- issue to resolve with a previous process? -->
         <body>
            {% for key, page in sorted(Pages.items()) %}
-                <pb n="{{key}}" facs="{{page.Archive_Filename}}"/> <!-- pb node also wants a @ref="#standardFilename"-->
+            <pb n="{{key}}" facs="#L1916_{{Letter}}_img_{{loop.index}}"/>
                 {{page.Translation}}
            {% endfor %}
         </body>

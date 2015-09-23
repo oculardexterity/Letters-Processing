@@ -4,12 +4,13 @@ import os
 
 from Stream import Stream
 
-
+def to_snake_case(text):
+	return text.replace(' ', '_')
 
 def run_templater(inputFile, outputDir, tmpF):
 	templateFile = open(tmpF).read() 
 	env = jinja2.Environment()
-	env.globals.update(sorted=sorted)
+	env.globals.update(sorted=sorted, to_snake=to_snake_case)
 
 	template = env.from_string(templateFile)
 

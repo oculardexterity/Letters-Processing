@@ -8,6 +8,8 @@ import sys
 
 class Stream:
 	def __init__(self, f, dict_key, print_out=False, sheet="Translations"):
+		
+		#print("default sheet:", sheet)
 		# Setup class for Excel file
 		if f.endswith('xlsx'):
 			try:
@@ -99,10 +101,9 @@ if __name__ == "__main__":
 	except AttributeError:
 		key = False
 
-	try:
-		sheet = parser.parse_args().sheet
-	except AttributeError:
-		sheet = 'Translations'
+
+	
+	sheet = parser.parse_args().sheet or 'Translations'
 
 
 	if filepath and key:
