@@ -5,6 +5,7 @@ spreadsheets
 __pycache__
 shelve_files
 xmlfiles
+letter-process
 
 # Compiled source #
 ###################
