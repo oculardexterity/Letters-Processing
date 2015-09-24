@@ -20,11 +20,17 @@ class FixAmpersands(Processor):
 		new_row = row
 		reg = r'&(?!\S+[^;])'
 		mod = '&amp;'
+		#print(row["Letter"])
 		for key, page in row["Pages"].items():
-			modified_page =  re.sub(reg, mod, page["Translation"])   
-			new_row["Pages"][key]["Translation"] = modified_page
+
+			#print("----", key)
+			#print(type(page["Translation"]))
+			if page["Translation"] is not None:
+				print('type not none')
+				modified_page =  re.sub(reg, mod, page["Translation"])   
+				new_row["Pages"][key]["Translation"] = modified_page
 		return new_row
 
 if __name__ == '__main__':
-	fix_amps = FixAmpersands('output/omekaProofEditsLogged.shelve','output/fixAmperands.shelve')
+	fix_amps = FixAmpersands('shelve_files/omekaEditsLogged.shelve','shelve_files/fixAmpersands.shelve')
 	fix_amps.process()

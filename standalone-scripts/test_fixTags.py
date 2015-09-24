@@ -1,51 +1,146 @@
+import re
+
 text = """
-And then the man said something <addressand then he carried on and it was great<address/> and somethign something
+<<addressSCOIL ÉANNA, </lb>
+RÁT FEARNÁIN.</address>
+
+
+<   >
+
+<   address  >
+
+
+</pb>
+</pb 
+/pb
+/pb>
+<pb/
+<pb>
+
+<hi rend="superscript"some superscript stuff</hi>
+
+<hi rend="underline">>some underlined stuff</hi
+
+
+address>ST. ENDA'S COLLEGE,</lb>
+RATHFARNHAM.</address>
+<date22/4/16</date
+<salute foreign>A Cara</foreign,</salute
+<p>could you put my brother and myself <lb/up tonight? It is <add important</add> that we should </lb> be in town. If you cannot, can you get </lb> some friend to do it? Please let me know </lb> by bearer. We should send some traps in </lb>the early evening, and arrive on bicycles </lb> ourselves later. </p>
+<salute><foreign>Mise</foreign
+<hi rend="underline">Pádraig  </gap Mac Piarsaig</hi>/salute>
+
+<p>Sanity check: hi rend underline address date salute del note sic foreign lb pb p/p>
+
+Seán T O Ceallaig</lb>
+<address 27 Upper Ruthland St.<lb>
+<hi rend="underline"Dublin/hi>/address>
 """
 print(text)
-tags = "address".split()
+print("-----------------------------------------")
 
-split = text.split(tags[0])
 
-print(split)
+text = re.sub(r'<<', '<', text)
+text = re.sub(r'>>', '>', text)
+text = re.sub(r'\<\s+\>', "", text)
+text = re.sub(r'\<\s+', "<", text)
+text = re.sub(r'\s+\>', ">", text)
 
-new_list = []
+for empttag in ["lb", "pb", "gap"]:
+	for sub in [r'\<\/' + empttag + r'\>', 
+				r'\<\/' + empttag + r'(?!\>)',
+				r'(?<!\<)\/' + empttag + r'\>?',
+				r'\<' + empttag + r'\/(?!\>)',
+				r'\<' + empttag + r'\>']:
+		text = re.sub(sub, "<" + empttag + "/>", text)
 
-for i, chunk in enumerate(split):
 
-	if i == 0:
-		new_chunk = chunk
-		if not chunk.endswith("<"):
-			new_chunk = chunk + "<"
-		new_list.append(new_chunk)
+text = re.sub(r'\<pb\/\>', "<zz/>", text)
+text = re.sub(r'\<gap\/\>', "<gg/>", text)
 
-	elif i == (2):
-		new_chunk = chunk
-		if not (chunk.startswith(">")):
-			if chunk.startswith("/"):
-				new_chunk = chunk.replace("/","")
-				new_list[i-1] = new_list[i-1] + "/"
+text = re.sub(r'hi rend="underline"', "qqq", text)
+text = re.sub(r'hi rend="superscript"', "yyy", text)
 
-			else:
-				new_chunk = ">" + new_chunk
-		new_list.append(new_chunk)
+
+
+
+#fix hi rends... (so don't clash with hi)
+tags = ["address", "date", "salute", "del", "note", "sic",  "foreign", "p", "unclear", "add", 'qqq', 'yyy',  "hi"]
+
+#split = text.split(tag)
+for tag in tags:
+	split = [ch for ch in re.split( r'(?<=\<)(' + tag + r')|(?<=\/)(' + tag + r')|(' + tag + r')(?=\/{0,1}\>)', text) if ch is not None]
+	split = [ch for ch in split if ch != tag]
+
+	#print(split)
+
+	new_list = []
+
+	for i, chunk in enumerate(split):
+		if len(split) == 1:
+			new_list.append(chunk)
+
+		elif i == 0:
+			new_chunk = chunk
+			if not chunk.endswith("<"):
+				new_chunk = chunk + "<"
+			new_list.append(new_chunk)
+
+		elif i == len(split)-1:
+			new_chunk = chunk
+			if not (chunk.startswith(">")):
+				if chunk.startswith("/"):
+					new_chunk = chunk[1:]
+					new_list[i-1] = new_list[i-1] + "/"
+
+				else:
+					new_chunk = ">" + new_chunk
+
+			new_list.append(new_chunk)
+		
+		else:
+			new_chunk = chunk
+			if not (chunk.endswith("</") or chunk.endswith("<")):
+				if chunk.endswith("/"):
+					new_chunk = chunk[:-1] + "</"
+
+				else:
+					new_chunk += "<"
+			if not chunk.startswith(">"):
+				if chunk.startswith("/"):
+					new_chunk = chunk[1:]
+					new_list[i-1] = new_list[i-1] + "/"
+				else:
+					new_chunk = ">" + new_chunk
+
+			new_list.append(new_chunk)
+
+	#THIS ALSO NEEDS TO BE DONE WITH > FOR FIRST!
+	if new_list[-1].endswith("<") or new_list[-1].endswith("/"):
+		new_list.append(">")		
 	
-	else:
-		new_chunk = chunk
-		if not (chunk.endswith("</") or chunk.endswith("<")):
-			if chunk.endswith("/"):
-				new_chunk = chunk[:-1] + "</"
 
-			else:
-				new_chunk += "<"
-		if not (chunk.startswith(">") or chunk.startswith("/")):
-			if chunk.startswith("/"):
-				new_chunk = chunk.replace("/","")
-				new_list[i-1] = new_list[i-1] + "/"
-			else:
-				new_chunk = ">" + new_chunk
+	
+	
+	text = tag.join(new_list)
 
-		new_list.append(new_chunk)
+	if tag == "address":
+		text = re.sub(r'\<address\>', '<xx>', text)
+		text = re.sub(r'\<\/address\>', '</xx>', text)
 
-print(new_list)
 
-print(tags[0].join(new_list))
+text = re.sub(r'\<xx\>', '<address>', text)
+text = re.sub(r'\<\/xx\>', '</address>', text)
+	
+text = re.sub(r'\<zz\/\>', "<pb/>", text)
+text = re.sub(r'\<gg\/\>', "<gap/>", text)
+text = re.sub(r'\<qqq\>', '<hi rend="underline">', text)
+text = re.sub(r'\<yyy\>', '<hi rend="superscript">', text)
+
+
+
+
+
+print(text)
+
+
