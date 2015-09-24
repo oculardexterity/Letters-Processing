@@ -44,9 +44,11 @@
             </seriesStmt>
             <notesStmt>
                 <note type="summary">
-                    {% for desc_para in Description.split('\n\n') %}
-                        <p>{{desc_para|e}}</p>
-                    {% endfor %}
+                    {% if Description %}
+                        {% for desc_para in Description.split('\n\n') %}
+                            <p>{{desc_para|e}}</p>
+                        {% endfor %}
+                    {% endif %}
                 </note>
             </notesStmt>
             <sourceDesc>

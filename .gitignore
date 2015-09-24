@@ -7,6 +7,7 @@ spreadsheets
 __pycache__
 
 xmlfiles/*.xml
+temp_xmlFiles/*.xml
 
 # Compiled source #
 ###################

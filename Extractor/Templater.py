@@ -1,6 +1,7 @@
 import argparse
 import jinja2
 import os
+from xml.etree import ElementTree as ET
 
 from Stream import Stream
 
@@ -16,11 +17,28 @@ def run_templater(inputFile, outputDir, tmpF):
 
 
 	s = Stream(inputFile, 'Letter')
+	
+	# Dirty counter for well-formedness
+	wf = 0
+	bf = 0
+
+
 	for key, item in s.stream():
 		templatedText = template.render(item)
 		f = open(outputDir+key+".xml", 'w')
 		f.write(templatedText)
 		f.close()
+
+		# A dirty checker for wellformedness
+		try:
+			ET.fromstring(templatedText)
+			wf += 1
+		except Exception as e:
+			print(key, " is BAD:: ", e)
+			bf += 1
+
+	print('GOOD: ', wf)
+	print('BAD: ', bf)
 
 
 if __name__ == '__main__':
