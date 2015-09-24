@@ -21,7 +21,7 @@ class FixAmpersands(Processor):
 		reg = r'&(?!\S+[^;])'
 		mod = '&amp;'
 		for key, page in row["Pages"].items():
-			modified_page =  re.sub(reg, mod, page["Translation"])   
+			modified_page =  re.sub(reg, mod, page["Translation"])
 			new_row["Pages"][key]["Translation"] = modified_page
 		return new_row
 
