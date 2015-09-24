@@ -15,6 +15,9 @@ xmlfiles/*.xml
 temp_xmlFiles/*.xml
 
 
+letter-process
+
+
 # Compiled source #
 ###################
 *.com
