@@ -1,11 +1,19 @@
+# Some update test #
+
 *.shelve
 
 test/test-extractor/test-tmp
 spreadsheets
 __pycache__
+
 shelve_files
 xmlfiles
 letter-process
+
+
+xmlfiles/*.xml
+temp_xmlFiles/*.xml
+
 
 # Compiled source #
 ###################
