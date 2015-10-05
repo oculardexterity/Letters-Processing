@@ -61,8 +61,6 @@ class FixTags(Processor):
 						r'\<' + empttag + r'\>']:
 				tags_fixed += len(re.findall(sub, text))
 				text = re.sub(sub, "<" + empttag + "/>", text)
-				
-
 
 		text = re.sub(r'\<pb\/\>', "<zz/>", text)
 		text = re.sub(r'\<gap\/\>', "<gg/>", text)
@@ -71,12 +69,9 @@ class FixTags(Processor):
 		text = re.sub(r'hi rend="superscript"', "yyy", text)
 
 
-
-
-		#fix hi rends... (so don't clash with hi)
 		tags = ["address", "date", "salute", "del", "note", "sic",  "foreign", "p", "unclear", "add", 'qqq', 'yyy',  "hi"]
 
-		#split = text.split(tag)
+
 		for tag in tags:
 			split = [ch for ch in re.split( r'(?<=\<)(' + tag + r')|(?<=\/)(' + tag + r')|(' + tag + r')(?=\/{0,1}\>)', text) if ch is not None]
 			split = [ch for ch in split if ch != tag]
@@ -97,8 +92,6 @@ class FixTags(Processor):
 							tags_fixed+=1
 					new_list.append(new_chunk)
 
-					
-
 				# Last chunk
 				elif i == len(split)-1:
 					new_chunk = chunk
@@ -112,13 +105,8 @@ class FixTags(Processor):
 							tags_fixed+=1
 
 					new_list.append(new_chunk)
-					
-			
 
 				else:
-
-
-
 					new_chunk = chunk
 					if not (chunk.endswith("</") or chunk.endswith("<")):
 						if chunk.endswith("/"):

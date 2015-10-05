@@ -44,13 +44,16 @@ class Processor:
 			for index, fields in self.stream.stream():
 
 				if index in new_shelf:
+
 					#print('index in new shelf')
 					### Some sort of check whether self.resolve.. returns anything, otherwise don't set the index?
 
 					new_shelf[index] = self.resolve(new_shelf[index], fields)
 				else:
+				
 					#print('index not in new shelf')
 					new_shelf[index] = self.transform(fields)
+				
 					#print(index, new_shelf[index])
 		
 		

@@ -32,11 +32,11 @@ class EditLogger:
 			if identifier in self.editDict.data: 
 				edit = {'editType': self.editDict.editType, 
 						'editor': self.editDict.data[identifier][self.editDict.editorColumn],
-						'datetime': str(self.editDict.data[identifier][self.editDict.editDateColumn])[:-3]}
+						'datetime': str(self.editDict.data[identifier][self.editDict.editDateColumn]).replace(" ", "T")}
 				return edit
 			
 		else:
-			edit = {"editType": editType, "editor": editActor, 'datetime': str(datetime.datetime.now())[:-10]}
+			edit = {"editType": editType, "editor": editActor, 'datetime': str(datetime.datetime.now())[:-7].replace(" ", "T")}
 			if editExtraInfo:
 				edit = edit.update(editExtraInfo)
 			return edit
