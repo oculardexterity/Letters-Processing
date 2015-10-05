@@ -23,12 +23,17 @@ class FixTags(Processor):
 		mod = '&amp;'
 
 		for key, page in row["Pages"].items():
+<<<<<<< HEAD
+			modified_page =  re.sub(reg, mod, page["Translation"])
+			new_row["Pages"][key]["Translation"] = modified_page
+=======
 			if page["Translation"] is not None:
 				cleaned = self._tag_cleaner(page["Translation"])
 				new_row["Pages"][key]["Translation"] = cleaned[1]
 				
 				edit = {'clean_count': cleaned[0], 'editType': 'Clean Tags', 'editor': "PythonScript_TagCleaner", 'datetime': str(datetime.datetime.now())[:-10]}
 				new_row["Edits"].append(edit)
+>>>>>>> fb1dc0d763e65b51bf55d769ba0fa2cc56861da7
 		return new_row
 
 	def _tag_cleaner(self, text):
