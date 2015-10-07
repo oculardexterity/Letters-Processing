@@ -24,6 +24,9 @@ class PageTypeLogger(Processor):
 			for k, page in row["Pages"].items():
 				new_row["Pages"][k]["PageType"] = self._get_letter_page_type(page["Translation"])[0]
 		
+		if new_row["Type"] == 'Postcard':
+			new_row = self._get_postcard_type_and_page_types(new_row)
+
 		return new_row
 
 
@@ -73,6 +76,27 @@ class PageTypeLogger(Processor):
 				return ('PageType', 'debug--address pc less than threshold')	
 		else:
 			return ('PageType', 'debug--no address found')
+
+	def _get_postcard_type_and_page_types(self, row):
+		new_row = row
+		page_types = []
+		for k, page in row["Pages"].items():
+			if self._get_letter_page_type(page["Translation"]) == 'EnvelopeType':
+				new_row["Pages"][k]['PageType'] = 'AddressSide'
+				page_types.append('AddressSide')
+			elif '<salute>' in page["Translation"]:
+				new_row["Pages"][k]['PageType'] = 'TextSide'
+				page_types.append('TextSide')
+			else:
+				new_row["Pages"][k]['PageType'] = 'ImageSide'
+				page_types.append('ImageSide')
+
+		if 'AddressSide' in page_types:
+			new_row["Type"] = 'PostcardAM' # Type 1 -- Address and message
+		else:
+			new_row["Type"] = 'PostcardIM' # Type 2 -- Image and address/message
+
+		return new_row
 
 
 if __name__ == '__main__':
