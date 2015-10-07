@@ -52,6 +52,10 @@ class PageTypeLogger(Processor):
 
 
 	def _get_letter_page_type(self, text):
+		"""
+		This function returns a tuple!!!
+		"""
+
 		# Throws an error for pages with no text -- assumes ImageType
 		try:
 			address_contents = extractTagContents(text, 'address')
@@ -81,12 +85,15 @@ class PageTypeLogger(Processor):
 		new_row = row
 		page_types = []
 		for k, page in row["Pages"].items():
-			if self._get_letter_page_type(page["Translation"]) == 'EnvelopeType':
+			if self._get_letter_page_type(page["Translation"])[0] == 'EnvelopeType':
 				new_row["Pages"][k]['PageType'] = 'AddressSide'
 				page_types.append('AddressSide')
-			elif '<salute>' in page["Translation"]:
+			elif '<salute>' in page["Translation"] or '<date>' in page["Translation"]:
 				new_row["Pages"][k]['PageType'] = 'TextSide'
 				page_types.append('TextSide')
+			elif page["Translation"] is not None:
+				new_row["Pages"][k]['PageType'] = 'ImageCaptionSide'
+				page_types.append('ImageCaptionSide')
 			else:
 				new_row["Pages"][k]['PageType'] = 'ImageSide'
 				page_types.append('ImageSide')

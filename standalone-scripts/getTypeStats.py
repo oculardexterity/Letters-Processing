@@ -18,11 +18,11 @@ other_count = 0
 
 
 for k, item in stream.stream():
-	if 'postcard' in  item["Title"].lower():
-		print('\n\n=============================\n\n')
+	if k == '242':
 		for i, page in item["Pages"].items():
-			print('------------------')
+			print(page["PageType"])
 			print(page["Translation"])
+			print('\n--------------------\n')
 
 	'''
 
