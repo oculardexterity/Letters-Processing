@@ -104,7 +104,7 @@ if __name__ == "__main__":
 
 	
 	sheet = parser.parse_args().sheet or 'Translations'
-
+	print(sheet)
 
 	if filepath and key:
 		s = Stream(filepath, key, print_out=True, sheet=sheet)
