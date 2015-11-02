@@ -86,7 +86,7 @@
             <correspDesc>
                 
 
-				<correspAction type="receiving">
+				<correspAction type="received">
 				{% if Recipient %}
 				    <persName ref="#{{to_snake(Recipient)|e}}">{{Recipient|e}}</persName>
                 {% else %}
@@ -101,7 +101,7 @@
                 <!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
                 </correspAction>
                  
-				<correspAction type="sending">
+				<correspAction type="sent">
 					{% if Creator %} 
 				    <persName ref="#{{to_snake(Creator)|e}}">{{Creator|e}}</persName>
                     {% endif %}
@@ -113,6 +113,17 @@
 				    <!-- Make the date human-readable -->
                     {% endif %}
             	</correspAction>
+
+<!--
+                <correspAction type="redirected/forwarded/transmitted">
+                    <p>Can use this??</p>
+                </correspAction>
+-->
+<!--
+                <correspContext>
+                    <p>Can we do something with this?</p>
+                </correspContext>
+-->
             </correspDesc>
             <textClass>
                 <!-- Type of the letter should be separate -->
