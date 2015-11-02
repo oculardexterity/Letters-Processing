@@ -1,4 +1,4 @@
-import re
+import re as re
 from EditLogger import EditLogger
 from Processor import Processor as Processor
 
@@ -8,28 +8,40 @@ Class for wrapping opener/closer --- classed for namespace convenience
 class WrapperUtils:
 
 	def __init__(self, temp_wrapper=False):
+		re.purge()
 		self.temp_wrapper = temp_wrapper
-		if self.temp_wrapper:
-			self.find_temp_segments_regex = re.compile(r'[^(<p>)]<' + self.temp_wrapper + r'>[\s\S]*?</' + self.temp_wrapper + r'>[\s\n\t]??')
+		
+		
 
 	def wrap_element_with_tags(self, text, elem_to_wrap, wrapping_element):
 		regex = r'(<' + elem_to_wrap + r'>[\s\S]*?</' + elem_to_wrap + r'>)'
 		pattern = re.compile(regex)
 		result = pattern.findall(text)
-		#print(result)
+		text = text
 		for r in set(result):
 			text = re.sub(r, r'<' + wrapping_element + r'>' + r + r'</' + wrapping_element + '>', text)
+
 		return text
 
-	def find_positions_of_matches(self, pattern_as_regex, text, previous_end=0, pieces=[]):
-		result = pattern_as_regex.search(text, previous_end)
+	def find_positions_of_matches(self, text, previous_end=0, pieces=[]):
+		try:
+			re.purge()
+			self.find_temp_segments_regex = re.compile(r'[^(<p>)]<' + self.temp_wrapper + r'>[\s\S]*?</' + self.temp_wrapper + r'>[\s\n\t]??')
+			re.purge()
+			result = self.find_temp_segments_regex.search(text, previous_end)
+			re.purge()
+		except Exception as e:
+			print('findpos_error')
+			raise e
 		try:
 			rg = result.group()
+			print(rg)
 			rs = result.start()
-			re = result.end()
-			pieces.append((rs,re,rg))
-			return self.find_positions_of_matches(pattern_as_regex, text, previous_end=re, pieces=pieces)
+			ren = result.end()
+			pieces.append((rs,ren,rg))
+			return self.find_positions_of_matches(text, previous_end=ren, pieces=pieces)
 		except:
+			print(pieces)
 			return pieces
 
 	def find_contiguous_pieces(self, pieces, threshold=100):
@@ -62,11 +74,23 @@ class WrapperUtils:
 
 	# Grabs the segment of text from its start and end positions
 	def get_segment(self, text, s,e):
-		regex = r'[\s\S]*'
-		pattern = re.compile(regex)
-		segment = pattern.search(text,s,e).group()
-		
-		return segment
+		try:
+			regex = r'[\s\S]*'
+			re.purge()
+			pattern = re.compile(regex)
+			print(pattern)
+			
+			try:
+				segment = pattern.search(text,s,e).group()
+				
+				return segment
+			except Exception as e:
+				print('getseg regex err -', e)
+				raise e
+			
+		except Exception as e:
+			print('getseg error', e)
+			raise e
 
 	# Strips temp tags from some text (looks more complicated than just re.sub, but dunno why...)
 	# Q. above: A. I think to remove internal TEMPS; Used by fix-opener and fix-closer -wraps()
@@ -90,30 +114,52 @@ class WrapperUtils:
 
 	def wrap_pieces_in_text(self, text, ordered_cont_pieces):
 		text_length = len(text)
-
+		text = text
+		if text:
+			print('wp text in ok')
 		try: 
 		
-
-			opener_segment = self.get_segment(text, ordered_cont_pieces[0][0], ordered_cont_pieces[0][1])
-			closer_segment = self.get_segment(text, ordered_cont_pieces[-1][0], ordered_cont_pieces[-1][1])
+			try:
+				re.purge()
+				opener_segment = self.get_segment(text, ordered_cont_pieces[0][0], ordered_cont_pieces[0][1])
+			except Exception as e:
+				print('wp_openseg error')
+				raise e
+			try:
+				re.purge()
+				closer_segment = self.get_segment(text, ordered_cont_pieces[-1][0], ordered_cont_pieces[-1][1])
+			except Exception as e:
+				print('wp_closeg error')
+				raise e
 			# Maybe some more checking in case there's some shit at the top/bottom? -- i.e. check
 			# by length or content?	
 			
+			try:
+				if ordered_cont_pieces[-1][1] > text_length * 0.7 and '<salute>' in closer_segment:
+					text = re.sub(closer_segment, self.fix_closer_wraps(closer_segment), text)
+			except Exception as e:
+				print('wp closersub failed')
+				raise e
 
-			if ordered_cont_pieces[-1][1] > text_length * 0.7 and '<salute>' in closer_segment:
-				text = re.sub(closer_segment, self.fix_closer_wraps(closer_segment), text)
-
-			text = re.sub(opener_segment, self.fix_opener_wraps(opener_segment), text)	
-			
+			try:
+				text = re.sub(opener_segment, self.fix_opener_wraps(opener_segment), text)	
+			except Exception as e:
+				print('wp openersub failed')
+				print(e)
 		
-
+			print('wp_ index error not triggered')
 		except IndexError: # presumably from fail if there is only one segment identified
+			print('wp_index error')
 			opener_segment = self.get_segment(text, cont_pieces[0][0], cont_pieces[0][1])
 			text = re.sub(opener_segment, self.fix_opener_wraps(opener_segment), text)
-		
+		except Exception as e:
+
+			print('wp_general exception', e)
+			raise e
 		# Remove all remaining temps
 		text = re.sub(r'<TEMP>','',text)
 		text = re.sub(r'</TEMP>','',text)
+		#print(text)
 		return text
 
 
@@ -131,22 +177,35 @@ class WrapOpenerAndCloser(Processor):
 		self.dict_key = 'Letter'
 		self.inputFilePath = inputFilePath
 		self.outputFilePath = outputFilePath
+		
 		super().__init__()
 
 	def wrap_opener_and_closer(self, row):
 		new_row = row
-		text = self._merged_pages(row['Pages'])
-
-
-		text = self._wrap_opener_and_closer_process(text)
-
-		split = self._split_pages(text)
-		new_row["Pages"] = self._build_new_page_row(row['Pages'], split)
+		
+		#
+		l_list = [1038,1039,1040]
+		if row["Type"] == 'Letter' and (row["Letter"] in l_list):
+			print('--------')
+			print(row["Letter"], row["Type"])
+			text = self._merged_pages(row['Pages'])
+			text = self._wrap_opener_and_closer_process(text)
+			split = self._split_pages(text)
+			new_row["Pages"] = self._build_new_page_row(row['Pages'], split)
+		# Implicitly, else do nothing	
+		
 		return new_row
 		
 
 	def _merged_pages(self, pages):
-		text = "§§\n".join([str(v["Translation"]) for k, v in sorted(pages.items()) if v["Translation"]])
+		def page_ok_to_include(k, v):
+			print(k, v["PageType"] )
+			if v["Translation"] and v["PageType"] =='PageType':
+				return True
+			else:
+				return False
+
+		text = "§§\n".join([str(v["Translation"]) for k, v in sorted(pages.items()) if page_ok_to_include(k, v)])
 		return(text)
 			
 	def _split_pages(self, pages_text):
@@ -164,25 +223,35 @@ class WrapOpenerAndCloser(Processor):
 
 
 	def _wrap_opener_and_closer_process(self, text):
-			
-		wu = WrapperUtils('TEMP')
+		print(text)
+		self.WU = WrapperUtils('TEMP')
+		print(self.WU)
+		
 		# List of tags to consider
 		tags_in_opener_and_closer =  ['salute', 'dateline', 'date', 'address', 'signed']
+		self.letter_text = text
 		for tag in tags_in_opener_and_closer:
-			letter_text = wu.wrap_element_with_tags(letter_text, tag, 'TEMP')
-
-		pieces = wu.find_positions_of_matches(wu.find_temp_segments_regex, letter_text)
-
+			self.letter_text = self.WU.wrap_element_with_tags(self.letter_text, tag, 'TEMP')
+		pieces = []
+		pieces = self.WU.find_positions_of_matches(self.letter_text)
+		if pieces:
+			print('Pieces ok')
 		try:
-			contiguous_pieces = wu.find_contiguous_pieces(pieces)
-			opener_closer_fixed_text = wu.wrap_pieces_in_text(letter_text, contiguous_pieces)
+			contiguous_pieces = self.WU.find_contiguous_pieces(pieces)
+			if contiguous_pieces:
+				print('cont_pieces ok')
+			opener_closer_fixed_text = self.WU.wrap_pieces_in_text(self.letter_text, contiguous_pieces)
+			print('SUCCESS')
+			#print(opener_closer_fixed_text)
 			return opener_closer_fixed_text
-		except:
-			print('Fail')
+		except Exception as e:
+			#Maybe raise error and log higher up??)
+			print('FAIL', e)
+			return text		
 
 
 
 
 if __name__ == '__main__':
-	w = WrapOpenerAndCloser('shelve_files/tagsCleaned.shelve', 'shelve_files/WrapOpenerAndCloser.shelve')
+	w = WrapOpenerAndCloser('shelve_files/pageTypesLogged.shelve', 'shelve_files/WrapOpenerAndCloser.shelve')
 	w.process()
