@@ -23,8 +23,6 @@ class ProcessQueue:
 		self.run_Extractor_RPD()
 		self.run_Extractor_MLP()
 		self.run_Filter()
-
-		
 		self.run_EditLogger()
 		self.run_Cleaners()
 		self.run_PageTypeLoggers()

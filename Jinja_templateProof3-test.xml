@@ -193,29 +193,9 @@
             {% endfor %}
         </facsimile>               
 
-   
-    <text type="{{ Type }}"><!-- issue to resolve with a previous process? -->
-        <body>
-           {% for key, page in sorted(Pages.items()) %}
-                {% if page.PageType != 'EnvelopeType' %}
-                    <pb n="{{key}}" facs="#L1916_{{Letter}}_img_{{loop.index}}"/>
-                        {{page.Translation}}
-                {% endif %}
-           {% endfor %}
-        </body>
-    </text>
-
-    {% for key, page in sorted(Pages.items()) %}
-        {% if page.PageType == 'EnvelopeType' %}
-            <text type="Enclosure">
-                <body>
-                    <pb n="{{key}}" facs="#L1916_{{Letter}}_img_enc_{{loop.index}}"/>
-                    {{page.Translation}}
-                </body>
-            </text>
-        {% endif %}
-    {% endfor %}
-    
+   {% block body %}
+        nothing here
+    {% endblock %}
     
     <!-- photograph or other enclosure  - don't include unless it contains text ...
         get all non-declared facs, stick on the 'additional stuff' column -->

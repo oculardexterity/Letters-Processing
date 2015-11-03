@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="L1916_{{Letter}}">
+     <fileDesc>
+                <titleStmt>
+                    <title>{{Title|e}}</title>
+                    {% if Creator %}
+                    <author>{{Creator|e}}</author>
+                    {% else %}
+                    <author>MISSING</author>
+                    {% endif %}
+                    <editor></editor>
+                </titleStmt>
+                <editionStmt>
+                    <p/>
+                </editionStmt>
+                <publicationStmt>
+                    <publisher>
+                        <address>
+                            <name>An Foras Feasa</name>
+                            <orgName>Maynooth University</orgName>
+                            <postBox>Co. Kildare</postBox>
+                            <placeName>
+                                <country>IRE</country>
+                                <settlement>Maynooth</settlement>
+                            </placeName>
+                        </address>
+                    </publisher>
+                    <idno n="L1916_{{Letter|e}}"/>
+                    <availability status="restricted">
+                        <p>All rights reserved. No part of this image may be reproduced, distributed, or
+            transmitted in any form or by any means, including photocopying, recording, or other
+            electronic or mechanical methods, without the prior written permission of the institutional
+            or private owner of the image and the Letters of 1916 project. For permission requests,
+            write to the Letters of 1916 at letters1916@gmail.com. </p>
+                        <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                    </availability>
+                    <date when="2015">2015</date>
+                </publicationStmt>
+                <seriesStmt>
+                    <!-- Series statement ?-->
+                    <p>PUT A STATEMENT</p>
+                </seriesStmt>
+                <notesStmt>
+                    <note type="summary">
+                        {% if Description %}
+                            {% for desc_para in Description.split('\n\n') %}
+                                <p>{{desc_para|e}}</p>
+                            {% endfor %}
+                        {% endif %}
+                    </note>
+                </notesStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            {% if 'Private' in Source %}
+                            <repository ref="#{{Source|e}}"></repository>
+                            <collection type='private'>{{Source|e}}</collection><!--MANDATORY-->
+                            {% else %}
+                            <repository ref="#{{Source|e}}">{{Source|e}}</repository>
+                                {% if Document_Collection_Number %}
+                                    <collection type='public'>{{Document_Collection_Number|e}}</collection><!--MANDATORY -->
+                                    <idno>{{Document_Collection_Number|e}}</idno>
+                                {% endif %}
+                           {% endif %}
+                        </msIdentifier>
+                    </msDesc>
+               </sourceDesc>
+            </fileDesc>
+        <profileDesc>
+                <correspDesc>
+                    
+
+                    <correspAction type="receiving">
+                    {% if Recipient %}
+                        <persName ref="#{{to_snake(Recipient)|e}}">{{Recipient|e}}</persName>
+                    {% else %}
+                        <persName>MISSING</persName>
+                    {% endif %}
+                    
+
+
+                    {% if Recipient_s_location %}
+                        <placeName  ref="#{{to_snake(Recipient_s_location)|e}}">{{Recipient_s_location|e}}</placeName>
+                    {% endif %}
+                    <!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+                    </correspAction>
+                     
+                    <correspAction type="sending">
+                        {% if Creator %} 
+                        <persName ref="#{{to_snake(Creator)|e}}">{{Creator|e}}</persName>
+                        {% endif %}
+                        {% if Sender_s_location %} 
+                        <placeName ref="#{{to_snake(Sender_s_location)|e}}">{{Sender_s_location|e}}</placeName>
+                        {% endif %}
+                        {% if DATE_created %}
+                        <date when="{{DATE_created}}">{{DATE_created|e}}</date>
+                        {% endif %}
+                    </correspAction>
+                </correspDesc>
+                <textClass>
+                    <!-- Type of the letter should be separate -->
+                    <keywords>
+                        <list>
+                        {% if Authors_gender %}
+                            <item n="gender">{{Authors_gender|e}}</item><!--put an IF -->
+                        {% endif %}  
+                        {% if Year_of_death_of_author %}
+                            <item n="death">{{Year_of_death_of_author|e}}</item>
+                            {% endif %}
+                            <item n="assigned_category">{{Collection|e}}</item>{# who decide the collection?? #}
+                        {% if Topics %}
+                            {% for topic in Topics.split(',') %}
+                                <item n="tag">{{topic|e}}</item>
+                            {% endfor %}
+                        {% endif %}       
+                        </list>
+                    </keywords>
+                </textClass>
+                <langUsage>
+                    <language ident="en">{{Language|e}}</language>
+                </langUsage>
+         </profileDesc>
+        <encodingDesc>
+            <samplingDecl>
+                <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                        Letters of 1916: creating history.
+                </ab>
+            </samplingDecl>
+        </encodingDesc>
+        <revisionDesc>
+            {% for revision in Edits %}
+                <change when="{{revision.datetime}}" who="#{{revision.editor}}">
+                    {{revision.editType}}
+                </change>
+            {% endfor %}
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile> 
+        {% for key, page in sorted(Pages.items()) %}
+        <graphic xml:id="L1916_{{Letter}}_img_{{loop.index}}" url="{{page.Archive_Filename}}"/> 
+        {% endfor %}
+    </facsimile>               
+
+       
+    <facsimile>
+    {% for key, page in sorted(Pages.items()) %}
+    <graphic xml:id="L1916_{{Letter}}_img_{{loop.index}}" url="{{page.Archive_Filename}}"/> 
+    {% endfor %}
+</facsimile>               
+
+<text type="postcardIM">
+    <body>
+        {% for key, page in sorted(Pages.items()) %}
+        
+            {% if page.PageType == 'ImageCaptionSide'  %}
+            <div type="imageCaption" facs="#L1916_{{Letter}}_img_{{loop.index}}">
+                {{page.Translation}}
+            </div>
+            {% endif %}
+            
+            {% if page.PageType == 'TextSide'  %}
+            
+            <div type="message" facs="#L1916_{{Letter}}_img_{{loop.index}}">
+                {{page.Translation}}
+            </div>
+            {% endif %}
+        
+            {% if not page.PageType %}
+                <!-- unknown page type --- CHECK!!! -->
+                {% if page.Translation %}
+                     {{page.Translation}}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </body>
+</text>
+
+     
+
+</TEI>
+
+
+    

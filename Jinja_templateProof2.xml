@@ -138,21 +138,21 @@
     </revisionDesc>
 </teiHeader>
     
-        <facsimile> 
-            {% for key, page in sorted(Pages.items()) %}
-            <graphic xml:id="L1916_{{Letter}}_img_{{loop.index}}" url="{{page.Archive_Filename}}"/> 
-            {% endfor %}
-        </facsimile>               
+<facsimile> 
+    {% for key, page in sorted(Pages.items()) %}
+    <graphic xml:id="L1916_{{Letter}}_img_{{loop.index}}" url="{{page.Archive_Filename}}"/> 
+    {% endfor %}
+</facsimile>               
 
    
-    <text type="letter"><!-- issue to resolve with a previous process? -->
-        <body>
-           {% for key, page in sorted(Pages.items()) %}
-            <pb n="{{key}}" facs="#L1916_{{Letter}}_img_{{loop.index}}"/>
-                {{page.Translation}}
-           {% endfor %}
-        </body>
-    </text>
+<text type="letter"><!-- issue to resolve with a previous process? -->
+    <body>
+       {% for key, page in sorted(Pages.items()) %}
+        <pb n="{{key}}" facs="#L1916_{{Letter}}_img_{{loop.index}}"/>
+            {{page.Translation}}
+       {% endfor %}
+    </body>
+</text>
      
 
 </TEI>

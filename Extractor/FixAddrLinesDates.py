@@ -16,77 +16,101 @@ class FixAddrLineDate(Processor):
 
 	def _fix(self, row):
 		new_row = row
-		#print(row["Letter"])
-		text = self._merged_pages(row['Pages'])
-		if row:
+		if row["Type"] == 'Letter':
 			
+			#print(row["Letter"])
+			text = self._merged_pages(row['Pages'])
+			if row:
+
+				try:
+					extracted_opener = HF.extractTagContents(text, 'opener')
+					#print(extracted_opener[0])
+					extracted_address = HF.extractTagContents(extracted_opener[0], 'address')
+					#print('----')
+					##print(extracted_address[0])
+					try:
+						wrapped = HF.wrapOnEmptyElementSplit(extracted_address[0],'lb','addrLine')
+						#print(wrapped)
+						#print('------')
+						text = text.replace(extracted_address[0], wrapped)
+
+						#print(text)
+					except IndexError:
+						#print('No address')
+						pass
+
+					extracted_closer = HF.extractTagContents(text, 'closer')
+					#print(extracted_opener[0])
+					extracted_address = HF.extractTagContents(extracted_closer[0], 'address')
+					#print('----')
+					##print(extracted_address[0])
+					try:
+						wrapped = HF.wrapOnEmptyElementSplit(extracted_address[0],'lb','addrLine')
+						#print(wrapped)
+						#print('------')
+						text = text.replace(extracted_address[0], wrapped)
+
+						#print(text)
+					except IndexError:
+						pass
+						#print('No address')
+				except Exception:
+					pass
+					#print('nameError')
+
+				#print('-----')
+
+				try:
+					extracted_opener = HF.extractTagContents(text, 'opener')
+					#print(extracted_opener[0])
+					#print('-----')
+					dateline_wrapped = WU.wrap_element_with_tags(extracted_opener[0], 'date', 'dateline')
+					#print(dateline_wrapped)
+					#print('-----')
+					text = text.replace(extracted_opener[0], dateline_wrapped)
+					#print(text)
+				except:
+					pass
+					#print('DATEERROR')
+
+				try:
+					extracted_opener = HF.extractTagContents(text, 'opener')
+					#print(extracted_opener)
+					lb_stripped = extracted_opener[0].replace("<lb/>","")
+					#print(lb_stripped)
+					text = text.replace(extracted_opener[0], lb_stripped)
+					#print(text)
+				except:
+					pass
+					#print('DATEERROR')
 			#print(text)
-			#print('--------')
+			split = self._split_pages(text)
+			new_row["Pages"] = self._build_new_page_row(row['Pages'], split)
+		
 
+
+
+
+		if row["Type"] == 'PostcardAM':
+			addrPageID = [k for k, p in row["Pages"].items() if p["PageType"] == 'AddressSide']
+			print(addrPageID)
+			text = row["Pages"][addrPageID[0]]["Translation"]
+			print(text)
 			try:
-				extracted_opener = HF.extractTagContents(text, 'opener')
-				#print(extracted_opener[0])
-				extracted_address = HF.extractTagContents(extracted_opener[0], 'address')
-				#print('----')
-				##print(extracted_address[0])
+				extracted_address = HF.extractTagContents(text, 'address')
+
 				try:
 					wrapped = HF.wrapOnEmptyElementSplit(extracted_address[0],'lb','addrLine')
 					#print(wrapped)
 					#print('------')
 					text = text.replace(extracted_address[0], wrapped)
-
-					#print(text)
-				except IndexError:
-					#print('No address')
+				except:
 					pass
-
-				extracted_closer = HF.extractTagContents(text, 'closer')
-				#print(extracted_opener[0])
-				extracted_address = HF.extractTagContents(extracted_closer[0], 'address')
-				#print('----')
-				##print(extracted_address[0])
-				try:
-					wrapped = HF.wrapOnEmptyElementSplit(extracted_address[0],'lb','addrLine')
-					#print(wrapped)
-					#print('------')
-					text = text.replace(extracted_address[0], wrapped)
-
-					#print(text)
-				except IndexError:
-					pass
-					#print('No address')
-			except Exception:
-				pass
-				#print('nameError')
-
-			#print('-----')
-
-			try:
-				extracted_opener = HF.extractTagContents(text, 'opener')
-				#print(extracted_opener[0])
-				#print('-----')
-				dateline_wrapped = WU.wrap_element_with_tags(extracted_opener[0], 'date', 'dateline')
-				#print(dateline_wrapped)
-				#print('-----')
-				text = text.replace(extracted_opener[0], dateline_wrapped)
-				#print(text)
 			except:
 				pass
-				#print('DATEERROR')
+			print(text)
+			new_row["Pages"][addrPageID[0]]["Translation"] = text
 
-			try:
-				extracted_opener = HF.extractTagContents(text, 'opener')
-				#print(extracted_opener)
-				lb_stripped = extracted_opener[0].replace("<lb/>","")
-				#print(lb_stripped)
-				text = text.replace(extracted_opener[0], lb_stripped)
-				#print(text)
-			except:
-				pass
-				#print('DATEERROR')
-		#print(text)
-		split = self._split_pages(text)
-		new_row["Pages"] = self._build_new_page_row(row['Pages'], split)
 		return new_row
 
 
