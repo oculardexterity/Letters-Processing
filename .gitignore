@@ -1,7 +1,7 @@
 # Some update test #
 
 *.shelve
-
+testfiles
 test/test-extractor/test-tmp
 spreadsheets
 __pycache__

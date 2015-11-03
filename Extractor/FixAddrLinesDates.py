@@ -21,7 +21,7 @@ class FixAddrLineDate(Processor):
 		if row:
 			
 			#print(text)
-			print('--------')
+			#print('--------')
 
 			try:
 				extracted_opener = HF.extractTagContents(text, 'opener')
@@ -37,11 +37,29 @@ class FixAddrLineDate(Processor):
 
 					#print(text)
 				except IndexError:
-					print('No address')
-			except Exception:
-				print('nameError')
+					#print('No address')
+					pass
 
-			print('-----')
+				extracted_closer = HF.extractTagContents(text, 'closer')
+				#print(extracted_opener[0])
+				extracted_address = HF.extractTagContents(extracted_closer[0], 'address')
+				#print('----')
+				##print(extracted_address[0])
+				try:
+					wrapped = HF.wrapOnEmptyElementSplit(extracted_address[0],'lb','addrLine')
+					#print(wrapped)
+					#print('------')
+					text = text.replace(extracted_address[0], wrapped)
+
+					#print(text)
+				except IndexError:
+					pass
+					#print('No address')
+			except Exception:
+				pass
+				#print('nameError')
+
+			#print('-----')
 
 			try:
 				extracted_opener = HF.extractTagContents(text, 'opener')
@@ -53,7 +71,8 @@ class FixAddrLineDate(Processor):
 				text = text.replace(extracted_opener[0], dateline_wrapped)
 				#print(text)
 			except:
-				print('DATEERROR')
+				pass
+				#print('DATEERROR')
 
 			try:
 				extracted_opener = HF.extractTagContents(text, 'opener')
@@ -63,8 +82,9 @@ class FixAddrLineDate(Processor):
 				text = text.replace(extracted_opener[0], lb_stripped)
 				#print(text)
 			except:
-				print('DATEERROR')
-		print(text)
+				pass
+				#print('DATEERROR')
+		#print(text)
 		split = self._split_pages(text)
 		new_row["Pages"] = self._build_new_page_row(row['Pages'], split)
 		return new_row

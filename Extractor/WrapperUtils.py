@@ -20,7 +20,7 @@ def find_positions_of_matches(text, previous_end=0, pieces=[]):
 		result = find_temp_segments_regex.search(text, previous_end)
 		re.purge()
 	except Exception as e:
-		print('findpos_error')
+		#print('findpos_error')
 		raise e
 	try:
 		rg = result.group()
@@ -74,11 +74,11 @@ def get_segment(text, s,e):
 			
 			return segment
 		except Exception as e:
-			print('getseg regex err -', e)
+			#print('getseg regex err -', e)
 			raise e
 		
 	except Exception as e:
-		print('getseg error', e)
+		#print('getseg error', e)
 		raise e
 
 # Strips temp tags from some text (looks more complicated than just re.sub, but dunno why...)
@@ -104,21 +104,21 @@ def fix_closer_wraps(segment):
 def wrap_pieces_in_text(text, ordered_cont_pieces):
 	text_length = len(text)
 	text = text
-	if text:
-		print('wp text in ok')
+	#if text:
+		#print('wp text in ok')
 	try: 
 	
 		try:
 			re.purge()
 			opener_segment = get_segment(text, ordered_cont_pieces[0][0], ordered_cont_pieces[0][1])
 		except Exception as e:
-			print('wp_openseg error')
+			#print('wp_openseg error')
 			raise e
 		try:
 			re.purge()
 			closer_segment = get_segment(text, ordered_cont_pieces[-1][0], ordered_cont_pieces[-1][1])
 		except Exception as e:
-			print('wp_closeg error')
+			#print('wp_closeg error')
 			raise e
 		# Maybe some more checking in case there's some shit at the top/bottom? -- i.e. check
 		# by length or content?	
@@ -127,23 +127,23 @@ def wrap_pieces_in_text(text, ordered_cont_pieces):
 			if ordered_cont_pieces[-1][1] > text_length * 0.7 and '<salute>' in closer_segment:
 				text = re.sub(closer_segment, fix_closer_wraps(closer_segment), text)
 		except Exception as e:
-			print('wp closersub failed')
+			#print('wp closersub failed')
 			raise e
 
 		try:
 			text = re.sub(opener_segment, fix_opener_wraps(opener_segment), text)	
 		except Exception as e:
-			print('wp openersub failed')
+			#print('wp openersub failed')
 			print(e)
 	
-		print('wp_ index error not triggered')
+		#print('wp_ index error not triggered')
 	except IndexError: # presumably from fail if there is only one segment identified
-		print('wp_index error')
+		#print('wp_index error')
 		opener_segment = get_segment(text, cont_pieces[0][0], cont_pieces[0][1])
 		text = re.sub(opener_segment, fix_opener_wraps(opener_segment), text)
 	except Exception as e:
 
-		print('wp_general exception', e)
+		#print('wp_general exception', e)
 		raise e
 	# Remove all remaining temps
 	text = re.sub(r'<TEMP>','',text)

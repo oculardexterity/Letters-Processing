@@ -24,8 +24,8 @@ class WrapOpenerAndCloser(Processor):
 		
 		l_list = [1038,1039,1040]
 		if row["Type"] == 'Letter':# and (row["Letter"] in l_list):
-			print('--------')
-			print(row["Letter"], row["Type"])
+			#print('--------')
+			#print(row["Letter"], row["Type"])
 			text = self._merged_pages(row['Pages'])
 			text = self._wrap_opener_and_closer_process(text)
 			split = self._split_pages(text)
@@ -37,13 +37,13 @@ class WrapOpenerAndCloser(Processor):
 
 	def _merged_pages(self, pages):
 		def page_ok_to_include(k, v):
-			print(k, v["PageType"] )
+			#print(k, v["PageType"] )
 			if v["Translation"] and v["PageType"] =='PageType':
 				return True
 			else:
 				return False
 
-		text = "§§\n".join([str(v["Translation"]) for k, v in sorted(pages.items()) if page_ok_to_include(k, v)])
+		text = "\n\n" + "§§\n".join([str(v["Translation"]) for k, v in sorted(pages.items()) if page_ok_to_include(k, v)])
 		return(text)
 			
 	def _split_pages(self, pages_text):
@@ -71,19 +71,19 @@ class WrapOpenerAndCloser(Processor):
 			letter_text = WU.wrap_element_with_tags(letter_text, tag, 'TEMP')
 		pieces = []
 		pieces = WU.find_positions_of_matches(letter_text, pieces=[])
-		if pieces:
-			print('Pieces ok')
+		#if pieces:
+			#print('Pieces ok')
 		try:
 			contiguous_pieces = WU.find_contiguous_pieces(pieces)
-			if contiguous_pieces:
-				print('cont_pieces ok')
+			#if contiguous_pieces:
+				#print('cont_pieces ok')
 			opener_closer_fixed_text = WU.wrap_pieces_in_text(letter_text, contiguous_pieces)
-			print('SUCCESS')
+			#print('SUCCESS')
 			#print(opener_closer_fixed_text)
 			return opener_closer_fixed_text
 		except Exception as e:
 			#Maybe raise error and log higher up??)
-			print('FAIL', e)
+			#print('FAIL', e)
 			return text		
 
 
