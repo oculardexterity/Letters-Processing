@@ -22,16 +22,20 @@ class FixTags(Processor):
 		reg = r'&(?!\S+[^;])'
 		mod = '&amp;'
 
-		for key, page in row["Pages"].items():
 
-			modified_page =  re.sub(reg, mod, page["Translation"])
-			new_row["Pages"][key]["Translation"] = modified_page
+
+		for key, page in row["Pages"].items():
+			re.purge()
+			modified_page = page["Translation"].replace('&#x2014;', '§§§§')
+			modified_page =  re.sub(reg, mod, modified_page)
+			modified_page = modified_page.replace('§§§§', '&#x2014;')
+			#new_row["Pages"][key]["Translation"] = modified_page
 
 			if page["Translation"] is not None:
-				cleaned = self._tag_cleaner(page["Translation"])
+				cleaned = self._tag_cleaner(modified_page)
 				new_row["Pages"][key]["Translation"] = cleaned[1]
 				
-				edit = {'clean_count': cleaned[0], 'editType': 'Clean Tags', 'editor': "PythonScript_TagCleaner", 'datetime': str(datetime.datetime.now())[:-10]}
+				edit = {'page_cleaned': key, 'clean_count': cleaned[0], 'editType': 'Clean Tags', 'editor': "PythonScript_TagCleaner", 'datetime': str(datetime.datetime.now())[:-7].replace(" ", "T")}
 				new_row["Edits"].append(edit)
 
 		return new_row
@@ -40,7 +44,7 @@ class FixTags(Processor):
 		tags_fixed = 0
 
 		tags_fixed += len(re.findall(r'&(?!\S+[^;][&])', text))
-		text = re.sub(r'&(?!\S+[^;][&])', '&amp;', text)
+		#text = re.sub(r'&(?!\S+[^;][&])', '&amp;', text)
 		
 		tags_fixed += len(re.findall(r'<<', text))
 		text = re.sub(r'<<', '<', text)

@@ -51,7 +51,10 @@ class ListFromExcel(FilterList):
  		stream = Stream(self.filePath, self.column, sheet="ID NUMBERS")
  		
  		for k, v in stream.stream():
- 			if k != 'None' and v['DATE'] < self.date:
+ 			
+ 			print(k)
+
+ 			if k != 'None' and v["DATE"] < self.date:
 	 			yield str(k) + '.0'
 
 

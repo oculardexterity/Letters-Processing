@@ -24,7 +24,7 @@ class Filter:
 	def filter(self):
 		with ShelveManager(self.new_shelve_file) as new_shelf:
 			for index, fields in self.stream.stream():
-				#print(str(index))
+				print(str(index)+'.0', str(index)+'.0' in self.inclusionList)
 				if str(index)+'.0'  in self.inclusionList and str(index)+'.0' not in self.exclusionList:
 				
 					new_shelf[index] = self._get_fields(fields)

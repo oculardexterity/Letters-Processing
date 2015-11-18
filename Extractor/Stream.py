@@ -108,8 +108,8 @@ if __name__ == "__main__":
 
 	if filepath and key:
 		s = Stream(filepath, key, print_out=True, sheet=sheet)
-		for i in s.stream():
-			print(i)
+		for k, i in s.stream():
+			print(k)
 		print(len(s))
 	elif filepath or key:
 		sys.exit("You must specify both a file path and key ID to output directly")

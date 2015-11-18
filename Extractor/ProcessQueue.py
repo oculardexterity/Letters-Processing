@@ -5,6 +5,7 @@ import Cleaners
 import PageTypeLoggers
 import wrapOpener
 import FixAddrLinesDates
+import BuildCollectionIdnos
 
 import os
 
@@ -28,6 +29,7 @@ class ProcessQueue:
 		self.run_PageTypeLoggers()
 		self.run_WrapOpener()
 		self.run_FixAddrLines()
+		self.run_BuildCollectionIdnos()
 		self.run_StreamOutput()
 
 	
@@ -82,6 +84,11 @@ class ProcessQueue:
 		f = FixAddrLinesDates.FixAddrLineDate(self.input_file_path(), self.output_file_path())
 		f.process()
 
+	def run_BuildCollectionIdnos(self):
+		self.update_file_names('BuildCollectionIdnos')
+		b = BuildCollectionIdnos.BuildCollectionIdnos(self.input_file_path(), self.output_file_path())
+		b.process()
+
 	def run_StreamOutput(self):
 		''' Quick sanity check by outputting the entire finished doc '''
 		command = "python Extractor/Stream.py -f " + self.output_file_path() \
@@ -105,16 +112,16 @@ class ProcessQueue:
 
 if __name__ == '__main__':
 	config = {
-		"inputFilePath": 'spreadsheets/1916letters_all_translations09102015.xlsx',
+		"inputFilePath": 'spreadsheets/newDump.xlsx',
 		"shelve_directory": 'testfiles/shelves/',
 		"output_directory": 'testfiles/output/',
 		"filter_configs" : {
-			"inclusionFilePath": "spreadsheets/Completed Letters to be proofed.xlsx",
+			"inclusionFilePath": "spreadsheets/Completed Letters to be proofed_new.xlsx",
 			"inclusionColumnHeader": "ID",
-			"cutoffDate": "9 September 2015"
+			"cutoffDate": "2 October 2015"
 		},
 		"editLogger_configs": {
-			"editFilePath": "spreadsheets/Completed Letters to be proofed.xlsx"
+			"editFilePath": "spreadsheets/Completed Letters to be proofed_new.xlsx"
 		}
 	}
 

@@ -89,11 +89,29 @@ class FixAddrLineDate(Processor):
 		
 
 
+			addrPageID = [k for k, p in row["Pages"].items() if p["PageType"] == 'EnvelopeType']
+			if addrPageID:
+				text = row["Pages"][addrPageID[0]]["Translation"]
+				print(text)
+				try:
+					extracted_address = HF.extractTagContents(text, 'address')
+
+					try:
+						wrapped = HF.wrapOnEmptyElementSplit(extracted_address[0],'lb','addrLine')
+						#print(wrapped)
+						#print('------')
+						text = text.replace(extracted_address[0], wrapped)
+					except:
+						pass
+				except:
+					pass
+				print(text)
+				new_row["Pages"][addrPageID[0]]["Translation"] = text
 
 
-		if row["Type"] == 'PostcardAM':
+		elif row["Type"] == 'PostcardAM':
 			addrPageID = [k for k, p in row["Pages"].items() if p["PageType"] == 'AddressSide']
-			print(addrPageID)
+			
 			text = row["Pages"][addrPageID[0]]["Translation"]
 			print(text)
 			try:
