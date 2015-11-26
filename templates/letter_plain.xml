@@ -189,18 +189,41 @@
     
     <facsimile> 
         {% for key, page in sorted(Pages.items()) %}
-        <graphic xml:id="L1916_{{Letter}}_img_{{loop.index}}" url="{{page.Archive_Filename}}"/> 
+        <graphic xml:id="L1916_{{Letter}}_img_{{key}}" url="{{page.Archive_Filename}}"/> 
         {% endfor %}
     </facsimile>               
 
-       
-    <text type="letter"><!-- issue to resolve with a previous process? -->
-        <body>
-           {% for key, page in sorted(Pages.items()) %}
-            <pb n="{{key}}" facs="#L1916_{{Letter}}_img_{{loop.index}}"/>
-                {{page.Translation}}
-           {% endfor %}
-        </body>
+    <text>
+        <group>
+                <!-- DO IF/ELSE type check for different types... -->
+
+                
+                    <!-- if page is FIRST -->
+
+                    {{ key = sorted(Pages)[0]] }}
+                    <pb n="{{key}}" facs="#L1916_{{Letter}}_img_{{key}}"/>
+                
+
+                {% for key, page in sorted(Pages.items()) %} 
+                {% endfor %}   
+            <text type="letter"><!-- issue to resolve with a previous process? -->
+                <body>
+                    <!-- PAGE 1 translation -->
+
+                    {% for key, page in sorted(Pages.items())[1:] %} <!-- FROM page 2 onwards -->
+                    
+
+
+                        <pb n="{{key}}" facs="#L1916_{{Letter}}_img_{{loop.index}}"/>
+                        
+                        <!-- Page 2 -> translation -->
+                    {% endfor %}   
+
+                   
+                </body>
+            </text>
+
+        </group>
     </text>
      
 
