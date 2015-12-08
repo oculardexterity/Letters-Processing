@@ -1,7 +1,9 @@
+from EditLogger import EditLogger
 from Processor import Processor
 import HelperFunctions as HF
 import WrapperUtils as WU
 
+editLogger = EditLogger()
 
 class FixAddrLineDate(Processor):
 	def __init__(self, inputFilePath, outputFilePath):
@@ -13,7 +15,7 @@ class FixAddrLineDate(Processor):
 
 		super().__init__()
 
-
+	@editLogger('Fixed addrLine and dateLine in opener/closer', 'PythonScript')
 	def _fix(self, row):
 		new_row = row
 		if row["Type"] == 'Letter':
@@ -92,7 +94,7 @@ class FixAddrLineDate(Processor):
 			addrPageID = [k for k, p in row["Pages"].items() if p["PageType"] == 'EnvelopeType']
 			if addrPageID:
 				text = row["Pages"][addrPageID[0]]["Translation"]
-				print(text)
+				#print(text)
 				try:
 					extracted_address = HF.extractTagContents(text, 'address')
 
@@ -105,7 +107,7 @@ class FixAddrLineDate(Processor):
 						pass
 				except:
 					pass
-				print(text)
+				#print(text)
 				new_row["Pages"][addrPageID[0]]["Translation"] = text
 
 
@@ -113,7 +115,7 @@ class FixAddrLineDate(Processor):
 			addrPageID = [k for k, p in row["Pages"].items() if p["PageType"] == 'AddressSide']
 			
 			text = row["Pages"][addrPageID[0]]["Translation"]
-			print(text)
+			#print(text)
 			try:
 				extracted_address = HF.extractTagContents(text, 'address')
 
@@ -126,7 +128,7 @@ class FixAddrLineDate(Processor):
 					pass
 			except:
 				pass
-			print(text)
+			#print(text)
 			new_row["Pages"][addrPageID[0]]["Translation"] = text
 
 		return new_row

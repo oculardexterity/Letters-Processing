@@ -33,7 +33,7 @@ class ListFromDirectory(FilterList):
 			raise TypeError("'%s' is not a directory" % path)
 
 	def getValuesFromDirFiles(self):
-		return [str(f[:-4]) for f in os.listdir(self.path) if f.endswith('.xml')]
+		return [str(f[:-4]) + ".0" for f in os.listdir(self.path) if f.endswith('.xml')]
 
 
 class ListFromExcel(FilterList):
@@ -48,11 +48,11 @@ class ListFromExcel(FilterList):
  			raise TypeError("'%s' is not an Excel file" % filePath)
 
 	def getValuesFromFile(self):
- 		stream = Stream(self.filePath, self.column, sheet="ID NUMBERS")
+ 		stream = Stream(self.filePath, self.column, sheet="ID")
  		
  		for k, v in stream.stream():
  			
- 			print(k)
+ 			#print(k)
 
  			if k != 'None' and v["DATE"] < self.date:
 	 			yield str(k) + '.0'

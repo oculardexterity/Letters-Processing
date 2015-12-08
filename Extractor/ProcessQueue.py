@@ -7,18 +7,31 @@ import wrapOpener
 import FixAddrLinesDates
 import BuildCollectionIdnos
 
+import datetime
 import os
+import shutil
 
 class ProcessQueue:
 	def __init__(self, config):
-		self.output_directory = config["output_directory"]
-		self.shelve_directory = config["shelve_directory"]
+		
 		self.inputFilePath = config["inputFilePath"]
 
 		self.filter_configs = config["filter_configs"]
 		self.editLogger_configs = config["editLogger_configs"]
 
 		self.output_file_name = ""
+
+		folder_name = config["processingFolderPrefix"] + datetime.datetime.today().strftime("%Y-%m-%d")
+
+		if os.path.isdir(folder_name):
+			shutil.rmtree(folder_name)
+
+		os.mkdir(folder_name)
+		os.mkdir(folder_name + '/' + 'xmlfiles')
+		os.mkdir(folder_name + '/' + 'shelves')
+
+		self.shelve_directory = folder_name + '/' + 'shelves/'
+		self.output_directory = folder_name + '/' + 'xmlfiles/'
 
 	def __call__(self):
 		self.run_Extractor_RPD()
@@ -30,7 +43,8 @@ class ProcessQueue:
 		self.run_WrapOpener()
 		self.run_FixAddrLines()
 		self.run_BuildCollectionIdnos()
-		self.run_StreamOutput()
+		#self.run_StreamOutput()
+		self.run_Templater()
 
 	
 
@@ -51,8 +65,10 @@ class ProcessQueue:
 		incList = FilterLists.ListFromExcel(self.filter_configs["inclusionFilePath"],
 									   self.filter_configs["inclusionColumnHeader"],
 									   date=self.filter_configs["cutoffDate"])
+		excList = FilterLists.ListFromDirectory(self.filter_configs["exclusionDirectoryPath"])
 		f = Filter(self.input_file_path(), self.output_file_path())
 		f.inclusionListAdd(incList)
+		f.exclusionListAdd(excList)
 		f.filter()
 
 	def run_EditLogger(self):
@@ -89,6 +105,11 @@ class ProcessQueue:
 		b = BuildCollectionIdnos.BuildCollectionIdnos(self.input_file_path(), self.output_file_path())
 		b.process()
 
+	def run_Templater(self):
+		command = "python Extractor/Templater.py" \
+				+  " -i " + self.input_file_path() + " -d " + self.output_directory
+		os.system(command)
+
 	def run_StreamOutput(self):
 		''' Quick sanity check by outputting the entire finished doc '''
 		command = "python Extractor/Stream.py -f " + self.output_file_path() \
@@ -112,16 +133,16 @@ class ProcessQueue:
 
 if __name__ == '__main__':
 	config = {
-		"inputFilePath": 'spreadsheets/newDump.xlsx',
-		"shelve_directory": 'testfiles/shelves/',
-		"output_directory": 'testfiles/output/',
+		"processingFolderPrefix": "Processed",
+		"inputFilePath": 'spreadsheets/02122015_revisors.xlsx',
 		"filter_configs" : {
-			"inclusionFilePath": "spreadsheets/Completed Letters to be proofed_new.xlsx",
+			"inclusionFilePath": "spreadsheets/OmekaProofed8Dec.xlsx",
 			"inclusionColumnHeader": "ID",
-			"cutoffDate": "2 October 2015"
+			"cutoffDate": "2 December 2015",
+			"exclusionDirectoryPath": "Letters 2015-12-08 0"
 		},
 		"editLogger_configs": {
-			"editFilePath": "spreadsheets/Completed Letters to be proofed_new.xlsx"
+			"editFilePath": "spreadsheets/OmekaProofed8Dec.xlsx"
 		}
 	}
 

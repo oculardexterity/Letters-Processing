@@ -10,12 +10,18 @@ shelve_files
 xmlfiles
 letter-process
 TESTxmlfiles
+testfiles
+Headers*
+Letters *
+Processed *
 
 xmlfiles/*.xml
 temp_xmlFiles/*.xml
 
 
 letter-process
+
+
 
 
 # Compiled source #

@@ -4,6 +4,7 @@ from Processor import Processor as Processor
 from EditLogger import EditLogger
 from HelperFunctions import extractTagContents
 
+editLogger = EditLogger()
 
 class PageTypeLogger(Processor):
 
@@ -15,6 +16,7 @@ class PageTypeLogger(Processor):
 		self.outputFilePath = outputFilePath
 		super().__init__()
 
+	@editLogger('Page types determined', 'PythonScript')
 	def _log_types(self, row):
 		new_row = row
 

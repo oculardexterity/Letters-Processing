@@ -5,6 +5,7 @@ import sys
 
 from Processor import Processor as Processor
 from EditLogger import EditLogger
+from HelperFunctions import commentise
 
 editLogger = EditLogger()
 
@@ -19,15 +20,69 @@ class RemovePageDuplicates(Processor):
 		self.outputFilePath = outputFilePath
 		super().__init__()
 
-	@editLogger('Old page dublicate removed', 'PythonScript_pageDublicatesResolve')
+	#@editLogger('Old page dublicate removed', 'PythonScript_pageDublicatesResolve')
 	def pageDuplicatesResolve(self, old, new):
+		print('Extracting from Spreadsheet, logging duplicate, page: ', old["Page"], " Letter: ", old["Letter"])
 		if old['Translation_Timestamp'] >= new['Translation_Timestamp']:
-			return old
-		elif new['Translation_Timestamp'] >= old['Translation_Timestamp']:
-			return new
+			#print('old')
+			letter = old
+			letter["Contributor_List"] + [new["Contributor"], new["RevisorID"]]
+			letter["Contributor_List"] = list(set(letter["Contributor_List"]))
+			#print(letter["Contributor_List"])
+			edit_per = {'datetime': str(new["Translation_Timestamp"]).replace(" ","T"), 
+					'Omeka_RevisionPageNo': new["Page"], 
+					"Omeka_Translation": commentise(new["Translation"]),  
+					'editType': 'Revision in Omeka', 
+					'editor': new["RevisorID"] 
+				}
+			edit_py = {
+					'Duplicate_pageTimestamp': str(new["Translation_Timestamp"]).replace(" ","T"),
+					'Duplicate_pageNo': new["Page"],   
+					'editType': 'Old page duplicate removed', 
+					'editor': "PythonScript", 
+					'datetime': str(datetime.now())[:-7].replace(" ", "T")}
+			letter["Edits"].append(edit_per)
+			letter["Edits"].append(edit_py)
+			#print(letter["Edits"], len(letter['Edits']))
 
-	@editLogger('New page instance created', 'PythonScript_pageDuplicatesTransform')
+		elif new['Translation_Timestamp'] >= old['Translation_Timestamp']:
+			#print('new')
+			letter = new
+			letter["Contributor_List"] = list(set(old["Contributor_List"] + [new["Contributor"], new["RevisorID"]]))
+			#print(letter["Contributor_List"])
+			edit_per = {'datetime': str(old["Translation_Timestamp"]).replace(" ","T"), 
+					'Omeka_RevisionPageNo': old["Page"], 
+					"Omeka_Translation": commentise(old["Translation"]),  
+					'editType': 'Revision in Omeka', 
+					'editor': old["RevisorID"] 
+				}
+			edit_py = {
+					'Duplicate_pageTimestamp': str(old["Translation_Timestamp"]).replace(" ","T"),
+					'Duplicate_pageNo': old["Page"],   
+					'editType': 'Old page duplicate removed', 
+					'editor': "PythonScript", 
+					'datetime': str(datetime.now())[:-7].replace(" ", "T")}
+			letter["Edits"] = old["Edits"] + [edit_per, edit_py]
+			#print(letter["Edits"], len(letter['Edits']))
+		return letter
+
+	#@editLogger('New page instance created', 'PythonScript')
 	def pageDuplicatesTransform(self, field):
+		print('Extracting from spreadsheet, new, page: ', field["Page"], " Letter: ", field["Letter"])
+		field["Contributor_List"] = [field["Contributor"], field["RevisorID"]]
+		#print(field["Contributor_List"])
+		edit_py = {
+					'New_pageTimestamp': str(field["Translation_Timestamp"]).replace(" ","T"),
+					'New_pageNo': field["Page"],   
+					'editType': 'New page instance created', 
+					'editor': "PythonScript", 
+					'datetime': str(datetime.now())[:-7].replace(" ", "T")}
+		edit_init =  {  
+					'editType': 'Object initialised', 
+					'editor': field["Contributor"], 
+					'datetime': str(field["Translation_Timestamp"]).replace(" ","T")}
+		field["Edits"] = [edit_py, edit_init]
+		#print(field["Edits"], len(field['Edits']))
 		return field
 
 
@@ -43,27 +98,45 @@ class MergeLetterPages(Processor):
 		super().__init__()
 
 
-	@editLogger('Additional page merged into Letter', 'PythonScript_mergeLetterPagesResolve')
+	#@editLogger('Additional page merged into Letter', 'PythonScript')
 	def mergeLetterPagesResolve(self, old, new):
-		#print('merge resolve called')
+		print('Merging pages, page: ', new["Page"], " Letter: ", new["Letter"])
 		letter = old
 		letter['Pages'][new['Page']] = self._mergeLetterBuildPageDict(new)
+		letter["Contributor_List"] = list(set(old["Contributor_List"] + new["Contributor_List"]))
+		letter["Edits"] = old["Edits"] + new["Edits"]
+
+		edit_py = edit_py = {
+					'Merged_pageTimestamp': str(new["Translation_Timestamp"]).replace(" ","T"),
+					'Merged_pageNo': new["Page"],   
+					'editType': 'Additional page added to letter', 
+					'editor': "PythonScript", 
+					'datetime': str(datetime.now())[:-7].replace(" ", "T")}
+		letter["Edits"].append(edit_py)
 		return letter
 
-	@editLogger('New Letter created', 'PythonScript_mergeLetterPagesTransform')
+	#@editLogger('New Letter created', 'PythonScript_mergeLetterPagesTransform')
 	def mergeLetterPagesTransform(self, field):
-		#print('merge transform called')
+		print('Merging pages, page: ', field["Page"], " Letter: ", field["Letter"])
 		letter = field
 		letter['Pages'] = {field['Page']: self._mergeLetterBuildPageDict(field)}
+		
+		edit_py = edit_py = {
+					'Initial_pageTimestamp': str(field["Translation_Timestamp"]).replace(" ","T"),
+					'Initial_pageNo': field["Page"],   
+					'editType': 'New letter objected created', 
+					'editor': "PythonScript", 
+					'datetime': str(datetime.now())[:-7].replace(" ", "T")}
+		letter["Edits"].append(edit_py)
 		return self._mergeLetterDeleteFields(letter)
 
 	def _mergeLetterBuildPageDict(self,field):
 		return {"Translation": field['Translation'], 
-				"Original_Filename": field['Original_Filename'], 
+				#"Original_Filename": field['Original_Filename'], 
 				"Archive_Filename": field['Archive_Filename']}
 
 	def _mergeLetterDeleteFields(self,letter):
-		for key in ["Translation", "Page", "Original_Filename", "Archive_Filename"]:
+		for key in ["Translation", "Page", "Archive_Filename"]:
 			del letter[key]
 		return letter
 

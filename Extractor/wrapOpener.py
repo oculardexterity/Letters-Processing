@@ -17,13 +17,14 @@ class WrapOpenerAndCloser(Processor):
 		super().__init__()
 
 
-	@editLogger('Opener and closer wrapped', 'PythonScript_wrapOpenerCloser')
+	@editLogger('Opener and closer wrapped', 'PythonScript')
 	def wrap_opener_and_closer(self, row):
+		print("Wrapping opener and closer ", row["Letter"])
 		new_row = row
 		
 		
-		l_list = [1038,1039,1040]
-		if row["Type"] == 'Letter':# and (row["Letter"] in l_list):
+		#l_list = [1038,1039,1040]
+		if row["Type"] == 'Letter':
 			#print('--------')
 			#print(row["Letter"], row["Type"])
 			text = self._merged_pages(row['Pages'])
@@ -68,6 +69,7 @@ class WrapOpenerAndCloser(Processor):
 		tags_in_opener_and_closer =  ['salute', 'dateline', 'date', 'address', 'signed']
 		letter_text = text
 		for tag in tags_in_opener_and_closer:
+			#print(tag)
 			letter_text = WU.wrap_element_with_tags(letter_text, tag, 'TEMP')
 		pieces = []
 		pieces = WU.find_positions_of_matches(letter_text, pieces=[])
@@ -90,5 +92,5 @@ class WrapOpenerAndCloser(Processor):
 
 
 if __name__ == '__main__':
-	w = WrapOpenerAndCloser('shelve_files/pageTypesLogged.shelve', 'shelve_files/WrapOpenerAndCloser.shelve')
+	w = WrapOpenerAndCloser('shelve_files/ExtractorRPD_ExtractorMLP_FilterComplete_OmekaEditsLogged_TagsCleaned_PageTypesLogged.shelve', 'shelve_files/WrapOpenerAndCloser.shelve')
 	w.process()

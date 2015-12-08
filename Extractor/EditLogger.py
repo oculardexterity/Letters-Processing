@@ -115,7 +115,7 @@ if __name__ == '__main__':
 
 	from Processor import Processor as Processor
 	edits = EditsFromExcelSpreadsheet(editFilePath, 
-				'ID NUMBERS', 'ID', 'PROOFED BY', 'DATE', 'OmekaProof')
+				'ID', 'ID', 'PROOFED BY', 'DATE', 'OmekaProof')
 
 	editLogger = EditLogger(editDict=edits)
 

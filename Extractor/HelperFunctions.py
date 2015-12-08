@@ -17,3 +17,8 @@ def wrapOnEmptyElementSplit(text, splitTag, wrapTag, *args, **kwargs):
 		new_line += '</' + wrapTag + '>'
 		new_text.append(new_line)
 	return '\n'.join(new_text)
+
+
+def commentise(text):
+
+	return '<!-- \n' + str(text).replace('--', '~~') + ' \n-->'

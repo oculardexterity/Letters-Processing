@@ -18,24 +18,24 @@ class FixTags(Processor):
 
 	#@editLogger('Clean tags', 'PythonScript_CleanersFixAmpersands')
 	def _clean_tags(self, row):
+		print('Cleaning tags, Letter ', row["Letter"])
 		new_row = row
 		reg = r'&(?!\S+[^;])'
 		mod = '&amp;'
 
-
-
 		for key, page in row["Pages"].items():
-			re.purge()
-			modified_page = page["Translation"].replace('&#x2014;', '§§§§')
-			modified_page =  re.sub(reg, mod, modified_page)
-			modified_page = modified_page.replace('§§§§', '&#x2014;')
-			#new_row["Pages"][key]["Translation"] = modified_page
-
 			if page["Translation"] is not None:
+				re.purge()
+				modified_page = page["Translation"].replace('&#x2014;', '§§§§')
+				modified_page =  re.sub(reg, mod, modified_page)
+				modified_page = modified_page.replace('§§§§', '&#x2014;')
+				#new_row["Pages"][key]["Translation"] = modified_page
+
+			
 				cleaned = self._tag_cleaner(modified_page)
 				new_row["Pages"][key]["Translation"] = cleaned[1]
 				
-				edit = {'page_cleaned': key, 'clean_count': cleaned[0], 'editType': 'Clean Tags', 'editor': "PythonScript_TagCleaner", 'datetime': str(datetime.datetime.now())[:-7].replace(" ", "T")}
+				edit = {'page_cleaned': key, 'clean_count': cleaned[0], 'editType': 'Clean Tags', 'editor': "PythonScript", 'datetime': str(datetime.datetime.now())[:-7].replace(" ", "T")}
 				new_row["Edits"].append(edit)
 
 		return new_row

@@ -6,9 +6,13 @@ def wrap_element_with_tags(text, elem_to_wrap, wrapping_element):
 	pattern = re.compile(regex)
 	result = pattern.findall(text)
 	text = text
+	
 	for r in set(result):
-		text = re.sub(r, r'<' + wrapping_element + r'>' + r + r'</' + wrapping_element + '>', text)
-
+		try:
+			text = re.sub(r, r'<' + wrapping_element + r'>' + r + r'</' + wrapping_element + '>', text)
+			#print(text)
+		except:
+			pass
 	return text
 
 def find_positions_of_matches(text, previous_end=0, pieces=[]):

@@ -1,5 +1,8 @@
+from EditLogger import EditLogger
 from Processor import Processor
 import dateparser
+
+editLogger = EditLogger()
 
 class BuildCollectionIdnos(Processor):
 	def __init__(self, inputFilePath, outputFilePath):
@@ -10,11 +13,13 @@ class BuildCollectionIdnos(Processor):
 		self.outputFilePath = outputFilePath
 		super().__init__()
 
+	@editLogger('Extract collection idnos', 'PythonScript')
 	def _addIdnos(self, row):
+		print('Extracting IDnos, letter ', row["Letter"])
 		new_row = row
 
-		new_row["Document_Collection"] = self.extracted(row["Document_Collection_Number"])
-		new_row["Document_Number"] = self.subextracted(row["Document_Collection_Number"])
+		new_row["Document_Collection"] = self.extracted(row["Document Collection/Number"])
+		new_row["Document_Number"] = self.subextracted(row["Document Collection/Number"])
 
 
 		# AND going to add a date function here for no reason #
@@ -22,12 +27,13 @@ class BuildCollectionIdnos(Processor):
 			date_parsed = dateparser.parse(row["DATE_created"])
 			new_row["DATE_created_as_words"] = date_parsed.strftime('%d %B %Y')[1:] if date_parsed.strftime('%d %B %Y')[0] == '0' else date_parsed.strftime('%d %B %Y')
 		except Exception as e:
-			print(e, row["Letter"])
+			pass
+			#print(e, row["Letter"])
 
 		return new_row
 
 	def extracted(self, line):
-		print(line)
+		#print(line)
 		line = str(line)
 
 		if "Private Collection" in line:
@@ -67,7 +73,7 @@ class BuildCollectionIdnos(Processor):
 		return line
 
 	def subextracted(self, line):
-		print(line)
+		#print(line)
 		#line = line.lstrip().rstrip()
 		line = str(line)
 
