@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1270">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Andrew Philip Magill to Sir Edward, 5 May 1916</title>
+                
+                <author>Andrew Philip Magill</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="AaronHoey">AaronHoey</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1270</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is a letter for Andrew Philip Magill (1871–1941), an Irish civil servant, to Sir Edward. The letter concerns the state of the Jacobs Biscuit Factory after the 1916 Easter Rising. Magill inquires whether Jacobs will resume business as a friend of his has cargo for the factory but if the factory will not resume business he will sell the items elsewhere as they are perishable.     During Easter Week Jacobs Biscuit Factory served as one of the occupied sites for the 2nd Battalion under Commandant Thomas MacDonagh. Jacob’s was by-passed by the main action as General Lowe decided to concentrate on the GPO and the Four Courts which he considered the more strategically important of the positions held by the insurgents. News of the surrender did not reach Jacob’s until Sunday. MacDonagh and the garrison surrendered reluctantly. The three most senior officers, MacDonagh, MacBride and O’Hanrahan, were executed.    In 1916 Andrew Philip Magill (1871 - 1941) was working as a civil servant and held the positio</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#National Archives of Ireland">National Archives of Ireland</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Edward">Edward</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Andrew_Philip_Magill">Andrew Philip Magill</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-11-04T21:03:20" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-04T21:03:20" who="#Philcostel">
+                
+                    Page 3339 modified:
+                    <!-- 
+5/5 Dear Sir Edward Keating in P. is very anxious to know whether Jacobs is still standing & if so whether they propose to resume business at once. A friend of his has a cargo of stuff for Jacobs & if 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-04T21:05:11" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-04T21:05:11" who="#Philcostel">
+                
+                    Page 3340 modified:
+                    <!-- 
+they can't use it he proposes to sell it elsewhere as it is perishable. Can you wire me any information tomorrow. Yours in haste A. P. Magill 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-30T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-30T10:36:38" who="#NR">
+                
+                    Page 3339 modified:
+                    <!-- 
+<date>5/5</date> <salute>Dear Sir Edward</salute> <p>Keating in P.<lb/>  is very anxious to<lb/>  know whether Jacobs<lb/>  is still standing &amp; if so<lb/>  whether they propose to<lb/>  resume business<lb/>  at once. A friend of his<lb/>  has a cargo of<lb/>  stuff for Jacobs &amp; if<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-30T10:37:23" who="#NR">
+                
+                    Page 3340 modified:
+                    <!-- 
+they can't use it he<lb/>  proposes to sell it<lb/>  elsewhere as it is<lb/>  perishable. Can you<lb/>  wire me any <lb/> information tomorrow.</p> <salute>Yours in haste</salute> A. P. Magill 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3339 created using version from <date when="2014-11-04T21:03:20"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3339 removed (version from <date when="2014-11-04T21:03:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3339 removed (version from <date when="2015-11-30T10:36:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3340 created using version from <date when="2014-11-04T21:05:11"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3340 removed (version from <date when="2014-11-04T21:05:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3340 removed (version from <date when="2015-11-30T10:37:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3339 (version from <date when="2015-11-30T10:36:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3340 added to letter (version from <date when="2015-11-30T10:37:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 3339 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 3340 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:42" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1270_img_3339" url="e247a404a060e9f0c1feb32f649e58b3.jpg"/> 
+    
+    <graphic xml:id="L1916_1270_img_3340" url="9392727a58f531777d5ea8c3a248ddc5.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3339" facs="#L1916_1270_img_3339"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><dateline><date>5/5</date></dateline> <salute>Dear Sir Edward</salute></opener> <p>Keating in P.<lb/>  is very anxious to<lb/>  know whether Jacobs<lb/>  is still standing &amp; if so<lb/>  whether they propose to<lb/>  resume business<lb/>  at once. A friend of his<lb/>  has a cargo of<lb/>  stuff for Jacobs &amp; if<pb/>
+        
+    
+
+    
+         
+        <pb n="3340" facs="#L1916_1270_img_3340"/>
+        
+        
+           
+            they can't use it he<lb/>  proposes to sell it<lb/>  elsewhere as it is<lb/>  perishable. Can you<lb/>  wire me any <lb/> information tomorrow.</p> <closer><salute>Yours in haste</salute></closer> A. P. Magill
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

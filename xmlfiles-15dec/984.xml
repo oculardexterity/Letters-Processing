@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_984">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Mary to Mrs. O&#39;Rahilly, 19 May 1916.</title>
+                
+                <author>Mary</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_984</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is a letter of condolence from Mary to Nancy O&#39;Rahilly (1875-1961). The writer expresses sincere sympathy on the death of O&#39;Rahilly and assures Mrs. O&#39;Rahilly of the prayers of her whole family. She asks after the children and Sara.    She was a member of the Provisional Council of Cumann na mBan at the founding in 1914 and the wife of Michael Joseph O&#39;Rahilly, self-described as &#39;The&#39; O&#39;Rahilly (1875-1916). The O&#39;Rahilly fought in the Easter Rising and was shot in Parnell/Moore Street on 28 April 1916 and died some time later. Nancy was pregnant at the time of her husband&#39;s death – the child was born three months later.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Nancy_ORahilly">Nancy O&#39;Rahilly</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Mary">Mary</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-05-22T19:49:32" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-05-22T19:49:32" who="#Philcostel">
+                
+                    Page 2546 modified:
+                    <!-- 
+Bavin Kilcar Co. Donegal May 19th 1916. Dear Mrs O'Rahilly, Please accept my most sincere sympathy in your sad bereavement. It was with feelings of deep regret I learned the news of the dear Master's sad end. (R.I.P.) Words cannot express how sorry I feel at his death, and for yourself & the children, who only too well realize his loss. I will never forget to pray for the repose of his soul, which is the only thing I can do. Indeed many a fervent prayer has been offered up by all the members of the family. How is little Myles? He is a big boy now I'M sure. Give my love to the children all, and may God give you strenght to bear your cross. I remain Your faithful N______ Mary. P.S. I hope Sara is with you always. If so remember me to her. M. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-10T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-10T17:02:05" who="#NR">
+                
+                    Page 2546 modified:
+                    <!-- 
+<address>Bavin <lb/>Kilcar <lb/>Co. Donegal</address> <date>May 19th 1916.</date> <salute>Dear Mrs O'Rahilly,</salute> <p>Please accept my  <lb/>most sincere sympathy in your sad <lb/> bereavement.</p> <p>It was with feelings of  <lb/>deep regret I learned the news of the <lb/> dear Master's sad end. (R.I.P.)</p> <p>Words cannot express how  <lb/>sorry I feel at his death, and for yourself &amp;  <lb/>the children, who only too well realize his  <lb/>loss. I will never forget to pray for the <lb/> repose of his soul, which is the only thing <lb/> I can do. Indeed many a fervent prayer  <lb/>has been offered up by all the members of  <lb/>the family</p> <p>How is little Myles? He is a big <lb/> boy now I'm sure. Give my love to the <lb/> children all, and may God give you  <lb/>strength to bear your cross.</p> <salute>I remain <lb/>Your faithful N______</salute> <signed>Mary.</signed> <note>P.S. I hope Sara is with you always. If so  <lb/>remember me to her. <lb/>M.</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2546 created using version from <date when="2014-05-22T19:49:32"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2546 removed (version from <date when="2014-05-22T19:49:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2546 removed (version from <date when="2015-12-10T17:02:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2546 (version from <date when="2015-12-10T17:02:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:15" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:17" who="#PythonScript">
+                
+                    Clean tags: Page 2546 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:24" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_984_img_2546" url="7ddf71672134c0941581e2cdcc66e5fd.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2546" facs="#L1916_984_img_2546"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>Bavin</addrLine>
+<addrLine>Kilcar</addrLine>
+<addrLine>Co. Donegal</addrLine></address> <dateline><date>May 19th 1916.</date></dateline> <salute>Dear Mrs O'Rahilly,</salute></opener> <p>Please accept my  <lb/>most sincere sympathy in your sad <lb/> bereavement.</p> <p>It was with feelings of  <lb/>deep regret I learned the news of the <lb/> dear Master's sad end. (R.I.P.)</p> <p>Words cannot express how  <lb/>sorry I feel at his death, and for yourself &amp;  <lb/>the children, who only too well realize his  <lb/>loss. I will never forget to pray for the <lb/> repose of his soul, which is the only thing <lb/> I can do. Indeed many a fervent prayer  <lb/>has been offered up by all the members of  <lb/>the family</p> <p>How is little Myles? He is a big <lb/> boy now I'm sure. Give my love to the <lb/> children all, and may God give you  <lb/>strength to bear your cross.</p> <closer><salute>I remain <lb/>Your faithful N______</salute> <signed>Mary.</signed></closer> <note>P.S. I hope Sara is with you always. If so  <lb/>remember me to her. <lb/>M.</note>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

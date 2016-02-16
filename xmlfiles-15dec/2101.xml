@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2101">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Eoin McNeill to Bishop E. T. O&#39;Dwyer, 18 April 1916</title>
+                
+                <author>Eoin MacNeill</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="WB">William Buck</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="MaryGrehan">Mary Grehan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="JennyMck">JennyMck</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2101</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This letter was written by Eoin MacNeill (1867 – 1945), to Bishop Edward Thomas O&#39;Dwyer (1842-1917), who served as the Bishop of Limerick from 1888 until his death. MacNeill writes to the bishop in order to discuss governmental plans for the complete suppression of the nationalist volunteer movement in Ireland. Through the letter he wishes to draw O’Dwyer’s attention to certain provisions of the enclosed ‘Castle Document’ document.     Early in April 1916 the IRB convinced MacNeill, a Gaelic scholar, nationalist, co-founder of the Gaelic League and founding leader of the Irish Volunteers, that a crackdown was imminent. They did this by producing a forged ‘Castle document’ (possibly based on genuine contingency plans). Only on Maundy Thursday, 20 April, did MacNeill discover that the IRB was using preparations for a general mobilisation on Easter weekend to bring about a rising on Easter Sunday. MacNeill initially acquiesced, but after discovering that an arms shipment sent from Germany had been </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Limerick Diocesan Archive">Limerick Diocesan Archive</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Edward_Thomas_ODwyer">Edward Thomas O&#39;Dwyer</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Eoin_MacNeill">Eoin MacNeill</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-04-28T15:18:32" who="#WB">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-04-28T15:18:32" who="#JennyMck">
+                
+                    Page 5315 modified:
+                    <!-- 
+<address><hi rend="underline">OGLAIC NA H-EIREANN</hi>, LONGPORT: 2 STRAID DASUIN, AT CLIAT. THE <hi rend="underline">IRISH VOLUNTEERS</hi> HEADQUARTERS: 2 DAWSON STREET, DUBLIN. </address> <lb/>(2)<lb/>whatever time the operations may last.<lb/>The enclosed document is a copy of the original plan of the<lb/>proceedings in the hands of the Government.<lb/>I have the honour to be, my Lord,<lb/>Your Lordship's obedient servant,<lb/>Eoin MacNeill<lb/>I have just learned that preliminary steps have been taken in <gap/> of the <unclear>plans</unclear><lb/><gap/> E MacNeill. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-29T13:47:22" who="#WB">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-04-29T13:47:22" who="#MaryGrehan">
+                
+                    Page 5314 modified:
+                    <!-- 
+<!~~ The address is printed in Irish on the left hand side and in English on the right hand side in a box ~~> <address><hi rend="underline">Ógláic na h-Eireann,<lb/>longport: 2 sráid dásúin,<lb/>át cliat. THE<lb/><hi rend="underline">IRISH VOLUNTEERS<lb/> headquarters:<lb/>2 DAWSON STREET, DUBLIN.</hi></hi>address</address> <date>18th April, 1916.</date> <address>The Lord Bishoops of Limerick</address><lb/> <salute>My Lord,</salute> <p>I beg to enclose details of a plan in the hands of the<lb/>Government for the complete suppression of the Nationalist<lb/> Volunteer Movement in Ireland, both Irish Volunteers &amp; National<lb/> Volunteers, by Military force.</p> <p>There are certain details of this plan to which I beg to<lb/> draw special attention.  Only Military forces are to be used, the<lb/> police being withheld.  The City of Dublin is to be placed in a<lb/>state of siege.  The inhabitants are to be confined to their houses,<lb/> wholesale arrests, comprising several hundred persons in Dublin &amp;<lb/> throughout the Country, are to be made.  All persons who could<lb/> exercise disciplinary control over the Volunteers in general are to<lb/> be placed under arrest.  Various places in the City belonging to the<lb/> Volunteers are to be seized by the Military, &amp; in the measures<lb/>  to be used for that purpose <hi rend="underline">carte blanche </hi> is given to the Military <lb/> offficers, who are not merely empowered but directed to do whatever<lb/> they deem necessary "without reference to Headquarters."</p> <p>In order to secue a free hand for the Military as long<lb/> as these operations may last, the intervention of important citizens <lb/> is specially guarded against.  The Archbishop of Dublin is to be <lb/> held a prisoner in his house, &amp; forbidden all access to his clergy<lb/> &amp; people.  The Lord Mayor is to be isolated in like manner.<lb/> Any meeting of citizens, however few, is to be made impossible during </p><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-29T13:53:05" who="#MaryGrehan">
+                
+                    Page 5315 modified:
+                    <!-- 
+<!~~ The same headings are at the top of this page as the previous page. ~~> <!~~ (2) is centred at the top of the page ~~> whatever time the operations may last.<lb/></p> <p> The enclosed document is a copy of the original plan of the<lb/>proceedings in the hands of the Government. </p> <salute>I have the honour to be, my Lord,<lb/>Your Lordship's obedient servant,<lb/>Eoin MacNeill<lb/></salute> <!~~ The following is hand written ~~>I have just learned that preliminary steps<lb/> have been taken in <gap/> of the plans<lb/> statee. E MacNeill. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-29T14:09:55" who="#WB">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-04-29T14:09:55" who="#MaryGrehan">
+                
+                    Page 5316 modified:
+                    <!-- 
+<p>The cipher from which this document is copied does not<lb/>indicate punctuation or capitals.</p> <p>the following precautionary measures have been sanctioned<lb/>by the irish office on the recommendation on the general officer<lb/>commanding the forces in ireland all preparations will be made<lb/>to put these measures in force immediately on receipt of an<lb/>order issued from the chief secretarys office dublin castle &amp;<lb/>the forces in ireland  first the following persons to be placed under arrest  all members of the sinin fein national council<lb/>the central executive irish sinn fein volunteeers  general council<lb/>  irish sinn fein volunteers  county board irish sinn fein<lb/> volunteers  executive committee national volunteers coisde gnota<lb/> committee gaelic league  see list three &amp; four &amp; supplementary<lb/> list as two...................................................... dubliln metropolitan police &amp; royal irish<lb/> constabulary forces in dublin city will be confined to barracks<lb/> under the direction of competent military authority  an order <lb/> will be issued to inhabitants of city to remain in their houses<lb/> until such time a competent military authority may otherwise<lb/> direct or permit pickets chosen from units of territorial force<lb/> will be placed at all points marked on maps three &amp; four<lb/> accompanying mounted patrols will continuously visit all points<lb/> &amp; report every hour the following premises will be occupied by <lb/> adequate forces &amp; all necessasry measures used withoout need of reference to headquarters  first premises known as liberty hall<lb/> beresford place  number six harcourt street sinn fein building<lb/> headquarters/volunteeers number two dawson street  number twelve dolier<lb/> street nationality office  number twenty five rutland square<lb/> gaelic league office  number forty one rutland square foresters <lb/>hall  sinn fein volunteer premises  in city all national<lb/> volunteer premises  in city trade council premises capel street<lb/> surry house leinster road rathmines  the following presmises<lb/> will be isolated &amp; all communication to or from prevented  <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-29T14:12:12" who="#WB">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-04-29T14:12:12" who="#MaryGrehan">
+                
+                    Page 5317 modified:
+                    <!-- 
+premises known as archbishops house dromcondra  mansion house<lb/> dawson street  number forty herbert park larkfield kimmage road<lb/> woodtown part ballyboden saint endas college  hermitage<lb/> rathfarnham&amp;in addition/premises in list five d see maps three &amp; four". 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-19T15:59:26" who="#NR">
+                
+                    Page 5314 modified:
+                    <!-- 
+<address><hi rend="underline">Ógláic na h-Eireann,<lb/> longport: 2 sráid dásúin,<lb/> át cliat. THE<lb/> <hi rend="underline">IRISH VOLUNTEERS<lb/>  headquarters:<lb/> 2 DAWSON STREET, DUBLIN.</hi></hi></address>  <date>18th April, 1916.</date> <address>The Lord Bishoops of Limerick</address> <salute>My Lord,</salute>  <p>I beg to enclose details of a plan in the hands of the<lb/> Government for the complete suppression of the Nationalist<lb/>  Volunteer Movement in Ireland, both Irish Volunteers &amp; National<lb/>  Volunteers, by Military force.</p>  <p>There are certain details of this plan to which I beg to<lb/>  draw special attention.  Only Military forces are to be used, the<lb/>  police being withheld.  The City of Dublin is to be placed in a<lb/> state of siege.  The inhabitants are to be confined to their houses,<lb/>  wholesale arrests, comprising several hundred persons in Dublin &amp;<lb/>  throughout the Country, are to be made.  All persons who could<lb/>  exercise disciplinary control over the Volunteers in general are to<lb/>  be placed under arrest.  Various places in the City belonging to the<lb/>  Volunteers are to be seized by the Military, &amp; in the measures<lb/>   to be used for that purpose <hi rend="underline">carte blanche </hi> is given to the Military <lb/>  offficers, who are not merely empowered but directed to do whatever<lb/>  they deem necessary "without reference to Headquarters."</p>  <p>In order to secue a free hand for the Military as long<lb/>  as these operations may last, the intervention of important citizens <lb/>  is specially guarded against.  The Archbishop of Dublin is to be <lb/>  held a prisoner in his house, &amp; forbidden all access to his clergy<lb/>  &amp; people.  The Lord Mayor is to be isolated in like manner.<lb/>  Any meeting of citizens, however few, is to be made impossible during<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-19T15:59:28" who="#NR">
+                
+                    Page 5314 modified:
+                    <!-- 
+<address><hi rend="underline">Ógláic na h-Eireann,<lb/> longport: 2 sráid dásúin,<lb/> át cliat. THE<lb/> <hi rend="underline">IRISH VOLUNTEERS<lb/>  headquarters:<lb/> 2 DAWSON STREET, DUBLIN.</hi></hi></address>  <date>18th April, 1916.</date> <address>The Lord Bishoops of Limerick</address> <salute>My Lord,</salute>  <p>I beg to enclose details of a plan in the hands of the<lb/> Government for the complete suppression of the Nationalist<lb/>  Volunteer Movement in Ireland, both Irish Volunteers &amp; National<lb/>  Volunteers, by Military force.</p>  <p>There are certain details of this plan to which I beg to<lb/>  draw special attention.  Only Military forces are to be used, the<lb/>  police being withheld.  The City of Dublin is to be placed in a<lb/> state of siege.  The inhabitants are to be confined to their houses,<lb/>  wholesale arrests, comprising several hundred persons in Dublin &amp;<lb/>  throughout the Country, are to be made.  All persons who could<lb/>  exercise disciplinary control over the Volunteers in general are to<lb/>  be placed under arrest.  Various places in the City belonging to the<lb/>  Volunteers are to be seized by the Military, &amp; in the measures<lb/>   to be used for that purpose <hi rend="underline">carte blanche </hi> is given to the Military <lb/>  offficers, who are not merely empowered but directed to do whatever<lb/>  they deem necessary "without reference to Headquarters."</p>  <p>In order to secue a free hand for the Military as long<lb/>  as these operations may last, the intervention of important citizens <lb/>  is specially guarded against.  The Archbishop of Dublin is to be <lb/>  held a prisoner in his house, &amp; forbidden all access to his clergy<lb/>  &amp; people.  The Lord Mayor is to be isolated in like manner.<lb/>  Any meeting of citizens, however few, is to be made impossible during<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-19T15:59:35" who="#NR">
+                
+                    Page 5314 modified:
+                    <!-- 
+<address><hi rend="underline">Ógláic na h-Eireann,<lb/> longport: 2 sráid dásúin,<lb/> át cliat. THE<lb/> <hi rend="underline">IRISH VOLUNTEERS<lb/>  headquarters:<lb/> 2 DAWSON STREET, DUBLIN.</hi></hi></address>  <date>18th April, 1916.</date> <address>The Lord Bishoops of Limerick</address> <salute>My Lord,</salute>  <p>I beg to enclose details of a plan in the hands of the<lb/> Government for the complete suppression of the Nationalist<lb/>  Volunteer Movement in Ireland, both Irish Volunteers &amp; National<lb/>  Volunteers, by Military force.</p>  <p>There are certain details of this plan to which I beg to<lb/>  draw special attention.  Only Military forces are to be used, the<lb/>  police being withheld.  The City of Dublin is to be placed in a<lb/> state of siege.  The inhabitants are to be confined to their houses,<lb/>  wholesale arrests, comprising several hundred persons in Dublin &amp;<lb/>  throughout the Country, are to be made.  All persons who could<lb/>  exercise disciplinary control over the Volunteers in general are to<lb/>  be placed under arrest.  Various places in the City belonging to the<lb/>  Volunteers are to be seized by the Military, &amp; in the measures<lb/>   to be used for that purpose <hi rend="underline">carte blanche </hi> is given to the Military <lb/>  offficers, who are not merely empowered but directed to do whatever<lb/>  they deem necessary "without reference to Headquarters."</p>  <p>In order to secue a free hand for the Military as long<lb/>  as these operations may last, the intervention of important citizens <lb/>  is specially guarded against.  The Archbishop of Dublin is to be <lb/>  held a prisoner in his house, &amp; forbidden all access to his clergy<lb/>  &amp; people.  The Lord Mayor is to be isolated in like manner.<lb/>  Any meeting of citizens, however few, is to be made impossible during<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-19T15:59:46" who="#NR">
+                
+                    Page 5314 modified:
+                    <!-- 
+<address><hi rend="underline">Ógláic na h-Eireann,<lb/> longport: 2 sráid dásúin,<lb/> át cliat. THE<lb/> <hi rend="underline">IRISH VOLUNTEERS<lb/>  headquarters:<lb/> 2 DAWSON STREET, DUBLIN.</hi></hi></address>  <date>18th April, 1916.</date> <address>The Lord Bishoops of Limerick</address> <salute>My Lord,</salute>  <p>I beg to enclose details of a plan in the hands of the<lb/> Government for the complete suppression of the Nationalist<lb/>  Volunteer Movement in Ireland, both Irish Volunteers &amp; National<lb/>  Volunteers, by Military force.</p>  <p>There are certain details of this plan to which I beg to<lb/>  draw special attention.  Only Military forces are to be used, the<lb/>  police being withheld.  The City of Dublin is to be placed in a<lb/> state of siege.  The inhabitants are to be confined to their houses,<lb/>  wholesale arrests, comprising several hundred persons in Dublin &amp;<lb/>  throughout the Country, are to be made.  All persons who could<lb/>  exercise disciplinary control over the Volunteers in general are to<lb/>  be placed under arrest.  Various places in the City belonging to the<lb/>  Volunteers are to be seized by the Military, &amp; in the measures<lb/>   to be used for that purpose <hi rend="underline">carte blanche </hi> is given to the Military <lb/>  offficers, who are not merely empowered but directed to do whatever<lb/>  they deem necessary "without reference to Headquarters."</p>  <p>In order to secure a free hand for the Military as long<lb/>  as these operations may last, the intervention of important citizens <lb/>  is specially guarded against.  The Archbishop of Dublin is to be <lb/>  held a prisoner in his house, &amp; forbidden all access to his clergy<lb/>  &amp; people.  The Lord Mayor is to be isolated in like manner.<lb/>  Any meeting of citizens, however few, is to be made impossible during<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T10:12:53" who="#NR">
+                
+                    Page 5315 modified:
+                    <!-- 
+whatever time the operations may last.</p>  <p> The enclosed document is a copy of the original plan of the<lb/> proceedings in the hands of the Government. </p> <salute>I have the honour to be, my Lord,<lb/> Your Lordship's obedient servant,</salute> Eoin MacNeill<lb/> <p>I have just learned that preliminary steps<lb/>  have been taken in <unclear>pursuance</unclear> of the plans<lb/> statee. E MacNeill.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T10:15:34" who="#NR">
+                
+                    Page 5316 modified:
+                    <!-- 
+<p>The cipher from which this document is copied does not<lb/> indicate punctuation or capitals.</p>  <p>the following precautionary measures have been sanctioned<lb/> by the irish office on the recommendation on the general officer<lb/> commanding the forces in ireland all preparations will be made<lb/> to put these measures in force immediately on receipt of an<lb/> order issued from the chief secretarys office dublin castle &amp;<lb/> the forces in ireland  first the following persons to be placed<lb/>  under arrest  all members of the sinn fein national council<lb/> the central executive irish sinn fein volunteeers  general council<lb/>   irish sinn fein volunteers  county board irish sinn fein<lb/>  volunteers  executive committee national volunteers coisde gnota<lb/>  committee gaelic league  see list three &amp; four &amp; supplementary<lb/>  list as two...................................................... <lb/> ............ ........... dublin metropolitan police &amp; royal irish<lb/>  constabulary forces in dublin city will be confined to barracks<lb/>  under the direction of competent military authority  an order <lb/>  will be issued to inhabitants of city to remain in their houses<lb/>  until such time a competent military authority may otherwise<lb/>  direct or permit pickets chosen from units of territorial force<lb/>  will be placed at all points marked on maps three &amp; four<lb/>  accompanying mounted patrols will continuously visit all points<lb/>  &amp; report every hour the following premises will be occupied by <lb/>  adequate forces &amp; all necessary measures used without need of reference to headquarters  first premises known as liberty hall<lb/> beresford place  number six harcourt street sinn fein building<lb/> headquarters/volunteeers number two dawson street  number twelve dolier<lb/> street nationality office  number twenty five rutland square<lb/> gaelic league office  number forty one rutland square foresters <lb/>hall  sinn fein volunteer premises  in city all national<lb/> volunteer premises  in city trade council premises capel street<lb/> surry house leinster road rathmines  the following presmises<lb/> will be isolated &amp; all communication to or from prevented  <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T10:16:16" who="#NR">
+                
+                    Page 5316 modified:
+                    <!-- 
+<p>The cipher from which this document is copied does not<lb/> indicate punctuation or capitals.</p>  <p>the following precautionary measures have been sanctioned<lb/> by the irish office on the recommendation on the general officer<lb/> commanding the forces in ireland all preparations will be made<lb/> to put these measures in force immediately on receipt of an<lb/> order issued from the chief secretarys office dublin castle &amp;<lb/> the forces in ireland  first the following persons to be placed<lb/>  under arrest  all members of the sinn fein national council<lb/> the central executive irish sinn fein volunteeers  general council<lb/>   irish sinn fein volunteers  county board irish sinn fein<lb/>  volunteers  executive committee national volunteers coisde gnota<lb/>  committee gaelic league  see list three &amp; four &amp; supplementary<lb/>  list as two...................................................... <lb/> ............ ........... dublin metropolitan police &amp; royal irish<lb/>  constabulary forces in dublin city will be confined to barracks<lb/>  under the direction of competent military authority  an order <lb/>  will be issued to inhabitants of city to remain in their houses<lb/>  until such time a competent military authority may otherwise<lb/>  direct or permit pickets chosen from units of territorial force<lb/>  will be placed at all points marked on maps three &amp; four<lb/>  accompanying mounted patrols will continuously visit all points<lb/>  &amp; report every hour the following premises will be occupied by <lb/>  adequate forces &amp; all necessary measures used without need of <lb/> reference to headquarters  first premises known as liberty hall<lb/>  beresford place  number six harcourt street sinn fein building<lb/>  headquarters/<add>volunteeers</add> number two dawson street  number twelve dolier<lb/>  street nationality office  number twenty five rutland square<lb/>  gaelic league office  number forty one rutland square foresters <lb/> hall  sinn fein volunteer premises  in city all national<lb/>  volunteer premises  in city trade council premises capel street<lb/>  surry house leinster road rathmines  the following presmises<lb/>  will be isolated &amp; all communication to or from prevented  <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T10:16:19" who="#NR">
+                
+                    Page 5316 modified:
+                    <!-- 
+<p>The cipher from which this document is copied does not<lb/> indicate punctuation or capitals.</p>  <p>the following precautionary measures have been sanctioned<lb/> by the irish office on the recommendation on the general officer<lb/> commanding the forces in ireland all preparations will be made<lb/> to put these measures in force immediately on receipt of an<lb/> order issued from the chief secretarys office dublin castle &amp;<lb/> the forces in ireland  first the following persons to be placed<lb/>  under arrest  all members of the sinn fein national council<lb/> the central executive irish sinn fein volunteeers  general council<lb/>   irish sinn fein volunteers  county board irish sinn fein<lb/>  volunteers  executive committee national volunteers coisde gnota<lb/>  committee gaelic league  see list three &amp; four &amp; supplementary<lb/>  list as two...................................................... <lb/> ............ ........... dublin metropolitan police &amp; royal irish<lb/>  constabulary forces in dublin city will be confined to barracks<lb/>  under the direction of competent military authority  an order <lb/>  will be issued to inhabitants of city to remain in their houses<lb/>  until such time a competent military authority may otherwise<lb/>  direct or permit pickets chosen from units of territorial force<lb/>  will be placed at all points marked on maps three &amp; four<lb/>  accompanying mounted patrols will continuously visit all points<lb/>  &amp; report every hour the following premises will be occupied by <lb/>  adequate forces &amp; all necessary measures used without need of <lb/> reference to headquarters  first premises known as liberty hall<lb/>  beresford place  number six harcourt street sinn fein building<lb/>  headquarters/<add>volunteeers</add> number two dawson street  number twelve dolier<lb/>  street nationality office  number twenty five rutland square<lb/>  gaelic league office  number forty one rutland square foresters <lb/> hall  sinn fein volunteer premises  in city all national<lb/>  volunteer premises  in city trade council premises capel street<lb/>  surry house leinster road rathmines  the following presmises<lb/>  will be isolated &amp; all communication to or from prevented  <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T10:16:25" who="#NR">
+                
+                    Page 5316 modified:
+                    <!-- 
+<p>The cipher from which this document is copied does not<lb/> indicate punctuation or capitals.</p>  <p>the following precautionary measures have been sanctioned<lb/> by the irish office on the recommendation on the general officer<lb/> commanding the forces in ireland all preparations will be made<lb/> to put these measures in force immediately on receipt of an<lb/> order issued from the chief secretarys office dublin castle &amp;<lb/> the forces in ireland  first the following persons to be placed<lb/>  under arrest  all members of the sinn fein national council<lb/> the central executive irish sinn fein volunteeers  general council<lb/>   irish sinn fein volunteers  county board irish sinn fein<lb/>  volunteers  executive committee national volunteers coisde gnota<lb/>  committee gaelic league  see list three &amp; four &amp; supplementary<lb/>  list as two...................................................... <lb/> ............ ........... dublin metropolitan police &amp; royal irish<lb/>  constabulary forces in dublin city will be confined to barracks<lb/>  under the direction of competent military authority  an order <lb/>  will be issued to inhabitants of city to remain in their houses<lb/>  until such time a competent military authority may otherwise<lb/>  direct or permit pickets chosen from units of territorial force<lb/>  will be placed at all points marked on maps three &amp; four<lb/>  accompanying mounted patrols will continuously visit all points<lb/>  &amp; report every hour the following premises will be occupied by <lb/>  adequate forces &amp; all necessary measures used without need of <lb/> reference to headquarters  first premises known as liberty hall<lb/>  beresford place  number six harcourt street sinn fein building<lb/>  headquarters/<add>volunteeers</add> number two dawson street  number twelve dolier<lb/>  street nationality office  number twenty five rutland square<lb/>  gaelic league office  number forty one rutland square foresters <lb/> hall  sinn fein volunteer premises  in city all national<lb/>  volunteer premises  in city trade council premises capel street<lb/>  surry house leinster road rathmines  the following presmises<lb/>  will be isolated &amp; all communication to or from prevented  <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T10:16:35" who="#NR">
+                
+                    Page 5316 modified:
+                    <!-- 
+<p>The cipher from which this document is copied does not<lb/> indicate punctuation or capitals.</p>  <p>the following precautionary measures have been sanctioned<lb/> by the irish office on the recommendation on the general officer<lb/> commanding the forces in ireland all preparations will be made<lb/> to put these measures in force immediately on receipt of an<lb/> order issued from the chief secretarys office dublin castle &amp;<lb/> the forces in ireland  first the following persons to be placed<lb/>  under arrest  all members of the sinn fein national council<lb/> the central executive irish sinn fein volunteeers  general council<lb/>   irish sinn fein volunteers  county board irish sinn fein<lb/>  volunteers  executive committee national volunteers coisde gnota<lb/>  committee gaelic league  see list three &amp; four &amp; supplementary<lb/>  list as two...................................................... <lb/> ............ ........... dublin metropolitan police &amp; royal irish<lb/>  constabulary forces in dublin city will be confined to barracks<lb/>  under the direction of competent military authority  an order <lb/>  will be issued to inhabitants of city to remain in their houses<lb/>  until such time a competent military authority may otherwise<lb/>  direct or permit pickets chosen from units of territorial force<lb/>  will be placed at all points marked on maps three &amp; four<lb/>  accompanying mounted patrols will continuously visit all points<lb/>  &amp; report every hour the following premises will be occupied by <lb/>  adequate forces &amp; all necessary measures used without need of <lb/> reference to headquarters  first premises known as liberty hall<lb/>  beresford place  number six harcourt street sinn fein building<lb/>  headquarters/<add>volunteeers</add> number two dawson street  number twelve dolier<lb/>  street nationality office  number twenty five rutland square<lb/>  gaelic league office  number forty one rutland square foresters <lb/> hall  sinn fein volunteer premises  in city all national<lb/>  volunteer premises  in city trade council premises capel street<lb/>  surry house leinster road rathmines  the following premises<lb/>  will be isolated &amp; all communication to or from prevented  <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T10:18:29" who="#NR">
+                
+                    Page 5317 modified:
+                    <!-- 
+premises known as archbishops house dromcondra  mansion house<lb/>  dawson street  number forty herbert park larkfield kimmage road<lb/>  woodtown part ballyboden saint endas college  hermitage<lb/>  rathfarnham &amp;in addition/<add>premises</add> in list five d see maps three &amp; <lb/> four".</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:07" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5317 created using version from <date when="2015-04-29T14:12:12"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:07" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5317 removed (version from <date when="2015-04-29T14:12:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:07" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5317 removed (version from <date when="2015-11-20T10:18:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:07" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5314 created using version from <date when="2015-04-29T13:47:22"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:07" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5314 removed (version from <date when="2015-04-29T13:47:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:07" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5314 removed (version from <date when="2015-11-19T15:59:26"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:07" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5314 removed (version from <date when="2015-11-19T15:59:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:07" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5314 removed (version from <date when="2015-11-19T15:59:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:07" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5314 removed (version from <date when="2015-11-19T15:59:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:07" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5315 created using version from <date when="2015-04-28T15:18:32"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:07" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5315 removed (version from <date when="2015-04-28T15:18:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:07" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5315 removed (version from <date when="2015-04-29T13:53:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:07" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5315 removed (version from <date when="2015-11-20T10:12:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:07" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5316 created using version from <date when="2015-04-29T14:09:55"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:07" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5316 removed (version from <date when="2015-04-29T14:09:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:07" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5316 removed (version from <date when="2015-11-20T10:15:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:07" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5316 removed (version from <date when="2015-11-20T10:16:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:07" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5316 removed (version from <date when="2015-11-20T10:16:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:07" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5316 removed (version from <date when="2015-11-20T10:16:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:07" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5316 removed (version from <date when="2015-11-20T10:16:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 5317 (version from <date when="2015-11-20T10:18:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5314 added to letter (version from <date when="2015-11-19T15:59:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5315 added to letter (version from <date when="2015-11-20T10:12:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:15" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5316 added to letter (version from <date when="2015-11-20T10:16:36"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:19" who="#PythonScript">
+                
+                    Clean tags: Page 5314 cleaned of 5 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:19" who="#PythonScript">
+                
+                    Clean tags: Page 5315 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:19" who="#PythonScript">
+                
+                    Clean tags: Page 5316 cleaned of 8 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:19" who="#PythonScript">
+                
+                    Clean tags: Page 5317 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:40" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2101_img_5314" url="ec4868e3bd8a2a3b7ff67b496e9376c3.jpg"/> 
+    
+    <graphic xml:id="L1916_2101_img_5315" url="8f50bcffa725a260f33c9bae58a4d2e2.jpg"/> 
+    
+    <graphic xml:id="L1916_2101_img_5316" url="9e15735c539558ba6d1d23fcf86a7ca2.jpg"/> 
+    
+    <graphic xml:id="L1916_2101_img_5317" url="8a575c534ba7c21a07539f539af4ab98.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="5314" facs="#L1916_2101_img_5314"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine><hi rend="underline">Ógláic na h-Eireann,</addrLine>
+<addrLine>longport: 2 sráid dásúin,</addrLine>
+<addrLine>át cliat. THE</addrLine>
+<addrLine><hi rend="underline">IRISH VOLUNTEERS</addrLine>
+<addrLine>headquarters:</addrLine>
+<addrLine>2 DAWSON STREET, DUBLIN.</hi></hi></address>  <dateline><date>18th April, 1916.</date></dateline> <address>The Lord Bishoops of Limerick</addrLine></address> <salute>My Lord,</salute></opener>  <p>I beg to enclose details of a plan in the hands of the<lb/> Government for the complete suppression of the Nationalist<lb/>  Volunteer Movement in Ireland, both Irish Volunteers &amp; National<lb/>  Volunteers, by Military force.</p>  <p>There are certain details of this plan to which I beg to<lb/>  draw special attention.  Only Military forces are to be used, the<lb/>  police being withheld.  The City of Dublin is to be placed in a<lb/> state of siege.  The inhabitants are to be confined to their houses,<lb/>  wholesale arrests, comprising several hundred persons in Dublin &amp;<lb/>  throughout the Country, are to be made.  All persons who could<lb/>  exercise disciplinary control over the Volunteers in general are to<lb/>  be placed under arrest.  Various places in the City belonging to the<lb/>  Volunteers are to be seized by the Military, &amp; in the measures<lb/>   to be used for that purpose <hi rend="underline">carte blanche </hi> is given to the Military <lb/>  offficers, who are not merely empowered but directed to do whatever<lb/>  they deem necessary "without reference to Headquarters."</p>  <p>In order to secure a free hand for the Military as long<lb/>  as these operations may last, the intervention of important citizens <lb/>  is specially guarded against.  The Archbishop of Dublin is to be <lb/>  held a prisoner in his house, &amp; forbidden all access to his clergy<lb/>  &amp; people.  The Lord Mayor is to be isolated in like manner.<lb/>  Any meeting of citizens, however few, is to be made impossible during<pb/>
+        
+    
+
+    
+         
+        <pb n="5315" facs="#L1916_2101_img_5315"/>
+        
+        
+           
+            whatever time the operations may last.</p>  <p> The enclosed document is a copy of the original plan of the<lb/> proceedings in the hands of the Government. </p> <salute>I have the honour to be, my Lord,<lb/> Your Lordship's obedient servant,</salute> Eoin MacNeill<lb/> <p>I have just learned that preliminary steps<lb/>  have been taken in <unclear>pursuance</unclear> of the plans<lb/> statee. E MacNeill.</p>
+        
+    
+         
+        <pb n="5316" facs="#L1916_2101_img_5316"/>
+        
+        
+           
+            <p>The cipher from which this document is copied does not<lb/> indicate punctuation or capitals.</p>  <p>the following precautionary measures have been sanctioned<lb/> by the irish office on the recommendation on the general officer<lb/> commanding the forces in ireland all preparations will be made<lb/> to put these measures in force immediately on receipt of an<lb/> order issued from the chief secretarys office dublin castle &amp;<lb/> the forces in ireland  first the following persons to be placed<lb/>  under arrest  all members of the sinn fein national council<lb/> the central executive irish sinn fein volunteeers  general council<lb/>   irish sinn fein volunteers  county board irish sinn fein<lb/>  volunteers  executive committee national volunteers coisde gnota<lb/>  committee gaelic league  see list three &amp; four &amp; supplementary<lb/>  list as two...................................................... <lb/> ............ ........... dublin metropolitan police &amp; royal irish<lb/>  constabulary forces in dublin city will be confined to barracks<lb/>  under the direction of competent military authority  an order <lb/>  will be issued to inhabitants of city to remain in their houses<lb/>  until such time a competent military authority may otherwise<lb/>  direct or permit pickets chosen from units of territorial force<lb/>  will be placed at all points marked on maps three &amp; four<lb/>  accompanying mounted patrols will continuously visit all points<lb/>  &amp; report every hour the following premises will be occupied by <lb/>  adequate forces &amp; all necessary measures used without need of <lb/> reference to headquarters  first premises known as liberty hall<lb/>  beresford place  number six harcourt street sinn fein building<lb/>  headquarters/<add>volunteeers</add> number two dawson street  number twelve dolier<lb/>  street nationality office  number twenty five rutland square<lb/>  gaelic league office  number forty one rutland square foresters <lb/> hall  sinn fein volunteer premises  in city all national<lb/>  volunteer premises  in city trade council premises capel street<lb/>  surry house leinster road rathmines  the following premises<lb/>  will be isolated &amp; all communication to or from prevented  <pb/>
+        
+    
+         
+        <pb n="5317" facs="#L1916_2101_img_5317"/>
+        
+        
+           
+            premises known as archbishops house dromcondra  mansion house<lb/>  dawson street  number forty herbert park larkfield kimmage road<lb/>  woodtown part ballyboden saint endas college  hermitage<lb/>  rathfarnham &amp;in addition/<add>premises</add> in list five d see maps three &amp; <lb/> four".</p>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

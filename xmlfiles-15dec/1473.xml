@@ -1,0 +1,1521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1473">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Sarah Harden to Donald Harden, 27 April 1916</title>
+                
+                <author>Sarah Harden</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="BH">Brian Hughes</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Scribe57">Scribe57</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Annie">Annie</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Hughesf">Hughesf</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="GenevieveHarden">Genevieve Harden</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BarneyDoherty">Barney Doherty</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1473</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is a letter from Sarah Harden (1870-1929) to her nephew Donald Harden who was then in England. The letter was written during and after the Easter Rising, which had begun on 24 April. Sarah began writing on 27 April and continued to add to the letter until 3 May by which time the postal system has resumed work. She gives a detailed description of her activities during the RIsing, what she had seen and heard, rumors and stories told to her by others and refers regularly to friends, relations and neighbours.    Sarah Harden was a clerk at the Mission Homes in Dublin and lived on Gratton Street with her two sisters (Aunt K. and Aunt J.) in the letter.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Genevieve Harden, Private Collection"></repository>
+                        <collection type='private'>Genevieve Harden, Private Collection</collection>
+                        
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Donald_Harden">Donald Harden</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Sarah_Harden">Sarah Harden</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-08-05T17:31:45" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-08-05T17:31:45" who="#Hughesf">
+                
+                    Page 3805 modified:
+                    <!-- 
+24 Grattan St. April 27. 1916.  My dear Donald, I suppose you are all wondering what has become of us & only hope you have not all been in a fright about us.  Well we are in the thick of it I may say but are hoping things may be all right in a day or two.  On Monday Aunt K. & I were having a good holiday clean up when we were told the Sinn Feiners had taken possession of all the Railways had seized the G.P.O. St. Stephen's Green, Jacob's factory, & several other places including Bolands bread factory quite close to us across the street from Sir P. Dunne's all through the day we heard odd shooting & of course there were great crowds up & down.  Aunt K. went out for a walk in the aft. with Rd she saw 3 Ambulances & plenty of evidence of people wounded.  The S.F. had taken a corner house & fired on several people. all that eve no policemen or soldiers to be seen near this.  Mr B. came down on Tuesday & also Mr. Steele each had plenty of news, also Aunt K. met <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-08-05T17:41:09" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-08-05T17:41:09" who="#Hughesf">
+                
+                    Page 3806 modified:
+                    <!-- 
+Ms. Murray as she was coming from the Aunts she had called up to see if they were nervous about us & found they were not at all as they knew nothing  Ms M. had been all over the place & told her Trinity was held by O.T.C. till relieved by Military.  I went out for a short walk Tuesday aft. with Mrs. Green we three are all alone here except that <unclear>Aunt J.</unclear> comes over each night.  I was able to buy 1/2 lb butter but most of the shops were shut & barred to prevent looting which we heard had started in Sackville St.  We had a pretty quiet night on Wed. seemed quiet enough at the start, but at 12:30 yesterday <add>morning</add> the real noise commenced near here, the S.F.s had St. Stephens School <unclear>questionable reading</unclear> a large house this side of Canal.  Daddy will know which if you tell him it was the corner one where Mrs Cooper of Sandymount started a branding house after his husband died.  well the military had guns on Baggot St. bridge & thundered on from 12.30 until 8.30 when we heard great cheers & <unclear>questionable reading</unclear> afterwards found that the corner house had been set on fire it blazed away for a long time & we hear they got 30 prisoners there. today they started the guns again about 12.30 but they have not gone on so continuously though plenty of smaller shots are heard from all directions.  <unclear>questionable reading</unclear> did not get down <add>at</add> all we suppose no one is allowed <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-08-05T17:44:47" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-08-05T17:44:47" who="#Hughesf">
+                
+                    Page 3807 modified:
+                    <!-- 
+to pass in.  The military are in <add>Mount</add> St. & we hear have taken this Street.  the others have a <add>corner</add> house opposite Boy's Home. the boys have been most of the time in the gardens <unclear>questionable reading</unclear> says it is the only place where she can keep them quiet.  We hear today that the soldiers from Beggars Bush are knocking down houses between them and Bolands so as to be able to shell it next.  yesterday morning a shell from a <unclear>monitor</unclear> opposite Custom House knocked Liberty Hall to the ground.  On the whole as you may imagine our holiday is not all that we would wish.  NO post either in or out no trams no trains 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-08-05T17:47:42" who="#Hughesf">
+                
+                    Page 3807 modified:
+                    <!-- 
+to pass in.  The military are in <add>Mount</add> St. & we hear have taken this Street.  the others have a <add>corner</add> house opposite Boy's Home. the boys have been most of the time in the gardens <unclear>questionable reading</unclear> says it is the only place where she can keep them quiet.  We hear today that the soldiers from Beggars Bush are knocking down houses between them and Bolands so as to be able to shell it next.  yesterday morning a shell from a <unclear>monitor</unclear> opposite Custom House knocked Liberty Hall to the ground.  On the whole as you may imagine our holiday is not all that we would wish.  No post either in or out no trams no trains & today no breadman & I have a nasty cold.  we don't know what <unclear>questionable reading</unclear> is doing but expect John W. knows something of what is going on & will keep her there.  I don't think they could cross Dublin very easily we have only seen a glimpse of Tuesdays & Wednesdays I. Times & there is no news of course only Royal Proclamation, telling everyone to stay indoors as much as possible.  We are very thankful that Miss Staples went to Sandycover last week & Miss A. to England.  they must be very uneasy without any letters.  I had a cake to send you when we got address but it is half eaten now.  I hope you are quite well again April 29. I was too sick yesterday with my cold to go on with this but feel a bit better today. <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-08-05T17:52:58" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-08-05T17:52:58" who="#Hughesf">
+                
+                    Page 3808 modified:
+                    <!-- 
+Aunt K. spent Tuesday aft. with Aunt Jo & had to make a great rush to get back here at all.  She trie dto come by herself at 5 o'clock but the soldiers were preparing to fire in the Street & would not let her cross, then she & Aunt J. got ready their <unclear>questionable reading</unclear> & had only just started when the soldiers called to the house to search for S.F.s it seems they had taken some empty housers & the soldiers were trying to find out exactly where they were.  Aunt K. asked the soldier in their room could she get over to grattan St. & he said yes if she went at once so they both took up what they could carryy in the way of eatables & none of us have been out since.  Last night the firing over our heads & down the Street was terrific.  we hardly slept at all. we get little or no news. Mrs Irwin & her boys stay in their garden a good bit & she sometimes heard a bit of what is going on. her top rooms <del>deleted text</del> cannot be used as the bullets are flying through. <del>deleted text</del> we hare having great cooking of soda bread as we have had no bread since Wednesday. Mrs Irwin got some tinned milk & <unclear>questionable reading</unclear> & flour from a small shop in G. Canal St. the owner had closed up for fear of looting but was glad enough to seel to her.  The big guns are not firing so much today but the rifles are going like mad every now & then, there is a barricade <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-08-06T15:14:34" who="#GenevieveHarden">
+                
+                    Page 3805 modified:
+                    <!-- 
+<address>24 Grattan St</address>. <date>April 27. 1916.</date>My dear Donald, <lb/>I suppose you are all wondering<lb/> <lb/>what has become of us & only hope you have not <lb/>all been in a fright about us.  Well we are in<lb/> the thick of it I may say but are hoping things<lb/> may be all right in a day or two.  On Monday<lb/> Aunt K. & I were having a good holiday clean up when we were told the Sinn Feiners had taken possession of all the Railways had seized the G.P.O. St. Stephen's Green, Jacob's factory, & several other places including Bolands bread factory quite close to us across the street from Sir P. Dunne's all through the day we heard odd shooting & of course there were great crowds up & down.  Aunt K. went out for a walk in the aft. with Rd she saw 3 Ambulances & plenty of evidence of people wounded.  The S.F. had taken a corner house & fired on several people. all that eve no policemen or soldiers to be seen near this.  Mr B. came down on Tuesday & also Mr. Steele each had plenty of news, also Aunt K. met <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-08-06T15:16:11" who="#GenevieveHarden">
+                
+                    Page 3805 modified:
+                    <!-- 
+<address>24 Grattan St</address>. <date>April 27. 1916.</date>My dear Donald, <lb/>I suppose you are all wondering<lb/> <lb/>what has become of us & only hope you have not <lb/>all been in a fright about us.  Well we are in<lb/> the thick of it I may say but are hoping things<lb/> may be all right in a day or two.  On Monday<lb/> Aunt K. & I were having a good holiday clean up when we were told the Sinn Feiners had taken<lb/> possession of all the Railways had seized the <lb/>G.P.O. St. Stephen's Green, Jacob's factory, & several other places including Bolands bread factory quite close to us across the street from Sir P. Dunne's all through the day we heard odd shooting & of course there were great crowds up & down.  Aunt K. went out for a walk in the aft. with Rd she saw 3 Ambulances & plenty of evidence of people wounded.  The S.F. had taken a corner house & fired on several people. all that eve no policemen or soldiers to be seen near this.  Mr B. came down on Tuesday & also Mr. Steele each had plenty of news, also Aunt K. met <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-08-06T15:23:16" who="#GenevieveHarden">
+                
+                    Page 3805 modified:
+                    <!-- 
+<address>24 Grattan St</address>. <date>April 27. 1916.</date>My dear Donald, <lb/>I suppose you are all wondering<lb/> <lb/>what has become of us & only hope you have not <lb/>all been in a fright about us.  Well we are in<lb/> the thick of it I may say but are hoping things<lb/> may be all right in a day or two.  On Monday<lb/> Aunt K. & I were having a good holiday clean up when we were told the Sinn Feiners had taken<lb/> possession of all the Railways had seized the <lb/>G.P.O. St. Stephen's Green, Jacob's factory, & several <lb/>other places including Bolands bread factory<lb/> quite close to us across the street from Sir P. Dunne's<lb/> all through the day we heard odd shooting &<lb/> of course there were great crowds up & down.<lb/>  Aunt K. went out for a walk in the aft. with<lb/> Rd she saw 3 Ambulances & plenty of evidence of people wounded.<lb/>  The S.F. had taken a corner <lb/>house & fired on several people. all that eve no policemen or soldiers to be seen near this.<lb/>  Mr B. came down on Tuesday & also Mr. Steele<lb/> each had plenty of news, also Aunt K. met <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-08-06T15:33:00" who="#GenevieveHarden">
+                
+                    Page 3806 modified:
+                    <!-- 
+Ms. Murray as she was coming from the Aunts she<lb/> had called up to see if they were nervous about us<lb/> & found they were not at all as they knew nothing<lb/>  Ms M. had been all over the place & told her Trinity<lb/> was held by O.T.C. till relieved by Military.  I went<lb/> out for a short walk Tuesday aft. with Mrs. Green<lb/> we three are all alone here except that <unclear>Aunt J.</unclear> comes over each night.  I was able to buy 1/2 lb butter but most of the shops were shut & barred to prevent looting which we heard had started in Sackville St.  We had a pretty quiet night on Wed. seemed quiet enough at the start, but at 12:30 yesterday <add>morning</add> the real noise commenced near here, the S.F.s had St. Stephens School <unclear>questionable reading</unclear> a large house this side of Canal.  Daddy will know which if you tell him it was the corner one where Mrs Cooper of Sandymount started a branding house after his husband died.  well the military had guns on Baggot St. bridge & thundered on from 12.30 until 8.30 when we heard great cheers & <unclear>questionable reading</unclear> afterwards found that the corner house had been set on fire it blazed away for a long time & we hear they got 30 prisoners there. today they started the guns again about 12.30 but they have not gone on so continuously though plenty of smaller shots are heard from all directions.  <unclear>questionable reading</unclear> did not get down <add>at</add> all we suppose no one is allowed <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-07T20:57:11" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-07T20:57:11" who="#Philcostel">
+                
+                    Page 3809 modified:
+                    <!-- 
+across the top of street & we hear the soldiers are gradually getting possession of all the city there were 60 soldiers wounded in P. Dunns on Thursday & to judge by the cries a lot of people in the streets have been shot. We also hear that the ladies in Merrion Sqre are nursing the wounded soldiers as the Hospitals are so full. Bolands factory is still in S.F. hands. Sunday April 30. Last night we were all so tired out that we slept pretty well, except Mrs. Green, but the firing <del>deleted text</del>must have been very bad. One bullet came into the bathroom, broke the blind stick & made it fly up then across to the door & seems to be embedded in the wall. No one attempted to cross the street this morning to go the Mass, the soldiers kept all indoors & the shooting was very bad, however at 1.30 a man S.F. was seen walking <del>deleted text</del>up the street bare headed carrying a white flag & before many minutes were gone the whole street was filled. We all rushed out . A short time after about 80 S.F.s marched round the corner by Boys' Home & were halted in front of Office, the man with the white flag met them & they all laid down their arms & marched to one side of street the farthest from us & held up their hands, a few soldiers came down with 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-07T21:21:31" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-07T21:21:31" who="#Philcostel">
+                
+                    Page 3810 modified:
+                    <!-- 
+bayonets fixed etc. & marched them all up towards <gap/>, then other soldiers came down & all arms & kit were examined & carried off. We hear the G.P.O. & North side of city surrendered yesterday & the rumour goes that the R.C. Archbishop & a priest went to Bolands & other centres & gave them a message from the Authorities to the effect that if they did not surrender the city would be blown up at once.<gap/>warships in the River. Things are much quieter tonight but shooting still goes on we hear it is a distillery behind Bolands that some are still holding priests & doctors in while ?carts? & red cross are up & down with the Ambulace motors. One of our neighbours of the Terrace down side of house gave us a loaf this morning & Mrs. ?Irwin? gave us each a thick slice of hot ham for dinner. We were going to have ½ a goose egg each Aunt K. & I but the ham was a greater treat as we have had nothing but eggs <del>deleted text</del>since Tuesday. I don't think we will be anxious on soda bread again in a hurry. Are hping to see our bread & milk men in the morning. Poor Aunts we don't know how they are feeling not hearing a word from us & we are afraid to go out yet for fear we might be kept out. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-07T21:22:08" who="#Philcostel">
+                
+                    Page 3810 modified:
+                    <!-- 
+bayonets fixed etc. & marched them all up towards <gap/>, then other soldiers came down & all arms & kit were examined & carried off. We hear the G.P.O. & North side of city surrendered yesterday & the rumour goes that the R.C. Archbishop & a priest went to Bolands & other centres & gave them a message from the Authorities to the effect that if they did not surrender the city would be blown up at once.<gap/>warships in the River. Things are much quieter tonight but shooting still goes on we hear it is a distillery behind Bolands that some are still holding priests & doctors in while ?carts? & red cross are up & down with the Ambulace motors. One of our neighbours of the Terrace down side of house gave us a loaf this morning & Mrs. ?Irwin? gave us each a thick slice of hot ham for dinner. We were going to have ½ a goose egg each Aunt K. & I but the ham was a greater treat as we have had nothing but eggs <del>deleted text</del>since Tuesday. I don't think we will be anxious on soda bread again in a hurry. Are hping to see our bread & milk men in the morning. Poor Aunts we don't know how they are feeling not hearing a word from us & we are afraid to go out yet for fear we might be kept out. Aunt 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-20T17:18:56" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-20T17:18:56" who="#GenevieveHarden">
+                
+                    Page 3811 modified:
+                    <!-- 
+K is writing to ? and we are wondering if you will wade through our letters. it is hard not to repeat ourselves. and a good many of people that lost their lives were shot while looting the shops and stores Leeson St and Baggot St have not suffered , but, St Stevens green is like the wilderness and trenches dug all over it . We are looking forward to seeing mrs Bird in the morning I am sure he is in a very anxciouse state about us all. Townsend St Has suffered a good deal but the soldiers took possession of it almost from the beginning. We are very thankfull to think the worst is over. Mon May 1st. Last night was almost the worst we had. Though i am glad to say that i slept through it all. mrs Green says it was dreadful. We made up the last flour and eat our last potato at dinner and were proposing to have porridge for tomorrow, when all stopped suddenly. Mrs? saw a group of men marching from Holles St. Headed by a white flag and almost at once the street became alive with people. About 2o'c Celeste ledony came down the street 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-17T23:53:53" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-01-17T23:53:53" who="#Annie">
+                
+                    Page 3812 modified:
+                    <!-- 
+ less than 1/2 hour with some cold mutton<lb/> eggs & 6 scones which she had got for us from <lb/>  Mrs Finney the Doctor's wife, we were g lad<lb/> to get the things & since then the soldiers <lb/> dragged down a bread cart and sold the bread <lb/> for <gap/> a loaf, so we were able to  get one. We <lb/> hear there are snipers all over the city <lb/> & the streets have now been cleared & we <lb/> have been told no lights are to be seen after <lb/> 7.30so we are preparing to go to bed in the <lb/> dark, & get up to breakfast about 6. we <lb/> are going to try the daylight saving bill <lb/> I hope we will soon get word of the Aunts,<lb/> No one as far as we can hear can get in or <lb/> out of town except the Red Cross people, <lb/> but we think Rathmines is quiet beyond <lb/> Portobello & Ranelagh was all right on <lb/> Tuesday.<lb/> Wed. <gap/> I walked up to the Aunts new house <lb/> yesterday they are most uncomfortable only <lb/> 1/2 moved as the vans did not come to finish,<lb/> then also they had been very very short of <lb/> food in Rathmines they were glad to hear we were <lb/> all right. Today I walked down to see the <lb/> ruins, it is dreadful but already people are <lb/> trying to start work again. I called to see how <lb/> Uncle James was he has been ill for the past <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-18T00:31:36" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-01-18T00:31:36" who="#Annie">
+                
+                    Page 3813 modified:
+                    <!-- 
+2 <lb/>weeks he is better now &<lb/> the sisters say will <lb/> soon be alright. I saw both him and Aunt Maggie <lb/>  & Dora. They are having a bad time with snipers<lb/> They have had several bullets through their <lb/> windows. Things seem very quiet to night & today <lb/> the trains were running from Balls bridge to <lb/> Kingstown. Our bread man came this morning but <lb/> our milkman did not. Aunt K got a bit of <lb/>  meat for tomorrow. No posts have come yet <lb/> but we posted a p c to Daddy yesterday & perhaps today <lb/> or tomorrow I hope to post this, With love to you<lb/> Your loving Aunt <lb/> Sarah 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-15T00:23:39" who="#Scribe57">
+                
+                    Page 3805 modified:
+                    <!-- 
+<address>24 Grattan St</address>. <date>April 27. 1916.</date>My dear Donald, <lb/>I suppose you are all wondering<lb/> <lb/>what has become of us & only hope you have not <lb/>all been in a fright about us.  Well we are in<lb/> the thick of it I may say but are hoping things<lb/> may be all right in a day or two.  On Monday<lb/> Aunt K. & I were having a good holiday clean up when we were told the Sinn Feiners had taken<lb/> possession of all the Railways had seized the <lb/>G.P.O. St. Stephen's Green, Jacob's factory, & several <lb/>other places including Bolands bread factory<lb/> quite close to us across the street from Sir P. Dunne's<lb/> all through the day we heard odd shooting &<lb/> of course there were great crowds up & down.<lb/>  Aunt K. went out for a walk in the aft. with<lb/>Aunt J and coming home down Northumberland <lb/> Rd she saw 3 Ambulances & plenty of evidence of people wounded.<lb/>  The S.F. had taken a corner <lb/>house & fired on several people. all that eve no policemen or soldiers to be seen near this.<lb/>  Mr B. came down on Tuesday & also Mr. Steele<lb/> each had plenty of news, also Aunt K. met <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-15T00:31:41" who="#Scribe57">
+                
+                    Page 3806 modified:
+                    <!-- 
+Ms. Murray as she was coming from the Aunts she<lb/> had called up to see if they were nervous about us<lb/> & found they were not at all as they knew nothing<lb/>  Ms M. had been all over the place & told her Trinity<lb/> was held by O.T.C. till relieved by Military.  I went<lb/> out for a short walk Tuesday aft. with Mrs. Green<lb/> we three are all alone here except that <unclear>Aunt J.</unclear> comes over each night.  I was able to buy 1/2 lb butter but most of the shops were shut & barred to prevent looting which we heard had started in Sackville St.  We had a pretty quiet night on Wed. seemed quiet enough at the start, but at 12:30 yesterday <add>morning</add> the real noise commenced near here, the S.F.s had St. Stephens School <unclear>questionable reading</unclear> a large house this side of Canal.  Daddy will know which if you tell him it was the corner one where Mrs Cooper of Sandymount started a boarding house after his husband died.  well the military had guns on Baggot St. bridge & thundered on from 12.30 until 8.30 when we heard great cheers & <unclear>shouts</unclear> afterwards found that the corner house had been set on fire it blazed away for a long time & we hear they got 30 prisoners there. today they started the guns again about 12.30 but they have not gone on so continuously though plenty of smaller shots are heard from all directions.  <unclear>questionable reading</unclear> did not get down <add>at</add> all we suppose no one is allowed <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-15T00:40:08" who="#Scribe57">
+                
+                    Page 3807 modified:
+                    <!-- 
+to pass in.  The military are in <add>Mount</add> St. & we hear have taken this Street.  The others have a <add>corner</add> house opposite Boy's Home. The boys have been most of the time in the gardens <unclear>Mrs Irwin</unclear> says it is the only place where she can keep them quiet.  We hear today that the soldiers from Beggars Bush are knocking down houses between them and Bolands so as to be able to shell it next.  yesterday morning a shell from a <unclear>monitor</unclear> opposite Custom House knocked Liberty Hall to the ground.  On the whole as you may imagine our holiday is not all that we would wish.  No post either in or out no trams no trains & today no breadman & I have a nasty cold.  we don't know what <unclear>questionable reading</unclear> is doing but expect John W. knows something of what is going on & will keep her there.  I didn't think they could cross Dublin very easily we have only seen a glimpse of Tuesdays & Wednesdays I. Times & there is no news of course only Royal Proclamation, telling everyone to stay indoors as much as possible.  We are very thankful that Miss Staples went to Sandycove last week & Miss A. to England.  they must be very uneasy without any letters.  I had a cake to send you when we got address but it is half eaten now.  I hope you are quite well again April 29. I was too sick yesterday with my cold to go on with this but feel a bit better today. <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-15T00:50:10" who="#Scribe57">
+                
+                    Page 3808 modified:
+                    <!-- 
+Aunt K. spent Tuesday aft. with Aunt Jo & had to make a great rush to get back here at all.  She tried to come by herself at 5 o'clock but the soldiers were preparing to fire in the Street & would not let her cross, then she & Aunt J. got ready their tea & had only just started when the soldiers called to the house to search for S.F.s it seems they had taken some empty housers & the soldiers were trying to find out exactly where they were.  Aunt K. asked the soldier in their room could she get over to Grattan St. & he said yes if she went at once so they both took up what they could carry in the way of eatables & none of us have been out since.  Last night the firing over our heads & down the Street was terrific.  we hardly slept at all. we get little or no news. Mrs Irwin & her boys stay in their garden a good bit & she sometimes hears a bit of what is going on. her top rooms <del>deleted text</del> cannot be used as the bullets are flying through. <del>deleted text</del> we hare having great cooking of soda bread as we have had no bread since Wednesday. Mrs Irwin got some tinned milk & <unclear>questionable reading</unclear> & flour from a small shop in G. Canal St. the owner had closed up for fear of looting but was glad enough to sell to her.  The big guns are not firing so much today but the rifles are going like mad every now & then, there is a barricade <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-15T00:58:45" who="#Scribe57">
+                
+                    Page 3809 modified:
+                    <!-- 
+across the top of street & we hear the soldiers are gradually getting possession of all the city there were 60 soldiers wounded in P. Dunnes on Thursday & to judge by the cries a lot of people in the streets have been shot. We also hear that the ladies in Merrion Sqre are nursing the wounded soldiers as the Hospitals are so full. Bolands factory is still in S.F. hands. Sunday April 30. Last night we were all so tired out that we slept pretty well, except Mrs. Green, but the firing <del>deleted text</del>must have been very bad. One bullet came into the bathroom, broke the blind stick & made it fly up then across to the door & seems to be embedded in the wall. No one attempted to cross the street this morning to go the Mass, the soldiers kept all indoors & the shooting was very bad, however at 1.30 a man S.F. was seen walking <del>deleted text</del>up the street bare headed carrying a white flag & before many minutes were gone the whole street was filled. We all rushed out . A short time after about 80 S.F.s marched round the corner by Boys' Home & were halted in front of Office, the man with the white flag met them & they all laid down their arms & marched to one side of street the farthest from us & held up their hands, a few soldiers came down with 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-15T01:07:03" who="#Scribe57">
+                
+                    Page 3810 modified:
+                    <!-- 
+bayonets fixed etc. & marched them all up towards <gap/>, then other soldiers came down & all arms & kit were examined & carried off. We hear the G.P.O. & North side of city surrendered yesterday & the rumour goes that the R.C. Archbishop & a priest went to Bolands & other centres & gave them a message from the Authorities to the effect that if they did not surrender the city would be blown up at once by warships in the River. Things are much quieter tonight but shooting still goes on we hear it is a distillery behind Bolands that some are still holding priests & doctors in white cross& red cross are up & down with the Ambulance motors. One of our neighbours of the Terrace down side of house gave us a loaf this morning & Mrs.Irwin gave us each a thick slice of hot ham for dinner. We were going to have ½ a goose egg each Aunt K. & I but the ham was a greater treat as we have had nothing but eggs <del>deleted text</del>since Tuesday. I don't think we will be anxious on soda bread again in a hurry. And are hoping to see our bread & milk men in the morning. Poor Aunts we don't know how they are feeling not hearing a word from us & we are afraid to go out yet for fear we might be kept out. Aunt 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-15T01:18:58" who="#Scribe57">
+                
+                    Page 3811 modified:
+                    <!-- 
+K is writing to ? and we are wondering if you will all wade through our letters. it is hard not to repeat ourselves. We hear Sackville  St is in ruins and a good many of people who lost their lives were shot while looting the shops and stores.  Leeson St and Baggot St have not suffered , but, St Stevens green is like a wilderness and trenches dug all over it . We are looking forward to seeing Mr Baird in the morning. I am sure he is in a very anxiouse state about us all. Townsend St Has suffered a good deal but the soldiers took possession of it almost from the beginning. We are very thankfull to think the worst is over. Mon May 1st. Last night was almost the worst we had. Though i am glad to say i slept through it all. Mrs Green says it was dreadful. We made up the last flour and eat our last potato at dinner and were proposing to have porridge for tomorrow, when all stopped suddenly. Mrs ? saw a group of men marching from Hollies St. headed by a white flag and almost at once the street became alive with people. About 2o'c Celeste Ledony came down the street in Red Cross cap etc. She is helping in Merrion Square to nurse the wounded and she came to see if we were alive. She only stayed at the gate a couple of minutes and came back then 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-15T01:26:05" who="#Scribe57">
+                
+                    Page 3812 modified:
+                    <!-- 
+ less than 1/2 hour with some cold mutton<lb/> eggs & 6 scones which she had got for us from <lb/>  Mrs Finney the Doctor's wife, we were  glad<lb/> to get the things & since then the soldiers <lb/> dragged down a bread cart and sold the bread <lb/> for 3 a loaf, so we were able to  get one. We <lb/> hear there are snipers all over the city <lb/> & the streets have now been cleared & we <lb/> have been told no lights are to be seen after <lb/> 7.30so we are preparing to go to bed in the <lb/> dark, & get up to breakfast about 6. we <lb/> are going to try the daylight saving bill <lb/> I hope we will soon get word of the Aunts,<lb/> No one as far as we can hear can get in or <lb/> out of town except the Red Cross people, <lb/> but we think Rathmines is quiet beyond <lb/> Portobello & Ranelagh was all right on <lb/> Tuesday.<lb/> Wed. May 3. I walked up to the Aunts new house <lb/> yesterday they are most uncomfortable only <lb/> 1/2 moved as the vans did not come to finish,<lb/> then also they had been very very short of <lb/> food in Rathmines they were glad to hear we were <lb/> all right. Today I walked down town to see the <lb/> ruins, it is dreadful but already people are <lb/> trying to start work again. I called to see how <lb/> Uncle James was he has been ill for the past <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-15T01:29:18" who="#Scribe57">
+                
+                    Page 3813 modified:
+                    <!-- 
+2 weeks he is better now &<lb/> the sisters say will <lb/> soon be alright. I saw both him and Aunt Maggie <lb/>  & Dora. They are having a bad time with snipers<lb/> They have had several bullets through their <lb/> windows. Things seem very quiet to night & today <lb/> the trains were running from Balls bridge to <lb/> Kingstown. Our breadman came this morning but <lb/> our milkman did not. Aunt K got a bit of <lb/>  meat for tomorrow. No posts have come yet <lb/> but we posted a p c to Daddy yesterday & perhaps today <lb/> or tomorrow I hope to post this, With love to you<lb/> Your loving Aunt <lb/> Sarah 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-01T00:00:00" who="#BD">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#BD" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-01T20:30:00" who="#BarneyDoherty">
+                
+                    Page 3807 modified:
+                    <!-- 
+<lb/>to pass in. The military are in <add>Mount</add> St. &amp; we hear  <lb/>have taken this Street. The others have a <add>corner</add> house  <lb/>opposite Boy's Home. The boys have been most of  <lb/>the time in the gardens Mrs Irwin says it is the  <lb/>only place where she can keep them quiet. We  <lb/>hear today that the soldiers from Beggars Bush are  <lb/>knocking down houses between them and Bolands  <lb/>so as to be able to shell it next. Yesterday morning  <lb/>a shell from a munition opposite Custom House  <lb/>knocked Liberty Hall to the ground. On the  <lb/>whole as you may imagine our holiday is not  <lb/>all that we would wish. No post either in or out  <lb/>no trams no trains &amp; today no breadman &amp; I have  <lb/>a nasty cold. We don't know what Dona is doing but  <lb/>expect John W. knows something of what is going on  <lb/>&amp; will keep her there. I didn't think they could cross  <lb/>Dublin very easily we have only seen a glimpse  <lb/>of Tuesdays & Wednesdays I. Times &amp; there is no news  <lb/>of course only Royal Proclamation, telling everyone  <lb/>to stay indoors as much as possible. We are very  <lb/>thankful that Miss Staples went to Sandycove last  <lb/>week &amp; Miss A. to England. They must be very  <lb/>uneasy without any letters. I had a cake to send  <lb/>you when we got address but it is half eaten now. <lb/>I hope you are quite well again</p> <p>April 29. I was too sick yesterday with my cold to  <lb/>go on with this but feel a bit better today. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-01T20:43:48" who="#BarneyDoherty">
+                
+                    Page 3808 modified:
+                    <!-- 
+<lb/>Aunt K. spent Tuesday aft. with Aunt Jo &amp; had  <lb/>to make a great rush to get back here at all. <lb/>She tried to come by herself at 5 o'clock but the soldiers <lb/>were preparing to fire in the Street &amp; would not  <lb/>let her cross, then she &amp; Aunt J. got ready their tea  <lb/>&amp; had only just started when the soldiers came in  <lb/>to the house to search for S.F.s it seems they had  <lb/>taken some empty houses &amp; the soldiers were  <lb/>trying to find out exactly where they were.  <lb/>Aunt K. asked the soldier in their room could she  <lb/>get over to Grattan St. &amp; he said yes if she went  <lb/>at once so they both took up what they could  <lb/>carry in the way of eatables &amp; none of us have  <lb/>been out since. Last night the firing over our  <lb/>heads &amp; down the Street was terrific we hardly  <lb/>slept at all. we get little or no news. Mrs Irwin  <lb/>&amp; her boys stay in their garden a good bit &amp; she  <lb/>sometimes hears a bit of what is going on. Her  <lb/>top rooms <del>are</del> cannot be used as the bullets  <lb/>are flying through. <del>What</del> we are having great  <lb/>cooking of soda bread as we have had no bread  <lb/>since Wednesday. Mrs Irwin got some tinned milk  <lb/>&amp; <unclear>questionable reading</unclear> &amp; flour from a small shop in G. Canal St.  <lb/>The owner had closed up for fear of looting but was  <lb/>glad enough to sell to her. The big guns are not  <lb/>firing so much today but the rifles are going like  <lb/>mad every now &amp; then, there is a barricade 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-01T20:55:20" who="#BarneyDoherty">
+                
+                    Page 3809 modified:
+                    <!-- 
+<lb/>across the top of street &amp; we hear the soldiers  <lb/>are gradually getting possession of all the city  <lb/>there were 60 soldiers wounded in P. Dunnes on  <lb/>Thursday &amp; to judge by the cries a lot of people in  <lb/>the streets have been shot. We also hear that  <lb/>the ladies in Merrion Sqre are nursing the  <lb/>wounded soldiers as the Hospitals are so full. <lb/>Bolands factory is still in S.F. hands.</p> <p> <lb/>Sunday April 30. Last night we were all so tired out  <lb/>that we slept pretty well, except Mrs. Green, but  <lb/>the firing <del>was</del>must have been very bad. One  <lb/>bullet came into the bathroom, broke the blind  <lb/>stick &amp; made it fly up then across to the door &amp; seems  <lb/>to be embedded in the wall. No one attempted  <lb/>to cross the street this morning to go the Mass. The  <lb/>soldiers kept all indoors &amp; the shooting was  <lb/>very bad. However at 1.30 a man S.F. was seen  <lb/>walking <del>deleted text</del> up the street bareheaded carrying  <lb/>a white flag &amp; before many minutes were  <lb/>gone the whole street was filled. We all  <lb/>rushed out &amp; shortly after about 80 S.F.s  <lb/>marched round the corner by Boys' Home  <lb/>&amp; were halted in front of Office, the man  <lb/>with the white flag met them &amp; they all laid  <lb/>down their arms &amp; marched to one side of  <lb/>street the farthest from us &amp; held up their hands,  <lb/>a few soldiers came down with 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-01T21:21:40" who="#BarneyDoherty">
+                
+                    Page 3810 modified:
+                    <!-- 
+<lb/>bayonets fixed etc. &amp; marched them  <lb/>all up towards <gap/> then other soldiers  <lb/>came down &amp; all arms &amp; kit were examined  <lb/>&amp; carried off. We hear the G.P.O. &amp; north  <lb/>side of city surrendered yesterday &amp;  <lb/>the rumour goes that the R.C. Archbishop  <lb/>&amp; a priest went to Bolands &amp; other centres  <lb/>&amp; gave them a message from the Authorities  <lb/>to the effect that if they did not surrender  <lb/>the city would be blown up at once by  <lb/>warships in the River. Things are much  <lb/>quieter tonight but shooting still goes on  <lb/>we hear it is a distillery behind Bolands  <lb/>that some are still holding. Priests &amp; doctors in white coats &amp; red cross are up &amp; down  <lb/>with the Ambulance motors. One of our neighbours  <lb/>of the Terrace down side of house gave us a loaf  <lb/>this morning &amp; Mrs.Irwin gave us each a thick slice  <lb/>of hot ham for dinner. We were going to have ½ a  <lb/>goose egg each Aunt K. &amp; I but the ham was a  <lb/>greater treat as we have had nothing but eggs  <lb/><del>one</del> since Tuesday. I don't think we will be anxious  <lb/>on soda bread again in a hurry. &amp; are hoping to  <lb/>see our bread &amp; milk men in the morning. <lb/>Poor Aunts we don't know how they are feeling  <lb/>not hearing a word from us &amp; we are afraid to  <lb/>go out yet for fear we might be kept out. Aunt 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-01T22:28:48" who="#BarneyDoherty">
+                
+                    Page 3811 modified:
+                    <!-- 
+<lb/>K is writing to <gap/> and we are wondering  <lb/>if you will all wade through our letters <lb/>it is hard not to repeat ourselves. We hear  <lb/>Sackville St is in ruins and a good many of the  <lb/>people who lost their lives were shot while  <lb/>looting the shops &amp; stores. Leeson St and Baggot St  <lb/>have not suffered, but, St Stevens green is like  <lb/>a wilderness &amp; trenches dug all over it. We  <lb/>are looking forward to seeing Mr Baird in the  <lb/>morning. I am sure he is in a very anxious  <lb/>state about us all. Townsend St Has suffered  <lb/>a good deal but the soldiers took possession of  <lb/>it almost from the beginning. We are very  <lb/>thankfull to think the worst is over.</p> <p> <lb/>Monday May 1st. Last night was almost the worst  <lb/>we had. Though i am glad to say I slept through  <lb/>it all. Mrs Green says it was dreadful. We  <lb/>made up the last flour &amp; eat our last potato at  <lb/>dinner &amp; were proposing to have porridge for  <lb/>tomorrow, when all stopped suddenly. Mrs <gap/>  <lb/>saw a group of men marching from Hollies St. headed  <lb/>by a white flag and almost at once the street  <lb/>became alive with people. About 2 o'c Celeste  <lb/>Ledony came down the street in Red Cross cap etc.  <lb/>She is helping in Merrion Square to nurse the wounded  <lb/>&amp; she came to see if we were alive. She only stayed at  <lb/>the gate a couple of minutes &amp; came back then 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-01T23:12:57" who="#BarneyDoherty">
+                
+                    Page 3812 modified:
+                    <!-- 
+<lb/>less than 1/2 hour with some cold mutton <lb/>6 eggs &amp; 6 scones which she had got for us from  <lb/>Mrs Finney the Doctor's wife, we were glad <lb/>to get the things &amp; since then the soldiers  <lb/>dragged down a bread cart &amp; sold the bread  <lb/>for 3 a loaf, so <add>we</add> were able to get one. We  <lb/>hear there are snipers all over the city  <lb/>&amp; the streets have now been cleared &amp; we  <lb/>have been told no lights are to be seen after  <lb/>7.30. So we are preparing to go to bed in the  <lb/>dark, &amp; get up to breakfast about 6. We  <lb/>are going to try the daylight saving bill!!!  <lb/>I hope we will soon get word of the Aunts, <lb/>No one as far as we can hear can get in or  <lb/>out of town except the Red Cross people,  <lb/>but we think Rathmines is quiet beyond  <lb/>Portobello & Ranelagh was all right on  <lb/>Tuesday.</p> <p> <lb/>Wed. May 3. I walked up to the Aunts new house  <lb/>yesterday they are most uncomfortable only  <lb/>1/2 moved as the vans did not come to finish, <lb/>them &amp; also they had been very short of  <lb/>food in Rathmines they were glad to hear we were  <lb/>all right. Today I walked down town to see the  <lb/>ruins, it is dreadful but already people are  <lb/>trying to start work again. I called to see how  <lb/>Uncle James was he has been ill for the past 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-01T23:19:23" who="#BarneyDoherty">
+                
+                    Page 3813 modified:
+                    <!-- 
+<lb/>2 weeks he is better now &amp; the sisters say will  <lb/>soon be alright. I saw both him &amp; Aunt Maggie  <lb/>&amp; Dora. They are having a bad time with snipers <lb/>there have several bullets through their  <lb/>windows. Things seem very quiet tonight &amp; today  <lb/>the trains were running from Balls Bridge to  <lb/>Kingstown. Our breadman came this morning but  <lb/>our milkman did not. Aunt K got a bit of  <lb/>meat for tomorrow. No posts have come yet  <lb/>but we posted a p.c. to Daddy yesterday &amp; papers today  <lb/>&amp; tomorrow I hope to post this, With love to you <salute>Your loving Aunt </salute> <signed>Sarah</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-05T13:53:29" who="#BarneyDoherty">
+                
+                    Page 3806 modified:
+                    <!-- 
+<lb/>Ms. Murray as she was coming from the Aunts she <lb/>had called up to see if they were nervous about us <lb/>&amp; found they were not at all as they knew nothing <lb/>Ms M. had been all over the place & told her Trinity <lb/>was held by O.T.C. till relieved by military. I went <lb/>out for a short walk Tuesday aft. with Mrs. Green <lb/>we three are all alone here except that Aunt J. <lb/>comes over each night. I was able to buy 1/2 lb butter  <lb/>but most of the shops were shut &amp; barred to <lb/>prevent looting which we heard had started  <lb/>in Sackville St. We had a pretty quiet night  <lb/>on Wed. seemed quiet enough at the start, but  <lb/>at 12:30 yesterday <add>morning</add> the real noise commenced  <lb/>near here, the S.F.s had St. Stephens Schools walls a large  <lb/>house this side of Canal. Daddy will know which if  <lb/>you tell him it was the corner one where Mrs Cooper  <lb/>of Sandymount started a boarding house after her  <lb/>husband died.  Well the military had guns on  <lb/>Baggot St. bridge &amp; thundered on from 12.30  <lb/>until 8.30 when we heard great cheers &amp; shouts  <lb/>afterwards found that the corner house had been  <lb/>set on fire it blazed away for a long time &amp; we hear  <lb/>they got 30 prisoners there. Today they started the  <lb/>guns again about 12.30 but they have not gone  <lb/>on so continuously though plenty of smaller  <lb/>shots are heard from all directions. Mrs. Brid  <lb/>did not get down <add>at</add> all we suppose no one is allowed 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-05T13:53:41" who="#BarneyDoherty">
+                
+                    Page 3806 modified:
+                    <!-- 
+<lb/>Ms. Murray as she was coming from the Aunts she <lb/>had called up to see if they were nervous about us <lb/>&amp; found they were not at all as they knew nothing <lb/>Ms M. had been all over the place &amp; told her Trinity <lb/>was held by O.T.C. till relieved by military. I went <lb/>out for a short walk Tuesday aft. with Mrs. Green <lb/>we three are all alone here except that Aunt J. <lb/>comes over each night. I was able to buy 1/2 lb butter  <lb/>but most of the shops were shut &amp; barred to <lb/>prevent looting which we heard had started  <lb/>in Sackville St. We had a pretty quiet night  <lb/>on Wed. seemed quiet enough at the start, but  <lb/>at 12:30 yesterday <add>morning</add> the real noise commenced  <lb/>near here, the S.F.s had St. Stephens Schools walls a large  <lb/>house this side of Canal. Daddy will know which if  <lb/>you tell him it was the corner one where Mrs Cooper  <lb/>of Sandymount started a boarding house after her  <lb/>husband died.  Well the military had guns on  <lb/>Baggot St. bridge &amp; thundered on from 12.30  <lb/>until 8.30 when we heard great cheers &amp; shouts  <lb/>afterwards found that the corner house had been  <lb/>set on fire it blazed away for a long time &amp; we hear  <lb/>they got 30 prisoners there. Today they started the  <lb/>guns again about 12.30 but they have not gone  <lb/>on so continuously though plenty of smaller  <lb/>shots are heard from all directions. Mrs. Brid  <lb/>did not get down <add>at</add> all we suppose no one is allowed 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-05T13:58:16" who="#BarneyDoherty">
+                
+                    Page 3807 modified:
+                    <!-- 
+<lb/>to pass in. The military are in <add>Mount</add> St. &amp; we hear  <lb/>have taken this Street. The others have a <add>corner</add> house  <lb/>opposite Boy's Home. The boys have been most of  <lb/>the time in the gardens Mrs Irwin says it is the  <lb/>only place where she can keep them quiet. We  <lb/>hear today that the soldiers from Beggars Bush are  <lb/>knocking down houses between them and Bolands  <lb/>so as to be able to shell it next. Yesterday morning  <lb/>a shell from a munition opposite Custom House  <lb/>knocked Liberty Hall to the ground. On the  <lb/>whole as you may imagine our holiday is not  <lb/>all that we would wish. No post either in or out  <lb/>no trams no trains &amp; today no breadman &amp; I have  <lb/>a nasty cold. We don't know what Dona is doing but  <lb/>expect John W. knows something of what is going on  <lb/>&amp; will keep her there. I didn't think they could cross  <lb/>Dublin very easily we have only seen a glimpse  <lb/>of Tuesdays &amp; Wednesdays I. Times &amp; there is no news  <lb/>of course only Royal Proclamation, telling everyone  <lb/>to stay indoors as much as possible. We are very  <lb/>thankful that Miss Staples went to Sandycove last  <lb/>week &amp; Miss A. to England. They must be very  <lb/>uneasy without any letters. I had a cake to send  <lb/>you when we got address but it is half eaten now. <lb/>I hope you are quite well again</p> <p> <lb/>April 29. I was too sick yesterday with my cold to  <lb/>go on with this but feel a bit better today. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-07T09:21:02" who="#NR">
+                
+                    Page 3805 modified:
+                    <!-- 
+<address>24 Grattan St</address>. <date>April 27. 1916.</date> <salute>My dear Donald,</salute> <p>I suppose you are all wondering <lb/>what has become of us &amp; only hope you have not  <lb/>all been in a fright about us. Well we are in <lb/> the thick of it I may say but are hoping things <lb/> may be all right in a day or two. On Monday <lb/> Aunt K. &amp; I were having a good holiday clean <lb/>up when we were told the Sinn Feiners had taken <lb/>possession of all the Railways had seized the <lb/>G.P.O. St. Stephen's Green, Jacob's factory, &amp; several  <lb/>other places including Bolands bread factory <lb/> quite close to us across the street from Sir P. Dunne's <lb/> all through the day we heard odd shooting &amp; <lb/> of course there were great crowds up &amp; down. <lb/>Aunt K. went out for a walk in the aft. with <lb/>Aunt J &amp; coming home down Northumberland  <lb/> Rd she saw 3 Ambulances &amp; plenty of evidence  <lb/>of people wounded. The S.F. had taken a corner  <lb/>house &amp; fired on several people. all that eve  <lb/>no policemen or soldiers to be seen near this. <lb/>Mr B. came down on Tuesday &amp; also Mr. Steele <lb/>each had plenty of news, also Aunt K. met 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-07T09:24:52" who="#NR">
+                
+                    Page 3807 modified:
+                    <!-- 
+<lb/>to pass in. The military are in <add>Mount</add> St. &amp; we hear  <lb/>have taken this Street. The others have a <add>corner</add> house  <lb/>opposite Boy's Home. The boys have been most of  <lb/>the time in the gardens Mrs Irwin says it is the  <lb/>only place where she can keep them quiet. We  <lb/>hear today that the soldiers from Beggars Bush are  <lb/>knocking down houses between them and Bolands  <lb/>so as to be able to shell it next. Yesterday morning  <lb/>a shell from a munition opposite Custom House  <lb/>knocked Liberty Hall to the ground. On the  <lb/>whole as you may imagine our holiday is not  <lb/>all that we would wish. No post either in or out  <lb/>no trams no trains &amp; today no breadman &amp; I have  <lb/>a nasty cold. We don't know what Dona is doing but  <lb/>expect John W. knows something of what is going on  <lb/>&amp; will keep her there. I didn't think they could cross  <lb/>Dublin very easily we have only seen a glimpse  <lb/>of Tuesdays &amp; Wednesdays I. Times &amp; there is no news  <lb/>of course only Royal Proclamation, telling everyone  <lb/>to stay indoors as much as possible. We are very  <lb/>thankful that Miss Staples went to Sandycove last  <lb/>week &amp; Miss A. to England. They must be very  <lb/>uneasy without any letters. I had a cake to send  <lb/>you when we got address but it is half eaten now. <lb/>I hope you are quite well again</p> <p>April 29. I was too sick yesterday with my cold to  <lb/>go on with this but feel a bit better today. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-07T09:30:36" who="#NR">
+                
+                    Page 3808 modified:
+                    <!-- 
+<lb/>Aunt K. spent Tuesday aft. with Aunt Jo &amp; had  <lb/>to make a great rush to get back here at all. <lb/>She tried to come by herself at 5 o'clock but the soldiers <lb/>were preparing to fire in the Street &amp; would not  <lb/>let her cross, then she &amp; Aunt J. got ready their tea  <lb/>&amp; had only just started when the soldiers came in  <lb/>to the house to search for S.F.s it seems they had  <lb/>taken some empty houses &amp; the soldiers were  <lb/>trying to find out exactly where they were.  <lb/>Aunt K. asked the soldier in their room could she  <lb/>get over to Grattan St. &amp; he said yes if she went  <lb/>at once so they both took up what they could  <lb/>carry in the way of eatables &amp; none of us have  <lb/>been out since. Last night the firing over our  <lb/>heads &amp; down the Street was terrific we hardly  <lb/>slept at all. we get little or no news. Mrs Irwin  <lb/>&amp; her boys stay in their garden a good bit &amp; she  <lb/>sometimes hears a bit of what is going on. Her  <lb/>top rooms <del>are</del> cannot be used as the bullets  <lb/>are flying through. <del>What</del> we are having great  <lb/>cooking of soda bread as we have had no bread  <lb/>since Wednesday. Mrs Irwin got some tinned milk  <lb/>&amp; <unclear>gains</unclear> &amp; flour from a small shop in G. Canal St.  <lb/>The owner had closed up for fear of looting but was  <lb/>glad enough to sell to her. The big guns are not  <lb/>firing so much today but the rifles are going like  <lb/>mad every now &amp; then, there is a barricade 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-07T09:32:19" who="#NR">
+                
+                    Page 3809 modified:
+                    <!-- 
+<lb/>across the top of street &amp; we hear the soldiers  <lb/>are gradually getting possession of all the city  <lb/>there were 60 soldiers wounded in P. Dunnes on  <lb/>Thursday &amp; to judge by the cries a lot of people in  <lb/>the streets have been shot. We also hear that  <lb/>the ladies in Merrion Sqre are nursing the  <lb/>wounded soldiers as the Hospitals are so full. <lb/>Bolands factory is still in S.F. hands.</p> <p>Sunday April 30. Last night we were all so tired out  <lb/>that we slept pretty well, except Mrs. Green, but  <lb/>the firing <del>was</del>must have been very bad. One  <lb/>bullet came into the bathroom, broke the blind  <lb/>stick &amp; made it fly up then across to the door &amp; seems  <lb/>to be embedded in the wall. No one attempted  <lb/>to cross the street this morning to go the Mass. The  <lb/>soldiers kept all indoors &amp; the shooting was  <lb/>very bad. However at 1.30 a man S.F. was seen  <lb/>walking <del>from</del> up the street bareheaded carrying  <lb/>a white flag &amp; before many minutes were  <lb/>gone the whole street was filled. We all  <lb/>rushed out &amp; shortly after about 80 S.F.s  <lb/>marched round the corner by Boys' Home  <lb/>&amp; were halted in front of Office, the man  <lb/>with the white flag met them &amp; they all laid  <lb/>down their arms &amp; marched to one side of  <lb/>street the farthest from us &amp; held up their hands,  <lb/>a few soldiers came down with 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-07T09:35:22" who="#NR">
+                
+                    Page 3810 modified:
+                    <!-- 
+<lb/>bayonets fixed etc. &amp; marched them  <lb/>all up towards <unclear>Slpis</unclear> then other soldiers  <lb/>came down &amp; all arms &amp; kit were examined  <lb/>&amp; carried off. We hear the G.P.O. &amp; north  <lb/>side of city surrendered yesterday &amp;  <lb/>the rumour goes that the R.C. Archbishop  <lb/>&amp; a priest went to Bolands &amp; other centres  <lb/>&amp; gave them a message from the Authorities  <lb/>to the effect that if they did not surrender  <lb/>the city would be blown up at once by  <lb/>warships in the River. Things are much  <lb/>quieter tonight but shooting still goes on  <lb/>we hear it is a distillery behind Bolands  <lb/>that some are still holding. Priests &amp; doctors in white coats &amp; red cross are up &amp; down  <lb/>with the Ambulance motors. One of our neighbours  <lb/>of the Terrace down side of house gave us a loaf  <lb/>this morning &amp; Mrs.Irwin gave us each a thick slice  <lb/>of hot ham for dinner. We were going to have ½ a  <lb/>goose egg each Aunt K. &amp; I but the ham was a  <lb/>greater treat as we have had nothing but eggs  <lb/><del>one</del> since Tuesday. I don't think we will be anxious  <lb/>on soda bread again in a hurry. &amp; are hoping to  <lb/>see our bread &amp; milk men in the morning. <lb/>Poor Aunts we don't know how they are feeling  <lb/>not hearing a word from us &amp; we are afraid to  <lb/>go out yet for fear we might be kept out. Aunt 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-07T09:36:38" who="#NR">
+                
+                    Page 3811 modified:
+                    <!-- 
+<lb/>K is writing to <unclear>Gleneely</unclear> and we are wondering  <lb/>if you will all wade through our letters <lb/>it is hard not to repeat ourselves. We hear  <lb/>Sackville St is in ruins and a good many of the  <lb/>people who lost their lives were shot while  <lb/>looting the shops &amp; stores. Leeson St and Baggot St  <lb/>have not suffered, but, St Stevens green is like  <lb/>a wilderness &amp; trenches dug all over it. We  <lb/>are looking forward to seeing Mr Baird in the  <lb/>morning. I am sure he is in a very anxious  <lb/>state about us all. Townsend St Has suffered  <lb/>a good deal but the soldiers took possession of  <lb/>it almost from the beginning. We are very  <lb/>thankful to think the worst is over.</p> <p>Monday May 1st. Last night was almost the worst  <lb/>we had. Though i am glad to say I slept through  <lb/>it all. Mrs Green says it was dreadful. We  <lb/>made up the last flour &amp; eat our last potato at  <lb/>dinner &amp; were proposing to have porridge for  <lb/>tomorrow, when all stopped suddenly. Mrs <unclear>Lu</unclear> <lb/>saw a group of men marching from Hollies St. headed  <lb/>by a white flag and almost at once the street  <lb/>became alive with people. About 2 o'c Celeste  <lb/>Ledony came down the street in Red Cross cap etc.  <lb/>She is helping in Merrion Square to nurse the wounded  <lb/>&amp; she came to see if we were alive. She only stayed at  <lb/>the gate a couple of minutes &amp; came back then 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-07T09:37:30" who="#NR">
+                
+                    Page 3812 modified:
+                    <!-- 
+<lb/>less than 1/2 hour with some cold mutton <lb/>6 eggs &amp; 6 scones which she had got for us from  <lb/>Mrs Finney the Doctor's wife, we were glad <lb/>to get the things &amp; since then the soldiers  <lb/>dragged down a bread cart &amp; sold the bread  <lb/>for 3 a loaf, so <add>we</add> were able to get one. We  <lb/>hear there are snipers all over the city  <lb/>&amp; the streets have now been cleared &amp; we  <lb/>have been told no lights are to be seen after  <lb/>7.30. So we are preparing to go to bed in the  <lb/>dark, &amp; get up to breakfast about 6. We  <lb/>are going to try the daylight saving bill!!!  <lb/>I hope we will soon get word of the Aunts, <lb/>No one as far as we can hear can get in or  <lb/>out of town except the Red Cross people,  <lb/>but we think Rathmines is quiet beyond  <lb/>Portobello & Ranelagh was all right on  <lb/>Tuesday.</p> <p>Wed. May 3. I walked up to the Aunts new house  <lb/>yesterday they are most uncomfortable only  <lb/>1/2 moved as the vans did not come to finish, <lb/>them &amp; also they had been very short of  <lb/>food in Rathmines they were glad to hear we were  <lb/>all right. Today I walked down town to see the  <lb/>ruins, it is dreadful but already people are  <lb/>trying to start work again. I called to see how  <lb/>Uncle James was he has been ill for the past 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-07T09:38:09" who="#NR">
+                
+                    Page 3813 modified:
+                    <!-- 
+<lb/>2 weeks he is better now &amp; the sisters say will  <lb/>soon be alright. I saw both him &amp; Aunt Maggie  <lb/>&amp; Dora. They are having a bad time with snipers <lb/>there have several bullets through their  <lb/>windows. Things seem very quiet tonight &amp; today  <lb/>the trains were running from Balls Bridge to  <lb/>Kingstown. Our breadman came this morning but  <lb/>our milkman did not. Aunt K got a bit of  <lb/>meat for tomorrow. No posts have come yet  <lb/>but we posted a p.c. to Daddy yesterday &amp; papers today  <lb/>&amp; tomorrow I hope to post this, With love to you <lb/>all.</p> <salute>Your loving Aunt </salute> <signed>Sarah</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3813 created using version from <date when="2015-01-18T00:31:36"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3813 removed (version from <date when="2015-01-18T00:31:36"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3813 removed (version from <date when="2015-04-15T01:29:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3813 removed (version from <date when="2015-12-01T23:19:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3813 removed (version from <date when="2015-12-07T09:38:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3807 created using version from <date when="2014-08-05T17:44:47"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3807 removed (version from <date when="2014-08-05T17:44:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3807 removed (version from <date when="2014-08-05T17:47:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3807 removed (version from <date when="2015-04-15T00:40:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3807 removed (version from <date when="2015-12-01T20:30:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3807 removed (version from <date when="2015-12-05T13:58:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3807 removed (version from <date when="2015-12-07T09:24:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3810 created using version from <date when="2014-11-07T21:21:31"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3810 removed (version from <date when="2014-11-07T21:21:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3810 removed (version from <date when="2014-11-07T21:22:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3810 removed (version from <date when="2015-04-15T01:07:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3810 removed (version from <date when="2015-12-01T21:21:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3810 removed (version from <date when="2015-12-07T09:35:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3808 created using version from <date when="2014-08-05T17:52:58"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3808 removed (version from <date when="2014-08-05T17:52:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3808 removed (version from <date when="2015-04-15T00:50:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3808 removed (version from <date when="2015-12-01T20:43:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3808 removed (version from <date when="2015-12-07T09:30:36"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3811 created using version from <date when="2014-11-20T17:18:56"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3811 removed (version from <date when="2014-11-20T17:18:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3811 removed (version from <date when="2015-04-15T01:18:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3811 removed (version from <date when="2015-12-01T22:28:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3811 removed (version from <date when="2015-12-07T09:36:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3805 created using version from <date when="2014-08-05T17:31:45"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3805 removed (version from <date when="2014-08-05T17:31:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3805 removed (version from <date when="2014-08-06T15:14:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3805 removed (version from <date when="2014-08-06T15:16:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3805 removed (version from <date when="2014-08-06T15:23:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3805 removed (version from <date when="2015-04-15T00:23:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3805 removed (version from <date when="2015-12-07T09:21:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3809 created using version from <date when="2014-11-07T20:57:11"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3809 removed (version from <date when="2014-11-07T20:57:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3809 removed (version from <date when="2015-04-15T00:58:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3809 removed (version from <date when="2015-12-01T20:55:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3809 removed (version from <date when="2015-12-07T09:32:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3812 created using version from <date when="2015-01-17T23:53:53"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3812 removed (version from <date when="2015-01-17T23:53:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3812 removed (version from <date when="2015-04-15T01:26:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3812 removed (version from <date when="2015-12-01T23:12:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3812 removed (version from <date when="2015-12-07T09:37:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3806 created using version from <date when="2014-08-05T17:41:09"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3806 removed (version from <date when="2014-08-05T17:41:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3806 removed (version from <date when="2014-08-06T15:33:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3806 removed (version from <date when="2015-04-15T00:31:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3806 removed (version from <date when="2015-12-05T13:53:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3806 removed (version from <date when="2015-12-05T13:53:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3813 (version from <date when="2015-12-07T09:38:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3807 added to letter (version from <date when="2015-12-07T09:24:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3810 added to letter (version from <date when="2015-12-07T09:35:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3808 added to letter (version from <date when="2015-12-07T09:30:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3811 added to letter (version from <date when="2015-12-07T09:36:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3805 added to letter (version from <date when="2015-12-07T09:21:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3809 added to letter (version from <date when="2015-12-07T09:32:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3812 added to letter (version from <date when="2015-12-07T09:37:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3806 added to letter (version from <date when="2015-12-07T09:23:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 3808 cleaned of 13 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 3809 cleaned of 11 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 3810 cleaned of 17 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 3811 cleaned of 6 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 3812 cleaned of 8 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 3813 cleaned of 6 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 3805 cleaned of 9 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 3806 cleaned of 6 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 3807 cleaned of 7 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:48" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1473_img_3805" url="dc2fce21f93b8245c88fee4cf4d033cb.jpg"/> 
+    
+    <graphic xml:id="L1916_1473_img_3806" url="30a8bb6b1ad89eebd4eee0e015c181fe.jpg"/> 
+    
+    <graphic xml:id="L1916_1473_img_3807" url="7b068ebfb93d3274329da91a9c941855.jpg"/> 
+    
+    <graphic xml:id="L1916_1473_img_3808" url="6aa18ca643409c4255f9a7111e05b35b.jpg"/> 
+    
+    <graphic xml:id="L1916_1473_img_3809" url="2174d48552fd70017ea5038c403e791d.jpg"/> 
+    
+    <graphic xml:id="L1916_1473_img_3810" url="846cc70346cf3f4c0d8b2abda312d6c6.jpg"/> 
+    
+    <graphic xml:id="L1916_1473_img_3811" url="26a5ef8847eb9d2f14bb5f4af6c71d89.jpg"/> 
+    
+    <graphic xml:id="L1916_1473_img_3812" url="5d5f3ade57a8d51a1eb0e65f5fe9d4a4.jpg"/> 
+    
+    <graphic xml:id="L1916_1473_img_3813" url="04db0a57abfa82e36fd38c1d25239e57.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3805" facs="#L1916_1473_img_3805"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>24 Grattan St</addrLine></address>. <dateline><date>April 27. 1916.</date></dateline> <salute>My dear Donald,</salute></opener> <p>I suppose you are all wondering <lb/>what has become of us &amp; only hope you have not  <lb/>all been in a fright about us. Well we are in <lb/> the thick of it I may say but are hoping things <lb/> may be all right in a day or two. On Monday <lb/> Aunt K. &amp; I were having a good holiday clean <lb/>up when we were told the Sinn Feiners had taken <lb/>possession of all the Railways had seized the <lb/>G.P.O. St. Stephen's Green, Jacob's factory, &amp; several  <lb/>other places including Bolands bread factory <lb/> quite close to us across the street from Sir P. Dunne's <lb/> all through the day we heard odd shooting &amp; <lb/> of course there were great crowds up &amp; down. <lb/>Aunt K. went out for a walk in the aft. with <lb/>Aunt J &amp; coming home down Northumberland  <lb/> Rd she saw 3 Ambulances &amp; plenty of evidence  <lb/>of people wounded. The S.F. had taken a corner  <lb/>house &amp; fired on several people. all that eve  <lb/>no policemen or soldiers to be seen near this. <lb/>Mr B. came down on Tuesday &amp; also Mr. Steele <lb/>each had plenty of news, also Aunt K. met
+        
+    
+
+    
+         
+        <pb n="3806" facs="#L1916_1473_img_3806"/>
+        
+        
+           
+            <lb/>Ms. Murray as she was coming from the Aunts she <lb/>had called up to see if they were nervous about us <lb/>&amp; found they were not at all as they knew nothing <lb/>Ms M. had been all over the place &amp; told her Trinity <lb/>was held by O.T.C. till relieved by military. I went <lb/>out for a short walk Tuesday aft. with Mrs. Green <lb/>we three are all alone here except that Aunt J. <lb/>comes over each night. I was able to buy 1/2 lb butter  <lb/>but most of the shops were shut &amp; barred to <lb/>prevent looting which we heard had started  <lb/>in Sackville St. We had a pretty quiet night  <lb/>on Wed. seemed quiet enough at the start, but  <lb/>at 12:30 yesterday <add>morning</add> the real noise commenced  <lb/>near here, the S.F.s had St. Stephens Schools walls a large  <lb/>house this side of Canal. Daddy will know which if  <lb/>you tell him it was the corner one where Mrs Cooper  <lb/>of Sandymount started a boarding house after her  <lb/>husband died.  Well the military had guns on  <lb/>Baggot St. bridge &amp; thundered on from 12.30  <lb/>until 8.30 when we heard great cheers &amp; shouts  <lb/>afterwards found that the corner house had been  <lb/>set on fire it blazed away for a long time &amp; we hear  <lb/>they got 30 prisoners there. Today they started the  <lb/>guns again about 12.30 but they have not gone  <lb/>on so continuously though plenty of smaller  <lb/>shots are heard from all directions. Mrs. Brid  <lb/>did not get down <add>at</add> all we suppose no one is allowed
+        
+    
+         
+        <pb n="3807" facs="#L1916_1473_img_3807"/>
+        
+        
+           
+            <lb/>to pass in. The military are in <add>Mount</add> St. &amp; we hear  <lb/>have taken this Street. The others have a <add>corner</add> house  <lb/>opposite Boy's Home. The boys have been most of  <lb/>the time in the gardens Mrs Irwin says it is the  <lb/>only place where she can keep them quiet. We  <lb/>hear today that the soldiers from Beggars Bush are  <lb/>knocking down houses between them and Bolands  <lb/>so as to be able to shell it next. Yesterday morning  <lb/>a shell from a munition opposite Custom House  <lb/>knocked Liberty Hall to the ground. On the  <lb/>whole as you may imagine our holiday is not  <lb/>all that we would wish. No post either in or out  <lb/>no trams no trains &amp; today no breadman &amp; I have  <lb/>a nasty cold. We don't know what Dona is doing but  <lb/>expect John W. knows something of what is going on  <lb/>&amp; will keep her there. I didn't think they could cross  <lb/>Dublin very easily we have only seen a glimpse  <lb/>of Tuesdays &amp; Wednesdays I. Times &amp; there is no news  <lb/>of course only Royal Proclamation, telling everyone  <lb/>to stay indoors as much as possible. We are very  <lb/>thankful that Miss Staples went to Sandycove last  <lb/>week &amp; Miss A. to England. They must be very  <lb/>uneasy without any letters. I had a cake to send  <lb/>you when we got address but it is half eaten now. <lb/>I hope you are quite well again</p> <p>April 29. I was too sick yesterday with my cold to  <lb/>go on with this but feel a bit better today.
+        
+    
+         
+        <pb n="3808" facs="#L1916_1473_img_3808"/>
+        
+        
+           
+            <lb/>Aunt K. spent Tuesday aft. with Aunt Jo &amp; had  <lb/>to make a great rush to get back here at all. <lb/>She tried to come by herself at 5 o'clock but the soldiers <lb/>were preparing to fire in the Street &amp; would not  <lb/>let her cross, then she &amp; Aunt J. got ready their tea  <lb/>&amp; had only just started when the soldiers came in  <lb/>to the house to search for S.F.s it seems they had  <lb/>taken some empty houses &amp; the soldiers were  <lb/>trying to find out exactly where they were.  <lb/>Aunt K. asked the soldier in their room could she  <lb/>get over to Grattan St. &amp; he said yes if she went  <lb/>at once so they both took up what they could  <lb/>carry in the way of eatables &amp; none of us have  <lb/>been out since. Last night the firing over our  <lb/>heads &amp; down the Street was terrific we hardly  <lb/>slept at all. we get little or no news. Mrs Irwin  <lb/>&amp; her boys stay in their garden a good bit &amp; she  <lb/>sometimes hears a bit of what is going on. Her  <lb/>top rooms <del>are</del> cannot be used as the bullets  <lb/>are flying through. <del>What</del> we are having great  <lb/>cooking of soda bread as we have had no bread  <lb/>since Wednesday. Mrs Irwin got some tinned milk  <lb/>&amp; <unclear>gains</unclear> &amp; flour from a small shop in G. Canal St.  <lb/>The owner had closed up for fear of looting but was  <lb/>glad enough to sell to her. The big guns are not  <lb/>firing so much today but the rifles are going like  <lb/>mad every now &amp; then, there is a barricade
+        
+    
+         
+        <pb n="3809" facs="#L1916_1473_img_3809"/>
+        
+        
+           
+            <lb/>across the top of street &amp; we hear the soldiers  <lb/>are gradually getting possession of all the city  <lb/>there were 60 soldiers wounded in P. Dunnes on  <lb/>Thursday &amp; to judge by the cries a lot of people in  <lb/>the streets have been shot. We also hear that  <lb/>the ladies in Merrion Sqre are nursing the  <lb/>wounded soldiers as the Hospitals are so full. <lb/>Bolands factory is still in S.F. hands.</p> <p>Sunday April 30. Last night we were all so tired out  <lb/>that we slept pretty well, except Mrs. Green, but  <lb/>the firing <del>was</del>must have been very bad. One  <lb/>bullet came into the bathroom, broke the blind  <lb/>stick &amp; made it fly up then across to the door &amp; seems  <lb/>to be embedded in the wall. No one attempted  <lb/>to cross the street this morning to go the Mass. The  <lb/>soldiers kept all indoors &amp; the shooting was  <lb/>very bad. However at 1.30 a man S.F. was seen  <lb/>walking <del>from</del> up the street bareheaded carrying  <lb/>a white flag &amp; before many minutes were  <lb/>gone the whole street was filled. We all  <lb/>rushed out &amp; shortly after about 80 S.F.s  <lb/>marched round the corner by Boys' Home  <lb/>&amp; were halted in front of Office, the man  <lb/>with the white flag met them &amp; they all laid  <lb/>down their arms &amp; marched to one side of  <lb/>street the farthest from us &amp; held up their hands,  <lb/>a few soldiers came down with
+        
+    
+         
+        <pb n="3810" facs="#L1916_1473_img_3810"/>
+        
+        
+           
+            <lb/>bayonets fixed etc. &amp; marched them  <lb/>all up towards <unclear>Slpis</unclear> then other soldiers  <lb/>came down &amp; all arms &amp; kit were examined  <lb/>&amp; carried off. We hear the G.P.O. &amp; north  <lb/>side of city surrendered yesterday &amp;  <lb/>the rumour goes that the R.C. Archbishop  <lb/>&amp; a priest went to Bolands &amp; other centres  <lb/>&amp; gave them a message from the Authorities  <lb/>to the effect that if they did not surrender  <lb/>the city would be blown up at once by  <lb/>warships in the River. Things are much  <lb/>quieter tonight but shooting still goes on  <lb/>we hear it is a distillery behind Bolands  <lb/>that some are still holding. Priests &amp; doctors in white coats &amp; red cross are up &amp; down  <lb/>with the Ambulance motors. One of our neighbours  <lb/>of the Terrace down side of house gave us a loaf  <lb/>this morning &amp; Mrs.Irwin gave us each a thick slice  <lb/>of hot ham for dinner. We were going to have ½ a  <lb/>goose egg each Aunt K. &amp; I but the ham was a  <lb/>greater treat as we have had nothing but eggs  <lb/><del>one</del> since Tuesday. I don't think we will be anxious  <lb/>on soda bread again in a hurry. &amp; are hoping to  <lb/>see our bread &amp; milk men in the morning. <lb/>Poor Aunts we don't know how they are feeling  <lb/>not hearing a word from us &amp; we are afraid to  <lb/>go out yet for fear we might be kept out. Aunt
+        
+    
+         
+        <pb n="3811" facs="#L1916_1473_img_3811"/>
+        
+        
+           
+            <lb/>K is writing to <unclear>Gleneely</unclear> and we are wondering  <lb/>if you will all wade through our letters <lb/>it is hard not to repeat ourselves. We hear  <lb/>Sackville St is in ruins and a good many of the  <lb/>people who lost their lives were shot while  <lb/>looting the shops &amp; stores. Leeson St and Baggot St  <lb/>have not suffered, but, St Stevens green is like  <lb/>a wilderness &amp; trenches dug all over it. We  <lb/>are looking forward to seeing Mr Baird in the  <lb/>morning. I am sure he is in a very anxious  <lb/>state about us all. Townsend St Has suffered  <lb/>a good deal but the soldiers took possession of  <lb/>it almost from the beginning. We are very  <lb/>thankful to think the worst is over.</p> <p>Monday May 1st. Last night was almost the worst  <lb/>we had. Though i am glad to say I slept through  <lb/>it all. Mrs Green says it was dreadful. We  <lb/>made up the last flour &amp; eat our last potato at  <lb/>dinner &amp; were proposing to have porridge for  <lb/>tomorrow, when all stopped suddenly. Mrs <unclear>Lu</unclear> <lb/>saw a group of men marching from Hollies St. headed  <lb/>by a white flag and almost at once the street  <lb/>became alive with people. About 2 o'c Celeste  <lb/>Ledony came down the street in Red Cross cap etc.  <lb/>She is helping in Merrion Square to nurse the wounded  <lb/>&amp; she came to see if we were alive. She only stayed at  <lb/>the gate a couple of minutes &amp; came back then
+        
+    
+         
+        <pb n="3812" facs="#L1916_1473_img_3812"/>
+        
+        
+           
+            <lb/>less than 1/2 hour with some cold mutton <lb/>6 eggs &amp; 6 scones which she had got for us from  <lb/>Mrs Finney the Doctor's wife, we were glad <lb/>to get the things &amp; since then the soldiers  <lb/>dragged down a bread cart &amp; sold the bread  <lb/>for 3 a loaf, so <add>we</add> were able to get one. We  <lb/>hear there are snipers all over the city  <lb/>&amp; the streets have now been cleared &amp; we  <lb/>have been told no lights are to be seen after  <lb/>7.30. So we are preparing to go to bed in the  <lb/>dark, &amp; get up to breakfast about 6. We  <lb/>are going to try the daylight saving bill!!!  <lb/>I hope we will soon get word of the Aunts, <lb/>No one as far as we can hear can get in or  <lb/>out of town except the Red Cross people,  <lb/>but we think Rathmines is quiet beyond  <lb/>Portobello &amp; Ranelagh was all right on  <lb/>Tuesday.</p> <p>Wed. May 3. I walked up to the Aunts new house  <lb/>yesterday they are most uncomfortable only  <lb/>1/2 moved as the vans did not come to finish, <lb/>them &amp; also they had been very short of  <lb/>food in Rathmines they were glad to hear we were  <lb/>all right. Today I walked down town to see the  <lb/>ruins, it is dreadful but already people are  <lb/>trying to start work again. I called to see how  <lb/>Uncle James was he has been ill for the past
+        
+    
+         
+        <pb n="3813" facs="#L1916_1473_img_3813"/>
+        
+        
+           
+            <lb/>2 weeks he is better now &amp; the sisters say will  <lb/>soon be alright. I saw both him &amp; Aunt Maggie  <lb/>&amp; Dora. They are having a bad time with snipers <lb/>there have several bullets through their  <lb/>windows. Things seem very quiet tonight &amp; today  <lb/>the trains were running from Balls Bridge to  <lb/>Kingstown. Our breadman came this morning but  <lb/>our milkman did not. Aunt K got a bit of  <lb/>meat for tomorrow. No posts have come yet  <lb/>but we posted a p.c. to Daddy yesterday &amp; papers today  <lb/>&amp; tomorrow I hope to post this, With love to you <lb/>all.</p> <closer><salute>Your loving Aunt </salute> <signed>Sarah</signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

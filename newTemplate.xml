@@ -62,8 +62,8 @@
             <notesStmt>
                 <note type="summary">
                     {% if Description %}
-                        {% for desc_para in Description.split('\n\n') %}
-                            <p>{{desc_para|e}}</p>
+                        {% for desc_para in abstract_split(Description) %}
+                            <p>{{desc_para}}</p>
                         {% endfor %}
                     {% endif %}
                 </note>
@@ -72,18 +72,25 @@
                 <msDesc>
                     <msIdentifier>
                         {% if 'Private' in Source %}
-                        <repository ref="#{{Source|e}}"></repository>
-                        <collection type='private'>{{Source|e}}</collection>
+
+                        <!-- Unnormalised source: {{Source|e}} -->
+                        <repository ref="#{{InstitutionRefs.ref}}"></repository>
+                        <collection type='private'>{{InstitutionRefs.name}}</collection>
                         {% else %}
-                        <repository ref="#{{Source|e}}">{{Source|e}}</repository>
-                        <!-- {% if Document_Collection_Number %}
-                                Original DCN: {{Document_Collection_Number|e}}
+
+                        <!-- Unnormalised source: {{Source|e}} -->
+                        <repository ref="#{{InstitutionRefs.ref}}">{{InstitutionRefs.name}}</repository>
+                        
+
+
+                        <!-- {% if DocCollection %}
+                                Original DCN: {{DocCollection|e}}
                              {% endif %}
                         -->
                             {% if Document_Collection %}
-                                <collection type='public'>{{Document_Collection|e}}</collection>
+                                <collection type='public'>{{Document_Collection}}</collection>
                             {% endif %}
-                            {% if Document_Number|e %}
+                            {% if Document_Number %}
                         <idno>{{Document_Number|e}}</idno>
                             {% else %}
                         <idno>MISSING</idno>
@@ -106,8 +113,8 @@
                     <persName>MISSING</persName>
                 {% endif %}
                 
-                {% if Recipient_s_location %}
-                    <placeName  ref="#{{to_snake(Recipient_s_location)|e}}">{{Recipient_s_location|e}}</placeName>
+                {% if Recipient_location %}
+                    <placeName  ref="#{{to_snake(Recipient_location)|e}}">{{Recipient_location|e}}</placeName>
                 {% endif %}
                 </correspAction>
                  
@@ -117,8 +124,8 @@
                     {% else %}
                     <persName ref="MISSING">{{Creator|e}}</persName>
                     {% endif %}
-                    {% if Sender_s_location %} 
-                    <placeName ref="#{{to_snake(Sender_s_location)|e}}">{{Sender_s_location|e}}</placeName>
+                    {% if Sender_location %} 
+                    <placeName ref="#{{to_snake(Sender_location)|e}}">{{Sender_location|e}}</placeName>
                     {% endif %}
                     {% if DATE_created %}
                     <date when="{{DATE_created}}">{{DATE_created_as_words}}</date>
@@ -138,8 +145,8 @@
                     {% if Collection %}    
                         <item n="tag">{{Collection|e}}</item>
                     {% endif %}
-                    {% if Topics %}
-                        {% for topic in Topics.split(',') %}
+                    {% if Topic %}
+                        {% for topic in Topic.split(',') %}
                             {% if topic.lower() != Collection.lower() %}
                             <item n="tag">{{topic|e}}</item>
                             {% endif %}
@@ -209,11 +216,16 @@
                     Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
                     (Further edits by <name ref="#{{replace_contribs(revision.editor)}}" /> should be
                     considered as proofing by project editors.)
+
+                    [Abstract Proofed]
                 {% else %}
                      {{revision.editType}}
                 {% endif %}
+
+                
             </change>
         {% endfor %}
+           
     </revisionDesc>
 </teiHeader>
     

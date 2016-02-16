@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1390">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Kate English in Dunsink Cottage to Patrick English, 1916</title>
+                
+                <author>Kate English </author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="AaronHoey">AaronHoey</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Annie">Annie</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BarneyDoherty">Barney Doherty</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1390</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This letter is from Kate English to her son Patrick. This letter was written by Kate shortly after she found out that Patrick had been sent to Wales. Kate immediately asks for all the details concerning when and for how long she can visit in addition to any items Patrick might like her to bring over. In the letter Kate reassures Patrick that she and all the family are well and look forward to his return.    This letter was written by Kate (b. 1855) to Patrick English (1894-1970) while he was interned. Patrick had been stationed in the G.P.O for the Rising. Following the surrender he was sent to Stafford Prison before being moved to Frongoch internment camp in Wales.    </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Private Collection, Patrick English"></repository>
+                        <collection type='private'>Private Collection, Patrick English</collection>
+                        
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Patrick_English">Patrick English</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Kate_English_">Kate English </persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-02-25T18:00:03" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-02-25T18:00:03" who="#Annie">
+                
+                    Page 3611 modified:
+                    <!-- 
+the cocoa and any <lb/> other little things that <lb/> you would like tell me <lb/> I wont wait until August <lb/> as I think the doolans are <lb/> not going until then. I think <lb/> Marie?? is going to come with <lb/> me so I won't be too bad <lb/> I am not one bit nervous <lb/> strange to say I am grand <lb/> and I hope you dear self <lb/> is just the same I got masses <lb/> offered for you and we are <lb/> all praying for you night <lb/> noon and morning and please <lb/> God we will be together <lb/> and happy again. How is <lb/> Mick Cosgrove and all the <lb/> lads I hope to see everybody <lb/> when I go we will have<lb/> a jolly time if we can.<lb/> dear Son cheer up and don't <lb/> be fretting about me I am all <lb/> right and have a grand <lb/> job waiting on you the minute <lb/> you arrive. No more slaving <lb/> 25 shillings per week we <lb/> will be as happy as the day <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-25T20:00:37" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-02-25T20:00:37" who="#Annie">
+                
+                    Page 3612 modified:
+                    <!-- 
+a long. Jamesy Larie  Katie <lb/> Nellie and all the rest of the <lb/> long tail family sends their <lb/> best love to you, not forgetting <lb/> Cathleen na <gap/>?? James is <lb/> working in Mooneys its very <lb/> hard to get work now a days <lb/> Lawrence has got a very good <lb/> boy he minds me well. Annie <lb/> was home for a few days she <lb/> looks fine. She sends her best <lb/> love to you tell Jo Mooney she <lb/> sends her love to him and best <lb/> wishes to all the lads I think <lb/> I have no more to say only no <lb/> matter what you do write at <lb/> once by return and tell me <lb/> all particulars. I will be watching <lb/> ENDING AT TOP OF PAGE 1 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-05T00:00:00" who="#BD">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#BD" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-05T14:26:49" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-12-05T14:26:49" who="#BarneyDoherty">
+                
+                    Page 3610 modified:
+                    <!-- 
+<address><gap/></address> <address><gap/></address> <address>Co. Dublin</address>  </salute> My dearest Patrick,  <lb/> I have just received  <lb/> a card from Fr. Moore telling  <lb/> me you have gone on to Wales what  <lb/> I want you to do is to write  <lb/> at once and tell me what way  <lb/> you are situated tell me what  <lb/> is visiting hours &amp; days and how  <lb/> long can I stay with you, for go  <lb/> to see you I will. I will bring on  <lb/>your shoes &amp; socks and tell me  <lb/> do you want shirts I am bringing 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-05T14:33:24" who="#BarneyDoherty">
+                
+                    Page 3611 modified:
+                    <!-- 
+<lb/>the cocoa and any  <lb/> other little things that  <lb/> you would like tell me  <lb/> I wont wait until August  <lb/> as I think the doolans are  <lb/> not going until then. I think  <lb/> <unclear>darie</unclear> is going to come with  <lb/> me so I won't be too bad  <lb/> I am not one bit nervous  <lb/> strange to say I am grand  <lb/> and I hope you dear self  <lb/> is just the same I got masses  <lb/> offered for you and we are  <lb/> all praying for you night  <pb/> <lb/> noon &amp; morning and please  <lb/> God we will be together  <lb/> and happy again. How is  <lb/> Mick Cosgrove and all the  <lb/> lads I hope to see everybody  <lb/> when I go we will have <lb/> a jolly time if we can. <lb/> dear Son cheer up and don't  <lb/> be fretting about me I am all  <lb/> right and have a grand  <lb/> job waiting on you the minute  <lb/> you arrive. No more slaving  <lb/> 25 shillings per week we  <lb/> will be as happy as the day 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-05T14:36:50" who="#BarneyDoherty">
+                
+                    Page 3612 modified:
+                    <!-- 
+<lb/>a long. Jamesy Larie  Katie  <lb/> Nellie and all the rest of the  <lb/> long tail family sends their  <lb/> best love to you, not forgetting  <lb/> <hi rend="underline">Cathleen na Houle</hi> James is  <lb/> working in Mooneys its very  <lb/> hard to get work now a days  <lb/> Lawrence has got a very good  <lb/> boy he minds me well. Annie  <lb/> was home for a few days she  <lb/> looks fine. She sends her best  <lb/> love to you tell Jo Mooney she  <lb/> sends her love to him and best  <lb/> wishes to all the lads I think  <lb/> I have no more to say only no  <lb/> matter what you do write at  <lb/> once by return and tell me  <lb/> all particulars. I will be watching 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-05T14:43:49" who="#BarneyDoherty">
+                
+                    Page 3610 modified:
+                    <!-- 
+<add> <lb/>every post to see what <lb/>news from you good <lb/>bye dear &amp; god <lb/>may bless you. Write <lb/>me meet soon. <lb/><salute>From your loving <lb/>Mother</salute> <signed>K. English</signed> </add> <address><gap/></address> <address><gap/></address> <address>Co. Dublin</address>  </salute> My dearest Patrick,  <lb/> I have just received  <lb/> a card from Fr. Moore telling  <lb/> me you have gone on to Wales what  <lb/> I want you to do is to write  <lb/> at once and tell me what way  <lb/> you are situated tell me what  <lb/> is visiting hours &amp; days and how  <lb/> long can I stay with you, for go  <lb/> to see you I will. I will bring on  <lb/>your shoes &amp; socks and tell me  <lb/> do you want shirts I am bringing 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-07T09:51:41" who="#NR">
+                
+                    Page 3610 modified:
+                    <!-- 
+every post to see what <lb/>news from you good <lb/>bye dear &amp; god <lb/>may bless you. Write <lb/>me meet soon.</p> <salute>From your loving <lb/>Mother</salute> <signed>K. English</signed>  <address>Dunsink Cottage, <lb/>Castleknock <lb/>Co. Dublin</address>   <salute> My dearest Patrick, </salute> <p> I have just received  <lb/> a card from Fr. Moore telling  <lb/> me you have gone on to Wales what  <lb/> I want you to do is to write  <lb/> at once and tell me what way  <lb/> you are situated tell me what  <lb/> is visiting hours &amp; days and how  <lb/> long can I stay with you, for go  <lb/> to see you I will. I will bring on  <lb/>your shoes &amp; socks and tell me  <lb/> do you want shirts I am bringing 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3612 created using version from <date when="2015-02-25T20:00:37"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3612 removed (version from <date when="2015-02-25T20:00:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3612 removed (version from <date when="2015-12-05T14:36:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3610 created using version from <date when="2015-12-05T14:26:49"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3610 removed (version from <date when="2015-12-05T14:26:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3610 removed (version from <date when="2015-12-05T14:43:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3610 removed (version from <date when="2015-12-07T09:51:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3611 created using version from <date when="2015-02-25T18:00:03"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3611 removed (version from <date when="2015-02-25T18:00:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3611 removed (version from <date when="2015-12-05T14:33:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:11" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3612 (version from <date when="2015-12-07T09:52:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3610 added to letter (version from <date when="2015-12-07T09:51:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3611 added to letter (version from <date when="2015-12-07T09:52:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 3610 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 3611 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 3612 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:45" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1390_img_3610" url="07b44341e18bdc85da88e45ad1f10f5c.jpg"/> 
+    
+    <graphic xml:id="L1916_1390_img_3611" url="ce87f77ed655eba71d33f54a54b7f281.jpg"/> 
+    
+    <graphic xml:id="L1916_1390_img_3612" url="baa8601a2d35b72ee6314fbe01ba5458.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3610" facs="#L1916_1390_img_3610"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+every post to see what <lb/>news from you good <lb/>bye dear &amp; god <lb/>may bless you. Write <lb/>me meet soon.</p> <opener><salute>From your loving Mother</salute> <signed>K. English</signed>  <address><addrLine>Dunsink Cottage,</addrLine>
+<addrLine>Castleknock</addrLine>
+<addrLine>Co. Dublin</addrLine></address>   <salute> My dearest Patrick, </salute></opener> <p> I have just received  <lb/> a card from Fr. Moore telling  <lb/> me you have gone on to Wales what  <lb/> I want you to do is to write  <lb/> at once and tell me what way  <lb/> you are situated tell me what  <lb/> is visiting hours &amp; days and how  <lb/> long can I stay with you, for go  <lb/> to see you I will. I will bring on  <lb/>your shoes &amp; socks and tell me  <lb/> do you want shirts I am bringing
+        
+    
+
+    
+         
+        <pb n="3611" facs="#L1916_1390_img_3611"/>
+        
+        
+           
+            <lb/>the cocoa and any  <lb/> other little things that  <lb/> you would like tell me  <lb/> I wont wait until August  <lb/> as I think the doolans are  <lb/> not going until then. I think  <lb/> <unclear>darie</unclear> is going to come with  <lb/> me so I won't be too bad  <lb/> I am not one bit nervous  <lb/> strange to say I am grand  <lb/> and I hope you dear self  <lb/> is just the same I got masses  <lb/> offered for you and we are  <lb/> all praying for you night  <pb/> <lb/> noon &amp; morning and please  <lb/> God we will be together  <lb/> and happy again. How is  <lb/> Mick Cosgrove and all the  <lb/> lads I hope to see everybody  <lb/> when I go we will have <lb/> a jolly time if we can. <lb/> dear Son cheer up and don't  <lb/> be fretting about me I am all  <lb/> right and have a grand  <lb/> job waiting on you the minute  <lb/> you arrive. No more slaving  <lb/> 25 shillings per week we  <lb/> will be as happy as the day
+        
+    
+         
+        <pb n="3612" facs="#L1916_1390_img_3612"/>
+        
+        
+           
+            <lb/>a long. Jamesy Larie  Katie  <lb/> Nellie and all the rest of the  <lb/> long tail family sends their  <lb/> best love to you, not forgetting  <lb/> <hi rend="underline">Cathleen na Houle</hi> James is  <lb/> working in Mooneys its very  <lb/> hard to get work now a days  <lb/> Lawrence has got a very good  <lb/> boy he minds me well. Annie  <lb/> was home for a few days she  <lb/> looks fine. She sends her best  <lb/> love to you tell Jo Mooney she  <lb/> sends her love to him and best  <lb/> wishes to all the lads I think  <lb/> I have no more to say only no  <lb/> matter what you do write at  <lb/> once by return and tell me  <lb/> all particulars. I will be watching
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

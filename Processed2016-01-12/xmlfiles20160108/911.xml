@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_911">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Mabel FitzGerald to John Redmond, 27 May 1916.</title>
+                
+                <author>Mabel FitzGerald</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BBaker53">BBaker53</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Leo">Leo</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_911</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This letter is from Mabel FitzGerald (née Washington McConnell) (1884-1958), wife of politician and intellectual Desmond FitzGerald (1888-1947, to John Redmond (1856-1918), leader of the Irish Parliamentary Party from 1900 to 1918. In this, and in other letters, Mrs. FitzGerald is seeking help in relation to her husband's incarceration and insists that her husband was non-combatant. She asks that, in the event of an amnesty for people who received comparatively short sentences, the severity and injustice of her husband's sentence be taken into account, particularly as she feels he is being punished for previous transgressions, for which he has already paid.</p>
+                        
+                            <p>  Mabel Fitzgerald was the wife of Irish Volunteer Desmond Fitzgerald.  Mabel was a former governess in London. She later vigorously canvassed her former acquaintances in London's liberal circles for support for Francis Sheehy Skeffington during his hunger strike in 1915. Both Mabel and Desmond would serve in the GPO garrison during Easter Week. John Redmond was an MP and leader of the Irish Parliamentary Party.  He was instrumental in securing the promise of Home Rule from Asquith's liberal government. Upon the outbreak of war, Redmond addressed a group of Irish Volunteers at Woodenbridge, Co. Wicklow, encouraging them to fight with the British Army to ensure the implementation of Home Rule. Redmond's words split the Irish Volunteers across the country. The Easter Rising shocked Redmond, who condemned it bitterly. Nonetheless he appealed for leniency towards those who had not been involved in planning the Rising. The executions convinced Redmond of John Dillon's  (1851-1927) views that the British were ‘washing out our whole life work in a sea of blood’</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                                Original DCN: Desmond FitzGerald Papers, P80/1589/1
+                             
+                        -->
+                            
+                                <collection type='public'>Desmond FitzGerald Papers</collection>
+                            
+                            
+                        <idno>P80/1589/1</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#John_Redmond">John Redmond</persName>
+                
+                
+                
+                    <placeName  ref="#House_of_Commons,_London,_England">House of Commons, London, England</placeName>
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Mabel_FitzGerald">Mabel FitzGerald</persName>
+                    
+                     
+                    <placeName ref="#2_Loretto_Villa,_Bray,_County_Wicklow,_Ireland">2 Loretto Villa, Bray, County Wicklow, Ireland</placeName>
+                    
+                    
+                    <date when="1916-05-27">27 May 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Female</item>
+                      
+                    
+                        <item n="death">1957</item>
+                        
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-02-26T22:29:59" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-02-26T22:29:59" who="#Philcostel">
+                
+                    Page 2335 modified:
+                    <!-- 
+2 Loretto Villas, Bray 27th May 1916  Dear Sir, I must thank you for your reply to my letter of 23rd inst., re my husband's case. My husband, Mr Desmond Fitzgerald, was a non-combatant and was sentenced to 20 years penal servitude, ten of which were remitted. I quite realise that it is not a case of getting release but amnesty ; i do not desire that Mr Fitzgerald's case should be pressed with a view to release but I hope that a remittance of the sentence mat be obtained so that if the Amnesty be a graded one only freeing those persons whose sentences are comparatively short, he may be able to profit by it as he would have been able to had his sentence been in accordance with the evidence. His case is a peculiar one, and I do not think I am asking for special favour to be shown him when I suggest that a portion of his sentence ought to be remitted till it is one based on the evidence against him and not on extraneous matters used to prejudice his case, matters for which he has already paid the penalty in deportation and imprisonment. Cases of such obvious injustice would, I think, do a great deal if exposed, to strengthen the demand for Amnesty. I am glad to know that I can rely on your doing everything in your power for my husband when you feel the proper time has come to obtain a reconsideration of sentences. I am Yours faithfully Mabel W Fitzgerald  John Redmond, Esq, M.P. House of Commons, London. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-03-03T14:17:23" who="#Leo">
+                
+                    Page 2335 modified:
+                    <!-- 
+2 Loretto Villas,<lb/> Bray, 27th May 1916<lb/>  Dear Sir,<lb/> I must thank you for your reply, per Mr.J.J. Hanna,<lb/> to my letter of 23rd inst., re my husband's case. My husband,<lb/> Mr Desmond Fitzgerald, was a non-combatant and was sentenced to 20 years penal servitude, ten of which were remitted<p>paragraph</p>. I quite realise that it is not a case of getting release<lb/> but amnesty ; I do not desire that Mr Fitzgerald's case should be<lb/> pressed with a view to release, but I hope that a remittance of<lb/> the sentenced amy be obtained so that if the Amnesty be a graded<lb/> one only freeing those persons whose sentences are comparatively<lb/> short, he may be able to profit by it as he would have been able<lb/> to had his sentence been in accordance with the evidence.<p>paragraph</p> His case is a peculiar one, and I do not think I am ask<lb/>ing for special favour to be shown him when I suggest that a portion<lb/> of his sentence ought to be remitted till it is one based on the<lb/> evidence against him and not on extraneous matters used to prejud<lb/>ice his case, matters for which he has already paid the penalty in deportation and imprisonment.<p>paragraph</p> Cases of such obvious injustice would, I think, do a<lb/> great deal if exposed, to strengthen the demand for Amnesty.<p>paragraph</p> I am glad to know that I can rely on your doing every<lb/>thing in your power for my husband when you feel the proper time<lb/> has come to obtain a reconsideration of sentences. I am, Yours faithfully Mabel W Fitzgerald  John Redmond, Esq, M.P. House of Commons, London. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-27T00:00:28" who="#BBaker53">
+                
+                    Page 2335 modified:
+                    <!-- 
+<note>{80/1589</note>  <address>2 Loretto Villas,<lb/> Bray,</address> <date>27th May 1916<lb/></date>  <salute>Dear Sir,<lb/></salute> <p>I must thank you for your reply, per Mr.J.J. Hanna,<lb/> to my letter of 23rd inst., re my husband's case. My husband,<lb/> Mr Desmond Fitzgerald, was a non-combatant and was sentenced to 20 years penal servitude, ten of which were remitted.</p> <p>I quite realise that it is not a case of getting release<lb/> but amnesty ; I do not desire that Mr Fitzgerald's case should be<lb/> pressed with a view to release, but I hope that a remittance of<lb/> the sentenced <sic>amy</sic> be obtained so that if the Amnesty be a graded<lb/> one only freeing those persons whose sentences are comparatively<lb/> short, he may be able to profit by it as he would have been able<lb/> to had his sentence been in accordance with the evidence.</p> <p>His case is a peculiar one, and I do not think I am ask<lb/>ing for special favour to be shown him when I suggest that a portion<lb/> of his sentence ought to be remitted till it is one based on the<lb/> evidence against him and not on extraneous matters used to prejud<lb/>ice his case, matters for which he has already paid the penalty in deportation and imprisonment.</p> <p>Cases of such obvious injustice would, I think, do a<lb/> great deal if exposed, to strengthen the demand for Amnesty.</p> <p>I am glad to know that I can rely on your doing every<lb/>thing in your power for my husband when you feel the proper time<lb/> has come to obtain a reconsideration of sentences.</p><lb/><lb/> I am,<lb/> Yours faithfully<lb/> Mabelle Fitzgerald<lb/><lb/>  <address>John Redmond, Esq, M.P.<lb/> House of Commons,<lb/> London.</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-18T14:47:25" who="#Comber">
+                
+                    Page 2335 modified:
+                    <!-- 
+<add>Copy</add> <note>{80/1589</note>  <address>2 Loretto Villas,<lb/> Bray,</address> <date>27<hi rend="superscript">th</hi> May 1916<lb/></date>  <salute>Dear Sir,<lb/></salute> <p>I must thank you for your reply, per Mr.J.J. Hanna,<lb/> to my letter of 23<hi rend="superscript">rd</hi> inst., re my husband's case. My husband,<lb/> Mr Desmond Fitzgerald, was a non-combatant and was sentenced to <lb/> 20 years penal servitude, ten of which were remitted.</p> <p>I quite realise that it is not a case of getting release<lb/> but amnesty ; I do not desire that Mr Fitzgerald's case should be<lb/> pressed with a view to release, but I hope that a remittance of<lb/> the sentenced <sic>amy</sic> be obtained so that if the Amnesty be a graded<lb/> one only freeing those persons whose sentences are comparatively<lb/> short, he may be able to profit by it as he would have been able<lb/> to, had his sentence been in accordance with the evidence.</p> <p>His case is a peculiar one, and I do not think I am asking<lb/> for special favour to be shown him when I suggest that a portion<lb/> of his sentence ought to be remitted till it<del>u</del>is one based on the<lb/> evidence against him and not on extraneous matters use<add>d</add> to prejudice<lb/> his case, matters for which he has already paid the penalty in deportation <sic>andimprisonment.</sic></p> <p>Cases of such obvious injustice would, I think, do a<lb/> great deal if exposed, to strengthen the demand for Amnesty.</p> <p>I am glad to know that I can rely on your doing everything<lb/> in your power for my husband when you feel <sic>theproper</sic> time<lb/> has come to obtain a reconsideration of sentences.</p> <salute>I am, Yours faithfully Mabel W Fitzgerald</salute>  <address>John Redmond, Esq, M.P.<lb/> House of Commons,<lb/> London.</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-07T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-07T12:26:02" who="#NR">
+                
+                    Page 2335 modified:
+                    <!-- 
+<address>2 Loretto Villas, <lb/> Bray,</address> <date>27<hi rend="superscript">th</hi> May 1916</date>  <salute>Dear Sir,</salute> <p>I must thank you for your reply, per Mr.J.J. Hanna, <lb/> to my letter of 23<hi rend="superscript">rd</hi> inst., re my husband's case. My husband, <lb/> Mr Desmond Fitzgerald, was a non-combatant and was sentenced to  <lb/> 20 years penal servitude, ten of which were remitted.</p> <p>I quite realise that it is not a case of getting release <lb/> but amnesty ; I do not desire that Mr Fitzgerald's case should be <lb/> pressed with a view to release, but I hope that a remittance of <lb/> the sentenced <sic>amy</sic> be obtained so that if the Amnesty be a graded <lb/> one only freeing those persons whose sentences are comparatively <lb/> short, he may be able to profit by it as he would have been able <lb/> to, had his sentence been in accordance with the evidence.</p> <p>His case is a peculiar one, and I do not think I am asking <lb/> for special favour to be shown him when I suggest that a portion <lb/> of his sentence ought to be remitted till it<del>u</del>is one based on the <lb/> evidence against him and not on extraneous matters use<add>d</add> to prejudice <lb/> his case, matters for which he has already paid the penalty in  <lb/>deportation <sic>and imprisonment.</sic></p> <p>Cases of such obvious injustice would, I think, do a <lb/> great deal if exposed, to strengthen the demand for Amnesty.</p> <p>I am glad to know that I can rely on your doing every- <lb/>thing in your power for my husband when you feel <sic>theproper</sic> time <lb/> has come to obtain a reconsideration of sentences.</p> <salute>I am, <lb/>Yours faithfully</salute> <signed>Mabel W Fitzgerald</signed>  <address>John Redmond, Esq, M.P.<lb/> House of Commons,<lb/> London.</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2335 created using version from <date when="2014-02-26T22:29:59"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2335 removed (version from <date when="2014-02-26T22:29:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2335 removed (version from <date when="2014-03-03T14:17:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2335 removed (version from <date when="2014-12-27T00:00:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2335 removed (version from <date when="2015-02-18T14:47:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2335 removed (version from <date when="2016-01-07T12:26:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:23" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2335 (version from <date when="2016-01-07T12:26:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:26" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                    Clean tags: Page 2335 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:36" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_911_img_2335" url="8ed083e8fa08a210143592d4eb2d472c.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2335" facs="#L1916_911_img_2335"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>2 Loretto Villas,</addrLine>
+<addrLine>Bray,</addrLine></address> <dateline><date>27<hi rend="superscript">th</hi> May 1916</date></dateline>  <salute>Dear Sir,</salute></opener> <p>I must thank you for your reply, per Mr.J.J. Hanna, <lb/> to my letter of 23<hi rend="superscript">rd</hi> inst., re my husband's case. My husband, <lb/> Mr Desmond Fitzgerald, was a non-combatant and was sentenced to  <lb/> 20 years penal servitude, ten of which were remitted.</p> <p>I quite realise that it is not a case of getting release <lb/> but amnesty ; I do not desire that Mr Fitzgerald's case should be <lb/> pressed with a view to release, but I hope that a remittance of <lb/> the sentenced <sic>amy</sic> be obtained so that if the Amnesty be a graded <lb/> one only freeing those persons whose sentences are comparatively <lb/> short, he may be able to profit by it as he would have been able <lb/> to, had his sentence been in accordance with the evidence.</p> <p>His case is a peculiar one, and I do not think I am asking <lb/> for special favour to be shown him when I suggest that a portion <lb/> of his sentence ought to be remitted till it<del>u</del>is one based on the <lb/> evidence against him and not on extraneous matters use<add>d</add> to prejudice <lb/> his case, matters for which he has already paid the penalty in  <lb/>deportation <sic>and imprisonment.</sic></p> <p>Cases of such obvious injustice would, I think, do a <lb/> great deal if exposed, to strengthen the demand for Amnesty.</p> <p>I am glad to know that I can rely on your doing every- <lb/>thing in your power for my husband when you feel <sic>theproper</sic> time <lb/> has come to obtain a reconsideration of sentences.</p> <closer><salute>I am, <lb/>Yours faithfully</salute> <signed>Mabel W Fitzgerald</signed>  <address><addrLine>John Redmond, Esq, M.P.</addrLine>
+<addrLine>House of Commons,</addrLine>
+<addrLine>London.</addrLine></address></closer>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

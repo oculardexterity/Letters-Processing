@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1513">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Mary O&#39;Nolan to Alice Stopford Green, 25 July 1916</title>
+                
+                <author>Mary O&#39;Nolan</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="DanielleODonovan">DanielleO'Donovan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="RichardBreen">RichardBreen</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1513</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This letter is from Mary O&#39;Nolan, address 5 Warwick Terrace, Leeson Park, Dublin to Alice Stopford Green, (1847-1929), historian, nationalist and friend of Sir Roger Casement (1864-1916). Mary O&#39;Nolan is busily campaigning for Roger Casement, attempting to have his death sentence commuted. Casement had been arrested on Banna Strand on the eve of the Easter Rising and tried for treason. She mentions the king, the US government, John Redmond and Colonel Moore in Buswells Hotel.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#National Library of Ireland">National Library of Ireland</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Alice_Stopford_Green">Alice Stopford Green</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Mary_ONolan">Mary O&#39;Nolan</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-11-06T16:22:27" who="#DanielleODonovan">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-06T16:22:27" who="#Philcostel">
+                
+                    Page 3873 modified:
+                    <!-- 
+5 Warwick Terrace Leeson Park Dublin 25th July Dear Mrs. Green We are shocked to see the date fixed for the execution. Still we do not give up hope & are working still hard for reprieve. I enclose copy of letter sent by our Reprieve Com. to the King today.Also copy of cablegram to Botha. Could you also petition King to exercise prerogative of mercy & could you get at Botha & other Colonial premiers?  I see mass petitions are being sent in by A.O.H. & other Irish American bodies, but will the U.S. Government 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-06T16:28:32" who="#Philcostel">
+                
+                    Page 3873 modified:
+                    <!-- 
+5 Warwick Terrace Leeson Park Dublin 25th July Dear Mrs. Green We are shocked to see the date fixed for the execution. Still we do not give up hope & are working still hard for reprieve. I enclose copy of letter sent by our Reprieve Com. to the King today.Also copy of cablegram to Botha. Could you also petition King to exercise prerogative of mercy & could you get at Botha & other Colonial premiers?  I see mass petitions are being sent in by A.O.H. & other Irish American bodies, but will the U.S. Government <gap/>move? These horrible slanders on our friend have injured our prospects of success. Unhappily many 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-06T16:53:04" who="#DanielleODonovan">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-06T16:53:04" who="#Philcostel">
+                
+                    Page 3874 modified:
+                    <!-- 
+who do not know him personally believe them. Time will indicate his character without doubt, but it is of urgent importance that the vindication should be immediate if possible. I wrote to Mr. Gavan Duffy asking if you or he would write to the Times on this subject. Will you do so? And would anyone else whose word carries weight do so? We sent another batch of signed petitions to-day to Prime Minister - the third batch, containing many influential signatures & we will continue sending in petitions till we hear the matter is finally settled - 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-06T16:55:16" who="#Philcostel">
+                
+                    Page 3874 modified:
+                    <!-- 
+who do not know him personally believe them. Time will indicate his character without doubt, but it is of urgent importance that the vindication should be immediate if possible. I wrote to Mr. Gavan Duffy asking if you or he would write to the Times on this subject. Will you do so? And would anyone else whose word carries weight do so? We sent another batch of signed petitions to-day to Prime Minister - the third batch, containing many influential signatures & we will continue sending in petitions till we hear the matter is finally settled - numbers of these petitions are being circulated through the country & are being 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-06T16:57:52" who="#Philcostel">
+                
+                    Page 3874 modified:
+                    <!-- 
+who do not know him personally believe them. Time will indicate his character without doubt, but it is of urgent importance that the vindication should be immediate if possible. I wrote to Mr. Gavan Duffy asking if you or he would write to the Times on this subject. Will you do so? And would anyone else whose word carries weight do so? We sent another batch of signed petitions to-day to Prime Minister - the third batch, containing many influential signatures & we will continue sending in petitions till we hear the matter is finally settled - numbers of these petitions are being circulated through the country & are being ?extensively? signed, Miss French Mullen who is in charge of our petition is crossing tonight to London with a big 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-06T16:59:59" who="#DanielleODonovan">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-06T16:59:59" who="#Philcostel">
+                
+                    Page 3875 modified:
+                    <!-- 
+batch of signed petitions. She has been working on more 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-06T17:09:56" who="#Philcostel">
+                
+                    Page 3875 modified:
+                    <!-- 
+batch of signed petitions. She has been working on more democratic lines than our Com. went on, & has got on easier. We only asked people of position at first; then we got out a second kind of petition which we are sending ?broad? ?past? to less important people - the Lord Mayor & 28 members of Dublin Corporation have signed. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-06T17:11:42" who="#Philcostel">
+                
+                    Page 3875 modified:
+                    <!-- 
+batch of signed petitions. She has been working on more democratic lines than our Com. went on, & has got on easier. We only asked people of position at first; then we got out a second kind of petition which we are sending ?broad? ?past? to less important people - the Lord Mayor & 28 members of Dublin Corporation have signed. Col. Moore has written pressingly to John Redmond on the subject 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-06T17:45:01" who="#Philcostel">
+                
+                    Page 3875 modified:
+                    <!-- 
+batch of signed petitions. She has been working on more democratic lines than our Com. went on, & has got on easier. We only asked people of position at first; then we got out a second kind of petition which we are sending ?broad? ?past? to less important people - the Lord Mayor & 28 members of Dublin Corporation have signed. Col. Moore has written pressingly to John Redmond on the subject, & is going to Ed. Freeman tonight to ? him to deal editorially with matter, as well as to publish letter from 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-06T17:49:19" who="#Philcostel">
+                
+                    Page 3875 modified:
+                    <!-- 
+batch of signed petitions. She has been working on more democratic lines than our Com. went on, & has got on easier. We only asked people of position at first; then we got out a second kind of petition which we are sending ?broad? ?past? to less important people - the Lord Mayor & 28 members of Dublin Corporation have signed. Col. Moore has written pressingly to John Redmond on the subject, & is going to Ed. Freeman tonight to ? him to deal editorially with matter, as well as to publish letter from him. I am going to Ed. Independent. If you are writing please reply to Col. Moore - Buswell's Hotel. He & I are going thru correspondence between us - but I'll be absent from Dublin from 27th to 30th- 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-06T17:51:23" who="#DanielleODonovan">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-06T17:51:23" who="#Philcostel">
+                
+                    Page 3876 modified:
+                    <!-- 
+Hoping most earnestly our united efforts will be crowned with success. Yours sincerely Mary O'Nolan 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-14T16:04:42" who="#Philcostel">
+                
+                    Page 3873 modified:
+                    <!-- 
+<address>5 Warwick Terrace Leeson Park Dublin  </address> <date>25th July</date> <salute>Dear Mrs. Green</salute>  <p>We are shocked to see the date fixed for <lb/>the execution. Still we do not give up hope <lb/>&amp; are working still hard for reprieve. <lb/> I enclose copy of letter sent by our Reprieve Com. to the King today.Also copy of cablegram to Botha. Could you also petition King to exercise prerogative of mercy & could you get at Botha & other Colonial premiers?  I see mass petitions are being sent in by A.O.H. & other Irish American bodies, but will the U.S. Government <gap/>move? These horrible slanders on our friend have injured our prospects of success. Unhappily many 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-17T14:53:01" who="#Philcostel">
+                
+                    Page 3873 modified:
+                    <!-- 
+<address>5 Warwick Terrace Leeson Park Dublin  </address> <date>25th July</date> <salute>Dear Mrs. Green</salute>  <p>We are shocked to see the date fixed for <lb/>the execution. Still we do not give up hope, <lb/>&amp; are working still hard for reprieve. <lb/><p> <p>I enclose copy of letter sent by <lb/>our Reprieve Com. to the King today. <lb/>Also copy of cablegram to Botha.<lb/><p> <p>Could you also petition King to <lb/>exercise prerogative of mercy, <lb/>&amp; could you get at Botha &amp;  other Colonial premiers? Is U.S. Government <lb/> doing nothing?   I see mass <lb/>petitions are being sent in by <lb/>A.O.H. &amp; other Irish American bodies, <lb/>but will the U.S. Government <gap/>move? <lb/>These horrible slanders on our <lb/> friend have injured our prospects <lb/>of success. Unhappily many <lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-17T15:01:37" who="#Philcostel">
+                
+                    Page 3874 modified:
+                    <!-- 
+who do not know him personally believe <lb/>them. Time will indicate his <lb/>character without doubt, but it is of <lb/>urgent importance that the <lb/>vindication should be immediate, <lb/> if possible. I wrote to Mr. Gavan <lb/>Duffy asking if you or he would <lb/>write to the Times on this subject.<lb/> Will you do so? And would anyone <lb/>else whose word carries weight <lb/>do so? We sent another batch of <lb/>signed petitions to-day to Prime <lb/>Minister - the third batch, containing <lb/>many influential signatures <lb/>&amp; we will continue sending in <lb/>petitions till we hear the matter <lb/>is finally settled - numbers <lb/>of these petitions are being <lb/>circulated through the country <lb/>&amp; are being ?extensively? signed, <lb/>Miss French Mullen who is in <lb/>charge of our petition is crossing <lb/>tonight to London with a big <lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-17T15:12:09" who="#Philcostel">
+                
+                    Page 3875 modified:
+                    <!-- 
+batch of signed petitions. She has <lb/>been working on more democratic <lb/>lines than our Com. went on, <lb/>&amp; has got on easier. We only <lb/>asked people of position at first; <lb/>then we got out a second kind of <lb/>petition which we are sending <lb/>?broad? ?past? to less important people - <lb/>the Lord Mayor & 28 members <lb/>of Dublin Corporation have <lb/>signed. Col. Moore has written pressingly <lb/>to John Redmond on the <lb/>subject, &amp; is going to Ed. Freeman <lb/>tonight to <gap/>? him to deal editorially <lb/>with matter, as well as to publish <lb/>letter from him. I am going to Ed. Independent.<lb/><p> If you are writing please reply <lb/>to Col. Moore - Buswell's Hotel. He &amp; <lb/> I are doing the  correspondence <lb/>between us - but I'll be absent from Dublin from 27th to 30th<lb/><p><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-17T15:14:12" who="#Philcostel">
+                
+                    Page 3876 modified:
+                    <!-- 
+<p>Hoping most earnestly our united <lb/>efforts will be crowned with success.<lb/><p> <salute>Yours sincerely</salute><lb/> Mary O'Nolan<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-03T00:00:00" who="#RB">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#RB" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T09:41:51" who="#RichardBreen">
+                
+                    Page 3873 modified:
+                    <!-- 
+<address>5 Warwick Terrace Leeson Park</address> <address>Dublin</address><date>25th July</date>  <salute>Dear Mrs. Green</salute> <p>We are shocked to see the date fixed for  <lb/>the execution. Still we do not give up hope, <lb/>&amp; are working still hard for reprieve.  <lb/>I enclose copy of letter sent by  <lb/>our Reprieve Com. to the King today.  <lb/>Also copy of cablegram to Botha. <lb/>Could you also petition King to  <lb/>exercise prerogative of mercy,  <lb/>&amp; could you get at Botha &amp;   <lb/>other Colonial premiers? Is U.S. Government  <lb/> doing nothing? I see mass  <lb/>petitions are being sent in by  <lb/>A.O.H. &amp; other Irish American bodies,  <lb/>but will the U.S. Government <gap/> move?  <lb/>These horrible slanders on our  <lb/> friend have injured our prospects  <lb/>of success. Unhappily many 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T09:49:52" who="#RichardBreen">
+                
+                    Page 3874 modified:
+                    <!-- 
+who do not know him personally believe  <lb/>them. Time will indicate his  <lb/>character without doubt, but it is of  <lb/>urgent importance that the  <lb/>vindication should be immediate,  <lb/> if possible. I wrote to Mr. Gavan  <lb/>Duffy asking if you or he would  <lb/>write to the Times on this subject.</p> <p>  Will you do so? And would anyone  <lb/>else whose word carries weight  <lb/>do so? We sent another batch of  <lb/>signed petitions to-day to Prime  <lb/>Minister - the <unclear>third batch</unclear>, containing  <lb/>many influential signatures  <lb/>&amp; we will continue sending in  <lb/>petitions till we hear the matter  <lb/>is finally settled &#x2014; numbers  <lb/>of these petitions are being  <lb/>circulated through the country  <lb/>&amp; are being <unclear>extensively</unclear> signed,  <lb/>Miss <unclear>French Mullen</unclear> who is in  <lb/>charge of our petition is crossing  <lb/>tonight to London with a big 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T09:50:04" who="#RichardBreen">
+                
+                    Page 3874 modified:
+                    <!-- 
+who do not know him personally believe  <lb/>them. Time will indicate his  <lb/>character without doubt, but it is of  <lb/>urgent importance that the  <lb/>vindication should be immediate,  <lb/> if possible. I wrote to Mr. Gavan  <lb/>Duffy asking if you or he would  <lb/>write to the Times on this subject.</p> <p>  Will you do so? And would anyone  <lb/>else whose word carries weight  <lb/>do so? We sent another batch of  <lb/>signed petitions to-day to Prime  <lb/>Minister - the <unclear>third batch</unclear>, containing  <lb/>many influential signatures  <lb/>&amp; we will continue sending in  <lb/>petitions till we hear the matter  <lb/>is finally settled &#x2014; numbers  <lb/>of these petitions are being  <lb/>circulated through the country  <lb/>&amp; are being <unclear>extensively</unclear> signed,  <lb/>Miss <unclear>French Mullen</unclear> who is in  <lb/>charge of our petition is crossing  <lb/>tonight to London with a big <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T09:57:01" who="#RichardBreen">
+                
+                    Page 3875 modified:
+                    <!-- 
+batch of signed petitions. She has  <lb/>been working on more democratic  <lb/>lines than our Com. went on,  <lb/>&amp; it has got on easier. We only  <lb/>asked people of position at first;  <lb/>then we got out a second kind of  <lb/>petition which we are sending  <lb/><unclear>broad cast</unclear> to less important people &#x2014;  <lb/>the Lord Mayor & 28 members  <lb/>of Dublin Corporation have  <lb/>signed. Col. Moore has written press&#x2014; <lb/>ingly to John Redmond on the  <lb/>subject, &amp; is going to Ed. Freeman  <lb/>tonight to urge him to deal editor&#x2014; <lb/>ially with matter, as well as to publish  <lb/>letters from him. I am going to Ed. Independent. <lb/>If you are writing please reply  <lb/>to Col. Moore - Buswell's Hotel. He &amp;  <lb/> I are doing the  correspondence  <lb/>between us &#x2014; but I'll be absent from <lb/> Dublin from 27th to 30th<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T09:59:02" who="#RichardBreen">
+                
+                    Page 3876 modified:
+                    <!-- 
+<p>Hoping most earnestly our united  <lb/>efforts will be crowned with success.</p> <salute>Yours sincerely</salute> <lb/>Mary O'Nolan<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T15:46:41" who="#NR">
+                
+                    Page 3873 modified:
+                    <!-- 
+<address>5 Warwick Terrace Leeson Park <lb/>Dublin</address><date>25th July</date>  <salute>Dear Mrs. Green</salute> <p>We are shocked to see the date fixed for  <lb/>the execution. Still we do not give up hope, <lb/>&amp; are working still hard for reprieve.  <lb/>I enclose copy of letter sent by  <lb/>our Reprieve Com. to the King today.  <lb/>Also copy of cablegram to Botha. <lb/>Could you also petition King to  <lb/>exercise prerogative of mercy,  <lb/>&amp; could you get at Botha &amp;   <lb/>other Colonial premiers? Is U.S. Government  <lb/> doing nothing? I see mass  <lb/>petitions are being sent in by  <lb/>A.O.H. &amp; other Irish American bodies,  <lb/>but will the U.S. Government <gap/> move?  <lb/>These horrible slanders on our  <lb/> friend have injured our prospects  <lb/>of success. Unhappily many 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T15:47:19" who="#NR">
+                
+                    Page 3874 modified:
+                    <!-- 
+<lb/>who do not know him personally believe  <lb/>them. Time will indicate his  <lb/>character without doubt, but it is of  <lb/>urgent importance that the  <lb/>vindication should be immediate,  <lb/> if possible. I wrote to Mr. Gavan  <lb/>Duffy asking if you or he would  <lb/>write to the Times on this subject.</p> <p>  Will you do so? And would anyone  <lb/>else whose word carries weight  <lb/>do so? We sent another batch of  <lb/>signed petitions to-day to Prime  <lb/>Minister - the <unclear>third batch</unclear>, containing  <lb/>many influential signatures  <lb/>&amp; we will continue sending in  <lb/>petitions till we hear the matter  <lb/>is finally settled &#x2014; numbers  <lb/>of these petitions are being  <lb/>circulated through the country  <lb/>&amp; are being <unclear>extensively</unclear> signed,  <lb/>Miss <unclear>French Mullen</unclear> who is in  <lb/>charge of our petition is crossing  <lb/>tonight to London with a big <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T15:47:20" who="#NR">
+                
+                    Page 3874 modified:
+                    <!-- 
+<lb/>who do not know him personally believe  <lb/>them. Time will indicate his  <lb/>character without doubt, but it is of  <lb/>urgent importance that the  <lb/>vindication should be immediate,  <lb/> if possible. I wrote to Mr. Gavan  <lb/>Duffy asking if you or he would  <lb/>write to the Times on this subject.</p> <p>  Will you do so? And would anyone  <lb/>else whose word carries weight  <lb/>do so? We sent another batch of  <lb/>signed petitions to-day to Prime  <lb/>Minister - the <unclear>third batch</unclear>, containing  <lb/>many influential signatures  <lb/>&amp; we will continue sending in  <lb/>petitions till we hear the matter  <lb/>is finally settled &#x2014; numbers  <lb/>of these petitions are being  <lb/>circulated through the country  <lb/>&amp; are being <unclear>extensively</unclear> signed,  <lb/>Miss <unclear>French Mullen</unclear> who is in  <lb/>charge of our petition is crossing  <lb/>tonight to London with a big <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T15:47:22" who="#NR">
+                
+                    Page 3874 modified:
+                    <!-- 
+<lb/>who do not know him personally believe  <lb/>them. Time will indicate his  <lb/>character without doubt, but it is of  <lb/>urgent importance that the  <lb/>vindication should be immediate,  <lb/> if possible. I wrote to Mr. Gavan  <lb/>Duffy asking if you or he would  <lb/>write to the Times on this subject.</p> <p>  Will you do so? And would anyone  <lb/>else whose word carries weight  <lb/>do so? We sent another batch of  <lb/>signed petitions to-day to Prime  <lb/>Minister - the <unclear>third batch</unclear>, containing  <lb/>many influential signatures  <lb/>&amp; we will continue sending in  <lb/>petitions till we hear the matter  <lb/>is finally settled &#x2014; numbers  <lb/>of these petitions are being  <lb/>circulated through the country  <lb/>&amp; are being <unclear>extensively</unclear> signed,  <lb/>Miss <unclear>French Mullen</unclear> who is in  <lb/>charge of our petition is crossing  <lb/>tonight to London with a big <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T15:47:31" who="#NR">
+                
+                    Page 3874 modified:
+                    <!-- 
+<lb/>who do not know him personally believe  <lb/>them. Time will indicate his  <lb/>character without doubt, but it is of  <lb/>urgent importance that the  <lb/>vindication should be immediate,  <lb/> if possible. I wrote to Mr. Gavan  <lb/>Duffy asking if you or he would  <lb/>write to the Times on this subject.</p> <p>  Will you do so? And would anyone  <lb/>else whose word carries weight  <lb/>do so? We sent another batch of  <lb/>signed petitions to-day to Prime  <lb/>Minister - the <unclear>third batch</unclear>, containing  <lb/>many influential signatures  <lb/>&amp; we will continue sending in  <lb/>petitions till we hear the matter  <lb/>is finally settled &#x2014; numbers  <lb/>of these petitions are being  <lb/>circulated through the country  <lb/>&amp; are being <unclear>extensively</unclear> signed,  <lb/>Miss <unclear>French Mullen</unclear> who is in  <lb/>charge of our petition is crossing  <lb/>tonight to London with a big 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T15:48:00" who="#NR">
+                
+                    Page 3875 modified:
+                    <!-- 
+<lb/>batch of signed petitions. She has  <lb/>been working on more democratic  <lb/>lines than our Com. went on,  <lb/>&amp; it has got on easier. We only  <lb/>asked people of position at first;  <lb/>then we got out a second kind of  <lb/>petition which we are sending  <lb/><unclear>broad cast</unclear> to less important people &#x2014;  <lb/>the Lord Mayor &amp; 28 members  <lb/>of Dublin Corporation have  <lb/>signed. Col. Moore has written press&#x2014; <lb/>ingly to John Redmond on the  <lb/>subject, &amp; is going to Ed. Freeman  <lb/>tonight to urge him to deal editor&#x2014; <lb/>ially with matter, as well as to publish  <lb/>letters from him. I am going to Ed. Independent. <lb/>If you are writing please reply  <lb/>to Col. Moore - Buswell's Hotel. He &amp;  <lb/> I are doing the  correspondence  <lb/>between us &#x2014; but I'll be absent from <lb/> Dublin from 27th to 30th 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T15:48:28" who="#NR">
+                
+                    Page 3876 modified:
+                    <!-- 
+<p>Hoping most earnestly our united  <lb/>efforts will be crowned with success.</p> <salute>Yours sincerely</salute> <lb/><signed>Mary O'Nolan</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3875 created using version from <date when="2014-11-06T16:59:59"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3875 removed (version from <date when="2014-11-06T16:59:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3875 removed (version from <date when="2014-11-06T17:09:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3875 removed (version from <date when="2014-11-06T17:11:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3875 removed (version from <date when="2014-11-06T17:45:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3875 removed (version from <date when="2014-11-06T17:49:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3875 removed (version from <date when="2014-12-17T15:12:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3875 removed (version from <date when="2015-12-04T09:57:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3875 removed (version from <date when="2015-12-04T15:48:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3876 created using version from <date when="2014-11-06T17:51:23"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3876 removed (version from <date when="2014-11-06T17:51:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3876 removed (version from <date when="2014-12-17T15:14:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3876 removed (version from <date when="2015-12-04T09:59:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3876 removed (version from <date when="2015-12-04T15:48:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3873 created using version from <date when="2014-11-06T16:22:27"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3873 removed (version from <date when="2014-11-06T16:22:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3873 removed (version from <date when="2014-11-06T16:28:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3873 removed (version from <date when="2014-12-14T16:04:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3873 removed (version from <date when="2014-12-17T14:53:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3873 removed (version from <date when="2015-12-04T09:41:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3873 removed (version from <date when="2015-12-04T15:46:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3874 created using version from <date when="2014-11-06T16:53:04"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3874 removed (version from <date when="2014-11-06T16:53:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3874 removed (version from <date when="2014-11-06T16:55:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3874 removed (version from <date when="2014-11-06T16:57:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3874 removed (version from <date when="2014-12-17T15:01:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3874 removed (version from <date when="2015-12-04T09:49:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3874 removed (version from <date when="2015-12-04T09:50:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3874 removed (version from <date when="2015-12-04T15:47:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3874 removed (version from <date when="2015-12-04T15:47:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3874 removed (version from <date when="2015-12-04T15:47:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3874 removed (version from <date when="2015-12-04T15:47:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:11" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3875 (version from <date when="2015-12-04T15:48:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3876 added to letter (version from <date when="2015-12-04T15:48:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3873 added to letter (version from <date when="2015-12-04T15:46:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3874 added to letter (version from <date when="2015-12-04T15:47:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 3873 cleaned of 4 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 3874 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 3875 cleaned of 8 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 3876 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:52" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1513_img_3873" url="455f05cd31e926fa8e9c23536de3fbb5.jpg"/> 
+    
+    <graphic xml:id="L1916_1513_img_3874" url="a67b1432845ad739ee0495a36aa304ae.jpg"/> 
+    
+    <graphic xml:id="L1916_1513_img_3875" url="ad4f99d69f9cf3902bcb41b42401dc3d.jpg"/> 
+    
+    <graphic xml:id="L1916_1513_img_3876" url="6eddab739e7b4fde06a7bdc8a32c32ea.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3873" facs="#L1916_1513_img_3873"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>5 Warwick Terrace Leeson Park</addrLine>
+<addrLine>Dublin</addrLine></address><dateline><date>25th July</date></dateline>  <salute>Dear Mrs. Green</salute></opener> <p>We are shocked to see the date fixed for  <lb/>the execution. Still we do not give up hope, <lb/>&amp; are working still hard for reprieve.  <lb/>I enclose copy of letter sent by  <lb/>our Reprieve Com. to the King today.  <lb/>Also copy of cablegram to Botha. <lb/>Could you also petition King to  <lb/>exercise prerogative of mercy,  <lb/>&amp; could you get at Botha &amp;   <lb/>other Colonial premiers? Is U.S. Government  <lb/> doing nothing? I see mass  <lb/>petitions are being sent in by  <lb/>A.O.H. &amp; other Irish American bodies,  <lb/>but will the U.S. Government <gap/> move?  <lb/>These horrible slanders on our  <lb/> friend have injured our prospects  <lb/>of success. Unhappily many
+        
+    
+
+    
+         
+        <pb n="3874" facs="#L1916_1513_img_3874"/>
+        
+        
+           
+            <lb/>who do not know him personally believe  <lb/>them. Time will indicate his  <lb/>character without doubt, but it is of  <lb/>urgent importance that the  <lb/>vindication should be immediate,  <lb/> if possible. I wrote to Mr. Gavan  <lb/>Duffy asking if you or he would  <lb/>write to the Times on this subject.</p> <p>  Will you do so? And would anyone  <lb/>else whose word carries weight  <lb/>do so? We sent another batch of  <lb/>signed petitions to-day to Prime  <lb/>Minister - the <unclear>third batch</unclear>, containing  <lb/>many influential signatures  <lb/>&amp; we will continue sending in  <lb/>petitions till we hear the matter  <lb/>is finally settled &#x2014; numbers  <lb/>of these petitions are being  <lb/>circulated through the country  <lb/>&amp; are being <unclear>extensively</unclear> signed,  <lb/>Miss <unclear>French Mullen</unclear> who is in  <lb/>charge of our petition is crossing  <lb/>tonight to London with a big
+        
+    
+         
+        <pb n="3875" facs="#L1916_1513_img_3875"/>
+        
+        
+           
+            <lb/>batch of signed petitions. She has  <lb/>been working on more democratic  <lb/>lines than our Com. went on,  <lb/>&amp; it has got on easier. We only  <lb/>asked people of position at first;  <lb/>then we got out a second kind of  <lb/>petition which we are sending  <lb/><unclear>broad cast</unclear> to less important people &#x2014;  <lb/>the Lord Mayor &amp; 28 members  <lb/>of Dublin Corporation have  <lb/>signed. Col. Moore has written press&#x2014; <lb/>ingly to John Redmond on the  <lb/>subject, &amp; is going to Ed. Freeman  <lb/>tonight to urge him to deal editor&#x2014; <lb/>ially with matter, as well as to publish  <lb/>letters from him. I am going to Ed. Independent. <lb/>If you are writing please reply  <lb/>to Col. Moore - Buswell's Hotel. He &amp;  <lb/> I are doing the  correspondence  <lb/>between us &#x2014; but I'll be absent from <lb/> Dublin from 27th to 30th
+        
+    
+         
+        <pb n="3876" facs="#L1916_1513_img_3876"/>
+        
+        
+           
+            <p>Hoping most earnestly our united  <lb/>efforts will be crowned with success.</p> <closer><salute>Yours sincerely</salute></closer> <lb/><signed>Mary O'Nolan</signed>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

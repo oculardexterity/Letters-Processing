@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1576">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Gus to Eamonn O&#39;Modhráin, 13 June 1916</title>
+                
+                <author>Gus</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="BH">Brian Hughes</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Rosie17">Rosie17</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1576</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is a letter to Eamonn O&#39;Modhráin (Edward Moran) (1881-1954) from a friend, Gus. O&#39;Modhráin had been arrested and imprisoned after the Easter Rising and spent time in Wakefield Prison and Frongach Internment Camp. This letter was sent while O&#39;Modhráin was in Wakefield. The author refers to a conversation with a prisoner recently released from Wakefield, friends held in other prisons and friends and family at home, including O&#39;Modhráin&#39;s brother Lewis, who had been released from Wakefield.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#O&#39;Modhráin Family Private Collection"></repository>
+                        <collection type='private'>O&#39;Modhráin Family Private Collection</collection>
+                        
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Eamonn_OModhráin">Eamonn O&#39;Modhráin</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Gus">Gus</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-10-24T17:51:45" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-10-24T17:51:45" who="#Philcostel">
+                
+                    Page 3997 modified:
+                    <!-- 
+41 Windsor Ave, Fairview, 13/6/16 My Dear Ned, 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-24T17:56:31" who="#Philcostel">
+                
+                    Page 3997 modified:
+                    <!-- 
+41 Windsor Ave, Fairview, 13/6/16 My Dear Ned, I was very glad to hear that you continue well. The girls were in Ballysax on Sunday and I believe everything is going on well there. I was speaking to a shop 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-24T17:57:27" who="#Philcostel">
+                
+                    Page 3997 modified:
+                    <!-- 
+41 Windsor Ave, Fairview, 13/6/16 My Dear Ned, I was very glad to hear that you continue well. The girls were in Ballysax on Sunday and I believe everything is going on well there. I was speaking to a chap 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-24T17:58:37" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-10-24T17:58:37" who="#Philcostel">
+                
+                    Page 3998 modified:
+                    <!-- 
+named Macken who has lately returned from your "college". 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-24T18:06:33" who="#Philcostel">
+                
+                    Page 3998 modified:
+                    <!-- 
+named Macken who has lately returned from your "college". He gave me a good account of all the Rules and Regulations of your present abode. I am expecting to see you back here any day but in case you don't arrive before next week I intend going over to see you 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-24T18:14:32" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-10-24T18:14:32" who="#Philcostel">
+                
+                    Page 3999 modified:
+                    <!-- 
+I will probably leave Dublin Monday or Tuesday night 19th or 20th Inst. In the meantime if you want anything particularly write home to Ballysax as I will be there on Sunday (D.V.) and I can bring whatever you require. It is pleasant to know that a good number of the restrictions placed on you at first have since been released. <del>deleted text</del>  Eoghan O'Brien is in Stafford and his brother Peadar is in Knutsford. Their mother died last week (RIP) and they never knew a word 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-24T19:56:58" who="#Philcostel">
+                
+                    Page 3999 modified:
+                    <!-- 
+I will probably leave Dublin Monday or Tuesday night 19th or 20th Inst. In the meantime if you want anything particularly write home to Ballysax as I will be there on Sunday (D.V.) and I can bring whatever you require. It is pleasant to know that a good number of the restrictions placed on you at first have since been released. <del>deleted text</del>  Eoghan O'Brien is in Stafford and his brother Peadar is in Knutsford. Their mother died last week (RIP) and they never knew a word about it. We are all well here. Lewis is coming to himself again. Best wishes hoping to see you soon Yours Gus 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-03-09T16:22:14" who="#Rosie17">
+                
+                    Page 3997 modified:
+                    <!-- 
+<address>41 Windsor Ave, Fairview,</address> <date>13/6/16</date> <salute>My Dear Ned,</salute> I was very<lb/> glad to hear that you<lb/> continue well. The girls<lb/> were in Ballysax on<lb/> Sunday and I believe <lb/>everything is going on<lb/> well there. I was<lb/> speaking to a chap<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-03-09T16:23:34" who="#Rosie17">
+                
+                    Page 3998 modified:
+                    <!-- 
+named Macken who has<lb/> lately returned from<lb/> your "college". He gave <lb/>me a good account<lb/> of all the Rules and<lb/> Regulations of your present<lb/> abode. I am expecting <lb/>to see you back here any<lb/> day but in case you<lb/> don't arrive before <lb/>next week I intend<lb/> going over to see you<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-03-09T16:26:13" who="#Rosie17">
+                
+                    Page 3999 modified:
+                    <!-- 
+I will probably leave Dublin<lb/> Monday or Tuesday night 19<hi rend="superscript">th</hi><lb/> or 20<hi rend="superscript">th</hi> Inst. In the meantime <lb/>if you want anything particularly<lb/> write home to Ballysax as I<lb/> will be there on Sunday (D.V.)<lb/> and I can bring whatever you<lb/> require. It is pleasant to know <lb/>that a good number of the<lb/> restrictions placed on you at first<lb/> have since been released. <del>deleted text</del> <lb/> Eoghan O'Brien is in Stafford and<lb/> his brother Peadar is in Knutsford.<lb/> Their mother died last week (RIP)<lb/> and they never knew a word about<lb/> it. We are all well here. Lewis<lb/> is coming to himself again. Best<lb/> wishes hoping to see you soon<lb/> <salute>Yours Gus</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-26T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-27T09:59:56" who="#NR">
+                
+                    Page 3997 modified:
+                    <!-- 
+<address>41 Windsor Ave,<lb/> Fairview,</address> <date>13/6/16</date> <salute>My Dear Ned,</salute> <p>I was very<lb/>  glad to hear that you<lb/>  continue well. The girls<lb/>  were in Ballysax on<lb/>  Sunday and I believe <lb/> everything is going on<lb/>  well there. I was<lb/>  speaking to a chap<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-27T10:00:28" who="#NR">
+                
+                    Page 3998 modified:
+                    <!-- 
+named Macken who has<lb/>  lately returned from<lb/>  your "college". He gave <lb/> me a good account<lb/>  of all the Rules and<lb/>  Regulations of your present<lb/>  abode. I am expecting <lb/> to see you back here any<lb/>  day but in case you<lb/>  don't arrive before <lb/> next week I intend<lb/>  going over to see you<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-27T10:01:51" who="#NR">
+                
+                    Page 3999 modified:
+                    <!-- 
+I will probably leave Dublin<lb/>  Monday or Tuesday night 19<hi rend="superscript">th</hi><lb/>  or 20<hi rend="superscript">th</hi> Inst. In the meantime <lb/> if you want anything particularly<lb/>  write home to Ballysax as I<lb/>  will be there on Sunday (D.V.)<lb/>  and I can bring whatever you<lb/>  require. It is pleasant to know <lb/> that a good number of the<lb/>  restrictions placed on you at first<lb/>  have since been released. <del>Ben</del> <lb/> Eoghan O'Brien is in Stafford and<lb/>  his brother Peadar is in Knutsford.<lb/>  Their mother died last week (RIP)<lb/>  and they never knew a word about<lb/>  it. We are all well here. Lewis<lb/>  is coming to himself again. Best<lb/>  wishes hoping to see you soon</p> <salute>Yours</salute> Gus 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3997 created using version from <date when="2014-10-24T17:51:45"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3997 removed (version from <date when="2014-10-24T17:51:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3997 removed (version from <date when="2014-10-24T17:56:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3997 removed (version from <date when="2014-10-24T17:57:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3997 removed (version from <date when="2015-03-09T16:22:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3997 removed (version from <date when="2015-11-27T09:59:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3998 created using version from <date when="2014-10-24T17:58:37"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3999 created using version from <date when="2014-10-24T18:14:32"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3999 removed (version from <date when="2014-10-24T18:14:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3999 removed (version from <date when="2014-10-24T19:56:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3999 removed (version from <date when="2015-03-09T16:26:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3999 removed (version from <date when="2015-11-27T10:01:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3998 removed (version from <date when="2014-10-24T17:58:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3998 removed (version from <date when="2014-10-24T18:06:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3998 removed (version from <date when="2015-03-09T16:23:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3998 removed (version from <date when="2015-11-27T10:00:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3999 (version from <date when="2015-11-27T10:01:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3997 added to letter (version from <date when="2015-11-27T09:59:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3998 added to letter (version from <date when="2015-11-27T10:00:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 3997 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 3998 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 3999 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:43" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1576_img_3997" url="5090f51ba230e322bacfe7aa7fdcfca0.jpg"/> 
+    
+    <graphic xml:id="L1916_1576_img_3998" url="30b36d2bef5f0651f5a9b797dc617688.jpg"/> 
+    
+    <graphic xml:id="L1916_1576_img_3999" url="afe002878f08ba269ae542228535c545.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3997" facs="#L1916_1576_img_3997"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>41 Windsor Ave,</addrLine>
+<addrLine>Fairview,</addrLine></address> <dateline><date>13/6/16</date></dateline> <salute>My Dear Ned,</salute></opener> <p>I was very<lb/>  glad to hear that you<lb/>  continue well. The girls<lb/>  were in Ballysax on<lb/>  Sunday and I believe <lb/> everything is going on<lb/>  well there. I was<lb/>  speaking to a chap<pb/>
+        
+    
+
+    
+         
+        <pb n="3998" facs="#L1916_1576_img_3998"/>
+        
+        
+           
+            named Macken who has<lb/>  lately returned from<lb/>  your "college". He gave <lb/> me a good account<lb/>  of all the Rules and<lb/>  Regulations of your present<lb/>  abode. I am expecting <lb/> to see you back here any<lb/>  day but in case you<lb/>  don't arrive before <lb/> next week I intend<lb/>  going over to see you<pb/>
+        
+    
+         
+        <pb n="3999" facs="#L1916_1576_img_3999"/>
+        
+        
+           
+            I will probably leave Dublin<lb/>  Monday or Tuesday night 19<hi rend="superscript">th</hi><lb/>  or 20<hi rend="superscript">th</hi> Inst. In the meantime <lb/> if you want anything particularly<lb/>  write home to Ballysax as I<lb/>  will be there on Sunday (D.V.)<lb/>  and I can bring whatever you<lb/>  require. It is pleasant to know <lb/> that a good number of the<lb/>  restrictions placed on you at first<lb/>  have since been released. <del>Ben</del> <lb/> Eoghan O'Brien is in Stafford and<lb/>  his brother Peadar is in Knutsford.<lb/>  Their mother died last week (RIP)<lb/>  and they never knew a word about<lb/>  it. We are all well here. Lewis<lb/>  is coming to himself again. Best<lb/>  wishes hoping to see you soon</p> <closer><salute>Yours</salute></closer> Gus
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1643">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Hugh Kirker to George V, King of England, 7 June 1916</title>
+                
+                <author>Hugh F. Kirker</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="HH">Hannah Healy</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Lizlinkz">Lizlinkz</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Annie">Annie</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1643</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This letter was written by Hugh Kirker  In the letter Kirker wishes to King George V. In the letter Kirker wishes to express the loyalty of the Presbytery of Ireland, in connection with the United Free Church of Scotland, following the outbreak of the 1916 Rising. Kirker criticizes the actions of those involved in the Rising and the deplorable loss of life.    Reverend Hugh Fitzwalter Kirker (1860 - 1935) was a minister of the United Free Church of Scotland. The letter is addressed to King George V (1865 - 1936), king of Great Britain and Ireland.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#National Archives of Ireland">National Archives of Ireland</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#George_V_of_England_">George V of England </persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Hugh_F._Kirker">Hugh F. Kirker</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-12-31T20:47:42" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-12-31T20:47:42" who="#Annie">
+                
+                    Page 4123 modified:
+                    <!-- 
+To the King's most Excellent Majesty. <salute>salute</salute> <lb/>  May it please Your Majesty,<p>paragraph</p> The Presbytery of Ireland in connection with <lb/> the United Free Church of Scotland at their <lb/> first meeting after the recent outbreak of <lb/> rebellion in this country desire to express <lb/>loyalty to Your Majesty's Throne and to the <lb/> constitution of the United Kingdom. <p>paragraph</p> They deplore the spirit manifested in <lb/> the rising in Dublin, with the distressing <lb/> loss of valuable lives: they sympathise <lb/> with all who have suffered, and rejoice <lb/> that order has been so speedily restored. <lb/> Signed in the name of the Presbytery,<lb/> Hugh F. Kirker, M A <lb/> Presbytery Clerk.<lb/> <address>address</address> Ballyferris,,<lb/> Donaghadee, <lb/> Co. Down. 7th June 1916.  STAMP ON LOWER LEFT HAND SIDE SAYS:-     PRIVATE SECRETARY'S OFFICE                                                                                           BUCKINGHAM PALACE                                                                                                       9 JUN. 1916                                                                                          This letter has not been                                                                                             acknowledged 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-31T21:08:03" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-12-31T21:08:03" who="#Annie">
+                
+                    Page 4124 modified:
+                    <!-- 
+<<lb/>address>address</address> BUCKINGHAM PALACE. <add>added text IN STAMP:- CHIEF SECTARY'S <lb/> 9819 - 10, JUN. 1916, <lb/>OFFICE:    With <lb/> The Private Secretary's <lb/> compliments.<lb/> 9th June, 1916. <lb/> <gap/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-06T11:35:14" who="#Lizlinkz">
+                
+                    Page 4123 modified:
+                    <!-- 
+To the King's most Excellent Majesty. <salute>salute</salute> <lb/>  May it please Your Majesty,<p>paragraph</p> The Presbytery of Ireland in connection with <lb/> the United Free Church of Scotland at their <lb/> first meeting after the recent outbreak of <lb/> rebellion in this country desire to express <lb/>loyalty to Your Majesty's Throne and to the <lb/> constitution of the United Kingdom. <p>paragraph</p> They deplore the spirit manifested in <lb/> the rising in Dublin, with the distressing <lb/> loss of valuable lives: they sympathize <lb/> with all who have suffered, and rejoice <lb/> that order has been so speedily restored. <lb/> Signed in the name of the Presbytery,<lb/> (Rev) Hugh F. Kirker, M A <lb/> Presbytery Clerk.<lb/> <address>address</address> Ballyfrenis,,<lb/> Donaghadee, <lb/> Co. Down. 7th June 1916.  STAMP ON LOWER LEFT HAND SIDE SAYS:-     PRIVATE SECRETARY'S OFFICE                                                                                           BUCKINGHAM PALACE                                                                                                       9 JUN. 1916                                                                                          This letter has <hi rend="underline">not</hi> been                                                                                             acknowledged 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T16:02:07" who="#NR">
+                
+                    Page 4123 modified:
+                    <!-- 
+<address>To the King's most Excellent Majesty.</address>    <salute>May it please Your Majesty,</salute>  <p>The Presbytery of Ireland in connection with <lb/>  the United Free Church of Scotland at their <lb/>  first meeting after the recent outbreak of <lb/>  rebellion in this country desire to express <lb/> loyalty to Your Majesty's Throne and to the <lb/>  constitution of the United Kingdom.</p>   <p>They deplore the spirit manifested in <lb/>  the rising in Dublin, with the distressing <lb/>  loss of valuable lives: they sympathize <lb/>  with all who have suffered, and rejoice <lb/>  that order has been so speedily restored. </p>  <salute>Signed in the name of the Presbytery,</salute>  (Rev) Hugh F. Kirker, M A <lb/>  Presbytery Clerk.<lb/>  <address>Ballyfrenis,,<lb/>  Donaghadee, <lb/>  Co. Down.</address> <date>7th June 1916.</date>  STAMP ON LOWER LEFT HAND SIDE SAYS:-     PRIVATE SECRETARY'S OFFICE                                                                                           BUCKINGHAM PALACE                                                                                                       9 JUN. 1916                                                                                          This letter has <hi rend="underline">not</hi> been                                                                                             acknowledged 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T16:02:10" who="#NR">
+                
+                    Page 4123 modified:
+                    <!-- 
+<address>To the King's most Excellent Majesty.</address>    <salute>May it please Your Majesty,</salute>  <p>The Presbytery of Ireland in connection with <lb/>  the United Free Church of Scotland at their <lb/>  first meeting after the recent outbreak of <lb/>  rebellion in this country desire to express <lb/> loyalty to Your Majesty's Throne and to the <lb/>  constitution of the United Kingdom.</p>   <p>They deplore the spirit manifested in <lb/>  the rising in Dublin, with the distressing <lb/>  loss of valuable lives: they sympathize <lb/>  with all who have suffered, and rejoice <lb/>  that order has been so speedily restored. </p>  <salute>Signed in the name of the Presbytery,</salute>  (Rev) Hugh F. Kirker, M A <lb/>  Presbytery Clerk.<lb/>  <address>Ballyfrenis,,<lb/>  Donaghadee, <lb/>  Co. Down.</address> <date>7th June 1916.</date>  STAMP ON LOWER LEFT HAND SIDE SAYS:-     PRIVATE SECRETARY'S OFFICE                                                                                           BUCKINGHAM PALACE                                                                                                       9 JUN. 1916                                                                                          This letter has <hi rend="underline">not</hi> been                                                                                             acknowledged 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T16:05:11" who="#NR">
+                
+                    Page 4123 modified:
+                    <!-- 
+<address>To the King's most Excellent Majesty.</address>    <salute>May it please Your Majesty,</salute>  <p>The Presbytery of Ireland in connection with <lb/>  the United Free Church of Scotland at their <lb/>  first meeting after the recent outbreak of <lb/>  rebellion in this country desire to express <lb/> loyalty to Your Majesty's Throne and to the <lb/>  constitution of the United Kingdom.</p>   <p>They deplore the spirit manifested in <lb/>  the rising in Dublin, with the distressing <lb/>  loss of valuable lives: they sympathize <lb/>  with all who have suffered, and rejoice <lb/>  that order has been so speedily restored. </p>  <salute>Signed in the name of the Presbytery,</salute>  (Rev) Hugh F. Kirker, M A <lb/>  Presbytery Clerk.<lb/>  <address>Ballyfrenis,,<lb/>  Donaghadee, <lb/>  Co. Down.</address> <date>7th June 1916.</date>  STAMP ON LOWER LEFT HAND SIDE SAYS:-     PRIVATE SECRETARY'S OFFICE                                                                                           BUCKINGHAM PALACE                                                                                                       9 JUN. 1916                                                                                          This letter has <hi rend="underline">not</hi> been                                                                                             acknowledged 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T16:05:22" who="#NR">
+                
+                    Page 4123 modified:
+                    <!-- 
+<address>To the King's most Excellent Majesty.</address>    <salute>May it please Your Majesty,</salute>  <p>The Presbytery of Ireland in connection with <lb/>  the United Free Church of Scotland at their <lb/>  first meeting after the recent outbreak of <lb/>  rebellion in this country desire to express <lb/> loyalty to Your Majesty's Throne and to the <lb/>  constitution of the United Kingdom.</p>   <p>They deplore the spirit manifested in <lb/>  the rising in Dublin, with the distressing <lb/>  loss of valuable lives: they sympathize <lb/>  with all who have suffered, and rejoice <lb/>  that order has been so speedily restored. </p>  <salute>Signed in the name of the Presbytery,</salute>  (Rev) Hugh F. Kirker, M A <lb/>  Presbytery Clerk.<lb/>  <address>Ballyfrenis,,<lb/>  Donaghadee, <lb/>  Co. Down.</address> <date>7th June 1916.</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T16:06:19" who="#NR">
+                
+                    Page 4124 modified:
+                    <!-- 
+ <note>With <lb/>  The Private Secretary's <lb/>  compliments.</note>  <address>9th June, 1916.</address>  <gap/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4124 created using version from <date when="2014-12-31T21:08:03"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4124 removed (version from <date when="2014-12-31T21:08:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4124 removed (version from <date when="2015-11-24T16:06:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4123 created using version from <date when="2014-12-31T20:47:42"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4123 removed (version from <date when="2014-12-31T20:47:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4123 removed (version from <date when="2015-04-06T11:35:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4123 removed (version from <date when="2015-11-24T16:02:07"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4123 removed (version from <date when="2015-11-24T16:02:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4123 removed (version from <date when="2015-11-24T16:05:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4123 removed (version from <date when="2015-11-24T16:05:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 4124 (version from <date when="2015-11-24T16:06:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 4123 added to letter (version from <date when="2015-11-24T16:05:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 4123 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 4124 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:52" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1643_img_4123" url="6d2bee14f989765b89d6c207edb03a4d.jpg"/> 
+    
+    <graphic xml:id="L1916_1643_img_4124" url="19abf107e57953e898959dc860b2f5ab.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="4123" facs="#L1916_1643_img_4123"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>To the King's most Excellent Majesty.</addrLine></address>    <salute>May it please Your Majesty,</salute></opener>  <p>The Presbytery of Ireland in connection with <lb/>  the United Free Church of Scotland at their <lb/>  first meeting after the recent outbreak of <lb/>  rebellion in this country desire to express <lb/> loyalty to Your Majesty's Throne and to the <lb/>  constitution of the United Kingdom.</p>   <p>They deplore the spirit manifested in <lb/>  the rising in Dublin, with the distressing <lb/>  loss of valuable lives: they sympathize <lb/>  with all who have suffered, and rejoice <lb/>  that order has been so speedily restored. </p>  <salute>Signed in the name of the Presbytery,</salute>  (Rev) Hugh F. Kirker, M A <lb/>  Presbytery Clerk.<lb/>  <address>Ballyfrenis,,<lb/>  Donaghadee, <lb/>  Co. Down.</address> <date>7th June 1916.</date>
+        
+    
+
+    
+        
+        
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+            <pb n="4124" facs="#L1916_1643_img_4124"/>
+            <text type="envelope" decls="#corresp1">
+                <body> 
+                    <ab>
+                         <note>With <lb/>  The Private Secretary's <lb/>  compliments.</note>  <address><addrLine>9th June, 1916.</addrLine></address>  <gap/>
+                    </ab>
+                </body>
+            </text>
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

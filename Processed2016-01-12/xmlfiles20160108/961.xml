@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_961">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Henry Lemass, solicitor, to John Dillon, 16 June 1916.</title>
+                
+                <author>Henry Lemass</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Annie">Annie</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Ruthacd">Ruthacd</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_961</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>A letter from Henry Lemass (1883-1946) to John Dillon (1851-1927). Lemass encloses a copy of a letter, drafted by Counsel, Mr. Healy, which he has sent to Prime Minister Herbert Asquith and to several newspapers. As far as he is aware, none of the papers has published it and he doesn't believe they will.  Mr. Healy and Mr.Philip White have been retained as Counsel for Mrs. Sheehy-Skeffington. He writes of other possible Counsel but Mrs. Sheehy-Skeffington is reluctant to take on any more for financial reasons and because of the uncertainty regarding whether the Government will be paying her costs.</p>
+                        
+                            <p>John Dillon was an Irish Party MP in the House of Commons. In a speech in the House on 11 May 1916 he strongly condemned the British handling of the Rising which had been put down “with so much blood and so much savagery”, and called for an immediate end to executions. Mr. Dillon assisted Hanna Sheehy-Skeffington in her plea for a public inquiry and in various correspondence relating to her husband's murder and raids on her home.</p>
+                        
+                            <p></p>
+                        
+                            <p>  </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Trinity College Dublin">Trinity College Dublin</repository>
+                        <!-- 
+                                Original DCN: Ms. 6837/25
+                             
+                        -->
+                            
+                                <collection type='public'>Ms. 6837/25</collection>
+                            
+                            
+                        <idno>Ms. 6837/25</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#John_Dillon">John Dillon</persName>
+                
+                
+                
+                    <placeName  ref="#House_of_Commons,_London,_England_-_re-directed_to_2_North_Gr_Georges_St,_Dublin,_Ireland.">House of Commons, London, England - re-directed to 2 North Gr Georges St, Dublin, Ireland.</placeName>
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Henry_Lemass">Henry Lemass</persName>
+                    
+                     
+                    <placeName ref="#Parliament_Chambers,_31_Parliament_Street,_Dublin,_Ireland.">Parliament Chambers, 31 Parliament Street, Dublin, Ireland.</placeName>
+                    
+                    
+                    <date when="1916-06-16">16 June 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-12-18T18:30:34" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-12-18T18:30:34" who="#Ruthacd">
+                
+                    Page 2487 modified:
+                    <!-- 
+HENRY LEMASS.                                                                   TELEPHONE NO. 3223. SOLICITOR &#x2014;                                  PARLIAMENT CHAMBERS. COMMISSIONER FOR OATHS.                  31 PARLIAMENT STREET.                                                            DUBLIN 16th June 1916  <address>address</address>John Dillon Esq., M.P. House of Commons London.  Dear Sir,             <p>paragraph</p>I enclose for your information some prints of a letter which I have addressed to the Prime Minister on the on the subject of the murder of Mr Sheehy Skeffington. I may mention that this letter was drafted by Mr Healy. I forwarded copies to several newspapers, none of whom have published same so far as I am aware. The Independent wrote me that they had submitted it to the Military Press Censor in Dublin and that he had prohibited its publication till sanctioned by the Prime Minister. I presume this means that the letter will not be published at all.</p> <p>On the instructions of Mrs Skeffington I retained Mr Healy and Mr Philip White as Counsel for her on the forthcoming Inquiry. I approached Mr Powell K.C. but he could not see his way to accept a Brief in this case. Mrs Skeffington is anxious that Mr Healy should lead for her and for this reason I did not approach Mr. Denis Henry K.C. who was called to the Inner Bar some years earlier than Mr. Healy. Mr Richard Sheehy and Mr White think that</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-24T22:43:31" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-12-24T22:43:31" who="#Annie">
+                
+                    Page 2488 modified:
+                    <!-- 
+      HENRY LEMASS                                                                                telephone number 3323                                                               SOLICITOR                                  PARLIAMENT CHAMBERS                _____ COMMISSIONER FOR OATHS                                    31   PARLIAMENT   STREET                                                                                 DUBLIN.                      16th   June              John Dillon Esq: M. P.  if another Counsel is to be brought in Mr D. M. Wilson K. C. would probably prove of the greatest assistance. Mrs Skeffington is however reluctant to retain any other counsel at present as of  course the question of expence is a serious matter for her and we do not know yet whether the Government will be willing to pay her costs in connection with the Inquiry. I have suggested to Mr Healy that he ought endeavour to ascertain the views of the Government on this aspect of the matter.                                                                    Yours faithfully,                                                 Henry Lemass 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-28T19:56:52" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-02-28T19:56:52" who="#Philcostel">
+                
+                    Page 2446 modified:
+                    <!-- 
+<!~~ Envelope ~~> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-28T20:32:18" who="#Philcostel">
+                
+                    Page 2446 modified:
+                    <!-- 
+<!~~ Envelope ~~> <note>From <gap/> Skeffington <hi rend="underline">Case</hi> <hi rend="underline">June 1916</hi> </note> <address>John Dillon Esq M.P,</address> <address><del>House of Commons</del></address> <address>2 North Gt Georges St</address> <address><del>Westminster</del></address> <address>Dublin</address> <address><del>London S.W.,</del></address> <!~~ indecipherable postmark over two stamps ~~> <!~~ London postmark<note>London 19 Jul 16</note> ~~> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-28T20:32:52" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-02-28T20:32:52" who="#Philcostel">
+                
+                    Page 2447 modified:
+                    <!-- 
+<!~~ back of envelope - no text ~~> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-04T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T09:24:14" who="#NR">
+                
+                    Page 2488 modified:
+                    <!-- 
+<lb/>if another Counsel is to be brought in Mr D. M. Wilson K. C. would <lb/>probably prove of the greatest assistance. Mrs Skeffington is <lb/>however reluctant to retain any other counsel at present as of  <lb/>course the question of expense is a serious matter for her and we <lb/>do not know yet whether the Government will be willing to pay her <lb/>costs in connection with the Inquiry. I have suggested to Mr <lb/>Healy that he ought <del>condemn</del> <add>endeavour</add> to ascertain the views of the Government <lb/>on this aspect of the matter.   <salute>Yours faithfully,</salute>  <signed> <hi rend="underline">Henry Lemass</hi> </signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T09:24:50" who="#NR">
+                
+                    Page 2446 modified:
+                    <!-- 
+<!~~ Envelope ~~>   <address>John Dillon Esq M.P., <del>House of Commons <lb/>Westminster <lb/>London S.W.,</del> <add>2 North Gt Georges St <lb/>Dublin</add></address>  <add>From <gap/> Skeffington <hi rend="underline">Case</hi> <hi rend="underline">June 1916</hi></add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T09:24:51" who="#NR">
+                
+                    Page 2446 modified:
+                    <!-- 
+<!~~ Envelope ~~>   <address>John Dillon Esq M.P., <del>House of Commons <lb/>Westminster <lb/>London S.W.,</del> <add>2 North Gt Georges St <lb/>Dublin</add></address>  <add>From <gap/> Skeffington <hi rend="underline">Case</hi> <hi rend="underline">June 1916</hi></add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T09:25:19" who="#NR">
+                
+                    Page 2446 modified:
+                    <!-- 
+<!~~ Envelope ~~>   <address>John Dillon Esq M.P., <del>House of Commons <lb/>Westminster <lb/>London S.W.,</del> <add>2 North Gt Georges St <lb/>Dublin</add></address>  <add>From <gap/> Skeffington <hi rend="underline">Case</hi> <hi rend="underline">June 1916</hi></add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T09:26:02" who="#NR">
+                
+                    Page 2446 modified:
+                    <!-- 
+<!~~ Envelope ~~>   <address>John Dillon Esq M.P., <del>House of Commons</del> <lb/><del>Westminster</del> <lb/><del>London S.W.,</del> <add>2 North Gt Georges St <lb/>Dublin</add></address>  <add>From <gap/> Skeffington <hi rend="underline">Case</hi> <hi rend="underline">June 1916</hi></add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2446 created using version from <date when="2015-02-28T19:56:52"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2446 removed (version from <date when="2015-02-28T19:56:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2446 removed (version from <date when="2015-02-28T20:32:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2446 removed (version from <date when="2016-01-06T09:24:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2446 removed (version from <date when="2016-01-06T09:24:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2446 removed (version from <date when="2016-01-06T09:25:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2446 removed (version from <date when="2016-01-06T09:26:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2487 created using version from <date when="2014-12-18T18:30:34"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2487 removed (version from <date when="2014-12-18T18:30:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2447 created using version from <date when="2015-02-28T20:32:52"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2447 removed (version from <date when="2015-02-28T20:32:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2488 created using version from <date when="2014-12-24T22:43:31"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2488 removed (version from <date when="2014-12-24T22:43:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2488 removed (version from <date when="2016-01-06T09:24:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:23" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2446 (version from <date when="2016-01-06T09:26:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:23" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2487 added to letter (version from <date when="2016-01-06T09:22:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:24" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2447 added to letter (version from <date when="2016-01-06T09:26:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:24" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2488 added to letter (version from <date when="2016-01-06T09:24:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:26" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:27" who="#PythonScript">
+                
+                    Clean tags: Page 2488 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:27" who="#PythonScript">
+                
+                    Clean tags: Page 2447 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:27" who="#PythonScript">
+                
+                    Clean tags: Page 2446 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:27" who="#PythonScript">
+                
+                    Clean tags: Page 2487 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:31" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_961_img_2446" url="fb366f19cbcc62e0fd388b1b95223f61.jpg"/> 
+    
+    <graphic xml:id="L1916_961_img_2447" url="fd57667a66eb90b9eccbaf6202f689ba.jpg"/> 
+    
+    <graphic xml:id="L1916_961_img_2487" url="9ca0d2ddca81003daf9f85d744a204b8.jpg"/> 
+    
+    <graphic xml:id="L1916_961_img_2488" url="30b4c259e4e4fba53e414be28ce80467.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+    
+
+    
+         
+        <pb n="2447" facs="#L1916_961_img_2447"/>
+        
+        
+            <text type="letter" decls="#corresp1">
+                <body>
+        
+           
+            <opener><dateline><date>16th June 1916</date></dateline>  <address><addrLine>John Dillon Esq., M.P.</addrLine>
+<addrLine>House of Commons</addrLine>
+<addrLine>London.</addrLine></address>  <salute>Dear Sir,</salute></opener> <p>I enclose for your information some prints of a letter  <lb/>which I have addressed to the Prime Minister on the on the subject of <lb/> the murder of Mr Sheehy Skeffington. I may mention that this <lb/>letter was drafted by Mr Healy. I forwarded copies to several <lb/> newspapers, none of whom have published same so far as I am aware. <lb/> The Independent wrote me that they had submitted it to the Military <lb/> Press Censor in Dublin and that he had prohibited its publication <lb/> till sanctioned by the Prime Minister. I presume this means that  <lb/>the letter will not be published at all.</p> <p> On the instructions of Mrs Skeffington I retained Mr Healy <lb/> and Mr Philip White as Counsel for her on the forthcoming Inquiry. <lb/> I approached Mr Powell K.C. but he could not see his way to accept  <lb/>a Brief in this case. Mrs Skeffington is anxious that Mr Healy  <lb/>should lead for her and for this reason I did not approach Mr.  <lb/>Denis Henry K.C. who was called to the Inner Bar some years <lb/> earlier than Mr. Healy. Mr Richard Sheehy and Mr White think that
+        
+    
+         
+        <pb n="2487" facs="#L1916_961_img_2487"/>
+        
+        
+            <text type="letter" decls="#corresp1">
+                <body>
+        
+           
+            <lb/>if another Counsel is to be brought in Mr D. M. Wilson K. C. would <lb/>probably prove of the greatest assistance. Mrs Skeffington is <lb/>however reluctant to retain any other counsel at present as of  <lb/>course the question of expense is a serious matter for her and we <lb/>do not know yet whether the Government will be willing to pay her <lb/>costs in connection with the Inquiry. I have suggested to Mr <lb/>Healy that he ought <del>condemn</del> <add>endeavour</add> to ascertain the views of the Government <lb/>on this aspect of the matter.   <closer><salute>Yours faithfully,</salute>  <signed> <hi rend="underline">Henry Lemass</hi> </signed></closer>
+        
+    
+         
+        <pb n="2488" facs="#L1916_961_img_2488"/>
+        
+        
+            <text type="letter" decls="#corresp1">
+                <body>
+        
+           
+            <lb/>if another Counsel is to be brought in Mr D. M. Wilson K. C. would <lb/>probably prove of the greatest assistance. Mrs Skeffington is <lb/>however reluctant to retain any other counsel at present as of  <lb/>course the question of expense is a serious matter for her and we <lb/>do not know yet whether the Government will be willing to pay her <lb/>costs in connection with the Inquiry. I have suggested to Mr <lb/>Healy that he ought <del>condemn</del> <add>endeavour</add> to ascertain the views of the Government <lb/>on this aspect of the matter.   <salute>Yours faithfully,</salute>  <signed> <hi rend="underline">Henry Lemass</hi> </signed>
+        
+    
+                </body>
+            </text>
+
+        
+            
+            <pb n="2446" facs="#L1916_961_img_2446"/>
+            <text type="envelope" decls="#corresp1">
+                <body> 
+                    <ab>
+                        
+
+<!-- back of envelope - no text -->
+                    </ab>
+                </body>
+            </text>
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1470">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Michael Citroen to Herbert Samuel, 12 May 1916.</title>
+                
+                <author>Michael Citroen</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="AaronHoey">AaronHoey</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1470</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is a letter from Michael Citroen (b.1892), a British seed and plant merchant, to Herbert Samuel (1870-1963), the Home Secretary for England. The letter is an application for compensation by Michael Citroen. In the letter he states that he went to Dublin to attend the Spring Show, sending his last £50 to get there in hope of receiving a profit, however due to the Easter Rising he could not attend and lost his money. He goes on to state that this has effectively ruined him. Citroen goes on to ask for a government position if he cannot be compensated. </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#National Archives of Ireland">National Archives of Ireland</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Herbert_Samuel_">Herbert Samuel </persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Michael_Citroen">Michael Citroen</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-11-03T12:58:31" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-03T12:58:31" who="#Philcostel">
+                
+                    Page 3800 modified:
+                    <!-- 
+Phone 1613 Chiswick MICHAEL RAINS, Ltd., (Patronised by Royalty,) BULB GROWERS, Seed and Plant Merchants, Horticultural Sundriesmen. _____________________ Established 1856. _____________________ Telegraphic Address - <del>deleted text</del> 54 Chiswick Lane, London, W. May 12th 1916. The Home Secretary Whitehall, S.W. Dear Sir, I am given to understand that some compensation will be given to sufferers of the Irish rebellion. I beg to inform you that I went to the Dublin Spring Show with three assistants, but on account of the unfortunate circumstances, we could not reach the Show. This affair cost me nearly £50. I would not mind this loss so much, but that it was the last few pounds I had in the world. I have been attending this show for some years & always made a considerable profit. I might mention that through prevailing circumstances my business as above has been practically ruined, I suffered considerable loss the first & second year, & now I am left with nothing. If nothing can be done for me in this matter, may I ask you, if something could be found for me in some Government office. I am above the Military age, & have had considerable experience. Trusting to receive an early & favourable reply. I am, Your obedient Servant Michael Citroen <note>Ackn.<gap/>& say that no measures are in contemplatio wh. wd. meet the case he adduces RC 16/5/16</note> <note>done SP 17/5</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-03T13:00:21" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-03T13:03:26" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-11-26T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-27T14:57:20" who="#NR">
+                
+                    Page 3800 modified:
+                    <!-- 
+<!~~ Phone 1613 Chiswick MICHAEL RAINS, Ltd., (Patronised by Royalty,) BULB GROWERS, Seed and Plant Merchants, Horticultural Sundriesmen. _____________________ Established 1856. _____________________ Telegraphic Address - <del>deleted text</del> ~~> <address>54 Chiswick Lane,<lb/> London, W.</address> <date>May 12th 1916.</date> <address>The Home Secretary<lb/> Whitehall, S.W.</address> <salute>Dear Sir,</salute> <p>I am given to understand that some<lb/>  compensation will be given to sufferers of the Irish<lb/>  rebellion. I beg to inform you that I went to the Dublin<lb/>  Spring Show with three assistants, but on account of the<lb/>  unfortunate circumstances, we could not reach the Show.<lb/>  This affair cost me nearly £50. I would not mind this<lb/>  loss so much, but that it was the last few pounds<lb/>  I had in the world. I have been attending this show<lb/>  for some years &amp; always made a considerable profit.<lb/> I might mention that through prevailing circumstances<lb/>  my business as above has been practically ruined, I suffered<lb/>  considerable loss the first & second year, &amp; now I am left with<lb/>  nothing.</p> <p>If nothing can be done for me in this matter, <lb/> may I ask you, if something could be found for me<lb/>  in some Government office. I am above the Military<lb/>  age, &amp; have had considerable experience.<lb/> Trusting to receive an early &amp; favourable reply.</p> <salute>I am,<lb/> Your obedient Servant</salute> Michael Citroen<lb/> <note>Ackn.2 &amp; say<lb/>  that no measures are in<lb/>  contemplation wh. wd. meet the<lb/>  case he adduces RC 16/5/16</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3800 created using version from <date when="2014-11-03T12:58:31"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3800 removed (version from <date when="2014-11-03T12:58:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3800 removed (version from <date when="2015-11-27T14:57:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3801 created using version from <date when="2014-11-03T13:00:21"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3802 created using version from <date when="2014-11-03T13:03:26"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3800 (version from <date when="2015-11-27T14:57:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3801 added to letter (version from <date when="2014-11-03T13:00:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3802 added to letter (version from <date when="2014-11-03T13:03:26"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 3800 cleaned of 6 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 3801 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 3802 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:43" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1470_img_3800" url="c425b2becec0bc81ddfafa45c78cc6e6.jpg"/> 
+    
+    <graphic xml:id="L1916_1470_img_3801" url="ed57810692fb6a30e0614e1bda5ada97.jpg"/> 
+    
+    <graphic xml:id="L1916_1470_img_3802" url="b3f9a663d9ee0d99d1ea0397ee6944d9.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3800" facs="#L1916_1470_img_3800"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<!-- Phone 1613 Chiswick MICHAEL RAINS, Ltd., (Patronised by Royalty,) BULB GROWERS, Seed and Plant Merchants, Horticultural Sundriesmen. _____________________ Established 1856. _____________________ Telegraphic Address - <del>deleted text</del> --> <opener><address><addrLine>54 Chiswick Lane,</addrLine>
+<addrLine>London, W.</address> <dateline><date>May 12th 1916.</date></dateline> <address>The Home Secretary</addrLine>
+<addrLine>Whitehall, S.W.</addrLine></address> <salute>Dear Sir,</salute></opener> <p>I am given to understand that some<lb/>  compensation will be given to sufferers of the Irish<lb/>  rebellion. I beg to inform you that I went to the Dublin<lb/>  Spring Show with three assistants, but on account of the<lb/>  unfortunate circumstances, we could not reach the Show.<lb/>  This affair cost me nearly £50. I would not mind this<lb/>  loss so much, but that it was the last few pounds<lb/>  I had in the world. I have been attending this show<lb/>  for some years &amp; always made a considerable profit.<lb/> I might mention that through prevailing circumstances<lb/>  my business as above has been practically ruined, I suffered<lb/>  considerable loss the first &amp; second year, &amp; now I am left with<lb/>  nothing.</p> <p>If nothing can be done for me in this matter, <lb/> may I ask you, if something could be found for me<lb/>  in some Government office. I am above the Military<lb/>  age, &amp; have had considerable experience.<lb/> Trusting to receive an early &amp; favourable reply.</p> <closer><salute>I am,<lb/> Your obedient Servant</salute></closer> Michael Citroen<lb/> <note>Ackn.2 &amp; say<lb/>  that no measures are in<lb/>  contemplation wh. wd. meet the<lb/>  case he adduces RC 16/5/16</note>
+        
+    
+
+    
+         
+        <pb n="3801" facs="#L1916_1470_img_3801"/>
+        
+        
+           
+            <!-- The Home Secretary's Compliment Slip --> With The Private Secretary's compliments
+        
+    
+         
+        <pb n="3802" facs="#L1916_1470_img_3802"/>
+        
+        
+           
+            <!-- Envelope Postmarked CHISWICK W 3 PM 12 MAY 16 --> Private &amp; Personal  The Home Secretary Whitehall S.W. <note>Irish Office</note>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

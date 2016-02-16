@@ -37,11 +37,15 @@ class ListFromDirectory(FilterList):
 
 
 class ListFromExcel(FilterList):
-	def __init__(self,filePath,column, date=None):
+	def __init__(self,filePath, column, date=None):
 		if os.path.isfile(filePath) and filePath.endswith('xlsx'):
 			self.filePath = filePath
 			self.column = column
-			self.date = dateparser.parse(date) or datetime.datetime.now()
+			try:
+				self.date = dateparser.parse(date) 
+			except AttributeError:
+				#print('attrerror')
+				self.date = datetime.datetime.now()
 			self.values = list(self.getValuesFromFile())
 			super().__init__()
 		else:
@@ -57,6 +61,28 @@ class ListFromExcel(FilterList):
  			if k != 'None' and v["DATE"] < self.date:
 	 			yield str(k) + '.0'
 
+
+class ListFromURL(FilterList):
+	def __init__(self, url):
+		self.url = url
+		self.values = self.getValuesFromURL()
+		super().__init__()
+
+	def getValuesFromURL(self):
+		import re
+		import urllib.request
+		import json
+
+
+		#########GOT TO FIX THIS!!!
+		r = urllib.request.urlopen(self.url)
+		leted = json.loads(r.read().decode(r.info().get_param('charset') or 'utf-8'))
+		urlList = [f.strip('href="').strip('.xml"')+'.0' for f in leted]
+		#print(urlList)
+		if len(urlList) != 0:
+			return urlList
+		else:
+			pass
 
 
 if __name__ == "__main__":

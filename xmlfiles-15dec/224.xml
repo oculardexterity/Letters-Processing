@@ -1,0 +1,1112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_224">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Maudie Davin to James Ryan, 6 July 1916</title>
+                
+                <author>Maudie Davin</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="HH">Hannah Healy</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id=""></name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="SBoardman">SBoardman</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Johnchambers81">Johnchambers81</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Leemce1">Leemce1</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_224</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>Letter from Maudie Davin to James Ryan (1891-1970). She apologises for not having written sooner. She tells him about her new house, the efforts to raise money for the National Aid and a new dress she got for one of the National Aid picnics. She warns him jokingly not to be writing affectionate letters to women other than Maureen (Máirín Cregan).     James Ryan was a government minister, doctor, and businessman born in Wexford. In 1911, James studied medicine at UCD and joined the college Sinn Féin club. He attended meetings addressed James Connolly and also made the acquaintance of Seán Mac Diarmada, who swore him into the IRB in November 1914. Ryan joined the Irish Volunteers at their first public meeting in November 1913.    On the Easter weekend of 1916 Ryan delivered the countermanding order to the Cork Volunteer leadership. He then made his way to the GPO early on Easter Tuesday and was appointed chief medical officer to the garrison. He recalled coming under fire during the evacuation of the GPO, w</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#James_Ryan">James Ryan</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Maudie_Davin">Maudie Davin</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2013-09-25T12:02:01" who="#">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-09-25T12:02:01" who="#Leemce1">
+                
+                    Page 558 modified:
+                    <!-- 
+My Dear Jim, What you must think of me is beyond my imagination, never having written a line yet, well anyway the old saying holds good in this case "Better late than never", I hope you don't collapse with joy (!!!!!!!) when this reaches you, if you think it might be too much for you I would advise you to only read about one paragraph a day !!! As you see by the address we are living in Kevin (Castle!!! as I call it ) St. You remember that charming spot we brought you down to one Saturday we caught you giving the 'Evil Eye" to all the "vice thugs" in Grafton St !!! Of course we only let you look at the outside, for fear if you came inside you might get dazzled with the splendour  and luxury (J.O.J). or, more likely, get lost particularly as Maureen was there!! now, now Jim, I didn't say it might be an echo of "Harrington College Dance", it was a wonder you didn't get a bill from the owners for a view step on the stairs!!! or for that matter a whole flight!!!!!! of course that was last year, this year I suppose you would. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-09-25T12:21:16" who="#">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-09-25T12:21:16" who="#Leemce1">
+                
+                    Page 559 modified:
+                    <!-- 
+like a little change!! I believe Maureen's "nose is out of joint" you're awfully fickle, some priest came into your sister a few days ago and told her about some girl who "had a few very affectionate letters from Jim". A certain friend told me she felt horribly "taken in" !!!! now take a little advice from an "auld pal" and don't be breaking hearts!! but excuse me, a new idea has just crossed my mind, perhaps you are just practising as I daresay when you come home you will be writing these "billet doux" to the wardresses!! Now to change the subject, we had a couple of great picnics for the National Aid "any amount of doing" !!! and the cream of the joke was that I got a new dress, the secret of it was that I was in great humour and wanted to 'knock down something good', but it was white voile (you that sort of soft stuff!) with enormous big dark blue dots on it, you could positively hear me coming in it, but all the fellows called me "pierrot" and wanted to know where was my cap, weren't they real cheeky!!! I felt horribly put out (I don't think). Godfrey (I'm sure the spelling is wrong but never mind!) O'Donnell was there and he's the best gas out, I enjoyed him immensely, I remember one 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-09-25T12:39:05" who="#">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-09-25T12:39:05" who="#Leemce1">
+                
+                    Page 560 modified:
+                    <!-- 
+time I was up in the digs with Maureen, the time she was on the Leinster Road (certainly you remember all the things connected with that) and she showed me the University College book, and there was a programme of a concert and in it and our friend G. O'Donnell was down for a song "I am a little Catholic" the underlined word written in italics. I absolutely howled when I saw it, knowing the little Catholic. Of course all this must be fearfully dry for the censor, what a pity I haven't time to make a sketch of G. O'D so that he might join in the joke. Don't forget to give my love to anyone in the camp that you think I might know or who might know me, especially S Peeson, D McCullogh, Jack Gogan ( I know him since I was a kid!!). I will be writing to them very soon. Maureen will be in this evening, that is provided she doesn't go teaing with a certain architect, Mums the word now Jim, just a few little words dropped and I added up one and one and made two, I may after a while add two and two and possibly make four, so I would advise you not to loose any time coming home or the bird might have flown, and I guess you wouldn't like your little heart to be broken!!! would you????!!! I will be doing the Feil Ceoil on the 17th to 22nd or so of this month, so if you would say 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-09-25T12:43:56" who="#">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-09-25T12:43:56" who="#Leemce1">
+                
+                    Page 561 modified:
+                    <!-- 
+a weenie, weenie prayer for me I am sure I will do better than I would if you didn't say it. I must now ring off, I am sure you are bored stiff by this, my love to those I told you (provided they accept it!! if not you can keep it all, along with your own share, for yourself, what joy for you!!!!!!!).  From Yours Sincerely. Maudie Davin  P.S. Please excuse my bad writing and mistakes but as usual I am in a hurry.  MD  Mrs Frank Aiken 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-09-26T08:25:53" who="#Leemce1">
+                
+                    Page 558 modified:
+                    <!-- 
+My Dear Jim, What you must think of me is beyond my imagination, never having written a line yet, well anyway the old saying holds good in this case "Better late than never", I hope you don't collapse with joy (!!!!!!!) when this reaches you, if you think it might be too much for you I would advise you to only read about one paragraph a day !!! As you see by the address we are living in Kevin (Castle!!! as I call it ) St. You remember that charming<hi rend="underline">underlined text</hi> spot we brought you down to one Saturday we caught you giving the 'Evil Eye" to all the "nice things" in Grafton St !!! Of course we only let you look at the outside, for fear if you came inside you might get dazzled with the splendour  and luxury (J.O.J). or, more likely, get lost particularly as Maureen was there!! now, now Jim, I didn't say it might be an echo of <hi rend="underline">"Harrington College Dance",</hi> it was a wonder you didn't get a bill from the owners for a view step on the stairs!!! or for that matter a whole flight!!!!!! of course that was last year, this year I suppose you would. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-09-26T08:27:03" who="#Leemce1">
+                
+                    Page 559 modified:
+                    <!-- 
+like a little change!! I believe Maureen's "nose is out of joint" you're awfully fickle, some priest came into your sister a few days ago and told her about some girl who "had a few <hi rend="underline">very affectionate</hi> letters from Jim". A certain friend told me she felt horribly "taken in" !!!! now take a little advice from an "auld pal" and don't be breaking hearts!! but excuse me, a new idea has just crossed my mind, perhaps you are just practising as I daresay when you come home you will be writing these "billet doux" to the wardresses!! Now to change the subject, we had a couple of great picnics for the National Aid "any amount of doing" !!! and the cream of the joke was that I got a new dress, the secret of it was that I was in great humour and wanted to 'knock down something good', but it was white voile (you that sort of soft stuff!) with enormous big dark blue dots on it, you could positively hear me coming in it, but all the fellows called me "pierrot" and wanted to know where was my cap, weren't they real cheeky!!! I felt horribly put out (I don't think). Godfrey (I'm sure the spelling is wrong but never mind!) O'Donnell was there and he's the best gas out, I enjoyed him immensely, I remember one 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-09-26T08:28:14" who="#Leemce1">
+                
+                    Page 560 modified:
+                    <!-- 
+time I was up in the digs with Maureen, the time she was on the Leinster Road (certainly you remember all the things connected with that) and she showed me the University College book, and there was a programme of a concert and in it and our friend G. O'Donnell was down for a song "I am a <hi rend="underline">little</hi> Catholic" the underlined word written in italics. I absolutely howled when I saw it, knowing the little Catholic. Of course all this must be fearfully dry for the censor, what a pity I haven't time to make a sketch of G. O'D so that he might join in the joke. Don't forget to give my love to anyone in the camp that you think I might know or who might know me, especially S Peeson, D McCullogh, Jack Gogan ( I know him since I was a kid!!). I will be writing to them very soon. Maureen will be in this evening, that is provided she doesn't go <hi rend="underline">teaing</hi> with a certain architect, Mums the word now Jim, just a few little words dropped and I added up one and one and made two, I may after a while add two and two and possibly make four, so I would advise you not to loose any time coming home or the bird might have flown, and I guess you wouldn't like your little heart to be broken!!! would you????!!! I will be doing the Feil Ceoil on the 17th to 22nd or so of this month, so if you would say 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-09-26T08:29:05" who="#Leemce1">
+                
+                    Page 561 modified:
+                    <!-- 
+a weenie, weenie prayer for me I am sure I will do better than I would if you didn't say it. I must now ring off, I am sure you are bored stiff by this, my <hi rend="underline">love</hi> to those I told you (provided they accept it!! if not you can keep it all, along with your own share, for yourself, what joy for you!!!!!!!).  From Yours Sincerely. Maudie Davin  P.S. Please excuse my bad writing and mistakes but as usual I am in a hurry.  MD  Mrs Frank Aiken 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-13T13:59:42" who="#Comber">
+                
+                    Page 558 modified:
+                    <!-- 
+<address><unclear>3 Cross Kevin St.</unclear><lb/> 6 <hi rend="superscript">th</hi> July 1916<lb/></address> <salute>My Dear Jim,<lb/></salute> What you must think of <add>me</add> is beyond my<lb/> imagination, never having written you a line yet, well<lb/> anyway the old saying holds good in this case "Better<lb/> late than never", I hope you don't collapse with<lb/> joy (!!!!!!!) when this reaches you, if you think it might<lb/> be too much for you I would advise you to only<lb/> read about one paragraph a day !!! As you see<lb/> by the address we are living in Kevin (Castle!!! as<lb/> I call it ) St. you remember that <hi rend="underline">charming</hi> spot<lb/> we brought you down to one Saturday we caught<lb/> you giving the 'Evil Eye" to all the "nice things" in<lb/> Grafton St !!! of course we only let you look at the<lb/> outside, for fear if you came inside you might<lb/> get dazzled with the splendour  and luxury (J.O.J)<lb/>. <hi rend="underline">or,</hi> more likely, get <hi rend="underline">lost</hi> particularly as Maureen<lb/> was there!! now, now Jim, I didn't say it might<lb/> be an echo of <hi rend="underline">"Harrington College Dance",</hi> it was a wonder you didn't get a bill from the owners for a view step on the stairs!!! or for that matter a whole flight!!!!!! of course that was last year, this year I suppose you would. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-14T12:43:26" who="#Comber">
+                
+                    Page 558 modified:
+                    <!-- 
+<add>p88/26(1)</add> <address><unclear>3 Cross Kevin St.</unclear><lb/> 6 <hi rend="superscript">th</hi> July 1916<lb/></address> <salute>My Dear Jim,<lb/></salute> What you must think of <add>me</add> is beyond my<lb/> imagination, never having written you a line yet, well<lb/> anyway the old saying holds good in this case "Better<lb/> late than never", I hope you don't collapse with<lb/> joy (!!!!!!!) when this reaches you, if you think it might<lb/> be too much for you I would advise you to only<lb/> read about one paragraph a day !!! As you see<lb/> by the address we are living in Kevin (Castle!!! as<lb/> I call it ) St. you remember that <hi rend="underline">charming</hi> spot<lb/> we brought you down to one Saturday we caught<lb/> you giving the 'Evil Eye" to all the "nice things" in<lb/> Grafton St !!! of course we only let you look at the<lb/> outside, for fear if you came inside you might<lb/> get dazzled with the splendour  and luxury (J.O.J)<lb/>. <hi rend="underline">or,</hi> more likely, get <hi rend="underline">lost</hi> particularly as Maureen<lb/> was there!! now, now Jim, I didn't say it might<lb/> be an echo of <hi rend="underline">"Harrington College,<lb/> Dance",</hi> it was a wonder you didn't get a bill<lb/> from the owners for a new step on the stairs!!!<lb/> or for that matter a whole flight!!!!!! of course that<lb/> was last year, this year I suppose you would<lb/><lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-14T12:54:38" who="#Comber">
+                
+                    Page 559 modified:
+                    <!-- 
+<add>p88/26 (2)</add> <p><pb/>like a little change!! I believe Maureen's "nose<lb/> is out of joint" you're awfully fickle, some<lb/> priest came into your sister a few days ago<lb/> and told her about some girl who "had a<lb/> few <hi rend="underline">very affectionate</hi> letters from Jim". A<lb/> certain friend told me she felt horribly<lb/> "taken in" !!!! now take a little advice from an<lb/> "auld pal" and don't be breaking hearts!! but<lb/> excuse me, a new idea has just crossed my<lb/> mind, perhaps you are just <sic>practicing</sic><lb/> as I daresay when you come home you will<lb/> be writing these "billet doux" to the wardresses!!<lb/></p> Now to change the subject, we had a couple<lb/> of great picnics for the National Aid "any amount<lb/> doing" !!! and the cream of the joke was that I<lb/> got a <hi rend="underline">new dress,</hi> the secret of it was that I was<lb/> in great humour and wanted to 'knock down something<lb/> <hi rend="underline">good',</hi> but it was white voile (you that sort of<lb/> soft stuff!) with enormous big dark blue dots on it,<lb/> you could positively hear me coming in it,<lb/> but all the fellows called me "pierrot" and wanted<lb/> to know where was my cap, weren't they<lb/> real cheeky!!! I felt horribly put out (I don't think).<lb/> Godfrey (I'm sure the spelling is wrong but never<lb/> mind!) O'Donnell was there and he's the best gas<lb/> out, I enjoyed him immensely, I remember one<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-14T13:05:30" who="#Comber">
+                
+                    Page 560 modified:
+                    <!-- 
+time I was up in the <sic>diggs</sic> with Maureen, the<lb/> time she was on the Leinster Road (certainly you<lb/> remember all the things connected with <hi rend="underline">that)</hi> and she<lb/> showed me the University College book, and there<lb/> was a programme of a concert <del>and</del> in it and our<lb/> friend G. O'Donnell was down for a song "I am<lb/> a <hi rend="underline">little</hi> Catholic" the underlined word written in<lb/> Italics. I absolutely howled when I saw it, knowing<lb/> the <hi rend="underline">little</hi> Catholic. Of course all this must <add>be</add> fearfully<lb/> dry for the censor, what a pity I haven't time to<lb/> make a sketch of G. O'D so that he might join in<lb/> the joke. Don't forget to give my <hi rend="underline">love</hi> to anyone in<lb/> the camp that you think I might know or who<lb/> might know me, especially S. Peeson, D McCullogh,<lb/> Jack Gogan ( I know him since I was a kid!!). I<lb/> will be writing to them very soon. Maureen will be in<lb/> this evening, that is provided she <sic>dosent</sic> go <hi rend="underline">teaing</hi><lb/> with a certain <hi rend="underline">architect,</hi> Mums the word now Jim,<lb/> just a few little words dropped and I added up<lb/> one and one and made two, I may after a while add<lb/> two and two and possibly make four, so I would<lb/> advise you not to <sic>loose</sic> any time coming home or<lb/> the bird might have flown, and I guess you<lb/> wouldn't like your little heart to be broken!!!<lb/> would you????!!! I will be doing the Feil Ceoil on the<lb/> 17<hi rend="superscript">th</hi> to 22<hi rend="superscript">nd</hi> or so of this <del>week</del>, <add>month</add> so if you would say<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-14T13:09:58" who="#Comber">
+                
+                    Page 561 modified:
+                    <!-- 
+<p>a weenie, weenie prayer for me I am sure I<lb/> will do better than I would if you didn't say it.<lb/></p> <p>I must now ring off, I am sure you<lb/> are bored stiff by this, my <hi rend="underline">love</hi> to those I told<lb/> you (provided they accept it!! if not you can keep it<lb/> <hi rend="underline">all,</hi> along with your own share, for yourself, what<lb/> joy for you!!!!!!!).</p>  <salute>From<lb/> Yours Sincerely.<lb/> Maudie Davin<lb/></salute>  P.S. Please excuse my bad writing and mistakes<lb/> but as usual I am in a hurry.<lb/>  MD  Mrs Frank Aiken 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-14T13:11:44" who="#Comber">
+                
+                    Page 561 modified:
+                    <!-- 
+<p>a weenie, weenie prayer for me I am sure I<lb/> will do better than I would if you didn't say it.<lb/></p> <p>I must now ring off, I am sure you<lb/> are bored stiff by this, my <hi rend="underline">love</hi> to those I told<lb/> you (provided they accept it!! if not you can keep it<lb/> <hi rend="underline">all,</hi> along with your own share, for yourself, what<lb/> joy for you!!!!!!!).</p>  <salute>From<lb/> Yours Sincerely.<lb/> Maudie Davin<lb/></salute>  P.S. Please excuse my bad writing and mistakes<lb/> but as usual I am in a hurry.<lb/> M. D.<lb/> <add>Mrs. Frank Oulsen</add>  MD  Mrs Frank Aiken 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-15T14:11:19" who="#Comber">
+                
+                    Page 558 modified:
+                    <!-- 
+<note>p88/26(1)</note> <address><unclear>3 Cross Kevin St.</unclear><lb/> 6 <hi rend="superscript">th</hi> July 1916<lb/></address> <salute>My Dear Jim,<lb/></salute> What you must think of <add>me</add> is beyond my<lb/> imagination, never having written you a line yet, well<lb/> anyway the old saying holds good in this case "Better<lb/> late than never", I hope you don't collapse with<lb/> joy (!!!!!!!) when this reaches you, if you think it might<lb/> be too much for you I would advise you to only<lb/> read about one paragraph a day !!! As you see<lb/> by the address we are living in Kevin (Castle!!! as<lb/> I call it ) St. you remember that <hi rend="underline">charming</hi> spot<lb/> we brought you down to one Saturday we caught<lb/> you giving the 'Evil Eye" to all the "nice things" in<lb/> Grafton St !!! of course we only let you look at the<lb/> outside, for fear if you came inside you might<lb/> get dazzled with the splendour  and luxury (J.O.J)<lb/>. <hi rend="underline">or,</hi> more likely, get <hi rend="underline">lost</hi> particularly as Maureen<lb/> was there!! now, now Jim, I didn't say it might<lb/> be an echo of <hi rend="underline">"Harrington College,<lb/> Dance",</hi> it was a wonder you didn't get a bill<lb/> from the owners for a new step on the stairs!!!<lb/> or for that matter a whole flight!!!!!! of course that<lb/> was last year, this year I suppose you would<lb/><lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-15T14:11:44" who="#Comber">
+                
+                    Page 559 modified:
+                    <!-- 
+<note>p88/26 (2)</note> <p><pb/>like a little change!! I believe Maureen's "nose<lb/> is out of joint" you're awfully fickle, some<lb/> priest came into your sister a few days ago<lb/> and told her about some girl who "had a<lb/> few <hi rend="underline">very affectionate</hi> letters from Jim". A<lb/> certain friend told me she felt horribly<lb/> "taken in" !!!! now take a little advice from an<lb/> "auld pal" and don't be breaking hearts!! but<lb/> excuse me, a new idea has just crossed my<lb/> mind, perhaps you are just <sic>practicing</sic><lb/> as I daresay when you come home you will<lb/> be writing these "billet doux" to the wardresses!!<lb/></p> Now to change the subject, we had a couple<lb/> of great picnics for the National Aid "any amount<lb/> doing" !!! and the cream of the joke was that I<lb/> got a <hi rend="underline">new dress,</hi> the secret of it was that I was<lb/> in great humour and wanted to 'knock down something<lb/> <hi rend="underline">good',</hi> but it was white voile (you that sort of<lb/> soft stuff!) with enormous big dark blue dots on it,<lb/> you could positively hear me coming in it,<lb/> but all the fellows called me "pierrot" and wanted<lb/> to know where was my cap, weren't they<lb/> real cheeky!!! I felt horribly put out (I don't think).<lb/> Godfrey (I'm sure the spelling is wrong but never<lb/> mind!) O'Donnell was there and he's the best gas<lb/> out, I enjoyed him immensely, I remember one<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-15T14:12:58" who="#Comber">
+                
+                    Page 561 modified:
+                    <!-- 
+<note>p88/26 (4)</note> <p>a weenie, weenie prayer for me I am sure I<lb/> will do better than I would if you didn't say it.<lb/></p> <p>I must now ring off, I am sure you<lb/> are bored stiff by this, my <hi rend="underline">love</hi> to those I told<lb/> you (provided they accept it!! if not you can keep it<lb/> <hi rend="underline">all,</hi> along with your own share, for yourself, what<lb/> joy for you!!!!!!!).</p>  <salute>From<lb/> Yours Sincerely.<lb/> Maudie Davin<lb/></salute>  P.S. Please excuse my bad writing and mistakes<lb/> but as usual I am in a hurry.<lb/> M. D.<lb/> <add>Mrs. Frank Oulsen</add>  MD  Mrs Frank Aiken 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-17T22:03:50" who="#SBoardman">
+                
+                    Page 558 modified:
+                    <!-- 
+p88/26(1) 3 Cross Kevin St. 6th July 1916 My Dear Jim, What you must think of me is beyond my imagination, never having written you a line yet, well anyway the old saying holds good in this case "Better late than never", I hope you don't collapse with joy (!!!!!!!) when this reaches you, if you think it might be too much for you I would advise you to only read about one paragraph a day !!! As you see by the address we are living in Kevin (Castle!!! as I call it ) St. you remember that charming spot we brought you down to one Saturday we caught you giving the 'Evil Eye" to all the "nice things" in Grafton St !!! of course we only let you look at the outside, for fear if you came inside you might get dazzled with the splendour and luxury (J.O.J) or, more likely, get lost particularly as Maureen was there!! now, now Jim, I didn't say it might be an echo of "Harrington College Dance", it was a wonder you didn't get a bill from the owners for a new step on the stairs!!! or for that matter a whole flight!!!!!! of course that was last year, this year I suppose you would 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-17T22:11:05" who="#SBoardman">
+                
+                    Page 559 modified:
+                    <!-- 
+p88/26 (2) like a little change!! I believe Maureen's "nose is out of joint" you're awfully fickle, some priest came into your sister a few days ago and told her about some girl who "had a few very affectionate letters from Jim". A certain friend told me she felt horribly "taken in" !!!! now take a little advice from an "auld pal" and don't be breaking hearts!! but excuse me, a new idea has just crossed my mind, perhaps you are only just practicing as I daresay when you come home you will be writing these "billet doux" to the wardresses!! Now to change the subject, we had a couple of great picnics for the National Aid "any amount doing" !!! and the cream of the joke was that I got a new dress, the secret of it was that I was in great humour and wanted to 'knock down something good', but it was white voile (you that sort of soft stuff!) with enormous big dark blue dots on it, you could positively hear me coming in it, but all the fellows called me "pierrot" and wanted to know where was my cap, weren't they real cheeky!!! I felt horribly put out (I don't think). Godfrey (I'm sure the spelling is wrong but never mind!) O'Donnell was there and he's the best gas out, I enjoyed him immensely, I remember one 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-17T22:26:06" who="#SBoardman">
+                
+                    Page 560 modified:
+                    <!-- 
+time I was up in the <sic>diggs</sic> with Maureen, the<lb/> time she was on the Leinster Road (certainly you<lb/> remember all things connected with <hi rend="underline">that</hi>) and she showed me the University College book, and there<lb/> was a programme of a concert <del>and</del> in it and our<lb/> friend G. O'Donnell was down for a song "I am<lb/> a <hi rend="underline">little</hi> Catholic" the underlined word written in<lb/> Italics. I absolutely howled when I saw it, knowing<lb/> the <hi rend="underline">little</hi> Catholic. Of course all this must be fearfully<lb/> dry for the censor, what a pity I haven't time to<lb/> make a sketch of G. O'D so that he might join in<lb/> the joke. Don't forget to give my <hi rend="underline">love</hi> to anyone in<lb/> the camp that you think I might know or who<lb/> might know me, especially S. Peeson, D McCullogh,<lb/> Jack Gogan ( I know him since he was a kid!!). I<lb/> will be writing to them very soon. Maureen will be in<lb/> this evening, that is provided she <sic>dosent</sic> go <hi rend="underline">teaing</hi><lb/> with a certain <hi rend="underline">architect, Mums the word now Jim,<lb/> just a few little words dropped and I added up<lb/> one and one and made two, I may after a while add<lb/> two and two and possibly make four, so I would<lb/> advise you not to <sic>loose</sic> any time coming home or<lb/> the bird might have flown, and I guess you<lb/> wouldn't like your little heart to be broken!!!<lb/> would you????!!! I will be doing the Feil Ceoil on the<lb/> 17<hi rend="superscript">th</hi> to 22<hi rend="superscript">nd</hi> or so of this <del>week</del>, <add>month</add> so if you would say<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-17T22:32:52" who="#SBoardman">
+                
+                    Page 559 modified:
+                    <!-- 
+<note>p88/26 (2)</note> like a little change!! I believe Maureen's "nose<lb/> is out of joint" you're awfully fickle, some<lb/> priest came into your sister a few days ago<lb/> and told her about some girl who "had a<lb/> few <hi rend="underline">very affectionate</hi> letters from Jim". A<lb/> certain friend told me she felt horribly<lb/> "taken in" !!!! now take a little advice from an<lb/> "auld pal" and don't be breaking hearts!! but<lb/> excuse me, a new idea has just crossed my<lb/> mind, perhaps you are only just practicing,<lb/> as I daresay when you come home you will<lb/> be writing these "billet doux" to the wardresses!! <p>paragraph</p>Now to change the subject, we had a couple<lb/> of <hi rend="underline">great</hi> <sic>picnic's</sic> for the National Aid "any amount<lb/> doing" !!! and the cream of the joke was that I<lb/> got a <hi rend="underline">new dress</hi>, the secret of it was that I was<lb/> in great humour and wanted to 'knock down some-<lb/>thing good', but it was white voile (you that sort of<lb/> soft stuff!) with enormous big dark blue dots on it,<lb/> you could positively hear me coming in it,<lb/> but all the fellows called me "pierrot" and wanted<lb/> to know where was my cap, weren't they<lb/> real cheeky!!! I felt horribly put out (I don't think).<lb/> Godfrey (I'm sure the spelling is wrong but never<lb/> mind!) O'Donnell was there and he's the best gas<lb/> out, I enjoyed him immensely, I remember one 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-17T22:40:42" who="#SBoardman">
+                
+                    Page 558 modified:
+                    <!-- 
+<note>p88/26(1)</note> <address>3 Cross Kevin St.</address> <date>6th July 1916</date> <salute>My Dear Jim,</salute> <p>paragraph</p>What you must think of me is beyond my<lb/> imagination, never having written you a line yet, well<lb/> anyway the old saying holds good in this case "Better<lb/> late than never", I hope you don't collapse with<lb/> joy (!!!!!!!) when this reaches you, if you think it might<lb/> be too much for you I would advise you to only<lb/> read about one paragraph a day !!! As you see<lb/> by the address we are living in Kevin (Castle!!! as<lb/> I call it ) St. you remember that <hi rend="underline">charming</hi> spot<lb/> we brought you down to one Saturday we caught<lb/> you giving the 'Evil Eye" to all the "nice things" in<lb/> Grafton St !!! of course we only let you look at the<lb/> outside, for fear if you came inside you might<lb/> get dazzled with the splendour and luxury (<unclear>I</unclear>.O.J)<lb/> <hi rend="underline">or</hi>, more likely, get <hi rend="underline">lost</hi> particularly as Maureen<lb/> was there!! now, now Jim, I didn't say it might<lb/> be an echo of "<hi rend="underline">Harrington</hi> <hi rend="underline">College</hi><lb/> <hi rend="underline">Dance</hi>", it was a wonder you didn't get a bill<lb/> from the owners for a new step on the stairs!!!<lb/> or for that matter a whole flight!!!!!! of course that<lb/> was <hi rend="underline">last</hi> year, this year I suppose you would 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-17T22:46:38" who="#SBoardman">
+                
+                    Page 561 modified:
+                    <!-- 
+<note>p88/26 (4)</note> <p>a weenie, weenie prayer for me I am sure I<lb/> will do better than I would if you didn't say it.<lb/> <p>I must now ring off, I am sure you<lb/> are bored stiff by this, my <hi rend="underline">love</hi> to those I told<lb/> you (provided they accept it!! if not you can keep it<lb/> <hi rend="underline">all,</hi> along with your own share, for yourself, what<lb/> joy for you!!!!!!!) <p>paragraph</p>From <p>paragraph</p>Yours sincerely. <p>paragraph</p>Maudie Davin.  P.S. Please excuse my bad writing and mistakes<lb/> but as usual I am in a hurry. <p>paragraph</p>M. D.  <add>Mrs. Frank <unclear>Oulsen</unclear></add>  Mrs Frank <unclear>Aiken</unclear> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-01T15:37:27" who="#HH">
+                
+                    Page 558 modified:
+                    <!-- 
+<address>3 Cross Kevin St.</address> <date>6<hi rend="superscript"><hi rend="underline">th</hi></hi> July 1916</date>  <salute>My Dear Jim,</salute> <p>What you must think of <add>me</add> is beyond my<lb/>  imagination, never having written you a line yet, well<lb/>  anyway the old saying holds good in this case "Better<lb/>  late than never", I hope you don't collapse with<lb/>  joy (!!!!!!!) when this reaches you, if you think it might<lb/>  be too much for you I would advise you to only<lb/>  read about one paragraph a day !!! As you see<lb/>  by the address we are living in Kevin (Castle!!! as<lb/>  I call it ) St. you remember that <hi rend="underline">charming</hi> spot<lb/>  we brought you down to one Saturday we caught<lb/>  you giving the 'Evil Eye" to all the "nice things" in<lb/>  Grafton St !!! of course we only let you look at the<lb/>  outside, for fear if you came inside you might<lb/>  get dazzled with the splendour and luxury (<unclear>I</unclear>.O.J)<lb/>  <hi rend="underline">or</hi>, more likely, get <hi rend="underline">lost</hi> particularly as Maureen<lb/>  was there!! now, now Jim, I didn't say it might<lb/>  be an echo of "<hi rend="underline">Harrington</hi> <hi rend="underline">College</hi><lb/> <hi rend="underline">Dance</hi>", it was a wonder you didn't get a bill<lb/>  from the owners for a new step on the stairs!!!<lb/>  or for that matter a whole flight!!!!!! of course that<lb/>  was <hi rend="underline">last</hi> year, this year I suppose you would <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-01T15:37:28" who="#HH">
+                
+                    Page 558 modified:
+                    <!-- 
+<address>3 Cross Kevin St.</address> <date>6<hi rend="superscript"><hi rend="underline">th</hi></hi> July 1916</date>  <salute>My Dear Jim,</salute> <p>What you must think of <add>me</add> is beyond my<lb/>  imagination, never having written you a line yet, well<lb/>  anyway the old saying holds good in this case "Better<lb/>  late than never", I hope you don't collapse with<lb/>  joy (!!!!!!!) when this reaches you, if you think it might<lb/>  be too much for you I would advise you to only<lb/>  read about one paragraph a day !!! As you see<lb/>  by the address we are living in Kevin (Castle!!! as<lb/>  I call it ) St. you remember that <hi rend="underline">charming</hi> spot<lb/>  we brought you down to one Saturday we caught<lb/>  you giving the 'Evil Eye" to all the "nice things" in<lb/>  Grafton St !!! of course we only let you look at the<lb/>  outside, for fear if you came inside you might<lb/>  get dazzled with the splendour and luxury (<unclear>I</unclear>.O.J)<lb/>  <hi rend="underline">or</hi>, more likely, get <hi rend="underline">lost</hi> particularly as Maureen<lb/>  was there!! now, now Jim, I didn't say it might<lb/>  be an echo of "<hi rend="underline">Harrington</hi> <hi rend="underline">College</hi><lb/> <hi rend="underline">Dance</hi>", it was a wonder you didn't get a bill<lb/>  from the owners for a new step on the stairs!!!<lb/>  or for that matter a whole flight!!!!!! of course that<lb/>  was <hi rend="underline">last</hi> year, this year I suppose you would <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-01T15:52:21" who="#HH">
+                
+                    Page 559 modified:
+                    <!-- 
+like a little change!! I believe Maureen's "nose<lb/>  is out of joint" you're awfully fickle, some<lb/>  priest came into your sister a few days ago<lb/>  and told her about some girl who "had a<lb/>  few <hi rend="underline">very affectionate</hi> letters from Jim". A<lb/>  certain friend told me she felt horribly<lb/> "taken in" !!!!  now take a little advice from an<lb/> "auld pal" and don't be breaking hearts!! but<lb/>  excuse me, a new idea has just crossed my<lb/>  mind, perhaps you are only just practicing,<lb/>  as I daresay when you come home you will<lb/>  be writing these <foreign>"billet doux"</foreign> to the wardresses!! </p> <p>Now to change the subject, we had a couple<lb/>  of great picnics for the National Aid "any amount<lb/>  doing" !!! and the cream of the joke was that I<lb/>  got a <hi rend="underline">new dress</hi>, the secret of it was that I was<lb/>  in great humour and wanted to 'knock down some<lb/> thing good', but it was white voile (you that sort of<lb/>  soft stuff!) with enormous big dark blue dots on it,<lb/>  you <del>call</del> could positively hear me coming in it,<lb/>  but all the fellows called me "<foreign>pierrot</foreign>" and wanted<lb/>  to know where was my cap, weren't they<lb/>  real cheeky!!! I felt horribly put out (I don't think).<lb/>  Godfrey (I'm sure the spelling is wrong but never<lb/> mind!) O'Donnell was there and he's the best gas<lb/> out, I enjoyed him immensely, I remember one 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T12:48:32" who="#Johnchambers81">
+                
+                    Page 559 modified:
+                    <!-- 
+<lb/> like a little change!! I believe Maureen's "nose <lb/> is out of joint" you're awfully fickle, some <lb/>priest came into your sister a few days ago  <lb/>and told her about some girl who "had a <lb/> few <hi rend="underline">very affectionate</hi> letters from Jim". A  <lb/>certain friend told me she felt horribly  <lb/>"taken in" !!!! now take a little advice from an <lb/>"auld pal" and don't be breaking hearts!! but  <lb/> excuse me, a new idea has just crossed my <lb/> mind, perhaps you are only just practicing, <lb/>as I daresay when you come home you will  <lb/>be writing these <foreign>"billet doux"</foreign> to the wardresses!! </p> <p>Now to change the subject, we had a couple <lb/> of great picnics for the National Aid "any amount <lb/> doing" !!! and the cream of the joke was that I <lb/>got a <hi rend="underline">new dress</hi>, the secret of it was that I was <lb/>in great humour and wanted to 'knock down some <lb/>thing good', but it was white voile (you that sort of <lb/>soft stuff!) with enormous big dark blue dots on it, <lb/>you <del>call</del> could positively hear me coming in it, <lb/>but all the fellows called me "<foreign>pierrot</foreign>" and wanted <lb/> to know where was my cap, weren't they <lb/>real cheeky!!! I felt horribly put out (I don't think). <lb/>Godfrey (I'm sure the spelling is wrong but never <lb/>mind!) O'Donnell was there and he's the best gas <lb/>out, I enjoyed him immensely, I remember one 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T12:56:32" who="#Johnchambers81">
+                
+                    Page 560 modified:
+                    <!-- 
+time I was up in the <sic>diggs</sic> with Maureen, the <lb/> time she was on the Leinster Road (certainly you <lb/> remember all things connected with <hi rend="underline">that</hi>) and she <lb/>showed me the University College book, and there <lb/> was a programme of a concert <del>and</del> in it and our <lb/> friend G. O'Donnell was down for a song "I am <lb/> a <hi rend="underline">little</hi> Catholic" the underlined word written in <lb/> Italics. I absolutely howled when I saw it, knowing <lb/> the <hi rend="underline">little</hi> Catholic. Of course all this must be fearfully <lb/> dry for the censor, what a pity I haven't time to <lb/> make a sketch of G. O'D so that he might join in <lb/> the joke. Don't forget to give my <hi rend="underline">love</hi> to anyone in <lb/> the camp that you think I might know or who <lb/> might know me, especially S. Peeson, D McCullogh, <lb/> Jack Gogan ( I know him since he was a kid!!). I <lb/> will be writing to them very soon. Maureen will be in <lb/> this evening, that is provided she <sic>dosent</sic> go <hi rend="underline">teaing</hi> <lb/> with a certain <hi rend="underline">architect</hi>, Mums the word now Jim, <lb/> just a few little words dropped and I added up <lb/> one and one and made two, I may after a while add <lb/> two and two and possibly make four, so I would <lb/> advise you not to <sic>loose</sic> any time coming home or <lb/> the bird might have flown, and I guess you <lb/> wouldn't like your little heart to be broken!!! <lb/>would you????!!! I will be doing the Feil Ceoil on the <lb/> 17<hi rend="superscript">th</hi> to 22<hi rend="superscript">nd</hi> or so of this <del>week</del>, <add>month</add> so if you would say<lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T13:00:13" who="#Johnchambers81">
+                
+                    Page 561 modified:
+                    <!-- 
+ <p>a weenie, weenie prayer for me I am sure I <lb/> will do better than I would if you didn't say it. <p>I must now ring off, I am sure you <lb/> are bored stiff by this, my <hi rend="underline">love</hi> to those I told <lb/> you (provided they accept it!! if not you can keep it <lb/> <hi rend="underline">all,</hi> along with your own share, for yourself, what <lb/> joy for you!!!!!!!) <salute>From <lb/>Yours sincerely. <lb/>Maudie Davin.</salute>  <lb/>P.S. Please excuse my bad writing and mistakes <lb/> but as usual I am in a hurry. <lb/>M. D.  <add>Mrs. Frank <unclear>Oulsen</unclear></add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T13:00:22" who="#Johnchambers81">
+                
+                    Page 561 modified:
+                    <!-- 
+ <p>a weenie, weenie prayer for me I am sure I <lb/> will do better than I would if you didn't say it. <p>I must now ring off, I am sure you <lb/> are bored stiff by this, my <hi rend="underline">love</hi> to those I told <lb/> you (provided they accept it!! if not you can keep it <lb/> <hi rend="underline">all,</hi> along with your own share, for yourself, what <lb/> joy for you!!!!!!!) <salute>From <lb/>Yours sincerely. <lb/>Maudie Davin.</salute>  <lb/>P.S. Please excuse my bad writing and mistakes <lb/> but as usual I am in a hurry. <lb/>M. D.  <lb/><add>Mrs. Frank <unclear>Oulsen</unclear></add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-05T00:00:00" who="#JC">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#JC" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-07T10:24:44" who="#NR">
+                
+                    Page 558 modified:
+                    <!-- 
+<address>3 Cross Kevin St.</address> <date>6<hi rend="superscript"><hi rend="underline">th</hi></hi> July 1916</date>  <salute>My Dear Jim,</salute> <p>What you must think of <add>me</add> is beyond my<lb/>  imagination, never having written you a line yet, well<lb/>  anyway the old saying holds good in this case "Better<lb/>  late than never", I hope you don't collapse with<lb/>  joy (!!!!!!!) when this reaches you, if you think it might<lb/>  be too much for you I would advise you to only<lb/>  read about one paragraph a day !!! As you see<lb/>  by the address we are living in Kevin (Castle!!! as<lb/>  I call it ) St. you remember that <hi rend="underline">charming</hi> spot<lb/>  we brought you down to one Saturday we caught<lb/>  you giving the 'Evil Eye" to all the "nice things" in<lb/>  Grafton St !!! of course we only let you look at the<lb/>  outside, for fear if you came inside you might<lb/>  get dazzled with the splendour and luxury (<unclear>I</unclear>.O.J)<lb/>  <hi rend="underline">or</hi>, more likely, get <hi rend="underline">lost</hi> particularly as Maureen<lb/>  was there!! now, now Jim, I didn't say it might<lb/>  be an echo of "<hi rend="underline">Harrington</hi> <hi rend="underline">College</hi><lb/> <hi rend="underline">Dance</hi>", it was a wonder you didn't get a bill<lb/>  from the owners for a new step on the stairs!!!<lb/>  or for that matter a whole flight!!!!!! of course that<lb/>  was <hi rend="underline">last</hi> year, this year I suppose you would <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-07T10:27:18" who="#NR">
+                
+                    Page 558 modified:
+                    <!-- 
+<address>3 Cross Kevin St.</address> <date>6<hi rend="superscript"><hi rend="underline">th</hi></hi> July 1916</date>  <salute>My Dear Jim,</salute> <p>What you must think of <add>me</add> is beyond my <lb/> imagination, never having written you a line yet, well <lb/> anyway the old saying holds good in this case "Better <lb/> late than never", I hope you don't collapse with  <lb/> joy (!!!!!!!) when this reaches you, if you think it might <lb/> be too much for you I would advise you to only  <lb/> read about one paragraph a day !!! As you see  <lb/> by the address we are living in Kevin (Castle!!! as  <lb/> I call it ) St. you remember that <hi rend="underline">charming</hi> spot  <lb/> we brought you down to one Saturday we caught <lb/> you giving the 'Evil Eye" to all the "nice things" in <lb/> Grafton St !!! of course we only let you look at the <lb/> outside, for fear if you came inside you might <lb/> get dazzled with the splendour and luxury (<unclear>I</unclear>.O.J) <lb/> <hi rend="underline">or</hi>, more likely, get <hi rend="underline">lost</hi> particularly as Maureen <lb/> was there!! now, now Jim, I didn't say it might <lb/> be an echo of "<hi rend="underline">Harrington</hi> <hi rend="underline">College</hi> <lb/> <hi rend="underline">Dance</hi>", it was a wonder you didn't get a bill <lb/> from the owners for a new step on the stairs!!!  <lb/> or for that matter a whole flight!!!!!! of course that <lb/> was <hi rend="underline">last</hi> year, this year I suppose you would 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-07T10:37:38" who="#NR">
+                
+                    Page 561 modified:
+                    <!-- 
+a weenie, weenie prayer for me I am sure I <lb/> will do better than I would if you didn't say it. <p>I must now ring off, I am sure you <lb/> are bored stiff by this, my <hi rend="underline">love</hi> to those I told <lb/> you (provided they accept it!! if not you can keep it <lb/> <hi rend="underline">all,</hi> along with your own share, for yourself, what <lb/> joy for you!!!!!!!) <salute>From <lb/>Yours sincerely.</salute> <signed>Maudie Davin.</signed>  <lb/>P.S. Please excuse my bad writing and mistakes <lb/> but as usual I am in a hurry. <lb/>M. D.  <lb/><add>Mrs. Frank <unclear>Oulsen</unclear></add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 560 created using version from <date when="2013-09-25T12:39:05"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 560 removed (version from <date when="2013-09-25T12:39:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 560 removed (version from <date when="2013-09-26T08:28:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 560 removed (version from <date when="2015-01-14T13:05:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 560 removed (version from <date when="2015-06-17T22:26:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 560 removed (version from <date when="2015-12-04T12:56:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 558 created using version from <date when="2013-09-25T12:02:01"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 558 removed (version from <date when="2013-09-25T12:02:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 558 removed (version from <date when="2013-09-26T08:25:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 558 removed (version from <date when="2015-01-13T13:59:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 558 removed (version from <date when="2015-01-14T12:43:26"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 558 removed (version from <date when="2015-01-15T14:11:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 558 removed (version from <date when="2015-06-17T22:03:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 558 removed (version from <date when="2015-06-17T22:40:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 558 removed (version from <date when="2015-12-01T15:37:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 558 removed (version from <date when="2015-12-01T15:37:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 558 removed (version from <date when="2015-12-07T10:24:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 558 removed (version from <date when="2015-12-07T10:27:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 561 created using version from <date when="2013-09-25T12:43:56"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 561 removed (version from <date when="2013-09-25T12:43:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 561 removed (version from <date when="2013-09-26T08:29:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 561 removed (version from <date when="2015-01-14T13:09:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 561 removed (version from <date when="2015-01-14T13:11:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 561 removed (version from <date when="2015-01-15T14:12:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 561 removed (version from <date when="2015-06-17T22:46:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 561 removed (version from <date when="2015-12-04T13:00:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 561 removed (version from <date when="2015-12-04T13:00:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 561 removed (version from <date when="2015-12-07T10:37:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 559 created using version from <date when="2013-09-25T12:21:16"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 559 removed (version from <date when="2013-09-25T12:21:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 559 removed (version from <date when="2013-09-26T08:27:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 559 removed (version from <date when="2015-01-14T12:54:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 559 removed (version from <date when="2015-01-15T14:11:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 559 removed (version from <date when="2015-06-17T22:11:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 559 removed (version from <date when="2015-06-17T22:32:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 559 removed (version from <date when="2015-12-01T15:52:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 559 removed (version from <date when="2015-12-04T12:48:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 560 (version from <date when="2015-12-07T10:36:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 558 added to letter (version from <date when="2015-12-07T10:27:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 561 added to letter (version from <date when="2015-12-07T10:37:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 559 added to letter (version from <date when="2015-12-07T10:36:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 560 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 561 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 558 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 559 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:47" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_224_img_558" url="35d5c8ebe6123f18cb42535e27d2d4db.jpg"/> 
+    
+    <graphic xml:id="L1916_224_img_559" url="3dbba56846545e9c6a79fcfae9cd83f5.jpg"/> 
+    
+    <graphic xml:id="L1916_224_img_560" url="7b0d37520931ab689824177032b7f664.jpg"/> 
+    
+    <graphic xml:id="L1916_224_img_561" url="a8ac50c1b2ad295987ef8d389d0fa6bc.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="558" facs="#L1916_224_img_558"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>3 Cross Kevin St.</addrLine></address> <dateline><date>6<hi rend="superscript"><hi rend="underline">th</hi></hi> July 1916</date></dateline>  <salute>My Dear Jim,</salute></opener> <p>What you must think of <add>me</add> is beyond my <lb/> imagination, never having written you a line yet, well <lb/> anyway the old saying holds good in this case "Better <lb/> late than never", I hope you don't collapse with  <lb/> joy (!!!!!!!) when this reaches you, if you think it might <lb/> be too much for you I would advise you to only  <lb/> read about one paragraph a day !!! As you see  <lb/> by the address we are living in Kevin (Castle!!! as  <lb/> I call it ) St. you remember that <hi rend="underline">charming</hi> spot  <lb/> we brought you down to one Saturday we caught <lb/> you giving the 'Evil Eye" to all the "nice things" in <lb/> Grafton St !!! of course we only let you look at the <lb/> outside, for fear if you came inside you might <lb/> get dazzled with the splendour and luxury (<unclear>I</unclear>.O.J) <lb/> <hi rend="underline">or</hi>, more likely, get <hi rend="underline">lost</hi> particularly as Maureen <lb/> was there!! now, now Jim, I didn't say it might <lb/> be an echo of "<hi rend="underline">Harrington</hi> <hi rend="underline">College</hi> <lb/> <hi rend="underline">Dance</hi>", it was a wonder you didn't get a bill <lb/> from the owners for a new step on the stairs!!!  <lb/> or for that matter a whole flight!!!!!! of course that <lb/> was <hi rend="underline">last</hi> year, this year I suppose you would
+        
+    
+
+    
+         
+        <pb n="559" facs="#L1916_224_img_559"/>
+        
+        
+           
+            <lb/> like a little change!! I believe Maureen's "nose <lb/> is out of joint" you're awfully fickle, some <lb/>priest came into your sister a few days ago  <lb/>and told her about some girl who "had a <lb/> few <hi rend="underline">very affectionate</hi> letters from Jim". A  <lb/>certain friend told me she felt horribly  <lb/>"taken in" !!!! now take a little advice from an <lb/>"auld pal" and don't be breaking hearts!! but  <lb/> excuse me, a new idea has just crossed my <lb/> mind, perhaps you are only just practicing, <lb/>as I daresay when you come home you will  <lb/>be writing these <foreign>"billet doux"</foreign> to the wardresses!! </p> <p>Now to change the subject, we had a couple <lb/> of great picnics for the National Aid "any amount <lb/> doing" !!! and the cream of the joke was that I <lb/>got a <hi rend="underline">new dress</hi>, the secret of it was that I was <lb/>in great humour and wanted to 'knock down some <lb/>thing good', but it was white voile (you that sort of <lb/>soft stuff!) with enormous big dark blue dots on it, <lb/>you <del>call</del> could positively hear me coming in it, <lb/>but all the fellows called me "<foreign>pierrot</foreign>" and wanted <lb/> to know where was my cap, weren't they <lb/>real cheeky!!! I felt horribly put out (I don't think). <lb/>Godfrey (I'm sure the spelling is wrong but never <lb/>mind!) O'Donnell was there and he's the best gas <lb/>out, I enjoyed him immensely, I remember one
+        
+    
+         
+        <pb n="560" facs="#L1916_224_img_560"/>
+        
+        
+           
+            time I was up in the <sic>diggs</sic> with Maureen, the <lb/> time she was on the Leinster Road (certainly you <lb/> remember all things connected with <hi rend="underline">that</hi>) and she <lb/>showed me the University College book, and there <lb/> was a programme of a concert <del>and</del> in it and our <lb/> friend G. O'Donnell was down for a song "I am <lb/> a <hi rend="underline">little</hi> Catholic" the underlined word written in <lb/> Italics. I absolutely howled when I saw it, knowing <lb/> the <hi rend="underline">little</hi> Catholic. Of course all this must be fearfully <lb/> dry for the censor, what a pity I haven't time to <lb/> make a sketch of G. O'D so that he might join in <lb/> the joke. Don't forget to give my <hi rend="underline">love</hi> to anyone in <lb/> the camp that you think I might know or who <lb/> might know me, especially S. Peeson, D McCullogh, <lb/> Jack Gogan ( I know him since he was a kid!!). I <lb/> will be writing to them very soon. Maureen will be in <lb/> this evening, that is provided she <sic>dosent</sic> go <hi rend="underline">teaing</hi> <lb/> with a certain <hi rend="underline">architect</hi>, Mums the word now Jim, <lb/> just a few little words dropped and I added up <lb/> one and one and made two, I may after a while add <lb/> two and two and possibly make four, so I would <lb/> advise you not to <sic>loose</sic> any time coming home or <lb/> the bird might have flown, and I guess you <lb/> wouldn't like your little heart to be broken!!! <lb/>would you????!!! I will be doing the Feil Ceoil on the <lb/> 17<hi rend="superscript">th</hi> to 22<hi rend="superscript">nd</hi> or so of this <del>week</del>, <add>month</add> so if you would say<lb/>
+        
+    
+         
+        <pb n="561" facs="#L1916_224_img_561"/>
+        
+        
+           
+            a weenie, weenie prayer for me I am sure I <lb/> will do better than I would if you didn't say it. <p>I must now ring off, I am sure you <lb/> are bored stiff by this, my <hi rend="underline">love</hi> to those I told <lb/> you (provided they accept it!! if not you can keep it <lb/> <hi rend="underline">all,</hi> along with your own share, for yourself, what <lb/> joy for you!!!!!!!) <closer><salute>From <lb/>Yours sincerely.</salute> <signed>Maudie Davin.</signed></closer>  <lb/>P.S. Please excuse my bad writing and mistakes <lb/> but as usual I am in a hurry. <lb/>M. D.  <lb/><add>Mrs. Frank <unclear>Oulsen</unclear></add>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

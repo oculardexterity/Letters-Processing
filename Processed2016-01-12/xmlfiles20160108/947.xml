@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_947">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Celia to Nancy O&#39;Rahilly, c. May 1916.</title>
+                
+                <author>Celia</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Rosie17">Rosie17</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_947</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>Letter to Nancy O'Rahilly (1875-1961). The writer, Celia, expresses sympathy on Michael's (1875-1916) death and wishes she could be there to comfort Mr. O'Rahilly - 'he died as he wished fighting for his country'.</p>
+                        
+                            <p>Nancy O'Rahilly was a member of the Provisional Council of Cumann na mBan at the founding in 1914 and the wife of Michael Joseph O'Rahilly, self-described as 'The' O'Rahilly. The O'Rahilly fought in the Easter Rising and was shot in Parnell/Moore Street on 28 April 1916 and died some time later. Nancy was pregnant at the time of her husband's death – the child was born three months later. </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                                Original DCN: Humphreys Papers, P106/120/1
+                             
+                        -->
+                            
+                                <collection type='public'>Humphreys Papers</collection>
+                            
+                            
+                        <idno>P106/120/1</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Nancy_ORahilly">Nancy O&#39;Rahilly</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Celia">Celia</persName>
+                    
+                    
+                    
+                    <date when="1916">12 January 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Female</item>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-03-18T21:30:24" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-03-18T21:30:24" who="#Philcostel">
+                
+                    Page 2401 modified:
+                    <!-- 
+My dearest Nannie, I can't write how heartbroken we are about poor Michael. I nearly go crazy when I think of your awful sorrow. I am doing my utmost to get over to you, not that having me would lessen your sorrow but I should like to be with you. Uncle is going to try and give me the money if this deal goes through. He feels simply terrible about Michael, in fact I can't tell you how miserable we all are 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-03-18T21:36:07" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-03-18T21:36:07" who="#Philcostel">
+                
+                    Page 2402 modified:
+                    <!-- 
+All we can do at present is to pray for you both. He certainly died as he wished fighting for his country, but how hard for those he left behind. Nannie dear when you feel able let us know how you are, we are so worried. When do you expect your baby? If I only could be with you when you do. My dear girl, I know you understand how simply awful I feel, how futile words are to express our sorrow. All I hope is to be with you soon. All our love and sympathy Lovingly Celia 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-26T10:01:05" who="#Rosie17">
+                
+                    Page 2401 modified:
+                    <!-- 
+<salute>My dearest Nannie</salute>, I can't write <lb/>how heartbroken we are about<lb/> poor Michael. I nearly go<lb/> crazy when I think of your<lb/> awful sorrow. I am doing<lb/> my utmost to get over<lb/> to you, not that having me<lb/> would lessen your sorrow<lb/> but I should like to be <lb/>with you. Uncle is going<lb/> to try and give me the<lb/> money if this deal goes<lb/> through. He feels simply<lb/> terrible about Michael, in<lb/> fact I can't tell you<lb/> how miserable we all are<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-26T10:04:25" who="#Rosie17">
+                
+                    Page 2402 modified:
+                    <!-- 
+All we can do at present<lb/ is to pray for you both. <lb/>He certainly died as he wished<lb/> fighting for his country, but<lb/> how hard for those he left<lb/> behind. Nannie dear when<lb/> you feel able let us know<lb/> how you are, we are so <lb/>worried. When do you expect<lb/> your baby? If I only could<lb/> be with you when you do.<lb/>My dear girl, I know you <lb/>understand how simply awful<lb/> I feel, how futile words ar<lb/>e to express our sorrow. All I hope is to be with you soon<lb/>. <salute>All our love and sympath<lb/>y Lovingly<lb/> Celia</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-05T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T11:56:12" who="#NR">
+                
+                    Page 2401 modified:
+                    <!-- 
+<salute>My dearest Nannie</salute>, <p>I can't write  <lb/>how heartbroken we are about <lb/> poor Michael. I nearly go <lb/> crazy when I think of your <lb/> awful sorrow. I am doing <lb/> my utmost to get over <lb/> to you, not that having me <lb/> would lessen your sorrow <lb/> but I should like to be  <lb/>with you. Uncle is going <lb/> to try and give me the <lb/> money if this deal goes <lb/> through. He feels simply <lb/> terrible about Michael, in <lb/> fact I can't tell you <lb/> how miserable we all are 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T11:59:03" who="#NR">
+                
+                    Page 2402 modified:
+                    <!-- 
+<lb/>All we can do at present <lb/ is to pray for you both.  <lb/>He certainly died as he wished <lb/> fighting for his country, but <lb/> how hard for those he left <lb/> behind. Nannie dear when <lb/> you feel able let us know <lb/> how you are, we are so  <lb/>worried. When do you expect <lb/> your baby? If I only could <lb/> be with you when you do. <lb/>My dear girl, I know you  <lb/>understand how simply awful <lb/> I feel, how futile words are <lb/> to express our sorrow. All I  <lb/>hope is to be with you soon<lb/>. <lb/>All our love and sympathy</p> <salute>Lovingly</salute> <signed>Celia</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2401 created using version from <date when="2014-03-18T21:30:24"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2401 removed (version from <date when="2014-03-18T21:30:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2401 removed (version from <date when="2015-05-26T10:01:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2401 removed (version from <date when="2016-01-06T11:56:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2402 created using version from <date when="2014-03-18T21:36:07"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2402 removed (version from <date when="2014-03-18T21:36:07"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2402 removed (version from <date when="2015-05-26T10:04:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2402 removed (version from <date when="2016-01-06T11:59:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:22" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2401 (version from <date when="2016-01-06T11:56:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:23" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2402 added to letter (version from <date when="2016-01-06T11:59:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:26" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:27" who="#PythonScript">
+                
+                    Clean tags: Page 2401 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:27" who="#PythonScript">
+                
+                    Clean tags: Page 2402 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:30" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_947_img_2401" url="59eed1583ef344774a9a3c38a21bfdda.jpg"/> 
+    
+    <graphic xml:id="L1916_947_img_2402" url="2dfa94bf7bc88968a8f77d65a99a27c0.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2401" facs="#L1916_947_img_2401"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><salute>My dearest Nannie</salute></opener>, <p>I can't write  <lb/>how heartbroken we are about <lb/> poor Michael. I nearly go <lb/> crazy when I think of your <lb/> awful sorrow. I am doing <lb/> my utmost to get over <lb/> to you, not that having me <lb/> would lessen your sorrow <lb/> but I should like to be  <lb/>with you. Uncle is going <lb/> to try and give me the <lb/> money if this deal goes <lb/> through. He feels simply <lb/> terrible about Michael, in <lb/> fact I can't tell you <lb/> how miserable we all are
+        
+    
+
+    
+         
+        <pb n="2402" facs="#L1916_947_img_2402"/>
+        
+        
+           
+            <lb/>All we can do at present <lb/> is to pray for you both.  <lb/>He certainly died as he wished <lb/> fighting for his country, but <lb/> how hard for those he left <lb/> behind. Nannie dear when <lb/> you feel able let us know <lb/> how you are, we are so  <lb/>worried. When do you expect <lb/> your baby? If I only could <lb/> be with you when you do. <lb/>My dear girl, I know you  <lb/>understand how simply awful <lb/> I feel, how futile words are <lb/> to express our sorrow. All I  <lb/>hope is to be with you soon<lb/>. <lb/>All our love and sympathy</p> <closer><salute>Lovingly</salute> <signed>Celia</signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

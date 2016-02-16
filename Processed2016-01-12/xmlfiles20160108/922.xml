@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_922">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Sister M. Cyprian to Éamon de Valera, 30 May 1916.</title>
+                
+                <author>Sister M. Cyprian</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Stephywalsh">Stephywalsh</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_922</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This letter from Sister Cyprian to Éamon de Valera (1882-1975) was enclosed in a letter dated 29 May 1916 addressed to Sinéad de Valera (1878-1975), his wife,  together with a pair of scapulars and a request that they be forwarded to Mr de Valera in prison. Sr.Cyprian sympathises with his situation and reassures him of her prayers - she invites him to join her in prayer daily at 7.00 a.m.,  and she asks him to urge his wife to bring his children to her for a visit.</p>
+                        
+                            <p>Éamonn De Valera had joined the Irish Volunteers in 1913 and was adjutant to Thomas MacDonagh (1878-1916), Dublin Brigade commandant. He went on to command forces at Bolands Mill during the Rising and was the most senior participant to escape execution. De Valera would go on to become one of the most influential figures in Ireland's 20th century.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                                Original DCN: De Valera Papers, P150/531/002
+                             
+                        -->
+                            
+                                <collection type='public'>De Valera Papers</collection>
+                            
+                            
+                        <idno>P150/531/002</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Éamon_de_Valera">Éamon de Valera</persName>
+                
+                
+                
+                    <placeName  ref="#Dartmoor,_England.">Dartmoor, England.</placeName>
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Sister_M._Cyprian">Sister M. Cyprian</persName>
+                    
+                     
+                    <placeName ref="#Cork_Street,_Dublin,_Ireland.">Cork Street, Dublin, Ireland.</placeName>
+                    
+                    
+                    <date when="1916-05-30">30 May 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Female</item>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-03-04T17:32:51" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-03-04T17:32:51" who="#Stephywalsh">
+                
+                    Page 2353 modified:
+                    <!-- 
+Mercy Convent Cork Street Dublin 30 - V 1916.  My dear Mr. De Valera, <p>It is no small draught of consolation that you possess the gift of <lb/>life - a gift which has become more precious than ever to those who sympathize with<lb/>you in your loneliness &amp; who love you.</p> <p>Most men of great genius have to go through in life<lb/>a period of retirement &amp; solitude, brought about by choice or by Divine Providence through<lb/>the medium of human beings.  The <hi rend="underline">Poet</hi> &amp; the <hi rend="underline">Saint</hi> have to pass this way.  Saintship<sic>unusually-spelled text</sic> is<lb/> only a special type of genius.  Now your time is come &amp; you will come out of it as<lb/> the sunshine from underneath the cloud.  A cheerful acceptation<sic>unusually-spelled text</sic> of the surroundings &amp;<lb/>the observance of rule, will go far to the shortening of your stay there.  The beginning will be<lb/>the hardest : as those in charge get to know you they will appreciate you.</p> <p>Since 1st May I have prayed every day very specially<lb/>for you that you may get grace to bear this cross &amp; be released soon.  I shall begin<lb/>this '9 First Fridays' for you on 2nd June.  If our religion be true &#x2014; and we <hi rend="underline">know</hi><hi rend="underline">it</hi> <hi rend="underline">is</hi> <hi rend="underline">true</hi> <hi rend="underline">God</hi> is <hi rend="underline">with us</hi> &amp; since He is with us, we can be in spirit with one another: now I want<lb/>you to keep a little appointment with me each day at 7 o'clock a.m. when we have Mass<lb/>&amp;Holy Communion &amp;at 6.30 p.m. when I shall say each day The 30 days prayer<lb/> to our Blessed Lady for you.  I am only asking you to try &amp;remember that you<lb/>are remembered then.  Prayer can obtain all things &#x2014; hope &amp; when God acts He doeth the work as God.  <p> <p>"This gloom after all<lb/>is but the shade of Gods hand outstretched caressingly"<pb/></p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-03-04T17:49:28" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-03-04T17:49:28" who="#Stephywalsh">
+                
+                    Page 2354 modified:
+                    <!-- 
+<p>The students regret<unclear>questionable reading</unclear> you exceedingly.  Mother <gap/> R.I.P died early in May.<lb/>I hope to have the pleasure of seeing your little children very soon.  Won't you suggest<lb/>to your wife to have your promise to me in this matter carried out.  </p> <p>You will find enclosed a pair of scapulars<lb/>intended to be a token of good will &amp;do something for you if such were in my<lb/>power.As I do not know your address I count on Mrs DeValera giving<lb/>me a corner in her envelope this time.</p> <p>I am already looking forward to the day when<lb/>you will be once more with your wife &amp;children in the mean time you<lb/>can live for those you love notwithstanding place or circumstance.<lb/>Goodbye, my <hi rend="underline">dear friend</hi> &amp;believe me that I have paid you the tribute of<lb/>many a tear &amp; sympathize with you more deeply than I can tell. Trust God<lb/>not only for the best but for the <hi rend="underline">very</hi> <hi rend="underline">best</hi> - try to see the <gap/> beyond the seems"</p> <p>Very sincerely yours in Jesus Christ<p> <p>Sister M. Cyprian</p> </p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-18T17:32:54" who="#Comber">
+                
+                    Page 2353 modified:
+                    <!-- 
+<address>Mercy Convent - Cork Street. Dublin</address> <date>30 - V 1916.</date>  <salute>My dear Mr. De Valera,</salute> <p>It is no small draught of consolation that you possess the gift of <lb/>life - a gift which has become more precious than ever to those who sympathize with<lb/>you in your loneliness &amp; who love you.</p> <p>Most men of great genius have to go through in life<lb/>a period of retirement &amp; solitude, brought about by choice or by Divine Providence through<lb/>the medium of human beings.  The <hi rend="underline">Poet</hi> &amp; the <hi rend="underline">Saint</hi> have to pass this way.  <sic>Saintship</sic> is<lb/> only a special type of genius.  Now your time is come &amp; you will come out of it as<lb/> the sunshine from underneath the cloud.  A cheerful <sic>acceptation</sic> of the surroundings &amp;<lb/>the observance of rule, will go far to the shortening of your stay there.  The beginning will be<lb/>the hardest -: as those in charge get to know you they will appreciate you.</p> <p>Since 1<hi rend="superscript">st</hi> May I have prayed every day very specially<lb/> for you that you may get grace to bear this cross &amp; be released soon.  I shall begin<lb/>this '9 First Fridays' for you on 2nd June.  If our religion be true &#x2014; and we <hi rend="underline">know</hi><hi rend="underline">it</hi> <hi rend="underline">is</hi> <hi rend="underline">true</hi> <hi rend="underline">God</hi> is <hi rend="underline">with us</hi> &amp; since He is with us, we can be in spirit with one another: now I want<lb/>you to keep a little appointment with me each day at 7 o'clock a.m. when we have Mass<lb/>&amp;Holy Communion &amp;at 6.30 p.m. when I shall say each day The 30 days prayer<lb/> to our Blessed Lady for you.  I am only asking you to try &amp;remember that you<lb/>are remembered then.  Prayer can obtain all things &#x2014; hope- &amp; when God acts He doeth the work as God.  <p> <p>"This gloom after all<lb/>is but the shade of Gods hand outstretched caressingly"<pb/></p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-18T17:36:20" who="#Comber">
+                
+                    Page 2354 modified:
+                    <!-- 
+<pb/><p>The students regret you exceedingly.  Mother <gap/> R.I.P died early in May.<lb/>I hope to have the pleasure of seeing your little children very soon.  Won't you suggest<lb/>to your wife to have your promise <add>to me</add> in this matter carried out.  </p> <p>You will find enclosed a pair of scapulars<lb/>intended to be a token of good will &amp;do something for you if such were in my<lb/>power.As I do not know your address I count on Mrs DeValera giving<lb/>me a corner in her envelope this time.</p> <p>I am already looking forward to the day when<lb/>you will be once more with your wife &amp;children in the mean time you<lb/>can live for those you love notwithstanding place or circumstance.<lb/>Goodbye, my <hi rend="underline">dear friend</hi> &amp;believe me that I have paid you the tribute of<lb/> many a tear &amp; sympathize with you more deeply than I can tell. Trust God<lb/>not only for the best but for the <hi rend="underline">very</hi> <hi rend="underline">best</hi> - try to see the <gap/> beyond the seems"</p> <salute>Very sincerely yours in Jesus Christ Sister M. Cyprian</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-05T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T17:32:24" who="#NR">
+                
+                    Page 2353 modified:
+                    <!-- 
+<address>Mercy Convent  <lb/>Cork Street. Dublin</address> <date>30 - V 1916.</date>  <salute>My dear Mr. De Valera,</salute> <p>It is no small draught of consolation that you possess the gift of  <lb/>life - a gift which has become more precious than ever to those who sympathize with <lb/>you in your loneliness &amp; who love you.</p> <p>Most men of great genius have to go through in life <lb/>a period of retirement &amp; solitude, brought about by choice or by Divine Providence through <lb/>the medium of human beings.  The <hi rend="underline">Poet</hi> &amp; the <hi rend="underline">Saint</hi> have to pass this way.  <sic>Saintship</sic> is <lb/> only a special type of genius.  Now your time is come &amp; you will come out of it as <lb/> the sunshine from underneath the cloud.  A cheerful <sic>acceptation</sic> of the surroundings &amp; <lb/>the observance of rule, will go far to the shortening of your stay there.  The beginning will be<lb/>the hardest -: as those in charge get to know you they will appreciate you.</p> <p>Since 1<hi rend="superscript">st</hi> May I have prayed every day very specially <lb/> for you that you may get grace to bear this cross &amp; be released soon.  I shall begin <lb/>this '9 First Fridays' for you on 2nd June.  If our religion be true &#x2014; and we <hi rend="underline">know</hi><hi rend="underline">it</hi> <hi rend="underline">is</hi> <hi rend="underline">true</hi> <hi rend="underline">God</hi> is <hi rend="underline">with us</hi> &amp; since He is with us, we can be in spirit with one another: now I want <lb/>you to keep a little appointment with me each day at 7 o'clock a.m. when we have Mass <lb/>&amp;Holy Communion &amp;at 6.30 p.m. when I shall say each day The 30 days prayer <lb/> to our Blessed Lady for you.  I am only asking you to try &amp;remember that you <lb/>are remembered then.  Prayer can obtain all things &#x2014; hope- &amp; when God acts He doeth the work as God. </p> <p>"This gloom after all <lb/>is but the shade of Gods hand outstretched caressingly"</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T17:35:29" who="#NR">
+                
+                    Page 2354 modified:
+                    <!-- 
+<p>The students regret you exceedingly.  Mother <gap/> R.I.P died early in May. <lb/>I hope to have the pleasure of seeing your little children very soon.  Won't you suggest <lb/>to your wife to have your promise <add>to me</add> in this matter carried out.  </p> <p>You will find enclosed a pair of scapulars <lb/>intended to be a token of good will &amp;do something for you if such were in my <lb/>power.As I do not know your address I count on Mrs DeValera giving <lb/>me a corner in her envelope this time.</p> <p>I am already looking forward to the day when <lb/>you will be once more with your wife &amp;children in the mean time you <lb/>can live for those you love notwithstanding place or circumstance. <lb/>Goodbye, my <hi rend="underline">dear friend</hi> &amp;believe me that I have paid you the tribute of <lb/> many a tear &amp; sympathize with you more deeply than I can tell. Trust God<lb/>not only for the best but for the <hi rend="underline">very</hi> <hi rend="underline">best</hi> - try to see the "<hi rend="underline">L</hi> beyond the seems"</p> <salute>Very sincerely yours in Jesus Christ</salute> <signed>Sister M. Cyprian</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2353 created using version from <date when="2014-03-04T17:32:51"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2353 removed (version from <date when="2014-03-04T17:32:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2353 removed (version from <date when="2015-02-18T17:32:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2353 removed (version from <date when="2016-01-06T17:32:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2354 created using version from <date when="2014-03-04T17:49:28"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2354 removed (version from <date when="2014-03-04T17:49:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2354 removed (version from <date when="2015-02-18T17:36:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2354 removed (version from <date when="2016-01-06T17:35:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:23" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2353 (version from <date when="2016-01-06T17:32:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:24" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2354 added to letter (version from <date when="2016-01-06T17:35:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:26" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:27" who="#PythonScript">
+                
+                    Clean tags: Page 2353 cleaned of 13 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                    Clean tags: Page 2354 cleaned of 4 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:33" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_922_img_2353" url="090fd66eaa3fc1cb14f2b07e0398a1ee.jpg"/> 
+    
+    <graphic xml:id="L1916_922_img_2354" url="4aca7df3dbc709dc38f2f2ba5a5245fd.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2353" facs="#L1916_922_img_2353"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>Mercy Convent</addrLine>
+<addrLine>Cork Street. Dublin</addrLine></address> <dateline><date>30 - V 1916.</date></dateline>  <salute>My dear Mr. De Valera,</salute></opener> <p>It is no small draught of consolation that you possess the gift of  <lb/>life - a gift which has become more precious than ever to those who sympathize with <lb/>you in your loneliness &amp; who love you.</p> <p>Most men of great genius have to go through in life <lb/>a period of retirement &amp; solitude, brought about by choice or by Divine Providence through <lb/>the medium of human beings.  The <hi rend="underline">Poet</hi> &amp; the <hi rend="underline">Saint</hi> have to pass this way.  <sic>Saintship</sic> is <lb/> only a special type of genius.  Now your time is come &amp; you will come out of it as <lb/> the sunshine from underneath the cloud.  A cheerful <sic>acceptation</sic> of the surroundings &amp; <lb/>the observance of rule, will go far to the shortening of your stay there.  The beginning will be<lb/>the hardest -: as those in charge get to know you they will appreciate you.</p> <p>Since 1<hi rend="superscript">st</hi> May I have prayed every day very specially <lb/> for you that you may get grace to bear this cross &amp; be released soon.  I shall begin <lb/>this '9 First Fridays' for you on 2nd June.  If our religion be true &#x2014; and we <hi rend="underline">know</hi><hi rend="underline">it</hi> <hi rend="underline">is</hi> <hi rend="underline">true</hi> <hi rend="underline">God</hi> is <hi rend="underline">with us</hi> &amp; since He is with us, we can be in spirit with one another: now I want <lb/>you to keep a little appointment with me each day at 7 o'clock a.m. when we have Mass <lb/>&amp;Holy Communion &amp;at 6.30 p.m. when I shall say each day The 30 days prayer <lb/> to our Blessed Lady for you.  I am only asking you to try &amp;remember that you <lb/>are remembered then.  Prayer can obtain all things &#x2014; hope- &amp; when God acts He doeth the work as God. </p> <p>"This gloom after all <lb/>is but the shade of Gods hand outstretched caressingly"</p>
+        
+    
+
+    
+         
+        <pb n="2354" facs="#L1916_922_img_2354"/>
+        
+        
+           
+            <p>The students regret you exceedingly.  Mother <gap/> R.I.P died early in May. <lb/>I hope to have the pleasure of seeing your little children very soon.  Won't you suggest <lb/>to your wife to have your promise <add>to me</add> in this matter carried out.  </p> <p>You will find enclosed a pair of scapulars <lb/>intended to be a token of good will &amp;do something for you if such were in my <lb/>power.As I do not know your address I count on Mrs DeValera giving <lb/>me a corner in her envelope this time.</p> <p>I am already looking forward to the day when <lb/>you will be once more with your wife &amp;children in the mean time you <lb/>can live for those you love notwithstanding place or circumstance. <lb/>Goodbye, my <hi rend="underline">dear friend</hi> &amp;believe me that I have paid you the tribute of <lb/> many a tear &amp; sympathize with you more deeply than I can tell. Trust God<lb/>not only for the best but for the <hi rend="underline">very</hi> <hi rend="underline">best</hi> - try to see the "<hi rend="underline">L</hi> beyond the seems"</p> <closer><salute>Very sincerely yours in Jesus Christ</salute> <signed>Sister M. Cyprian</signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

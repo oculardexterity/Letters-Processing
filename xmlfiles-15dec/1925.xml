@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1925">
+    <fileDesc>
+            <titleStmt>
+                <title>Deportation Order from the Secretary of State to James Gough, 17 June 1916</title>
+                
+                <author>David Lloyd George</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="WB">William Buck</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Scribe57">Scribe57</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Delmacarroll">Delmacarroll</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1925</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>A deportation order from David Lloyd George (1863–1945), the British Secretary of State for War concerning prisoner James Gough  who participated in the Easter Rising. Gough was first held at Richmond Barracks, was transferred to Stafford, and then was held at Frongoch Internment camp, Wales.    David Lloyd George took over the role of Secretary of State for War on 6 June 1916, after the death of Horatio Herbert Kitchener, (1850–1916) who died on board the cruiser HMS Hampshire when it was sunk by a German mine on 5 June 1916, while on course to Russia.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Allen Library">Allen Library</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#James_Gough">James Gough</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#David_Lloyd_George">David Lloyd George</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-02-17T21:47:03" who="#WB">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-02-17T21:47:03" who="#Delmacarroll">
+                
+                    Page 4823 modified:
+                    <!-- 
+IE/AL/1916/66<pb/>  <date>17/6/16</date><lb/> <!~~ top right hand corner ~~>(B)<lb/>  <head>NOTICE TO PERSONS WITH RESPECT TO WHOM<lb/> <hi rend="underline">AN ORDER IS MADE UNDER REGULATION 14B</hi>.</head>  Name of Prisoner  Gough James<lb/> Address 1 N. Richmond <del>ST</del>St<lb/> Dublin<lb/> W O  Number 25C<lb/> H O Number 316951<lb/>  <p>Notice is hereby given to the above-named that an Order has been made<lb/> by the Secretary of State under Regulation 14 B of the Defence of the Realm<lb/> Regulations directing that he shall be interned at the Place of Internment<lb/> at <foreign>Frongooh</foreign>.</p>  <p>The Order is made on the ground that he is of hostile associations <hi rend="underline">and</hi><lb/> <hi rend="underline">is reasonably suspected of having favoured, promoted or assisted an armed</hi><lb/> <hi rend="underline">insurrection against His Majesty.</hi><lb/></p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-17T21:54:51" who="#Delmacarroll">
+                
+                    Page 4823 modified:
+                    <!-- 
+IE/AL/1916/66<pb/>  <date>17/6/16</date><lb/> <!~~ top right hand corner ~~>(B)<lb/>  <head>NOTICE TO PERSONS WITH RESPECT TO WHOM<lb/> <hi rend="underline">AN ORDER IS MADE UNDER REGULATION 14B</hi>.</head>  Name of Prisoner  Gough James<lb/> Address 1 N. Richmond <del>ST</del>St<lb/> Dublin<lb/> W O  Number 25C<lb/> H O Number 316951<lb/>  <p>Notice is hereby given to the above-named that an Order has been made<lb/> by the Secretary of State under Regulation 14 B of the Defence of the Realm<lb/> Regulations directing that he shall be interned at the Place of Internment<lb/> at <foreign>Frongooh</foreign>.</p>  <p>The Order is made on the ground that he is of hostile associations <hi rend="underline">and</hi><lb/> <hi rend="underline">is reasonably suspected of having favoured, promoted or assisted an armed</hi><lb/> <hi rend="underline">insurrection against His Majesty.</hi><lb/></p> <p>If within seven days from the date of his receiving this notice the<lb/> above-named prisoner submits to the Secretary of State any representations<lb/> against the provisions of the said Order, such representations will be referred<lb/> to the Advisory committee appointed for the purpose of advising the<lb/> Secretary of State with respect to the internment and deportation of aliens<lb/> and presided over by a Judge of the High Court, and will be duly considered<lb/> by the Committee.   If the Secretary of State is satisfied by the report of<lb/> the said Committee that the Order may, so far as it affects the above-named<lb/> prisoner, be revoked or varied without injury to the public safety or the<lb/> defence of the realm, he will revoke or vary the Order accordingly by a<lb/> further Order in writing under his hand.<lb/></p> Failing such revocation or variation of the Order will remain in force. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-17T22:00:44" who="#WB">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-02-17T22:00:44" who="#Delmacarroll">
+                
+                    Page 4824 modified:
+                    <!-- 
+<!~~ note at bottom left hand corner of page ~~>  PRESENTED by James Gough<lb/> to the <lb/> O'CONNELL SCHOOL MUSEUM<lb/> 21063<lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-08T15:30:53" who="#Scribe57">
+                
+                    Page 4823 modified:
+                    <!-- 
+IE/AL/1916/66<pb/>  <date>17/6/16</date><lb/> <!~~ top right hand corner ~~>(B)<lb/>  <head>NOTICE TO PERSONS WITH RESPECT TO WHOM<lb/> <hi rend="underline">AN ORDER IS MADE UNDER REGULATION 14B</hi>.</head>  Name of Prisoner  Gough James<lb/> Address 1 N. Richmond <del>ST</del>St<lb/> Dublin<lb/> W O  Number 25C<lb/> H O Number 316951<lb/>  <p>Notice is hereby given to the above-named that an Order has been made<lb/> by the Secretary of State under Regulation 14 B of the Defence of the Realm<lb/> Regulations directing that he shall be interned at the Place of Internment<lb/> at <foreign>Frongooh</foreign>.</p>  <p>The Order is made on the ground that he is of hostile associations <hi rend="underline">and</hi><lb/> <hi rend="underline">is reasonably suspected of having favoured, promoted or assisted an armed</hi><lb/> <hi rend="underline">insurrection against His Majesty.</hi><lb/></p> <p>If within seven days from the date of his receiving this notice the<lb/> above-named prisoner submits to the Secretary of State any representations<lb/> against the provisions of the said Order, such representations will be re<lb/> ferred to the Advisory committee appointed for the purpose of advising the<lb/> Secretary of State with respect to the internment and deportation of aliens<lb/> and presided over by a Judge of the High Court, and will be duly considered<lb/> by the Committee.   If the Secretary of State is satisfied by the report of<lb/> the said Committee that the Order may, so far as it affects the above-named<lb/> prisoner, be revoked or varied without injury to the public safety or the<lb/> defence of the realm, he will revoke or vary the Order accordingly by a<lb/> further Order in writing under his hand.<lb/></p> Failing such revocation or variation the Order will remain in force. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-07-09T10:29:13" who="#Tbrosnan">
+                
+                    Page 4823 modified:
+                    <!-- 
+IE/AL/1916/66<pb/>  <date>17/6/16</date><lb/> <!~~ top right hand corner ~~>(B)<lb/>  <head>NOTICE TO PERSONS WITH RESPECT TO WHOM<lb/> <hi rend="underline">AN ORDER IS MADE UNDER REGULATION 14B</hi>.</head>  Name of Prisoner  Gough James<lb/> Address 1 N. Richmond <del>ST</del>St<lb/> Dublin<lb/> W O  Number 25C<lb/> H O Number 316951<lb/>  <p>Notice is hereby given to the above-named that an Order has been made<lb/> by the Secretary of State under Regulation 14 B of the Defence of the Realm<lb/> Regulations directing that he shall be interned at the Place of Internment<lb/> at <foreign>Frongooh</foreign>.</p>  <p>The Order is made on the ground that he is of hostile associations <hi rend="underline">and</hi><lb/> <hi rend="underline">is reasonably suspected of having favoured, promoted or assisted an armed</hi><lb/> <hi rend="underline">insurrection against His Majesty.</hi><lb/></p> <p>If within seven days from the date of his receiving this notice the<lb/> above-named prisoner submits to the Secretary of State any representations<lb/> against the provisions of the said Order, such representations will be re<lb/> ferred to the Advisory committee appointed for the purpose of advising the<lb/> Secretary of State with respect to the internment and deportation of aliens<lb/> and presided over by a Judge of the High Court, and will be duly considered<lb/> by the Committee.   If the Secretary of State is satisfied by the report of<lb/> the said Committee that the Order may, so far as it affects the above-named<lb/> prisoner, be revoked or varied without injury to the public safety or the<lb/> defence of the realm, he will revoke or vary the Order accordingly by a<lb/> further Order in writing under his hand.<lb/></p> Failing such revocation or variation the Order will remain in force.<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T12:23:03" who="#NR">
+                
+                    Page 4823 modified:
+                    <!-- 
+<date>17/6/16</date>  NOTICE TO PERSONS WITH RESPECT TO WHOM<lb/> <hi rend="underline">AN ORDER IS MADE UNDER REGULATION 14B</hi>.  Name of Prisoner  Gough James<lb/> Address 1 N. Richmond <del>ST</del>St<lb/> Dublin<lb/> W O  Number 25C<lb/> H O Number 316951<lb/>  <p>Notice is hereby given to the above-named that an Order has been made<lb/> by the Secretary of State under Regulation 14 B of the Defence of the Realm<lb/> Regulations directing that he shall be interned at the Place of Internment<lb/> at <foreign>Frongoch.</p>  <p>The Order is made on the ground that he is of hostile associations <hi rend="underline">and</hi><lb/> <hi rend="underline">is reasonably suspected of having favoured, promoted or assisted an armed</hi><lb/> <hi rend="underline">insurrection against His Majesty.</hi><lb/></p> <p>If within seven days from the date of his receiving this notice the<lb/> above-named prisoner submits to the Secretary of State any representations<lb/> against the provisions of the said Order, such representations will be re<lb/> ferred to the Advisory committee appointed for the purpose of advising the<lb/> Secretary of State with respect to the internment and deportation of aliens<lb/> and presided over by a Judge of the High Court, and will be duly considered<lb/> by the Committee.   If the Secretary of State is satisfied by the report of<lb/> the said Committee that the Order may, so far as it affects the above-named<lb/> prisoner, be revoked or varied without injury to the public safety or the<lb/> defence of the realm, he will revoke or vary the Order accordingly by a<lb/> further Order in writing under his hand.<lb/></p> Failing such revocation or variation the Order will remain in force.<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T12:27:09" who="#NR">
+                
+                    Page 4823 modified:
+                    <!-- 
+<date>17/6/16</date>  NOTICE TO PERSONS WITH RESPECT TO WHOM<lb/> <hi rend="underline">AN ORDER IS MADE UNDER REGULATION 14B</hi>.  Name of Prisoner  Gough James<lb/> Address 1 N. Richmond <del>ST</del>St<lb/> Dublin<lb/> W O  Number 25C<lb/> H O Number 316951<lb/>  <p>Notice is hereby given to the above-named that an Order has been made<lb/> by the Secretary of State under Regulation 14 B of the Defence of the Realm<lb/> Regulations directing that he shall be interned at the Place of Internment<lb/> at Frongoch.</p>  <p>The Order is made on the ground that he is of hostile associations <hi rend="underline">and</hi><lb/> <hi rend="underline">is reasonably suspected of having favoured, promoted or assisted an armed</hi><lb/> <hi rend="underline">insurrection against His Majesty.</hi></p> <p>If within seven days from the date of his receiving this notice the<lb/> above-named prisoner submits to the Secretary of State any representations<lb/> against the provisions of the said Order, such representations will be re<lb/> ferred to the Advisory committee appointed for the purpose of advising the<lb/> Secretary of State with respect to the internment and deportation of aliens<lb/> and presided over by a Judge of the High Court, and will be duly considered<lb/> by the Committee.   If the Secretary of State is satisfied by the report of<lb/> the said Committee that the Order may, so far as it affects the above-named<lb/> prisoner, be revoked or varied without injury to the public safety or the<lb/> defence of the realm, he will revoke or vary the Order accordingly by a<lb/> further Order in writing under his hand.</p> Failing such revocation or variation the Order will remain in force.<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T14:20:24" who="#NR">
+                
+                    Page 4824 modified:
+                    <!-- 
+ <p>PRESENTED by James Gough<lb/> to the <lb/> O'CONNELL SCHOOL MUSEUM<lb/> 21063</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4824 created using version from <date when="2015-02-17T22:00:44"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4824 removed (version from <date when="2015-02-17T22:00:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4824 removed (version from <date when="2015-11-20T14:20:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4823 created using version from <date when="2015-02-17T21:47:03"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4823 removed (version from <date when="2015-02-17T21:47:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4823 removed (version from <date when="2015-02-17T21:54:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4823 removed (version from <date when="2015-04-08T15:30:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4823 removed (version from <date when="2015-07-09T10:29:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4823 removed (version from <date when="2015-11-20T12:23:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4823 removed (version from <date when="2015-11-20T12:27:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 4824 (version from <date when="2015-11-20T14:20:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 4823 added to letter (version from <date when="2015-11-20T14:19:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 4824 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 4823 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:33" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1925_img_4823" url="d0640904d66d8a8afad8ca632445356c.jpg"/> 
+    
+    <graphic xml:id="L1916_1925_img_4824" url="451cad453368cd54183cdf0999005ef5.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+
+        
+            
+            <pb n="4823" facs="#L1916_1925_img_4823"/>
+                <text type="unknown" decls="#corresp1">
+                    <body>
+                        <date>17/6/16</date>  NOTICE TO PERSONS WITH RESPECT TO WHOM<lb/> <hi rend="underline">AN ORDER IS MADE UNDER REGULATION 14B</hi>.  Name of Prisoner  Gough James<lb/> Address 1 N. Richmond <del>ST</del>St<lb/> Dublin<lb/> W O  Number 25C<lb/> H O Number 316951<lb/>  <p>Notice is hereby given to the above-named that an Order has been made<lb/> by the Secretary of State under Regulation 14 B of the Defence of the Realm<lb/> Regulations directing that he shall be interned at the Place of Internment<lb/> at Frongoch.</p>  <p>The Order is made on the ground that he is of hostile associations <hi rend="underline">and</hi><lb/> <hi rend="underline">is reasonably suspected of having favoured, promoted or assisted an armed</hi><lb/> <hi rend="underline">insurrection against His Majesty.</hi></p> <p>If within seven days from the date of his receiving this notice the<lb/> above-named prisoner submits to the Secretary of State any representations<lb/> against the provisions of the said Order, such representations will be re<lb/> ferred to the Advisory committee appointed for the purpose of advising the<lb/> Secretary of State with respect to the internment and deportation of aliens<lb/> and presided over by a Judge of the High Court, and will be duly considered<lb/> by the Committee.   If the Secretary of State is satisfied by the report of<lb/> the said Committee that the Order may, so far as it affects the above-named<lb/> prisoner, be revoked or varied without injury to the public safety or the<lb/> defence of the realm, he will revoke or vary the Order accordingly by a<lb/> further Order in writing under his hand.</p> Failing such revocation or variation the Order will remain in force.<pb/>
+            
+        
+        
+            <pb n="4824" facs="#L1916_1925_img_4824"/>
+             <p>PRESENTED by James Gough<lb/> to the <lb/> O'CONNELL SCHOOL MUSEUM<lb/> 21063</p>
+        
+            </body>
+        </text>
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

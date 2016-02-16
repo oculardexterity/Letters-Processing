@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_225">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Kathleen Teebay, Stafford, England to James Ryan, 4 July 1916</title>
+                
+                <author>Kathleen Teebay</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id=""></name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Johnchambers81">Johnchambers81</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_225</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>The letter was sent by Kathleen Teebay to James Ryan (1891-1970). In the letter, Kathleen mentions a meeting with the mother and sister of Patrick and Willie Pearse, executed for their role in the Rising, who had made a visit to Stafford.    James Ryan was a government minister, doctor, and businessman born in Wexford. In 1911, James studied medicine at UCD and joined the college Sinn Féin club. He attended meetings addressed James Connolly and also made the acquaintance of Seán Mac Diarmada, who swore him into the IRB in November 1914. Ryan joined the Irish Volunteers at their first public meeting in November 1913.    On the Easter weekend of 1916 Ryan delivered the countermanding order to the Cork Volunteer leadership. He then made his way to the GPO early on Easter Tuesday and was appointed chief medical officer to the garrison. He recalled coming under fire during the evacuation of the GPO, when his bag of medical supplies got caught on an obstacle. After the surrender of the rebels, Ryan was deported t</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#James_Ryan">James Ryan</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Kathleen_Teebay">Kathleen Teebay</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2013-11-20T09:15:26" who="#">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-11-20T09:15:26" who="#Philcostel">
+                
+                    Page 562 modified:
+                    <!-- 
+41 Wolverhampton Road Stafford F50 at Stafford 4.7.16 Dear Mr. Ryan  We have been wondering a good deal how you are getting on & how you like your new surroundings. Father Moore called in last night & said so far he had heard nothing. This morning he sent a message for me to call to see him. I do so & it was to show me a letter he had received from the Chaplain. But as he lives a good distance, almost 30 miles I think, it did not give much news. He is an old Cottonian (a College for boys in the 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-11-20T09:19:50" who="#">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-11-20T09:19:50" who="#Philcostel">
+                
+                    Page 563 modified:
+                    <!-- 
+Midlands) & it seems Fr. Moore & he were there for a short time together - but his younger brother was a classmate of his. We were quite glad to hear it  because it seemed to make a link still with you as we know 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-11-20T12:41:46" who="#Philcostel">
+                
+                    Page 563 modified:
+                    <!-- 
+Midlands) & it seems Fr. Moore & he were there for a short time together - but his younger brother was a classmate of his. We were quite glad to hear it  because it seemed to make a link still with you as we know ?Coilín? - my brother was there a long time but of course at a much later date. So we trust to hear further details later. I have already sent you one letter. I wrote it Saturday - but as the address was doubtful I am not sure that you have received it. If you have & if I tell you the same things again you must excuse it because that is the reason. In it I told you I got to know Mr.Duffy and Mr.Caralon (from Belfast) by taking a message about collars & ties etc. for Mrs.Figgis. The former said he knew you at any rate by sight & I gave him a message for you in case he sees you. Mr.Caralon 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-11-20T13:10:58" who="#">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-11-20T13:10:58" who="#Philcostel">
+                
+                    Page 564 modified:
+                    <!-- 
+said he was a good friend of yours. I was sorry you were taken away in the first lot & not left here till later - there are still a good many here. But I daresay you will like it better as you will have discovered your other friends down there & others have gone on from here. I think the warder in the gate was rather glad because he said he is spared writing down your name. He thought you were the most popular in the barracks, he had to do it so often. Father Moore happened to call in Thursday night - the 29th. He said it was not the same place down there now that all the nuts had gone. Mrs. & Miss Pearse came to Stafford on Friday night & we were lucky to see a good deal of them. Last night they left for Shrewsbury en route for Frongoch which they intend to visit today, but I am glad to say they are returning here for a short time. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-11-20T13:28:50" who="#">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-11-20T13:28:50" who="#Philcostel">
+                
+                    Page 565 modified:
+                    <!-- 
+The priests here said the Masses on Sunday & Monday for her two sons & she was awfully pleased about it. She told us a great many details. It was very sad but she is so sweet & so wonderfully brave. She said "My loss is an irreparable one but knowing what it is, if I was asked to make the sacrifice again tomorrow, I would do it just as gladly". She promised to send some mortuary cards. I did not like to ask for one though I wanted to do so badly but she turned to me & said "You shall have one - I won't forget". I was so thankful to have had the opportunity of meeting her & I am sure I will be different all my life for having done so. I do hope your cold is better - if you only had stayed a bit longer you would have had more medicine & then probably the cure would have been complete. If you have to do your own washing be careful not to put on anything damp or else you will get it again. I wish I knew your new number - I have asked my friend to ask Mr.O'Connell when he writes to him & let me know. Goodbye for the present - Yours very sincerely Kathleen Teebay. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-15T14:47:11" who="#Comber">
+                
+                    Page 562 modified:
+                    <!-- 
+<note>P88/30</note> <address>41 Wolverhampton Road<lb/> Stafford<lb/></address> <note>F50 at Stafford.</note> <date>4.7.16</date> <salute>Dear Mr. Ryan,</salute>  We have been wondering<lb/> a good deal how you are getting on &amp;<lb/> how you like your new surroundings.<lb/> Father Moore called in last night<lb/> &amp; said so far he had heard<lb/> nothing. This morning he sent a<lb/> message for me to call to see him.<lb/> I do so &amp; it was to show me a<lb/> letter he had received from the<lb/> Chaplain. But as he lives a good<lb/> distance, almost 30 miles I think, it<lb/> did not give much news. He is<lb/> an old Cottonian (a College for boys in the<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-15T14:55:50" who="#Comber">
+                
+                    Page 563 modified:
+                    <!-- 
+<pb/>Midlands) &amp; it seems Fr. Moore &amp; he were<lb/> there for a short time together &#x2014; but his<lb/> younger brother was a classmate of<lb/> his. We were quite glad to hear it<lb/>  because it seemed to make a link<lb/> still with you as we know <unclear>Coilín</unclear> - my<lb/> brother was there a long time but of<lb/> course at a much later date. So we<lb/> trust to hear further details later.<lb/> <p>I have already sent you one<lb/> letter. I wrote it Saturday &#x2014;but as<lb/> the address was doubtful I am not<lb/> sure that you have received it.<lb/> If you have &amp; if I tell you the<lb/> same things again you must excuse<lb/> it because that is the reason.<lb/></p> In it I told you I got to know <unclear>Mr.</unclear><lb/> Duffy &amp; <unclear>Mr.</unclear>Caralon (from Belfast)<lb/> by taking a message about collars<lb/> &amp; ties etc for M<hi rend="superscript">rs</hi> Figgis. The<lb/> former said he knew you at any rate<lb/> by sight &amp; I gave him a message for<lb/> you in case he sees you. <unclear>Mr</unclear> Caralon<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-15T15:04:03" who="#Comber">
+                
+                    Page 564 modified:
+                    <!-- 
+<pb/>said he was a good friend of yours.<lb/> <p>I was sorry you were taken away<lb/> in the first lot &amp; not left here till later -<lb/> there are still a good many here. But I<lb/> daresay you will like it better as you<lb/> will have discovered your other friends<lb/> <add>in there</add> there &amp; others have gone on from here.<lb/></p>  <p>I think the warder in the gate<lb/> was rather glad because he said<lb/> he is spared writing down your name.<lb/> He thought you were the most popular<lb/> in the barracks, he had to do it so<lb/> often. Father Moore happened to call<lb/> in Thursday night - the <hi rend="superscript">29th.</hi> He<lb/> said it was not the same place down<lb/> there now that all the nuts had<lb/> gone.<lb/></p> M<hi rend="superscript">rs</hi>. &amp; Miss Pearse came to Stafford<lb/> on Friday night &amp; we were lucky to<lb/> see a good deal of them. Last night<lb/> they left for Shrewsbury en route for<lb/> Frongoch which they intend to<lb/> visit today, but I am glad to say they<lb/> are returning here for a short time.<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-15T15:15:05" who="#Comber">
+                
+                    Page 565 modified:
+                    <!-- 
+<pb/>The priests here said the Masses on<lb/> Sunday &amp; Monday for <unclear>her</unclear> two sons &amp; she<lb/> was awfully pleased about it. She<lb/> told us a great many details. It was<lb/> very sad but she is so sweet &amp; so<lb/> wonderfully brave. She said "My loss is<lb/> an irreparable one but knowing what it<lb/> is, if I was asked to make the sacrifice<lb/> again tomorrow, I would do it just as gladly".<lb/> She promised to send some mortuary cards.<lb/> I did not like to ask for one though I<lb/> wanted to do so badly but she turned to <lb/>me &amp; said "You shall have one - I wont<lb/>  forget". I was so thankful to have had<lb/> the opportunity of meeting her &amp; I am<lb/> sure I will be different all my life for<lb/> having done so.<lb/> <p>I do hope your cold is better - if you<lb/> only had stayed a bit longer you would<lb/> have had more medicine &amp; then probably<lb/> the cure would have been complete. If you<lb/> have to do your own washing be careful<lb/> not to put on anything damp or else you<lb/> will get it again.<lb/></p> <p>I wish I knew your new number -<lb/> I have asked my friend to ask Mr.O'Connell when<lb/> she writes to him &amp; let me know.<lb/></p> Goodbye for the present.<salute>Yours very sincerely</salute> <salute>Kathleen Teebay.</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T15:36:28" who="#Tbrosnan">
+                
+                    Page 562 modified:
+                    <!-- 
+<note>P88/30</note> <address>41 Wolverhampton Road<lb/> Stafford<lb/></address> <note>F50 at Stafford.</note> <date>4.7.16</date> <salute>Dear Mr. Ryan,</salute> <p> We have been wondering<lb/> a good deal how you are getting on &amp;<lb/> how you like your new surroundings.<lb/> Father Moore called in last night<lb/> &amp; said so far he had heard<lb/> nothing. This morning he sent a<lb/> message for me to call to see him.<lb/> I do so &amp; it was to show me a<lb/> letter he had received from the<lb/> Chaplain. But as he lives a good<lb/> distance, almost 30 miles I think, it<lb/> did not give much news. He is<lb/> an old Cottonian (a College for boys in the<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T15:40:04" who="#Tbrosnan">
+                
+                    Page 563 modified:
+                    <!-- 
+Midlands) &amp; it seems Fr. Moore &amp; he were<lb/> there for a short time together &#x2014; but his<lb/> younger brother was a classmate of<lb/> his. We were quite glad to hear it<lb/>  because it seemed to make a link<lb/> still with you as we know <unclear>Coilín</unclear> - my<lb/> brother was there a long time but of<lb/> course at a much later date. So we<lb/> trust to hear further details later.</p> <p>I have already sent you one<lb/> letter. I wrote it Saturday &#x2014;but as<lb/> the address was doubtful I am not<lb/> sure that you have received it.<lb/> If you have &amp; if I tell you the<lb/> same things again you must excuse<lb/> it because that is the reason.<lb/></p> <p>In it I told you I got to know <unclear>Mr.</unclear><lb/> Duffy &amp; <unclear>Mr.</unclear>Caralon (from Belfast)<lb/> by taking a message about collars<lb/> &amp; ties etc for M<hi rend="superscript">rs</hi> Figgis. The<lb/> former said he knew you at any rate<lb/> by sight &amp; I gave him a message for<lb/> you in case he sees you. <unclear>Mr</unclear> Caralon<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T15:43:32" who="#Tbrosnan">
+                
+                    Page 564 modified:
+                    <!-- 
+<pb/>said he was a good friend of yours.</p> <p>I was sorry you were taken away<lb/> in the first lot &amp; not left  till later -<lb/> there are still a good many here. But I<lb/> daresay you will like it better as you<lb/> will have discovered your other friends<lb/> <add>in there</add> there &amp; others have gone on from here.</p>  <p>I think the warder in the gate<lb/> was rather glad because he said<lb/> he is spared writing down your name.<lb/> He thought you were the most popular<lb/> in the barracks, he had to do it so<lb/> often. Father Moore happened to call<lb/> in Thursday night - the 29<hi rend="superscript">th</hi>. He<lb/> said it was not the same place down<lb/> there now that all the nuts had<lb/> gone.</p> <p>>M<hi rend="superscript">rs</hi>. &amp; Miss Pearse came to Stafford<lb/> on Friday night &amp; we were lucky to<lb/> see a good deal of them. Last night<lb/> they left for Shrewsbury en route for<lb/> Frongoch which they intend to<lb/> visit today, but I am glad to say they<lb/> are returning here for a short time.<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T15:46:55" who="#Tbrosnan">
+                
+                    Page 565 modified:
+                    <!-- 
+The priests here said the Masses on<lb/> Sunday &amp; Monday for her two sons &amp; she<lb/> was awfully pleased about it. She<lb/> told us a great many details. It was<lb/> very sad but she is so sweet &amp; so<lb/> wonderfully brave. She said "My loss is<lb/> an irreparable one but knowing what it<lb/> is, if I was asked to make the sacrifice<lb/> again tomorrow, I would do it just as gladly".<lb/> She promised to send some mortuary cards.<lb/> I did not like to ask for one though I<lb/> wanted to do so badly but she turned to <lb/>me &amp; said "You shall have one - I wont<lb/>  forget". I was so thankful to have had<lb/> the opportunity of meeting her &amp; I am<lb/> sure I will be different all my life for<lb/> having done so.</p> <p>I do hope your cold is better - if you<lb/> only had stayed a bit longer you would<lb/> have had more medicine &amp; then probably<lb/> the cure would have been complete. If you<lb/> have to do your own washing be careful<lb/> not to put on anything damp or else you<lb/> will get it again.</p> <p>I wish I knew your new number -<lb/> I have asked my friend to ask Mr.O'Connell when<lb/> she writes to him &amp; let me know.</p> Goodbye for the present.<salute>Yours very sincerely</salute> <salute>Kathleen Teebay.</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T13:05:22" who="#Johnchambers81">
+                
+                    Page 562 modified:
+                    <!-- 
+<note>P88/30</note> <address>41 Wolverhampton Road <lb/> Stafford</address> <note>F50 at Stafford.</note> <date>4.7.16</date> <salute>Dear Mr. Ryan,</salute> <p> We have been wondering <lb/> a good deal how you are getting on &amp; <lb/> how you like your new surroundings. <lb/> Father Moore called in last night <lb/> &amp; said so far he had heard <lb/> nothing. This morning he sent a <lb/> message for me to call to see him. <lb/> I do so &amp; it was to show me a <lb/> letter he had received from the <lb/> Chaplain. But as he lives a good <lb/> distance, almost 30 miles I think, it <lb/> did not give much news. He is <lb/> an old Cottonian (a College for boys in the 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T13:11:15" who="#Johnchambers81">
+                
+                    Page 563 modified:
+                    <!-- 
+<lb/>Midlands) &amp; it seems Fr. Moore &amp; he were <lb/> there for a short time together &#x2014; but his <lb/> younger brother was a classmate of <lb/> his. We were quite glad to hear it <lb/>  because it seemed to make a link <lb/> still with you as we know <unclear>Coilín</unclear> - my <lb/> brother was there a long time but of <lb/> course at a much later date. So we <lb/> trust to hear further details later.</p> <p>I have already sent you one <lb/> letter. I wrote it Saturday &#x2014;but as <lb/> the address was doubtful I am not <lb/> sure that you have received it. <lb/> If you have &amp; if I tell you the <lb/> same things again you must excuse <lb/> it because that is the reason.</p> <p>In it I told you I got to know <unclear>Mr.</unclear> <lb/> Duffy &amp; Mr.Caralon (from Belfast) <lb/> by taking a message about collars <lb/> &amp; ties etc for M<hi rend="superscript">rs</hi> Figgis. The <lb/> former said he knew you at any rate <lb/> by sight &amp; I gave him a message fo r<lb/> you in case he sees you. <unclear>Mr</unclear> Caralon 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T13:16:08" who="#Johnchambers81">
+                
+                    Page 564 modified:
+                    <!-- 
+<lb/>said he was a good friend of yours.</p> <p>I was sorry you were taken away <lb/> in the first lot &amp; not left  till later - <lb/> there are still a good many here. But I <lb/> daresay you will like it better as you <lb/> will have discovered your other friends <lb/> <add>down there</add> there &amp; others have gone on from here.</p>  <p>I think the warder in the gate <lb/> was rather glad because he said <lb/> he is spared writing down your name. <lb/> He thought you were the most popular <lb/> in the barracks, he had to do it so <lb/> often. Father Moore happened to call <lb/> in Thursday night - the 29<hi rend="superscript">th</hi>. He <lb/> said it was not the same place down <lb/> there now that all the nuts had <lb/> gone.</p> <p>>M<hi rend="superscript">rs</hi>. &amp; Miss Pearse came to Stafford <lb/> on Friday night &amp; we were lucky to <lb/> see a good deal of them. Last night <lb/> they left for Shrewsbury en route for <lb/> Frongoch which they intend to <lb/> visit today, but I am glad to say they <lb/> are returning here for a short time. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T13:25:31" who="#Johnchambers81">
+                
+                    Page 565 modified:
+                    <!-- 
+The priests here said the Masses on <lb/> Sunday &amp; Monday for her two sons &amp; she <lb/> was awfully pleased about it. She <lb/> told us a great many details. It was <lb/> very sad but she is so sweet &amp; so <lb/> wonderfully brave. She said "My loss is <lb/> an irreparable one but knowing what it <lb/> is, if I was asked to make the sacrifice <lb/> again tomorrow, I would do it just as gladly". <lb/> She promised to send some mortuary cards. <lb/> I did not like to ask for one though I <lb/> wanted to do so badly but she turned to  <lb/>me &amp; said "You shall have one - I wont <lb/>  forget". I was so thankful to have had <lb/> the opportunity of meeting her &amp; I am <lb/> sure I will be different all my life for <lb/> having done so.</p> <p>I do hope your cold is better - if you <lb/> only had stayed a bit longer you would <lb/> have had more medicine &amp; then probably <lb/> the cure would have been complete. If you <lb/> have to do your own washing be careful <lb/> not to put on anything damp or else you <lb/> will get it again.</p> <p>I wish I knew your new number - <lb/> I have asked my friend to ask Mr.O'Connell when <lb/> she writes to him &amp; let me know.</p> <lb/>Goodbye for the present.<salute>Yours very sincerely</salute> <lb/>Kathleen Teebay 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T13:25:58" who="#Johnchambers81">
+                
+                    Page 564 modified:
+                    <!-- 
+<lb/>said he was a good friend of yours.</p> <p>I was sorry you were taken away <lb/> in the first lot &amp; not left till later - <lb/> there are still a good many here. But I <lb/> daresay you will like it better as you <lb/> will have discovered your other friends <lb/> <add>down there</add> there &amp; others have gone on from here.</p>  <p>I think the warder in the gate <lb/> was rather glad because he said <lb/> he is spared writing down your name. <lb/> He thought you were the most popular <lb/> in the barracks, he had to do it so <lb/> often. Father Moore happened to call <lb/> in Thursday night - the 29<hi rend="superscript">th</hi>. He <lb/> said it was not the same place down <lb/> there now that all the nuts had <lb/> gone.</p> <p>>M<hi rend="superscript">rs</hi>. &amp; Miss Pearse came to Stafford <lb/> on Friday night &amp; we were lucky to <lb/> see a good deal of them. Last night <lb/> they left for Shrewsbury en route for <lb/> Frongoch which they intend to <lb/> visit today, but I am glad to say they <lb/> are returning here for a short time. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-05T00:00:00" who="#JC">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#JC" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-07T14:00:38" who="#NR">
+                
+                    Page 564 modified:
+                    <!-- 
+<lb/>said he was a good friend of yours.</p> <p>I was sorry you were taken away <lb/> in the first lot &amp; not left till later - <lb/> there are still a good many here. But I <lb/> daresay you will like it better as you <lb/> will have discovered your other friends <lb/> <add>down there</add> there &amp; others have gone on from here.</p>  <p>I think the warder in the gate <lb/> was rather glad because he said <lb/> he is spared writing down your name. <lb/> He thought you were the most popular <lb/> in the barracks, he had to do it so <lb/> often. Father Moore happened to call <lb/> in Thursday night - the 29<hi rend="superscript">th</hi>. He <lb/> said it was not the same place down <lb/> there now that all the nuts had <lb/> gone.</p> <p>M<hi rend="superscript">rs</hi>. &amp; Miss Pearse came to Stafford <lb/> on Friday night &amp; we were lucky to <lb/> see a good deal of them. Last night <lb/> they left for Shrewsbury en route for <lb/> Frongoch which they intend to <lb/> visit today, but I am glad to say they <lb/> are returning here for a short time. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-07T14:01:15" who="#NR">
+                
+                    Page 565 modified:
+                    <!-- 
+<lb/>The priests here said the Masses on <lb/> Sunday &amp; Monday for her two sons &amp; she <lb/> was awfully pleased about it. She <lb/> told us a great many details. It was <lb/> very sad but she is so sweet &amp; so <lb/> wonderfully brave. She said "My loss is <lb/> an irreparable one but knowing what it <lb/> is, if I was asked to make the sacrifice <lb/> again tomorrow, I would do it just as gladly". <lb/> She promised to send some mortuary cards. <lb/> I did not like to ask for one though I <lb/> wanted to do so badly but she turned to  <lb/>me &amp; said "You shall have one - I wont <lb/>  forget". I was so thankful to have had <lb/> the opportunity of meeting her &amp; I am <lb/> sure I will be different all my life for <lb/> having done so.</p> <p>I do hope your cold is better - if you <lb/> only had stayed a bit longer you would <lb/> have had more medicine &amp; then probably <lb/> the cure would have been complete. If you <lb/> have to do your own washing be careful <lb/> not to put on anything damp or else you <lb/> will get it again.</p> <p>I wish I knew your new number - <lb/> I have asked my friend to ask Mr.O'Connell when <lb/> she writes to him &amp; let me know.</p> <lb/>Goodbye for the present.<salute>Yours very sincerely</salute> <signed>Kathleen Teebay</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 564 created using version from <date when="2013-11-20T13:10:58"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 564 removed (version from <date when="2013-11-20T13:10:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 564 removed (version from <date when="2015-01-15T15:04:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 564 removed (version from <date when="2015-11-24T15:43:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 564 removed (version from <date when="2015-12-04T13:16:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 564 removed (version from <date when="2015-12-04T13:25:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 564 removed (version from <date when="2015-12-07T14:00:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 565 created using version from <date when="2013-11-20T13:28:50"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 565 removed (version from <date when="2013-11-20T13:28:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 565 removed (version from <date when="2015-01-15T15:15:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 565 removed (version from <date when="2015-11-24T15:46:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 565 removed (version from <date when="2015-12-04T13:25:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 565 removed (version from <date when="2015-12-07T14:01:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 562 created using version from <date when="2013-11-20T09:15:26"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 562 removed (version from <date when="2013-11-20T09:15:26"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 562 removed (version from <date when="2015-01-15T14:47:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 562 removed (version from <date when="2015-11-24T15:36:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 562 removed (version from <date when="2015-12-04T13:05:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 563 created using version from <date when="2013-11-20T09:19:50"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 563 removed (version from <date when="2013-11-20T09:19:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 563 removed (version from <date when="2013-11-20T12:41:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 563 removed (version from <date when="2015-01-15T14:55:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 563 removed (version from <date when="2015-11-24T15:40:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:52" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 563 removed (version from <date when="2015-12-04T13:11:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 564 (version from <date when="2015-12-07T14:00:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 565 added to letter (version from <date when="2015-12-07T14:01:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 562 added to letter (version from <date when="2015-12-07T13:59:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 563 added to letter (version from <date when="2015-12-07T13:59:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:15" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:19" who="#PythonScript">
+                
+                    Clean tags: Page 562 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:19" who="#PythonScript">
+                
+                    Clean tags: Page 563 cleaned of 8 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:19" who="#PythonScript">
+                
+                    Clean tags: Page 564 cleaned of 4 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:19" who="#PythonScript">
+                
+                    Clean tags: Page 565 cleaned of 7 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:37" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_225_img_562" url="98cff69516b6757486da254eb13ab75d.jpg"/> 
+    
+    <graphic xml:id="L1916_225_img_563" url="6dec873f5b33d2555ba1e8d1cc929d56.jpg"/> 
+    
+    <graphic xml:id="L1916_225_img_564" url="c1a1cb23d75264738bc9c9ee62442457.jpg"/> 
+    
+    <graphic xml:id="L1916_225_img_565" url="8675a1d63bb371101e73acd1b8d3e234.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="562" facs="#L1916_225_img_562"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<note>P88/30</note> <opener><address><addrLine>41 Wolverhampton Road</addrLine>
+<addrLine>Stafford</addrLine></address> <note>F50 at Stafford.</note> <dateline><date>4.7.16</date></dateline> <salute>Dear Mr. Ryan,</salute></opener> <p> We have been wondering <lb/> a good deal how you are getting on &amp; <lb/> how you like your new surroundings. <lb/> Father Moore called in last night <lb/> &amp; said so far he had heard <lb/> nothing. This morning he sent a <lb/> message for me to call to see him. <lb/> I do so &amp; it was to show me a <lb/> letter he had received from the <lb/> Chaplain. But as he lives a good <lb/> distance, almost 30 miles I think, it <lb/> did not give much news. He is <lb/> an old Cottonian (a College for boys in the
+        
+    
+
+    
+         
+        <pb n="563" facs="#L1916_225_img_563"/>
+        
+        
+           
+            <lb/>Midlands) &amp; it seems Fr. Moore &amp; he were <lb/> there for a short time together &#x2014; but his <lb/> younger brother was a classmate of <lb/> his. We were quite glad to hear it <lb/>  because it seemed to make a link <lb/> still with you as we know <unclear>Coilín</unclear> - my <lb/> brother was there a long time but of <lb/> course at a much later date. So we <lb/> trust to hear further details later.</p> <p>I have already sent you one <lb/> letter. I wrote it Saturday &#x2014;but as <lb/> the address was doubtful I am not <lb/> sure that you have received it. <lb/> If you have &amp; if I tell you the <lb/> same things again you must excuse <lb/> it because that is the reason.</p> <p>In it I told you I got to know <unclear>Mr.</unclear> <lb/> Duffy &amp; Mr.Caralon (from Belfast) <lb/> by taking a message about collars <lb/> &amp; ties etc for M<hi rend="superscript">rs</hi> Figgis. The <lb/> former said he knew you at any rate <lb/> by sight &amp; I gave him a message fo r<lb/> you in case he sees you. <unclear>Mr</unclear> Caralon
+        
+    
+         
+        <pb n="564" facs="#L1916_225_img_564"/>
+        
+        
+           
+            <lb/>said he was a good friend of yours.</p> <p>I was sorry you were taken away <lb/> in the first lot &amp; not left till later - <lb/> there are still a good many here. But I <lb/> daresay you will like it better as you <lb/> will have discovered your other friends <lb/> <add>down there</add> there &amp; others have gone on from here.</p>  <p>I think the warder in the gate <lb/> was rather glad because he said <lb/> he is spared writing down your name. <lb/> He thought you were the most popular <lb/> in the barracks, he had to do it so <lb/> often. Father Moore happened to call <lb/> in Thursday night - the 29<hi rend="superscript">th</hi>. He <lb/> said it was not the same place down <lb/> there now that all the nuts had <lb/> gone.</p> <p>M<hi rend="superscript">rs</hi>. &amp; Miss Pearse came to Stafford <lb/> on Friday night &amp; we were lucky to <lb/> see a good deal of them. Last night <lb/> they left for Shrewsbury en route for <lb/> Frongoch which they intend to <lb/> visit today, but I am glad to say they <lb/> are returning here for a short time.
+        
+    
+         
+        <pb n="565" facs="#L1916_225_img_565"/>
+        
+        
+           
+            <lb/>The priests here said the Masses on <lb/> Sunday &amp; Monday for her two sons &amp; she <lb/> was awfully pleased about it. She <lb/> told us a great many details. It was <lb/> very sad but she is so sweet &amp; so <lb/> wonderfully brave. She said "My loss is <lb/> an irreparable one but knowing what it <lb/> is, if I was asked to make the sacrifice <lb/> again tomorrow, I would do it just as gladly". <lb/> She promised to send some mortuary cards. <lb/> I did not like to ask for one though I <lb/> wanted to do so badly but she turned to  <lb/>me &amp; said "You shall have one - I wont <lb/>  forget". I was so thankful to have had <lb/> the opportunity of meeting her &amp; I am <lb/> sure I will be different all my life for <lb/> having done so.</p> <p>I do hope your cold is better - if you <lb/> only had stayed a bit longer you would <lb/> have had more medicine &amp; then probably <lb/> the cure would have been complete. If you <lb/> have to do your own washing be careful <lb/> not to put on anything damp or else you <lb/> will get it again.</p> <p>I wish I knew your new number - <lb/> I have asked my friend to ask Mr.O'Connell when <lb/> she writes to him &amp; let me know.</p> <lb/>Goodbye for the present.<closer><salute>Yours very sincerely</salute> <signed>Kathleen Teebay</signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

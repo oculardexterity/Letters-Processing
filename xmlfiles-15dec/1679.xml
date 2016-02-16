@@ -1,0 +1,1885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1679">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Julia Taylor to Maire Elizabeth Savage Armstrong, 4 May 1916</title>
+                
+                <author>Julia Taylor</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="HH">Hannah Healy</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="MaryGrehan">Mary Grehan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Zzxjoanw">Zzxjoanw</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Scribe57">Scribe57</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Anthropanda">Anthropanda</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tierneem">Tierneem</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Roger">Roger</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1679</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This letter was written by Julia Taylor to Marie Elizabeth Savage Armstrong (b. 1854). Marie was the wife of poet George Francis Savage Armstrong (1845-1906).    The letter concerns the Easter Rising. Taylor describes the noise of fighting and laments over the loss of life. She states that the soldiers were nearly dead for want of food and that all they had received were some biscuits and tea. Taylor also writes about how the military came and searched the village with machine guns on the top of streets and armoured cars. Julia mentions that Mrs. Pearse and her daughter, the mother and sister of Patrick Pearse, remain in the Hermitage, the site of Pearse&#39;s school in Rathfarnham.The rest of the letter concerns personal affairs, such as the letters Miss Taylor has recently sent and received. </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Public Record Office of Northern Ireland">Public Record Office of Northern Ireland</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Marie_Elizabeth_Savage_Armstrong">Marie Elizabeth Savage Armstrong</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Julia_Taylor">Julia Taylor</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-10-01T18:04:27" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-10-01T18:04:27" who="#Tierneem">
+                
+                    Page 4200 modified:
+                    <!-- 
+Such terrible loss of life<lb/><&amp;destruction of property.<lb/>The soldiers were nearly<lb/>dead from want of<lb/>food. From Monday<lb/>till Friday only a<lb/>little biscuits <unclear>and tea</unclear>.<lb/>We were better off than<lb/>those in Dublin as we<lb/>helped each other. The<lb/>first floor <unclear>of</unclear> Rathfarnham<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-13T23:39:24" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-10-13T23:39:24" who="#Anthropanda">
+                
+                    Page 4198 modified:
+                    <!-- 
+The Priory Rathfarnham MAy 14th 16  Dearest Darnsnil I don't think I answered a nice long letter I had from you just before the rebellion.  What a time we have had - Here the roar of 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-13T23:42:38" who="#Anthropanda">
+                
+                    Page 4198 modified:
+                    <!-- 
+<heading>The Priory<lb/> Rathfarnham<lb> May 14th 16<lb/></heading>  Dearest Darnsnil<lb/> I don't think I<lb/> answered a nice long<lb/> letter I had from you<lb/> just before the rebellion.<lb/>  What a time we have<lb/> had - Here the roar of 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-14T01:31:09" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-10-14T01:31:09" who="#Anthropanda">
+                
+                    Page 4199 modified:
+                    <!-- 
+of <gap/> of Rebels<lb/> machine guns never<lb/> ceased night or day,<lb/> only some truces the<lb/> <gap/> spoke up there<lb/> we heard nothing else<lb/> & our windows rattled, it was awful - the house<lb/> lighted by night by<lb/> fires, & by day we looked <pb/> into a lurid cloud,<lb/> in the night there<lb/> seemed to be a sea<lb/> of fire - soldiers home<lb/> from the front, say<lb/> what <hi rend="underline">was</hi> <unclear>L...</unclear> St,<lb/> is now like Ypres. ............. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-14T03:09:49" who="#Anthropanda">
+                
+                    Page 4199 modified:
+                    <!-- 
+of <gap/> of Rebels<lb/> machine guns never<lb/> ceased night or day,<lb/> only some truces the<lb/> <gap/> spoke up there<lb/> we heard nothing else<lb/> & our windows rattled, it was awful - the house<lb/> lighted by night by<lb/> fires, & by day we looked <pb/> into a lurid cloud,<lb/> in the night there<lb/> seemed to be a sea<lb/> of fire - soldiers home<lb/> from the front, say<lb/> what <hi rend="underline">was</hi> <unclear>L...</unclear> St,<lb/> is now like Ypres.<lb/> / <gap/><gap/><gap/><gap/> <lb/> say than lazyness<lb/> & 'wait a sec' plicy brought 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-14T03:10:51" who="#Anthropanda">
+                
+                    Page 4199 modified:
+                    <!-- 
+of <gap/> of Rebels<lb/> machine guns never<lb/> ceased night or day,<lb/> only some truces the<lb/> <gap/> spoke up there<lb/> we heard nothing else<lb/> & our windows rattled, it was awful - the house<lb/> lighted by night by<lb/> fires, & by day we looked <pb/> into a lurid cloud,<lb/> in the night there<lb/> seemed to be a sea<lb/> of fire - soldiers home<lb/> from the front, say<lb/> what <hi rend="underline">was</hi> <unclear>L...</unclear> St,<lb/> is now like Ypres.<lb/> / <gap/><gap/><gap/><gap/> <lb/> say than lazyness<lb/> & 'wait & see' policy brought 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-14T03:14:39" who="#Anthropanda">
+                
+                    Page 4199 modified:
+                    <!-- 
+of <gap/> of Rebels<lb/> machine guns never<lb/> ceased night or day,<lb/> only some times the<lb/> <gap/> spoke up there<lb/> we heard nothing else<lb/> & our windows rattled, it was awful - the house<lb/> lighted by night by<lb/> fires, & by day we looked <pb/> into a lurid cloud,<lb/> in the night there<lb/> seemed to be a sea<lb/> of fire - soldiers home<lb/> from the front, say<lb/> what <hi rend="underline">was</hi> <unclear>L...</unclear> St,<lb/> is now like Ypres.<lb/> / <gap/><gap/><gap/><gap/> <lb/> say than lazyness<lb/> & 'wait & see' policy brought 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-14T03:15:29" who="#Anthropanda">
+                
+                    Page 4199 modified:
+                    <!-- 
+of cannon of Rebels<lb/> machine guns never<lb/> ceased night or day,<lb/> only some times the<lb/> <gap/> spoke & then<lb/> we heard nothing else<lb/> & our windows rattled, it was awful - the house<lb/> lighted by night by<lb/> fires, & by day we looked <pb/> into a lurid cloud,<lb/> in the night there<lb/> seemed to be a sea<lb/> of fire - soldiers home<lb/> from the front, say<lb/> what <hi rend="underline">was</hi> <unclear>L...</unclear> St,<lb/> is now like Ypres.<lb/> / <gap/><gap/><gap/><gap/> <lb/> say than lazyness<lb/> & 'wait & see' policy brought 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-14T03:19:16" who="#Anthropanda">
+                
+                    Page 4199 modified:
+                    <!-- 
+of Summon of Rebel &<lb/> machine guns never<lb/> ceased night or day,<lb/> only some times the<lb/> <gap/> spoke & then<lb/> we heard nothing else<lb/> & our windows rattled, it was awful - the house<lb/> lighted by night by<lb/> fires, & by day we looked <pb/> into a lurid cloud,<lb/> in the night there<lb/> seemed to be a sea<lb/> of fire - soldiers home<lb/> from the front, say<lb/> what <hi rend="underline">was</hi> Sackville St,<lb/> is now like Ypres.<lb/> / <gap/><gap/><gap/><gap/> <lb/> say than lazyness<lb/> & 'wait & see' policy brought 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-14T03:23:04" who="#Anthropanda">
+                
+                    Page 4199 modified:
+                    <!-- 
+of Summon of Rebel &<lb/> machine guns never<lb/> ceased night or day,<lb/> only some times the<lb/> <hi rend="underline">Fleet</hi> <hi rend="underline">spoke</hi> <hi rend="underline">up</hi> & then<lb/> we heard nothing else<lb/> & our windows rattled, it was awful - the house<lb/> lighted by night by<lb/> fires, & by day we looked <pb/> into a lurid cloud,<lb/> in the night there<lb/> seemed to be a sea<lb/> of fire - soldiers home<lb/> from the front, say<lb/> what <hi rend="underline">was</hi> Sackville St,<lb/> is now like Ypres.<lb/> / <gap/><gap/><gap/><gap/> <lb/> say than lazyness<lb/> & 'wait & see' policy brought 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-14T03:24:26" who="#Anthropanda">
+                
+                    Page 4199 modified:
+                    <!-- 
+of Summon of Rebel &<lb/> machine guns never<lb/> ceased night or day,<lb/> only some times the<lb/> <hi rend="underline">Fleet</hi> <hi rend="underline">spoke</hi> <hi rend="underline">up</hi> & then<lb/> we heard nothing else<lb/> & our windows rattled, it was awful - the house<lb/> lighted by night by<lb/> fires, & by day we looked <pb/> into a lurid cloud,<lb/> in the night there<lb/> seemed to be a sea<lb/> of fire - Soldiers home<lb/> from the front, say<lb/> what <hi rend="underline">was</hi> Sackville St,<lb/> is now like Ypres.<lb/> / <gap/><gap/><gap/><gap/> <lb/> say than lazyness<lb/> & 'wait & see' policy brought 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-14T03:24:41" who="#Anthropanda">
+                
+                    Page 4199 modified:
+                    <!-- 
+of Summon of Rebel &<lb/> machine guns never<lb/> ceased night or day,<lb/> only some times the<lb/> <hi rend="underline">Fleet</hi> <hi rend="underline">spoke</hi> <hi rend="underline">up</hi> & then<lb/> we heard nothing else<lb/> & our windows rattled, it was awful - the house<lb/> lighted by night by<lb/> fires, & by day we looked <pb/> into a lurid cloud,<lb/> in the night there<lb/> seemed to be a sea<lb/> of fire - Soldiers home<lb/> from the front, say<lb/> what <hi rend="underline">was</hi> Sackville st,<lb/> is now like Ypres.<lb/> / <gap/><gap/><gap/><gap/> <lb/> say than lazyness<lb/> & 'wait & see' policy brought 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-14T03:26:25" who="#Anthropanda">
+                
+                    Page 4199 modified:
+                    <!-- 
+of Summon of Rebel &<lb/> machine guns never<lb/> ceased night or day,<lb/> only some times the<lb/> <hi rend="underline">Fleet</hi> <hi rend="underline">spoke</hi> <hi rend="underline">up</hi> & then<lb/> we heard nothing else<lb/> & our windows rattled, it was awful - the house<lb/> lighted by night by<lb/> fires, & by day we looked <pb/> into a lurid cloud,<lb/> in the night there<lb/> seemed to be a sea<lb/> of fire - Soldiers home<lb/> from the front, say<lb/> what <hi rend="underline">was</hi> Sackville st,<lb/> is now like Ypres.<lb/> / <gap/><gap/>wicked<gap/> <lb/> say than lazyness<lb/> & 'wait & see' policy brought 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T01:23:07" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T01:23:07" who="#Anthropanda">
+                
+                    Page 4201 modified:
+                    <!-- 
+came in armoured<lb/> cars with escort of troops,<lb/> & last Tuesday the<lb/> military came to<lb/> search the village with<lb/> machine guns at top<lb/> of street & armoured<lb/> cars in it too. I think<lb/> 3 of them. Hermitage<lb/> straight opposite is the<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T01:31:37" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T01:31:37" who="#Anthropanda">
+                
+                    Page 4202 modified:
+                    <!-- 
+'St Inda' the Pearce's<lb/> & the mother & sister<lb/> are still there.<lb/> Where you stand on<lb/> <gap/> Bridge to beyond<lb/> the Pillar there is<lb/> only a black, smoking,<lb/> <hi rend="underline">stinking</hi> mass. the<lb/> wall or front of a house<lb/> standing like a skeleton<pb/> & also down to Custom<lb/> House. Dr. <unclear>L..</unclear> looked<lb/> in to see Hank was safe<lb/> 3 or 4 days. He said <gap/><lb/> were falling like a<lb/> hail shower - & on <sic>Tuesdy</sic> or Wed there was still a<lb/> little ....... 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T02:06:39" who="#Anthropanda">
+                
+                    Page 4200 modified:
+                    <!-- 
+Such terrible loss of life<lb/><&amp;destruction of property.<lb/>The soldiers were nearly<lb/>dead from want of<lb/>food. From Monday<lb/>till Friday only a<lb/>little biscuits <unclear>and tea</unclear>.<lb/>We were better off than<lb/>those in Dublin as we<lb/>helped each other. The<lb/>first flour for W Rathfarnham<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T02:07:48" who="#Anthropanda">
+                
+                    Page 4202 modified:
+                    <!-- 
+'St Inda' the Pearce's<lb/> & the mother & sister<lb/> are still there.<lb/> Where you stand on<lb/> Carlisle Bridge to beyond<lb/> the Pillar there is<lb/> only a black, smoking,<lb/> <hi rend="underline">stinking</hi> mass. the<lb/> wall or front of a house<lb/> standing like a skeleton<pb/> & also down to Custom<lb/> House. Dr. <unclear>L..</unclear> looked<lb/> in to see Hank was safe<lb/> 3 or 4 days. He said <gap/><lb/> were falling like a<lb/> hail shower - & on <sic>Tuesdy</sic> or Wed there was still a<lb/> little ....... 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T02:15:48" who="#Anthropanda">
+                
+                    Page 4202 modified:
+                    <!-- 
+'St Inda' the Pearce's<lb/> & the mother & sister<lb/> are still there.<lb/> Where you stand on<lb/> Carlisle Bridge beyond<lb/> the Pillar there is<lb/> only a black, smoking,<lb/> <hi rend="underline">stinking</hi> mass. the<lb/> wall or front of a house<lb/> standing like a skeleton<pb/> & also down to Custom<lb/> House. Dr. <unclear>L..</unclear> looked<lb/> in to see Bank was safe<lb/> 3 or 4 days. He said <gap/><lb/> were falling like a<lb/> hail shower - & on <sic>Tuesdy</sic> or Wed there was still a<lb/> little <gap/>. Clyde<lb/> Rd round St Bartholemews<lb/> was very bad. There are 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T02:19:55" who="#Anthropanda">
+                
+                    Page 4199 modified:
+                    <!-- 
+of Summon of Rebel &amp;<lb/> machine guns never<lb/> ceased night or day,<lb/> only some times the<lb/> <hi rend="underline">Fleet</hi> <hi rend="underline">spoke</hi> <hi rend="underline">up</hi> &amp; then<lb/> we heard nothing else<lb/> &amp; our windows rattled, it was awful - the house<lb/> lighted by night by<lb/> fires, &amp; by day we looked <pb/> into a lurid cloud,<lb/> in the night there<lb/> seemed to be a sea<lb/> of fire - Soldiers home<lb/> from the front, say<lb/> what <hi rend="underline">was</hi> Sackville st,<lb/> is now like Ypres.<lb/> / <gap/><gap/>wicked<gap/> <lb/> say than lazyness<lb/> &amp; 'wait & see' policy brought 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T02:24:20" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T02:24:20" who="#Anthropanda">
+                
+                    Page 4203 modified:
+                    <!-- 
+some of the soliders<lb/> buried in the Church<lb/> grounds. There are<lb/> many other things<lb/> I heard but dont care<lb/> to write.<lb/> I had a nice<lb/> letter from Staff he<lb/> is very busy at his<lb/> garden. I also had<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T02:27:30" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T02:27:30" who="#Anthropanda">
+                
+                    Page 4204 modified:
+                    <!-- 
+from Cecil 2 lines,<lb/> and another short one<lb/> from D. I wrote to<lb/> her a civil letter<lb/> Easter Eve- but did<lb/> not hear since- &amp;. I just<pb/> wrote a P. S. to Cecil<lb/> to say we were safe<lb/> but neither wrote. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T02:35:30" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T02:35:30" who="#Anthropanda">
+                
+                    Page 4205 modified:
+                    <!-- 
+I simply could not<lb/> respond to all her <unclear>fuss</unclear>.  I was just fussing<lb/> &amp; hoped she would<lb/> write &amp; tell me how<lb/> they got on "I was always<lb/> glad to hear" It is a<lb/> most painful photo<lb/> to me. She swears <gap/> to<pb/> dominate poor Cecil<lb/> &amp; it i a horrid face<lb/> tho' handsome. He<lb/> is not likely to get more<lb/> <gap/> afloat ones<lb/> age - she &amp; he say -<lb/> &amp; they are  <gap/> up<lb/> the flat &amp; going to the<lb/> country to start a food<lb/> farm. I don't understand 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T02:35:34" who="#Anthropanda">
+                
+                    Page 4205 modified:
+                    <!-- 
+I simply could not<lb/> respond to all her <unclear>fuss</unclear>.  I was just fussing<lb/> &amp; hoped she would<lb/> write &amp; tell me how<lb/> they got on "I was always<lb/> glad to hear" It is a<lb/> most painful photo<lb/> to me. She swears <gap/> to<pb/> dominate poor Cecil<lb/> &amp; it i a horrid face<lb/> tho' handsome. He<lb/> is not likely to get more<lb/> <gap/> afloat ones<lb/> age - she &amp; he say -<lb/> &amp; they are  <gap/> up<lb/> the flat &amp; going to the<lb/> country to start a food<lb/> farm. I don't understand<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T02:39:06" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T02:39:06" who="#Anthropanda">
+                
+                    Page 4206 modified:
+                    <!-- 
+it at all. A letter from Wm Read love to you. I do hope Frank &amp; Raymond are both better&#x2014;<lb/> <salue> With much love<lb/>Your dearest <gap/><lb/> <gap/><gap/><gap/><lb/> Julia</salute><lb/>   I have a Ply. Lady gardening pupil. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T02:43:45" who="#Anthropanda">
+                
+                    Page 4198 modified:
+                    <!-- 
+D.D8.8/166  <heading><address>The Priory<lb/> Rathfarnham</address><lb> <date>May 14th 16</date><lb/></heading>  Dearest Darnsnil<lb/> I don't think I<lb/> answered a nice long<lb/> letter I had from you<lb/> just before the rebellion.<lb/>  What a time we have<lb/> had. Here the roar of 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T02:46:08" who="#Anthropanda">
+                
+                    Page 4199 modified:
+                    <!-- 
+<del>&amp;</del>of Cannon of Rebel &amp;<lb/> machine guns never<lb/> ceased night or day,<lb/> only some times the<lb/> <hi rend="underline">Fleet</hi> <hi rend="underline">spoke</hi> <hi rend="underline">up</hi> &amp; then<lb/> we heard nothing else<lb/> &amp; our windows rattled, it was awful. The house<lb/> lighted by night  by<lb/> fires, &amp; by day we looked<pb/> into a lurid cloud,<lb/> in the night there<lb/> seemed to be a sea<lb/> of fire - Soldiers home<lb/> from the front, say<lb/> what <hi rend="underline">was</hi> Sackville st,<lb/> is now like Ypres.<lb/> / <gap/><gap/>wicked<gap/> <lb/> say than lazyness<lb/> &amp; 'wait & see' policy brought 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T02:46:19" who="#Anthropanda">
+                
+                    Page 4198 modified:
+                    <!-- 
+D.D8.8/166  <heading><address>The Priory<lb/> Rathfarnham</address><lb> <date>May 14th 16</date><lb/></heading>  Dearest Darnsnil<lb/> I don't think I<lb/> answered a nice long<lb/> letter I had from you<lb/> just before the rebellion.<lb/>  What a time we have<lb/> had. Here the roar of<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T02:48:15" who="#Anthropanda">
+                
+                    Page 4199 modified:
+                    <!-- 
+<del>&amp;</del>of Cannon of Rebel &amp;<lb/> machine guns never<lb/> ceased night or day,<lb/> only some times the<lb/> <hi rend="underline">Fleet</hi> <hi rend="underline">spoke</hi> <hi rend="underline">up</hi> &amp; then<lb/> we heard nothing else<lb/> &amp; our windows rattled, it was awful. The house<lb/> lighted by night  by<lb/> fires, &amp; by day we looked<pb/> into a lurid cloud,<lb/> in the night there<lb/> seemed to be a sea<lb/> of fire. Soldiers home<lb/> from the Front, say<lb/> what <hi rend="underline">was</hi> Sackville St,<lb/> is now like Ypres.<lb/> / Is it not wicked to say<lb/> say that lazyness<lb/> &amp; 'wait &amp; see' policy brought<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T02:50:41" who="#Anthropanda">
+                
+                    Page 4200 modified:
+                    <!-- 
+such terrible loss of life<lb/><&amp;destruction of property.<lb/> The soldiers were nearly<lb/> dead from want of<lb/> food. From Monday<lb/> till Friday only a<lb/> little biscuit &amp; some tea.<lb/> We were better off than <lb/>those in Dublin as we<lb/> helped each other. The<lb/>first flour for <unclear>D</unclear> Rathfarnham<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T02:52:03" who="#Anthropanda">
+                
+                    Page 4201 modified:
+                    <!-- 
+came in armoured<lb/> cars with escort of troops,<lb/> &amp; last Tuesday the<lb/> military came to<lb/> search the village with<lb/> machine guns at top<lb/> of street &amp; armoured<lb/> cars in it too. I think<lb/> 3 of them. Hermitage<lb/> straight op<add>p</add>osite is the<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T02:54:57" who="#Anthropanda">
+                
+                    Page 4202 modified:
+                    <!-- 
+'St Inda' the Pearce's<lb/> &amp; the mother &amp; sister<lb/> are still there.<lb/> Where you stand on<lb/> Carlisle Bridge beyond<lb/> the Pillar there is<lb/> only a black, smoking,<lb/> <hi rend="underline">stinking</hi> mass. the<lb/> wall or front of a house<lb/> standing like a skeleton<pb/> &amp; also down to Custom<lb/> House. Dr. <unclear>L..</unclear> looked<lb/> in to see Bank was safe<lb/> 3 or 4 days. He said <gap/><lb/> were falling like a<lb/> hail shower - &amp; on <sic>Tuesdy</sic> &amp; Wed there was still a<lb/> little <gap/>. Clyde<lb/> Rd round St Bartholemews<lb/> was very bad. There are<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T02:57:51" who="#Anthropanda">
+                
+                    Page 4204 modified:
+                    <!-- 
+from Cecil 2 lines,<lb/> and another short one<lb/> from D. I wrote to<lb/> her a civil letter<lb/> Easter Eve- but did<lb/> not hear since- &amp;  just<pb/> wrote a P. S. to Cecil<lb/> to say we were safe<lb/> but neither wrote.<lb/> ps Dammie dear<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T02:58:54" who="#Anthropanda">
+                
+                    Page 4205 modified:
+                    <!-- 
+I simply could not<lb/> respond to all her <unclear>fuss</unclear>.  I was just <unclear>fussing</unclear><lb/> &amp; hoped she would<lb/> write &amp; tell me how<lb/> they got on "I was always<lb/> glad to hear" It is a<lb/> most painful photo<lb/> to me. She swears <gap/> to<pb/> dominate poor Cecil<lb/> &amp; it i a horrid face<lb/> tho' handsome. He<lb/> is not likely to get more<lb/> <gap/> afloat ones<lb/> age - she &amp; he say -<lb/> &amp; they are  <gap/> up<lb/> the flat &amp; going to the<lb/> country to start a food<lb/> farm. I don't understand<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T02:59:41" who="#Anthropanda">
+                
+                    Page 4198 modified:
+                    <!-- 
+DOD618/166  <heading><address>The Priory<lb/> Rathfarnham</address><lb> <date>May 14th 16</date><lb/></heading>  Dearest Darnsnil<lb/> I don't think I<lb/> answered a nice long<lb/> letter I had from you<lb/> just before the rebellion.<lb/>  What a time we have<lb/> had. Here the roar of<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-28T13:17:38" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-28T13:17:38" who="#Zzxjoanw">
+                
+                    Page 4207 modified:
+                    <!-- 
+Letter from Julia Taylor, about the Rebellion, 1916.  Ms Savage-Armstrong Strangford House Strangford  to: Down  14/5/1916 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-28T13:28:00" who="#Zzxjoanw">
+                
+                    Page 4207 modified:
+                    <!-- 
+Letter from Julia Taylor, about the<lb/> Rebellion, 1916.  <address>Ms Savage-Armstrong<lb/> <sic>Strang ford</sic> House<lb/> <sic>Strang ford</sic></address>  <address>to: Down</address>  <date> 14/5/1916</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-06T00:20:32" who="#Roger">
+                
+                    Page 4199 modified:
+                    <!-- 
+<del>&amp;</del>of Cannon of Rebel &amp;<lb/> machine guns never<lb/> ceased night or day,<lb/> only some times the<lb/> <hi rend="underline">Fleet</hi> <hi rend="underline">spoke</hi> <hi rend="underline">up</hi> &amp; then<lb/> we heard nothing else<lb/> &amp; our windows rattled, it was awful. The house<lb/> lighted by night  by<lb/> fires, &amp; by day we looked<pb/> into a lurid cloud,<lb/> in the night there<lb/> seemed to be a sea<lb/> of fire &#x2014; Soldiers home<lb/> from the Front, say<lb/> what <hi rend="underline">was</hi> Sackville St,<lb/> is now like Ypres.<lb/> / Is it not wicked to say<lb/> say that lazyness<lb/> &amp; 'wait &amp; see' policy brought<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-06T00:36:08" who="#Roger">
+                
+                    Page 4202 modified:
+                    <!-- 
+'St Enda 'the Pearce's<lb/> &amp; the mother &amp; sister<lb/> are still there.<lb/> Where you stand on<lb/> Carlisle Bridge beyond<lb/> the Pillar there is<lb/> only a black, smoking,<lb/> <hi rend="underline">stinking</hi> mass. The<lb/> wall or front of a house<lb/> standing like a skeleton<pb/> &amp; also down to Custom<lb/> House. Dr. <unclear>L..</unclear> looked<lb/> in to see Bank was safe<lb/> 3 or 4 days. He said bullets <lb/> were falling like a<lb/> hail shower - &amp; on <sic>Tuesdy</sic> &amp; Wed there was still a<lb/> little sniping. Clyde<lb/> Rd round St Bartholemews<lb/> was very bad. There are<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-06T00:48:42" who="#Roger">
+                
+                    Page 4205 modified:
+                    <!-- 
+I simply could not<lb/> respond to all her <unclear>gush</unclear>.  I was just <unclear>guessing</unclear><lb/> &amp; hoped she would<lb/> write &amp; tell me how<lb/> they got on "I was always<lb/> glad to hear" It is a<lb/> most painful photo<lb/> to me. She swears <gap/> to<pb/> dominate poor Cecil<lb/> &amp; it is a horrid face<lb/> tho' handsome. He<lb/> is not likely to get more<lb/> <gap/> afloat ones<lb/> age - she &amp; he say -<lb/> &amp; they are  giving up<lb/> the flat &amp; going to the<lb/> country to start a food<lb/> farm. I don't under<lb/>stand<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-06T00:50:24" who="#Roger">
+                
+                    Page 4206 modified:
+                    <!-- 
+it at all. A letter from Wm Read love to you. I do hope Frank &amp; Raymond are both better&#x2014;<lb/> <salue> With much love<lb/>Your dearest <gap/><lb/> <gap/><gap/><gap/><lb/> Julia</salute><lb/>   I have a Ply. Lady gardening<lb/>Pupil. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-06T00:51:25" who="#Roger">
+                
+                    Page 4207 modified:
+                    <!-- 
+Letter from Julia Taylor, about the<lb/> Rebellion, 1916.  <address>Ms Savage-Armstrong<lb/> <sic>Strang ford</sic> House<lb/> <sic>Strang ford</sic></address>  <address>to: Down</address>  <add><date>14/5/1916</date></add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-06T00:55:59" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-12-06T00:55:59" who="#Roger">
+                
+                    Page 4208 modified:
+                    <!-- 
+<note>Records</note> 1/135ws<lb/>DOD618/166 <note>PUBLIC RECORD <lb/>OFFICE (N.I.)<lb/> D. O. D.<lb/><hi rend="superscript">Class</hi> 618<lb/><hi rend="superscript">No.</hi>166 </note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-18T12:01:59" who="#MaryGrehan">
+                
+                    Page 4198 modified:
+                    <!-- 
+DOD618/166  <heading><address>The Priory<lb/> Rathfarnham</address><lb> <date>May 14th 16</date><lb/></heading>  <salute>Dearest Darnsnil</salute><lb/> I don't think I<lb/> answered a nice long<lb/> letter I had from you<lb/> just before the rebellion.<lb/>  What a time we have<lb/> had. Here the roar of<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-09T21:01:01" who="#Scribe57">
+                
+                    Page 4200 modified:
+                    <!-- 
+such terrible loss of life<lb/><&amp;destruction of property.<lb/> The soldiers were nearly<lb/> dead from want of<lb/> food. From Monday<lb/> till Friday only a<lb/> little biscuit &amp; some tea.<lb/> We were better off than <lb/>those in Dublin as we<lb/> helped each other. The<lb/>first flour from  Rathfarnham<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-09T21:03:09" who="#Scribe57">
+                
+                    Page 4201 modified:
+                    <!-- 
+came in armoured<lb/> cars with escort of troops,<lb/> &amp; last Tuesday the<lb/> military came to<lb/> search the village with<lb/> machine guns at top<lb/> of street &amp; armoured<lb/> cars in it too. I think<lb/> 3 of those in. Hermitage<lb/> straight op<add>p</add>osite  the<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-09T21:07:42" who="#Scribe57">
+                
+                    Page 4202 modified:
+                    <!-- 
+'St Enda 'the Pearce's<lb/> &amp; the mother &amp; sister<lb/> are still there.<lb/> Where you stand on<lb/> Carlisle Bridge beyond<lb/> the Pillar there is<lb/> only a black, smoking,<lb/> <hi rend="underline">stinking</hi> mass. The<lb/> wall or front of a house<lb/> standing like a skeleton<pb/> &amp; also down to Custom<lb/> House. Dr. <unclear>L..</unclear> looked<lb/> in to see Bank was safe<lb/> 3 or 4 days. He said bullets <lb/> were falling like a<lb/> hail shower - &amp; on <sic>Tuesday</sic> &amp; Wed there was still a<lb/> little sniping. Clyde<lb/> Rd round St Bartholemews<lb/> was very bad. There are<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-09T21:16:58" who="#Scribe57">
+                
+                    Page 4205 modified:
+                    <!-- 
+I simply could not<lb/> respond to all her <unclear>gush</unclear>.  I was just friendly <lb/> &amp; hoped she would<lb/> write &amp; tell me how<lb/> they got on "I was always<lb/> glad to hear" It is a<lb/> most painful photo<lb/> to me. She swears <gap/> to<pb/> dominate poor Cecil<lb/> &amp; it is a horrid face<lb/> tho' handsome. He<lb/> is not likely to get more<lb/> work afloat ones<lb/> age - she &amp; he say -<lb/> &amp; they are  giving up<lb/> the flat &amp; going to the<lb/> country to start a food<lb/> farm. I don't under<lb/>stand<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-09T21:19:46" who="#Scribe57">
+                
+                    Page 4206 modified:
+                    <!-- 
+it at all. A letter from Wm Read love to you. I do hope Frank &amp; Raymond are both better&#x2014;<lb/> <salue> With much love<lb/>Your dearest <gap/><lb/> For my <gap/><lb/> Julia</salute><lb/>   I have a Ply. Lady gardening<lb/>Pupil. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-09T21:20:49" who="#Scribe57">
+                
+                    Page 4207 modified:
+                    <!-- 
+Letter from Julia Taylor, about the<lb/> Rebellion, 1916.  <address>Ms Savage-Armstrong<lb/> <sic>Strang ford</sic> House<lb/> <sic>Strang ford</sic></address>  <address>Co: Down</address>  <add><date>14/5/1916</date></add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T00:00:00" who="#JC">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#JC" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T14:57:47" who="#NR">
+                
+                    Page 4198 modified:
+                    <!-- 
+<address>The Priory <lb/>Rathfarnham</address> <date>May 14th 16</date>  <salute>Dearest Dammie</salute> <p>I don't think I <lb/> answered a nice long <lb/> letter I had from you <lb/> just before the rebellion. <lb/>  What a time we have <lb/> had. Here the roar of 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T15:01:39" who="#NR">
+                
+                    Page 4202 modified:
+                    <!-- 
+<lb/>'St Enda' the Pearce's <lb/> &amp; the mother &amp; sister <lb/> are still there.</p> <p> Where you stand on <lb/> Carlisle Bridge beyond <lb/> the Pillar there is <lb/> only a black, smoking, <lb/> <hi rend="underline">stinking</hi> mass. The <lb/> wall or front of a house <lb/> standing like a skeleton  <lb/>&amp; also down to Custom <lb/> House. Dr. <unclear>Lent</unclear> biked <lb/> in to see Bank was safe <lb/> 3 or 4 days. He said bullets  <lb/> were falling like a <lb/> hail shower - &amp; on <sic>Tuesday</sic> <lb/>&amp; Wed there was still a <lb/> little sniping. Clyde <lb/> Rd round St Bartholemews <lb/> was very bad. There are 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T15:13:40" who="#NR">
+                
+                    Page 4205 modified:
+                    <!-- 
+<lb/>I simply could not <lb/> respond to all her  <lb/><unclear>gush</unclear> &#x2014;  I was just friendly  <lb/> &amp; hoped she would <lb/> write &amp; tell me how <lb/> they got on "I was always <lb/> glad to hear" It is a <lb/> most painful photo <lb/> to me. She <unclear>swears</unclear> so to <lb/>dominate poor Cecil <lb/> &amp; it is a horrid face <lb/> tho' handsome. He <lb/> is not likely to get more <lb/> work afloat. One's <lb/> age - she &amp; he say - <lb/> &amp; they are  giving up <lb/> the flat &amp; going to the <lb/> country to start a food <lb/> farm. I don't under <lb/>stand 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T15:18:06" who="#NR">
+                
+                    Page 4206 modified:
+                    <!-- 
+<lb/>it at all. A letter from <lb/>Wm Read. love to you-  <lb/>I do hope Frank &amp; <lb/>Raymond are both <lb/> better &#x2014; <salue> With much love <lb/>Your dearest <unclear>Granny</unclear> <lb/> For my <unclear>affec.</unclear> <lb/><hi rend="underline">Julia</hi></salute> <lb/> I here <unclear>a Ply. Lady Garden's</unclear> <lb/>Pupil&#x2014; 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T15:19:45" who="#NR">
+                
+                    Page 4207 modified:
+                    <!-- 
+<note>Letter from Julia Taylor, about the <lb/>Rebellion, 1916.</note>  <address>Ms Savage-Armstrong <lb/>Strangford House <lb/>Strangford Co: Down</address>  <add><date>14/5/1916</date></add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T15:22:26" who="#NR">
+                
+                    Page 4208 modified:
+                    <!-- 
+<note>Records</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4199 created using version from <date when="2014-10-14T01:31:09"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4199 removed (version from <date when="2014-10-14T01:31:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4199 removed (version from <date when="2014-10-14T03:09:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4199 removed (version from <date when="2014-10-14T03:10:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4199 removed (version from <date when="2014-10-14T03:14:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4199 removed (version from <date when="2014-10-14T03:15:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4199 removed (version from <date when="2014-10-14T03:19:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4199 removed (version from <date when="2014-10-14T03:23:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4199 removed (version from <date when="2014-10-14T03:24:26"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4199 removed (version from <date when="2014-10-14T03:24:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4199 removed (version from <date when="2014-10-14T03:26:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4199 removed (version from <date when="2014-10-15T02:19:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4199 removed (version from <date when="2014-10-15T02:46:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4199 removed (version from <date when="2014-10-15T02:48:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4199 removed (version from <date when="2014-12-06T00:20:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4207 created using version from <date when="2014-11-28T13:17:38"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4207 removed (version from <date when="2014-11-28T13:17:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4207 removed (version from <date when="2014-11-28T13:28:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4207 removed (version from <date when="2014-12-06T00:51:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4207 removed (version from <date when="2015-04-09T21:20:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4207 removed (version from <date when="2015-12-04T15:19:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4204 created using version from <date when="2014-10-15T02:27:30"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4204 removed (version from <date when="2014-10-15T02:27:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4204 removed (version from <date when="2014-10-15T02:57:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4201 created using version from <date when="2014-10-15T01:23:07"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4201 removed (version from <date when="2014-10-15T01:23:07"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4201 removed (version from <date when="2014-10-15T02:52:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4201 removed (version from <date when="2015-04-09T21:03:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4208 created using version from <date when="2014-12-06T00:55:59"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4208 removed (version from <date when="2014-12-06T00:55:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4208 removed (version from <date when="2015-12-04T15:22:26"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4205 created using version from <date when="2014-10-15T02:35:30"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4205 removed (version from <date when="2014-10-15T02:35:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4205 removed (version from <date when="2014-10-15T02:35:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4205 removed (version from <date when="2014-10-15T02:58:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4205 removed (version from <date when="2014-12-06T00:48:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4205 removed (version from <date when="2015-04-09T21:16:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4205 removed (version from <date when="2015-12-04T15:13:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4202 created using version from <date when="2014-10-15T01:31:37"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4202 removed (version from <date when="2014-10-15T01:31:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4202 removed (version from <date when="2014-10-15T02:07:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4202 removed (version from <date when="2014-10-15T02:15:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4202 removed (version from <date when="2014-10-15T02:54:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4202 removed (version from <date when="2014-12-06T00:36:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4202 removed (version from <date when="2015-04-09T21:07:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4202 removed (version from <date when="2015-12-04T15:01:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4198 created using version from <date when="2014-10-13T23:39:24"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4198 removed (version from <date when="2014-10-13T23:39:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4198 removed (version from <date when="2014-10-13T23:42:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4198 removed (version from <date when="2014-10-15T02:43:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4198 removed (version from <date when="2014-10-15T02:46:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4198 removed (version from <date when="2014-10-15T02:59:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4198 removed (version from <date when="2015-02-18T12:01:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4198 removed (version from <date when="2015-12-04T14:57:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4206 created using version from <date when="2014-10-15T02:39:06"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4206 removed (version from <date when="2014-10-15T02:39:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4206 removed (version from <date when="2014-12-06T00:50:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4206 removed (version from <date when="2015-04-09T21:19:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4206 removed (version from <date when="2015-12-04T15:18:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4203 created using version from <date when="2014-10-15T02:24:20"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4203 removed (version from <date when="2014-10-15T02:24:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4200 created using version from <date when="2014-10-01T18:04:27"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4200 removed (version from <date when="2014-10-01T18:04:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4200 removed (version from <date when="2014-10-15T02:06:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4200 removed (version from <date when="2014-10-15T02:50:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4200 removed (version from <date when="2015-04-09T21:01:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 4199 (version from <date when="2015-12-04T14:58:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 4207 added to letter (version from <date when="2015-12-04T15:19:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 4204 added to letter (version from <date when="2015-12-04T15:10:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 4201 added to letter (version from <date when="2015-12-04T15:00:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 4208 added to letter (version from <date when="2015-12-04T15:22:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 4205 added to letter (version from <date when="2015-12-04T15:13:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 4202 added to letter (version from <date when="2015-12-04T15:01:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 4198 added to letter (version from <date when="2015-12-04T14:57:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 4206 added to letter (version from <date when="2015-12-04T15:18:07"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 4203 added to letter (version from <date when="2015-12-04T15:08:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:15" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 4200 added to letter (version from <date when="2015-12-04T14:59:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 4208 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 4198 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 4199 cleaned of 7 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 4200 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 4201 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 4202 cleaned of 5 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 4203 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 4204 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 4205 cleaned of 7 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 4206 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 4207 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:30" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1679_img_4198" url="a12f3b1743f54d06bb401e52156e2329.jpg"/> 
+    
+    <graphic xml:id="L1916_1679_img_4199" url="01576cb4b2ebf650c26193900a12d1b3.jpg"/> 
+    
+    <graphic xml:id="L1916_1679_img_4200" url="27527fda0777a2395b01dad6e0c5eb06.jpg"/> 
+    
+    <graphic xml:id="L1916_1679_img_4201" url="92fd268722f1accc1e520bbadbcc39ba.jpg"/> 
+    
+    <graphic xml:id="L1916_1679_img_4202" url="27e1145dbed48cf3943202899c06e2d0.jpg"/> 
+    
+    <graphic xml:id="L1916_1679_img_4203" url="1d7e07caacd92d43d71100e1611d4f4d.jpg"/> 
+    
+    <graphic xml:id="L1916_1679_img_4204" url="b758a4ba1448896099c0a77ee77351a0.jpg"/> 
+    
+    <graphic xml:id="L1916_1679_img_4205" url="dfff05ca1d2503bee9da8d4f01e7f0e2.jpg"/> 
+    
+    <graphic xml:id="L1916_1679_img_4206" url="df0289ba730207e3ca0f10f61fc85be2.jpg"/> 
+    
+    <graphic xml:id="L1916_1679_img_4207" url="d9a1602b7b55cf5d6259f8795fffe732.jpg"/> 
+    
+    <graphic xml:id="L1916_1679_img_4208" url="d4a73a52bf6243b29dc7a0b71558a2f4.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="4198" facs="#L1916_1679_img_4198"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>The Priory</addrLine>
+<addrLine>Rathfarnham</addrLine></address> <dateline><date>May 14th 16</date></dateline>  <salute>Dearest Dammie</salute></opener> <p>I don't think I <lb/> answered a nice long <lb/> letter I had from you <lb/> just before the rebellion. <lb/>  What a time we have <lb/> had. Here the roar of
+        
+    
+
+    
+         
+        <pb n="4199" facs="#L1916_1679_img_4199"/>
+        
+        
+           
+            <lb/>of Cannon of Rebel &amp; <lb/> machine guns never <lb/> ceased night or day, <lb/> only some times the <lb/> <hi rend="underline">Fleet</hi> <hi rend="underline">spoke</hi> <hi rend="underline">up</hi> &amp; then <lb/> we heard nothing else <lb/> &amp; our windows rattled, <lb/> it was awful. The house <lb/> lighted by night by <lb/> fires, &amp; by day we looked <lb/> into a lurid cloud, <lb/> in the night there <lb/> seemed to be a sea <lb/> of fire &#x2014; Soldiers home <lb/> from the Front, say <lb/> what <hi rend="underline">was</hi> Sackville St, <lb/> is now like Ypres.</p> <p> Is it not wicked to say <lb/> say that lazyness <lb/> &amp; 'wait &amp; see' policies brought
+        
+    
+         
+        <pb n="4200" facs="#L1916_1679_img_4200"/>
+        
+        
+           
+            <lb/>such terrible loss of life <lb/><&amp;destruction of property. <lb/> The soldiers were nearly <lb/> dead from want of <lb/> food. From Monday <lb/> till Friday only a <lb/> little biscuit &amp; some tea. <lb/> We were better off than  <lb/>those in Dublin as we <lb/> helped each other. The <lb/>first flour for Rath <lb/>farnham.
+        
+    
+         
+        <pb n="4201" facs="#L1916_1679_img_4201"/>
+        
+        
+           
+            <lb/>came in armoured <lb/> cars with escort of troops, <lb/> &amp; last Tuesday the <lb/> military came to <lb/> search the village with <lb/> machine guns at top <lb/> of street &amp; armoured <lb/> cars in it too. I think <lb/> 3 of those in. Hermitage <lb/> straight op<add>p</add>osite is the
+        
+    
+         
+        <pb n="4202" facs="#L1916_1679_img_4202"/>
+        
+        
+           
+            <lb/>'St Enda' the Pearce's <lb/> &amp; the mother &amp; sister <lb/> are still there.</p> <p> Where you stand on <lb/> Carlisle Bridge beyond <lb/> the Pillar there is <lb/> only a black, smoking, <lb/> <hi rend="underline">stinking</hi> mass. The <lb/> wall or front of a house <lb/> standing like a skeleton  <lb/>&amp; also down to Custom <lb/> House. Dr. <unclear>Lent</unclear> biked <lb/> in to see Bank was safe <lb/> 3 or 4 days. He said bullets  <lb/> were falling like a <lb/> hail shower - &amp; on <sic>Tuesday</sic> <lb/>&amp; Wed there was still a <lb/> little sniping. Clyde <lb/> Rd round St Bartholemews <lb/> was very bad. There are
+        
+    
+         
+        <pb n="4203" facs="#L1916_1679_img_4203"/>
+        
+        
+           
+            <lb/>some of the soliders <lb/> buried in the Church <lb/> grounds. There are <lb/> many other things <lb/> I heard but dont care <lb/> to write. </p> <p> I had a nice <lb/> letter from Staff he <lb/> is very busy at his <lb/> garden. I also had
+        
+    
+         
+        <pb n="4204" facs="#L1916_1679_img_4204"/>
+        
+        
+           
+            <lb/>from Cecil 2 lines, <lb/> and another short one <lb/> from D. I wrote to <lb/> her a civil letter <lb/> Easter Eve - but did <lb/> not hear since- &amp;  just wrote <lb/> a P. S. to Cecil <lb/> to say we were safe <lb/> but neither wrote. <lb/> but Dammie dear
+        
+    
+         
+        <pb n="4205" facs="#L1916_1679_img_4205"/>
+        
+        
+           
+            <lb/>I simply could not <lb/> respond to all her  <lb/><unclear>gush</unclear> &#x2014;  I was just friendly  <lb/> &amp; hoped she would <lb/> write &amp; tell me how <lb/> they got on "I was always <lb/> glad to hear" It is a <lb/> most painful photo <lb/> to me. She <unclear>swears</unclear> so to <lb/>dominate poor Cecil <lb/> &amp; it is a horrid face <lb/> tho' handsome. He <lb/> is not likely to get more <lb/> work afloat. One's <lb/> age - she &amp; he say - <lb/> &amp; they are  giving up <lb/> the flat &amp; going to the <lb/> country to start a food <lb/> farm. I don't under <lb/>stand
+        
+    
+         
+        <pb n="4206" facs="#L1916_1679_img_4206"/>
+        
+        
+           
+            <lb/>it at all. A letter from <lb/>Wm Read. love to you-  <lb/>I do hope Frank &amp; <lb/>Raymond are both <lb/> better &#x2014; <salue> With much love <lb/>Your dearest <unclear>Granny</unclear> <lb/> For my <unclear>affec.</unclear> <lb/><hi rend="underline">Julia</hi></salute> <lb/> I here <unclear>a Ply. Lady Garden's</unclear> <lb/>Pupil&#x2014;
+        
+    
+        
+        
+        
+    
+         
+        <pb n="4208" facs="#L1916_1679_img_4208"/>
+        
+        
+           
+            <note>Records</note>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+            <pb n="4207" facs="#L1916_1679_img_4207"/>
+            <text type="envelope" decls="#corresp1">
+                <body> 
+                    <ab>
+                        <note>Records</note>
+                    </ab>
+                </body>
+            </text>
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1518">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Maeve Cavanagh to Herbert Henry Asquith, 1916</title>
+                
+                <author>Maeve Cavanagh</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Hughesf">Hughesf</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Delshaw">Delshaw</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1518</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>Maeve Cavanagh (d. 1960) was proclaimed the &#39;poetess of the revolution&#39; by James Connolly and sister of cartoonist Ernest Cavanagh who was shot dead on steps of Liberty Hall, a civilian casualty during the Easter Rising. This letter, sent to British Prime Minister Herbert Henry Asquith (1852-1928), accompanies a petition requesting a reprieve of the death sentence of Sir Roger Casement (1864-1916) in which she points out the wide variety of respectable people who have signed it and mentions many more who are to follow. Casement had been arrested on Banna Strand, County Kerry, on the eve of the Easter Rising and sentenced to death for treason. He was hanged on 3 August 1916.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#National Library of Ireland">National Library of Ireland</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Herbert_Henry_Asquith">Herbert Henry Asquith</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Maeve_Cavanagh">Maeve Cavanagh</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-08-16T13:54:34" who="#Delshaw">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-08-16T13:54:34" who="#Hughesf">
+                
+                    Page 3883 modified:
+                    <!-- 
+Copy  Petition with 900 names  To the Prime Minister, I have come over from Dublin with the closed signatures to be added to the petition asking for reprieve of the death sentence on Sir Roger Casement. May I draw your attention to the significant fact that amongst these are - 25 members Dublin Corporation Citizens of Dublin. Clerks, shop assistants & Labourers. Also retired Judge of Supreme Court S. Africa. Teachers from 35 towns. Chairman and 9 members of the Carlow Urban District Council. Members of the A.O.H. Chairman of the Town Tenants League, Carlow. Priests and people of Tullamore, including J.P's and County Councillors and the President of the Trade and Labour <del>deleted text</del> Society. 50 members of the Irish women Workers Union. There are many more names to follow as I have been besieged with requests for forms at the last moment.  People in Ireland have only just begun to realize the hideous possibility of the carrying out of the death sentence on one of the most beloved and <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-08-16T14:03:51" who="#Hughesf">
+                
+                    Page 3883 modified:
+                    <!-- 
+Copy  Petition with 900 names  To the Prime Minister, <p>I have come over from Dublin with the enclosed <lb/> signatures to be added to the petition asking for reprieve <lb/> of the death sentence on Sir Roger Casement.</p> May I draw your attention to the significant fact <lb/> that amongst these are - 25 members Dublin Corporation Citizens of Dublin. Clerks, shop assistants & Labourers. Also retired Judge of Supreme Court S. Africa. Teachers from 35 towns. Chairman and 9 members of the Carlow Urban District <lb/> Council. Members of the A.O.H. Chairman of the Town Tenants League, Carlow. Priests and people of Tullamore, including J.P's and <lb/> County Councillors and the President of the Trade and Labour <del>deleted text</del> Society. 50 members of the Irish women Workers Union. There are many more names to follow as I have been besieged with requests for forms at the last moment.  People in Ireland have only just begun to realize the hideous possibility of the carrying out of the death sentence on one of the most beloved and <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-26T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-27T12:48:39" who="#NR">
+                
+                    Page 3883 modified:
+                    <!-- 
+Copy<lb/>  Petition with 900 names<lb/>  <address>To the Prime Minister,</address> <p>I have come over from Dublin with the enclosed <lb/> signatures to be added to the petition asking for reprieve <lb/> of the death sentence on Sir Roger Casement.</p> <p>May I draw your attention to the significant fact <lb/> that amongst these are -<lb/> 25 members Dublin Corporation<lb/> Citizens of Dublin. Clerks, shop assistants & Labourers.<lb/> Also retired Judge of Supreme Court S. Africa.<lb/> Teachers from 35 towns.<lb/> Chairman and 9 members of the Carlow Urban District <lb/> Council.<lb/> Members of the A.O.H.<lb/> Chairman of the Town Tenants League, Carlow.<lb/> Priests and people of Tullamore, including J.P's and <lb/> County Councillors and the President of the Trade and<lb/>  Labour <del>A</del> Society.<lb/> 50 members of the Irish women Workers Union.<lb/> There are many more names to follow as I have<lb/>  been besieged with requests for forms at the last<lb/>  moment.  People in Ireland have only just begun<lb/>  to realise the hideous possibility of the carrying out of<lb/>  the death sentence on one of the most beloved and <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3883 created using version from <date when="2014-08-16T13:54:34"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3883 removed (version from <date when="2014-08-16T13:54:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3883 removed (version from <date when="2014-08-16T14:03:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3883 removed (version from <date when="2015-11-27T12:48:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3883 (version from <date when="2015-11-27T12:48:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:17" who="#PythonScript">
+                
+                    Clean tags: Page 3883 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:26" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1518_img_3883" url="b13495f2a1ed9f278ef9a3eb0fad9997.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3883" facs="#L1916_1518_img_3883"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+Copy<lb/>  Petition with 900 names<lb/>  <opener><address><addrLine>To the Prime Minister,</addrLine></address></opener> <p>I have come over from Dublin with the enclosed <lb/> signatures to be added to the petition asking for reprieve <lb/> of the death sentence on Sir Roger Casement.</p> <p>May I draw your attention to the significant fact <lb/> that amongst these are -<lb/> 25 members Dublin Corporation<lb/> Citizens of Dublin. Clerks, shop assistants &amp; Labourers.<lb/> Also retired Judge of Supreme Court S. Africa.<lb/> Teachers from 35 towns.<lb/> Chairman and 9 members of the Carlow Urban District <lb/> Council.<lb/> Members of the A.O.H.<lb/> Chairman of the Town Tenants League, Carlow.<lb/> Priests and people of Tullamore, including J.P's and <lb/> County Councillors and the President of the Trade and<lb/>  Labour <del>A</del> Society.<lb/> 50 members of the Irish women Workers Union.<lb/> There are many more names to follow as I have<lb/>  been besieged with requests for forms at the last<lb/>  moment.  People in Ireland have only just begun<lb/>  to realise the hideous possibility of the carrying out of<lb/>  the death sentence on one of the most beloved and <pb/>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

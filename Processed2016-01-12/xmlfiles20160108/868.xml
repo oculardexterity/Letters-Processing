@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_868">
+    <fileDesc>
+            <titleStmt>
+                <title>Pass from Sgt J Byrne for Thomas Delaney, 5 May 1916</title>
+                
+                <author>J. Byrne</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="EC">Emma Clarke</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Willow">Willow</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_868</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>A pass from Sergeant J Byrne of the Dublin Metropolitan Police certifying that Thomas Delaney, of Grand Canal Harbour, may  travel through Dublin. The pass is dated 5 May 1916.</p>
+                        
+                            <p> </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Brian A. Garland, private collection">Brian A. Garland, private collection</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Thomas_F._Delaney">Thomas F. Delaney</persName>
+                
+                
+                
+                    <placeName  ref="#Dublin,_Ireland">Dublin, Ireland</placeName>
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#J._Byrne">J. Byrne</persName>
+                    
+                     
+                    <placeName ref="#Dublin,_Ireland">Dublin, Ireland</placeName>
+                    
+                    
+                    <date when="1916-05-05">5 May 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-02-23T22:38:31" who="#EC">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-02-23T22:38:31" who="#Willow">
+                
+                    Page 2243 modified:
+                    <!-- 
+DUBLIN METROPOLITAN POLICE TELEGRAPH 5TH May 1916 Harbour Bks James St  From Sergt J Byrne 13 a To Officer in Charge of Military on duty in the City.  I beg to certify that bearer Thomas Delaney 6, Grand Canal Harbour, is a respectable citizen and wishes to be allowed to pass through the City.  J Byrne Sergt D M Police 5/5/16 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-26T21:25:01" who="#Willow">
+                
+                    Page 2243 modified:
+                    <!-- 
+DUBLIN METROPOLITAN POLICE TELEGRAPH<lb/> 5TH May 1916<lb/> Harbour Bks<lb/> James St<lb/>  From Sergt J Byrne<lb/> 13 a To Officer in Charge<lb/> of Military on duty<lb/> in the City.  I beg to certify that<lb/> bearer Thomas Delaney 6, Grand<lb/> Canal Harbour, is a respectable<lb/> citizen and wishes to be<lb/> allowed to pass through the<lb/> City.  J Byrne Sergt D M Police 5/5/16 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-26T21:26:12" who="#EC">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-02-26T21:26:12" who="#Willow">
+                
+                    Page 2244 modified:
+                    <!-- 
+Photograph of class of Christian Schools James St 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-07T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-07T16:40:28" who="#NR">
+                
+                    Page 2243 modified:
+                    <!-- 
+<address>DUBLIN METROPOLITAN POLICE TELEGRAPH<lb/> 5TH May 1916<lb/> Harbour Bks<lb/> James St</address>  <address>From Sergt J Byrne <lb/> 13 a To Officer in Charge <lb/> of Military on duty <lb/> in the City.</address>  <p>I beg to certify that <lb/> bearer Thomas Delaney 6, Grand <lb/> Canal Harbour, is a respectable <lb/> citizen and wishes to be <lb/> allowed to pass through the <lb/> City.</p>  <signed>J Byrne Sergt</signed> <lb/>D M Police <date>5/5/16</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:09" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2243 created using version from <date when="2014-02-23T22:38:31"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:09" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2243 removed (version from <date when="2014-02-23T22:38:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:09" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2243 removed (version from <date when="2014-02-26T21:25:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:09" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2243 removed (version from <date when="2016-01-07T16:40:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:09" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2244 created using version from <date when="2014-02-26T21:26:12"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:09" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2244 removed (version from <date when="2014-02-26T21:26:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:24" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2243 (version from <date when="2016-01-07T16:40:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:25" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2244 added to letter (version from <date when="2016-01-07T16:40:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:26" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                    Clean tags: Page 2243 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                    Clean tags: Page 2244 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:35" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_868_img_2243" url="a6952f0c95e82e01a987a2d64f19c84f.jpg"/> 
+    
+    <graphic xml:id="L1916_868_img_2244" url="2d44a07dcd706fcef22e8bdc70512c8d.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+
+        
+            
+            <pb n="2243" facs="#L1916_868_img_2243"/>
+                <text type="unknown" decls="#corresp1">
+                    <body>
+                        <address>DUBLIN METROPOLITAN POLICE TELEGRAPH<lb/> 5TH May 1916<lb/> Harbour Bks<lb/> James St</address>  <address>From Sergt J Byrne <lb/> 13 a To Officer in Charge <lb/> of Military on duty <lb/> in the City.</address>  <p>I beg to certify that <lb/> bearer Thomas Delaney 6, Grand <lb/> Canal Harbour, is a respectable <lb/> citizen and wishes to be <lb/> allowed to pass through the <lb/> City.</p>  <signed>J Byrne Sergt</signed> <lb/>D M Police <date>5/5/16</date>
+            
+        
+        
+            <pb n="2244" facs="#L1916_868_img_2244"/>
+            Photograph of class of Christian Schools James St
+        
+            </body>
+        </text>
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

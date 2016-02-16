@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_918">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Harry Stockman to Mabel FitzGerald, 31 May 1916.</title>
+                
+                <author>Harry Stockman</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Stephywalsh">Stephywalsh</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BBaker53">BBaker53</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_918</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This letter is from Henry Stockman to Mabel FitzGerald (née Washington McConnell) (1884-1958), wife of politician and intellectual Desmond FitzGerald (1888-1947). The writer sympathises with Mrs FitzGerald and praises her for her courage. He expresses support for the Rising and regrets not having been part of it. He believes that the 'typical' English attitude is actually swinging public opinion towards the rebels. The writer says that he will do what he can for her husband and, perhaps, visit him. He wonders if Mrs FitzGerald has been ostracised by her family because of what has happened. He refers to "the Sheehy-Skeffington affair" (the shooting of pacifist Francis Sheehy-Skeffington (1878-1916) by a British officer during the Rising) as terrible. Referring to the Great War, he declares that he is indifferent to England, loves France, and has some dislike for the Germans - for France's sake he hopes the allies will be victorious. The belief in England seems to be that any advantage gained by the enemies in France has grown from 'affairs in Ireland'.</p>
+                        
+                            <p>Mabel Fitzgerald was the wife of Irish Volunteer Desmond Fitzgerald.  Mabel was a former governess in London. She later vigorously canvassed her former acquaintances in London's liberal circles for support for Francis Sheehy Skeffington during his hunger strike in 1915. Both Mabel and Desmond would serve in the GPO garrison during Easter Week.</p>
+                        
+                            <p></p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                                Original DCN: FitzGerald Papers P80/1596/1
+                             
+                        -->
+                            
+                                <collection type='public'>FitzGerald Papers P80/1596/1</collection>
+                            
+                            
+                        <idno>FitzGerald Papers P80/1596/1</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Mabel_FitzGerald">Mabel FitzGerald</persName>
+                
+                
+                
+                    <placeName  ref="#Bray,_Co.Wicklow,_Ireland.">Bray, Co.Wicklow, Ireland.</placeName>
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Harry_Stockman">Harry Stockman</persName>
+                    
+                     
+                    <placeName ref="#Fleet_Street,_London,_England.">Fleet Street, London, England.</placeName>
+                    
+                    
+                    <date when="1916-05-31">31 May 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                            <item n="tag">World War 1: 1914-1918</item>
+                            
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-03-11T17:30:54" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-03-11T17:30:54" who="#Stephywalsh">
+                
+                    Page 2346 modified:
+                    <!-- 
+<address>61 Fleet Street</address> <date>May 31st</date> <salute>My dear Mrs. Fitzgerald,</salute> <p>I was very glad indeed to have your fine letter, and<lb/>the spirit running through is calculated to cure even the most cynical<lb/>of their lack of faith in the readiness of individuals to make sacrifice<lb/>for ideals.  I can understand what it must mean to you to make the sac-<lb/>rifice demanded of you, but I know that you have much too fine a conception<lb/>of your duty to Ireland to place personal feelings or considerations first.<lb/>I am sure you will find comfort in the thought that your husband has not<lb/>failed in his duty to Ireland where so many have failed.  The choice he<lb/>has made will naturally be a severe ordeal to him, it will be increased<lb/>by anxiety about you and the children, but it will make things ever so<lb/>much easier for him to know that you are facing your part with such a <lb/>fine courage.  Years ago I came to the conclusion that nothing would be<lb/>more disastrous to the Irish Nation than to attain a sham independence<lb/>without one more attempt on the part of the bravest and best of her sons<lb/>and daughters to win it by force and sacrifice rather than to rely on<lb/>sordid policital intrigues.  My one dream was that I might live to take<lb/>part in such an uprising.  In a moment of ill-health when opponents in<lb/>public and private <del> were pressing me hard and I was smarting under<lb/>a sense of ingratitude from people I had sacrificied myself in serving I<lb/> lost faith in the future and left Ireland for good.  I have never ceased<lb/>to regret that step, and my regret has been intensified manifold lately<lb/>by what has taken place.  Something of my old enthusiasm was revived by<lb/>my chance meeting with you, because almost from the first I recognised<lb/>you a woman inspired by the same faith that had kept me alive through<lb/>a boyhood and <del>deleted text</del>early manhood <del>deleted text</del> in which the profession<lb/>of views like mine meant the deprivation of ties of friendship, and even<lb/>the loss of the ordinary amenities of family life.  Regrets, however, are<lb/>useless now.</p> <p>Feeling here has not improved so far as those taking part in the<lb/>rising are concerned.  Everywhere one hears them denounced in that self-<lb/>complacent way for which the Englishman is famed. Even the more Liberal<lb/>fall back on the "argument", "But what do they expect to gain by it?"  There you have the sould<del>deleted text</del>of the Englishman laid bare.  It is always a question<lb/> of profit and loss.  He can never undertake an enterprise unless you can<lb/> work out for him with paper and pencil how much he is likely to gain by<lb/>it.  Show him in shillings, in pence, or even in decimals fo pence what<lb/>his profit is likely to be and he will risk even the puny soul he has<lb/>got.  That attitude of mind is influencing public opinion towards the<lb/>"rebels", and makes it very difficult to forecast the future.  My impres-<lb/>sion, however, is that if any "settlement" of the Irish Question is reached<lb/>the politicians will be shamed into making a general amnesty a part of it.<lb/>In that case your husband should be restored to you.  I will bear in mind<lb/>what you have told me of his case, and will do what I can at any moment<lb/>where circumstances seem to justify action.  I would not lay too much stress<lb/>on the point about the concession of belligerent rights after twenty-four<lb/>hours.  International Law is very uncertain on the point, and in the last<lb/>resort the status of men in insurrection is governed by its success </p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-03-11T17:42:00" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-03-11T17:42:00" who="#Stephywalsh">
+                
+                    Page 2347 modified:
+                    <!-- 
+or failure. <p>If you will tell me where your husband is confined I may be able<lb/>to pay him a visit.  I should like very much to see you again, and the <lb/>children also.  I am glad they are being brought up on the right lines,<lb/>and am sure that their father's example, not to speak of your own, will<lb/>be an inspiration to them in after life.  How are your own people taking<lb/>it?  I suppose they have disowned you.  That, however, will hardly trouble<lb/>you.  It is one of the prices one has got to pay in Ireland for daring to<lb/>develop views out of harmony with those of one's family.</p> <p>The Sheehy-Skeffington affair is terrible, but you cannot make<lb/>Englishmen realise that.  They go on as usual paying themselves compliments<lb/>about their magnanimity, their superiority to the Germans, and the ingrati-<lb/>tude of all who refuse to be content under the benevolent rule of the<lb/>Briton.  The war has been a source of some trial and difficulty to me.<lb/>All wars I detest, <del>deleted text</del>I have no enthusiasm for the "Empire," and<lb/>whether Britain goes under or not does not concern me.  I have, however,<lb/>a very strong affection for France, and some dislike of Germany.  I would<lb/>look upon it as a great disaster if France were crushed again, and for the <lb/>sake of France I do desire the success of the allies.  That does not lead<lb/>me to share the absurd <del>deleted text</del>idea about the supposed infamy of those<lb/>who have "aided" the Germans by <sic>riising</sic>the standard of revolt in Ireland.<lb/>English Statesmanship and that alone must shoulder the responsibilty for<lb/>any advantage which the enemies of France have gained from affairs in<lb/>Ireland</p> <p>I will have to finish now, but I wish you would write to me from<lb/>time to time and let me know how things are with you.  I will do what i<lb/>can to reply to you.  You must also let me know of any way in which I can<lb/>be of assistance to you. <salute>Very sincerely yours,</salute>Harry Stockman</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-26T23:24:52" who="#BBaker53">
+                
+                    Page 2346 modified:
+                    <!-- 
+<note>P80/1596(1)</note>  <address>61 Fleet Street</address> <date>May 31st</date> <salute>My dear Mrs. Fitzgerald,</salute> <p>I was very glad indeed to have your fine letter, and<lb/>the spirit running through is calculated to cure even the most cynical<lb/>of their lack of faith in the readiness of individuals to make sacrifice<lb/>for ideals.  I can understand what it must mean to you to make the sac-<lb/>rifice demanded of you, but I know that you have much too fine a conception<lb/>of your duty to Ireland to place personal feelings or considerations first.<lb/>I am sure you will find comfort in the thought that your husband has not<lb/>failed in his duty to Ireland where so many have failed.  The choice he<lb/>has made will naturally be a severe ordeal to him, it will be increased<lb/>by anxiety about you and the children, but it will make things ever so<lb/>much easier for him to know that you are facing your part with such a <lb/>fine courage.  Years ago I came to the conclusion that nothing would be<lb/>more disastrous to the Irish Nation than to attain a sham independence<lb/>without one more attempt on the part of the bravest and best of her sons<lb/>and daughters to win it by force and sacrifice rather than to rely on<lb/>sordid policital intrigues.  My one dream was that I might live to take<lb/>part in such an uprising.  In a moment of ill-health when opponents in<lb/>public and private <del>deleted text</del> were pressing me hard and I was smarting under<lb/>a sense of ingratitude from people I had sacrificied myself in serving I<lb/> lost faith in the future and left Ireland for good.  I have never ceased<lb/>to regret that step, and my regret has been intensified manifold lately<lb/>by what has taken place.  Something of my old enthusiasm was revived by<lb/>my chance meeting with you, because almost from the first I recognised in<lb/>you a woman inspired by the same faith that had kept me alive through<lb/>a boyhood and <del>deleted text</del>early manhood <del>deleted text</del> in which the profession<lb/>of views like mine meant the deprivation of ties of friendship, and even<lb/>the loss of the ordinary amenities of family life.  Regrets, however, are<lb/>useless now.</p> <p>Feeling here has not improved so far as those taking part in the<lb/>rising are concerned.  Everywhere one hears them denounced in that self-<lb/>complacent way for which the Englishman is famed. Even the more Liberal<lb/>fall back on the "argument", "But what do they expect to gain by it?"  There you have the sou<del>ld</del> of the Englishman laid bare.  It is always a question<lb/> of profit and loss.  He can never undertake an enterprise unless you can<lb/> work out for him with paper and pencil how much he is likely to gain by<lb/>it.  Show him in shillings, in pence, or even in decimals of pence what<lb/>his profit is likely to be and he will risk even the puny soul he has<lb/>got.  That attitude of mind is influencing public opinion towards the<lb/>"rebels", and makes it very difficult to forecast the future.  My impres-<lb/>sion, however, is that if any "settlement" of the Irish Question is reached<lb/>the politicians will be shamed into making a general amnesty a part of it.<lb/>In that case your husband should be restored to you.  I will bear in mind<lb/>what you have told me of his case, and will do what I can at any moment<lb/>where circumstances seem to justify action.  I would not lay too much stress<lb/>on the point about the concession of belligerent rights after twenty-four<lb/>hours.  International Law is very uncertain on the point, and in the last<lb/>resort the status of men in insurrection is governed by its success </p><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-26T23:28:03" who="#BBaker53">
+                
+                    Page 2347 modified:
+                    <!-- 
+or failure.<lb/> <p>If you will tell me where your husband is confined I may be able<lb/>to pay him a visit.  I should like very much to see you again, and the <lb/>children also.  I am glad they are being brought up on the right lines,<lb/>and am sure that their father's example, not to speak of your own, will<lb/>be an inspiration to them in after life.  How are your own people taking<lb/>it?  I suppose they have disowned you.  That, however, will hardly trouble<lb/>you.  It is one of the prices one has got to pay in Ireland for daring to<lb/>develop views out of harmony with those of one's family.</p> <p>The Sheehy-Skeffington affair is terrible, but you cannot make<lb/>Englishmen realise that.  They go on as usual paying themselves compliments<lb/>about their magnanimity, their superiority to the Germans, and the ingrati-<lb/>tude of all who refuse to be content under the benevolent rule of the<lb/>Briton.  The war has been a source of some trial and difficulty to me.<lb/>All wars I detest, <del>deleted text</del>I have no enthusiasm for the "Empire," and<lb/>whether Britain goes under or not does not concern me.  I have, however,<lb/>a very strong affection for France, and some dislike of Germany.  I would<lb/>look upon it as a great disaster if France were crushed again, and for the <lb/>sake of France I do desire the success of the allies.  That does not lead<lb/>me to share the absurd <del>deleted text</del>idea about the supposed infamy of those<lb/>who have "aided" the Germans by <sic>riising</sic>the standard of revolt in Ireland.<lb/>English Statesmanship and that alone must shoulder the responsibilty for<lb/>any advantage which the enemies of France have gained from affairs in<lb/>Ireland</p> <p>I will have to finish now, but I wish you would write to me from<lb/>time to time and let me know how things are with you.  I will do what I<lb/>can to reply to you.  You must also let me know of any way in which I can<lb/>be of assistance to you. <salute>Very sincerely yours,<lb/></salute>Harry Stockman</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-05T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T18:00:17" who="#NR">
+                
+                    Page 2346 modified:
+                    <!-- 
+<address>61 Fleet Street</address> <date>May 31st</date> <salute>My dear Mrs. Fitzgerald,</salute> <p>I was very glad indeed to have your fine letter, and <lb/>the spirit running through is calculated to cure even the most cynical <lb/>of their lack of faith in the readiness of individuals to make sacrifice <lb/>for ideals.  I can understand what it must mean to you to make the sac- <lb/>rifice demanded of you, but I know that you have much too fine a conception <lb/>of your duty to Ireland to place personal feelings or considerations first. <lb/>I am sure you will find comfort in the thought that your husband has not <lb/>failed in his duty to Ireland where so many have failed.  The choice he <lb/>has made will naturally be a severe ordeal to him, it will be increased <lb/>by anxiety about you and the children, but it will make things ever so <lb/>much easier for him to know that you are facing your part with such a  <lb/>fine courage.  Years ago I came to the conclusion that nothing would be <lb/>more disastrous to the Irish Nation than to attain a sham independence <lb/>without one more attempt on the part of the bravest and best of her sons <lb/>and daughters to win it by force and sacrifice rather than to rely on <lb/>sordid policital intrigues.  My one dream was that I might live to take <lb/>part in such an uprising.  In a moment of ill-health when opponents in <lb/>public and private <del>where</del> were pressing me hard and I was smarting under <lb/>a sense of ingratitude from people I had sacrificied myself in serving I <lb/> lost faith in the future and left Ireland for good.  I have never ceased <lb/>to regret that step, and my regret has been intensified manifold lately <lb/>by what has taken place.  Something of my old enthusiasm was revived by <lb/>my chance meeting with you, because almost from the first I recognised in <lb/>you a woman inspired by the same faith that had kept me alive through <lb/>a boyhood and <del>a manhood spent</del>early manhood <del>where</del> in which the profession <lb/>of views like mine meant the deprivation of ties of friendship, and even <lb/>the loss of the ordinary amenities of family life.  Regrets, however, are <lb/>useless now.</p> <p>Feeling here has not improved so far as those taking part in the <lb/>rising are concerned.  Everywhere one hears them denounced in that self- <lb/>complacent way for which the Englishman is famed. Even the more Liberal <lb/>fall back on the "argument", "But what do they expect to gain by it?"  There <lb/> you have the sou<del>ld</del> of the Englishman laid bare.  It is always a question <lb/> of profit and loss.  He can never undertake an enterprise unless you can <lb/> work out for him with paper and pencil how much he is likely to gain by <lb/>it.  Show him in shillings, in pence, or even in decimals of pence what <lb/>his profit is likely to be and he will risk even the puny soul he has <lb/>got.  That attitude of mind is influencing public opinion towards the <lb/>"rebels", and makes it very difficult to forecast the future.  My impres- <lb/>sion, however, is that if any "settlement" of the Irish Question is reached <lb/>the politicians will be shamed into making a general amnesty a part of it. <lb/>In that case your husband should be restored to you.  I will bear in mind <lb/>what you have told me of his case, and will do what I can at any moment <lb/>where circumstances seem to justify action.  I would not lay too much stress <lb/>on the point about the concession of belligerent rights after twenty-four <lb/>hours.  International Law is very uncertain on the point, and in the last <lb/>resort the status of men in insurrection is governed by its success 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T18:02:38" who="#NR">
+                
+                    Page 2347 modified:
+                    <!-- 
+or failure.</p> <p>If you will tell me where your husband is confined I may be able <lb/>to pay him a visit.  I should like very much to see you again, and the  <lb/>children also.  I am glad they are being brought up on the right lines, <lb/>and am sure that their father's example, not to speak of your own, will <lb/>be an inspiration to them in after life.  How are your own people taking <lb/>it?  I suppose they have disowned you.  That, however, will hardly trouble <lb/>you.  It is one of the prices one has got to pay in Ireland for daring to <lb/>develop views out of harmony with those of one's family.</p> <p>The Sheehy-Skeffington affair is terrible, but you cannot make <lb/>Englishmen realise that.  They go on as usual paying themselves compliments <lb/>about their magnanimity, their superiority to the Germans, and the ingrati- <lb/>tude of all who refuse to be content under the benevolent rule of the <lb/>Briton.  The war has been a source of some trial and difficulty to me. <lb/>All wars I detest, <del>but I have</del>I have no enthusiasm for the "Empire," and <lb/>whether Britain goes under or not does not concern me.  I have, however, <lb/>a very strong affection for France, and some dislike of Germany.  I would <lb/>look upon it as a great disaster if France were crushed again, and for the  <lb/>sake of France I do desire the success of the allies.  That does not lead <lb/>me to share the absurd <del>notion</del>idea about the supposed infamy of those <lb/>who have "aided" the Germans by <sic>riising</sic>the standard of revolt in Ireland. <lb/>English Statesmanship and that alone must shoulder the responsibilty for <lb/>any advantage which the enemies of France have gained from affairs in <lb/>Ireland</p> <p>I will have to finish now, but I wish you would write to me from <lb/>time to time and let me know how things are with you.  I will do what I <lb/>can to reply to you.  You must also let me know of any way in which I can <lb/>be of assistance to you. <salute>Very sincerely yours,</salute> <signed><hi rend="underline">Harry Stockman</hi></signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2346 created using version from <date when="2014-03-11T17:30:54"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2346 removed (version from <date when="2014-03-11T17:30:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2346 removed (version from <date when="2014-12-26T23:24:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2346 removed (version from <date when="2016-01-06T18:00:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2347 created using version from <date when="2014-03-11T17:42:00"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2347 removed (version from <date when="2014-03-11T17:42:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2347 removed (version from <date when="2014-12-26T23:28:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2347 removed (version from <date when="2016-01-06T18:02:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:22" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2346 (version from <date when="2016-01-06T18:00:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:23" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2347 added to letter (version from <date when="2016-01-06T18:02:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:26" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                    Clean tags: Page 2346 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                    Clean tags: Page 2347 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:34" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_918_img_2346" url="e4c6ce5790f9f2dd3508db3cab02fe68.jpg"/> 
+    
+    <graphic xml:id="L1916_918_img_2347" url="4052339d3509d6630ee29d3e0cbb7231.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2346" facs="#L1916_918_img_2346"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>61 Fleet Street</addrLine></address> <dateline><date>May 31st</date></dateline> <salute>My dear Mrs. Fitzgerald,</salute></opener> <p>I was very glad indeed to have your fine letter, and <lb/>the spirit running through is calculated to cure even the most cynical <lb/>of their lack of faith in the readiness of individuals to make sacrifice <lb/>for ideals.  I can understand what it must mean to you to make the sac- <lb/>rifice demanded of you, but I know that you have much too fine a conception <lb/>of your duty to Ireland to place personal feelings or considerations first. <lb/>I am sure you will find comfort in the thought that your husband has not <lb/>failed in his duty to Ireland where so many have failed.  The choice he <lb/>has made will naturally be a severe ordeal to him, it will be increased <lb/>by anxiety about you and the children, but it will make things ever so <lb/>much easier for him to know that you are facing your part with such a  <lb/>fine courage.  Years ago I came to the conclusion that nothing would be <lb/>more disastrous to the Irish Nation than to attain a sham independence <lb/>without one more attempt on the part of the bravest and best of her sons <lb/>and daughters to win it by force and sacrifice rather than to rely on <lb/>sordid policital intrigues.  My one dream was that I might live to take <lb/>part in such an uprising.  In a moment of ill-health when opponents in <lb/>public and private <del>where</del> were pressing me hard and I was smarting under <lb/>a sense of ingratitude from people I had sacrificied myself in serving I <lb/> lost faith in the future and left Ireland for good.  I have never ceased <lb/>to regret that step, and my regret has been intensified manifold lately <lb/>by what has taken place.  Something of my old enthusiasm was revived by <lb/>my chance meeting with you, because almost from the first I recognised in <lb/>you a woman inspired by the same faith that had kept me alive through <lb/>a boyhood and <del>a manhood spent</del>early manhood <del>where</del> in which the profession <lb/>of views like mine meant the deprivation of ties of friendship, and even <lb/>the loss of the ordinary amenities of family life.  Regrets, however, are <lb/>useless now.</p> <p>Feeling here has not improved so far as those taking part in the <lb/>rising are concerned.  Everywhere one hears them denounced in that self- <lb/>complacent way for which the Englishman is famed. Even the more Liberal <lb/>fall back on the "argument", "But what do they expect to gain by it?"  There <lb/> you have the sou<del>ld</del> of the Englishman laid bare.  It is always a question <lb/> of profit and loss.  He can never undertake an enterprise unless you can <lb/> work out for him with paper and pencil how much he is likely to gain by <lb/>it.  Show him in shillings, in pence, or even in decimals of pence what <lb/>his profit is likely to be and he will risk even the puny soul he has <lb/>got.  That attitude of mind is influencing public opinion towards the <lb/>"rebels", and makes it very difficult to forecast the future.  My impres- <lb/>sion, however, is that if any "settlement" of the Irish Question is reached <lb/>the politicians will be shamed into making a general amnesty a part of it. <lb/>In that case your husband should be restored to you.  I will bear in mind <lb/>what you have told me of his case, and will do what I can at any moment <lb/>where circumstances seem to justify action.  I would not lay too much stress <lb/>on the point about the concession of belligerent rights after twenty-four <lb/>hours.  International Law is very uncertain on the point, and in the last <lb/>resort the status of men in insurrection is governed by its success
+        
+    
+
+    
+         
+        <pb n="2347" facs="#L1916_918_img_2347"/>
+        
+        
+           
+            or failure.</p> <p>If you will tell me where your husband is confined I may be able <lb/>to pay him a visit.  I should like very much to see you again, and the  <lb/>children also.  I am glad they are being brought up on the right lines, <lb/>and am sure that their father's example, not to speak of your own, will <lb/>be an inspiration to them in after life.  How are your own people taking <lb/>it?  I suppose they have disowned you.  That, however, will hardly trouble <lb/>you.  It is one of the prices one has got to pay in Ireland for daring to <lb/>develop views out of harmony with those of one's family.</p> <p>The Sheehy-Skeffington affair is terrible, but you cannot make <lb/>Englishmen realise that.  They go on as usual paying themselves compliments <lb/>about their magnanimity, their superiority to the Germans, and the ingrati- <lb/>tude of all who refuse to be content under the benevolent rule of the <lb/>Briton.  The war has been a source of some trial and difficulty to me. <lb/>All wars I detest, <del>but I have</del>I have no enthusiasm for the "Empire," and <lb/>whether Britain goes under or not does not concern me.  I have, however, <lb/>a very strong affection for France, and some dislike of Germany.  I would <lb/>look upon it as a great disaster if France were crushed again, and for the  <lb/>sake of France I do desire the success of the allies.  That does not lead <lb/>me to share the absurd <del>notion</del>idea about the supposed infamy of those <lb/>who have "aided" the Germans by <sic>riising</sic>the standard of revolt in Ireland. <lb/>English Statesmanship and that alone must shoulder the responsibilty for <lb/>any advantage which the enemies of France have gained from affairs in <lb/>Ireland</p> <p>I will have to finish now, but I wish you would write to me from <lb/>time to time and let me know how things are with you.  I will do what I <lb/>can to reply to you.  You must also let me know of any way in which I can <lb/>be of assistance to you. <closer><salute>Very sincerely yours,</salute> <signed><hi rend="underline">Harry Stockman</hi></signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

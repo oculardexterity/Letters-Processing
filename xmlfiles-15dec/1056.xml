@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1056">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from M. Curry to Nancy O&#39;Rahilly, 15 June, 1916.</title>
+                
+                <author>M. Curry</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="HH">Hannah Healy</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1056</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is a letter of condolence to Nancy O&#39;Rahilly (1875-1961).   This letter expresses the sympathy of &#39;all the Sisters &amp; many boarders&#39;. The writer thinks often and prays for Mrs. O&#39;Rahilly and her deceased husband. The writer asks for a supply of mortuary cards and hopes the children are a comfort to her.    She was a member of the Provisional Council of Cumann na mBan at the founding in 1914 and the wife of Michael Joseph O&#39;Rahilly, self-described as &#39;The&#39; O&#39;Rahilly (1875-1916). The O&#39;Rahilly fought in the Easter Rising and was shot in Parnell/Moore Street on 28 April 1916 and died some time later. Nancy was pregnant at the time of her husband&#39;s death – the child was born three months later.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Nancy_ORahilly">Nancy O&#39;Rahilly</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#M._Curry">M. Curry</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-06-27T07:44:15" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-06-27T07:44:15" who="#HH">
+                
+                    Page 2740 modified:
+                    <!-- 
+<address>St Josephs</address> <date>June 15 1916</date>  Dear Mrs Rahilly <p>I hope by this our great Lord has given you resignation in your great trouble. I have very often thought of you & prayed for you & the dear dead R.I.P. you have the sympathy 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-11T19:30:16" who="#Philcostel">
+                
+                    Page 2740 modified:
+                    <!-- 
+<address>St Josephs</address> <date>June 15 1916</date>  Dear Mrs Rahilly <p>I hope by this our Good Lord has given you resignation in your great trouble. I have very often thought of you, & prayed for you & the dear dead R.I.P.  You have the sympathy 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-11T19:38:51" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-11T19:38:51" who="#Philcostel">
+                
+                    Page 2741 modified:
+                    <!-- 
+of all the Sisters & many boarders. I wrote a few lines to Mrs. Humphreys some time since & asked her to convey my sympathy to you, did not know your address till seeing advertisement about poor Michael's ring etc. Our Dear Lord be good to him. I suppose you got no tidings of ring. Will you please spare me as many of his M. cards as possible, a few of the Sisters have asked me to try & get them one, & a few of the Lady Boarders. Then I want one for Mrs. Morris & self. I trust the children are well. Such comfort you 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-11T19:39:52" who="#Philcostel">
+                
+                    Page 2741 modified:
+                    <!-- 
+of all the Sisters & many boarders. I wrote a few lines to Mrs. Humphreys some time since & asked her to convey my sympathy to you, did not know your address till seeing advertisement about poor Michael's ring etc. Our Dear Lord be good to him. I suppose you got no tidings of ring. Will you please spare me as many of his M. cards as possible, a few of the Sisters have asked me to try & get them one, & a few of the Lady Boarders. Then I want one for Mrs. Morris & self. I trust the children are well. God comfort you 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-11T19:41:16" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-11T19:41:16" who="#Philcostel">
+                
+                    Page 2742 modified:
+                    <!-- 
+With deepest sympathy dear Mrs. O'Rahilly Yours Sincerely M.Curry 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-09T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-09T12:45:05" who="#NR">
+                
+                    Page 2740 modified:
+                    <!-- 
+<address>St Josephs</address> <date>June 15 1916</date>  <salute>Dear Mrs Rahilly</salute> <p>I hope by this <lb/> our Good Lord has  <lb/>given you resignation <lb/> in your <hi rend="underline">great trouble</hi> <lb/>I have very often thought <lb/> of you, &amp; prayed for you <lb/> &amp; the dear dead R.I.P.  <lb/>You have the sympathy 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-09T12:47:46" who="#NR">
+                
+                    Page 2741 modified:
+                    <!-- 
+<lb/>of all the Sisters &amp; many boarders. <lb/> I wrote a few lines to Mrs. Humphreys  <lb/>some time since &amp; asked her <lb/>to convey my sympathy to you, <lb/> did not know your address <lb/> till seeing advertisement about <lb/>poor Michael's ring etc. Our Dear <lb/> Lord be good to him. I suppose <lb/>you got no tidings of ring.</p> <p>Will you please spare me  <lb/>as many of his M. cards as <lb/>possible, a few of the Sisters <lb/> have asked me to try &amp; get  <lb/>them one, &amp; a few of the <lb/> Lady Boarders. Then I want one  <lb/>for Mrs. Morris &amp; self. I trust the <lb/> children are well. God comfort you 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-09T12:48:23" who="#NR">
+                
+                    Page 2742 modified:
+                    <!-- 
+<salute>With deepest sympathy <lb/>dear Mrs. O'Rahilly <lb/>Yours Sincerely</salute> <signed>M.Curry</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2741 created using version from <date when="2014-11-11T19:38:51"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2741 removed (version from <date when="2014-11-11T19:38:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2741 removed (version from <date when="2014-11-11T19:39:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2741 removed (version from <date when="2015-12-09T12:47:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2742 created using version from <date when="2014-11-11T19:41:16"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2742 removed (version from <date when="2014-11-11T19:41:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2742 removed (version from <date when="2015-12-09T12:48:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2740 created using version from <date when="2014-06-27T07:44:15"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2740 removed (version from <date when="2014-06-27T07:44:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2740 removed (version from <date when="2014-11-11T19:30:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2740 removed (version from <date when="2015-12-09T12:45:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2741 (version from <date when="2015-12-09T12:47:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2742 added to letter (version from <date when="2015-12-09T12:48:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2740 added to letter (version from <date when="2015-12-09T12:45:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 2740 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 2741 cleaned of 5 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 2742 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:30" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1056_img_2740" url="c5416281e06929420720ab273c36965f.jpg"/> 
+    
+    <graphic xml:id="L1916_1056_img_2741" url="7e82787c48fe032f28617519eee70bdb.jpg"/> 
+    
+    <graphic xml:id="L1916_1056_img_2742" url="5daa94fef44ac6df60165b05ec8ddbba.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2740" facs="#L1916_1056_img_2740"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>St Josephs</addrLine></address> <dateline><date>June 15 1916</date></dateline>  <salute>Dear Mrs Rahilly</salute></opener> <p>I hope by this <lb/> our Good Lord has  <lb/>given you resignation <lb/> in your <hi rend="underline">great trouble</hi> <lb/>I have very often thought <lb/> of you, &amp; prayed for you <lb/> &amp; the dear dead R.I.P.  <lb/>You have the sympathy
+        
+    
+
+    
+         
+        <pb n="2741" facs="#L1916_1056_img_2741"/>
+        
+        
+           
+            <lb/>of all the Sisters &amp; many boarders. <lb/> I wrote a few lines to Mrs. Humphreys  <lb/>some time since &amp; asked her <lb/>to convey my sympathy to you, <lb/> did not know your address <lb/> till seeing advertisement about <lb/>poor Michael's ring etc. Our Dear <lb/> Lord be good to him. I suppose <lb/>you got no tidings of ring.</p> <p>Will you please spare me  <lb/>as many of his M. cards as <lb/>possible, a few of the Sisters <lb/> have asked me to try &amp; get  <lb/>them one, &amp; a few of the <lb/> Lady Boarders. Then I want one  <lb/>for Mrs. Morris &amp; self. I trust the <lb/> children are well. God comfort you
+        
+    
+         
+        <pb n="2742" facs="#L1916_1056_img_2742"/>
+        
+        
+           
+            <closer><salute>With deepest sympathy <lb/>dear Mrs. O'Rahilly <lb/>Yours Sincerely</salute> <signed>M.Curry</signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

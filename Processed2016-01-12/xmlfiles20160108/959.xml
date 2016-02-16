@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_959">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Philip J. McArdle to John Dillon, 21 May 1916.</title>
+                
+                <author>Philip J. McArdle</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_959</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>Letter from Philip J. McArdle to John Dillon (1851-1927). The writer delivers an account of a conversation he had on board a boat in Greenore, Co. Louth, with a soldier from the Royal Irish Rifles. The soldier recognised Francis Sheehy-Skeffington in a front page picture of the newspaper which Mr. McArdle had been given and this gave rise to the conversation. It emerged that the soldier had been part of the firing squad at Portobello Barracks which executed Sheehy-Skeffington and two others. He described the shooting of Sheehy-Skeffington, saying that he was shot as he lay on the ground. He named the officer in charge as Adjutant Morgan and said that all of the firing party were from Victoria Barracks.</p>
+                        
+                            <p>John Dillon was an Irish Party MP in the House of Commons. In a speech in the House on 11 May 1916 he strongly condemned the British handling of the Rising which had been put down 'with so much blood and so much savagery', and called for an immediate end to executions. Mr. Dillon assisted Hanna Sheehy-Skeffington in her plea for a public inquiry and in various correspondence relating to her husband's murder and raids on her home.  </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Trinity College Dublin">Trinity College Dublin</repository>
+                        <!-- 
+                                Original DCN: TCD Ms. 6837/22a
+                             
+                        -->
+                            
+                                <collection type='public'>TCD Ms. 6837/22a</collection>
+                            
+                            
+                        <idno>TCD Ms. 6837/22a</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#John_Dillon">John Dillon</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Philip_J._McArdle">Philip J. McArdle</persName>
+                    
+                     
+                    <placeName ref="#12_Harberton_Road,_Highgate,_London_W.,_England.">12 Harberton Road, Highgate, London W., England.</placeName>
+                    
+                    
+                    <date when="1916-05-21">21 May 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2016-01-05T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T09:49:07" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T09:49:07" who="#NR">
+                
+                    Page 2434 modified:
+                    <!-- 
+<address>12 Harberton Road <lb/>Highgate <lb/>London W.</address> <date>21st May 1916</date>  <salute>Dear Mr. Dillon</salute> <p>I am in receipt of your <lb/>letter of the 18th May &amp; as you wish <lb/> to have details of this conversation, <lb/> I shall endeavour to put it on paper  <lb/>as best I can.</p> <p>I was sitting in the  <lb/>cabin of the Greenore boat where there <lb/> was a good number of Soldiers &amp; some <lb/> one near handed me the 'Sketch' of the <lb/> day to have a look at it. As I was <lb/> about to open it, I noticed on the front  <lb/>page a photo of Mr Sheehy-Skeffington, <lb/> evidently addressing a gathering. <lb/>Whilst looking at it , a soldier on my <lb/> left bent over in some surprise, &amp; <lb/> said "Hello, I saw that fellow; he was <lb/> shot along with three others in  <lb/>Portobello barracks"! I said, is that so? <lb/>"Oh yes, I was one of the firing party &amp; 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T09:50:30" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T09:50:30" who="#NR">
+                
+                    Page 2435 modified:
+                    <!-- 
+<lb/>a devil of a job we had with them", he  <lb/>answered. " We placed them along  <lb/>some brick walls &amp; shot them, one <lb/> after another, at breakfast time." <lb/>There were eight of us in the  <lb/>firing party.</p> <p>That fellow there" (pointing <lb/> to the picture of Sheehy-Skeffington) when <lb/> he heard the first discharges, fell <lb/> insensible &amp; when it came his turn <lb/> we tried to stand him; but it was <lb/> no use, so we had to shoot him on <lb/> the ground."</p> He then went on to say, that he deserved to be shot, although in his opinion he got no trial & he seemed to think too that the officer "<hi rend="underline">would get into a row over it.</hi> I said I thought the officer was not an Englishman. As no, he answered, I know him well, he belongs to near Newtownards, - it was Adjutant Morgan. We were all Belfast men who shot them - all from the Victoria Barracks"! I was rather nervous about questioning him too sharply & went cautiously. I got <gap/>, however that Mr 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T09:52:22" who="#NR">
+                
+                    Page 2435 modified:
+                    <!-- 
+<lb/>a devil of a job we had with them", he  <lb/>answered. " We placed them along  <lb/>some brick walls &amp; shot them, one <lb/> after another, at breakfast time." <lb/>There were eight of us in the  <lb/>firing party.</p> <p>That fellow there" (pointing <lb/> to the picture of Sheehy-Skeffington) when <lb/> he heard the first discharges, fell <lb/> insensible &amp; when it came his turn <lb/> we tried to stand him; but it was <lb/> no use, so we had to shoot him on <lb/> the ground."</p> <p>He then went on to say, that <lb/> he deserved to be shot, although in his  <lb/>opinion he got no trial &amp; he seemed <lb/> to think too that the officer "<hi rend="underline">would  <lb/>get into a row over it.</hi> I said I thought <lb/> the officer was not an Englishman. <lb/> As no, he answered, I know him well, he  <lb/>belongs to near Newtownards, - it  <lb/>was Adjutant Morgan. We were all <lb/> Belfast men who shot them - all  <lb/>from the Victoria Barracks"!</p> <p>I was rather nervous about  <lb/>questioning him too sharply &amp; went <lb/> cautiously. I got <gap/>, however that Mr 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T09:53:01" who="#NR">
+                
+                    Page 2435 modified:
+                    <!-- 
+<lb/>a devil of a job we had with them", he  <lb/>answered. " We placed them along  <lb/>some brick walls &amp; shot them, one <lb/> after another, at breakfast time." <lb/>There were eight of us in the  <lb/>firing party.</p> <p>That fellow there" (pointing <lb/> to the picture of Sheehy-Skeffington) when <lb/> he heard the first discharges, fell <lb/> insensible &amp; when it came his turn <lb/> we tried to stand him; but it was <lb/> no use, so we had to shoot him on <lb/> the ground."</p> <p>He then went on to say, that <lb/> he deserved to be shot, although in his  <lb/>opinion he got no trial &amp; he seemed <lb/> to think too that the officer "<hi rend="underline">would  <lb/>get into a row over it.</hi> I said I thought <lb/> the officer was not an Englishman. <lb/> As no, he answered, I know him well, he  <lb/>belongs to near Newtownards, - it  <lb/>was Adjutant Morgan. We were all <lb/> Belfast men who shot them - all  <lb/>from the Victoria Barracks"!</p> <p>I was rather nervous about  <lb/>questioning him too sharply &amp; went <lb/> cautiously. I got <unclear>news</unclear>, however that Mr 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T09:57:01" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T09:57:01" who="#NR">
+                
+                    Page 2436 modified:
+                    <!-- 
+<lb/>Sheehy-Skeffington would eat nothing <lb/> after being taken. This the soldier <lb/> put down as a fear of his being <lb/> poisoned &amp; appeared never to have <lb/> heard of a hunger-strike. Several  <lb/>of his remarks were very strange <lb/> &amp; made his story appear extremely <lb/> likely. He appeared to be puzzled,  <lb/>for instance, that the bullets <lb/> passed through the bodies of the <lb/> victims, &amp; smashed the bricks <lb/> behind.</p> <p>This soldiers name was <lb/> Morrison, as I learned from some of his  <lb/>comrades remarks; he was going to <lb/> Grantham from the Victoria Barracks, <lb/> Belfast &amp; belonged to the Royal Irish <lb/> Rifles. Looking up the Army list  <lb/>on reaching here I found that a Lieut.  <lb/>Morgan was attached to the 3rd Batt. <lb/> Royal Irish Rifles</p> <p>Such is a brief account of the  <lb/>affair &amp; I regret that I could not <lb/> see you personally as I think it would <lb/> be more satisfactory</p> <p>You have information, no <lb/> doubt, which will enable you to set a 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T09:58:15" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T09:58:15" who="#NR">
+                
+                    Page 2437 modified:
+                    <!-- 
+<lb/>proper value on the story; to me, <lb/> of course, it is simply mysterious <lb/>I shall be thankful though <lb/> to have your opinion of it &amp; shall  <lb/>be glad, at any time, to give you <lb/> further details.</p> <salute>I am <lb/>Yours truly</salute> <signed><hi rend="underline">Phil. J. McArdle</hi></signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2436 created using version from <date when="2016-01-06T09:57:01"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2436 removed (version from <date when="2016-01-06T09:57:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2437 created using version from <date when="2016-01-06T09:58:15"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2437 removed (version from <date when="2016-01-06T09:58:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2434 created using version from <date when="2016-01-06T09:49:07"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2434 removed (version from <date when="2016-01-06T09:49:07"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2435 created using version from <date when="2016-01-06T09:50:30"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2435 removed (version from <date when="2016-01-06T09:50:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2435 removed (version from <date when="2016-01-06T09:52:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2435 removed (version from <date when="2016-01-06T09:53:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:23" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2436 (version from <date when="2016-01-06T09:57:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:24" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2437 added to letter (version from <date when="2016-01-06T09:58:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:24" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2434 added to letter (version from <date when="2016-01-06T09:49:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:25" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2435 added to letter (version from <date when="2016-01-06T09:53:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:26" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:27" who="#PythonScript">
+                
+                    Clean tags: Page 2434 cleaned of 4 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:27" who="#PythonScript">
+                
+                    Clean tags: Page 2435 cleaned of 4 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:27" who="#PythonScript">
+                
+                    Clean tags: Page 2436 cleaned of 5 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:27" who="#PythonScript">
+                
+                    Clean tags: Page 2437 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:32" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_959_img_2434" url="7e06a1b92b5d75792ce1030d245d6bdd.jpg"/> 
+    
+    <graphic xml:id="L1916_959_img_2435" url="b2f7dba5da32d44c6c9a313d19fcc834.jpg"/> 
+    
+    <graphic xml:id="L1916_959_img_2436" url="fc4c3cacc268c155ef97afc85e9e0276.jpg"/> 
+    
+    <graphic xml:id="L1916_959_img_2437" url="c6e34b05160fad2ec331467ccdd6b9cb.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2434" facs="#L1916_959_img_2434"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>12 Harberton Road</addrLine>
+<addrLine>Highgate</addrLine>
+<addrLine>London W.</addrLine></address> <dateline><date>21st May 1916</date></dateline>  <salute>Dear Mr. Dillon</salute></opener> <p>I am in receipt of your <lb/>letter of the 18th May &amp; as you wish <lb/> to have details of this conversation, <lb/> I shall endeavour to put it on paper  <lb/>as best I can.</p> <p>I was sitting in the  <lb/>cabin of the Greenore boat where there <lb/> was a good number of Soldiers &amp; some <lb/> one near handed me the 'Sketch' of the <lb/> day to have a look at it. As I was <lb/> about to open it, I noticed on the front  <lb/>page a photo of Mr Sheehy-Skeffington, <lb/> evidently addressing a gathering. <lb/>Whilst looking at it , a soldier on my <lb/> left bent over in some surprise, &amp; <lb/> said "Hello, I saw that fellow; he was <lb/> shot along with three others in  <lb/>Portobello barracks"! I said, is that so? <lb/>"Oh yes, I was one of the firing party &amp;
+        
+    
+
+    
+         
+        <pb n="2435" facs="#L1916_959_img_2435"/>
+        
+        
+           
+            <lb/>a devil of a job we had with them", he  <lb/>answered. " We placed them along  <lb/>some brick walls &amp; shot them, one <lb/> after another, at breakfast time." <lb/>There were eight of us in the  <lb/>firing party.</p> <p>That fellow there" (pointing <lb/> to the picture of Sheehy-Skeffington) when <lb/> he heard the first discharges, fell <lb/> insensible &amp; when it came his turn <lb/> we tried to stand him; but it was <lb/> no use, so we had to shoot him on <lb/> the ground."</p> <p>He then went on to say, that <lb/> he deserved to be shot, although in his  <lb/>opinion he got no trial &amp; he seemed <lb/> to think too that the officer "<hi rend="underline">would  <lb/>get into a row over it.</hi> I said I thought <lb/> the officer was not an Englishman. <lb/> As no, he answered, I know him well, he  <lb/>belongs to near Newtownards, - it  <lb/>was Adjutant Morgan. We were all <lb/> Belfast men who shot them - all  <lb/>from the Victoria Barracks"!</p> <p>I was rather nervous about  <lb/>questioning him too sharply &amp; went <lb/> cautiously. I got <unclear>news</unclear>, however that Mr
+        
+    
+         
+        <pb n="2436" facs="#L1916_959_img_2436"/>
+        
+        
+           
+            <lb/>Sheehy-Skeffington would eat nothing <lb/> after being taken. This the soldier <lb/> put down as a fear of his being <lb/> poisoned &amp; appeared never to have <lb/> heard of a hunger-strike. Several  <lb/>of his remarks were very strange <lb/> &amp; made his story appear extremely <lb/> likely. He appeared to be puzzled,  <lb/>for instance, that the bullets <lb/> passed through the bodies of the <lb/> victims, &amp; smashed the bricks <lb/> behind.</p> <p>This soldiers name was <lb/> Morrison, as I learned from some of his  <lb/>comrades remarks; he was going to <lb/> Grantham from the Victoria Barracks, <lb/> Belfast &amp; belonged to the Royal Irish <lb/> Rifles. Looking up the Army list  <lb/>on reaching here I found that a Lieut.  <lb/>Morgan was attached to the 3rd Batt. <lb/> Royal Irish Rifles</p> <p>Such is a brief account of the  <lb/>affair &amp; I regret that I could not <lb/> see you personally as I think it would <lb/> be more satisfactory</p> <p>You have information, no <lb/> doubt, which will enable you to set a
+        
+    
+         
+        <pb n="2437" facs="#L1916_959_img_2437"/>
+        
+        
+           
+            <lb/>proper value on the story; to me, <lb/> of course, it is simply mysterious <lb/>I shall be thankful though <lb/> to have your opinion of it &amp; shall  <lb/>be glad, at any time, to give you <lb/> further details.</p> <closer><salute>I am <lb/>Yours truly</salute> <signed><hi rend="underline">Phil. J. McArdle</hi></signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

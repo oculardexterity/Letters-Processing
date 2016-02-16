@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1505">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter to the Commanding Officer, Dublin Castle, 15 May 1916</title>
+                
+                <author>MISSING</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="HH">Hannah Healy</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Hughesf">Hughesf</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Scribe57">Scribe57</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1505</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>The letter is addressed to the commanding or chief officer informing him that there is a &#39;Sinn Féinner&#39; working at the silk counter in Forrest &amp; Co. on Grafton Street and that he should join his comrades in England.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#National Archives of Ireland">National Archives of Ireland</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#The_Commanding_Officer">The Commanding Officer</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                    
+                    <persName ref="MISSING"></persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-08-05T16:58:23" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-08-05T16:58:23" who="#Hughesf">
+                
+                    Page 3868 modified:
+                    <!-- 
+15/5/16  Sir <unclear>questionable reading</unclear> at the Sick Department in Forrist's Grafton Street you will find a Sinn <sic>Feinner</sic> he should join his comrades in England. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-08-05T16:59:15" who="#Hughesf">
+                
+                    Page 3868 modified:
+                    <!-- 
+15/5/16  Sir <unclear>questionable reading</unclear> at the Sick Department in Forrist's Grafton Street you will find a Sinn <sic>Feinner</sic> he should join his comrades in England.  Supt. G.<unclear>dunn</unclear> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-08-05T16:59:57" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-08-05T16:59:57" who="#Hughesf">
+                
+                    Page 3869 modified:
+                    <!-- 
+The C. Officer The Castle, Dublin 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-16T22:37:57" who="#Scribe57">
+                
+                    Page 3868 modified:
+                    <!-- 
+15/5/16  Sir <unclear>Sitting</unclear> at the Sick Department in Forrist's Grafton Street you will find a Sinn <sic>Feinner</sic> he should join his comrades in England.  Supt. G.<unclear>dunn</unclear> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-16T22:39:34" who="#Scribe57">
+                
+                    Page 3869 modified:
+                    <!-- 
+The G. Officer The Castle, Dublin 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-26T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-27T14:32:50" who="#NR">
+                
+                    Page 3868 modified:
+                    <!-- 
+<date>15/5/16</date>  <salute>Sir</salute> <p><unclear>Sitting</unclear> at the Sick Department in<lb/>  Forrist's Grafton Street you will find a <lb/> Sinn <sic>Feinner</sic> he should join his comrades<lb/>  in England.</p>  Supt. G. Div<lb/>  <note>Chief Com</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-27T14:34:01" who="#NR">
+                
+                    Page 3869 modified:
+                    <!-- 
+<address>The C. Officer<lb/> The Castle,<lb/> <hi rend="underline">Dublin</hi></address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3869 created using version from <date when="2014-08-05T16:59:57"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3869 removed (version from <date when="2014-08-05T16:59:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3869 removed (version from <date when="2015-04-16T22:39:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3869 removed (version from <date when="2015-11-27T14:34:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3868 created using version from <date when="2014-08-05T16:58:23"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3868 removed (version from <date when="2014-08-05T16:58:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3868 removed (version from <date when="2014-08-05T16:59:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3868 removed (version from <date when="2015-04-16T22:37:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3868 removed (version from <date when="2015-11-27T14:32:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3869 (version from <date when="2015-11-27T14:34:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3868 added to letter (version from <date when="2015-11-27T14:32:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:19" who="#PythonScript">
+                
+                    Clean tags: Page 3868 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:19" who="#PythonScript">
+                
+                    Clean tags: Page 3869 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:39" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1505_img_3868" url="faff39819c9e4261ba7b6fb74bf88c5d.jpg"/> 
+    
+    <graphic xml:id="L1916_1505_img_3869" url="97cd83daf968aea3583aae493a772e3a.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3868" facs="#L1916_1505_img_3868"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><dateline><date>15/5/16</date></dateline>  <salute>Sir</salute></opener> <p><unclear>Sitting</unclear> at the Sick Department in<lb/>  Forrist's Grafton Street you will find a <lb/> Sinn <sic>Feinner</sic> he should join his comrades<lb/>  in England.</p>  Supt. G. Div<lb/>  <note>Chief Com</note>
+        
+    
+
+    
+        
+        
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+            <pb n="3869" facs="#L1916_1505_img_3869"/>
+            <text type="envelope" decls="#corresp1">
+                <body> 
+                    <ab>
+                        <address><addrLine>The C. Officer</addrLine>
+<addrLine>The Castle,</addrLine>
+<addrLine><hi rend="underline">Dublin</hi></addrLine></address>
+                    </ab>
+                </body>
+            </text>
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

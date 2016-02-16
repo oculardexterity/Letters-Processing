@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_919">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from R.C. Barton to Mabel FitzGerald, 1 June 1916.</title>
+                
+                <author>R.C. Barton</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BBaker53">BBaker53</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_919</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This letter is from Robert Childers Barton (1881-1975), officer in charge of prisoners' effects, Richmond Barracks, to Mabel FitzGerald (née Washington McConnell) (1884-1958), wife of politician and intellectual Desmond FitzGerald (1888-1947). The subject of this letter is Desmond FitzGerald's overcoat. FitzGerald had a number of transfers between prisons in Ireland before he arrived in Dartmoor Prison. The confusion about the coat arose when the officer in Richmond Barracks found a coat with a label showing the name FitzGerald and forwarded it to Mrs. Fitzgerald. It transpires that this coat belonged to another prisoner and that Mr FitzGerald was already in possession of his overcoat in Dartmoor.</p>
+                        
+                            <p>R.C. Barton joined the Irish Volunteers in 1913, acting as secretary to Colonel Maurice Moore (1854-1939). At the outbreak of the Great War, Barton accepted a commission in the British Army, serving in the Royal Dublin Fusiliers. In April 1916, he was dispatched to Dublin, where he could observe at first hand the treatment meted out to the rebels. Barton served for a period as officer in charge of prisoners effects at Richmond Barracks. He soon resigned his commission and joined the revolutionary movement. Mabel Fitzgerald was the wife of Irish Volunteer Desmond Fitzgerald. Mabel was a former governess in London. She later vigorously canvassed her former acquaintances in London's liberal circles for support for Francis Sheehy Skeffington during his hunger strike in 1915. Both Mabel and Desmond would serve in the GPO garrison during Easter Week.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                                Original DCN: FitzGerald Papers, P80/1597/1
+                             
+                        -->
+                            
+                                <collection type='public'>FitzGerald Papers</collection>
+                            
+                            
+                        <idno>P80/1597/1</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Mabel_FitzGerald">Mabel FitzGerald</persName>
+                
+                
+                
+                    <placeName  ref="#2_Loretto_Villa,_Bray,_County_Wicklow,_Ireland.">2 Loretto Villa, Bray, County Wicklow, Ireland.</placeName>
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#R.C._Barton">R.C. Barton</persName>
+                    
+                     
+                    <placeName ref="#Richmond_Barracks,_Dublin,_Ireland.">Richmond Barracks, Dublin, Ireland.</placeName>
+                    
+                    
+                    <date when="1916-06-01">1 June 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-03-19T13:26:23" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-03-19T13:26:23" who="#Philcostel">
+                
+                    Page 2348 modified:
+                    <!-- 
+To Mrs.Fitzgerald 2 Loretto Villas Bray Co.Wicklow From O i/c  Prisoners Effects,  Richmond Bks Dublin 1/6/16 Madam Ihave received your letter of 31/5/16. Your letter informing me that your husband's overcoat had already been sent to Kilmainham reached me too late to enable me to stop delivery of the one which I had here & which had a label bearing the name Fitzgerald attached but as it had already been forwarded to Headquarters for delivery to you at the time 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-03-26T10:16:10" who="#Philcostel">
+                
+                    Page 2348 modified:
+                    <!-- 
+To Mrs.Fitzgerald 2 Loretto Villas Bray Co.Wicklow From O i/c  Prisoners Effects,  Richmond Bks Dublin 1/6/16 Madam Ihave received your letter of 31/5/16. Your letter informing me that your husband's overcoat had already been sent to Kilmainham reached me too late to enable me to stop delivery of the one which I had here & which had a label bearing the name Fitzgerald attached but as it had already been forwarded to Headquarters for delivery to you at the time I received your letter, on receipt of your letter I immediately enquired from the Com, <del><del>deleted text</del></del>H.M.Prison Mountjoy who informed me that Mr.Fitzgerald had his overcoat with him at the time of his removal to H.M.Prison Dartmoor. Previous to the receipt of your letter about the overcoat I had forwarded to the Governor H.M.Prison 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-03-26T10:24:34" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-03-26T10:24:34" who="#Philcostel">
+                
+                    Page 2349 modified:
+                    <!-- 
+Mountjoy, the sum of £1-0-0 for Thomas Desmond Fitzgerald and I hold the Governor's receipt for this amount. I note that you are returning the overcoat which I sent to you & this will be delivered to the rightful owner as soon as he claims it. I regret having caused you any unnecessary trouble. The sum of £1 was sent to the Gov Mountjoy at Mr.Fitzgerald's desire in letter addressed to me. RC Barton 2nd Lieut O i/c Prisoners Effects Richmond Bks 1/6/16. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-26T23:10:25" who="#BBaker53">
+                
+                    Page 2348 modified:
+                    <!-- 
+<note>P80/1597(1)</note>  <address>To Mrs.Fitzgerald 2 Loretto Villas <lb/>Bray Co.Wicklow</address> <address>From O i/c  Prisoners Effects, <lb/> Richmond Bks Dublin</address> <date>1/6/16</date><lb/> <salute>Madam;</salute><lb/> <p>I have received your letter of <lb/>31/5/16. Your letter informing me that your <lb/>husband's overcoat had already been sent to <lb/>Kilmainham reached me too late to enable <lb/>me to stop delivery of the one which I had here <lb/>which had a label bearing the name <lb/>Fitzgerald attached but as it had already <lb/>been forwarded to Headquarters for delivery <lb/>to you at the time I received your letter. <lb/>On receipt of your letter I immediately <lb/>enquired from the Com. <del><del>deleted text</del></del>H.M.Prison <lb/>Mountjoy who informed me that <lb/>Mr. Fitzgerald had his overcoat with <lb/>him at the time of his removal to H.M.Prison Dartmoor.</p> <p>Previous to the receipt of your letter about the overcoat I had forwarded to the Governor H.M.Prison</p><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-26T23:14:40" who="#BBaker53">
+                
+                    Page 2349 modified:
+                    <!-- 
+<note>P80/1597(2)</note> <p>Mountjoy, the sum of £1-0-0 <lb/>for Thomas Desmond Fitzgerald <lb/>and I hold the Governor's receipt for this amount.</p> <p>I note that you are returning <lb/>the overcoat which I sent to you & <lb/>this will be delivered to <lb/>the rightful owner as soon as he <lb/>claims it.</p> <p>I regret having caused you any <lb/>unnecessary trouble.</p> <p>The sum of £1 was sent to the Gov <lb/>Mountjoy at Mr. Fitzgerald's desire <lb/>in letter addressed to me.</p> <address>RC Barton 2nd Lieut<lb/> O i/c Prisoners Effects<lb/> Richmond Bks</address><lb/> <date>1/6/16.</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-05T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T17:53:23" who="#NR">
+                
+                    Page 2348 modified:
+                    <!-- 
+ <address>To Mrs.Fitzgerald 2 Loretto Villas  <lb/>Bray Co.Wicklow</address> <address>From O i/c  Prisoners Effects, <lb/> Richmond Bks Dublin</address> <date>1/6/16</date> <salute>Madam;</salute> <p>I have received your letter of  <lb/>31/5/16. Your letter informing me that your  <lb/>husband's overcoat had already been sent to  <lb/>Kilmainham reached me too late to enable  <lb/>me to stop delivery of the one which I had here  <lb/>which had a label bearing the name  <lb/>Fitzgerald attached but as it had already  <lb/>been forwarded to Headquarters for delivery  <lb/>to you at the time I received your letter.  <lb/>On receipt of your letter I immediately  <lb/>enquired from the Com. <del>Command</del>H.M.Prison  <lb/><del>Kilmainham</del><add>Mountjoy</add> who informed me that  <lb/>Mr. Fitzgerald had his overcoat with  <lb/>him at the time of his removal to H.M.Prison Dartmoor.</p> <p>Previous to the receipt of your letter <lb/> about the overcoat I had forwarded  <lb/>to the Governor H.M.Prison</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T17:54:14" who="#NR">
+                
+                    Page 2349 modified:
+                    <!-- 
+<p>Mountjoy, the sum of £1-0-0  <lb/>for Thomas Desmond Fitzgerald  <lb/>and I hold the Governor's receipt for this amount.</p> <p>I note that you are returning  <lb/>the overcoat which I sent to you &amp;  <lb/>this will be delivered to  <lb/>the rightful owner as soon as he  <lb/>claims it.</p> <p>I regret having caused you any  <lb/>unnecessary trouble.</p> <p>The sum of £1 was sent to the Gov  <lb/>Mountjoy at Mr. Fitzgerald's desire  <lb/>in letter addressed to me.</p> <address>RC Barton 2nd Lieut<lb/> O i/c Prisoners Effects<lb/> Richmond Bks</address><lb/> <date>1/6/16.</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2348 created using version from <date when="2014-03-19T13:26:23"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2348 removed (version from <date when="2014-03-19T13:26:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2348 removed (version from <date when="2014-03-26T10:16:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2348 removed (version from <date when="2014-12-26T23:10:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2348 removed (version from <date when="2016-01-06T17:53:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2349 created using version from <date when="2014-03-26T10:24:34"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2349 removed (version from <date when="2014-03-26T10:24:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2349 removed (version from <date when="2014-12-26T23:14:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2349 removed (version from <date when="2016-01-06T17:54:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:24" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2348 (version from <date when="2016-01-06T17:53:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:25" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2349 added to letter (version from <date when="2016-01-06T17:54:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:26" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:27" who="#PythonScript">
+                
+                    Clean tags: Page 2348 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:27" who="#PythonScript">
+                
+                    Clean tags: Page 2349 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:32" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_919_img_2348" url="c57bb298f6c70c616f805c64614d80cb.jpg"/> 
+    
+    <graphic xml:id="L1916_919_img_2349" url="d778859fff6152972afd2dd29176c5c3.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2348" facs="#L1916_919_img_2348"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+ <opener><address><addrLine>To Mrs.Fitzgerald 2 Loretto Villas</addrLine>
+<addrLine>Bray Co.Wicklow</address> <address>From O i/c  Prisoners Effects,</addrLine>
+<addrLine>Richmond Bks Dublin</addrLine></address> <dateline><date>1/6/16</date></dateline> <salute>Madam;</salute></opener> <p>I have received your letter of  <lb/>31/5/16. Your letter informing me that your  <lb/>husband's overcoat had already been sent to  <lb/>Kilmainham reached me too late to enable  <lb/>me to stop delivery of the one which I had here  <lb/>which had a label bearing the name  <lb/>Fitzgerald attached but as it had already  <lb/>been forwarded to Headquarters for delivery  <lb/>to you at the time I received your letter.  <lb/>On receipt of your letter I immediately  <lb/>enquired from the Com. <del>Command</del>H.M.Prison  <lb/><del>Kilmainham</del><add>Mountjoy</add> who informed me that  <lb/>Mr. Fitzgerald had his overcoat with  <lb/>him at the time of his removal to H.M.Prison Dartmoor.</p> <p>Previous to the receipt of your letter <lb/> about the overcoat I had forwarded  <lb/>to the Governor H.M.Prison</p>
+        
+    
+
+    
+         
+        <pb n="2349" facs="#L1916_919_img_2349"/>
+        
+        
+           
+            <p>Mountjoy, the sum of £1-0-0  <lb/>for Thomas Desmond Fitzgerald  <lb/>and I hold the Governor's receipt for this amount.</p> <p>I note that you are returning  <lb/>the overcoat which I sent to you &amp;  <lb/>this will be delivered to  <lb/>the rightful owner as soon as he  <lb/>claims it.</p> <p>I regret having caused you any  <lb/>unnecessary trouble.</p> <p>The sum of £1 was sent to the Gov  <lb/>Mountjoy at Mr. Fitzgerald's desire  <lb/>in letter addressed to me.</p> <address>RC Barton 2nd Lieut<lb/> O i/c Prisoners Effects<lb/> Richmond Bks</address><lb/> <date>1/6/16.</date>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

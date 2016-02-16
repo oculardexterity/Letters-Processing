@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1665">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from M. Atkinson Williams, 1 May 1916</title>
+                
+                <author>M. Atkinson Williams</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Zzxjoanw">Zzxjoanw</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Scribe57">Scribe57</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Denak">Denak</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="AaronHoey">AaronHoey</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1665</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>Letter from M. Atkinson Williams, the Principal of the Southlands Training College for the Chief Secretary of Ireland. Williams offers her services as an educator in light of the young age of many of the participants in the Rising. She suggests that she could help by becoming a principal of a school in an effort to to prevent this from happening again. She  gives her background as an Irish woman, claiming that there would be no resentment towards her as she was born in Ireland and has enough Irish blood to deal sympathetically with the students. She goes on to give her  experience teaching abroad. The letter contains an enclosure which recounts Williams&#39; education and experience.     Williams is writing this letter for the attention of the Chief Secretary of Ireland Augustine Birrell (1850 - 1933). Birrell resigned as chief secretary on 3 May 1916 after accepting responsibility for the outbreak of the Easter Rising. His official successor, Henry Edward Duke, would not be appointed until 31 July 1916.   </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#National Archives of Ireland ">National Archives of Ireland </repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName>MISSING</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#M._Atkinson_Williams">M. Atkinson Williams</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-10-14T20:31:08" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-10-14T20:31:08" who="#Philcostel">
+                
+                    Page 4161 modified:
+                    <!-- 
+SOUTHLANDS TRAINING COLLEGE HIGH STREET BATTERSEA, S.W.  Principal : Miss M. ATKINSON WILLIAMS, M.A. (London) 1.5.16. Dear Sir May I beg you to give the contents of this letter your careful consideration, and, if necessary, to pass it on to the Chief Secretary for Ireland. The recent Irish troubles have suggested to me that I may be of use in a small way, in the necessary reconstruction of Irish affairs, from the point of view of Irish education. Since it appears that many of the rebels are adolescents, who have come under undesirable influence, it is important to try to get a wholesome & loyal atmosphere in the elementary schools & Colleges when such teachers are trained. I have made a study of adolescents, ?using? all my professional experience, and have had much to do with planning & carrying out suitable courses of Literature & History fro schools & Colleges of all grades. Could I be of use as Principal of a College for <unclear>questionable reading</unclear>: Teachers, or Inspector of  schools, or similar work? I do not think I should arouse resentment, as, though I have been in England nearly all my life, I was born in Ireland, of Anglo Irish parents, whose family had been in Ireland since Cromwell's time, and I have sufficient Irish blood in me to make me understand Irish 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T08:15:44" who="#Philcostel">
+                
+                    Page 4161 modified:
+                    <!-- 
+SOUTHLANDS TRAINING COLLEGE HIGH STREET BATTERSEA, S.W.  Principal : Miss M. ATKINSON WILLIAMS, M.A. (London) 1.5.16. Dear Sir May I beg you to give the contents of this letter your careful consideration, and, if necessary, to pass it on to the Chief Secretary for Ireland. The recent Irish troubles have suggested to me that I may be of use in a small way, in the necessary reconstruction of Irish affairs, from the point of view of Irish education. Since it appears that many of the rebels are adolescents, who have come under undesirable influence, it is important to try to get a wholesome & loyal atmosphere in the elementary schools & Colleges when such teachers are trained. I have made a study of adolescents, ?using? all my professional experience, and have had much to do with planning & carrying out suitable courses of Literature & History fro schools & Colleges of all grades. Could I be of use as Principal of a College for <unclear>questionable reading</unclear>: Teachers, or Inspector of  schools, or similar work? I do not think I should arouse resentment, as, though I have been in England nearly all my life, I was born in Ireland, of Anglo Irish parents, whose family had been in Ireland since Cromwell's time, and I have sufficient Irish blood in me to make me understand Irish temperaments, and deal sympathetically with Irish young people, at a very impressionable age. I have travelled widely in the British Empire & have had more experience of handling my fellow ?creatures? than most English professional women of my class. I know Australia, Canada, & U.S.A. & I have met Irish people in all parts of the Empire. I am a Protestant but have many Catholic friends, & when I was a 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T08:41:33" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T08:41:33" who="#Philcostel">
+                
+                    Page 4162 modified:
+                    <!-- 
+Lecturer in Education in the University of Melbourne (Australia) I gave several courses and Lectures on "The Teaching of English" to Roman Catholic Training Colleges, with which I was on most friendly terms. At present , I am Principal of the above College & extremely happily placed. So far as social status, salary, personal comfort, & the society of friends, I am bound to be a loser by taking on the Irish post. I mention this, merely to show that I have no "axe to grind" ?&? but am simply anxious to help my Country & Empire to win the war. This may be the definite piece of war work that I can do, & if so, I will gladly do it. There are probably not many women of my training who would stand in the same ?relation? to England & the Empire as I do, with English training & empathies?, and <unclear>questionable reading</unclear>, with Irish ?birth? - which would appeal to the Irish students. Add to this, that I have also a much wider knowledge of & belief in the ?solidity? of the Empire than other women who have not travelled as widely than I. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T08:52:02" who="#Philcostel">
+                
+                    Page 4162 modified:
+                    <!-- 
+Lecturer in Education in the University of Melbourne (Australia) I gave several courses and Lectures on "The Teaching of English" to Roman Catholic Training Colleges, with which I was on most friendly terms. At present , I am Principal of the above College & extremely happily placed. So far as social status, salary, personal comfort, & the society of friends, I am bound to be a loser by taking on the Irish post. I mention this, merely to show that I have no "axe to grind" ?&? but am simply anxious to help my Country & Empire to win the war. This may be the definite piece of war work that I can do, & if so, I will gladly do it. There are probably not many women of my training who would stand in the same ?relation? to England & the Empire as I do, with English training & empathies?, and <unclear>questionable reading</unclear>, with Irish ?birth? - which would appeal to the Irish students. Add to this, that I have also a much wider knowledge of & belief in the ?solidity? of the Empire than other women who have not travelled as widely than I. If you should think ?seriously? of my <unclear>questionable reading</unclear> I can supply the fullest answers to all enquiries as to my birth <unclear>questionable reading</unclear> education, experience & <unclear>questionable reading</unclear>. I only want to be of use & something will have to be done to deal with the problems of Irish educational ?influence? as soon as possible. Believe me Faithfully Yours, M. Atkinson Williams 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T09:17:24" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-10-15T09:17:24" who="#Philcostel">
+                
+                    Page 4163 modified:
+                    <!-- 
+<!~~ Headed notepaper for SOUTHLANDS TRAINING COLLEGE ~~> <hi rend="underline">Academic Qualifications</hi> 1. B.A. University of London 2. M.A.       "        "       "     3. Diploma in Pedagogy University of London 4. Higher Froebal Certificate 5. Gilchrist Travelling ?Schol?, University of London  <hi rend="underline">Experience</hi> 1. Trained as teacher in above College. 2. Lectures in above College in English and Educational Method. 3. Six months visit to America (Canada & U.S.A. to study educational problems. 4. 4½ years in Australia Lectures in Ed : Melbourne Uni. Head of ?Giver? Grammar Sch. Queensland. 5. Principal, above College : ( on the <unclear>questionable reading</unclear> - returning from Australia to take this post - when war broke out.) 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-28T13:55:29" who="#Zzxjoanw">
+                
+                    Page 4161 modified:
+                    <!-- 
+<address>SOUTHLANDS TRAINING COLLEGE HIGH STREET BATTERSEA, S.W.</address>  Principal : Miss M. ATKINSON WILLIAMS, M.A. (London) 1.5.16. Dear Sir May I beg you to give the contents of this letter your careful consideration, and, if necessary, to pass it on to the Chief Secretary for Ireland. The recent Irish troubles have suggested to me that I may be of use in a small way, in the necessary reconstruction of Irish affairs, from the point of view of Irish education. Since it appears that many of the rebels are adolescents, who have come under undesirable influence, it is important to try to get a wholesome & loyal atmosphere in the elementary schools & Colleges when such teachers are trained. I have made a study of adolescents, ?using? all my professional experience, and have had much to do with planning & carrying out suitable courses of Literature & History fro schools & Colleges of all grades. Could I be of use as Principal of a College for <unclear>questionable reading</unclear>: Teachers, or Inspector of  schools, or similar work? I do not think I should arouse resentment, as, though I have been in England nearly all my life, I was born in Ireland, of Anglo Irish parents, whose family had been in Ireland since Cromwell's time, and I have sufficient Irish blood in me to make me understand Irish temperaments, and deal sympathetically with Irish young people, at a very impressionable age. I have travelled widely in the British Empire & have had more experience of handling my fellow ?creatures? than most English professional women of my class. I know Australia, Canada, & U.S.A. & I have met Irish people in all parts of the Empire. I am a Protestant but have many Catholic friends, & when I was a 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-28T14:08:41" who="#Zzxjoanw">
+                
+                    Page 4161 modified:
+                    <!-- 
+<address>SOUTHLANDS TRAINING COLLEGE HIGH STREET BATTERSEA, S.W.</address>  <salute>Principal : Miss M. ATKINSON WILLIAMS, M.A. (London) <date>1.5.16.</date> Dear Sir</salute>  May I beg you to give the contents of this letter <lb/>your careful consideration, and, if necessary, to pass it on to<lb/> the Chief Secretary for Ireland.<pb/>  The recent Irish troubles have suggested to me that<lb/> I may be of use in a small way, in the necessary recon-<lb/>struction of Irish affairs, from the point of view of Irish <lb/>education.<pb/>  Since it appears that many of the rebels are adoles-<lb/>cents, who have come under undesirable influence, it is<lb/> important to try to get a wholesome & loyal atmosphere<lb/> in the elementary schools & Colleges when such teach<lb/><sic>-ers</sic> are trained. I have made a study of adolescents, <unclear>using? during?</unclear> all my professional experience, and have had much <lb/>to do with planning & carrying out suitable courses of<lb/> Literature & History for schools & Colleges of all grades.<pb/>  Could I be of use as Principal of a College for <unclear>for <lb/>them</unclear>: Teachers, or Inspector of  schools, or similar work?<lb/> I do not think I should arouse resentment, as, though<lb/> I have been in England nearly all my life, I was born in<lb/> Ireland, of Anglo Irish parents, whose family had been<lb/> in Ireland since Cromwell's time, and I have sufficient <lb/>Irish blood in me to make me understand Irish tem-<lb/>peraments, and deal sympathetically with Irish<lb/> young people, at a very impressionable age.<pb/>  I have travelled widely in the British Empire &<lb/> have <unclear>lead more</unclear>experience of handling my fellow <unclear>creatures</unclear> than most English professional women of my class. I know <lb/>Australia, Canada, & U.S.A. & I have met Irish<lb/> people in all parts of the Empire. I am a Protestant<lb/> but have many Catholic friends, & when I was a 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-06T13:48:21" who="#Denak">
+                
+                    Page 4161 modified:
+                    <!-- 
+<address>SOUTHLANDS TRAINING COLLEGE HIGH STREET BATTERSEA, S.W.</address>  <salute>Principal : Miss M. ATKINSON WILLIAMS, M.A. (London) <date>1.5.16.</date> <salute>Dear Sir</salute>  <p>May I beg you to give the contents of this letter <lb/>your careful consideration, and, if necessary, to pass it on to<lb/> the Chief Secretary for Ireland.<lb/></p>  <p>The recent Irish troubles have suggested to me that<lb/> I may be of use, in a small way, in the necessary reconstruction<lb/> of Irish affairs, from the point of view of Irish <lb/>education.<lb/></p>  <p>Since it appears that many of the rebels are adolescents<lb/>, who have come under undesirable influence, it is<lb/> important to try to get a wholesome & loyal atmosphere<lb/> in the elementary schools & Colleges when such teachers<lb/> are trained. I have made a study of adolescents<lb/>, during all my professional experience, and have had much <lb/>to do with planning & carrying out suitable courses of<lb/> Literature & History for schools & Colleges of all grades.<lb/></p>  <p>Could I be of use as Principal of a College for <lb/> <unclear>them</unclear>: Teachers, or Inspector of schools, or similar work?<lb/> I do not think I should arouse resentment, as, though<lb/> I have been in England nearly all my life, I was born in<lb/> Ireland, of Anglo-Irish parents, whose family had been<lb/> in Ireland since Cromwell's time, and I have sufficient <lb/>Irish blood in me to make me understand Irish temperaments<lb/>, and deal sympathetically with Irish<lb/> young people, at a very impressionable age.<lb/></p>  <p>I have travelled widely in the British Empire &<lb/> have <unclear>had more</unclear> experience of handling my fellow creatures<lb/> than most English professional women of my class. I know <lb/>Australia, Canada, & U.S.A. & have met Irish<lb/> people in all parts of the Empire. I am a Protestant<lb/> but have many Catholic friends, & when I was a</p> <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-06T14:03:28" who="#Denak">
+                
+                    Page 4162 modified:
+                    <!-- 
+<p>Lecturer in Education in the University of Melbourne <lb/>(Australia) I gave several courses & Lectures on "The<lb/> Teaching of English" to Roman Catholic Training<lb/> Colleges, with which I was on most friendly terms.<lb/></p>  <p>At present, I am Principal of the above College<lb/> & extremely happily placed. So far as social status<lb/> salary, personal comfort, & the society of friends, I am<lb/> bound to be a loser by taking on Irish post. I mention<lb/> this, merely to show that I have no "axe to grind" &<lb/> but am simply anxious to help my Country & Empire &<lb/> win the war.<lb/></p>  <p>This may be the definite piece of war work<lb/> that I can do, & if so, I will gladly do it. There are<lb/> probably not many women of my training who would<lb/> stand in the same <unclear>relation</unclear> to England & the Empire<lb/> as I do, with English training & <unclear>sympathies</unclear>, and<lb/> <unclear>questionable reading</unclear>, with Irish birth - which would appeal to<lb/> the Irish students. Add to this, that I have also<lb/> a much wider knowledge of & belief in the <unclear>solidity</unclear><lb/> of the Empire than other women who have not<lb/> travelled as widely than I.<lb/></p>  <p>If you should think seriously of me then I<lb/> can supply the fullest answers to all enquiries<lb/> as to my birth <unclear>and</unclear> education, experience &<lb/> <unclear>questionable reading</unclear>.<lb/></p>  <p>I only want to be of use, &, something will<lb/> have to be done to deal with the problems of<lb/> Irish educational influence as soon as possible.<lb/></p>  <p>Believe me<lb/></p> <p>Faithfully Yours,<lb/></p> <p>M. Atkinson Williams<lb/></p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-14T17:27:53" who="#Scribe57">
+                
+                    Page 4161 modified:
+                    <!-- 
+<address>SOUTHLANDS TRAINING COLLEGE HIGH STREET BATTERSEA, S.W.</address>  <salute>Principal : Miss M. ATKINSON WILLIAMS, M.A. (London) <date>1.5.16.</date> <salute>Dear Sir</salute>  <p>May I beg you to give the contents of this letter <lb/>your careful consideration, and, if necessary, to pass it on to<lb/> the Chief Secretary for Ireland.<lb/></p>  <p>The recent Irish troubles have suggested to me that<lb/> I may be of use, in a small way, in the necessary reconstruction<lb/> of Irish affairs, from the point of view of Irish <lb/>education.<lb/></p>  <p>Since it appears that many of the rebels are adolescents<lb/>, who have come under undesirable influence, it is<lb/> important to try to get a wholesome & loyal atmosphere<lb/> in the elementary schools & Colleges where such teachers<lb/> are trained. I have made a study of adolescents<lb/>, during all my professional experience, and have had much <lb/>to do with planning & carrying out suitable courses of<lb/> Literature & History for schools & Colleges of all grades.<lb/></p>  <p>Could I be of use as Principal of a College for <lb/> <unclear>them</unclear>: Teachers, or Inspector of schools, or similar work?<lb/> I do not think I should arouse resentment, as, though<lb/> I have been in England nearly all my life, I was born in<lb/> Ireland, of Anglo-Irish parents, whose family had been<lb/> in Ireland since Cromwell's time, and I have sufficient <lb/>Irish blood in me to make me understand Irish temperaments<lb/>, and deal sympathetically with Irish<lb/> young people, at a very impressionable age.<lb/></p>  <p>I have travelled widely in the British Empire &<lb/> have <unclear>had more</unclear> experience of handling my fellow creatures<lb/> than most English professional women of my class. I know <lb/>Australia, Canada, & U.S.A. & have met Irish<lb/> people in all parts of the Empire. I am a Protestant<lb/> but have many Catholic friends, & when I was a</p> <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-14T18:10:20" who="#Scribe57">
+                
+                    Page 4162 modified:
+                    <!-- 
+<p>Lecturer in Education in the University of Melbourne <lb/>(Australia) I gave several courses & Lectures on "The<lb/> Teaching of English" to Roman Catholic Training<lb/> Colleges, with which I was on most friendly terms.<lb/></p>  <p>At present, I am Principal of the above College<lb/> & extremely happily placed. So far as social status<lb/> salary, personal comfort, & the society of friends, I am<lb/> bound to be a loss by taking on Irish post. I mention<lb/> this, merely to show that I have no "axe to grind" &<lb/> but am simply anxious to help my Country & Empire &<lb/> win the war.<lb/></p>  <p>This may be the definite piece of war work<lb/> that I can do, & if so, I will gladly do it. There are<lb/> probably not many women of my training who would<lb/> stand in the same <unclear>relation</unclear> to England & the Empire<lb/> as I do, with English training & <unclear>sympathies</unclear>, and<lb/> yet with Irish birth - which would appeal to<lb/> the Irish students. Add to this, that I have also<lb/> a much wider knowledge of & belief in the <unclear>solidity</unclear><lb/> of the Empire than other women who have not<lb/> travelled as widely than I.<lb/></p>  <p>If you should think seriously of me then I<lb/> can supply the fullest answers to all enquiries<lb/> as to my birth, age, education, experience &<lb/> character.<lb/></p>  <p>I only want to be of use, &, something will<lb/> have to be done to deal with the problems of<lb/> Irish educational influence as soon as possible.<lb/></p>  <p>Believe me<lb/></p> <p>Faithfully Yours,<lb/></p> <p>M. Atkinson Williams<lb/></p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T15:44:56" who="#NR">
+                
+                    Page 4161 modified:
+                    <!-- 
+<address>SOUTHLANDS TRAINING COLLEGE<lb/> HIGH STREET<lb/> BATTERSEA, S.W.</address>  Principal : Miss M. ATKINSON WILLIAMS, M.A. (London) <date>1.5.16.</date> <salute>Dear Sir</salute>  <p>May I beg you to give the contents of this letter <lb/> your careful consideration, and, if necessary, to pass it on to<lb/>  the Chief Secretary for Ireland.</p>  <p>The recent Irish troubles have suggested to me that<lb/>  I may be of use, in a small way, in the necessary reconstruction<lb/>  of Irish affairs, from the point of view of Irish <lb/> education.</p>  <p>Since it appears that many of the rebels are adoles-<lb/> cents, who have come under undesirable influence, it is<lb/>  important to try to get a wholesome &amp; loyal atmosphere<lb/>  in the elementary schools &amp; Colleges where such teachers<lb/>  are trained. I have made a study of adolescents,<lb/>  during all my professional experience, and have had much <lb/> to do with planning &amp; carrying out suitable courses of<lb/>  Literature & History for schools &amp; Colleges of all grades.</p>  <p>Could I be of use as Principal of a College for <lb/>  <unclear>them</unclear>: Teachers, or Inspector of schools, or similar work?<lb/> I do not think I should arouse resentment, as, though<lb/>  I have been in England nearly all my life, I was born in<lb/>  Ireland, of Anglo-Irish parents, whose family had been<lb/>  in Ireland since Cromwell's time, and I have sufficient <lb/> Irish blood in me to make me understand Irish tem-<lb/> peraments and deal sympathetically with Irish<lb/>  young people, at a very impressionable age.</p>  <p>I have travelled widely in the British Empire &amp;<lb/>  have <unclear>had more</unclear> experience of handling my fellow creatures<lb/>  than most English professional women of my class. I know <lb/> Australia, Canada, &amp; U.S.A. &amp; have met Irish<lb/>  people in all parts of the Empire. I am a Protestant<lb/>  but have many Catholic friends, &amp; when I was a <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T15:48:36" who="#NR">
+                
+                    Page 4162 modified:
+                    <!-- 
+Lecturer in Education in the University of Melbourne <lb/> (Australia) I gave several courses &amp; Lectures on "The<lb/>  Teaching of English" to Roman Catholic Training<lb/>  Colleges, with which I was on most friendly terms.</p>  <p>At present, I am Principal of the above College<lb/>  &amp; extremely happily placed. So far as social status<lb/>  salary, personal comfort, &amp; the society of friends, I am<lb/>  bound to be a loss by taking on Irish post. I mention<lb/>  this, merely to show that I have no "axe to grind" &amp;<lb/>  but am simply anxious to help my Country &amp; Empire &amp;<lb/>  win the war.</p>  <p>This may be the definite piece of war work<lb/>  that I can do, &amp; if so, I will gladly do it. There are<lb/>  probably not many women of my training who would<lb/>  stand in the same <unclear>relation</unclear> to England &amp; the Empire<lb/>  as I do, with English training &amp; <unclear>sympathies</unclear>, and<lb/>  yet with Irish birth - which would appeal to<lb/>  the Irish students. Add to this, that I have also<lb/>  a much wider knowledge of &amp; belief in the <unclear>solidity</unclear><lb/>  of the Empire than other women who have not<lb/>  travelled as widely than I.</p>  <p>If you should think seriously of me then I<lb/>  can supply the fullest answers to all enquiries<lb/>  as to my birth, age, education, experience &amp;<lb/>  character.</p>  <p>I only want to be of use, &amp;, something will<lb/>  have to be done to deal with the problems of<lb/>  Irish educational influence as soon as possible.</p>  <salute>Believe me<lb/> Faithfully Yours,</salute> M. Atkinson Williams 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T15:57:16" who="#NR">
+                
+                    Page 4163 modified:
+                    <!-- 
+<p><hi rend="underline">Academic Qualifications</hi><lb/> 1. B.A. University of London<lb/> 2. M.A.       "        "       "   <lb/>  3. Diploma in Pedagogy University of London<lb/> 4. Higher Froebel Certificate<lb/> 5. Gilchrist Travelling Service, <lb/> University of London</p>  <p><hi rend="underline">Experience</hi><lb/> 1. Trained as teacher in above College.<lb/> 2. Lectures in above College in English and Educational Method.<lb/> 3. Six months visit to America (Canada &amp; U.S.A. to study educational problems.<lb/> 4. 4½ years in Australia<lb/> Lectures in Ed : Melbourne Uni.<lb/> Head of ?Giver? Grammar Sch.<lb/>  Queensland.<lb/> 5. Principal, above College : ( on the<lb/> said returning from Australia to take<lb/>  this post - when war broke out.)</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4161 created using version from <date when="2014-10-14T20:31:08"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4161 removed (version from <date when="2014-10-14T20:31:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4161 removed (version from <date when="2014-10-15T08:15:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4161 removed (version from <date when="2014-11-28T13:55:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4161 removed (version from <date when="2014-11-28T14:08:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4161 removed (version from <date when="2014-12-06T13:48:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4161 removed (version from <date when="2015-04-14T17:27:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4161 removed (version from <date when="2015-11-24T15:44:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4162 created using version from <date when="2014-10-15T08:41:33"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4162 removed (version from <date when="2014-10-15T08:41:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4162 removed (version from <date when="2014-10-15T08:52:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4162 removed (version from <date when="2014-12-06T14:03:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4162 removed (version from <date when="2015-04-14T18:10:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4162 removed (version from <date when="2015-11-24T15:48:36"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4163 created using version from <date when="2014-10-15T09:17:24"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4163 removed (version from <date when="2014-10-15T09:17:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4163 removed (version from <date when="2015-11-24T15:57:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:11" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 4161 (version from <date when="2015-11-24T15:44:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 4162 added to letter (version from <date when="2015-11-24T15:48:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 4163 added to letter (version from <date when="2015-11-24T15:57:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 4161 cleaned of 9 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 4162 cleaned of 12 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 4163 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:42" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1665_img_4161" url="51a08a7cc7625b9a31af1d86cc3389d8.jpg"/> 
+    
+    <graphic xml:id="L1916_1665_img_4162" url="31dcb13965db34cdadcdf7c4db5775e3.jpg"/> 
+    
+    <graphic xml:id="L1916_1665_img_4163" url="9f6f10f180f26a70d317e38d8cb22ea1.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="4161" facs="#L1916_1665_img_4161"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<address>SOUTHLANDS TRAINING COLLEGE<lb/> HIGH STREET<lb/> BATTERSEA, S.W.</address>  Principal : Miss M. ATKINSON WILLIAMS, M.A. (London) <date>1.5.16.</date> <salute>Dear Sir</salute>  <p>May I beg you to give the contents of this letter <lb/> your careful consideration, and, if necessary, to pass it on to<lb/>  the Chief Secretary for Ireland.</p>  <p>The recent Irish troubles have suggested to me that<lb/>  I may be of use, in a small way, in the necessary reconstruction<lb/>  of Irish affairs, from the point of view of Irish <lb/> education.</p>  <p>Since it appears that many of the rebels are adoles-<lb/> cents, who have come under undesirable influence, it is<lb/>  important to try to get a wholesome &amp; loyal atmosphere<lb/>  in the elementary schools &amp; Colleges where such teachers<lb/>  are trained. I have made a study of adolescents,<lb/>  during all my professional experience, and have had much <lb/> to do with planning &amp; carrying out suitable courses of<lb/>  Literature &amp; History for schools &amp; Colleges of all grades.</p>  <p>Could I be of use as Principal of a College for <lb/>  <unclear>them</unclear>: Teachers, or Inspector of schools, or similar work?<lb/> I do not think I should arouse resentment, as, though<lb/>  I have been in England nearly all my life, I was born in<lb/>  Ireland, of Anglo-Irish parents, whose family had been<lb/>  in Ireland since Cromwell's time, and I have sufficient <lb/> Irish blood in me to make me understand Irish tem-<lb/> peraments and deal sympathetically with Irish<lb/>  young people, at a very impressionable age.</p>  <p>I have travelled widely in the British Empire &amp;<lb/>  have <unclear>had more</unclear> experience of handling my fellow creatures<lb/>  than most English professional women of my class. I know <lb/> Australia, Canada, &amp; U.S.A. &amp; have met Irish<lb/>  people in all parts of the Empire. I am a Protestant<lb/>  but have many Catholic friends, &amp; when I was a <pb/>
+        
+    
+
+    
+         
+        <pb n="4162" facs="#L1916_1665_img_4162"/>
+        
+        
+           
+            Lecturer in Education in the University of Melbourne <lb/> (Australia) I gave several courses &amp; Lectures on "The<lb/>  Teaching of English" to Roman Catholic Training<lb/>  Colleges, with which I was on most friendly terms.</p>  <p>At present, I am Principal of the above College<lb/>  &amp; extremely happily placed. So far as social status<lb/>  salary, personal comfort, &amp; the society of friends, I am<lb/>  bound to be a loss by taking on Irish post. I mention<lb/>  this, merely to show that I have no "axe to grind" &amp;<lb/>  but am simply anxious to help my Country &amp; Empire &amp;<lb/>  win the war.</p>  <p>This may be the definite piece of war work<lb/>  that I can do, &amp; if so, I will gladly do it. There are<lb/>  probably not many women of my training who would<lb/>  stand in the same <unclear>relation</unclear> to England &amp; the Empire<lb/>  as I do, with English training &amp; <unclear>sympathies</unclear>, and<lb/>  yet with Irish birth - which would appeal to<lb/>  the Irish students. Add to this, that I have also<lb/>  a much wider knowledge of &amp; belief in the <unclear>solidity</unclear><lb/>  of the Empire than other women who have not<lb/>  travelled as widely than I.</p>  <p>If you should think seriously of me then I<lb/>  can supply the fullest answers to all enquiries<lb/>  as to my birth, age, education, experience &amp;<lb/>  character.</p>  <p>I only want to be of use, &amp;, something will<lb/>  have to be done to deal with the problems of<lb/>  Irish educational influence as soon as possible.</p>  <closer><salute>Believe me<lb/> Faithfully Yours,</salute></closer> M. Atkinson Williams
+        
+    
+         
+        <pb n="4163" facs="#L1916_1665_img_4163"/>
+        
+        
+           
+            <p><hi rend="underline">Academic Qualifications</hi><lb/> 1. B.A. University of London<lb/> 2. M.A.       "        "       "   <lb/>  3. Diploma in Pedagogy University of London<lb/> 4. Higher Froebel Certificate<lb/> 5. Gilchrist Travelling Service, <lb/> University of London</p>  <p><hi rend="underline">Experience</hi><lb/> 1. Trained as teacher in above College.<lb/> 2. Lectures in above College in English and Educational Method.<lb/> 3. Six months visit to America (Canada &amp; U.S.A. to study educational problems.<lb/> 4. 4½ years in Australia<lb/> Lectures in Ed : Melbourne Uni.<lb/> Head of ?Giver? Grammar Sch.<lb/>  Queensland.<lb/> 5. Principal, above College : ( on the<lb/> said returning from Australia to take<lb/>  this post - when war broke out.)</p>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

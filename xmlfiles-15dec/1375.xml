@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1375">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Sir Thomas Little Heath to Robert Chalmers, 19 May 1916</title>
+                
+                <author>Thomas Little Heath</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BarneyDoherty">Barney Doherty</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1375</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is a letter from Sir Thomas Little Heath (1861-1940), the secretary of the treasury, to the Under-Secretary Sir Robert Chalmers (1858–1938). The letter discusses the payment of the London and North Western Railway Company for the expense of seven party members that traveled with Augustine Birrell. The charge came to £15. 12s. 6d and Heath is directing Chalmers to the Foreign Office.     After the Easter rising of 1916 Chalmers was sent to Ireland as under-secretary, replacing Sir Matthew Nathan (1862-1939) who had resigned along with Augustine Birrell (1850-1933), his chief secretary. Heath was a British civil servant, mathematician, classical scholar, historian of ancient Greek mathematics, translator, and mountaineer.     </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#National Archives of Ireland">National Archives of Ireland</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Robert_Chalmers">Robert Chalmers</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Thomas_Little_Heath">Thomas Little Heath</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-08-18T21:21:11" who="#BarneyDoherty">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-08-18T21:21:11" who="#Philcostel">
+                
+                    Page 3580 modified:
+                    <!-- 
+TREASURY CHAMBER19 May 1916.  Any reply to this letter should be addressed to - The Secretary, Treasury, Whitehall, London, S.W. and the following number quoted 12672/16 Sir, I have laid before the Lords Commissioners of His Majesty's Treasury your letter of the 12th instant (7924), relative to a claim for £15. 12s. 6d made by the London and North Western Railway Company in respect of the fares of seven members of the party which accompanied Mr. Birrell to Ireland on the 26th ultimo. In reply I am to state that my Lords understand that the arrangements for the journey were made by the News Department of the Foreign Office, which has defrayed the other expenses of the party, and in the circumstances They would suggest that the Railway Company's account should be transmitted to the Foreign Office for settlement. I am, Sir, Your obedient Servant  T.L.Heath  The Ubder Secretary, Dublin Castle<note(I) Repl For copies of letter of 9th inst. from Command Pay Office & enclosure; also of this T.L. (II) Send copies to F.Office TLH</note> <note>(i) Done JB 22/5 (II) Done JB 24/5 (II) despd Nai 24/5</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T00:00:00" who="#BD">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#BD" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T15:54:52" who="#BarneyDoherty">
+                
+                    Page 3580 modified:
+                    <!-- 
+TREASURY CHAMBER  <lb/>Any reply to this letter should be addressed to - <lb/><address>The Secretary,</address> <address>Treasury,</address>  <address>Whitehall, London, S.W.</address> <lb/>and the following number quoted <lb/>12672/16 <date>19 May 1916.</date>  <salute>Sir,</salute> <p> <lb/>I have laid before the Lords Commissioners  <lb/>of His Majesty's Treasury your letter of the 12th  <lb/>instant (7924), relative to a claim for £15. 12s. 6d  <lb/>made by the London and North Western Railway Company  <lb/>in respect of the fares of seven members of the  <lb/>party which accompanied Mr. Birrell to Ireland on  <lb/>the 26th ultimo. </p> <p><lb/>In reply I am to state that my Lords  <lb/>understand that the arrangements for the journey were  <lb/>made by the News Department of the Foreign Office,  <lb/>which has defrayed the other expenses of the party,  <lb/>and in the circumstances They would suggest that the  <lb/>Railway Company's account should be transmitted to  <lb/>the Foreign Office for settlement. </p> <salute>I am, Sir, <lb/>Your obedient Servant</salute>  <signed>T.L.Heath</signed>  <address>The Under Secretary,</address> <address>Dublin Castle</address>  <note(I) Reqt  <lb/>For copies of letter  <lb/>of 9th inst. from  <lb/>Command Pay Office  <lb/>&amp; enclosure;  <lb/>also of this T.L.  <lb/>(II) Send copies to  <lb/>F.Office  <lb/>TLH <lb/>20.V.16</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-07T10:00:18" who="#NR">
+                
+                    Page 3580 modified:
+                    <!-- 
+<lb/>TREASURY CHAMBER  <lb/>Any reply to this letter should be addressed to - <address>The Secretary, <lb/>Treasury, <lb/>Whitehall, London, S.W.</address> <lb/>and the following number quoted <lb/>12672/16 <date>19 May 1916.</date>  <salute>Sir,</salute> <p>I have laid before the Lords Commissioners  <lb/>of His Majesty's Treasury your letter of the 12th  <lb/>instant (7924), relative to a claim for £15. 12s. 6d  <lb/>made by the London and North Western Railway Company  <lb/>in respect of the fares of seven members of the  <lb/>party which accompanied Mr. Birrell to Ireland on  <lb/>the 26th ultimo.</p> <p>In reply I am to state that my Lords  <lb/>understand that the arrangements for the journey were  <lb/>made by the News Department of the Foreign Office,  <lb/>which has defrayed the other expenses of the party,  <lb/>and in the circumstances They would suggest that the  <lb/>Railway Company's account should be transmitted to  <lb/>the Foreign Office for settlement.</p> <salute>I am, Sir, <lb/>Your obedient Servant</salute>  <signed>T.L.Heath</signed>  <address>The Under Secretary, <lb/>Dublin Castle</address>  <note>(I) Reqt  <lb/>For copies of letter  <lb/>of 9th inst. from  <lb/>Command Pay Office  <lb/>&amp; enclosure;  <lb/>also of this T.L.  <lb/>(II) Send copies to  <lb/>F.Office  <lb/>TLH <lb/>20.V.16</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3580 created using version from <date when="2014-08-18T21:21:11"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3580 removed (version from <date when="2014-08-18T21:21:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3580 removed (version from <date when="2015-12-04T15:54:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3580 removed (version from <date when="2015-12-07T10:00:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3580 (version from <date when="2015-12-07T10:00:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 3580 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:48" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1375_img_3580" url="92180ea1a0b694615e8e8692507841ae.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3580" facs="#L1916_1375_img_3580"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<lb/>TREASURY CHAMBER  <lb/>Any reply to this letter should be addressed to - <opener><address><addrLine>The Secretary,</addrLine>
+<addrLine>Treasury,</addrLine>
+<addrLine>Whitehall, London, S.W.</addrLine></address> and the following number quoted 12672/16 <dateline><date>19 May 1916.</date></dateline>  <salute>Sir,</salute></opener> <p>I have laid before the Lords Commissioners  <lb/>of His Majesty's Treasury your letter of the 12th  <lb/>instant (7924), relative to a claim for £15. 12s. 6d  <lb/>made by the London and North Western Railway Company  <lb/>in respect of the fares of seven members of the  <lb/>party which accompanied Mr. Birrell to Ireland on  <lb/>the 26th ultimo.</p> <p>In reply I am to state that my Lords  <lb/>understand that the arrangements for the journey were  <lb/>made by the News Department of the Foreign Office,  <lb/>which has defrayed the other expenses of the party,  <lb/>and in the circumstances They would suggest that the  <lb/>Railway Company's account should be transmitted to  <lb/>the Foreign Office for settlement.</p> <closer><salute>I am, Sir, <lb/>Your obedient Servant</salute>  <signed>T.L.Heath</signed>  <address><addrLine>The Under Secretary,</addrLine>
+<addrLine>Dublin Castle</addrLine></address></closer>  <note>(I) Reqt  <lb/>For copies of letter  <lb/>of 9th inst. from  <lb/>Command Pay Office  <lb/>&amp; enclosure;  <lb/>also of this T.L.  <lb/>(II) Send copies to  <lb/>F.Office  <lb/>TLH <lb/>20.V.16</note>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

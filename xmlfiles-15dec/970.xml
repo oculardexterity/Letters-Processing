@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_970">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Henry Lemass, solicitor, to Herbert Henry Asquith, 13 June 1916.</title>
+                
+                <author>Henry Lemass</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Lainey">Lainey</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_970</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>Henry Lemass, Solicitor, acted for Hanna Sheehy-Skeffington in matters relating to her husband&#39;s murder on 26 April 1916, and subsequent events.  Herbert Henry Asquith, (1852 – 1928) served as the Liberal Prime Minister of the United Kingdom from 1908 to 1916.  Francis Sheehy Skeffington (1878-1916), a pacifist, feminist, and suffragist had been arrested on 25 April 1916, along with two others by Captain J.C. Bowen-Colthurst (1880-1966), an Anglo-Irish officer of the Royal Irish Regiment. On 26 April all three were summarily executed by firing squad at Portobello Barracks.  Hanna Sheehy Skeffington, (1877-1946), suffragette, nationalist, language teacher, was the widow of Francis Sheehy-Skeffington. She was active during the Rising, bringing food to the Volunteers in the G.P.O. and the College of Surgeons. Four days passed before she found out what had happened to her husband and it wasn&#39;t until almost two weeks later that the full detail emerged.   John Dillon, (1851-1927) was an Irish Party M.P. in the Ho</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Trinity College Dublin">Trinity College Dublin</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Herbert_Henry_Asquith">Herbert Henry Asquith</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Henry_Lemass">Henry Lemass</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-12-03T13:37:30" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-12-03T13:37:30" who="#Lainey">
+                
+                    Page 2494 modified:
+                    <!-- 
+COPY]                                                                              <address>31 PARLIAMENT STREET,                                                                                                                              DUBLIN,</address> <date>June 13th, 1916.</date> <salute>SIR</salute>                       <p>As solicitor for Mrs. Sheehy Skeffington - for whose husband's murder, on 26th April, Captain Bowen Colthurst has been adjudged guilty - I have the honour to inquire when the promised Public Inquiry will be held?</p> <p>My client is profoundly dissatisfied with the limited information afforded at the Court-martial, when the insanity of the acused was suggested.</p> <p>While she abhors the idea that fresh blood should be spilt, my client is equally resolute that the truth should be known, so that the people of the three Kingdoms may determine whether the same measure of justice has been meted out to all parties affected by the rebellion.</p> <p>That there were circumstances giving rise to anxiety connected with the recent trial will be evident from the following facts: -  Lieutenant Wylie, K.C. who had prosecuted to conviction other men recently executed, was released from this Courtmartial and an English Counsel, not fully acquainted with the facts or imperfectly instructed, was appointed. Although no plea of inability to plead was entered for the accused, the question of his sanity was raised from the outset. Yet the manner in which he effected the arrest of the other murdered men (Messrs Dickson and McIntyre) was not proved, nor the process by which he selected them for execution from amongst eight prisoners. Nevertheless, it was within the knowledge of the Military Authorities that Messrs, Dickson and McIntyre were taken into custody on the premises of Alderman James Kelly, ex-High Sheriff, by the accused, under the idea that the shop belonged to Alderman Thomas Kelly, a person of wholly different politics. They also knew that Colthurst threw a bomb into the premises and subsequently "planted" Mr. Dickson's trunk therein to give rise to the suspicion that Mr. Dickson had been harboured by Alderman James Kelly who was also lodged in Portobello Barracks. Nor was the Court informed that two sisters of Mrs. Skeffington, viz: Mrs Kettle (wife of Lieutenant Kettle), and Mrs, Culhane (widow of a public official lately deceased) called at Portobello Barracks on Friday, 28th April, after the murders, and, on inquiring for their brother, Lieutenant Sheehy, were put under arrest and brought before Captain Colthurst, and that he denied all knowledge of Mr. Skeffington and was perfectly calm and collected in his demeanour and falsehoods. Similarly, the tribunal was not made aware that on the evening after his examination of these ladies, Captain Colthurst ordered a search of Mrs.Skeffington's house; that his soldiers first fired into her dwelling, and then, producing a key taken from the body of the murdered man, opened his locked room and removed documents to try to furnish the accused with ex post facto justification for his crime. The second raid on the widow's house by Colthurst's orders on the following Monday, as well as the fact that one of the soldiers who took part in it was the Sergeant left in charge of Dickson's trunk at Alderman James Kelly's, was also left unmentioned. There was an equally significant silence as to the protests of the murdered men on the morning of their execution, and as to the accused's refusal of spiritual solace to them in their last moments.The Courtmartial were likewise unaware that Captain Colthurst was allowed to remain at large by his superiors until the 6th May- nearly a fortnight after the murders - while the non-production of Major Sir Francis Vane, his Senior Officer, disabled it from learning that on the 1st may (a week after the murders) the accused was promoted to the charge of the Defence of Portobello Barracks. His conduct on shooting the lad, Coade, on Rathmines Road previous to the three murders, was not introduced, although Coade's father immediately lodged information at the Barracks. None of the soldiers who formed the firing party was called to speak  as to the nature of the accused's commands and demeanour, or explain how Mr. Skeffington came to be taken from a locked cell without authority. The added tragedy which led to a second squad of soldiers being called out to fire at the prostrate body of Mr. Skeffington would not have become known (although proved at the private preliminary inquiry) but for the candour of the noble President of the tribunal, Lord Cheylesmore. As for the attempt to fasten complicity with the rebellion on Mr. Skeffington by the production of a document published previously by Alderman Thomas Kelly (which deceased, as a journalist, kept in his house) - it stands in strange contrast with the silence preserved concerning the innocence of the other slaughtered men and the Court was not even told who or what they were. The admission of this document  after Adjutant Morgan, who produced it, had sworn that it was not found on Mr. Skeffington, may have been due to inadvertenance, but the cunning of the untruthful endorsement on it by the accused to the effect that it was found on the body, seemed to call for observation on the issue of sanity, as corroboration of the fact that Captain Colthurst from the date when he knew the murders were discovered, was engaged in the manufacture of evidence to palliate his guilt.</p> <p>I therefore</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-03T14:04:11" who="#Lainey">
+                
+                    Page 2494 modified:
+                    <!-- 
+COPY]                                                                              <address>31 PARLIAMENT STREET,                                                                                                                              DUBLIN,</address> <date>June 13th, 1916.</date> <salute>SIR</salute>                       <p>As solicitor for Mrs. Sheehy Skeffington - for whose husband's murder, on 26th April, Captain Bowen Colthurst has been adjudged guilty - I have the honour to inquire when the promised Public Inquiry will be held?</p> <p>My client is profoundly dissatisfied with the limited information afforded at the Court-martial, when the insanity of the acused was suggested.</p> <p>While she abhors the idea that fresh blood should be spilt, my client is equally resolute that the truth should be known, so that the people of the three Kingdoms may determine whether the same measure of justice has been meted out to all parties affected by the rebellion.</p> <p>That there were circumstances giving rise to anxiety connected with the recent trial will be evident from the following facts: -  Lieutenant Wylie, K.C. who had prosecuted to conviction other men recently executed, was released from this Courtmartial and an English Counsel, not fully acquainted with the facts or imperfectly instructed, was appointed. Although no plea of inability to plead was entered for the accused, the question of his sanity was raised from the outset. Yet the manner in which he effected the arrest of the other murdered men (Messrs Dickson and McIntyre) was not proved, nor the process by which he selected them for execution from amongst eight prisoners. Nevertheless, it was within the knowledge of the Military Authorities that Messrs, Dickson and McIntyre were taken into custody on the premises of Alderman James Kelly, ex-High Sheriff, by the accused, under the idea that the shop belonged to Alderman Thomas Kelly, a person of wholly different politics. They also knew that Colthurst threw a bomb into the premises and subsequently "planted" Mr. Dickson's trunk therein to give rise to the suspicion that Mr. Dickson had been harboured by Alderman James Kelly who was also lodged in Portobello Barracks. Nor was the Court informed that two sisters of Mrs. Skeffington, viz: Mrs Kettle (wife of Lieutenant Kettle), and Mrs, Culhane (widow of a public official lately deceased) called at Portobello Barracks on Friday, 28th April, after the murders, and, on inquiring for their brother, Lieutenant Sheehy, were put under arrest and brought before Captain Colthurst, and that he denied all knowledge of Mr. Skeffington and was perfectly calm and collected in his demeanour and falsehoods. Similarly, the tribunal was not made aware that on the evening after his examination of these ladies, Captain Colthurst ordered a search of Mrs.Skeffington's house; that his soldiers first fired into her dwelling, and then, producing a key taken from the body of the murdered man, opened his locked room and removed documents to try to furnish the accused with ex post facto justification for his crime. The second raid on the widow's house by Colthurst's orders on the following Monday, as well as the fact that one of the soldiers who took part in it was the Sergeant left in charge of Dickson's trunk at Alderman James Kelly's, was also left unmentioned. There was an equally significant silence as to the protests of the murdered men on the morning of their execution, and as to the accused's refusal of spiritual solace to them in their last moments.The Courtmartial were likewise unaware that Captain Colthurst was allowed to remain at large by his superiors until the 6th May- nearly a fortnight after the murders - while the non-production of Major Sir Francis Vane, his Senior Officer, disabled it from learning that on the 1st may (a week after the murders) the accused was promoted to the charge of the Defence of Portobello Barracks. His conduct on shooting the lad, Coade, on Rathmines Road previous to the three murders, was not introduced, although Coade's father immediately lodged information at the Barracks. None of the soldiers who formed the firing party was called to speak  as to the nature of the accused's commands and demeanour, or explain how Mr. Skeffington came to be taken from a locked cell without authority. The added tragedy which led to a second squad of soldiers being called out to fire at the prostrate body of Mr. Skeffington would not have become known (although proved at the private preliminary inquiry) but for the candour of the noble President of the tribunal, Lord Cheylesmore. As for the attempt to fasten complicity with the rebellion on Mr. Skeffington by the production of a document published previously by Alderman Thomas Kelly (which deceased, as a journalist, kept in his house) - it stands in strange contrast with the silence preserved concerning the innocence of the other slaughtered men and the Court was not even told who or what they were. The admission of this document  after Adjutant Morgan, who produced it, had sworn that it was not found on Mr. Skeffington, may have been due to inadvertenance, but the cunning of the untruthful endorsement on it by the accused to the effect that it was found on the body, seemed to call for observation on the issue of sanity, as corroboration of the fact that Captain Colthurst from the date when he knew the murders were discovered, was engaged in the manufacture of evidence to palliate his guilt.</p> <p>I therefore have to ask that in view of the promised Inquiry you will make arrangements with the Military Authorities to have in attendance thereat, in addition to the witnesses called on behalf of the prosecution at the late Courtmartial, the following persons: -  1. - The soldiers under command of Lieutenant Wilson when Mr. Skeffington was marched out of his cell into the street to serve as a hostage. 2. - The soldiers who composed the first and second firing parties. 3. - Lieutenant Colonel McCammond who was in command of the Royal Irish Rifles. 4. - Major Sir Francis Vane, 2nd in Command. 5. - Lieutenant Tooley and Lieutenant Gibbon. 6. - The officers and soldiers who were sent after the murder to search Mrs. Skeffington's residence on two occasions - especially Sergeant Claxton.</p> <p>Of course, the names, regiment and regimental number of all the proposed witnesses should be supplied to me some days before the Inquiry, unless the Government undertake to call them for examination.</p> <p>I should also be furnished the Notes of the preliminary Inquiry which the Courtmartial were supplied with. In addition I request that all documents, etc., taken from the person of Mr. Skeffington, or seized at his residence, should be returned, and if this is refused that copies should be supplied to me.</p> <p>I should likewise be afforded an opportunity of examining and taking copies of any reports or entries dealing with the circumstances attending the arrest or execution of Mr. Skeffington, or the searches at his residence.</p> <p>I shall feel obliged by an intimation of an early decision.</p>  <salute>I have the honour to be, Sir,                                  Your obedient Servant                                          HENRY LEMASS.</salute>  <address>tO, THE RIGHT HON. H. H. ASQUITH, K.C., M.P., Prime Minister, 10 Downing Street, London, S.W.</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-03T14:04:25" who="#Lainey">
+                
+                    Page 2494 modified:
+                    <!-- 
+COPY]                                                                              <address>31 PARLIAMENT STREET,                                                                                                                              DUBLIN,</address> <date>June 13th, 1916.</date> <salute>SIR</salute>                       <p>As solicitor for Mrs. Sheehy Skeffington - for whose husband's murder, on 26th April, Captain Bowen Colthurst has been adjudged guilty - I have the honour to inquire when the promised Public Inquiry will be held?</p> <p>My client is profoundly dissatisfied with the limited information afforded at the Court-martial, when the insanity of the acused was suggested.</p> <p>While she abhors the idea that fresh blood should be spilt, my client is equally resolute that the truth should be known, so that the people of the three Kingdoms may determine whether the same measure of justice has been meted out to all parties affected by the rebellion.</p> <p>That there were circumstances giving rise to anxiety connected with the recent trial will be evident from the following facts: -  Lieutenant Wylie, K.C. who had prosecuted to conviction other men recently executed, was released from this Courtmartial and an English Counsel, not fully acquainted with the facts or imperfectly instructed, was appointed. Although no plea of inability to plead was entered for the accused, the question of his sanity was raised from the outset. Yet the manner in which he effected the arrest of the other murdered men (Messrs Dickson and McIntyre) was not proved, nor the process by which he selected them for execution from amongst eight prisoners. Nevertheless, it was within the knowledge of the Military Authorities that Messrs, Dickson and McIntyre were taken into custody on the premises of Alderman James Kelly, ex-High Sheriff, by the accused, under the idea that the shop belonged to Alderman Thomas Kelly, a person of wholly different politics. They also knew that Colthurst threw a bomb into the premises and subsequently "planted" Mr. Dickson's trunk therein to give rise to the suspicion that Mr. Dickson had been harboured by Alderman James Kelly who was also lodged in Portobello Barracks. Nor was the Court informed that two sisters of Mrs. Skeffington, viz: Mrs Kettle (wife of Lieutenant Kettle), and Mrs, Culhane (widow of a public official lately deceased) called at Portobello Barracks on Friday, 28th April, after the murders, and, on inquiring for their brother, Lieutenant Sheehy, were put under arrest and brought before Captain Colthurst, and that he denied all knowledge of Mr. Skeffington and was perfectly calm and collected in his demeanour and falsehoods. Similarly, the tribunal was not made aware that on the evening after his examination of these ladies, Captain Colthurst ordered a search of Mrs.Skeffington's house; that his soldiers first fired into her dwelling, and then, producing a key taken from the body of the murdered man, opened his locked room and removed documents to try to furnish the accused with ex post facto justification for his crime. The second raid on the widow's house by Colthurst's orders on the following Monday, as well as the fact that one of the soldiers who took part in it was the Sergeant left in charge of Dickson's trunk at Alderman James Kelly's, was also left unmentioned. There was an equally significant silence as to the protests of the murdered men on the morning of their execution, and as to the accused's refusal of spiritual solace to them in their last moments.The Courtmartial were likewise unaware that Captain Colthurst was allowed to remain at large by his superiors until the 6th May- nearly a fortnight after the murders - while the non-production of Major Sir Francis Vane, his Senior Officer, disabled it from learning that on the 1st may (a week after the murders) the accused was promoted to the charge of the Defence of Portobello Barracks. His conduct on shooting the lad, Coade, on Rathmines Road previous to the three murders, was not introduced, although Coade's father immediately lodged information at the Barracks. None of the soldiers who formed the firing party was called to speak  as to the nature of the accused's commands and demeanour, or explain how Mr. Skeffington came to be taken from a locked cell without authority. The added tragedy which led to a second squad of soldiers being called out to fire at the prostrate body of Mr. Skeffington would not have become known (although proved at the private preliminary inquiry) but for the candour of the noble President of the tribunal, Lord Cheylesmore. As for the attempt to fasten complicity with the rebellion on Mr. Skeffington by the production of a document published previously by Alderman Thomas Kelly (which deceased, as a journalist, kept in his house) - it stands in strange contrast with the silence preserved concerning the innocence of the other slaughtered men and the Court was not even told who or what they were. The admission of this document  after Adjutant Morgan, who produced it, had sworn that it was not found on Mr. Skeffington, may have been due to inadvertenance, but the cunning of the untruthful endorsement on it by the accused to the effect that it was found on the body, seemed to call for observation on the issue of sanity, as corroboration of the fact that Captain Colthurst from the date when he knew the murders were discovered, was engaged in the manufacture of evidence to palliate his guilt.</p> <p>I therefore have to ask that in view of the promised Inquiry you will make arrangements with the Military Authorities to have in attendance thereat, in addition to the witnesses called on behalf of the prosecution at the late Courtmartial, the following persons: -  1. - The soldiers under command of Lieutenant Wilson when Mr. Skeffington was marched out of his cell into the street to serve as a hostage. 2. - The soldiers who composed the first and second firing parties. 3. - Lieutenant Colonel McCammond who was in command of the Royal Irish Rifles. 4. - Major Sir Francis Vane, 2nd in Command. 5. - Lieutenant Tooley and Lieutenant Gibbon. 6. - The officers and soldiers who were sent after the murder to search Mrs. Skeffington's residence on two occasions - especially Sergeant Claxton.</p> <p>Of course, the names, regiment and regimental number of all the proposed witnesses should be supplied to me some days before the Inquiry, unless the Government undertake to call them for examination.</p> <p>I should also be furnished the Notes of the preliminary Inquiry which the Courtmartial were supplied with. In addition I request that all documents, etc., taken from the person of Mr. Skeffington, or seized at his residence, should be returned, and if this is refused that copies should be supplied to me.</p> <p>I should likewise be afforded an opportunity of examining and taking copies of any reports or entries dealing with the circumstances attending the arrest or execution of Mr. Skeffington, or the searches at his residence.</p> <p>I shall feel obliged by an intimation of an early decision.</p>  <salute>I have the honour to be, Sir,                                  Your obedient Servant                                          HENRY LEMASS.</salute>  <address>To, THE RIGHT HON. H. H. ASQUITH, K.C., M.P., Prime Minister, 10 Downing Street, London, S.W.</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-11T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-11T12:40:49" who="#NR">
+                
+                    Page 2494 modified:
+                    <!-- 
+<address>31 PARLIAMENT STREET,   DUBLIN,</address> <date>June 13th, 1916.</date> <salute>SIR</salute> <p>As solicitor for Mrs. Sheehy Skeffington - for whose husband's murder, on 26th April, <lb/> Captain Bowen Colthurst has been adjudged guilty - I have the honour to inquire when the <lb/> promised Public Inquiry will be held?</p> <p>My client is profoundly dissatisfied with the limited information afforded at the Court- <lb/>martial, when the insanity of the acused was suggested.</p> <p>While she abhors the idea that fresh blood should be spilt, my client is equally resolute <lb/> that the truth should be known, so that the people of the three Kingdoms may determine whether  <lb/>the same measure of justice has been meted out to all parties affected by the rebellion.</p> <p>That there were circumstances giving rise to anxiety connected with the recent trial will  <lb/>be evident from the following facts: - </p> <p>Lieutenant Wylie, K.C. who had prosecuted to conviction other men recently executed,  <lb/>was released from this Courtmartial and an English Counsel, not fully acquainted with the facts <lb/> or imperfectly instructed, was appointed. Although no plea of inability to plead was entered <lb/> for the accused, the question of his sanity was raised from the outset. Yet the manner in which <lb/> he effected the arrest of the other murdered men (Messrs Dickson and McIntyre) was not proved, <lb/> nor the process by which he selected them for execution from amongst eight prisoners. Never <lb/>theless, it was within the knowledge of the Military Authorities that Messrs, Dickson and <lb/> McIntyre were taken into custody on the premises of Alderman James Kelly, ex-High Sheriff, by <lb/> the accused, under the idea that the shop belonged to Alderman Thomas Kelly, a person of <lb/> wholly different politics. They also knew that Colthurst threw a bomb into the premises and <lb/> subsequently "planted" Mr. Dickson's trunk therein to give rise to the suspicion that Mr.  <lb/>Dickson had been harboured by Alderman James Kelly who was also lodged in Portobello <lb/> Barracks. Nor was the Court informed that two sisters of Mrs. Skeffington, viz: Mrs Kettle <lb/> (wife of Lieutenant Kettle), and Mrs, Culhane (widow of a public official lately deceased) called  <lb/>at Portobello Barracks on Friday, 28th April, after the murders, and, on inquiring for their <lb/> brother, Lieutenant Sheehy, were put under arrest and brought before Captain Colthurst, and  <lb/>that he denied all knowledge of Mr. Skeffington and was perfectly calm and collected in his  <lb/>demeanour and falsehoods. Similarly, the tribunal was not made aware that on the evening  <lb/>after his examination of these ladies, Captain Colthurst ordered a search of Mrs.Skeffington's  <lb/>house; that his soldiers first fired into her dwelling, and then, producing a key taken from the <lb/> body of the murdered man, opened his locked room and removed documents to try to furnish the  <lb/>accused with ex post facto justification for his crime. The second raid on the widow's house by  <lb/>Colthurst's orders on the following Monday, as well as the fact that one of the soldiers who took  <lb/>part in it was the Sergeant left in charge of Dickson's trunk at Alderman James Kelly's, was  <lb/>also left unmentioned. There was an equally significant silence as to the protests of the murder- <lb/>ed men on the morning of their execution, and as to the accused's refusal of spiritual solace to  <lb/>them in their last moments.The Courtmartial were likewise unaware that Captain Colthurst <lb/> was allowed to remain at large by his superiors until the 6th May- nearly a fortnight after the  <lb/>murders - while the non-production of Major Sir Francis Vane, his Senior Officer, disabled it <lb/> from learning that on the 1st may (a week after the murders) the accused was promoted to the <lb/> charge of the Defence of Portobello Barracks. His conduct on shooting the lad, Coade, on <lb/> Rathmines Road previous to the three murders, was not introduced, although Coade's father  <lb/>immediately lodged information at the Barracks. None of the soldiers who formed the firing <lb/> party was called to speak  as to the nature of the accused's commands and demeanour, or explain <lb/> how Mr. Skeffington came to be taken from a locked cell without authority. The added <lb/> tragedy which led to a second squad of soldiers being called out to fire at the prostrate body of  <lb/>Mr. Skeffington would not have become known (although proved at the private preliminary <lb/> inquiry) but for the candour of the noble President of the tribunal, Lord Cheylesmore. As for  <lb/>the attempt to fasten complicity with the rebellion on Mr. Skeffington by the production of a  <lb/>document published previously by Alderman Thomas Kelly (which deceased, as a journalist, <lb/> kept in his house) - it stands in strange contrast with the silence preserved concerning the <lb/> innocence of the other slaughtered men and the Court was not even told who or what they were. <lb/> The admission of this document  after Adjutant Morgan, who produced it, had sworn that it was  <lb/>not found on Mr. Skeffington, may have been due to inadvertenance, but the cunning of the un- <lb/>truthful endorsement on it by the accused to the effect that it was found on the body, seemed  <lb/>to call for observation on the issue of sanity, as corroboration of the fact that Captain Colthurst <lb/> from the date when he knew the murders were discovered, was engaged in the manufacture of  <lb/>evidence to palliate his guilt.</p> <p>I therefore have to ask that in view of the promised Inquiry you will make arrangements with the Military Authorities to have in attendance thereat, in addition to the witnesses called on behalf of the prosecution at the late Courtmartial, the following persons: -  1. - The soldiers under command of Lieutenant Wilson when Mr. Skeffington was marched out of his cell into the street to serve as a hostage. 2. - The soldiers who composed the first and second firing parties. 3. - Lieutenant Colonel McCammond who was in command of the Royal Irish Rifles. 4. - Major Sir Francis Vane, 2nd in Command. 5. - Lieutenant Tooley and Lieutenant Gibbon. 6. - The officers and soldiers who were sent after the murder to search Mrs. Skeffington's residence on two occasions - especially Sergeant Claxton.</p> <p>Of course, the names, regiment and regimental number of all the proposed witnesses should be supplied to me some days before the Inquiry, unless the Government undertake to call them for examination.</p> <p>I should also be furnished the Notes of the preliminary Inquiry which the Courtmartial were supplied with. In addition I request that all documents, etc., taken from the person of Mr. Skeffington, or seized at his residence, should be returned, and if this is refused that copies should be supplied to me.</p> <p>I should likewise be afforded an opportunity of examining and taking copies of any reports or entries dealing with the circumstances attending the arrest or execution of Mr. Skeffington, or the searches at his residence.</p> <p>I shall feel obliged by an intimation of an early decision.</p>  <salute>I have the honour to be, Sir,                                  Your obedient Servant                                          HENRY LEMASS.</salute>  <address>To, THE RIGHT HON. H. H. ASQUITH, K.C., M.P., Prime Minister, 10 Downing Street, London, S.W.</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-11T12:42:27" who="#NR">
+                
+                    Page 2494 modified:
+                    <!-- 
+<address>31 PARLIAMENT STREET,   DUBLIN,</address> <date>June 13th, 1916.</date> <salute>SIR</salute> <p>As solicitor for Mrs. Sheehy Skeffington - for whose husband's murder, on 26th April, <lb/> Captain Bowen Colthurst has been adjudged guilty - I have the honour to inquire when the <lb/> promised Public Inquiry will be held?</p> <p>My client is profoundly dissatisfied with the limited information afforded at the Court- <lb/>martial, when the insanity of the acused was suggested.</p> <p>While she abhors the idea that fresh blood should be spilt, my client is equally resolute <lb/> that the truth should be known, so that the people of the three Kingdoms may determine whether  <lb/>the same measure of justice has been meted out to all parties affected by the rebellion.</p> <p>That there were circumstances giving rise to anxiety connected with the recent trial will  <lb/>be evident from the following facts: - </p> <p>Lieutenant Wylie, K.C. who had prosecuted to conviction other men recently executed,  <lb/>was released from this Courtmartial and an English Counsel, not fully acquainted with the facts <lb/> or imperfectly instructed, was appointed. Although no plea of inability to plead was entered <lb/> for the accused, the question of his sanity was raised from the outset. Yet the manner in which <lb/> he effected the arrest of the other murdered men (Messrs Dickson and McIntyre) was not proved, <lb/> nor the process by which he selected them for execution from amongst eight prisoners. Never <lb/>theless, it was within the knowledge of the Military Authorities that Messrs, Dickson and <lb/> McIntyre were taken into custody on the premises of Alderman James Kelly, ex-High Sheriff, by <lb/> the accused, under the idea that the shop belonged to Alderman Thomas Kelly, a person of <lb/> wholly different politics. They also knew that Colthurst threw a bomb into the premises and <lb/> subsequently "planted" Mr. Dickson's trunk therein to give rise to the suspicion that Mr.  <lb/>Dickson had been harboured by Alderman James Kelly who was also lodged in Portobello <lb/> Barracks. Nor was the Court informed that two sisters of Mrs. Skeffington, viz: Mrs Kettle <lb/> (wife of Lieutenant Kettle), and Mrs, Culhane (widow of a public official lately deceased) called  <lb/>at Portobello Barracks on Friday, 28th April, after the murders, and, on inquiring for their <lb/> brother, Lieutenant Sheehy, were put under arrest and brought before Captain Colthurst, and  <lb/>that he denied all knowledge of Mr. Skeffington and was perfectly calm and collected in his  <lb/>demeanour and falsehoods. Similarly, the tribunal was not made aware that on the evening  <lb/>after his examination of these ladies, Captain Colthurst ordered a search of Mrs.Skeffington's  <lb/>house; that his soldiers first fired into her dwelling, and then, producing a key taken from the <lb/> body of the murdered man, opened his locked room and removed documents to try to furnish the  <lb/>accused with ex post facto justification for his crime. The second raid on the widow's house by  <lb/>Colthurst's orders on the following Monday, as well as the fact that one of the soldiers who took  <lb/>part in it was the Sergeant left in charge of Dickson's trunk at Alderman James Kelly's, was  <lb/>also left unmentioned. There was an equally significant silence as to the protests of the murder- <lb/>ed men on the morning of their execution, and as to the accused's refusal of spiritual solace to  <lb/>them in their last moments.The Courtmartial were likewise unaware that Captain Colthurst <lb/> was allowed to remain at large by his superiors until the 6th May- nearly a fortnight after the  <lb/>murders - while the non-production of Major Sir Francis Vane, his Senior Officer, disabled it <lb/> from learning that on the 1st may (a week after the murders) the accused was promoted to the <lb/> charge of the Defence of Portobello Barracks. His conduct on shooting the lad, Coade, on <lb/> Rathmines Road previous to the three murders, was not introduced, although Coade's father  <lb/>immediately lodged information at the Barracks. None of the soldiers who formed the firing <lb/> party was called to speak  as to the nature of the accused's commands and demeanour, or explain <lb/> how Mr. Skeffington came to be taken from a locked cell without authority. The added <lb/> tragedy which led to a second squad of soldiers being called out to fire at the prostrate body of  <lb/>Mr. Skeffington would not have become known (although proved at the private preliminary <lb/> inquiry) but for the candour of the noble President of the tribunal, Lord Cheylesmore. As for  <lb/>the attempt to fasten complicity with the rebellion on Mr. Skeffington by the production of a  <lb/>document published previously by Alderman Thomas Kelly (which deceased, as a journalist, <lb/> kept in his house) - it stands in strange contrast with the silence preserved concerning the <lb/> innocence of the other slaughtered men and the Court was not even told who or what they were. <lb/> The admission of this document  after Adjutant Morgan, who produced it, had sworn that it was  <lb/>not found on Mr. Skeffington, may have been due to inadvertenance, but the cunning of the un- <lb/>truthful endorsement on it by the accused to the effect that it was found on the body, seemed  <lb/>to call for observation on the issue of sanity, as corroboration of the fact that Captain Colthurst <lb/> from the date when he knew the murders were discovered, was engaged in the manufacture of  <lb/>evidence to palliate his guilt.</p> <p>I therefore have to ask that in view of the promised Inquiry you will make arrangements <lb/> with the Military Authorities to have in attendance thereat, in addition to the witnesses called on  <lb/>behalf of the prosecution at the late Courtmartial, the following persons: -  <lb/>1. &#x2014;The soldiers under command of Lieutenant Wilson when Mr. Skeffington was marched out  <lb/>of his cell into the street to serve as a hostage. <lb/>2. &#x2014;The soldiers who composed the first and second firing parties. <lb/>3. &#x2014;Lieutenant Colonel McCammond who was in command of the Royal Irish Rifles. <lb/>4. &#x2014; Major Sir Francis Vane, 2nd in Command. <lb/>5. &#x2014;Lieutenant Tooley and Lieutenant Gibbon. <lb/>6. &#x2014;The officers and soldiers who were sent after the murder to search Mrs. Skeffington's resi- <lb/>dence on two occasions - especially Sergeant Claxton.</p> <p>Of course, the names, regiment and regimental number of all the proposed witnesses <lb/> should be supplied to me some days before the Inquiry, unless the Government undertake to call them for examination.</p> <p>I should also be furnished the Notes of the preliminary Inquiry which the Courtmartial were supplied with. In addition I request that all documents, etc., taken from the person of Mr. Skeffington, or seized at his residence, should be returned, and if this is refused that copies should be supplied to me.</p> <p>I should likewise be afforded an opportunity of examining and taking copies of any reports or entries dealing with the circumstances attending the arrest or execution of Mr. Skeffington, or the searches at his residence.</p> <p>I shall feel obliged by an intimation of an early decision.</p>  <salute>I have the honour to be, Sir,                                  Your obedient Servant                                          HENRY LEMASS.</salute>  <address>To, THE RIGHT HON. H. H. ASQUITH, K.C., M.P., Prime Minister, 10 Downing Street, London, S.W.</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-11T12:43:25" who="#NR">
+                
+                    Page 2494 modified:
+                    <!-- 
+<address>31 PARLIAMENT STREET,   DUBLIN,</address> <date>June 13th, 1916.</date> <salute>SIR</salute> <p>As solicitor for Mrs. Sheehy Skeffington - for whose husband's murder, on 26th April, <lb/> Captain Bowen Colthurst has been adjudged guilty - I have the honour to inquire when the <lb/> promised Public Inquiry will be held?</p> <p>My client is profoundly dissatisfied with the limited information afforded at the Court- <lb/>martial, when the insanity of the acused was suggested.</p> <p>While she abhors the idea that fresh blood should be spilt, my client is equally resolute <lb/> that the truth should be known, so that the people of the three Kingdoms may determine whether  <lb/>the same measure of justice has been meted out to all parties affected by the rebellion.</p> <p>That there were circumstances giving rise to anxiety connected with the recent trial will  <lb/>be evident from the following facts: - </p> <p>Lieutenant Wylie, K.C. who had prosecuted to conviction other men recently executed,  <lb/>was released from this Courtmartial and an English Counsel, not fully acquainted with the facts <lb/> or imperfectly instructed, was appointed. Although no plea of inability to plead was entered <lb/> for the accused, the question of his sanity was raised from the outset. Yet the manner in which <lb/> he effected the arrest of the other murdered men (Messrs Dickson and McIntyre) was not proved, <lb/> nor the process by which he selected them for execution from amongst eight prisoners. Never <lb/>theless, it was within the knowledge of the Military Authorities that Messrs, Dickson and <lb/> McIntyre were taken into custody on the premises of Alderman James Kelly, ex-High Sheriff, by <lb/> the accused, under the idea that the shop belonged to Alderman Thomas Kelly, a person of <lb/> wholly different politics. They also knew that Colthurst threw a bomb into the premises and <lb/> subsequently "planted" Mr. Dickson's trunk therein to give rise to the suspicion that Mr.  <lb/>Dickson had been harboured by Alderman James Kelly who was also lodged in Portobello <lb/> Barracks. Nor was the Court informed that two sisters of Mrs. Skeffington, viz: Mrs Kettle <lb/> (wife of Lieutenant Kettle), and Mrs, Culhane (widow of a public official lately deceased) called  <lb/>at Portobello Barracks on Friday, 28th April, after the murders, and, on inquiring for their <lb/> brother, Lieutenant Sheehy, were put under arrest and brought before Captain Colthurst, and  <lb/>that he denied all knowledge of Mr. Skeffington and was perfectly calm and collected in his  <lb/>demeanour and falsehoods. Similarly, the tribunal was not made aware that on the evening  <lb/>after his examination of these ladies, Captain Colthurst ordered a search of Mrs.Skeffington's  <lb/>house; that his soldiers first fired into her dwelling, and then, producing a key taken from the <lb/> body of the murdered man, opened his locked room and removed documents to try to furnish the  <lb/>accused with ex post facto justification for his crime. The second raid on the widow's house by  <lb/>Colthurst's orders on the following Monday, as well as the fact that one of the soldiers who took  <lb/>part in it was the Sergeant left in charge of Dickson's trunk at Alderman James Kelly's, was  <lb/>also left unmentioned. There was an equally significant silence as to the protests of the murder- <lb/>ed men on the morning of their execution, and as to the accused's refusal of spiritual solace to  <lb/>them in their last moments.The Courtmartial were likewise unaware that Captain Colthurst <lb/> was allowed to remain at large by his superiors until the 6th May- nearly a fortnight after the  <lb/>murders - while the non-production of Major Sir Francis Vane, his Senior Officer, disabled it <lb/> from learning that on the 1st may (a week after the murders) the accused was promoted to the <lb/> charge of the Defence of Portobello Barracks. His conduct on shooting the lad, Coade, on <lb/> Rathmines Road previous to the three murders, was not introduced, although Coade's father  <lb/>immediately lodged information at the Barracks. None of the soldiers who formed the firing <lb/> party was called to speak  as to the nature of the accused's commands and demeanour, or explain <lb/> how Mr. Skeffington came to be taken from a locked cell without authority. The added <lb/> tragedy which led to a second squad of soldiers being called out to fire at the prostrate body of  <lb/>Mr. Skeffington would not have become known (although proved at the private preliminary <lb/> inquiry) but for the candour of the noble President of the tribunal, Lord Cheylesmore. As for  <lb/>the attempt to fasten complicity with the rebellion on Mr. Skeffington by the production of a  <lb/>document published previously by Alderman Thomas Kelly (which deceased, as a journalist, <lb/> kept in his house) - it stands in strange contrast with the silence preserved concerning the <lb/> innocence of the other slaughtered men and the Court was not even told who or what they were. <lb/> The admission of this document  after Adjutant Morgan, who produced it, had sworn that it was  <lb/>not found on Mr. Skeffington, may have been due to inadvertenance, but the cunning of the un- <lb/>truthful endorsement on it by the accused to the effect that it was found on the body, seemed  <lb/>to call for observation on the issue of sanity, as corroboration of the fact that Captain Colthurst <lb/> from the date when he knew the murders were discovered, was engaged in the manufacture of  <lb/>evidence to palliate his guilt.</p> <p>I therefore have to ask that in view of the promised Inquiry you will make arrangements <lb/> with the Military Authorities to have in attendance thereat, in addition to the witnesses called on  <lb/>behalf of the prosecution at the late Courtmartial, the following persons: -  <lb/>1. &#x2014;The soldiers under command of Lieutenant Wilson when Mr. Skeffington was marched out  <lb/>of his cell into the street to serve as a hostage. <lb/>2. &#x2014;The soldiers who composed the first and second firing parties. <lb/>3. &#x2014;Lieutenant Colonel McCammond who was in command of the Royal Irish Rifles. <lb/>4. &#x2014; Major Sir Francis Vane, 2nd in Command. <lb/>5. &#x2014;Lieutenant Tooley and Lieutenant Gibbon. <lb/>6. &#x2014;The officers and soldiers who were sent after the murder to search Mrs. Skeffington's resi- <lb/>dence on two occasions - especially Sergeant Claxton.</p> <p>Of course, the names, regiment and regimental number of all the proposed witnesses <lb/> should be supplied to me some days before the Inquiry, unless the Government undertake to call them for examination.</p> <p>I should also be furnished the Notes of the preliminary Inquiry which the Courtmartial were supplied with. In addition I request that all documents, etc., taken from the person of Mr. Skeffington, or seized at his residence, should be returned, and if this is refused that copies should be supplied to me.</p> <p>I should likewise be afforded an opportunity of examining and taking copies of any reports or entries dealing with the circumstances attending the arrest or execution of Mr. Skeffington, or the searches at his residence.</p> <p>I shall feel obliged by an intimation of an early decision.</p>  <salute>I have the honour to be, Sir,                                  Your obedient Servant HENRY LEMASS.</salute>  <address>To, THE RIGHT HON. H. H. ASQUITH, K.C., M.P., Prime Minister, 10 Downing Street, London, S.W.</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-11T12:43:26" who="#NR">
+                
+                    Page 2494 modified:
+                    <!-- 
+<address>31 PARLIAMENT STREET,   DUBLIN,</address> <date>June 13th, 1916.</date> <salute>SIR</salute> <p>As solicitor for Mrs. Sheehy Skeffington - for whose husband's murder, on 26th April, <lb/> Captain Bowen Colthurst has been adjudged guilty - I have the honour to inquire when the <lb/> promised Public Inquiry will be held?</p> <p>My client is profoundly dissatisfied with the limited information afforded at the Court- <lb/>martial, when the insanity of the acused was suggested.</p> <p>While she abhors the idea that fresh blood should be spilt, my client is equally resolute <lb/> that the truth should be known, so that the people of the three Kingdoms may determine whether  <lb/>the same measure of justice has been meted out to all parties affected by the rebellion.</p> <p>That there were circumstances giving rise to anxiety connected with the recent trial will  <lb/>be evident from the following facts: - </p> <p>Lieutenant Wylie, K.C. who had prosecuted to conviction other men recently executed,  <lb/>was released from this Courtmartial and an English Counsel, not fully acquainted with the facts <lb/> or imperfectly instructed, was appointed. Although no plea of inability to plead was entered <lb/> for the accused, the question of his sanity was raised from the outset. Yet the manner in which <lb/> he effected the arrest of the other murdered men (Messrs Dickson and McIntyre) was not proved, <lb/> nor the process by which he selected them for execution from amongst eight prisoners. Never <lb/>theless, it was within the knowledge of the Military Authorities that Messrs, Dickson and <lb/> McIntyre were taken into custody on the premises of Alderman James Kelly, ex-High Sheriff, by <lb/> the accused, under the idea that the shop belonged to Alderman Thomas Kelly, a person of <lb/> wholly different politics. They also knew that Colthurst threw a bomb into the premises and <lb/> subsequently "planted" Mr. Dickson's trunk therein to give rise to the suspicion that Mr.  <lb/>Dickson had been harboured by Alderman James Kelly who was also lodged in Portobello <lb/> Barracks. Nor was the Court informed that two sisters of Mrs. Skeffington, viz: Mrs Kettle <lb/> (wife of Lieutenant Kettle), and Mrs, Culhane (widow of a public official lately deceased) called  <lb/>at Portobello Barracks on Friday, 28th April, after the murders, and, on inquiring for their <lb/> brother, Lieutenant Sheehy, were put under arrest and brought before Captain Colthurst, and  <lb/>that he denied all knowledge of Mr. Skeffington and was perfectly calm and collected in his  <lb/>demeanour and falsehoods. Similarly, the tribunal was not made aware that on the evening  <lb/>after his examination of these ladies, Captain Colthurst ordered a search of Mrs.Skeffington's  <lb/>house; that his soldiers first fired into her dwelling, and then, producing a key taken from the <lb/> body of the murdered man, opened his locked room and removed documents to try to furnish the  <lb/>accused with ex post facto justification for his crime. The second raid on the widow's house by  <lb/>Colthurst's orders on the following Monday, as well as the fact that one of the soldiers who took  <lb/>part in it was the Sergeant left in charge of Dickson's trunk at Alderman James Kelly's, was  <lb/>also left unmentioned. There was an equally significant silence as to the protests of the murder- <lb/>ed men on the morning of their execution, and as to the accused's refusal of spiritual solace to  <lb/>them in their last moments.The Courtmartial were likewise unaware that Captain Colthurst <lb/> was allowed to remain at large by his superiors until the 6th May- nearly a fortnight after the  <lb/>murders - while the non-production of Major Sir Francis Vane, his Senior Officer, disabled it <lb/> from learning that on the 1st may (a week after the murders) the accused was promoted to the <lb/> charge of the Defence of Portobello Barracks. His conduct on shooting the lad, Coade, on <lb/> Rathmines Road previous to the three murders, was not introduced, although Coade's father  <lb/>immediately lodged information at the Barracks. None of the soldiers who formed the firing <lb/> party was called to speak  as to the nature of the accused's commands and demeanour, or explain <lb/> how Mr. Skeffington came to be taken from a locked cell without authority. The added <lb/> tragedy which led to a second squad of soldiers being called out to fire at the prostrate body of  <lb/>Mr. Skeffington would not have become known (although proved at the private preliminary <lb/> inquiry) but for the candour of the noble President of the tribunal, Lord Cheylesmore. As for  <lb/>the attempt to fasten complicity with the rebellion on Mr. Skeffington by the production of a  <lb/>document published previously by Alderman Thomas Kelly (which deceased, as a journalist, <lb/> kept in his house) - it stands in strange contrast with the silence preserved concerning the <lb/> innocence of the other slaughtered men and the Court was not even told who or what they were. <lb/> The admission of this document  after Adjutant Morgan, who produced it, had sworn that it was  <lb/>not found on Mr. Skeffington, may have been due to inadvertenance, but the cunning of the un- <lb/>truthful endorsement on it by the accused to the effect that it was found on the body, seemed  <lb/>to call for observation on the issue of sanity, as corroboration of the fact that Captain Colthurst <lb/> from the date when he knew the murders were discovered, was engaged in the manufacture of  <lb/>evidence to palliate his guilt.</p> <p>I therefore have to ask that in view of the promised Inquiry you will make arrangements <lb/> with the Military Authorities to have in attendance thereat, in addition to the witnesses called on  <lb/>behalf of the prosecution at the late Courtmartial, the following persons: -  <lb/>1. &#x2014;The soldiers under command of Lieutenant Wilson when Mr. Skeffington was marched out  <lb/>of his cell into the street to serve as a hostage. <lb/>2. &#x2014;The soldiers who composed the first and second firing parties. <lb/>3. &#x2014;Lieutenant Colonel McCammond who was in command of the Royal Irish Rifles. <lb/>4. &#x2014; Major Sir Francis Vane, 2nd in Command. <lb/>5. &#x2014;Lieutenant Tooley and Lieutenant Gibbon. <lb/>6. &#x2014;The officers and soldiers who were sent after the murder to search Mrs. Skeffington's resi- <lb/>dence on two occasions - especially Sergeant Claxton.</p> <p>Of course, the names, regiment and regimental number of all the proposed witnesses <lb/> should be supplied to me some days before the Inquiry, unless the Government undertake to call them for examination.</p> <p>I should also be furnished the Notes of the preliminary Inquiry which the Courtmartial were supplied with. In addition I request that all documents, etc., taken from the person of Mr. Skeffington, or seized at his residence, should be returned, and if this is refused that copies should be supplied to me.</p> <p>I should likewise be afforded an opportunity of examining and taking copies of any reports or entries dealing with the circumstances attending the arrest or execution of Mr. Skeffington, or the searches at his residence.</p> <p>I shall feel obliged by an intimation of an early decision.</p>  <salute>I have the honour to be, Sir,                                  Your obedient Servant HENRY LEMASS.</salute>  <address>To, THE RIGHT HON. H. H. ASQUITH, K.C., M.P., Prime Minister, 10 Downing Street, London, S.W.</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-11T12:58:24" who="#NR">
+                
+                    Page 2494 modified:
+                    <!-- 
+<address>31 PARLIAMENT STREET,   DUBLIN,</address> <date>June 13th, 1916.</date> <salute>SIR</salute> <p>As solicitor for Mrs. Sheehy Skeffington - for whose husband's murder, on 26th April, <lb/> Captain Bowen Colthurst has been adjudged guilty - I have the honour to inquire when the <lb/> promised Public Inquiry will be held?</p> <p>My client is profoundly dissatisfied with the limited information afforded at the Court- <lb/>martial, when the insanity of the acused was suggested.</p> <p>While she abhors the idea that fresh blood should be spilt, my client is equally resolute <lb/> that the truth should be known, so that the people of the three Kingdoms may determine whether  <lb/>the same measure of justice has been meted out to all parties affected by the rebellion.</p> <p>That there were circumstances giving rise to anxiety connected with the recent trial will  <lb/>be evident from the following facts: - </p> <p>Lieutenant Wylie, K.C. who had prosecuted to conviction other men recently executed,  <lb/>was released from this Courtmartial and an English Counsel, not fully acquainted with the facts <lb/> or imperfectly instructed, was appointed. Although no plea of inability to plead was entered <lb/> for the accused, the question of his sanity was raised from the outset. Yet the manner in which <lb/> he effected the arrest of the other murdered men (Messrs Dickson and McIntyre) was not proved, <lb/> nor the process by which he selected them for execution from amongst eight prisoners. Never <lb/>theless, it was within the knowledge of the Military Authorities that Messrs, Dickson and <lb/> McIntyre were taken into custody on the premises of Alderman James Kelly, ex-High Sheriff, by <lb/> the accused, under the idea that the shop belonged to Alderman Thomas Kelly, a person of <lb/> wholly different politics. They also knew that Colthurst threw a bomb into the premises and <lb/> subsequently "planted" Mr. Dickson's trunk therein to give rise to the suspicion that Mr.  <lb/>Dickson had been harboured by Alderman James Kelly who was also lodged in Portobello <lb/> Barracks. Nor was the Court informed that two sisters of Mrs. Skeffington, viz: Mrs Kettle <lb/> (wife of Lieutenant Kettle), and Mrs, Culhane (widow of a public official lately deceased) called  <lb/>at Portobello Barracks on Friday, 28th April, after the murders, and, on inquiring for their <lb/> brother, Lieutenant Sheehy, were put under arrest and brought before Captain Colthurst, and  <lb/>that he denied all knowledge of Mr. Skeffington and was perfectly calm and collected in his  <lb/>demeanour and falsehoods. Similarly, the tribunal was not made aware that on the evening  <lb/>after his examination of these ladies, Captain Colthurst ordered a search of Mrs.Skeffington's  <lb/>house; that his soldiers first fired into her dwelling, and then, producing a key taken from the <lb/> body of the murdered man, opened his locked room and removed documents to try to furnish the  <lb/>accused with ex post facto justification for his crime. The second raid on the widow's house by  <lb/>Colthurst's orders on the following Monday, as well as the fact that one of the soldiers who took  <lb/>part in it was the Sergeant left in charge of Dickson's trunk at Alderman James Kelly's, was  <lb/>also left unmentioned. There was an equally significant silence as to the protests of the murder- <lb/>ed men on the morning of their execution, and as to the accused's refusal of spiritual solace to  <lb/>them in their last moments.The Courtmartial were likewise unaware that Captain Colthurst <lb/> was allowed to remain at large by his superiors until the 6th May- nearly a fortnight after the  <lb/>murders - while the non-production of Major Sir Francis Vane, his Senior Officer, disabled it <lb/> from learning that on the 1st may (a week after the murders) the accused was promoted to the <lb/> charge of the Defence of Portobello Barracks. His conduct on shooting the lad, Coade, on <lb/> Rathmines Road previous to the three murders, was not introduced, although Coade's father  <lb/>immediately lodged information at the Barracks. None of the soldiers who formed the firing <lb/> party was called to speak  as to the nature of the accused's commands and demeanour, or explain <lb/> how Mr. Skeffington came to be taken from a locked cell without authority. The added <lb/> tragedy which led to a second squad of soldiers being called out to fire at the prostrate body of  <lb/>Mr. Skeffington would not have become known (although proved at the private preliminary <lb/> inquiry) but for the candour of the noble President of the tribunal, Lord Cheylesmore. As for  <lb/>the attempt to fasten complicity with the rebellion on Mr. Skeffington by the production of a  <lb/>document published previously by Alderman Thomas Kelly (which deceased, as a journalist, <lb/> kept in his house) - it stands in strange contrast with the silence preserved concerning the <lb/> innocence of the other slaughtered men and the Court was not even told who or what they were. <lb/> The admission of this document  after Adjutant Morgan, who produced it, had sworn that it was  <lb/>not found on Mr. Skeffington, may have been due to inadvertenance, but the cunning of the un- <lb/>truthful endorsement on it by the accused to the effect that it was found on the body, seemed  <lb/>to call for observation on the issue of sanity, as corroboration of the fact that Captain Colthurst <lb/> from the date when he knew the murders were discovered, was engaged in the manufacture of  <lb/>evidence to palliate his guilt.</p> <p>I therefore have to ask that in view of the promised Inquiry you will make arrangements <lb/> with the Military Authorities to have in attendance thereat, in addition to the witnesses called on  <lb/>behalf of the prosecution at the late Courtmartial, the following persons: -  <lb/>1. &#x2014;The soldiers under command of Lieutenant Wilson when Mr. Skeffington was marched out  <lb/>of his cell into the street to serve as a hostage. <lb/>2. &#x2014;The soldiers who composed the first and second firing parties. <lb/>3. &#x2014;Lieutenant Colonel McCammond who was in command of the Royal Irish Rifles. <lb/>4. &#x2014; Major Sir Francis Vane, 2nd in Command. <lb/>5. &#x2014;Lieutenant Tooley and Lieutenant Gibbon. <lb/>6. &#x2014;The officers and soldiers who were sent after the murder to search Mrs. Skeffington's resi- <lb/>dence on two occasions - especially Sergeant Claxton.</p> <p>Of course, the names, regiment and regimental number of all the proposed witnesses <lb/> should be supplied to me some days before the Inquiry, unless the Government undertake to call them for examination.</p> <p>I should also be furnished the Notes of the preliminary Inquiry which the Courtmartial were supplied with. In addition I request that all documents, etc., taken from the person of Mr. Skeffington, or seized at his residence, should be returned, and if this is refused that copies should be supplied to me.</p> <p>I should likewise be afforded an opportunity of examining and taking copies of any reports or entries dealing with the circumstances attending the arrest or execution of Mr. Skeffington, or the searches at his residence.</p> <p>I shall feel obliged by an intimation of an early decision.</p>  <salute>I have the honour to be, Sir,                                  Your obedient Servant HENRY LEMASS.</salute>  <address>To, THE RIGHT HON. H. H. ASQUITH, K.C., M.P., Prime Minister, 10 Downing Street, London, S.W.</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-11T13:00:22" who="#NR">
+                
+                    Page 2494 modified:
+                    <!-- 
+<address>31 PARLIAMENT STREET,   DUBLIN,</address> <date>June 13th, 1916.</date> <salute>SIR</salute> <p>As solicitor for Mrs. Sheehy Skeffington - for whose husband's murder, on 26th April, <lb/> Captain Bowen Colthurst has been adjudged guilty - I have the honour to inquire when the <lb/> promised Public Inquiry will be held?</p> <p>My client is profoundly dissatisfied with the limited information afforded at the Court- <lb/>martial, when the insanity of the acused was suggested.</p> <p>While she abhors the idea that fresh blood should be spilt, my client is equally resolute <lb/> that the truth should be known, so that the people of the three Kingdoms may determine whether  <lb/>the same measure of justice has been meted out to all parties affected by the rebellion.</p> <p>That there were circumstances giving rise to anxiety connected with the recent trial will  <lb/>be evident from the following facts: - </p> <p>Lieutenant Wylie, K.C. who had prosecuted to conviction other men recently executed,  <lb/>was released from this Courtmartial and an English Counsel, not fully acquainted with the facts <lb/> or imperfectly instructed, was appointed. Although no plea of inability to plead was entered <lb/> for the accused, the question of his sanity was raised from the outset. Yet the manner in which <lb/> he effected the arrest of the other murdered men (Messrs Dickson and McIntyre) was not proved, <lb/> nor the process by which he selected them for execution from amongst eight prisoners. Never <lb/>theless, it was within the knowledge of the Military Authorities that Messrs, Dickson and <lb/> McIntyre were taken into custody on the premises of Alderman James Kelly, ex-High Sheriff, by <lb/> the accused, under the idea that the shop belonged to Alderman Thomas Kelly, a person of <lb/> wholly different politics. They also knew that Colthurst threw a bomb into the premises and <lb/> subsequently "planted" Mr. Dickson's trunk therein to give rise to the suspicion that Mr.  <lb/>Dickson had been harboured by Alderman James Kelly who was also lodged in Portobello <lb/> Barracks. Nor was the Court informed that two sisters of Mrs. Skeffington, viz: Mrs Kettle <lb/> (wife of Lieutenant Kettle), and Mrs, Culhane (widow of a public official lately deceased) called  <lb/>at Portobello Barracks on Friday, 28th April, after the murders, and, on inquiring for their <lb/> brother, Lieutenant Sheehy, were put under arrest and brought before Captain Colthurst, and  <lb/>that he denied all knowledge of Mr. Skeffington and was perfectly calm and collected in his  <lb/>demeanour and falsehoods. Similarly, the tribunal was not made aware that on the evening  <lb/>after his examination of these ladies, Captain Colthurst ordered a search of Mrs.Skeffington's  <lb/>house; that his soldiers first fired into her dwelling, and then, producing a key taken from the <lb/> body of the murdered man, opened his locked room and removed documents to try to furnish the  <lb/>accused with ex post facto justification for his crime. The second raid on the widow's house by  <lb/>Colthurst's orders on the following Monday, as well as the fact that one of the soldiers who took  <lb/>part in it was the Sergeant left in charge of Dickson's trunk at Alderman James Kelly's, was  <lb/>also left unmentioned. There was an equally significant silence as to the protests of the murder- <lb/>ed men on the morning of their execution, and as to the accused's refusal of spiritual solace to  <lb/>them in their last moments.The Courtmartial were likewise unaware that Captain Colthurst <lb/> was allowed to remain at large by his superiors until the 6th May- nearly a fortnight after the  <lb/>murders - while the non-production of Major Sir Francis Vane, his Senior Officer, disabled it <lb/> from learning that on the 1st may (a week after the murders) the accused was promoted to the <lb/> charge of the Defence of Portobello Barracks. His conduct on shooting the lad, Coade, on <lb/> Rathmines Road previous to the three murders, was not introduced, although Coade's father  <lb/>immediately lodged information at the Barracks. None of the soldiers who formed the firing <lb/> party was called to speak  as to the nature of the accused's commands and demeanour, or explain <lb/> how Mr. Skeffington came to be taken from a locked cell without authority. The added <lb/> tragedy which led to a second squad of soldiers being called out to fire at the prostrate body of  <lb/>Mr. Skeffington would not have become known (although proved at the private preliminary <lb/> inquiry) but for the candour of the noble President of the tribunal, Lord Cheylesmore. As for  <lb/>the attempt to fasten complicity with the rebellion on Mr. Skeffington by the production of a  <lb/>document published previously by Alderman Thomas Kelly (which deceased, as a journalist, <lb/> kept in his house) - it stands in strange contrast with the silence preserved concerning the <lb/> innocence of the other slaughtered men and the Court was not even told who or what they were. <lb/> The admission of this document  after Adjutant Morgan, who produced it, had sworn that it was  <lb/>not found on Mr. Skeffington, may have been due to inadvertenance, but the cunning of the un- <lb/>truthful endorsement on it by the accused to the effect that it was found on the body, seemed  <lb/>to call for observation on the issue of sanity, as corroboration of the fact that Captain Colthurst <lb/> from the date when he knew the murders were discovered, was engaged in the manufacture of  <lb/>evidence to palliate his guilt.</p> <p>I therefore have to ask that in view of the promised Inquiry you will make arrangements <lb/> with the Military Authorities to have in attendance thereat, in addition to the witnesses called on  <lb/>behalf of the prosecution at the late Courtmartial, the following persons: -  <lb/>1. &#x2014;The soldiers under command of Lieutenant Wilson when Mr. Skeffington was marched out  <lb/>of his cell into the street to serve as a hostage. <lb/>2. &#x2014;The soldiers who composed the first and second firing parties. <lb/>3. &#x2014;Lieutenant Colonel McCammond who was in command of the Royal Irish Rifles. <lb/>4. &#x2014; Major Sir Francis Vane, 2nd in Command. <lb/>5. &#x2014;Lieutenant Tooley and Lieutenant Gibbon. <lb/>6. &#x2014;The officers and soldiers who were sent after the murder to search Mrs. Skeffington's resi- <lb/>dence on two occasions - especially Sergeant Claxton.</p> <p>Of course, the names, regiment and regimental number of all the proposed witnesses <lb/> should be supplied to me some days before the Inquiry, unless the Government undertake to call  <lb/>them for examination.</p> <p>I should also be furnished the Notes of the preliminary Inquiry which the Courtmartial <lb/> were supplied with. In addition I request that all documents, etc., taken from the person of <lb/> Mr. Skeffington, or seized at his residence, should be returned, and if this is refused that copies  <lb/>should be supplied to me.</p> <p>I should likewise be afforded an opportunity of examining and taking copies of any reports  <lb/>or entries dealing with the circumstances attending the arrest or execution of Mr. Skeffington, <lb/> or the searches at his residence.</p> <p>I shall feel obliged by an intimation of an early decision.</p>  <salute>I have the honour to be, Sir, <lb/>Your obedient Servant</salute> <signed>HENRY LEMASS.</signed>  <address>To, <lb/>THE RIGHT HON. H. H. ASQUITH, K.C., M.P., <lb/>Prime Minister, <lb/>10 Downing Street, London, S.W.</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2494 created using version from <date when="2014-12-03T13:37:30"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2494 removed (version from <date when="2014-12-03T13:37:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2494 removed (version from <date when="2014-12-03T14:04:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2494 removed (version from <date when="2014-12-03T14:04:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2494 removed (version from <date when="2015-12-11T12:40:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2494 removed (version from <date when="2015-12-11T12:42:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2494 removed (version from <date when="2015-12-11T12:43:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2494 removed (version from <date when="2015-12-11T12:43:26"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2494 removed (version from <date when="2015-12-11T12:58:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2494 removed (version from <date when="2015-12-11T13:00:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2494 (version from <date when="2015-12-11T13:00:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 2494 cleaned of 6 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:51" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_970_img_2494" url="805c5b5da4c9df6c6f20356549da7d31.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2494" facs="#L1916_970_img_2494"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>31 PARLIAMENT STREET,   DUBLIN,</addrLine></address> <dateline><date>June 13th, 1916.</date></dateline> <salute>SIR</salute></opener> <p>As solicitor for Mrs. Sheehy Skeffington - for whose husband's murder, on 26th April, <lb/> Captain Bowen Colthurst has been adjudged guilty - I have the honour to inquire when the <lb/> promised Public Inquiry will be held?</p> <p>My client is profoundly dissatisfied with the limited information afforded at the Court- <lb/>martial, when the insanity of the acused was suggested.</p> <p>While she abhors the idea that fresh blood should be spilt, my client is equally resolute <lb/> that the truth should be known, so that the people of the three Kingdoms may determine whether  <lb/>the same measure of justice has been meted out to all parties affected by the rebellion.</p> <p>That there were circumstances giving rise to anxiety connected with the recent trial will  <lb/>be evident from the following facts: - </p> <p>Lieutenant Wylie, K.C. who had prosecuted to conviction other men recently executed,  <lb/>was released from this Courtmartial and an English Counsel, not fully acquainted with the facts <lb/> or imperfectly instructed, was appointed. Although no plea of inability to plead was entered <lb/> for the accused, the question of his sanity was raised from the outset. Yet the manner in which <lb/> he effected the arrest of the other murdered men (Messrs Dickson and McIntyre) was not proved, <lb/> nor the process by which he selected them for execution from amongst eight prisoners. Never <lb/>theless, it was within the knowledge of the Military Authorities that Messrs, Dickson and <lb/> McIntyre were taken into custody on the premises of Alderman James Kelly, ex-High Sheriff, by <lb/> the accused, under the idea that the shop belonged to Alderman Thomas Kelly, a person of <lb/> wholly different politics. They also knew that Colthurst threw a bomb into the premises and <lb/> subsequently "planted" Mr. Dickson's trunk therein to give rise to the suspicion that Mr.  <lb/>Dickson had been harboured by Alderman James Kelly who was also lodged in Portobello <lb/> Barracks. Nor was the Court informed that two sisters of Mrs. Skeffington, viz: Mrs Kettle <lb/> (wife of Lieutenant Kettle), and Mrs, Culhane (widow of a public official lately deceased) called  <lb/>at Portobello Barracks on Friday, 28th April, after the murders, and, on inquiring for their <lb/> brother, Lieutenant Sheehy, were put under arrest and brought before Captain Colthurst, and  <lb/>that he denied all knowledge of Mr. Skeffington and was perfectly calm and collected in his  <lb/>demeanour and falsehoods. Similarly, the tribunal was not made aware that on the evening  <lb/>after his examination of these ladies, Captain Colthurst ordered a search of Mrs.Skeffington's  <lb/>house; that his soldiers first fired into her dwelling, and then, producing a key taken from the <lb/> body of the murdered man, opened his locked room and removed documents to try to furnish the  <lb/>accused with ex post facto justification for his crime. The second raid on the widow's house by  <lb/>Colthurst's orders on the following Monday, as well as the fact that one of the soldiers who took  <lb/>part in it was the Sergeant left in charge of Dickson's trunk at Alderman James Kelly's, was  <lb/>also left unmentioned. There was an equally significant silence as to the protests of the murder- <lb/>ed men on the morning of their execution, and as to the accused's refusal of spiritual solace to  <lb/>them in their last moments.The Courtmartial were likewise unaware that Captain Colthurst <lb/> was allowed to remain at large by his superiors until the 6th May- nearly a fortnight after the  <lb/>murders - while the non-production of Major Sir Francis Vane, his Senior Officer, disabled it <lb/> from learning that on the 1st may (a week after the murders) the accused was promoted to the <lb/> charge of the Defence of Portobello Barracks. His conduct on shooting the lad, Coade, on <lb/> Rathmines Road previous to the three murders, was not introduced, although Coade's father  <lb/>immediately lodged information at the Barracks. None of the soldiers who formed the firing <lb/> party was called to speak  as to the nature of the accused's commands and demeanour, or explain <lb/> how Mr. Skeffington came to be taken from a locked cell without authority. The added <lb/> tragedy which led to a second squad of soldiers being called out to fire at the prostrate body of  <lb/>Mr. Skeffington would not have become known (although proved at the private preliminary <lb/> inquiry) but for the candour of the noble President of the tribunal, Lord Cheylesmore. As for  <lb/>the attempt to fasten complicity with the rebellion on Mr. Skeffington by the production of a  <lb/>document published previously by Alderman Thomas Kelly (which deceased, as a journalist, <lb/> kept in his house) - it stands in strange contrast with the silence preserved concerning the <lb/> innocence of the other slaughtered men and the Court was not even told who or what they were. <lb/> The admission of this document  after Adjutant Morgan, who produced it, had sworn that it was  <lb/>not found on Mr. Skeffington, may have been due to inadvertenance, but the cunning of the un- <lb/>truthful endorsement on it by the accused to the effect that it was found on the body, seemed  <lb/>to call for observation on the issue of sanity, as corroboration of the fact that Captain Colthurst <lb/> from the date when he knew the murders were discovered, was engaged in the manufacture of  <lb/>evidence to palliate his guilt.</p> <p>I therefore have to ask that in view of the promised Inquiry you will make arrangements <lb/> with the Military Authorities to have in attendance thereat, in addition to the witnesses called on  <lb/>behalf of the prosecution at the late Courtmartial, the following persons: -  <lb/>1. &#x2014;The soldiers under command of Lieutenant Wilson when Mr. Skeffington was marched out  <lb/>of his cell into the street to serve as a hostage. <lb/>2. &#x2014;The soldiers who composed the first and second firing parties. <lb/>3. &#x2014;Lieutenant Colonel McCammond who was in command of the Royal Irish Rifles. <lb/>4. &#x2014; Major Sir Francis Vane, 2nd in Command. <lb/>5. &#x2014;Lieutenant Tooley and Lieutenant Gibbon. <lb/>6. &#x2014;The officers and soldiers who were sent after the murder to search Mrs. Skeffington's resi- <lb/>dence on two occasions - especially Sergeant Claxton.</p> <p>Of course, the names, regiment and regimental number of all the proposed witnesses <lb/> should be supplied to me some days before the Inquiry, unless the Government undertake to call  <lb/>them for examination.</p> <p>I should also be furnished the Notes of the preliminary Inquiry which the Courtmartial <lb/> were supplied with. In addition I request that all documents, etc., taken from the person of <lb/> Mr. Skeffington, or seized at his residence, should be returned, and if this is refused that copies  <lb/>should be supplied to me.</p> <p>I should likewise be afforded an opportunity of examining and taking copies of any reports  <lb/>or entries dealing with the circumstances attending the arrest or execution of Mr. Skeffington, <lb/> or the searches at his residence.</p> <p>I shall feel obliged by an intimation of an early decision.</p>  <closer><salute>I have the honour to be, Sir, <lb/>Your obedient Servant</salute> <signed>HENRY LEMASS.</signed>  <address><addrLine>To,</addrLine>
+<addrLine>THE RIGHT HON. H. H. ASQUITH, K.C., M.P.,</addrLine>
+<addrLine>Prime Minister,</addrLine>
+<addrLine>10 Downing Street, London, S.W.</addrLine></address></closer>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

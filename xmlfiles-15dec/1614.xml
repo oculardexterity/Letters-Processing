@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1614">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Thomas Wallace Russell to Robert Chalmers, 18 May 1916</title>
+                
+                <author>Thomas Wallace Russell</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tgabbett4">Tgabbett4</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BarneyDoherty">Barney Doherty</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1614</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is a letter from Thomas Wallace Russell, to the under-secretary. In the letter Russell is writing regarding the court martial and sentencing of an employee of the Department of Agriculture and Technical Instruction for his part in the 1916 Rising.     The employees name was John Shouldice (b. 1881). Shouldice was a member of the Irish Volunteers and took part in the fighting in the Church Street area in Dublin during Easter Week 1916. Following the Rising Shouldice was arrested and imprisoned. He would go on to later play an active role during the War of Independence.    Russell (b. 1841) is writing as vice-president of the Department of Agriculture and Technical Instruction. The letter is addressed to the under-secretary, which at this time is Sir Robert Chalmers (1858-1938). Chalmers was sent to Ireland as under-secretary, replacing Sir Matthew Nathan who had resigned along with Augustine Birrell, his chief secretary following the Easter Rising in 1916. </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#National Archives of Ireland">National Archives of Ireland</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Robert_Chalmers">Robert Chalmers</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Thomas_Wallace_Russell">Thomas Wallace Russell</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-09-16T15:42:26" who="#BarneyDoherty">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-09-16T15:42:26" who="#Tgabbett4">
+                
+                    Page 4086 modified:
+                    <!-- 
+Sir  I have to report, for your information, that from a communication received by the Department from Brigadier General Byrne, Headquarters Richmond Barracks, it appears that Mr John Shouldice (3 Marino Crescent), a Second Division clerk on the staff 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-05T10:34:20" who="#Comber">
+                
+                    Page 4086 modified:
+                    <!-- 
+Sir,<lb/>  I have to report,<lb/> for your information,<lb/> that<lb/> from a communication received by the Department from<lb/> Brigadier General Byrne,<lb/> Headquarters,<lb/> Richmond Barracks,<lb/> it appears that Mr John Shouldice (3,<lb/> Marino Crescent),<lb/> a Second Division clerk on the staff of the Statistics<lb/> and Intelligence Branch of this Department,<lb/> has been<lb/> sentenced by Court Martial to five years Penal Servitude<lb/> for having taken part in the late rebellion.<lb/> He was,<lb/> it is stated,<lb/> among those who surrendered at the Post<lb/> Office.<lb/> The Department are communicating with the Lords<lb/> Commissioners of His Majesty's Treasury and with the<lb/> Civil Service Commissioners in the case.<lb/> A further communication will be sent you as<lb/> soon as possible in the case of some officers of<lb/> the Department's staff who have not yet returned to duty,<lb/> when reports from the military authorities have been<lb/> received.<lb/> I am,<lb/> Sir,<lb/> Your obedient Servant,<lb/>   Vice President.<lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-05T10:57:57" who="#Comber">
+                
+                    Page 4086 modified:
+                    <!-- 
+<address>Telegrams: "Resources Dublin."</address>  Any further communication<lb/> on this subject should be<lb/> addressed to<lb/> "The Secretary,"<lb/> and the number and the date of<lb/> this letter should be quoted.<lb/> No.<lb/> G 1997-16.<lb/> Department of Agriculture<lb/> and Instruction for Ireland,<lb/> Dublin,<lb/> <date>18th May 1916</date>    <p><salute>Sir,<lb/></salute> I have to report,<lb/> for your information,<lb/> that<lb/> from a communication received by the Department from<lb/> Brigadier General Byrne,<lb/> Headquarters,<lb/> Richmond Barracks,<lb/> it appears that Mr John Shouldice (3,<lb/> Marino Crescent),<lb/> a Second Division clerk on the staff of the Statistics<lb/> and Intelligence Branch of this Department,<lb/> has been<lb/> sentenced by Court Martial to five years Penal Servitude<lb/> for having taken part in the late rebellion.<lb/> He was,<lb/> it is stated,<lb/> among those who surrendered at the Post<lb/> Office.<lb/> The Department are communicating with the Lords<lb/> Commissioners of His Majesty's Treasury and with the<lb/> Civil Service Commissioners in the case.<lb/></p> <p><p>A further communication will be sent you as<lb/> soon as possible in the case of some officers of<lb/> the Department's staff who have not yet returned to duty,<lb/> when reports from the military authorities have been<lb/> received.<lb/></p> <salute>I am,<lb/> Sir,<lb/> Your obedient Servant,<lb/>   Vice President.<lb/></salute> The Under Secretary,<lb/> Dublin Castle.<lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-05T11:00:57" who="#Comber">
+                
+                    Page 4086 modified:
+                    <!-- 
+<address>Telegrams: "Resources Dublin."</address>  Any further communication<lb/> on this subject should be<lb/> addressed to<lb/> "The Secretary,"<lb/> and the number and the date of<lb/> this letter should be quoted.<lb/> No.<lb/> G 1997-16.<lb/> Department of Agriculture<lb/> and Instruction for Ireland,<lb/> Dublin,<lb/> <date>18th May 1916</date>    <p><salute>Sir,<lb/></salute> I have to report,<lb/> for your information, that<lb/> from a communication received by the Department from<lb/> Brigadier General Byrne, Headquarters, Richmond Barracks,<lb/> it appears that Mr John Shouldice (3, Marino Crescent),<lb/> a Second Division clerk on the staff of the Statistics<lb/> and Intelligence Branch of this Department, has been<lb/> sentenced by Court Martial to five years Penal Servitude<lb/> for having taken part in the late rebellion. He was,<lb/> it is stated, among those who surrendered at the Post<lb/> Office. The Department are communicating with the Lords<lb/> Commissioners of His Majesty's Treasury and with the<lb/> Civil Service Commissioners in the case.<lb/></p> <p><p>A further communication will be sent you as<lb/> soon as possible in the case of some officers of<lb/> the Department's staff who have not yet returned to duty,<lb/> when reports from the military authorities have been<lb/> received.<lb/></p> <salute>I am,<lb/> Sir,<lb/> Your obedient Servant,<lb/>   Vice President.<lb/></salute> The Under Secretary,<lb/> Dublin Castle.<lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-05T11:06:37" who="#Comber">
+                
+                    Page 4086 modified:
+                    <!-- 
+<address>Telegrams: "Resources Dublin."</address>  Any further communication<lb/> on this subject should be<lb/> addressed to<lb/> "The Secretary,"<lb/> and the number and the date of<lb/> this letter should be quoted.<lb/> No.<lb/> G 1997-16.<lb/> Department of Agriculture<lb/> and Instruction for Ireland,<lb/> Dublin,<lb/> <date>18th May 1916</date>    <p><salute>Sir,<lb/></salute> I have to report,<lb/> for your information, that<lb/> from a communication received by the Department from<lb/> Brigadier General Byrne, Headquarters, Richmond Barracks,<lb/> it appears that Mr John Shouldice (3, Marino Crescent),<lb/> a Second Division clerk on the staff of the Statistics<lb/> and Intelligence Branch of this Department, has been<lb/> sentenced by Court Martial to five years Penal Servitude<lb/> for having taken part in the late rebellion. He was,<lb/> it is stated, among those who surrendered at the Post<lb/> Office. The Department are communicating with the Lords<lb/> Commissioners of His Majesty's Treasury and with the<lb/> Civil Service Commissioners in the case.<lb/></p> <p><p>A further communication will be sent you as<lb/> soon as possible in the case of some officers of<lb/> the Department's staff who have not yet returned to duty,<lb/> when reports from the military authorities have been<lb/> received.<lb/></p> <salute>I am,<lb/> Sir,<lb/> Your obedient Servant,<lb/> <note>marginal note text</note> <note>19/5/16</note> Vice President.<lb/></salute> The Under Secretary,<lb/> Dublin Castle.<lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T16:21:32" who="#NR">
+                
+                    Page 4086 modified:
+                    <!-- 
+<address>Telegrams:<lb/> "Resources Dublin."</address>  Any further communication<lb/>  on this subject should be<lb/>  addressed to<lb/>  "The Secretary,"<lb/>  and the number and the date of<lb/>  this letter should be quoted.<lb/> No.<lb/>  G 1997-16.<lb/> <address>Department of Agriculture<lb/>  and Instruction for Ireland,<lb/>  Dublin,</address> <date>18th May 1916</date>    <salute>Sir,</salute> <p>I have to report,for your information, that<lb/>  from a communication received by the Department from<lb/>  Brigadier General Byrne, Headquarters, Richmond Barracks,<lb/>  it appears that Mr John Shouldice (3, Marino Crescent),<lb/>  a Second Division clerk on the staff of the Statistics<lb/>  and Intelligence Branch of this Department, has been<lb/>  sentenced by Court Martial to five years Penal Servitude<lb/>  for having taken part in the late rebellion. He was,<lb/>  it is stated, among those who surrendered at the Post<lb/>  Office. The Department are communicating with the Lords<lb/>  Commissioners of His Majesty's Treasury and with the<lb/>  Civil Service Commissioners in the case.</p> <p>A further communication will be sent you as<lb/>  soon as possible in the case of some officers of<lb/>  the Department's staff who have not yet returned to duty,<lb/>  when reports from the military authorities have been<lb/>  received.</p> <salute>I am,<lb/>  Sir,<lb/> Your obedient Servant,</salute> M Russell<lb/> Vice President.<lb/> <address>The Under Secretary,<lb/>  Dublin Castle.</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4086 created using version from <date when="2014-09-16T15:42:26"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4086 removed (version from <date when="2014-09-16T15:42:26"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4086 removed (version from <date when="2014-12-05T10:34:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4086 removed (version from <date when="2014-12-05T10:57:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4086 removed (version from <date when="2014-12-05T11:00:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4086 removed (version from <date when="2014-12-05T11:06:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4086 removed (version from <date when="2015-11-24T16:21:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 4086 (version from <date when="2015-11-24T16:21:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 4086 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:44" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1614_img_4086" url="60077ffaada5ad63ea2a13311df80c11.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="4086" facs="#L1916_1614_img_4086"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>Telegrams:</addrLine>
+<addrLine>"Resources Dublin."</addrLine></address></opener>  Any further communication<lb/>  on this subject should be<lb/>  addressed to<lb/>  "The Secretary,"<lb/>  and the number and the date of<lb/>  this letter should be quoted.<lb/> No.<lb/>  G 1997-16.<lb/> <address>Department of Agriculture<lb/>  and Instruction for Ireland,<lb/>  Dublin,</address> <date>18th May 1916</date>    <salute>Sir,</salute> <p>I have to report,for your information, that<lb/>  from a communication received by the Department from<lb/>  Brigadier General Byrne, Headquarters, Richmond Barracks,<lb/>  it appears that Mr John Shouldice (3, Marino Crescent),<lb/>  a Second Division clerk on the staff of the Statistics<lb/>  and Intelligence Branch of this Department, has been<lb/>  sentenced by Court Martial to five years Penal Servitude<lb/>  for having taken part in the late rebellion. He was,<lb/>  it is stated, among those who surrendered at the Post<lb/>  Office. The Department are communicating with the Lords<lb/>  Commissioners of His Majesty's Treasury and with the<lb/>  Civil Service Commissioners in the case.</p> <p>A further communication will be sent you as<lb/>  soon as possible in the case of some officers of<lb/>  the Department's staff who have not yet returned to duty,<lb/>  when reports from the military authorities have been<lb/>  received.</p> <closer><salute>I am,<lb/>  Sir,<lb/> Your obedient Servant,</salute> M Russell<lb/> Vice President.<lb/> <address><addrLine>The Under Secretary,</addrLine>
+<addrLine>Dublin Castle.</addrLine></address></closer>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

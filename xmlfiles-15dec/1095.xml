@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1095">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from J.T. Burns to George Gavan Duffy, 16 October 1916.</title>
+                
+                <author>J.T. Burns</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Smorris">Smorris</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1095</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This letter from J.T. Burns to George Gavan Duffy (1882-1951) refers to a telephone conversation. The writer encloses a copy of the Royal Warrant for Maintenance of Discipline among Prisoners of War. The document has not survived.    George Gavan Duffy, was an Irish politician, barrister and judge. He unsuccessfully defended Roger Casement at his trial for high treason after the Easter Rising.    J.T. Burns was a Lieutenant and Adjutant at the Frongoch Prisoner of War Camp, Wales.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Military Archives of Ireland.">Military Archives of Ireland.</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#George_Gavan_Duffy">George Gavan Duffy</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#J.T._Burns">J.T. Burns</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-08-04T20:19:00" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-08-04T20:19:00" who="#Smorris">
+                
+                    Page 2887 modified:
+                    <!-- 
+<salute>George Gavan Duffy,</salute> <address>White Lion hotel  Bala</address> <p>With reference to your telephonic communication of  this morning, i forward herewith a copy of royal Warrant for Maintenance of Discipline among Prisoners of War.</p> <lb/> <salute>J.T. Burns  Lieut & Adjt.  for Colonel, Commandant </salute>  <address>Prisoners of War Camp, Frongoch. nr. Bala</address> <date>16th Octr. 1916</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-08T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-08T10:24:49" who="#NR">
+                
+                    Page 2887 modified:
+                    <!-- 
+<salute>George Gavan Duffy,</salute> <lb/>White Lion hotel  <lb/>Bala</address> <p>With reference to your telephonic communication of <lb/> this morning, i forward herewith a copy of royal Warrant <lb/>for Maintenance of Discipline among Prisoners of War.</p>  <signed>J<hi rend="underline">.T. Burns</hi></signed>  <lb/>Lieut &amp; Adjt.  <lb/>for Colonel, <lb/>Commandant  <address>Prisoners of War Camp, <lb/>Frongoch. nr. Bala</address> <date>16th Octr. 1916</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2887 created using version from <date when="2014-08-04T20:19:00"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2887 removed (version from <date when="2014-08-04T20:19:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2887 removed (version from <date when="2015-12-08T10:24:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2887 (version from <date when="2015-12-08T10:24:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 2887 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:50" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1095_img_2887" url="391648db8cda80659008587d1a3e061d.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2887" facs="#L1916_1095_img_2887"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><salute>George Gavan Duffy,</salute></opener> <lb/>White Lion hotel  <lb/>Bala</address> <p>With reference to your telephonic communication of <lb/> this morning, i forward herewith a copy of royal Warrant <lb/>for Maintenance of Discipline among Prisoners of War.</p>  <signed>J<hi rend="underline">.T. Burns</hi></signed>  <lb/>Lieut &amp; Adjt.  <lb/>for Colonel, <lb/>Commandant  <address>Prisoners of War Camp, <lb/>Frongoch. nr. Bala</address> <date>16th Octr. 1916</date>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1025">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from M.L. Waller, Home Office, to the Commandant, Prisoner of War Camp, Frongach, 9 October 1916</title>
+                
+                <author>M.L. Waller</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="BH">Brian Hughes</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="FrankShouldice">Frank Shouldice</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1025</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is a letter from M.L. Waller of the Home Office in Whitehall, London, to the commandant of Frongach internment camp in Wales. After the Easter Rising over 3,400 men and women were arrested and interned in prisons and camps in Ireland, England and Wales. The majority were released after a short imprisonment and eventually most of the men who remained imprisoned were transferred to Frongach in north Wales. By October 1916 there were still over 500 men interned there.  This letter refers to the case of a number of prisoners who were punished for refusing to perform &#39;fatigue duty&#39;. Walker asks that the remainder of the punishment be remitted and that the men are no longer asked to perform those duties.  This letter is contained in the collection of papers relating to the Cowan family of Drumcondra and their uncle, Seamus McGowan who was a captain in the Irish Citizen Army and was one of the men imprisoned in Frongach after the Rising.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#The_Commandant,_Frongach_Internment_Camp">The Commandant, Frongach Internment Camp</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#M.L._Waller">M.L. Waller</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-05-22T18:54:31" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-05-22T18:54:31" who="#Philcostel">
+                
+                    Page 2649 modified:
+                    <!-- 
+<note>To be posted on Notice Board in Prison</note> Home Office, Whitehall. 9th October 1916. 313206/. Sir, I am directed by the Secretary of State to say that he has had under his consideration the case of the prisoners now under punishment for refusing to perform fatigue duty ordered by you (removal of rubbish from the guard's quarters), and it appears to him that they have now been sufficiently punished for this offence. He has therefore decided to remit the remainder of the punishment and also for the future to relieve them from this particular duty, which he understands from you can be properly performed by the guard. In announcing this decision to the prisoners, the Secretary of State desires that you should make it clear that in his opinion you were right in requiring them to perform this duty and right in punishing those who refused, but, the matter being a trifling one, he does not desire to carry the punishment further. I am, Sir, Your obedient servant, (sgd) M. L. Walker  The Commondant, Prisoner of War Camp, Frangoch. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-05-22T18:54:50" who="#Philcostel">
+                
+                    Page 2649 modified:
+                    <!-- 
+<note>To be posted on Notice Board in Prison</note> Home Office, Whitehall. 9th October 1916. 313206/. Sir, I am directed by the Secretary of State to say that he has had under his consideration the case of the prisoners now under punishment for refusing to perform fatigue duty ordered by you (removal of rubbish from the guard's quarters), and it appears to him that they have now been sufficiently punished for this offence. He has therefore decided to remit the remainder of the punishment and also for the future to relieve them from this particular duty, which he understands from you can be properly performed by the guard. In announcing this decision to the prisoners, the Secretary of State desires that you should make it clear that in his opinion you were right in requiring them to perform this duty and right in punishing those who refused, but, the matter being a trifling one, he does not desire to carry the punishment further. I am, Sir, Your obedient servant, (sgd) M. L. Walker  The Commandant, Prisoner of War Camp, Frangoch. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-10T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2649 created using version from <date when="2014-05-22T18:54:31"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2649 removed (version from <date when="2014-05-22T18:54:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2649 removed (version from <date when="2014-05-22T18:54:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2649 (version from <date when="2015-05-24T14:05:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:17" who="#PythonScript">
+                
+                    Clean tags: Page 2649 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:26" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1025_img_2649" url="bf677a9011fe26bed04bb3a9fc60cb4c.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2649" facs="#L1916_1025_img_2649"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<note>To be posted on Notice Board in Prison</note> Home Office, Whitehall. 9th October 1916. 313206/. Sir, I am directed by the Secretary of State to say that he has had under his consideration the case of the prisoners now under punishment for refusing to perform fatigue duty ordered by you (removal of rubbish from the guard's quarters), and it appears to him that they have now been sufficiently punished for this offence. He has therefore decided to remit the remainder of the punishment and also for the future to relieve them from this particular duty, which he understands from you can be properly performed by the guard. In announcing this decision to the prisoners, the Secretary of State desires that you should make it clear that in his opinion you were right in requiring them to perform this duty and right in punishing those who refused, but, the matter being a trifling one, he does not desire to carry the punishment further. I am, Sir, Your obedient servant, (sgd) M. L. Walker  The Commandant, Prisoner of War Camp, Frongoch.
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

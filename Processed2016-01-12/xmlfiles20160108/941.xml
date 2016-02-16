@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_941">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from M.B. McDonough to Mabel FitzGerald, 16 June 1916.</title>
+                
+                <author>M. B. McDonough</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BBaker53">BBaker53</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_941</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This letter is from M.B. MacDonough to Mabel FitzGerald (née Washington McConnell) (1884-1958), wife of politician and intellectual Desmond FitzGerald (1888-1947). The writer's husband is being transferred from Wandsworth Prison to Wales and she acknowledges a letter from her husband which Mrs. FitzGerald had relayed to her. She sympathises with Mrs FitzGerald on her husband's 10 year sentence and hopes for a free Ireland soon when all can be reunited with their loved ones.</p>
+                        
+                            <p>Mabel Fitzgerald was the wife of Irish Volunteer Desmond Fitzgerald.  Mabel was a former governess in London. She later vigorously canvassed her former acquaintances in London's liberal circles for support for Francis Sheehy Skeffington during his hunger strike in 1915. Both Mabel and Desmond would serve in the GPO garrison during Easter Week.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                                Original DCN: FitzGerald Papers, P80/1603/1
+                             
+                        -->
+                            
+                                <collection type='public'>FitzGerald Papers</collection>
+                            
+                            
+                        <idno>P80/1603/1</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Mabel_FitzGerald">Mabel FitzGerald</persName>
+                
+                
+                
+                    <placeName  ref="#2_Loretto_Villas,_Bray,_County_Wicklow,_Ireland.">2 Loretto Villas, Bray, County Wicklow, Ireland.</placeName>
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#M._B._McDonough">M. B. McDonough</persName>
+                    
+                     
+                    <placeName ref="#Dublin,_Ireland">Dublin, Ireland</placeName>
+                    
+                    
+                    <date when="1916-06-16">16 June 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Female</item>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-10-28T13:06:30" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-10-28T13:06:30" who="#Philcostel">
+                
+                    Page 2394 modified:
+                    <!-- 
+High St <gap/> June 16 1916 Dear Mrs. Fitzgerald I wish to return you very many thanks for your kindness in sending me my Husband's letter of <sic>whome</sic> I have not seen since he was sent to Wandsworth & is now sent to Wales not knowing when he may come home I suppose they will keep him as long as they like. I expect that he may be home soon. I also wish 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-28T13:12:15" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-10-28T13:12:15" who="#Philcostel">
+                
+                    Page 2395 modified:
+                    <!-- 
+to sympathise with you or yours getting ten years imprisonment an awful sentence for a brave & beautiful cause. Cheer up as Mr. Fitzgerald may not be tan ?moments? away <sic>untill</sic> Ireland is a free Nation. Hoping it will be & then we will have our dear ?ones? again. Thanking you most sincerely Yours M B McDonough 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-26T21:23:47" who="#BBaker53">
+                
+                    Page 2394 modified:
+                    <!-- 
+<note>P80/1603</note> <address>High St <gap/></address> <date>June 16</date> <date>1916</date> <salute>Dear Mrs. Fitzgerald</salute> I wish to return <lb/>you very many thanks <lb/>for your kindness in <lb/>sending me my Husband's <lb/>letter of <sic>whome</sic> I have <lb/>not seen since he was <lb/>sent to Wansworth & is <lb/>now sent to Wales not knowing <lb/>when he may come home <lb/>I suppose they will keep <lb/>him as long as they like. <lb/>I expect that he may be home soon. I also wish<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-26T21:27:10" who="#BBaker53">
+                
+                    Page 2395 modified:
+                    <!-- 
+to sympathise with you <lb/>or yours getting ten years <lb/>imprisonment an awful <lb/>sentence for a brave & beautiful cause. <p>Cheer up as Mr. Fitzgerald <lb/>may not be ten moments <lb/>away <sic>untill</sic> Ireland is <lb/>a free Nation. Hoping it <lb/>will be & then we will have our dear <sic>uns</sic> again.</p> Thanking you most <lb/>sincerely Yours M B McDonough 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-05T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T12:48:21" who="#NR">
+                
+                    Page 2394 modified:
+                    <!-- 
+<address>High St <gap/></address> <date>June 16 <lb/>1916</date> <salute>Dear Mrs. Fitzgerald</salute> <p>I wish to return  <lb/>you very many thanks  <lb/>for your kindness in  <lb/>sending me my Husband's  <lb/>letter of <sic>whome</sic> I have  <lb/>not seen since he was  <lb/>sent to Wansworth &amp; is  <lb/>now sent to Wales not knowing  <lb/>when he may come home  <lb/>I suppose they will keep  <lb/>him as long as they like.  <lb/>I expect that he may be  <lb/>home soon. I also wish 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T12:48:23" who="#NR">
+                
+                    Page 2394 modified:
+                    <!-- 
+<address>High St <gap/></address> <date>June 16 <lb/>1916</date> <salute>Dear Mrs. Fitzgerald</salute> <p>I wish to return  <lb/>you very many thanks  <lb/>for your kindness in  <lb/>sending me my Husband's  <lb/>letter of <sic>whome</sic> I have  <lb/>not seen since he was  <lb/>sent to Wansworth &amp; is  <lb/>now sent to Wales not knowing  <lb/>when he may come home  <lb/>I suppose they will keep  <lb/>him as long as they like.  <lb/>I expect that he may be  <lb/>home soon. I also wish 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T12:48:33" who="#NR">
+                
+                    Page 2394 modified:
+                    <!-- 
+<address>High St <gap/></address> <date>June 16 <lb/>1916</date> <salute>Dear Mrs. Fitzgerald</salute> <p>I wish to return  <lb/>you very many thanks  <lb/>for your kindness in  <lb/>sending me my Husband's  <lb/>letter of <sic>whome</sic> I have  <lb/>not seen since he was  <lb/>sent to Wansworth &amp; is  <lb/>now sent to Wales not knowing  <lb/>when he may come home  <lb/>I suppose they will keep  <lb/>him as long as they like.  <lb/>I expect that he may be  <lb/>home soon. I also wish 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T12:49:22" who="#NR">
+                
+                    Page 2394 modified:
+                    <!-- 
+<address>High St <unclear>Bray</unclear></address> <date>June 16 <lb/>1916</date> <salute>Dear Mrs. Fitzgerald</salute> <p>I wish to return  <lb/>you very many thanks  <lb/>for your kindness in  <lb/>sending me my Husband's  <lb/>letter of <sic>whome</sic> I have  <lb/>not seen since he was  <lb/>sent to Wansworth &amp; is  <lb/>now sent to Wales not knowing  <lb/>when he may come home  <lb/>I suppose they will keep  <lb/>him as long as they like.  <lb/>I expect that he may be  <lb/>home soon. I also wish 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T12:50:51" who="#NR">
+                
+                    Page 2395 modified:
+                    <!-- 
+<lb/>to sympathise with you <lb/>or yours getting ten years  <lb/>imprisonment an awful  <lb/>sentence for a brave &amp; beautiful cause.</p> <p>Cheer up as Mr. Fitzgerald  <lb/>may not be ten moments  <lb/>away <sic>untill</sic> Ireland is  <lb/>a free Nation. Hoping it  <lb/>will be &amp; then we will have our dear <sic>uns</sic> again.</p> <salute>Thanking you most  <lb/>sincerely Yours</salute> <signed>M B McDonough</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2394 created using version from <date when="2014-10-28T13:06:30"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2394 removed (version from <date when="2014-10-28T13:06:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2394 removed (version from <date when="2014-12-26T21:23:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2394 removed (version from <date when="2016-01-06T12:48:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2394 removed (version from <date when="2016-01-06T12:48:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2394 removed (version from <date when="2016-01-06T12:48:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2394 removed (version from <date when="2016-01-06T12:49:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2395 created using version from <date when="2014-10-28T13:12:15"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2395 removed (version from <date when="2014-10-28T13:12:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2395 removed (version from <date when="2014-12-26T21:27:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2395 removed (version from <date when="2016-01-06T12:50:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:23" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2394 (version from <date when="2016-01-06T12:49:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:24" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2395 added to letter (version from <date when="2016-01-06T12:50:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:26" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:27" who="#PythonScript">
+                
+                    Clean tags: Page 2394 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:27" who="#PythonScript">
+                
+                    Clean tags: Page 2395 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:31" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_941_img_2394" url="ddbce46c94276584a05c9a5bc386e03d.jpg"/> 
+    
+    <graphic xml:id="L1916_941_img_2395" url="52117f1f91dc34c5919a819a5073b37c.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2394" facs="#L1916_941_img_2394"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>High St <unclear>Bray</unclear></addrLine></address> <dateline><date>June 16 1916</date></dateline> <salute>Dear Mrs. Fitzgerald</salute></opener> <p>I wish to return  <lb/>you very many thanks  <lb/>for your kindness in  <lb/>sending me my Husband's  <lb/>letter of <sic>whome</sic> I have  <lb/>not seen since he was  <lb/>sent to Wansworth &amp; is  <lb/>now sent to Wales not knowing  <lb/>when he may come home  <lb/>I suppose they will keep  <lb/>him as long as they like.  <lb/>I expect that he may be  <lb/>home soon. I also wish
+        
+    
+
+    
+         
+        <pb n="2395" facs="#L1916_941_img_2395"/>
+        
+        
+           
+            <lb/>to sympathise with you <lb/>or yours getting ten years  <lb/>imprisonment an awful  <lb/>sentence for a brave &amp; beautiful cause.</p> <p>Cheer up as Mr. Fitzgerald  <lb/>may not be ten moments  <lb/>away <sic>untill</sic> Ireland is  <lb/>a free Nation. Hoping it  <lb/>will be &amp; then we will have our dear <sic>uns</sic> again.</p> <closer><salute>Thanking you most  <lb/>sincerely Yours</salute> <signed>M B McDonough</signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

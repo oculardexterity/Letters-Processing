@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_890">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Sinéad de Valera to Margaret Flanagan, 24 July 1916</title>
+                
+                <author>Sinéad de Valera</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Willow">Willow</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_890</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This letter is from Sinéad deValera (1878-1975) to her mother Margaret Flanagan (née Byrne). The letter was written while Éamon deValera (1882-1975) was in prison in Dartmoor in England.  Sinéad writes to tell her mother that 'Ed' (Éamon) has been imprisoned in Dartmoor and not to be troubled by events. She outlines the prison's correspondence and visitation regime, adding that , even though letters are censored, Ed prefers them, as visits are closely supervised and unsatisfactory. She encloses a letter from him to her mother and assures her again of his good health. Sinéad expresses the opinion that it was American influence (Éamon de Valera had been born in America) that lead to her husband's sentence being commuted from death to penal servitude for life.</p>
+                        
+                            <p>Sinéad de Valera (née O'Flanagan), author and teacher, was the wife of Éamon de Valera. After the Rising, Sinéad was pregnant and without an income while her husband was in prison, and was forced to return to the family home in Phibsboro to care for her invalid sister and mother. Throughout much of the ensuing political upheaval she saw little of her husband, who was either imprisoned or on the run.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                                Original DCN: De Valera Papers, P150/172/1
+                             
+                        -->
+                            
+                                <collection type='public'>De Valera Papers</collection>
+                            
+                            
+                        <idno>P150/172/1</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Margaret_Flanagan">Margaret Flanagan</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Sinéad_de_Valera">Sinéad de Valera</persName>
+                    
+                     
+                    <placeName ref="#34_Munster_Street,_Phibsboro,_Dublin,_Ireland">34 Munster Street, Phibsboro, Dublin, Ireland</placeName>
+                    
+                    
+                    <date when="1916-07-24">24 July 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Female</item>
+                      
+                    
+                        <item n="death">1975</item>
+                        
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-02-23T22:25:42" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-02-23T22:25:42" who="#Willow">
+                
+                    Page 2312 modified:
+                    <!-- 
+governor of the prison saying he would not have permission to write again till 10th September.  You can imagine what a pleasant surprise it was for me then to receive a letter from him this morning.  They are entitled to have a visitor every four months as well as a letter and if they cannot have the visitor then they are allowed to write every two months.  Ed prefers the letter to a visit.  The visits are very unsatisfactory.  Viv, Mairin and I saw him for a short time in the prison here before he went away but there was a warden&amp; present all the time.  Ed told me to give the enclosed letter to you.  Of course his letters and all he receives are read by the prison authorities.  I can only write to him once in two months.  It is a long time to be without a word from him, but he is in good health from all I can gather and I am very hopeful that when God has so mercifully spared his life he will do much more for us.  I know he will<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-23T22:33:53" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-02-23T22:33:53" who="#Willow">
+                
+                    Page 2313 modified:
+                    <!-- 
+keep strong and well by looking forward to meeting us all again.  Have no anxiety about me or the children, we have everything we want and I shall be able to get along even if Ed is a long time away.  But he won't be with God's help.  I form my intentions for the masses as you told me.  What a noble soul dear Tom is!  He wrote some lovely letters to me.  I am sure with all your prayers and help everything will soon be well.  Of course it was the American influence here that got Ed's sentence commuted.  Now please don't fret.  Uncle Charlie, I am sure, will take the same hopeful view of things that I do.  Perhaps you might be let write to Ed as you may have some important news to tell him.  They get letters containing any special information.  Or perhaps Tom or Ed's Uncle Ed might to allowed to communicate with him.  Now my dear Mother be of good cheer.  I am asking the Holy Family for a Christmas Gift and wait till you see won't I get it.  Sinead<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-26T21:36:49" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-02-26T21:36:49" who="#Willow">
+                
+                    Page 2311 modified:
+                    <!-- 
+(At top of page)      3 Munster St<lb/> Philsboro<lb/> 24th July 1916<lb/>  My dear mother<p> I had a letter from Lizzie on Sat<lb/>morning saying you a sked them to tell me to<lb/>write to you.  I hope you have got the two<lb/>letters I wrote lately.  I fear you are worried<lb/>about us here.  Now please do not be in<lb/>the least uneasy.  This day week I wrote<lb/> to you I hope my letter has reached you<lb/>alright.  When Ed was first sent away<lb/>I did not like to bother you with bad news<lb/>and I told Tom I was keeping it from you<lb/>But you seem to have heard it from some<lb/>other source.  Now don't be troubled about<lb/>us.  God is taking great care of us all.<lb/> Ed was sent to Dartmoor prison in<lb/>England on the 18th May.  He was allowed<lb/>to write to me on the following day and<lb/>then I got a communication from the<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-26T21:42:30" who="#Willow">
+                
+                    Page 2311 modified:
+                    <!-- 
+(At top of page) If you can furnish<lb/>Ed with the particulars<lb/>he asks<lb/>will you send<lb/>the same to me<lb/>I hope you will<lb/>be able to read his<lb/>little note Fendi<lb/>Maud and Isabella<lb/>are the words I<lb/>I nearly cut away<lb/>the letter was<lb/>very closely written.<lb/>  (Written up left side of letter) Please do not be uneasy - all will be well.     3 Munster St<lb/> Philsboro<lb/> 24th July 1916<lb/>  My dear mother<p> I had a letter from Lizzie on Sat<lb/>morning saying you a sked them to tell me to<lb/>write to you.  I hope you have got the two<lb/>letters I wrote lately.  I fear you are worried<lb/>about us here.  Now please do not be in<lb/>the least uneasy.  This day week I wrote<lb/> to you I hope my letter has reached you<lb/>alright.  When Ed was first sent away<lb/>I did not like to bother you with bad news<lb/>and I told Tom I was keeping it from you<lb/>But you seem to have heard it from some<lb/>other source.  Now don't be troubled about<lb/>us.  God is taking great care of us all.<lb/> Ed was sent to Dartmoor prison in<lb/>England on the 18th May.  He was allowed<lb/>to write to me on the following day and<lb/>then I got a communication from the<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-26T21:47:17" who="#Willow">
+                
+                    Page 2312 modified:
+                    <!-- 
+governor of the prison saying he would not<lb/> have permission to write again till 10th September.<lb/>  You can imagine what a pleasant surprise it<lb/> was for me then to receive a letter from him<lb/> this morning.  They are entitled to have a<lb/> visitor every four months as well as a<lb/> letter and if they cannot have the visitor then<lb/> they are allowed to write every two months.<lb/>  Ed prefers the letter to a visit.  The visits are<lb/> very unsatisfactory.  Viv, Mairin and I saw<lb/> him for a short time in the prison here<lb/> before he went away but there was a warden<lb/> present all the time.  Ed told me to give the<lb/> enclosed letter to you.  Of course his letters<lb/> and all he receives are read by the prison<lb/> authorities.  I can only write to him once<lb/> in two months.  It is a long time to be<lb/> without a word from him, but he is<lb/> in good health from all I can gather<lb/> and I am very hopeful that when God<lb/> has so mercifully spared his life he will<lb/> do much more for us.  I know he will<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-26T21:52:25" who="#Willow">
+                
+                    Page 2313 modified:
+                    <!-- 
+keep strong and well by looking forward<lb/> to meeting us all again.  Have no anxiety<lb/> about me or the children, we have every<lb/>thing we want and I shall be able<lb/> to get along even if Ed is a long time<lb/> away.  But he won't be with God's help.<lb/>  I form my intentions for the masses as you<lb/> told me.  What a noble soul dear Tom is!<lb/>  He wrote some lovely letters to me.  I am<lb/> sure with all your prayers and help<lb/> everything will soon be well.  Of course it<lb/> was the American influence here that got<lb/> Ed's sentence commuted.  Now please don't<lb/> fret.  Uncle Charlie, I am sure, will take the<lb/> same hopeful view of things that I do.<lb/>  Perhaps you might be let write to Ed as<lb/> you may have some important news to tell<lb/> him.  They get letters containing any special<lb/> information.  Or perhaps Tom or Ed's Uncle<lb/> Ed might to allowed to communicate<lb/> with him.  Now my dear Mother be of<lb/> good cheer.  I am asking the Holy Family for<lb/> a Christmas Gift and wait till you see won't I<lb/> get it.  Sinead<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-16T20:54:13" who="#Comber">
+                
+                    Page 2311 modified:
+                    <!-- 
+<!~~ (At top of page) ~~> If you can furnish<lb/>Ed with the particulars<lb/>he asks<lb/>will you send<lb/>the same to me<lb/>I hope you will<lb/>be able to read his<lb/>little note Fendi<lb/>Maud and Isabella<lb/>are the words I<lb/>I nearly cut away<lb/>the letter was<lb/>very closely written.<lb/>  <!~~ (Written up left side of letter) ~~> Please do not be uneasy - all will be well.     <address>3 Munster St  Phibsboro</address> <date>24<hi rend="superscript">th</hi> July 1916</date>  <salute>My dear Mother</salute> I had a letter from Lizzie on Sat<lb/> morning saying you asked them to tell me to<lb/>write to you.  I hope you have got the two<lb/> letters I wrote lately.  I fear you are worried<lb/> about us here.  Now please do not be in<lb/> the least uneasy.  This day week I wrote<lb/> to you I hope my letter has reached you<lb/> alright.  When Ed was first sent away<lb/> I did not like to bother you with bad news<lb/>and I told Tom I was keeping it from you.<lb/> But you seem to have heard it from some<lb/> other source.  Now don't be troubled about<lb/> us.  God is taking great care of us all.<lb/> Ed was sent to Dartmoor prison in<lb/> England on the 18th May.  He was allowed<lb/> to write to me on the following day and<lb/>then I got a communication from the<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-16T20:57:04" who="#Comber">
+                
+                    Page 2312 modified:
+                    <!-- 
+<pb/>governor of the prison saying he would not<lb/> have permission to write again till 10<hi rend="superscript">th</hi> September.<lb/>  You can imagine what a pleasant surprise it<lb/> was for me then to receive a letter from him<lb/> this morning.  They are entitled to have a<lb/> visitor every four months as well as a<lb/> letter and if they cannot have the visitor then<lb/> they are allowed to write every two months.<lb/>  Ed prefers the letter to a visit. The visits are<lb/> very unsatisfactory. Viv, Mairin and I saw<lb/> him for a short time in the prison here<lb/> before he went away but there was a warden<lb/> present all the time.  Ed told me to give the<lb/> enclosed letter to you.  Of course his letters<lb/> and all he receives are read by the prison<lb/> authorities.  I can only write to him once<lb/> in two months.  It is a long time to be<lb/> without a word from him, but he is<lb/> in good health from all I can gather<lb/> and I am very hopeful that when God<lb/> has so mercifully spared his life he will<lb/> do much more for us.  I know he will<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-16T21:00:19" who="#Comber">
+                
+                    Page 2313 modified:
+                    <!-- 
+<pb/>keep strong and well by looking forward<lb/> to meeting us all again.  Have no anxiety<lb/> about me or the children, we have everything<lb/> we want and I shall be able<lb/> to get along even if Ed is a long time<lb/> away.  But he won't be with God's help.<lb/>  I form my intention for the masses as you<lb/> told me.  What a noble soul dear Tom is!<lb/>  He wrote some lovely letters to me.  I am<lb/> sure with all your prayers and help<lb/> everything will soon be well.  Of course it<lb/> was the American influence here that got<lb/> Ed's sentence commuted.  Now please don't<lb/> fret.  Uncle Charlie, I am sure, will take the<lb/> same hopeful view of things that I do.<lb/>  Perhaps you might be let write to Ed as<lb/> you may have some important news to tell<lb/> him.  They get letters containing any special<lb/> information.  Or perhaps Tom or Ed's Uncle<lb/> Ed might to allowed to communicate<lb/> with him.  Now my dear Mother be of<lb/> good cheer.  I am asking the Holy Family for<lb/> a Christmas Gift and wait till you see won't I<lb/> get it.  <salute>Sinead</salute><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-07T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-07T16:33:00" who="#NR">
+                
+                    Page 2311 modified:
+                    <!-- 
+<!~~ (At top of page) ~~> <p>If you can furnish <lb/>Ed with the parti- <lb/>culars he asks <lb/>will you send <lb/>the same to me <lb/>I hope you will <lb/>be able to read his <lb/>little note Ferdi- <lb/>nand and Isabella <lb/>are the words I <lb/>I nearly cut away <lb/>the letter was <lb/>very closely written.</p>  <!~~ (Written up left side of letter) ~~> <note>Please do not be uneasy - all will be well.</note>    <address>3 Munster St  Phibsboro</address> <date>24<hi rend="superscript">th</hi> July 1916</date>  <salute>My dear Mother</salute> <p>I had a letter from Lizzie on Sat <lb/> morning saying you asked them to tell me to <lb/>write to you.  I hope you have got the two <lb/> letters I wrote lately.  I fear you are worried <lb/> about us here.  Now please do not be in <lb/> the least uneasy.  This day week I wrote <lb/> to you I hope my letter has reached you <lb/> alright.  When Ed was first sent away <lb/> I did not like to bother you with bad news <lb/>and I told Tom I was keeping it from you. <lb/> But you seem to have heard it from some <lb/> other source.  Now don't be troubled about <lb/> us.  God is taking great care of us all. <lb/> Ed was sent to Dartmoor prison in <lb/> England on the 18th May.  He was allowed <lb/> to write to me on the following day and <lb/>then I got a communication from the 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-07T16:34:05" who="#NR">
+                
+                    Page 2312 modified:
+                    <!-- 
+governor of the prison saying he would not <lb/> have permission to write again till 10<hi rend="superscript">th</hi> September. <lb/>  You can imagine what a pleasant surprise it <lb/> was for me then to receive a letter from him <lb/> this morning.  They are entitled to have a <lb/> visitor every four months as well as a <lb/> letter and if they cannot have the visitor then <lb/> they are allowed to write every two months. <lb/>  Ed prefers the letter to a visit. The visits are <lb/> very unsatisfactory. Viv, Mairin and I saw <lb/> him for a short time in the prison here <lb/> before he went away but there was a warden <lb/> present all the time.  Ed told me to give the <lb/> enclosed letter to you.  Of course his letters <lb/> and all he receives are read by the prison <lb/> authorities.  I can only write to him once <lb/> in two months.  It is a long time to be <lb/> without a word from him, but he is <lb/> in good health from all I can gather <lb/> and I am very hopeful that when God <lb/> has so mercifully spared his life he will <lb/> do much more for us.  I know he will 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-07T16:35:41" who="#NR">
+                
+                    Page 2313 modified:
+                    <!-- 
+<lb/>keep strong and well by looking forward <lb/> to meeting us all again.  Have no anxiety <lb/> about me or the children, we have everything <lb/> we want and I shall be able <lb/> to get along even if Ed is a long time <lb/> away.  But he won't be with God's help. <lb/>  I form my intention for the masses as you <lb/> told me.  What a noble soul dear Tom is! <lb/>  He wrote some lovely letters to me.  I am <lb/> sure with all your prayers and help <lb/> everything will soon be well.  Of course it <lb/> was the American influence here that got <lb/> Ed's sentence commuted.  Now please don't <lb/> fret.  Uncle Charlie, I am sure, will take the <lb/> same hopeful view of things that I do. <lb/>  Perhaps you might be let write to Ed as <lb/> you may have some important news to tell <lb/> him.  They get letters containing any special <lb/> information.  Or perhaps Tom or Ed's Uncle <lb/> Ed might to allowed to communicate <lb/> with him.  Now my dear Mother be of <lb/> good cheer.  I am asking the Holy Family for <lb/> a Christmas Gift and wait till you see won't I <lb/> get it.  <signed>Sinead</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:09" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2312 created using version from <date when="2014-02-23T22:25:42"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:09" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2312 removed (version from <date when="2014-02-23T22:25:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:09" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2312 removed (version from <date when="2014-02-26T21:47:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:09" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2312 removed (version from <date when="2015-02-16T20:57:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:09" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2312 removed (version from <date when="2016-01-07T16:34:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:09" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2313 created using version from <date when="2014-02-23T22:33:53"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:09" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2313 removed (version from <date when="2014-02-23T22:33:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:09" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2313 removed (version from <date when="2014-02-26T21:52:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:09" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2313 removed (version from <date when="2015-02-16T21:00:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:09" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2313 removed (version from <date when="2016-01-07T16:35:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:09" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2311 created using version from <date when="2014-02-26T21:36:49"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:09" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2311 removed (version from <date when="2014-02-26T21:36:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:09" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2311 removed (version from <date when="2014-02-26T21:42:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:09" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2311 removed (version from <date when="2015-02-16T20:54:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:09" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2311 removed (version from <date when="2016-01-07T16:33:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:23" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2312 (version from <date when="2016-01-07T16:34:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:23" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2313 added to letter (version from <date when="2016-01-07T16:35:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:25" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2311 added to letter (version from <date when="2016-01-07T16:33:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:26" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                    Clean tags: Page 2312 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                    Clean tags: Page 2313 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                    Clean tags: Page 2311 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:34" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_890_img_2311" url="5e2b480fea95abbf969c134401d07353.jpg"/> 
+    
+    <graphic xml:id="L1916_890_img_2312" url="6c1753555f2ab6a0dbfe809c8604a853.jpg"/> 
+    
+    <graphic xml:id="L1916_890_img_2313" url="627b9e22fe3e6b4012fe839d41f8bfb2.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2311" facs="#L1916_890_img_2311"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<!-- (At top of page) --> <p>If you can furnish <lb/>Ed with the parti- <lb/>culars he asks <lb/>will you send <lb/>the same to me <lb/>I hope you will <lb/>be able to read his <lb/>little note Ferdi- <lb/>nand and Isabella <lb/>are the words I <lb/>I nearly cut away <lb/>the letter was <lb/>very closely written.</p>  <!-- (Written up left side of letter) --> <note>Please do not be uneasy - all will be well.</note>    <opener><address><addrLine>3 Munster St  Phibsboro</addrLine></address> <dateline><date>24<hi rend="superscript">th</hi> July 1916</date></dateline>  <salute>My dear Mother</salute></opener> <p>I had a letter from Lizzie on Sat <lb/> morning saying you asked them to tell me to <lb/>write to you.  I hope you have got the two <lb/> letters I wrote lately.  I fear you are worried <lb/> about us here.  Now please do not be in <lb/> the least uneasy.  This day week I wrote <lb/> to you I hope my letter has reached you <lb/> alright.  When Ed was first sent away <lb/> I did not like to bother you with bad news <lb/>and I told Tom I was keeping it from you. <lb/> But you seem to have heard it from some <lb/> other source.  Now don't be troubled about <lb/> us.  God is taking great care of us all. <lb/> Ed was sent to Dartmoor prison in <lb/> England on the 18th May.  He was allowed <lb/> to write to me on the following day and <lb/>then I got a communication from the
+        
+    
+
+    
+         
+        <pb n="2312" facs="#L1916_890_img_2312"/>
+        
+        
+           
+            governor of the prison saying he would not <lb/> have permission to write again till 10<hi rend="superscript">th</hi> September. <lb/>  You can imagine what a pleasant surprise it <lb/> was for me then to receive a letter from him <lb/> this morning.  They are entitled to have a <lb/> visitor every four months as well as a <lb/> letter and if they cannot have the visitor then <lb/> they are allowed to write every two months. <lb/>  Ed prefers the letter to a visit. The visits are <lb/> very unsatisfactory. Viv, Mairin and I saw <lb/> him for a short time in the prison here <lb/> before he went away but there was a warden <lb/> present all the time.  Ed told me to give the <lb/> enclosed letter to you.  Of course his letters <lb/> and all he receives are read by the prison <lb/> authorities.  I can only write to him once <lb/> in two months.  It is a long time to be <lb/> without a word from him, but he is <lb/> in good health from all I can gather <lb/> and I am very hopeful that when God <lb/> has so mercifully spared his life he will <lb/> do much more for us.  I know he will
+        
+    
+         
+        <pb n="2313" facs="#L1916_890_img_2313"/>
+        
+        
+           
+            <lb/>keep strong and well by looking forward <lb/> to meeting us all again.  Have no anxiety <lb/> about me or the children, we have everything <lb/> we want and I shall be able <lb/> to get along even if Ed is a long time <lb/> away.  But he won't be with God's help. <lb/>  I form my intention for the masses as you <lb/> told me.  What a noble soul dear Tom is! <lb/>  He wrote some lovely letters to me.  I am <lb/> sure with all your prayers and help <lb/> everything will soon be well.  Of course it <lb/> was the American influence here that got <lb/> Ed's sentence commuted.  Now please don't <lb/> fret.  Uncle Charlie, I am sure, will take the <lb/> same hopeful view of things that I do. <lb/>  Perhaps you might be let write to Ed as <lb/> you may have some important news to tell <lb/> him.  They get letters containing any special <lb/> information.  Or perhaps Tom or Ed's Uncle <lb/> Ed might to allowed to communicate <lb/> with him.  Now my dear Mother be of <lb/> good cheer.  I am asking the Holy Family for <lb/> a Christmas Gift and wait till you see won't I <lb/> get it.  <signed>Sinead</signed>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

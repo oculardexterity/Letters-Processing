@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_913">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Robert Lynch to Mabel FitzGerald, 28 May 1916.</title>
+                
+                <author>Robert Lynch</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BBaker53">BBaker53</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_913</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>A Letter from Robert Lynch to Mabel FitzGerald (née Washington McConnell) (1884-1958), wife of politician and intellectual Desmond FitzGerald (1888-1947). The writer expresses sorrow at the 'horrible sentence' imposed on her husband. He admires the way that Desmond FitzGerald and The O'Rahilly, (1875-1916), 'went in' (to the GPO) having initially tried to stop the Rising.  The writer promises to make representations on Mr FitzGerald's behalf and expresses that an amnesty will see him free when Home Rule is established. He writes that the English were unwise to carryout the executions as the only served to dignify the insurgents. He regrets the loss of his friend, John MacDermott (Seán MacDiarmada, 1883-1916, executed on 12 May 1916) but the bitterest losses were James Connolly (1868-1916, executed 12 May 1916), and Francis Sheehy Skeffington (1878-1916). The writer criticises Patrick Pearse (1879-1916, one of the Rising leaders, also executed on 3 May 1916) for his "bloodshed gospel", which he describes as 'a wild delusion.'</p>
+                        
+                            <p>Mabel was a former governess in London. She later vigorously canvassed her former acquaintances in London's liberal circles for support for Francis Sheehy Skeffington during his hunger strike in 1915. Both Mabel and Desmond would serve in the GPO garrison during Easter Week.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                                Original DCN: FitzGerald Papers, P80/1591/1
+                             
+                        -->
+                            
+                                <collection type='public'>FitzGerald Papers</collection>
+                            
+                            
+                        <idno>P80/1591/1</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Mabel_FitzGerald">Mabel FitzGerald</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Robert_Lynch">Robert Lynch</persName>
+                    
+                     
+                    <placeName ref="#Hampstead,_London,_England">Hampstead, London, England</placeName>
+                    
+                    
+                    <date when="1916-05-28">28 May 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-02-26T21:38:59" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-02-26T21:38:59" who="#Philcostel">
+                
+                    Page 2337 modified:
+                    <!-- 
+(1) 14 <gap/> Hill, Hampstead, NW 28th May 1916  My dear Mabel, I have been waiting to write to you for some time best to say how sorry I was about the horrible sentence on Fitz. You probably guess what I thought of Pearse & the leaders, but the way Fitz & the O'Rahilly went in after trying to stop the affair was the sort of heroic thing to which we all have to take off our hats. I'll certainly get the facts of Fitz's behaviour & of his non-combatancy put before any people of influence I can get at. He <del>deleted text</del>ought to be treated as a political prisoner at once, & an amnesty is certain, I should say, within a very short time of a Home Rule Parliament's coming into existence. I feel exactly as you do about the executions. The English, I think, were mad to permit them from their own point-of-view. They seem to me to have given the movement a <gap/>dignity it would not have had if Asquith or Maxwell or Redmond or anybody had been as wise as Botha. Poor John MacDermott, I knew him best & liked him best of them all, but I feel Connolly is the bitterest loss. He & Skeffington. Pearse obviously died like a hero, but I have always thought his "blood- 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-26T21:52:45" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-02-26T21:52:45" who="#Philcostel">
+                
+                    Page 2338 modified:
+                    <!-- 
+shed" gospel of nationalism a wild delusion & a breakaway from everything for which Davis stood. However, I mustn't be controversial while you're in the midst of this horror & trouble. I do hope it won't be long till Fitz is safe at home again. I'm sending you one or two <hi rend="underline">Statesmans</hi>& <hi rend="underline">Nations</hi> . I've been able to write very little about the insurrection myself. Shaw had a wonderful letter in the <hi rend="underline"><hi rend="underline">underlined text</hi>Daily News</hi>, which I'll send you. I hope the babies are well again. Perhaps we'll see you in Dublin in July. We'll get over if we possibly can, babies & all. I'm so glad you liked Sylvia's novel. She's got a book of verse & sketches coming out in the Autumn. I'd write more, only I've about half-a-dozen other letters to get off before supper. With all the good wishes & hopes in the world. Yours ever Robert Lynch 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-26T22:05:37" who="#Philcostel">
+                
+                    Page 2338 modified:
+                    <!-- 
+shed" gospel of nationalism a wild delusion & a breakaway from everything for which Davis stood. However, I mustn't be controversial while you're in the midst of this horror & trouble. I do hope it won't be long till Fitz is safe at home again. I'm sending you one or two <hi rend="underline">Statesmans</hi>& <hi rend="underline">Nations</hi> . I've been able to write very little about the insurrection myself. Shaw had a wonderful letter in the <hi rend="underline"><hi rend="underline">underlined text</hi>Daily News</hi>, which I'll send you. I hope the babies are well again. Perhaps we'll see you in Dublin in July. We'll get over if we possibly can, babies & all. I'm so glad you liked Sylvia's novel. She's got a book of verse & sketches coming out in the Autumn. I'd write more, only I've about half-a-dozen other letters to get off before supper. With all the good wishes & hopes in the world. Yours ever Robert Lynch Miss Dryhurst saw Griffith & Alderman Cole in Wandsworth Prison this week. I've written to Griffith to know if I might go & see him, but perhaps he would rather not as I know he looks on me as a renegade. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-26T23:47:19" who="#BBaker53">
+                
+                    Page 2337 modified:
+                    <!-- 
+<note>c/1   P80/1591 (1) </note><lb/>  <address>14 <gap/> Hill, Hampstead, NW</address><lb/> <date>28th May, 1916</date><lb/>  <salute>My dear Mabel,</salute><lb/> <p>I have been wanting to write to you for some <lb/>time best to say how sorry I was about the horrible <lb/>sentence on Fitz. You probably guess what I thought of <lb/>Pearse & the leaders, but the way Fitz & the O'Rahilly <lb/>went in after trying to stop the affair was the sort of <lb/>heroic thing to which we all have to take off our hats. <lb/>I'll certainly get the facts of Fitz's behaviour & of his <lb/>non-combatancy put before any people of influence I <lb/>can get at. He <del>deleted text</del>ought to be treated as a <lb/>political prisoner at once, & an amnesty is certain, <lb/>I should say, within a very short time of a <lb/>Home Rule Parliament's coming into existence. I feel <lb/>exactly as you do about the executions. The English, <lb/>I think, were mad to permit them from their own <lb/>point-of-view. They seem to me to have given the <lb/>movement a <unclear>national</unclear> dignity it would not have <lb/>had if Asquith or Maxwell or Redmond or any-<lb/>body had been as wise as Botha. Poor John Mac<lb/>Dermott, I knew him best & liked him best of them all, but I feel Connolly is the bitterest loss. He & Skeffington. Pearse obviously died like a hero, but I have always thought his "blood-</p><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-26T23:54:15" who="#BBaker53">
+                
+                    Page 2338 modified:
+                    <!-- 
+<p>shed" gospel of nationalism a wild delusion & a break<lb/>away from everything for which Davis stood. However, I <lb/>mustn't be controversial while you're in the midst of <lb/>this horror & trouble. I do hope it won't be long <lb/>till Fitz is safe at home again.</p> <p>I'm sending you one or two <hi rend="underline">Statesmans</hi>& <hi rend="underline">Nations</hi>.<lb/> I've been able to write very little about the in-<lb/>surrection myself. Shaw had a wonderful letter in the <lb/><hi rend="underline">Daily News</hi>, which I'll send you. I hope the babies <lb/>are well again. Perhaps, we'll see you in Dublin <lb/>in July. We'll get over if we possibly can, babies <lb/>& all. I'm so glad you liked Sylvia's novel. She's <lb/>got a book of verse & sketches coming out in the <lb/>Autumn. I'd write more, only I've about half-<lb/>a-dozen other letters to get off before supper.</p> <p>With all the good wishes & hopes in the world.</p> Yours ever<lb/> Robert Lynch<lb/><lb/> Miss Dryhurst saw Griffith & Alderman Cole <lb/>in Wandsworth Prison this week. I've written to <lb/>Griffith to know if I might go & see him, <lb/>but perhaps he would rather not as I know he looks <lb/>on me as a renegade. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-07T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-07T11:42:47" who="#NR">
+                
+                    Page 2337 modified:
+                    <!-- 
+<address>14 <unclear>telegraph</unclear> Hill,  <lb/>Hampstead,  <lb/>N.W.</address><lb/> <date>28th May, 1916</date>  <salute>My dear Mabel,</salute> <p>I have been wanting to write to you for some  <lb/>time best to say how sorry I was about the horrible  <lb/>sentence on Fitz. You probably guess what I thought of  <lb/>Pearse &amp; the leaders, but the way Fitz &amp; the O'Rahilly  <lb/>went in after trying to stop the affair was the sort of  <lb/>heroic thing to which we all have to take off our hats.  <lb/>I'll certainly get the facts of Fitz's behaviour &amp; of his  <lb/>non-combatancy put before any people of influence I  <lb/>can get at. He <del>cautiously</del>ought to be treated as a  <lb/>political prisoner at once, &amp; an amnesty is certain,  <lb/>I should say, within a very short time of a  <lb/>Home Rule Parliament's coming into existence. I feel  <lb/>exactly as you do about the executions. The English,  <lb/>I think, were mad to permit them from their own  <lb/>point-of-view. They seem to me to have given the  <lb/>movement a <unclear>national</unclear> dignity it would not have  <lb/>had if Asquith or Maxwell or Redmond or any- <lb/>body had been as wise as Botha. Poor John Mac <lb/>Dermott, I knew him best &amp; liked him best of <lb/> them all, but I feel Connolly is the bitterest <lb/> loss. He &amp; Skeffington. Pearse obviously died like <lb/> a hero, but I have always thought his "blood- 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-07T11:49:44" who="#NR">
+                
+                    Page 2338 modified:
+                    <!-- 
+<lb/>shed" gospel of nationalism a wild delusion &amp; a break <lb/>away from everything for which Davis stood. However, I  <lb/>mustn't be controversial while you're in the midst of  <lb/>this horror &amp; trouble. I do hope it won't be long  <lb/>till Fitz is safe at home again.</p> <p>I'm sending you one or two <hi rend="underline">Statesmans</hi>&amp; <hi rend="underline">Nations</hi>. <lb/> I've been able to write very little about the in- <lb/>surrection myself. Shaw had a wonderful letter in the  <lb/><hi rend="underline">Daily News</hi>, which I'll send you. I hope the babies  <lb/>are well again. Perhaps, we'll see you in Dublin  <lb/>in July. We'll get over if we possibly can, babies  <lb/>&amp; all. I'm so glad you liked Sylvia's novel. She's  <lb/>got a book of verse &amp; sketches coming out in the  <lb/>Autumn. I'd write more, only I've about half- <lb/>a-dozen other letters to get off before supper.</p> <p>With all the good wishes &amp; hopes in the world.</p> <salute>Yours ever</salute> <signed>Robert Lynch</signed> <p>Miss Dryhurst saw Griffith &amp; Alderman Cole  <lb/>in Wandsworth Prison this week. I've written to  <lb/>Griffith to know if I might go &amp; see him,  <lb/>but perhaps he would rather not as I know he looks  <lb/>on me as a renegade.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2337 created using version from <date when="2014-02-26T21:38:59"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2337 removed (version from <date when="2014-02-26T21:38:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2337 removed (version from <date when="2014-12-26T23:47:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2337 removed (version from <date when="2016-01-07T11:42:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2338 created using version from <date when="2014-02-26T21:52:45"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2338 removed (version from <date when="2014-02-26T21:52:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2338 removed (version from <date when="2014-02-26T22:05:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2338 removed (version from <date when="2014-12-26T23:54:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2338 removed (version from <date when="2016-01-07T11:49:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:22" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2337 (version from <date when="2016-01-07T11:42:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:23" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2338 added to letter (version from <date when="2016-01-07T11:49:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:26" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:27" who="#PythonScript">
+                
+                    Clean tags: Page 2337 cleaned of 6 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:27" who="#PythonScript">
+                
+                    Clean tags: Page 2338 cleaned of 8 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:32" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_913_img_2337" url="7b84475c0e88bd7cef78046f57f7c5c1.jpg"/> 
+    
+    <graphic xml:id="L1916_913_img_2338" url="53b2ae5b7fc892e81f2d1c20f52d0a7f.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2337" facs="#L1916_913_img_2337"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>14 <unclear>telegraph</unclear> Hill,</addrLine>
+<addrLine>Hampstead,</addrLine>
+<addrLine>N.W.</addrLine></address> <dateline><date>28th May, 1916</date></dateline>  <salute>My dear Mabel,</salute></opener> <p>I have been wanting to write to you for some  <lb/>time best to say how sorry I was about the horrible  <lb/>sentence on Fitz. You probably guess what I thought of  <lb/>Pearse &amp; the leaders, but the way Fitz &amp; the O'Rahilly  <lb/>went in after trying to stop the affair was the sort of  <lb/>heroic thing to which we all have to take off our hats.  <lb/>I'll certainly get the facts of Fitz's behaviour &amp; of his  <lb/>non-combatancy put before any people of influence I  <lb/>can get at. He <del>cautiously</del>ought to be treated as a  <lb/>political prisoner at once, &amp; an amnesty is certain,  <lb/>I should say, within a very short time of a  <lb/>Home Rule Parliament's coming into existence. I feel  <lb/>exactly as you do about the executions. The English,  <lb/>I think, were mad to permit them from their own  <lb/>point-of-view. They seem to me to have given the  <lb/>movement a <unclear>national</unclear> dignity it would not have  <lb/>had if Asquith or Maxwell or Redmond or any- <lb/>body had been as wise as Botha. Poor John Mac <lb/>Dermott, I knew him best &amp; liked him best of <lb/> them all, but I feel Connolly is the bitterest <lb/> loss. He &amp; Skeffington. Pearse obviously died like <lb/> a hero, but I have always thought his "blood-
+        
+    
+
+    
+         
+        <pb n="2338" facs="#L1916_913_img_2338"/>
+        
+        
+           
+            <lb/>shed" gospel of nationalism a wild delusion &amp; a break <lb/>away from everything for which Davis stood. However, I  <lb/>mustn't be controversial while you're in the midst of  <lb/>this horror &amp; trouble. I do hope it won't be long  <lb/>till Fitz is safe at home again.</p> <p>I'm sending you one or two <hi rend="underline">Statesmans</hi>&amp; <hi rend="underline">Nations</hi>. <lb/> I've been able to write very little about the in- <lb/>surrection myself. Shaw had a wonderful letter in the  <lb/><hi rend="underline">Daily News</hi>, which I'll send you. I hope the babies  <lb/>are well again. Perhaps, we'll see you in Dublin  <lb/>in July. We'll get over if we possibly can, babies  <lb/>&amp; all. I'm so glad you liked Sylvia's novel. She's  <lb/>got a book of verse &amp; sketches coming out in the  <lb/>Autumn. I'd write more, only I've about half- <lb/>a-dozen other letters to get off before supper.</p> <p>With all the good wishes &amp; hopes in the world.</p> <closer><salute>Yours ever</salute> <signed>Robert Lynch</signed></closer> <p>Miss Dryhurst saw Griffith &amp; Alderman Cole  <lb/>in Wandsworth Prison this week. I've written to  <lb/>Griffith to know if I might go &amp; see him,  <lb/>but perhaps he would rather not as I know he looks  <lb/>on me as a renegade.</p>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

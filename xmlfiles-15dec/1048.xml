@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1048">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Cis M. Coyle to James Ryan, 19 July 1916</title>
+                
+                <author>Cis M. Coyle</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="BH">Brian Hughes</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1048</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is a letter from Cis. M Coyle to James Ryan (1891-1970) on 19 July 1916. This letter was written while Ryan was a prisoner in Frongach in Wales. The writer refers to friends at home and some of Ryan&#39;s fellow prisoners.    James Ryan studied medicine in UCD. He was appointed chief medical officer in the GPO during the Easter Rising. After the Rising he was imprisoned in Stafford and, later, Frongoch and was released in August 1916. Ryan was later a founder member of Fianna Fáil and a government minister.    </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#James_Ryan">James Ryan</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Cis_M._Coyle">Cis M. Coyle</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-12-06T19:57:26" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-12-06T19:57:26" who="#Philcostel">
+                
+                    Page 2717 modified:
+                    <!-- 
+58 Aughrim St July 19th. 1916 My dear Jim <p>I was so glad <lb/>to hear from your <lb/>sister this morning<lb/> that you were so well<lb/>and glad to know<lb/> that you got one<lb/> of my letters at all<lb/> events. I went to<lb/><pb/></p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-06T19:59:19" who="#Philcostel">
+                
+                    Page 2717 modified:
+                    <!-- 
+58 Aughrim St July 19th. 1916 My dear Jim <p>I was so glad <lb/>to hear from your <lb/>sister this morning<lb/> that you were so well<lb/>and glad to know<lb/> that you got one<lb/> of my letters at all<lb/> events. I write to<lb/><pb/></p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-06T20:04:06" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-12-06T20:04:06" who="#Philcostel">
+                
+                    Page 2718 modified:
+                    <!-- 
+you three but don't <lb/>know if you get them<lb/> Tell Michael I was<lb/>enquiring for him. Mrs <lb/>Kelly came to see me<lb/> yesterday evening & <lb/>gave me all the news<lb/> as she had letters<lb/> from Jack & Michael<lb/> I don't get any news<lb/> of Liam at all<lb/> I hope he is well but<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-06T20:09:21" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-12-06T20:09:21" who="#Philcostel">
+                
+                    Page 2719 modified:
+                    <!-- 
+I believe he is not <lb/>in the same camps<lb/> with you. Numbers<lb/> are getting home now<lb/> so I am expecting <lb/>every day to see you<lb/> all walk in.<lb/><p> <p>I hope you are well<lb/> off for everything<lb/> in Camp & that<lb/> you like the change <lb/>from Stafford.<lb/><p><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-06T20:15:19" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-12-06T20:15:19" who="#Philcostel">
+                
+                    Page 2720 modified:
+                    <!-- 
+<p>Don't you know Vera<lb/>Bermingham? Well a <lb/>sister of hers is getting<lb/>married on Sep 6th.<lb/></p> <p>Nothing else strange<lb/> at present I think<lb/></p> <p>Remember me to Jack<lb/> & Liam I am writing <lb/>to them also<lb/></p> Kindest regards Very Sincerely Yours Cis M.Coyle 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-19T17:34:28" who="#Philcostel">
+                
+                    Page 2720 modified:
+                    <!-- 
+<p>Don't you know Vera<lb/>Bermingham? Well a <lb/>sister of hers is getting<lb/>married on Sep 6th.<lb/></p> <p>Nothing else strange<lb/> at present I think<lb/></p> <p>Remember me to Jack<lb/> & Liam I am writing <lb/>to them also<lb/></p> <salute>Kindest regards <lb/>Very Sincerely Yours</salute> Cis M.Coyle<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-09T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-09T15:41:01" who="#NR">
+                
+                    Page 2717 modified:
+                    <!-- 
+<address>58 Aughrim St</address> <date>July 19th. 1916</date> <salute>My dear Jim</salute> <p>I was so glad  <lb/>to hear from your  <lb/>sister this morning <lb/> that you were so well <lb/>and glad to know <lb/> that you got one <lb/> of my letters at all <lb/> events. I write to 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-09T15:42:38" who="#NR">
+                
+                    Page 2718 modified:
+                    <!-- 
+you three but don't  <lb/>know if you get them <lb/> Tell Michael I was <lb/>enquiring for him. Mrs  <lb/>Kelly came to see me <lb/> yesterday evening &amp;  <lb/>gave me all the news <lb/> as she had letters <lb/> from Jack &amp; Michael <lb/> I don't get any news <lb/> of Liam at all <lb/> I hope he is well but 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-09T15:43:52" who="#NR">
+                
+                    Page 2719 modified:
+                    <!-- 
+<lb/>I believe he is not  <lb/>in the same camps <lb/> with you. Numbers <lb/> are getting home now <lb/> so I am expecting  <lb/>every day to see you <lb/> all walk in.</p> <p>I hope you are well <lb/> off for everything <lb/> in Camp &amp; that <lb/> you like the change  <lb/>from Stafford.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-09T15:45:59" who="#NR">
+                
+                    Page 2720 modified:
+                    <!-- 
+<p>Don't you know Vera <lb/>Bermingham? Well a  <lb/>sister of hers is getting <lb/>married on Sep 6th.<lb/></p> <p>Nothing else strange <lb/> at present I think</p> <p>Remember me to Jack <lb/> &amp; Liam I am writing  <lb/>to them also</p> <salute>Kindest regards  <lb/>Very Sincerely Yours</salute> <signed>Cis M.Coyle</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2719 created using version from <date when="2014-12-06T20:09:21"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2719 removed (version from <date when="2014-12-06T20:09:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2719 removed (version from <date when="2015-12-09T15:43:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2717 created using version from <date when="2014-12-06T19:57:26"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2717 removed (version from <date when="2014-12-06T19:57:26"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2717 removed (version from <date when="2014-12-06T19:59:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2717 removed (version from <date when="2015-12-09T15:41:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2720 created using version from <date when="2014-12-06T20:15:19"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2720 removed (version from <date when="2014-12-06T20:15:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2720 removed (version from <date when="2014-12-19T17:34:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2720 removed (version from <date when="2015-12-09T15:45:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2718 created using version from <date when="2014-12-06T20:04:06"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2718 removed (version from <date when="2014-12-06T20:04:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2718 removed (version from <date when="2015-12-09T15:42:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2719 (version from <date when="2015-12-09T15:43:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2717 added to letter (version from <date when="2015-12-09T15:41:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2720 added to letter (version from <date when="2015-12-09T15:46:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2718 added to letter (version from <date when="2015-12-09T15:42:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 2720 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 2717 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 2718 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 2719 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:53" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1048_img_2717" url="53c1234db414e74f6c58a636f121714d.jpg"/> 
+    
+    <graphic xml:id="L1916_1048_img_2718" url="51d40d1258934a23187b9b6ddd4f2fb4.jpg"/> 
+    
+    <graphic xml:id="L1916_1048_img_2719" url="a1d4adc9b5969766bde4e708677fdbdd.jpg"/> 
+    
+    <graphic xml:id="L1916_1048_img_2720" url="bb5b3434827ac5bb39475ba920355468.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2717" facs="#L1916_1048_img_2717"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>58 Aughrim St</addrLine></address> <dateline><date>July 19th. 1916</date></dateline> <salute>My dear Jim</salute></opener> <p>I was so glad  <lb/>to hear from your  <lb/>sister this morning <lb/> that you were so well <lb/>and glad to know <lb/> that you got one <lb/> of my letters at all <lb/> events. I write to
+        
+    
+
+    
+         
+        <pb n="2718" facs="#L1916_1048_img_2718"/>
+        
+        
+           
+            you three but don't  <lb/>know if you get them <lb/> Tell Michael I was <lb/>enquiring for him. Mrs  <lb/>Kelly came to see me <lb/> yesterday evening &amp;  <lb/>gave me all the news <lb/> as she had letters <lb/> from Jack &amp; Michael <lb/> I don't get any news <lb/> of Liam at all <lb/> I hope he is well but
+        
+    
+         
+        <pb n="2719" facs="#L1916_1048_img_2719"/>
+        
+        
+           
+            <lb/>I believe he is not  <lb/>in the same camps <lb/> with you. Numbers <lb/> are getting home now <lb/> so I am expecting  <lb/>every day to see you <lb/> all walk in.</p> <p>I hope you are well <lb/> off for everything <lb/> in Camp &amp; that <lb/> you like the change  <lb/>from Stafford.</p>
+        
+    
+         
+        <pb n="2720" facs="#L1916_1048_img_2720"/>
+        
+        
+           
+            <p>Don't you know Vera <lb/>Bermingham? Well a  <lb/>sister of hers is getting <lb/>married on Sep 6th.<lb/></p> <p>Nothing else strange <lb/> at present I think</p> <p>Remember me to Jack <lb/> &amp; Liam I am writing  <lb/>to them also</p> <closer><salute>Kindest regards  <lb/>Very Sincerely Yours</salute> <signed>Cis M.Coyle</signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

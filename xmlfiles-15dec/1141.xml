@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1141">
+    <fileDesc>
+            <titleStmt>
+                <title>Counterfoil addressed to William Pearse, April 1916</title>
+                
+                <author>MISSING</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="BH">Brian Hughes</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Nocallaghan">Nocallaghan</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1141</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is the counterfoil from a mobilisation order (which has also survived) sent by William Pearse (1881-1916) to Seán Thomas O&#39;Kelly (1882-1966) on 21 April 1916. William Pearse was a sculptor and brother of Patrick Pearse, one of the leaders of the Easter Rising. William held the rank of captain on the headquarters staff of the Dublin Brigade of the Irish Volunteers. O&#39;Kelly was a politician and later president of Ireland. In 1916 he was also a member of the Irish Volunteers and Irish Republican Brotherhood and served as aide-de-camp to Patrick Pearse during the Rising.  The order was a personal order for O&#39;Kelly, signed by &#39;Acting Chief of Staff&#39; Willie Pearse, and was for the planned manoeuvres on Easter Sunday, 23 April. Unbeknownst to the rank and file, these manouevres were to be used as a cover for the beginning of the Easter Rising but were countermanded by Eoin MacNeill, chief of staff of the Irish Volunteers, when he became aware of the plans. The Rising then went ahead on 24 April with significan</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Military Archives of Ireland">Military Archives of Ireland</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#William_Pearse">William Pearse</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                    
+                    <persName ref="MISSING"></persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-12-23T13:33:43" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-12-23T13:33:43" who="#Nocallaghan">
+                
+                    Page 3034 modified:
+                    <!-- 
+Staff No                                                                Address To:- Capt. Wm. Pearse                                                      ..... April 1916 St Enda's College Rathfarnham  I acknowledge receipt of your order to report to you at temporary Headquarters............at the hour of.........m. on...... next.....inst., and to hold myself in readiness to act on the Staff of Commandant P. H. Pearse, during the Easter Manoeuvres.  Signed...... Rank........ 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-23T13:52:52" who="#Nocallaghan">
+                
+                    Page 3034 modified:
+                    <!-- 
+There is a stamp reading BUREAU OF MILITARY HISTORY 1913-21<lb/>BURO STAIRE MILEATA 1913-21<lb/>No C.D. 95/2/3 <lb/> Staff No                                                                Address<lb/> <address>address</address>To:-<lb/>Capt. Wm. Pearse<lb/>St Enda's College<lb/>Rathfarnham ............April, 1916<lb/> Sent at......m<p>paragraph</p>I acknowledge receipt of your order to report to you at <lb/>temporary Headquarters............<lb/>at the hour of.........m. on...... <lb/>next.....inst., and to hold myself in readiness to act on  the Staff of Commandant P. H. Pearse, during the Easter Manoeuvres.<p>paragraph</p>Signed......<lb/>Rank........ 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-03T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3034 created using version from <date when="2014-12-23T13:33:43"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3034 removed (version from <date when="2014-12-23T13:33:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3034 removed (version from <date when="2014-12-23T13:52:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3034 (version from <date when="2015-12-03T15:14:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:15" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:17" who="#PythonScript">
+                
+                    Clean tags: Page 3034 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:28" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1141_img_3034" url="3453fa49ec7a28791ccf2932f600dfef.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+
+        
+            
+            <pb n="3034" facs="#L1916_1141_img_3034"/>
+                <text type="unknown" decls="#corresp1">
+                    <body>
+                        <!--  Staff No                                                                Address<lb/> <address>address</address>To:-<lb/>Capt. Wm. Pearse<lb/>St Enda's College<lb/>Rathfarnham ............April, 1916<lb/> Sent at......m<p>paragraph</p>I acknowledge receipt of your order to report to you at <lb/>temporary Headquarters............<lb/>at the hour of.........m. on...... <lb/>next.....inst., and to hold myself in readiness to act on  the Staff of Commandant P. H. Pearse, during the Easter Manoeuvres.<p>paragraph</p>Signed......<lb/>Rank........ -->
+            
+        
+        
+            </body>
+        </text>
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

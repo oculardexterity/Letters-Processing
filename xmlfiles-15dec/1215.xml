@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1215">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from James McFadden Brown to Inspector General, Neville Francis Fitzgerald Chamberlain, 5 May 1916</title>
+                
+                <author>James M&#39;Fadyen Brown</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="HH">Hannah Healy</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1215</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This letter was written by James McFadden Brown (b.1879), a clerk at the Royal Irish Constabulary office, to the inspector general. The letter is Brown&#39;s reply to the Chief Secretary of Ireland, Augustine Birrell (1850-1933), requiring information about Brown&#39;s whereabouts from 24 April to 1 May 1916. Brown states that he attempted to report to the office after hearing that Dublin Castle had been taken by the rebels.    The letter was addressed to Inspector General Neville Francis Fitzgerald Chamberlain (1856-1944). Chamberlain held the position from 1900 until his resignation in July 1916, making him the second longest serving inspector general in the force&#39;s history.  </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#National Archives of Ireland">National Archives of Ireland</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Neville_Francis_Fitzgerald_Chamberaln">Neville Francis Fitzgerald Chamberaln</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#James_MFadyen_Brown">James M&#39;Fadyen Brown</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-12-05T16:23:43" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-12-05T16:23:43" who="#Philcostel">
+                
+                    Page 3248 modified:
+                    <!-- 
+R.I Constabulary Office Dublin Castle The Inspector General <p>In reply to the Chief Secretary@<lb/>communication of 1st inst regarding my<lb/>movements, etc.  , from noon on 24.4.16 to<lb/>noon on 1.5.16, I beg to report as follows -</p> <p>22.4.16. On duty at R.I.C. Office until 1 p.m.<lb/>Returned to private residence (Seapoint House,<lb/>Monkstown) until 4 p.m. Spent the evening<lb/>in the City.</p> <p>23.4.16. Spent in Monkstown & immediate<lb/> vicinity</p> <p>24.4.16. - Do. -</p> <p>25.4.16. Went to the City to report at the Office<lb/>but heard the Castle was held by the<lb/>rebels. Returned to Monkstown at 3 p.m.<lb/>for remainder of the day.</p> <p>26.4.16 Went to the City but was informed<lb/>by Mr Cooney of R.I.C. Office that no<lb/>business was being transacted. Returned<lb/>to Monkstown about 3 p.m. for remainder of the day.</p> <p>27.4.16 Spent in Monkstown and immediate vicinity.</p> <p>28.4.16. - Do. - </p> <p>29.4.16. Went to the City but informed by<lb/>Mr ?Oirett? of R.I.C. Office that no<lb/>business was being transacted. Returned<lb/>to Monkstown about 1 p.m. for remainder of the day. </p> <p>30.4.16. Spent in Monkstown and immediate<lb/>vicinity.</p> <p>1.5.16. - Do. - </p> <p>On each of these nights I slept at<lb/><del>deleted text</del>Seapoint House, Monkstown.</p> Jas. Mc F Brown 5th May '16. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-19T18:06:23" who="#Philcostel">
+                
+                    Page 3248 modified:
+                    <!-- 
+<address>R.I Constabulary Office <lb/>Dublin Castle <lb/></address> The Inspector General <p>In reply to the Chief Secretary's <lb/>communication of 1st inst regarding my <lb/>movements, etc.  , from noon on <date>24.4.16</date> to <lb/>noon on <date>1.5.16</date>, I beg to report as follows - </p> <p><date>22.4.16</date>. On duty at R.I.C. Office until 1 p.m. <lb/>Returned to private residence (Seapoint House ,<lb/>Monkstown) until 4 p.m. Spent the evening <lb/>in the City. <lb/></p> <p><date>23.4.16.</date> Spent in Monkstown & immediate<lb/> vicinity <lb/></p> <p><date>24.4.16</date>. - Do. - <lb/></p> <p><date>25.4.16.</date> Went to the City to report at the Office <lb/>but heard the Castle was held by the <lb/>rebels. Returned to Monkstown at 3 p.m. <lb/>for remainder of the day. <lb/></p> <p><date>26.4.16</date> Went to the City but was informed <lb/>by Mr Cooney of R.I.C. Office that no <lb/>business was being transacted. Returned <lb/>to Monkstown about 3 p.m. for remainder of the day. <lb/></p> <p><date>27.4.16 </date>Spent in Monkstown and immediate vicinity. <lb/></p> <p><date>28.4.16.</date> - Do. -  <lb/></p> <p><date>29.4.16.</date> Went to the City but informed by <lb/>Mr ?Oirett? of R.I.C. Office that no <lb/>business was being transacted. Returned <lb/>to Monkstown about 1 p.m. for remainder of the day. <lb/></p> <p><date>30.4.16.</date> Spent in Monkstown and immediate <lb/>vicinity. <lb/></p> <p><date>1.5.16.</date> - Do. - <lb/></p> <p>On each of these nights I slept at <lb/><del>deleted text</del>Seapoint House, Monkstown. <lb/></p> Jas. Mc F Brown <date>5th May '16.</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-01T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-01T16:30:48" who="#NR">
+                
+                    Page 3248 modified:
+                    <!-- 
+<address>R.I Constabulary Office </address> <address>Dublin Castle</address>   <salute>The Inspector General</salute> <p>In reply to the Chief Secretary's  <lb/>communication of 1st inst regarding my  <lb/>movements, etc.  , from noon on 24.4.16 to  <lb/>noon on 1.5.16, I beg to report as follows - </p> <p>22.4.16. On duty at R.I.C. Office until 1 p.m.  <lb/>Returned to private residence (Seapoint House , <lb/>Monkstown) until 4 p.m. Spent the evening  <lb/>in the City.</p> <p>23.4.16. Spent in Monkstown &amp; immediate <lb/> vicinity</p> <p>24.4.16. - Do. - </p> <p>25.4.16. Went to the City to report at the Office  <lb/>but heard the Castle was held by the  <lb/>rebels. Returned to Monkstown at 3 p.m.  <lb/>for remainder of the day. </p> <p>26.4.16 Went to the City but was informed  <lb/>by Mr Cooney of R.I.C. Office that no  <lb/>business was being transacted. Returned  <lb/>to Monkstown about 3 p.m. for remainder of the day.</p> <p>27.4.16 Spent in Monkstown and immediate vicinity.</p> <p>28.4.16. - Do. -  </p> <p>29.4.16.Went to the City but informed by  <lb/>Mr <unclear>Cooney</unclear> of R.I.C. Office that no  <lb/>business was being transacted. Returned  <lb/>to Monkstown about 1 p.m. for remainder of the day. </p> <p>30.4.16. Spent in Monkstown and immediate  <lb/>vicinity. </p> <p>1.5.16. - Do. - </p> <p>On each of these nights I slept at <lb/><del>Blackrock</del>Seapoint House, Monkstown.</p> <lb/><signed>Jas. Mc F Brown</signed> <date>5th May '16.</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3248 created using version from <date when="2014-12-05T16:23:43"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3248 removed (version from <date when="2014-12-05T16:23:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3248 removed (version from <date when="2014-12-19T18:06:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3248 removed (version from <date when="2015-12-01T16:30:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3248 (version from <date when="2015-12-01T16:30:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:15" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 3248 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:29" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1215_img_3248" url="3aa8ef71d50fdae32503bc7558b1aee1.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3248" facs="#L1916_1215_img_3248"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>R.I Constabulary Office </address> <address>Dublin Castle</addrLine></address>   <salute>The Inspector General</salute></opener> <p>In reply to the Chief Secretary's  <lb/>communication of 1st inst regarding my  <lb/>movements, etc.  , from noon on 24.4.16 to  <lb/>noon on 1.5.16, I beg to report as follows - </p> <p>22.4.16. On duty at R.I.C. Office until 1 p.m.  <lb/>Returned to private residence (Seapoint House , <lb/>Monkstown) until 4 p.m. Spent the evening  <lb/>in the City.</p> <p>23.4.16. Spent in Monkstown &amp; immediate <lb/> vicinity</p> <p>24.4.16. - Do. - </p> <p>25.4.16. Went to the City to report at the Office  <lb/>but heard the Castle was held by the  <lb/>rebels. Returned to Monkstown at 3 p.m.  <lb/>for remainder of the day. </p> <p>26.4.16 Went to the City but was informed  <lb/>by Mr Cooney of R.I.C. Office that no  <lb/>business was being transacted. Returned  <lb/>to Monkstown about 3 p.m. for remainder of the day.</p> <p>27.4.16 Spent in Monkstown and immediate vicinity.</p> <p>28.4.16. - Do. -  </p> <p>29.4.16.Went to the City but informed by  <lb/>Mr <unclear>Cooney</unclear> of R.I.C. Office that no  <lb/>business was being transacted. Returned  <lb/>to Monkstown about 1 p.m. for remainder of the day. </p> <p>30.4.16. Spent in Monkstown and immediate  <lb/>vicinity. </p> <p>1.5.16. - Do. - </p> <p>On each of these nights I slept at <lb/><del>Blackrock</del>Seapoint House, Monkstown.</p> <lb/><signed>Jas. Mc F Brown</signed> <date>5th May '16.</date>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_980">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from M. Malone to Nancy O&#39;Rahilly, 17 May 1916.</title>
+                
+                <author>M. Malone</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="IrishHistoryGroup-UniofChester">Irish History Group- Uni of Chester</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="NicolaKMorris">NicolaKMorris</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_980</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is a letter of condolence from M.Malone to Nancy O&#39;Rahilly (1875-1961). The writer expresses sympathy with Mrs. O&#39;Rahilly on the death of her husband and promises to pray every day for the repose of his soul and for Mrs. O&#39;Rahilly&#39;s consolation.    Nancy O&#39;Rahilly was a member of the Provisional Council of Cumann na mBan at the founding in 1914 and the wife of Michael Joseph O&#39;Rahilly, self-described as &#39;The&#39; O&#39;Rahilly (1875-1916). The O&#39;Rahilly fought in the Easter Rising and was shot in Parnell/Moore Street on 28 April 1916 and died some time later. Nancy was pregnant at the time of her husband&#39;s death – the child was born three months later. </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Nancy_ORahilly">Nancy O&#39;Rahilly</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#M._Malone">M. Malone</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-05-06T10:24:08" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-05-06T10:24:08" who="#IrishHistoryGroup-UniofChester">
+                
+                    Page 2539 modified:
+                    <!-- 
+Dear Madam accept my sincere sympathy in your great bereavement. We were all very sorry to learn of the V. Rahilly's death, & we deeply sympathise with you in your sorrow. Though 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-05-06T10:28:53" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-05-06T10:28:53" who="#IrishHistoryGroup-UniofChester">
+                
+                    Page 2540 modified:
+                    <!-- 
+(line missing) pray for the refuge of his soul & for your consolation every day I should have written sooner, but I thought it better to wait till the postal arrangements were more satisfactory. Again tendering you + your family my very sincere sympathy (?) yours sincerely W. Malone 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-05-06T10:30:43" who="#IrishHistoryGroup-UniofChester">
+                
+                    Page 2539 modified:
+                    <!-- 
+Dear Madam accept my sincere sympathy in your great bereavement. We were all very sorry to learn of the O. Rahilly's death, & we deeply sympathise with you in your sorrow. Though 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-06-04T15:38:59" who="#NicolaKMorris">
+                
+                    Page 2539 modified:
+                    <!-- 
+Joh St., Dingle, May 17th., 1916.  Dear Madam Accept my sincere sympathy in your great bereavement. We were all very sorry to learn of the O. Rahilly's death, & we deeply sympathise with you in your sorrow. Though your cross be heavy, God will 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-06-04T15:39:35" who="#NicolaKMorris">
+                
+                    Page 2539 modified:
+                    <!-- 
+Joh St., Dingle, May 17th., 1916.  Dear Madam Accept my sincere sympathy in your great bereavement. We were all very sorry to learn of the O' Rahilly's death, & we deeply sympathise with you in your sorrow. Though your cross be heavy, God will 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-06-04T15:39:41" who="#NicolaKMorris">
+                
+                    Page 2539 modified:
+                    <!-- 
+John St., Dingle, May 17th., 1916.  Dear Madam Accept my sincere sympathy in your great bereavement. We were all very sorry to learn of the O' Rahilly's death, & we deeply sympathise with you in your sorrow. Though your cross be heavy, God will 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-06-04T15:41:32" who="#NicolaKMorris">
+                
+                    Page 2540 modified:
+                    <!-- 
+give you strength to bear it, & we pray for the repose of his soul & for your consolation every day. I should have written sooner, but I thought it better to wait till the postal arrangements were more satisfactory. Again tendering you + your family my very sincere sympathy  I remain, Yours sincerely,  M. Malone. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-11T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-11T11:26:20" who="#NR">
+                
+                    Page 2539 modified:
+                    <!-- 
+<address>John St., Dingle,</address> <date>May 17th., 1916.</date>  <salute>Dear Madam</salute> <p>Accept my sincere <lb/> sympathy in your great bereave- <lb/>ment. We were all very  <lb/>sorry to learn of the O' Rahilly's  <lb/>death, &amp; we deeply sympathise <lb/> with you in your sorrow. Though <lb/> your cross be heavy, God will 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-11T11:28:03" who="#NR">
+                
+                    Page 2540 modified:
+                    <!-- 
+<lb/>give you strength to bear it, &amp; we <lb/>pray for the repose of his soul <lb/>&amp; for your consolation every day.</p> <p>I should have written sooner,  <lb/>but I thought it better to wait <lb/> till the postal arrangements <lb/> were more satisfactory.</p> <p>Again tendering you &amp; your  <lb/>family my very sincere sympathy</p>  <salute>I remain, <lb/>Yours sincerely,</salute>  <signed>M. Malone.</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2540 created using version from <date when="2014-05-06T10:28:53"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2540 removed (version from <date when="2014-05-06T10:28:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2540 removed (version from <date when="2014-06-04T15:41:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2540 removed (version from <date when="2015-12-11T11:28:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2539 created using version from <date when="2014-05-06T10:24:08"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2539 removed (version from <date when="2014-05-06T10:24:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2539 removed (version from <date when="2014-05-06T10:30:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2539 removed (version from <date when="2014-06-04T15:38:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2539 removed (version from <date when="2014-06-04T15:39:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2539 removed (version from <date when="2014-06-04T15:39:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2539 removed (version from <date when="2015-12-11T11:26:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2540 (version from <date when="2015-12-11T11:28:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2539 added to letter (version from <date when="2015-12-11T11:26:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 2539 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 2540 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:33" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_980_img_2539" url="18c62be3a2c83aa987d28d0b074ec530.jpg"/> 
+    
+    <graphic xml:id="L1916_980_img_2540" url="12494928096634e13e662f6ed144c0bc.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2539" facs="#L1916_980_img_2539"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>John St., Dingle,</addrLine></address> <dateline><date>May 17th., 1916.</date></dateline>  <salute>Dear Madam</salute></opener> <p>Accept my sincere <lb/> sympathy in your great bereave- <lb/>ment. We were all very  <lb/>sorry to learn of the O' Rahilly's  <lb/>death, &amp; we deeply sympathise <lb/> with you in your sorrow. Though <lb/> your cross be heavy, God will
+        
+    
+
+    
+         
+        <pb n="2540" facs="#L1916_980_img_2540"/>
+        
+        
+           
+            <lb/>give you strength to bear it, &amp; we <lb/>pray for the repose of his soul <lb/>&amp; for your consolation every day.</p> <p>I should have written sooner,  <lb/>but I thought it better to wait <lb/> till the postal arrangements <lb/> were more satisfactory.</p> <p>Again tendering you &amp; your  <lb/>family my very sincere sympathy</p>  <closer><salute>I remain, <lb/>Yours sincerely,</salute>  <signed>M. Malone.</signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

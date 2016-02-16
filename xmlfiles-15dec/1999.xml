@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1999">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Colonel F. M. Taylor to Alderman Thomas Kelly, 13 June 1916</title>
+                
+                <author>F. M. Taylor</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="WB">William Buck</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="HH">Hannah Healy</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Scribe57">Scribe57</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Delmacarroll">Delmacarroll</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Lizlinkz">Lizlinkz</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1999</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>In this letter, Colonel F.M. Taylor rebuts Thomas Kelly&#39;s (1868-1942) claims for military compensation. Kelly writes that the officer in charge of the unit that occupied his building during Easter week took all his papers away, including his personal sketchbooks.      Thomas Kelly was an influential member of the Dublin City Council in the early decades of the 20th century. His achievements included replacing slums with social housing; developing a public library service; and the foundation of the Municipal Gallery of Modern Art. Although not involved in fighting during the rising, he was arrested afterwards but was released after a short time. He was arrested again in 1919 and was unable to take his position as Lord Mayor of Dublin due to health complications that had arisen from his imprisonment.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Allen Library">Allen Library</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Thomas_Kelly">Thomas Kelly</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#F._M._Taylor">F. M. Taylor</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-03-10T03:49:27" who="#WB">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-03-10T03:49:27" who="#Delmacarroll">
+                
+                    Page 4993 modified:
+                    <!-- 
+<note>IE/AL/TK/26</note><pb/>  HQ735/283 <lb/>  <address>Alderman T Kelly<lb/> 23 Longwood Avenue<lb/> <lb/>South Circular Road<lb/> Dublin<lb/></address>  <salute>Sir</salute><lb/>  <p>I am in receipt of your letter of 6th June<lb/> respecting loss of a number of water colors etc and<lb/> in reply have to express regret that the enquiries<lb/> which have been made nave not resulted in the discovery<lb/> of these goods.   As the evidence in the matter is<lb/> quite insufficient to connect the Military with the<lb/> matter the Military Authorities are not able to admit an<lb/>y<lb/> liability<lb/>.<lb/></p>  <p>Your letter however has been forwarded to the <lb/> Civil Authority i e the under secretary, Dublin Castle.<lb/></p>  <salute>Yours faithfully<lb/></salute> <!~~ signed ~~> F M Taylor<lb/> Colonel  A D S T <lb/> for Major-General i/c Administration<lb/> Irish Command<lb/>  <address>Headquarters<lb/> Parkgate<lb/> Dublin<lb/></address>  <date>13/6/1916<lb/></date> <!~~ handwritten addendum ~~><lb/> <salute>Sir</salute><lb/> In reply to your letter of <unclear>10</unclear><hi rend="superscript">th</hi> I have to say that the officer<lb/> in charge of a part of military who searched this house on Sunday<lb/> April 30 put all the papers found in the <unclear>bureau</unclear> in a small<lb/> trunk and took them away.   All the missing items were in this <unclear>bureau</unclear><lb/> and the envelope that contained the sketches was <unclear>returned</unclear> empty.   There can<lb/> be no doubt about the military taking away the papers as the same<lb/> party took my <del>son</del> eldest son the same time so that I am<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-03-10T03:50:25" who="#WB">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-03-10T03:50:25" who="#Delmacarroll">
+                
+                    Page 4994 modified:
+                    <!-- 
+sure the officer will remember.<lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-03-10T03:51:00" who="#Delmacarroll">
+                
+                    Page 4993 modified:
+                    <!-- 
+<note>IE/AL/TK/26</note><pb/>  HQ735/283 <lb/>  <address>Alderman T Kelly<lb/> 23 Longwood Avenue<lb/> <lb/>South Circular Road<lb/> Dublin<lb/></address>  <salute>Sir</salute><lb/>  <p>I am in receipt of your letter of 6th June<lb/> respecting loss of a number of water colors etc and<lb/> in reply have to express regret that the enquiries<lb/> which have been made nave not resulted in the discovery<lb/> of these goods.   As the evidence in the matter is<lb/> quite insufficient to connect the Military with the<lb/> matter the Military Authorities are not able to admit an<lb/>y<lb/> liability<lb/>.<lb/></p>  <p>Your letter however has been forwarded to the <lb/> Civil Authority i e the under secretary, Dublin Castle.<lb/></p>  <salute>Yours faithfully<lb/></salute> <!~~ signed ~~> F M Taylor<lb/> Colonel  A D S T <lb/> for Major-General i/c Administration<lb/> Irish Command<lb/>  <address>Headquarters<lb/> Parkgate<lb/> Dublin<lb/></address>  <date>13/6/1916<lb/></date> <!~~ handwritten addendum ~~><lb/> <salute>Sir</salute><lb/> <p>In reply to your letter of <unclear>10</unclear><hi rend="superscript">th</hi> I have to say that the officer<lb/> in charge of a part of military who searched this house on Sunday<lb/> April 30 put all the papers found in the <unclear>bureau</unclear> in a small<lb/> trunk and took them away.   All the missing items were in this <unclear>bureau</unclear><lb/> and the envelope that contained the sketches was <unclear>returned</unclear> empty.   There can<lb/> be no doubt about the military taking away the papers as the same<lb/> party took my <del>son</del> eldest son the same time so that I am<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-03-10T03:56:47" who="#Delmacarroll">
+                
+                    Page 4994 modified:
+                    <!-- 
+sure the officer will remember.<lb/></p>  <p>I hope the missing sketch books <gap/> will<lb/> yet be found <del>and  I shall be obliged if you will say</del><lb/> <del>whether there is</del> <del>as they <gap/> if and</del> as I value<lb/> them very much.<lb/></p>  <salute>Yours<lb/></salute>  <!~~ signed ~~> T Kelly<lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-06T11:01:33" who="#Lizlinkz">
+                
+                    Page 4993 modified:
+                    <!-- 
+<note>IE/AL/TK/26</note><pb/>  HQ735/283 <lb/>  <address>Alderman T. Kelly,<lb/> 23, Longwood Avenue,<lb/> <lb/>South Circular Road,<lb/> Dublin.<lb/></address>  <salute>Sir</salute><lb/>  <p>I am in receipt of your letter of 6th inst,<lb/> respecting loss of a number of water colors, etc, and<lb/> in reply have to express regret that the enquiries<lb/> which have been made have not resulted in the discovery<lb/> of these goods.   As the evidence in the matter is<lb/> quite insufficient to connect the Military with the<lb/> matter the Military Authorities are not able to admit any<lb/><lb/> liability.<lb/>.<lb/></p>  <p>Your letter, however, has been forwarded to the <lb/> Civil Authority, i. e., the Under Secretary, Dublin Castle.<lb/></p>  <salute>Yours faithfully,<lb/></salute> <!~~ signed ~~> F M Taylor<lb/> Colone,l  A. D. S. T. <lb/> for Major-General i/c Administration,<lb/> Irish Command<lb/>  <address>Headquarter,s<lb/> Parkgate,<lb/> Dublin.<lb/></address>  <date>13/6/1916<lb/></date> <!~~ handwritten addendum ~~><lb/> <salute>Sir</salute><lb/> <p>In reply to your letter of <unclear>10</unclear><hi rend="superscript">th</hi> I have to say that the officer<lb/> in charge of a party of military who searched this house on Sunday<lb/> April 30 put all the papers found in the <unclear>bureau</unclear> in a small<lb/> trunk and took them away.   All the missing items were in this <unclear>bureau</unclear><lb/> and the envelope that contained the sketches was <unclear>returned</unclear> <unclear>noticed</unclear>empty.   There can<lb/> be no doubt about the military taking away the papers as the same<lb/> party took my <del>son</del> eldest son the same time so that I am<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-08T14:56:21" who="#Scribe57">
+                
+                    Page 4993 modified:
+                    <!-- 
+<note>IE/AL/TK/26</note><pb/>  HQ735/283 <lb/>  <address>Alderman T. Kelly,<lb/> 23, Longwood Avenue,<lb/> <lb/>South Circular Road,<lb/> Dublin.<lb/></address>  <salute>Sir</salute><lb/>  <p>I am in receipt of your letter of 6th inst,<lb/> respecting loss of a number of water colors, etc, and<lb/> in reply have to express regret that the enquiries<lb/> which have been made have not resulted in the discovery<lb/> of these goods.   As the evidence in the matter is<lb/> quite insufficient to connect the Military with the<lb/> matter the Military Authorities are not able to admit any<lb/><lb/> liability.<lb/>.<lb/></p>  <p>Your letter, however, has been forwarded to the <lb/> Civil Authority, i. e., the Under Secretary, Dublin Castle.<lb/></p>  <salute>Yours faithfully,<lb/></salute> <!~~ signed ~~> F M Taylor<lb/> Colone,l  A. D. S. T. <lb/> for Major-General i/c Administration,<lb/> Irish Command<lb/>  <address>Headquarter,s<lb/> Parkgate,<lb/> Dublin.<lb/></address>  <date>13/6/1916<lb/></date> <!~~ handwritten addendum ~~><lb/> <salute>Sir</salute><lb/> <p>In reply to your letter of 16 inst I have to say that the officer<lb/> in charge of a party of military who searched this house on Sunday<lb/> April 30 put all the papers found in the <unclear>bureau</unclear> in a small<lb/> trunk and took them away.   All the missing items were in this <unclear>bureau</unclear><lb/> and the envelope that contained the sketches was <unclear>returned</unclear> <unclear>noticed</unclear>empty.   There can<lb/> be no doubt about the military taking away the papers as the same<lb/> party took my <del>son</del> eldest son the same time so that I am<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-28T15:02:54" who="#HH">
+                
+                    Page 4993 modified:
+                    <!-- 
+<note>IE/AL/TK/26</note><pb/>  HQ735/283 <lb/>  <address>Alderman T. Kelly,<lb/> 23, Longwood Avenue,<lb/> <lb/>South Circular Road,<lb/> Dublin.<lb/></address>  <salute>Sir</salute><lb/>  <p>I am in receipt of your letter of 6th inst,<lb/> respecting loss of a number of water colors, etc, and<lb/> in reply have to express regret that the enquiries<lb/> which have been made have not resulted in the discovery<lb/> of these goods.   As the evidence in the matter is<lb/> quite insufficient to connect the Military with the<lb/> matter the Military Authorities are not able to admit any<lb/><lb/> liability.<lb/>.<lb/></p>  <p>Your letter, however, has been forwarded to the <lb/> Civil Authority, i. e., the Under Secretary, Dublin Castle.<lb/></p>  <salute>Yours faithfully,<lb/></salute> <!~~ signed ~~> F M Taylor<lb/> Colone,l  A. D. S. T. <lb/> for Major-General i/c Administration,<lb/> Irish Command<lb/>  <address>Headquarter,s<lb/> Parkgate,<lb/> Dublin.<lb/></address>  <date>13/6/1916<lb/></date> <!~~ handwritten addendum ~~><lb/> <salute>Sir</salute><lb/> <p>In reply to your letter of 13 inst I have to say that the officer<lb/> in charge of a party of military who searched this house on Sunday<lb/> April 30 put all the papers found in the <unclear>bureau</unclear> in a small<lb/> trunk and took them away.   All the missing items were in this <unclear>bureau</unclear><lb/> and the envelope that contained the sketches was <unclear>returned</unclear> <unclear>noticed</unclear>empty.   There can<lb/> be no doubt about the military taking away the papers as the same<lb/> party took my <del>son</del> eldest son the same time so that I am<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-18T15:41:10" who="#HH">
+                
+                    Page 4993 modified:
+                    <!-- 
+HQ735/283 <lb/> <lb/> <lb/> <address>Alderman T. Kelly,<lb/> 23, Longwood Avenue,<lb/> South Circular Road,<lb/> Dublin.</address>  <salute>Sir</salute>  <p>I am in receipt of your letter of 6th inst,<lb/> respecting loss of a number of water colors, etc, and<lb/> in reply have to express regret that the enquiries<lb/> which have been made have not resulted in the discovery<lb/> of these goods.   As the evidence in the matter is<lb/> quite insufficient to connect the Military with the<lb/> matter the Military Authorities are not able to admit any<lb/><lb/> liability.</p>  <p>Your letter, however, has been forwarded to the <lb/> Civil Authority, i. e., the Under Secretary, Dublin Castle.</p>  <salute>Yours faithfully, <!~~ signed ~~> F M Taylor</salute> Colonel  A. D. S. T. <lb/> for Major-General i/c Administration,<lb/> Irish Command<lb/>  <address>Headquarters,<lb/> Parkgate,<lb/> Dublin.</address>  <date>13/6/1916</date> <!~~ handwritten addendum ~~><lb/> <add><salute><hi rend="underline">Sir</hi></salute><lb/> <p>In reply to your letter of 13<hi rend="superscript">th</hi> inst I have to say that the officer<lb/> in charge of a party of military who searched this house on Sunday<lb/> April 30 put all the papers found in the <unclear>bureau</unclear> in a small<lb/> trunk and took them away.   All the missing items were in this <unclear>bureau</unclear><lb/> and the envelope that contained the sketches was <unclear>returned</unclear> <unclear>noticed</unclear>empty.   There can<lb/> be no doubt about the military taking away the papers as the same<lb/> party took my <del>son</del> eldest son the same time so that I am<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-18T15:41:36" who="#HH">
+                
+                    Page 4993 modified:
+                    <!-- 
+HQ735/283 <lb/> <lb/> <lb/> <address>Alderman T. Kelly,<lb/> 23, Longwood Avenue,<lb/> South Circular Road,<lb/> Dublin.</address>  <salute>Sir</salute>  <p>I am in receipt of your letter of 6th inst,<lb/> respecting loss of a number of water colors, etc, and<lb/> in reply have to express regret that the enquiries<lb/> which have been made have not resulted in the discovery<lb/> of these goods.   As the evidence in the matter is<lb/> quite insufficient to connect the Military with the<lb/> matter the Military Authorities are not able to admit any<lb/><lb/> liability.</p>  <p>Your letter, however, has been forwarded to the <lb/> Civil Authority, i. e., the Under Secretary, Dublin Castle.</p>  <salute>Yours faithfully, <!~~ signed ~~> F M Taylor</salute> Colonel  A. D. S. T. <lb/> for Major-General i/c Administration,<lb/> Irish Command<lb/>  <address>Headquarters,<lb/> Parkgate,<lb/> Dublin.</address>  <date>13/6/1916</date> <!~~ handwritten addendum ~~><lb/> <add><salute><hi rend="underline">Sir</hi></salute><lb/> <p>In reply to your letter of 13<hi rend="superscript">th</hi> inst I have to say that the officer<lb/> in charge of a party of military who searched this house on Sunday<lb/> April 30 put all the papers found in the <unclear>bureau</unclear> in a small<lb/> trunk and took them away.   All the missing items were in this <unclear>bureau</unclear><lb/> and the envelope that contained the sketches was <unclear>returned</unclear> <unclear>noticed</unclear>empty.   There can<lb/> be no doubt about the military taking away the papers as the same<lb/> party took my <del>son</del> eldest son the same time so that I am<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-18T15:42:50" who="#HH">
+                
+                    Page 4994 modified:
+                    <!-- 
+sure the officer will remember.</p>  <p>I hope the missing sketch books <gap/> will<lb/> yet be found <del>and  I shall be obliged if you will say</del><lb/> <del>whether there is</del> <del>as they <gap/> if and</del> as I value<lb/> them very much.</p>  <salute>Yours<lb/>  <!~~ signed ~~> T Kelly</salute></add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-18T15:44:30" who="#HH">
+                
+                    Page 4994 modified:
+                    <!-- 
+sure the officer will remember.</p>  <p>I hope the missing sketch books <gap/> will<lb/> yet be found <del>and  I shall be obliged if you will say</del><lb/> <del>whether there is</del> <del>as they <gap/> if and</del> as I value<lb/> them very much.</p>  <salute>Yours<lb/>  <!~~ signed ~~> <hi rend="underline">T Kelly</hi></salute></add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T11:19:54" who="#NR">
+                
+                    Page 4993 modified:
+                    <!-- 
+<address>Alderman T. Kelly,<lb/> 23, Longwood Avenue,<lb/> South Circular Road,<lb/> Dublin.</address>  <salute>Sir</salute>  <p>I am in receipt of your letter of 6th inst,<lb/> respecting loss of a number of water colors, etc, and<lb/> in reply have to express regret that the enquiries<lb/> which have been made have not resulted in the discovery<lb/> of these goods.   As the evidence in the matter is<lb/> quite insufficient to connect the Military with the<lb/> matter the Military Authorities are not able to admit any<lb/><lb/> liability.</p>  <p>Your letter, however, has been forwarded to the <lb/> Civil Authority, i. e., the Under Secretary, Dublin Castle.</p>  <salute>Yours faithfully,</salute> F M Taylor Colonel  A. D. S. T. <lb/> for Major-General i/c Administration,<lb/> Irish Command<lb/>  <address>Headquarters,<lb/> Parkgate,<lb/> Dublin.</address>  <date>13/6/1916</date>  <add><salute><hi rend="underline">Sir</hi></salute> <p>In reply to your letter of 13<hi rend="superscript">th</hi> inst I have to say that the officer<lb/> in charge of a party of military who searched this house on Sunday<lb/> April 30 put all the papers found in the <unclear>bureau</unclear> in a small<lb/> trunk and took them away.   All the missing items were in this <unclear>bureau</unclear><lb/> and the envelope that contained the sketches was <unclear>returned</unclear> <unclear>noticed</unclear>empty.   There can<lb/> be no doubt about the military taking away the papers as the same<lb/> party took my <del>son</del> eldest son the same time so that I am<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T11:19:55" who="#NR">
+                
+                    Page 4993 modified:
+                    <!-- 
+<address>Alderman T. Kelly,<lb/> 23, Longwood Avenue,<lb/> South Circular Road,<lb/> Dublin.</address>  <salute>Sir</salute>  <p>I am in receipt of your letter of 6th inst,<lb/> respecting loss of a number of water colors, etc, and<lb/> in reply have to express regret that the enquiries<lb/> which have been made have not resulted in the discovery<lb/> of these goods.   As the evidence in the matter is<lb/> quite insufficient to connect the Military with the<lb/> matter the Military Authorities are not able to admit any<lb/><lb/> liability.</p>  <p>Your letter, however, has been forwarded to the <lb/> Civil Authority, i. e., the Under Secretary, Dublin Castle.</p>  <salute>Yours faithfully,</salute> F M Taylor Colonel  A. D. S. T. <lb/> for Major-General i/c Administration,<lb/> Irish Command<lb/>  <address>Headquarters,<lb/> Parkgate,<lb/> Dublin.</address>  <date>13/6/1916</date>  <add><salute><hi rend="underline">Sir</hi></salute> <p>In reply to your letter of 13<hi rend="superscript">th</hi> inst I have to say that the officer<lb/> in charge of a party of military who searched this house on Sunday<lb/> April 30 put all the papers found in the <unclear>bureau</unclear> in a small<lb/> trunk and took them away.   All the missing items were in this <unclear>bureau</unclear><lb/> and the envelope that contained the sketches was <unclear>returned</unclear> <unclear>noticed</unclear>empty.   There can<lb/> be no doubt about the military taking away the papers as the same<lb/> party took my <del>son</del> eldest son the same time so that I am<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T11:20:50" who="#NR">
+                
+                    Page 4994 modified:
+                    <!-- 
+sure the officer will remember.</p>  <p>I hope the missing sketch books <gap/> will<lb/> yet be found <del>and  I shall be obliged if you will say</del><lb/> <del>whether there is</del> <del>as they <gap/> if and</del> as I value<lb/> them very much.</p>  <salute>Yours<lb/> <hi rend="underline">T Kelly</hi></salute></add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-01T09:35:15" who="#NR">
+                
+                    Page 4993 modified:
+                    <!-- 
+<address>Alderman T. Kelly,<lb/> 23, Longwood Avenue,<lb/> South Circular Road,<lb/> Dublin.</address>  <salute>Sir</salute>  <p>I am in receipt of your letter of 6th inst,<lb/> respecting loss of a number of water colors, etc, and<lb/> in reply have to express regret that the enquiries<lb/> which have been made have not resulted in the discovery<lb/> of these goods.   As the evidence in the matter is<lb/> quite insufficient to connect the Military with the<lb/> matter the Military Authorities are not able to admit any<lb/><lb/> liability.</p>  <p>Your letter, however, has been forwarded to the <lb/> Civil Authority, i. e., the Under Secretary, Dublin Castle.</p>  <salute>Yours faithfully,</salute> F M Taylor Colonel  A. D. S. T. <lb/> for Major-General i/c Administration,<lb/> Irish Command<lb/>  <address>Headquarters,<lb/> Parkgate,<lb/> Dublin.</address>  <date>13/6/1916</date>  <add><salute><hi rend="underline">Sir</hi></salute> <p>In reply to your letter of 13<hi rend="superscript">th</hi> inst I have to say that the officer<lb/> in charge of a party of military who searched this house on Sunday<lb/> April 30 put all the papers found in the <unclear>bureau</unclear> in a small<lb/> trunk and took them away.   All the missing items were in this <unclear>bureau</unclear><lb/> and the envelope that contained the sketches was <unclear>returned</unclear> <unclear>noticed</unclear>empty.   There can<lb/> be no doubt about the military taking away the papers as the same<lb/> party took my <del>son</del> eldest son the same time so that I am<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-01T09:35:32" who="#NR">
+                
+                    Page 4993 modified:
+                    <!-- 
+<address>Alderman T. Kelly,<lb/> 23, Longwood Avenue,<lb/> South Circular Road,<lb/> Dublin.</address>  <salute>Sir</salute>  <p>I am in receipt of your letter of 6th inst,<lb/> respecting loss of a number of water colors, etc, and<lb/> in reply have to express regret that the enquiries<lb/> which have been made have not resulted in the discovery<lb/> of these goods.   As the evidence in the matter is<lb/> quite insufficient to connect the Military with the<lb/> matter the Military Authorities are not able to admit any<lb/><lb/> liability.</p>  <p>Your letter, however, has been forwarded to the <lb/> Civil Authority, i. e., the Under Secretary, Dublin Castle.</p>  <salute>Yours faithfully,</salute> F M Taylor Colonel  A. D. S. T. <lb/> for Major-General i/c Administration,<lb/> Irish Command<lb/>  <address>Headquarters,<lb/> Parkgate,<lb/> Dublin.</address>  <date>13/6/1916</date>  <add><salute><hi rend="underline">Sir</hi></salute> <p>In reply to your letter of 13<hi rend="superscript">th</hi> inst I have to say that the officer<lb/> in charge of a party of military who searched this house on Sunday<lb/> April 30 put all the papers found in the <unclear>bureau</unclear> in a small<lb/> trunk and took them away.   All the missing items were in this <unclear>bureau</unclear><lb/> and the envelope that contained the sketches was <unclear>about</unclear> empty.   There can<lb/> be no doubt about the military taking away the papers as the same<lb/> party took my <del>son</del> eldest son the same time so that I am<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4994 created using version from <date when="2015-03-10T03:50:25"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4994 removed (version from <date when="2015-03-10T03:50:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4994 removed (version from <date when="2015-03-10T03:56:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4994 removed (version from <date when="2015-06-18T15:42:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4994 removed (version from <date when="2015-06-18T15:44:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4994 removed (version from <date when="2015-11-20T11:20:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4993 created using version from <date when="2015-03-10T03:49:27"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4993 removed (version from <date when="2015-03-10T03:49:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4993 removed (version from <date when="2015-03-10T03:51:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4993 removed (version from <date when="2015-04-06T11:01:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4993 removed (version from <date when="2015-04-08T14:56:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4993 removed (version from <date when="2015-05-28T15:02:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4993 removed (version from <date when="2015-06-18T15:41:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4993 removed (version from <date when="2015-06-18T15:41:36"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4993 removed (version from <date when="2015-11-20T11:19:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4993 removed (version from <date when="2015-11-20T11:19:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4993 removed (version from <date when="2015-12-01T09:35:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4993 removed (version from <date when="2015-12-01T09:35:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 4994 (version from <date when="2015-11-20T11:20:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 4993 added to letter (version from <date when="2015-12-01T09:35:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:15" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:19" who="#PythonScript">
+                
+                    Clean tags: Page 4993 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:19" who="#PythonScript">
+                
+                    Clean tags: Page 4994 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:36" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1999_img_4993" url="d809cecd28d7107f93b832053a080e67.jpg"/> 
+    
+    <graphic xml:id="L1916_1999_img_4994" url="b97f979f313a84580313d7a80f36081d.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="4993" facs="#L1916_1999_img_4993"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>Alderman T. Kelly,</addrLine>
+<addrLine>23, Longwood Avenue,</addrLine>
+<addrLine>South Circular Road,</addrLine>
+<addrLine>Dublin.</addrLine></address>  <salute>Sir</salute></opener>  <p>I am in receipt of your letter of 6th inst,<lb/> respecting loss of a number of water colors, etc, and<lb/> in reply have to express regret that the enquiries<lb/> which have been made have not resulted in the discovery<lb/> of these goods.   As the evidence in the matter is<lb/> quite insufficient to connect the Military with the<lb/> matter the Military Authorities are not able to admit any<lb/><lb/> liability.</p>  <p>Your letter, however, has been forwarded to the <lb/> Civil Authority, i. e., the Under Secretary, Dublin Castle.</p>  <salute>Yours faithfully,</salute> F M Taylor Colonel  A. D. S. T. <lb/> for Major-General i/c Administration,<lb/> Irish Command<lb/>  <address>Headquarters,<lb/> Parkgate,<lb/> Dublin.</address>  <date>13/6/1916</date>  <add><salute><hi rend="underline">Sir</hi></salute> <p>In reply to your letter of 13<hi rend="superscript">th</hi> inst I have to say that the officer<lb/> in charge of a party of military who searched this house on Sunday<lb/> April 30 put all the papers found in the <unclear>bureau</unclear> in a small<lb/> trunk and took them away.   All the missing items were in this <unclear>bureau</unclear><lb/> and the envelope that contained the sketches was <unclear>about</unclear> empty.   There can<lb/> be no doubt about the military taking away the papers as the same<lb/> party took my <del>son</del> eldest son the same time so that I am<pb/>
+        
+    
+
+    
+         
+        <pb n="4994" facs="#L1916_1999_img_4994"/>
+        
+        
+           
+            sure the officer will remember.</p>  <p>I hope the missing sketch books <gap/> will<lb/> yet be found <del>and  I shall be obliged if you will say</del><lb/> <del>whether there is</del> <del>as they <gap/> if and</del> as I value<lb/> them very much.</p>  <closer><salute>Yours<lb/> <hi rend="underline">T Kelly</hi></salute></closer></add>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

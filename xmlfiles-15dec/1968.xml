@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1968">
+    <fileDesc>
+            <titleStmt>
+                <title>Telegram from Prison Warden, Frongoch, to the Chief Constable, Dublin, 4 August 1916</title>
+                
+                <author>Prison Warden</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Ruby">Ruby</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Ollyo">Ollyo</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1968</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>A telegram from the Prison Warden at Frongoch Internment Camp to the Chief Constable, Dublin.  The Prison Warden advises that an escaped Irish prisoner, Daniel Davitt, has been re-arrested. Enclosed is a second telegram addressed to apm (Andrew Philip Magill (1871–1941), Private Secretary to Henry Edward Duke (1855–1939), Chief Secretary for Ireland) is a warning that careful watch should be kept and that the escapee may have assumed disguise.    Frongoch Internment Camp in Wales was a makeshift prison used for the internment of approximately 1,800 Irishmen in the wake of the Easter Rising, 1916.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#National Archives of Ireland">National Archives of Ireland</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Chief_Constable">Chief Constable</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Prison_Warden">Prison Warden</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-05-26T13:47:48" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-26T13:47:48" who="#Ruby">
+                
+                    Page 4914 modified:
+                    <!-- 
+Office of Origin and Service Instructions. O. H. M. S. Bala To { Chief Constable, Dublin   Reference my wire 6. 365 of 2nd unit. Daniel Davitt ?????? Irish prisoner  has now been arrested  FROM { Priswardan??? Frongoch??? 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-26T13:59:46" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-26T13:59:46" who="#Ruby">
+                
+                    Page 4915 modified:
+                    <!-- 
+Office of Origin and Service Instructions  <unclear>asm???) Chester  To{ affirm??? (3) be warned please and careful  watch kept as may have  assumed disguise ?????? escaping addressed <unclear> asm??) Dublin repeated as from Kimnel?? park  Manchester Liverpool Rto Holyhead West ????? 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-26T14:00:56" who="#Ruby">
+                
+                    Page 4914 modified:
+                    <!-- 
+Office of Origin and Service Instructions. O. H. M. S. Bala To { Chief Constable, Dublin   Reference my wire 6. 365 of 2nd unit. Daniel Davitt escapedIrish prisoner  has now been arrested  FROM { Priswardan??? Frongoch??? 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-26T14:01:58" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-26T14:01:58" who="#Ruby">
+                
+                    Page 4916 modified:
+                    <!-- 
+Office of Origin and Service Instructions. O. H. M. S. Bala To { Chief Constable, Dublin   Reference my wire 6. 365 of 2nd unit. Daniel  Davitt escapedIrish prisoner has now been  arrested  FROM { Priswardan??? Frongoch??? 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-26T14:07:17" who="#Ruby">
+                
+                    Page 4915 modified:
+                    <!-- 
+Office of Origin and Service Instructions  <unclear>asm???) Chester  To{ affirm??? (3) be warned please and careful  watch kept as may have  assumed disguise ?????? escaping addressed <unclear> asm??) Dublin repeated as from Kimnel?? park  Manchester Liverpool Rto Holyhead Westmorland 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-10T22:09:08" who="#Ollyo">
+                
+                    Page 4916 modified:
+                    <!-- 
+Office of Origin and Service Instructions. O. H. M. S. Bala To { Chief Constable, Dublin   Reference my wire 6. 365 of 2nd unit. Daniel  Davitt escaped Irish prisoner has now been  arrested  FROM { Priswardan??? Frongoch 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-10T22:10:46" who="#Ollyo">
+                
+                    Page 4915 modified:
+                    <!-- 
+Office of Origin and Service Instructions  <unclear>asm???) Chester  To{ affirm??? (3) be warned please and careful  watch kept as may have  assumed disguise since escaping addressed <unclear> asm??) Dublin repeated as from Kimnel?? park  Manchester Liverpool Rto Holyhead Westmorland 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-10T22:15:36" who="#Ollyo">
+                
+                    Page 4915 modified:
+                    <!-- 
+Office of Origin and Service Instructions  <unclear>asm???) Chester  To{ affirm??? (3) be warned please and careful  watch kept as may have  assumed disguise since escaping addressed apm Dublin repeated as from Kinmelpark  Manchester Liverpool Rto Holyhead Westmorland 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-10T22:17:21" who="#Ollyo">
+                
+                    Page 4916 modified:
+                    <!-- 
+Office of Origin and Service Instructions. O. H. M. S. Bala To { Chief Constable, Dublin   Reference my wire 6. 365 of 2nd inst Daniel  Davitt escaped Irish prisoner has now been  arrested  FROM { Priswardan??? Frongoch 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-10T22:20:08" who="#Ollyo">
+                
+                    Page 4915 modified:
+                    <!-- 
+Office of Origin and Service Instructions  <unclear>asm???) Chester  To{ apm (3) be warned please and careful  watch kept as may have  assumed disguise since escaping addressed apm Dublin repeated as from Kinmelpark  Manchester Liverpool Rto Holyhead Westmorland 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-10T22:20:43" who="#Ollyo">
+                
+                    Page 4914 modified:
+                    <!-- 
+Office of Origin and Service Instructions. O. H. M. S. Bala To { Chief Constable, Dublin   Reference my wire 6. 365 of 2nd unit. Daniel Davitt escaped Irish prisoner  has now been arrested  FROM { Priswardan??? Frongoch 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T11:42:11" who="#NR">
+                
+                    Page 4914 modified:
+                    <!-- 
+<address>Office of Origin and Service Instructions.<lb/>  O. H. M. S.<lb/>  Bala</address> To { Chief Constable, Dublin   <p>Reference my wire 6. 365 of 2nd unit.<lb/> Daniel Davitt escaped Irish prisoner <lb/> has now been arrested</p>  FROM { <unclear>Priswardan</unclear> Frongoch<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T11:48:19" who="#NR">
+                
+                    Page 4915 modified:
+                    <!-- 
+<address>Office of Origin and Service Instructions <lb/> <unclear>apms</unclear> Chester</address>  To{ apm (3) DUBLIN<lb/> <p>be warned please and careful <lb/> watch kept as may have <lb/> assumed disguise since escaping addressed <lb/> apm Dublin repeated as from Kinmelpark <lb/> Manchester Liverpool Rto Holyhead Westmorland</p> <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T11:51:32" who="#NR">
+                
+                    Page 4916 modified:
+                    <!-- 
+<address>Office of Origin and Service Instructions.<lb/>  O. H. M. S.<lb/>  Bala</address> <address>To { Chief Constable, Dublin  </address> <p>Reference my wire 6. 365 of 2nd inst Daniel<lb/>  Davitt escaped Irish prisoner has now been<lb/>  arrested</p>  FROM { <sic>Priswardan</sic> Frongoch 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4916 created using version from <date when="2015-05-26T14:01:58"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4916 removed (version from <date when="2015-05-26T14:01:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4916 removed (version from <date when="2015-09-10T22:09:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4916 removed (version from <date when="2015-09-10T22:17:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4916 removed (version from <date when="2015-11-20T11:51:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4914 created using version from <date when="2015-05-26T13:47:48"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4914 removed (version from <date when="2015-05-26T13:47:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4914 removed (version from <date when="2015-05-26T14:00:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4914 removed (version from <date when="2015-09-10T22:20:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4914 removed (version from <date when="2015-11-20T11:42:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4915 created using version from <date when="2015-05-26T13:59:46"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4915 removed (version from <date when="2015-05-26T13:59:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4915 removed (version from <date when="2015-05-26T14:07:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4915 removed (version from <date when="2015-09-10T22:10:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4915 removed (version from <date when="2015-09-10T22:15:36"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4915 removed (version from <date when="2015-09-10T22:20:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4915 removed (version from <date when="2015-11-20T11:48:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 4916 (version from <date when="2015-11-20T11:51:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 4914 added to letter (version from <date when="2015-11-20T11:42:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 4915 added to letter (version from <date when="2015-11-20T11:48:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:15" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 4914 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 4915 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 4916 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:29" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1968_img_4914" url="4879c29c3ce86c5d63a0b67e1b9435d8.jpg"/> 
+    
+    <graphic xml:id="L1916_1968_img_4915" url="b03250a1b2c289bd66f64848519ad9c5.jpg"/> 
+    
+    <graphic xml:id="L1916_1968_img_4916" url="ebf118d31799531c2c0a0d5bb16ea13b.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+
+        
+            
+            <pb n="4914" facs="#L1916_1968_img_4914"/>
+                <text type="telegram" decls="#corresp1">
+                    <body>
+                        <address>Office of Origin and Service Instructions.<lb/>  O. H. M. S.<lb/>  Bala</address> To { Chief Constable, Dublin   <p>Reference my wire 6. 365 of 2nd unit.<lb/> Daniel Davitt escaped Irish prisoner <lb/> has now been arrested</p>  FROM { <unclear>Priswardan</unclear> Frongoch<pb/>
+            
+        
+        
+            <pb n="4915" facs="#L1916_1968_img_4915"/>
+            <address>Office of Origin and Service Instructions <lb/> <unclear>apms</unclear> Chester</address>  To{ apm (3) DUBLIN<lb/> <p>be warned please and careful <lb/> watch kept as may have <lb/> assumed disguise since escaping addressed <lb/> apm Dublin repeated as from Kinmelpark <lb/> Manchester Liverpool Rto Holyhead Westmorland</p> <pb/>
+        
+            <pb n="4916" facs="#L1916_1968_img_4916"/>
+            <address>Office of Origin and Service Instructions.<lb/>  O. H. M. S.<lb/>  Bala</address> <address>To { Chief Constable, Dublin  </address> <p>Reference my wire 6. 365 of 2nd inst Daniel<lb/>  Davitt escaped Irish prisoner has now been<lb/>  arrested</p>  FROM { <sic>Priswardan</sic> Frongoch
+        
+            </body>
+        </text>
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

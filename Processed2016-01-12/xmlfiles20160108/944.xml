@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_944">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Major E. Reade to Mabel FitzGerald, 5 July 1916.</title>
+                
+                <author>E. Reade</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_944</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This letter is from the governor of Dartmoor prison, Major E. Reade, to Mabel FitzGerald (née Washington McConnell) (1884-1958), wife of politician and intellectual Desmond FitzGerald (1888-1947). Reade advises Mrs. FitzGerald that her letter to her husband has been stopped by the censor - she may write another, but she she should confine it to one sheet and only discuss domestic matters - not politics.</p>
+                        
+                            <p>Mabel Fitzgerald was the wife of Irish Volunteer Desmond Fitzgerald.  Mabel was a former governess in London. She later vigorously canvassed her former acquaintances in London's liberal circles for support for Francis Sheehy Skeffington during his hunger strike in 1915. Both Mabel and Desmond would serve in the GPO garrison during Easter Week.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                                Original DCN: FitzGerald Papers P80/1605/1
+                             
+                        -->
+                            
+                                <collection type='public'>FitzGerald Papers P80/1605/1</collection>
+                            
+                            
+                        <idno>FitzGerald Papers P80/1605/1</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Mabel_FitzGerald">Mabel FitzGerald</persName>
+                
+                
+                
+                    <placeName  ref="#2_Loretto_Villas,_Bray,_County_Wicklow,_Ireland.">2 Loretto Villas, Bray, County Wicklow, Ireland.</placeName>
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#E._Reade">E. Reade</persName>
+                    
+                     
+                    <placeName ref="#Dartmoor,_England">Dartmoor, England</placeName>
+                    
+                    
+                    <date when="1916-07-05">5 July 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-03-18T21:25:39" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-03-18T21:25:39" who="#Philcostel">
+                
+                    Page 2398 modified:
+                    <!-- 
+<note>All Communications should be addressed to the Governor and not to any official by name.</note> H.M.Prison, Dartmoor 5 July 1916. T.D.Fitzgerald Madam <del>I have to acknowledge the receipt of your letter of the.....and to inform you in reply......</del> Your letter to the above named has been stopped by the Censor. You may send him another but you must confine yourself to domestic matters & avoid politics. Your letter must also be limited to one sheet of foolscap script or its equivalent. I am, Madam, Your obedient Servant, <gap/> Governor Mrs.D.Fitzgerald, 2 Loretto Villas, Bray Co.Wicklow 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-05T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T12:30:16" who="#NR">
+                
+                    Page 2398 modified:
+                    <!-- 
+<address>H.M.Prison,  <lb/><hi rend="underline">Dartmoor</hi></address> <date>5 July 1916.</date> <del>Sir</del> Madam <add>T.D.Fitzgerald</add> <p><del>I have to acknowledge the receipt of your letter of the..... <lb/>and to inform you in reply......</del> Your letter to the above  <lb/>named has been stopped by the  <lb/>Censor. You may send him another <lb/> but you must confine yourself to  <lb/>domestic matters &amp; avoid politics.</p> <p>Your letter must also be  <lb/>limited to one sheet of foolscap script or <lb/> its equivalent.</p> <salute>I am, <lb/>Madam, <lb/>Your obedient Servant,</salute> <signed>E. Reade</signed> <lb/>Governor <address>Mrs.D.Fitzgerald,  <lb/>2 Loretto Villas,  <lb/>Bray  <lb/>Co.Wicklow</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2398 created using version from <date when="2014-03-18T21:25:39"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2398 removed (version from <date when="2014-03-18T21:25:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2398 removed (version from <date when="2016-01-06T12:30:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:24" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2398 (version from <date when="2016-01-06T12:30:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:26" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                    Clean tags: Page 2398 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:36" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_944_img_2398" url="cd147cdaad38ec6e42ffa4a41d695f43.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2398" facs="#L1916_944_img_2398"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>H.M.Prison,</addrLine>
+<addrLine><hi rend="underline">Dartmoor</hi></addrLine></address> <dateline><date>5 July 1916.</date></dateline></opener> <del>Sir</del> Madam <add>T.D.Fitzgerald</add> <p><del>I have to acknowledge the receipt of your letter of the..... <lb/>and to inform you in reply......</del> Your letter to the above  <lb/>named has been stopped by the  <lb/>Censor. You may send him another <lb/> but you must confine yourself to  <lb/>domestic matters &amp; avoid politics.</p> <p>Your letter must also be  <lb/>limited to one sheet of foolscap script or <lb/> its equivalent.</p> <closer><salute>I am, <lb/>Madam, <lb/>Your obedient Servant,</salute> <signed>E. Reade</signed> <lb/>Governor <address><addrLine>Mrs.D.Fitzgerald,</addrLine>
+<addrLine>2 Loretto Villas,</addrLine>
+<addrLine>Bray</addrLine>
+<addrLine>Co.Wicklow</addrLine></address></closer>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

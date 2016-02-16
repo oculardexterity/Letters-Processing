@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_972">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Alice Schmutz, 28 October 1916.</title>
+                
+                <author>Alice Schmutz</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="TBurke">TBurke</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_972</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>The letter was written by Alice Schmutz and enclosed with Hanna Sheehy-Skeffington’s letter of the same date to John Dillon MP.  Mrs. Schmutz gives her version of the visits to her house by detectives between 9 and 19 October 1916 and says that she cannot understand why Sgt. Megahey denies all of this.  This note was enclosed in a letter dated 28 October 1916 from Hanna Sheehy-Skeffington to John Dillon MP. This letter also survives.    Alice Schmutz was the landlady of Hanna Sheehy Skeffington, a suffragette, nationalist, language teacher, was the widow of Francis Sheehy-Skeffington. She was active during the Rising, bringing food to the Volunteers in the G.P.O. and the College of Surgeons. Francis Sheehy Skeffington (1878-1916) was on the streets trying to muster a civilian force to prevent looting during the Rising. On 25 April 1916, Skeffington, and two others, pro-British journalists, Thomas Dixon and Patrick McIntyre, were arrested by Captain J.C. Bowen-Colthurst (1880-1966), an Anglo-Irish officer of</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Trinity College Dublin">Trinity College Dublin</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName>MISSING</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Alice_Schmutz">Alice Schmutz</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-04-12T20:33:09" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-04-12T20:33:09" who="#TBurke">
+                
+                    Page 2514 modified:
+                    <!-- 
+                                                                                                                                                                   43 Moyne Road,                                                                                                                                                                        Ranelagh                                                                                                                                                                      Co. Dublin                                                                                                                                                                        Oct. 28.16  Dear/Sir/            With reference to a letter Mrs Skeffington gave me to read (Mr Dukes safely -Parliament) I fear you have been misinformed about the real facts of the case. <hi rend="underline">On Oct 11th</hi> Constable Devine came to my house and asked me if I was aware of the regulations with regard to registering lodgers, I told him I was , he produced a book of rules and regulations and showed me a paragraph in it; he then said he would like to see the forms I showed himtwo, one for MrsSkeffington and one for her little boy; when he read them he asked me why Nos 10. 11 and 12 were not filled in, and I told him none of my lodgers ever filled in those numbers as I thought - they referred to aliens he told me I made a great mistake 'as I would be responsible for her address, I referred him to Mrs Skeffingtons Father Darill Sheehy Esq. he then asked who received her letters and then asked for Mrs Skeffingtons sister's name and address which I gave him and he took <hi rend="underline">down notes in his note book</hi> On the same evening I went to . 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-04-12T21:29:52" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-04-12T21:29:52" who="#TBurke">
+                
+                    Page 2515 modified:
+                    <!-- 
+the Rathmines Police Station and saw Sergt Megahey and told him what happened; he told me if I ever heard about Mrs Skeffington or heard where she  was I could keep the address, he also told me that <hi rend="underline">'if a question did arise</hi> as to her whereabouts' I would be held responsible. <hi rend="underline">On Oct 16th</hi> Sergt Megahey came to my house himself and asked me if I had heard anything further and I told him I had not. He asked me if there was any furniture of hers in my house. <hi rend="underline">On Oct 19th</hi> Mrs Skeffington returned home unexpectedly <del>arrived at my home</del>through family trouble. I then sent to Sergt Megahey and told him Mrs Skeffington was with me. thinking it was necessary on account of their recent enquiries. When/where Sergt Megahey called in person and made further enquiries. Why Sergt Megahey denies all  this I cannot understand, and a Sergt Hearon also called (between Oct11th and Oct 16th) and said he wanted to see Mrs Skeffington privately and also asked for her address.  <hi rend="underline">On Oct 9th</hi> Constable Devine called with reference to my permit - I would also like to state that my Father is a retired member of the R I Constabulary,I have  also  (2) two brothers in France since the beginning of the war, and what would be my object to bring myself under the notice of the Police if I had not been annoyed by them?             Hoping you will give my statement your careful investigation.                                I am                                       Faithfully Yours                                              Alice Schmuty. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-11T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-11T12:04:26" who="#NR">
+                
+                    Page 2514 modified:
+                    <!-- 
+<address>43 Moyne Road, <lb/>Ranelagh <lb/>Co. Dublin</address> <date>Oct. 28.16</date>  <salute>Dear Sir/</salute>            <p> With reference to a letter Mrs Skeffington  <lb/><del>which</del> gave me to read <add>(Mr Dukes safely -Parliament)</add> I fear you have <lb/> been misinformed about the real facts of the case.</p> <p> <hi rend="underline">On Oct 11th</hi> Constable Devine came to my house and asked <lb/> me if I was aware of the regulations with regard to <lb/> registering lodgers, I told him I was , he produced a  <lb/>book of rules and regulations and showed me a paragraph <lb/> in it; he then said he would like to see the forms <lb/> I showed him two, one for M<hi rend="superscript">rs</hi> Skeffington &amp; one for her  <lb/>little boy; when he read them he asked me why  <lb/><hi rend="underline">No's 10. 11 and 12</hi> were not filled in, and I told him <lb/> none of my lodgers ever filled in those numbers as I  <lb/>thought - they referred to aliens he told me I made a <lb/> great mistake 'as I would be responsible for her  <lb/>address, I referred him to M<hi rend="superscript">rs</hi> Skeffingtons Father <lb/>Darill Sheehy Esq. he then asked who received <lb/> her letters and then asked for M<hi rend="superscript">rs</hi> Skeffingtons  <lb/>sister's name and address which I gave him and <lb/> he took <hi rend="underline">down notes in his note book</hi></p> <p>On the same evening I went to . 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-11T12:04:55" who="#NR">
+                
+                    Page 2514 modified:
+                    <!-- 
+<address>43 Moyne Road, <lb/>Ranelagh <lb/>Co. Dublin</address> <date>Oct. 28.16</date>  <salute>Dear Sir/</salute>            <p> With reference to a letter Mrs Skeffington  <lb/><del>which</del> gave me to read <add>(Mr Dukes safely -Parliament)</add> I fear you have <lb/> been misinformed about the real facts of the case.</p> <p> <hi rend="underline">On Oct 11th</hi> Constable Devine came to my house and asked <lb/> me if I was aware of the regulations with regard to <lb/> registering lodgers, I told him I was , he produced a  <lb/>book of rules and regulations and showed me a paragraph <lb/> in it; he then said he would like to see the forms <lb/> I showed him two, one for M<hi rend="superscript">rs</hi> Skeffington &amp; one for her  <lb/>little boy; when he read them he asked me why  <lb/><hi rend="underline">No's 10. 11 and 12</hi> were not filled in, and I told him <lb/> none of my lodgers ever filled in those numbers as I  <lb/>thought - they referred to aliens he told me I made a <lb/> great mistake 'as I would be responsible for her  <lb/>address, I referred him to M<hi rend="superscript">rs</hi> Skeffingtons Father <lb/>Darill Sheehy Esq. he then asked who received <lb/> her letters and then asked for M<hi rend="superscript">rs</hi> Skeffingtons  <lb/>sister's name and address which I gave him and <lb/> he took <hi rend="underline">down notes in his note book</hi></p> <p>On the same evening I went to 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-11T12:06:10" who="#NR">
+                
+                    Page 2515 modified:
+                    <!-- 
+<lb/>the Rathmines Police Station and saw Sergt Megahey <lb/> and told him what happened; he told me if I  <lb/>ever heard about M<hi rend="superscript">rs</hi> Skeffington or heard where she  <lb/> was I could keep the address, he also told me that <lb/> <hi rend="underline">'if a question did arise <hi rend="underline">as to her whereabouts'</hi></hi> I would be held responsible.</p> <hi rend="underline">On Oct 16th</hi> Sergt Megahey came to my house himself and asked me if I had heard anything further and I told him I had not. He asked me if there was any furniture of hers in my house. <hi rend="underline">On Oct 19th</hi> Mrs Skeffington returned home unexpectedly <del>arrived at my home</del>through family trouble. I then sent to Sergt Megahey and told him Mrs Skeffington was with me. thinking it was necessary on account of their recent enquiries. When/where Sergt Megahey called in person and made further enquiries. Why Sergt Megahey denies all  this I cannot understand, and a Sergt Hearon also called (between Oct11th and Oct 16th) and said he wanted to see Mrs Skeffington privately and also asked for her address.  <hi rend="underline">On Oct 9th</hi> Constable Devine called with reference to my permit - I would also like to state that my Father is a retired member of the R I Constabulary,I have  also  (2) two brothers in France since the beginning of the war, and what would be my object to bring myself under the notice of the Police if I had not been annoyed by them?             Hoping you will give my statement your careful investigation.                                I am                                       Faithfully Yours                                              Alice Schmuty. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-11T12:09:00" who="#NR">
+                
+                    Page 2515 modified:
+                    <!-- 
+<lb/>the Rathmines Police Station and saw Sergt Megahey <lb/> and told him what happened; he told me if I  <lb/>ever heard about M<hi rend="superscript">rs</hi> Skeffington or heard where she  <lb/> was I could keep the address, he also told me that <lb/> <hi rend="underline">'if a question did arise <hi rend="underline">as to her whereabouts'</hi></hi> I would be held responsible.</p> <p><hi rend="underline">On Oct 16th</hi> Sergt Megahey came to my house himself and  <lb/>asked me if I had heard anything further and I told  <lb/>him I had not. He asked me if there was any furniture of hers in my house.</p> <p><hi rend="underline">On Oct 19th</hi> Mrs Skeffington returned home unexpectedly <del>arrived at my home</del> <lb/>through family trouble. I then sent <del>for</del> to Sergt Megahey and  <lb/>told him M<hi rend="superscript">rs</hi> Skeffington was with me, thinking it was  necessary on account of their recent enquiries. When Sergt Megahey called in person &amp; made further enquiries.  Why Sergt Megahey denies all  this I cannot understand, and  a Sergt Hearon also called <add><del>also</del> (between Oct11th and Oct 16th)</add> and said he wanted to see  M<hi rend="superscript">rs</hi> Skeffington privately and also asked for her address.</p>  <hi rend="underline">On Oct 9th</hi> Constable Devine called with reference to my permit - I would also like to state that my Father is a retired member of the R I Constabulary,I have  also  (2) two brothers in France since the beginning of the war, and what would be my object to bring myself under the notice of the Police if I had not been annoyed by them?             Hoping you will give my statement your careful investigation.                                I am                                       Faithfully Yours                                              Alice Schmuty. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-11T12:11:10" who="#NR">
+                
+                    Page 2515 modified:
+                    <!-- 
+<lb/>the Rathmines Police Station and saw Sergt Megahey <lb/> and told him what happened; he told me if I  <lb/>ever heard about M<hi rend="superscript">rs</hi> Skeffington or heard where she  <lb/> was I could keep the address, he also told me that <lb/> <hi rend="underline">'if a question did arise <hi rend="underline">as to her whereabouts'</hi></hi> I would be held responsible.</p> <p><hi rend="underline">On Oct 16th</hi> Sergt Megahey came to my house himself and  <lb/>asked me if I had heard anything further and I told  <lb/>him I had not. He asked me if there was any furniture of hers in my house.</p> <p><hi rend="underline">On Oct 19th</hi> Mrs Skeffington returned home unexpectedly <del>arrived at my home</del> <lb/>through family trouble. I then sent <del>for</del> to Sergt Megahey and  <lb/>told him M<hi rend="superscript">rs</hi> Skeffington was with me, thinking it was <lb/> necessary on account of their recent enquiries. When Sergt Megahey called in person &amp; made further enquiries.  <lb/>Why Sergt Megahey denies all  this I cannot understand, and  <lb/>a Sergt Hearon also called <add><del>also</del> (between Oct11th and Oct 16th)</add> and said he wanted to see <lb/> M<hi rend="superscript">rs</hi> Skeffington privately and also asked for her address.</p> <p> <hi rend="underline">On Oct 9th</hi> Constable Devine called with reference to my <lb/> permit - I would also like to state that my Father is a  <lb/>retired member of the R I Constabulary,I have  also  (2) two  <lb/>brothers in France since the beginning of the war, and  <lb/>what would be my object to bring myself under the  <lb/>notice of the Police if I had not been annoyed by  <lb/>them?</p> <p>Hoping you will give my statement your careful <lb/> investigation.</p> <salute>I am <lb/>Faithfully Yours</salute>              <signed> Alice. <hi rend="underline">Schmutz</hi></signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2515 created using version from <date when="2014-04-12T21:29:52"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2515 removed (version from <date when="2014-04-12T21:29:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2515 removed (version from <date when="2015-12-11T12:06:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2515 removed (version from <date when="2015-12-11T12:09:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2515 removed (version from <date when="2015-12-11T12:11:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2514 created using version from <date when="2014-04-12T20:33:09"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2514 removed (version from <date when="2014-04-12T20:33:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2514 removed (version from <date when="2015-12-11T12:04:26"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2514 removed (version from <date when="2015-12-11T12:04:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:11" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2515 (version from <date when="2015-12-11T12:11:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2514 added to letter (version from <date when="2015-12-11T12:04:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:19" who="#PythonScript">
+                
+                    Clean tags: Page 2514 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:19" who="#PythonScript">
+                
+                    Clean tags: Page 2515 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:37" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_972_img_2514" url="c2e631605e84f48c0ae10e48836037c9.jpg"/> 
+    
+    <graphic xml:id="L1916_972_img_2515" url="c392367e8f08160d0694a6a24978ee0c.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2514" facs="#L1916_972_img_2514"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>43 Moyne Road,</addrLine>
+<addrLine>Ranelagh</addrLine>
+<addrLine>Co. Dublin</addrLine></address> <dateline><date>Oct. 28.16</date></dateline>  <salute>Dear Sir/</salute></opener>            <p> With reference to a letter Mrs Skeffington  <lb/><del>which</del> gave me to read <add>(Mr Dukes safely -Parliament)</add> I fear you have <lb/> been misinformed about the real facts of the case.</p> <p> <hi rend="underline">On Oct 11th</hi> Constable Devine came to my house and asked <lb/> me if I was aware of the regulations with regard to <lb/> registering lodgers, I told him I was , he produced a  <lb/>book of rules and regulations and showed me a paragraph <lb/> in it; he then said he would like to see the forms <lb/> I showed him two, one for M<hi rend="superscript">rs</hi> Skeffington &amp; one for her  <lb/>little boy; when he read them he asked me why  <lb/><hi rend="underline">No's 10. 11 and 12</hi> were not filled in, and I told him <lb/> none of my lodgers ever filled in those numbers as I  <lb/>thought - they referred to aliens he told me I made a <lb/> great mistake 'as I would be responsible for her  <lb/>address, I referred him to M<hi rend="superscript">rs</hi> Skeffingtons Father <lb/>Darill Sheehy Esq. he then asked who received <lb/> her letters and then asked for M<hi rend="superscript">rs</hi> Skeffingtons  <lb/>sister's name and address which I gave him and <lb/> he took <hi rend="underline">down notes in his note book</hi></p> <p>On the same evening I went to
+        
+    
+
+    
+         
+        <pb n="2515" facs="#L1916_972_img_2515"/>
+        
+        
+           
+            <lb/>the Rathmines Police Station and saw Sergt Megahey <lb/> and told him what happened; he told me if I  <lb/>ever heard about M<hi rend="superscript">rs</hi> Skeffington or heard where she  <lb/> was I could keep the address, he also told me that <lb/> <hi rend="underline">'if a question did arise <hi rend="underline">as to her whereabouts'</hi></hi> I would be held responsible.</p> <p><hi rend="underline">On Oct 16th</hi> Sergt Megahey came to my house himself and  <lb/>asked me if I had heard anything further and I told  <lb/>him I had not. He asked me if there was any furniture of hers in my house.</p> <p><hi rend="underline">On Oct 19th</hi> Mrs Skeffington returned home unexpectedly <del>arrived at my home</del> <lb/>through family trouble. I then sent <del>for</del> to Sergt Megahey and  <lb/>told him M<hi rend="superscript">rs</hi> Skeffington was with me, thinking it was <lb/> necessary on account of their recent enquiries. When Sergt Megahey called in person &amp; made further enquiries.  <lb/>Why Sergt Megahey denies all  this I cannot understand, and  <lb/>a Sergt Hearon also called <add><del>also</del> (between Oct11th and Oct 16th)</add> and said he wanted to see <lb/> M<hi rend="superscript">rs</hi> Skeffington privately and also asked for her address.</p> <p> <hi rend="underline">On Oct 9th</hi> Constable Devine called with reference to my <lb/> permit - I would also like to state that my Father is a  <lb/>retired member of the R I Constabulary,I have  also  (2) two  <lb/>brothers in France since the beginning of the war, and  <lb/>what would be my object to bring myself under the  <lb/>notice of the Police if I had not been annoyed by  <lb/>them?</p> <p>Hoping you will give my statement your careful <lb/> investigation.</p> <closer><salute>I am <lb/>Faithfully Yours</salute>              <signed> Alice. <hi rend="underline">Schmutz</hi></signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

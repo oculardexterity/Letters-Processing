@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1219">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Bridie O&#39;Rahilly to Anna O&#39;Rahilly, 25 May 1916</title>
+                
+                <author>Bridie O&#39;Rahilly</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="HH">Hannah Healy</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="LSanders">LSanders</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1219</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This letter was written by Bridie O&#39;Rahilly (d. 1971) to Anna O&#39;Rahilly (d. 1958). In the letter Bridie offers Anna sympathy on the death of her brother Michael Joseph O&#39;Rahilly (1875-1916). Bridie writes that the people in her area seem to be proud that Michael came from their village, Ballylongford (County Kerry) and that Michael&#39;s sister, Nell, had been released from prison.    Michael Joseph &#39;The&#39; O&#39;Rahilly (1875–1916) was a nationalist and a journalist. In 1916 he aligned himself with Eoin MacNeill and Bulmer Hobson who opposed a preemptive rising. Although O&#39;Rahilly played a large role in delivering MacNeill&#39;s countermanding order he felt obligated to stand with the men he recruited and trained. O&#39;Rahilly was fatally wounded on the Thursday 27 April when the GPO was being evacuated.   </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Anna_ORahilly">Anna O&#39;Rahilly</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Bridie_ORahilly">Bridie O&#39;Rahilly</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-08-18T22:03:02" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-08-18T22:03:02" who="#Philcostel">
+                
+                    Page 3255 modified:
+                    <!-- 
+Bank of Ireland Office, Listowel 25th May 1916. <del>All Letters to be addressed to the Agent</del>  My dear Anna, It is time for me to write to you, but it is not from want of thought that I have deferred writing until now. I have scarcely ceased thinking of you all since I heard the terribly sad news about poor Michael; and I have prayed fervently for him and for you all every day since. This was the only small way in which I could assist you. Sometimes I wonder how the rest of you managed to survive these past few weeks at all. But with the Cross God gives the needful grace, I suppose. It would have only added to your grief, if possible, could you have seen how the country people round here took poor Michael's death. Except I had been on the spot I could not have credited it. They seemed to have been very proud that this was his native district; and I know that he will have a most impressive funeral when he is brought down to the Abbey. R.I.P. I am very glad, indeed, that Nell is released again. I hope she 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-08-18T22:12:49" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-08-18T22:12:49" who="#Philcostel">
+                
+                    Page 3256 modified:
+                    <!-- 
+is not feeling very done up after the prison treatment. Or perhaps the women are treated somewhat better. Mother told me, too, that you have heard Dick is well. D.G. If he were in Dublin even it would be a relief to you. A Miss Barrett from Ballylongford told me she heard from you. She wept when speaking of Michael, but, indeed, I have seen many others do the same. He has the prayers of all the country-side round here. But I am sure he is now happy with God. He was so v. kind to others always that God will not be outdone in generosity. Ml. McEllistrem of Ballylongford is dying at present. I believe he is some relation of the family? I hope I will see you when I am hoe on holidays next month. With deepest and heartfelt sympathy to you, Nell and Nannie and with much love. I am, dear Anna, Your affectionate cousin, Bridie O'Rahilly 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-08T01:43:56" who="#LSanders">
+                
+                    Page 3256 modified:
+                    <!-- 
+is not feeling very done up after the prison treatment. Or perhaps the women are treated somewhat better. Mother told me, too, that you have heard Dick is well. D.G. If he were in Dublin even it would be a relief to you. A Miss Barrett from Ballylongford told me she heard from you. She wept when speaking of Michael, but, indeed, I have seen many others do the same. He has the prayers of all the country-side round here. But I am sure he is now happy with God. He was so v. kind to others always that God will not be outdone in generosity. Ml. McEllistrem of Ballylongford is dying at present. I believe he is some relation of the family? I hope I will see you when I am home on holidays next month. With deepest and heartfelt sympathy to you, Nell and Nannie and with much love. I am, dear Anna, Your affectionate cousin, Bridie O'Rahilly 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-30T14:53:56" who="#NR">
+                
+                    Page 3255 modified:
+                    <!-- 
+<address>Bank of Ireland Office,</address> <address>Listowel</address> <date>25th May 1916.</date> <del>All Letters to be addressed to the Agent</del>  <salute>My dear Anna,</salute> <p>It is time for me to write to you, but <lb/> it is not from want of thought that I <lb/> have deferred writing until now. I have scarcely ceased thinking of you all since I heard the terribly sad news about poor Michael; and I have prayed fervently for him and for you all every day since. This was the only small way in which I could assist you. Sometimes I wonder how the rest of you managed to survive these past few weeks at all. But with the Cross God gives the needful grace, I suppose.</p> <p>It would have only added to your grief, if possible, could you have seen how the country people round here took poor Michael's death. Except I had been on the spot I could not have credited it. They seemed to have been very proud that this was his native district; and I know that he will have a most impressive funeral when he is brought down to the Abbey. R.I.P.</p> <p>I am very glad, indeed, that  <lb/>Nell is released again. I hope she 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-30T14:57:28" who="#NR">
+                
+                    Page 3256 modified:
+                    <!-- 
+is not feeling very done up after the prison treatment. Or perhaps the women are treated somewhat better. Mother told me, too, that you have heard Dick is well. D.G. If he were in Dublin even it would be a relief to you. A Miss Barrett from Ballylongford told me she heard from you. She wept when speaking of Michael, but, indeed, I have seen many others do the same.</p> He has the prayers of all the country-side round here. But I am sure he is now happy with God. He was so v. kind to others always that God will not be outdone in generosity. Ml. McEllistrem of Ballylongford is dying at present. I believe he is some relation of the family? I hope I will see you when I am home on holidays next month. With deepest and heartfelt sympathy to you, Nell and Nannie and with much love. <salute>I am, dear Anna, <lb/>Your affectionate cousin,</salute> <signed>Bridie <hi rend="underline">O'Rahilly</hi></signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-01T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-01T16:05:28" who="#NR">
+                
+                    Page 3255 modified:
+                    <!-- 
+<address>Bank of Ireland Office,</address> <address>Listowel</address> <date>25th May 1916.</date> <del>All Letters to be addressed to the Agent</del>  <salute>My dear Anna,</salute> <p>It is time for me to write to you, but <lb/> it is not from want of thought that I <lb/> have deferred writing until now. I have <lb/> scarcely ceased thinking of you all  <lb/>since I heard the terribly sad news  <lb/>about poor Michael; and I have prayed  <lb/>fervently for him and for you all every day  <lb/>since. This was the only small way in  <lb/>which I could assist you. Sometimes I  <lb/>wonder how the rest of you managed <lb/> to survive these past few weeks at all.  <lb/>But with the Cross God gives the  <lb/>needful grace, I suppose.</p> <p>It would have only added to your grief, if possible, could you have seen how the country people round here took poor Michael's death. Except I had been on the spot I could not have credited it. They seemed to have been very proud that this was his native district; and I know that he will have a most impressive funeral when he is brought down to the Abbey. R.I.P.</p> <p>I am very glad, indeed, that  <lb/>Nell is released again. I hope she 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-01T16:06:36" who="#NR">
+                
+                    Page 3255 modified:
+                    <!-- 
+<address>Bank of Ireland Office,</address> <address>Listowel</address> <date>25th May 1916.</date> <del>All Letters to be addressed to the Agent</del>  <salute>My dear Anna,</salute> <p>It is time for me to write to you, but <lb/> it is not from want of thought that I <lb/> have deferred writing until now. I have <lb/> scarcely ceased thinking of you all  <lb/>since I heard the terribly sad news  <lb/>about poor Michael; and I have prayed  <lb/>fervently for him and for you all every day  <lb/>since. This was the only small way in  <lb/>which I could assist you. Sometimes I  <lb/>wonder how the rest of you managed <lb/> to survive these past few weeks at all.  <lb/>But with the Cross God gives the  <lb/>needful grace, I suppose.</p> <p>It would have only added to <lb/>your grief, if possible, could you have <lb/> seen how the country people round <lb/> here took poor Michael's death. Except I <lb/> had been on the spot I could not have <lb/>credited it. They seemed to have been <lb/> very proud that this was his native  <lb/>district; and I know that he will <lb/>have a most impressive funeral when  <lb/>he is brought down to the Abbey. R.I.P.</p> <p>I am very glad, indeed, that  <lb/>Nell is released again. I hope she 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-01T16:13:58" who="#NR">
+                
+                    Page 3256 modified:
+                    <!-- 
+<lb/>is not feeling very done up after the  <lb/>prison treatment. Or perhaps the  <lb/>women are treated somewhat better. <lb/>Mother told me, too, that you have  <lb/>heard Dick is well. D.G. If he were <lb/> in Dublin even it would be a relief <lb/> to you.</p> <p>A Miss Barrett from Ballylongford told  <lb/>me she heard from you. She wept  <lb/>when speaking of Michael, but, indeed, I  <lb/>have seen many others do the same. <lb/>He has the prayers of all the country- <lb/>side round here. But I am sure he <lb/> is now happy with God. He was so v. <lb/> kind to others always that God will not <lb/> be outdone in generosity.</p> <p>Ml. McEllistrem of Ballylongford is dying <lb/> at present. I believe he is some relation <lb/>of the family?</p> <p>I hope I will see you when I am home <lb/> on holidays next month.</p> <p>With deepest and heartfelt sympathy to  <lb/>you, Nell and Nannie and with much  <lb/>love.</p> <salute>I am, dear Anna, <lb/>Your affectionate cousin,</salute> <signed>Bridie <hi rend="underline">O'Rahilly</hi></signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3256 created using version from <date when="2014-08-18T22:12:49"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3256 removed (version from <date when="2014-08-18T22:12:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3256 removed (version from <date when="2014-10-08T01:43:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3256 removed (version from <date when="2015-11-30T14:57:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3256 removed (version from <date when="2015-12-01T16:13:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3255 created using version from <date when="2014-08-18T22:03:02"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3255 removed (version from <date when="2014-08-18T22:03:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3255 removed (version from <date when="2015-11-30T14:53:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3255 removed (version from <date when="2015-12-01T16:05:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3255 removed (version from <date when="2015-12-01T16:06:36"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3256 (version from <date when="2015-12-01T16:13:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:15" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3255 added to letter (version from <date when="2015-12-01T16:06:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 3256 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 3255 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:30" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1219_img_3255" url="90f883c938988788410b16b77d49097e.jpg"/> 
+    
+    <graphic xml:id="L1916_1219_img_3256" url="005a7ca825c26ef403721fc053f52193.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3255" facs="#L1916_1219_img_3255"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>Bank of Ireland Office,</address> <address>Listowel</addrLine></address> <dateline><date>25th May 1916.</date></dateline> <del>All Letters to be addressed to the Agent</del>  <salute>My dear Anna,</salute></opener> <p>It is time for me to write to you, but <lb/> it is not from want of thought that I <lb/> have deferred writing until now. I have <lb/> scarcely ceased thinking of you all  <lb/>since I heard the terribly sad news  <lb/>about poor Michael; and I have prayed  <lb/>fervently for him and for you all every day  <lb/>since. This was the only small way in  <lb/>which I could assist you. Sometimes I  <lb/>wonder how the rest of you managed <lb/> to survive these past few weeks at all.  <lb/>But with the Cross God gives the  <lb/>needful grace, I suppose.</p> <p>It would have only added to <lb/>your grief, if possible, could you have <lb/> seen how the country people round <lb/> here took poor Michael's death. Except I <lb/> had been on the spot I could not have <lb/>credited it. They seemed to have been <lb/> very proud that this was his native  <lb/>district; and I know that he will <lb/>have a most impressive funeral when  <lb/>he is brought down to the Abbey. R.I.P.</p> <p>I am very glad, indeed, that  <lb/>Nell is released again. I hope she
+        
+    
+
+    
+         
+        <pb n="3256" facs="#L1916_1219_img_3256"/>
+        
+        
+           
+            <lb/>is not feeling very done up after the  <lb/>prison treatment. Or perhaps the  <lb/>women are treated somewhat better. <lb/>Mother told me, too, that you have  <lb/>heard Dick is well. D.G. If he were <lb/> in Dublin even it would be a relief <lb/> to you.</p> <p>A Miss Barrett from Ballylongford told  <lb/>me she heard from you. She wept  <lb/>when speaking of Michael, but, indeed, I  <lb/>have seen many others do the same. <lb/>He has the prayers of all the country- <lb/>side round here. But I am sure he <lb/> is now happy with God. He was so v. <lb/> kind to others always that God will not <lb/> be outdone in generosity.</p> <p>Ml. McEllistrem of Ballylongford is dying <lb/> at present. I believe he is some relation <lb/>of the family?</p> <p>I hope I will see you when I am home <lb/> on holidays next month.</p> <p>With deepest and heartfelt sympathy to  <lb/>you, Nell and Nannie and with much  <lb/>love.</p> <closer><salute>I am, dear Anna, <lb/>Your affectionate cousin,</salute> <signed>Bridie <hi rend="underline">O'Rahilly</hi></signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

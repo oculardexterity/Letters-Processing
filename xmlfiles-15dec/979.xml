@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_979">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Nancy Campbell to Mrs. O&#39;Rahilly, 17 May 1916.</title>
+                
+                <author>Nancy Campbell</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_979</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is a letter of condolence from Nancy Campbell to Nancy O&#39;Rahilly (1875-1961). The writer expresses sympathy with Mrs. O&#39;Rahilly family on the death of her &#39;heroic&#39; husband, mentioning the children and &#39;the child yet to be born&#39;. Campbell also writes about the honour of having known The O&#39;Rahilly and the other men who &#39;died for Ireland.&#39;    Nancy O&#39;Rahilly was a member of the Provisional Council of Cumann na mBan at the founding in 1914 and the wife of Michael Joseph O&#39;Rahilly, self-described as &#39;The&#39; O&#39;Rahilly (1875-1916). The O&#39;Rahilly fought in the Easter Rising and was shot in Parnell/Moore Street on 28 April 1916 and died some time later. Nancy was pregnant at the time of her husband&#39;s death – the child was born three months later. </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Nancy_ORahilly">Nancy O&#39;Rahilly</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Nancy_Campbell">Nancy Campbell</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-05-20T09:03:10" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-05-20T09:03:10" who="#Philcostel">
+                
+                    Page 2537 modified:
+                    <!-- 
+Kilmolin House, Enniskerry, Co.Wicklow May 17th 1916. Dear Mrs. O'Rahilly I would have written before but I heard you were ill - both Joseph & I would like to send our deepest sympathy, & also to tell you how greatly we admire the O'Rahillys behaviour - if anything could comfort you it must be the thought of his heroism - even the 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-05-20T09:07:43" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-05-20T09:07:43" who="#Philcostel">
+                
+                    Page 2538 modified:
+                    <!-- 
+newspapers are full of his praise, I see. The little boys will have a wonderful memory to live up to - & perhaps the new baby (there is to be one, isn't there) will be a comfort to you too - it must be all so terrible for you. I feel so proud of having known the O'Rahilly & some of the other brave men who died for Ireland with him. Yours sincerely Nancy Campbell 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-11T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-11T11:31:01" who="#NR">
+                
+                    Page 2537 modified:
+                    <!-- 
+<address>Kilmolin House,  <lb/>Enniskerry,  <lb/>Co.Wicklow</address> <date>May 17th 1916.</date> <salute>Dear Mrs. O'Rahilly</salute> <p>I would have written before <lb/> but I heard you were ill -  <lb/>both Joseph &amp; I would like <lb/> to send our deepest sympathy, <lb/> &amp; also to tell you how  <lb/>greatly we admire the <lb/> O'Rahillys behaviour - if <lb/> anything could comfort you <lb/> it must be the thought <lb/> of his heroism - even the 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-11T11:32:38" who="#NR">
+                
+                    Page 2538 modified:
+                    <!-- 
+<lb/>newspapers are full of his praise,  <lb/>I see. The little boys will have <lb/> a wonderful memory to live up <lb/> to - &amp; perhaps the new baby <lb/> (there is to be one, isn't there) will  <lb/>be a comfort to you too - it  <lb/>must be all so terrible for you. <lb/>I feel so proud of having  <lb/>known the O'Rahilly &amp; some <lb/> of the other brave men who  <lb/>died for Ireland with him.</p> <salute>Yours sincerely</salute> <signed>Nancy Campbell</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2537 created using version from <date when="2014-05-20T09:03:10"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2537 removed (version from <date when="2014-05-20T09:03:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2537 removed (version from <date when="2015-12-11T11:31:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2538 created using version from <date when="2014-05-20T09:07:43"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2538 removed (version from <date when="2014-05-20T09:07:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2538 removed (version from <date when="2015-12-11T11:32:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:11" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2537 (version from <date when="2015-12-11T11:31:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2538 added to letter (version from <date when="2015-12-11T11:32:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 2537 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 2538 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:45" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_979_img_2537" url="4937973c1fb21eb038c5f749413158ae.jpg"/> 
+    
+    <graphic xml:id="L1916_979_img_2538" url="76c497f18af6bbd5664da1f9d65aba8a.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2537" facs="#L1916_979_img_2537"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>Kilmolin House,</addrLine>
+<addrLine>Enniskerry,</addrLine>
+<addrLine>Co.Wicklow</addrLine></address> <dateline><date>May 17th 1916.</date></dateline> <salute>Dear Mrs. O'Rahilly</salute></opener> <p>I would have written before <lb/> but I heard you were ill -  <lb/>both Joseph &amp; I would like <lb/> to send our deepest sympathy, <lb/> &amp; also to tell you how  <lb/>greatly we admire the <lb/> O'Rahillys behaviour - if <lb/> anything could comfort you <lb/> it must be the thought <lb/> of his heroism - even the
+        
+    
+
+    
+         
+        <pb n="2538" facs="#L1916_979_img_2538"/>
+        
+        
+           
+            <lb/>newspapers are full of his praise,  <lb/>I see. The little boys will have <lb/> a wonderful memory to live up <lb/> to - &amp; perhaps the new baby <lb/> (there is to be one, isn't there) will  <lb/>be a comfort to you too - it  <lb/>must be all so terrible for you. <lb/>I feel so proud of having  <lb/>known the O'Rahilly &amp; some <lb/> of the other brave men who  <lb/>died for Ireland with him.</p> <closer><salute>Yours sincerely</salute> <signed>Nancy Campbell</signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

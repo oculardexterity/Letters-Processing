@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1597">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Irish Prisoners, Frongoch to Alfred Byrne, MP, 11 October 1916</title>
+                
+                <author>Irish Prisoners, Frongoch Internment Camp</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Sha-H-Ire">Sha-H-Ire</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Aoifewalsh">Aoifewalsh</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1597</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This letter was written by Michael Staines, on the behalf of Irish prisoners in Frongoch, to Alfred Byrne. This letter concerns the living conditions of Irish prisoners interned in Frongoch. According to the letter the living conditions in Frongoch are not suitable for human habitation and are causing health problems for some of the men.    Frongoch Internment Camp in Wales was a makeshift prison used for the internment of approximately 1,800 Irishmen in the wake of the Easter Rising, 1916. It was to become known as the &#39;University of Revolution&#39; due to the influential effect it had on its inmates.    The letter was signed by Michael Staines (1885 - 1955). Staines was a member of the Irish Republican Brotherhood and served as Quartermaster in the GPO during the Easter Rising. After the Rising he was detained in Frongoch where he was elected Head Leader by his peers.    The letter was addressed to Alfred Byrne (1882-1956). Byrne served as a member of parliament in the British House of Commons at the time of th</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Military Archives of Ireland">Military Archives of Ireland</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Alfred_Byrne">Alfred Byrne</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Irish_Prisoners,_Frongoch_Internment_Camp">Irish Prisoners, Frongoch Internment Camp</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-09-18T13:30:27" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-09-18T13:30:27" who="#Aoifewalsh">
+                
+                    Page 4060 modified:
+                    <!-- 
+<date>26th August<lb/> 11th October, 1916.</date><lb/>  <salute>To Alfred Byrne M.P.,<lb/></salute> <address>House of Commons.<lb/></address>  <salute>A chara,<lb/></salute>  <p>We, the undersigned, being the duly elected Camp Leaders<lb/> are desirous of drawing your attention to several grave complaints<lb/> concerning the conditions of our internment here.<lb/></p>  As doubtlelss you are aware the Irish prisoners are housed<lb/> here in grain lofts which were never intended for human habitation,<lb/> some of them not even possessing windows, being lighted and ventilated<lb/> only by a few skylights. According to Government measurement the<lb/> grain lofts at present in occupation are supposed to accomodate<lb/> 185, 200, 300, and 60 prisoners respectively but we feel sure that 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-09-19T11:32:44" who="#Aoifewalsh">
+                
+                    Page 4060 modified:
+                    <!-- 
+<date>26th August<lb/> 11th October, 1916.</date><lb/>  <salute>To Alfred Byrne M.P.,<lb/></salute> <address>House of Commons.<lb/></address>  <salute>A chara,<lb/></salute>  <p>We, the undersigned, being the duly elected Camp Leaders<lb/>  are desirous of drawing your attention to several grave complaints<lb/>  concerning the conditions of our internment here.<lb/></p>  As doubtlelss you are aware the Irish prisoners are housed<lb/>  here in grain lofts which were never intended for human habitation,<lb/>  some of them not even possessing windows, being lighted and ventilated<lb/>  only by a few skylights. According to Government measurement the<lb/>  grain lofts at present in occupation are supposed to accomodate<lb/>  185, 200, 300, and 60 prisoners respectively but we feel sure that<lb/> all impartial persons having any knowledge of hygiene or sanitation<lb/>  will agree with us that they are really unfit for human habitation,<lb/> and their injurious offensiveness in this respect is considerably<lb/> aggravated by the fact that two lavatories are established inside<lb/> the grain lofts. Men arise in the morning with what is known to<lb/> us as "that tired Frongoch feeling"; and the debilitating effect of<lb/> the sleeping in these grain lofts have been established beyond all<lb/> doubt by the number of men who have fainted on the early morning<lb/> parade. There are quite a number of prisoners suffering from<lb/> lung trouble sleeping amidst the other prisoners and when these<lb/> prisoners have been sent sick in the ordinary course of procedure<lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-09-30T14:05:52" who="#Aoifewalsh">
+                
+                    Page 4060 modified:
+                    <!-- 
+<date>26th August<lb/> 11th October, 1916.</date><lb/>  <salute>To Alfred Byrne M.P.,<lb/></salute> <address>House of Commons.<lb/></address>  <salute>A chara,<lb/></salute>  <p>We, the undersigned, being the duly elected Camp Leaders<lb/>  are desirous of drawing your attention to several grave complaints<lb/>  concerning the conditions of our internment here.<lb/></p>  <p>As doubtlelss you are aware the Irish prisoners are housed<lb/>  here in grain lofts which were never intended for human habitation,<lb/>  some of them not even possessing windows, being lighted and ventilated<lb/>  only by a few skylights. According to Government measurement the<lb/>  grain lofts at present in occupation are supposed to accomodate<lb/>  185, 200, 300, and 60 prisoners respectively but we feel sure that<lb/> all impartial persons having any knowledge of hygiene or sanitation<lb/>  will agree with us that they are really unfit for human habitation,<lb/> and their injurious offensiveness in this respect is considerably<lb/> aggravated by the fact that two lavatories are established inside<lb/> the grain lofts. Men arise in the morning with what is known to<lb/> us as "that tired Frongoch feeling"; and the debilitating effect of<lb/> the sleeping in these grain lofts have been established beyond all<lb/> doubt by the number of men who have fainted on the early morning<lb/> parade. There are quite a number of prisoners suffering from<lb/> lung trouble sleeping amidst the other prisoners and when these<lb/> prisoners have been sent sick in the ordinary course of procedure<lb/> they have been certified as alright; but when these men are brought<lb/> specially before the doctor by the camp leader he admits on a re-<lb/> examination that these men are suffering from lung trouble. It is<lb/> absolutely iniquitous that these unfortunate prisoners should be<lb/> compelled to live in such grain lofts amidst hundreds of other men.<lb/></p>  <p>On the 26th August last an application was made by the<lb/></p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-09-30T14:24:06" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-09-30T14:24:06" who="#Aoifewalsh">
+                
+                    Page 4061 modified:
+                    <!-- 
+<p>Camp leader for a transference of the whole body of prisoners<lb/> to what is known as the North Camp (wooden huts) on the grounds<lb/> that it was more healthy and comfortable than the old distillery<lb/> buildings which constitute the South Camp; this application<lb/> was brutally ignored. Another application for a transfer was<lb/> made on 11th October but the Commandant stated that he could not<lb/> move us without an order from the Home Office.<lb/></p>  <p>We should like to know if this refusal to transfer us<lb/> arose from a desire on the part of the authorities to ruin the<lb/> men's constitution by keeping them in the unhygienic and<lb/> insanitary surroundings of the South Camp.<lb/></p>  Signed (5)<lb/>  P.S. It is rumoured this morning (11th inst) that<lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-09-30T14:24:49" who="#Aoifewalsh">
+                
+                    Page 4060 modified:
+                    <!-- 
+<date>26th August<lb/> 11th October, 1916.</date><lb/>  <salute>To Alfred Byrne M.P.,<lb/></salute> <address>House of Commons.<lb/></address>  <salute>A chara,<lb/></salute>  <p>We, the undersigned, being the duly elected Camp Leaders<lb/>  are desirous of drawing your attention to several grave complaints<lb/>  concerning the conditions of our internment here.<lb/></p>  <p>As doubtlelss you are aware the Irish prisoners are housed<lb/>  here in grain lofts which were never intended for human habitation,<lb/>  some of them not even possessing windows, being lighted and ventilated<lb/>  only by a few skylights. According to Government measurement the<lb/>  grain lofts at present in occupation are supposed to accomodate<lb/>  185, 200, 300, and 60 prisoners respectively but we feel sure that<lb/> all impartial persons having any knowledge of hygiene or sanitation<lb/>  will agree with us that they are really unfit for human habitation,<lb/> and their injurious offensiveness in this respect is considerably<lb/> aggravated by the fact that two lavatories are established inside<lb/> the grain lofts. Men arise in the morning with what is known to<lb/> us as "that tired Frongoch feeling"; and the debilitating effect of<lb/> the sleeping in these grain lofts have been established beyond all<lb/> doubt by the number of men who have fainted on the early morning<lb/> parade. There are quite a number of prisoners suffering from<lb/> lung trouble sleeping amidst the other prisoners and when these<lb/> prisoners have been sent sick in the ordinary course of procedure<lb/> they have been certified as alright; but when these men are brought<lb/> specially before the doctor by the camp leader he admits on a re-<lb/> examination that these men are suffering from lung trouble. It is<lb/> absolutely iniquitous that these unfortunate prisoners should be<lb/> compelled to live in such grain lofts amidst hundreds of other men.<lb/></p>  On the 26th August last an application was made by the<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-08T11:28:18" who="#Aoifewalsh">
+                
+                    Page 4061 modified:
+                    <!-- 
+<p>Camp leader for a transference of the whole body of prisoners<lb/> to what is known as the North Camp (wooden huts) on the grounds<lb/> that it was more healthy and comfortable than the old distillery<lb/> buildings which constitute the South Camp; this application<lb/> was brutally ignored. Another application for a transfer was<lb/> made on 11th October but the Commandant stated that he could not<lb/> move us without an order from the Home Office.<lb/></p>  <p>We should like to know if this refusal to transfer us<lb/> arose from a desire on the part of the authorities to ruin the<lb/> men's constitution by keeping them in the unhygienic and<lb/> insanitary surroundings of the South Camp.<lb/></p>  Signed (5)<lb/>  <p>P.S. It is rumoured this morning (11th inst) that<lb/> this transfer to the North Camp is about to be granted to us.<lb/> We should like very much to know the reason why it should not be<lb/> granted to us on the 26th August instead of leaving it to this<lb/> late hour of the day when any of the men's health has already<lb/> become affected.<lb/></p>  <p>We are enclosing a copy of a letter to Mr. Ginnell<lb/> which was posted to him on the 10th inst. and we should be very glad <lb/> if you would deal with it, as no doubt, Mr. Ginnell would have<lb/> dealt with it had he been at liberty.<lb/></p>  M.S. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-31T13:12:16" who="#Sha-H-Ire">
+                
+                    Page 4060 modified:
+                    <!-- 
+<date>26th August<lb/> 11th October, 1916.</date><lb/>  <salute>To Alfred Byrne M.P.,<lb/></salute> <address>House of Commons.<lb/></address>  <salute>A chara,<lb/></salute>  <p>We, the undersigned, being the duly elected Camp Leaders<lb/> are desirous of drawing your attention to several grave complaints<lb/>  concerning the conditions of our internment here.<lb/></p>  <p>As doubtlelss you are aware the Irish prisoners are housed<lb/> here in grain lofts which were never intended for human habitation,<lb/>  some of them not even possessing windows, being lighted and ventilated<lb/> only by a few skylights. According to Government measurement the<lb/> grain lofts at present in occupation are supposed to accomodate<lb/> 185, 200, 300, and 60 prisoners respectively but we feel sure that<lb/> all impartial persons having any knowledge of hygiene or sanitation<lb/> will agree with us that they are really unfit for human habitation,<lb/> and their injurious offensiveness in this respect is considerably<lb/> aggravated by the fact that two lavatories are established inside<lb/> the grain lofts. Men arise in the morning with what is known to<lb/> us as "that tired Frongoch feeling"; and the debilitating effect of<lb/> the sleeping in these grain lofts have been established beyond all<lb/> doubt by the number of men who have fainted on the early morning<lb/> parade. There are quite a number of prisoners suffering from<lb/> lung trouble sleeping amidst the other prisoners and when these<lb/> prisoners have been sent sick in the ordinary course of procedure<lb/> they have been certified as alright; but when these men are brought<lb/> specially before the doctor by the camp leader he admits on a re-<lb/> examination that these men are suffering from lung trouble. It is<lb/> absolutely iniquitous that these unfortunate prisoners should be<lb/> compelled to live in such grain lofts amidst hundreds of other men.<lb/></p>  <p>On the 26th August last an application was made by the<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-25T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-25T11:17:46" who="#NR">
+                
+                    Page 4060 modified:
+                    <!-- 
+<date>26th August<lb/> 11th October, 1916.</date>  <address>To Alfred Byrne M.P.,<lb/> House of Commons.</address>  <salute>A chara,</salute>  <p>We, the undersigned, being the duly elected Camp Leaders<lb/>  are desirous of drawing your attention to several grave complaints<lb/>  concerning the conditions of our internment here.</p>  <p>As doubtlelss you are aware the Irish prisoners are housed<lb/>  here in grain lofts which were never intended for human habitation,<lb/>  some of them not even possessing windows, being lighted and ventilated<lb/>  only by a few skylights. According to Government measurement the<lb/>  grain lofts at present in occupation are supposed to accomodate<lb/>  185, 200, 300, and 60 prisoners respectively but we feel sure that<lb/>  all impartial persons having any knowledge of hygiene or sanitation<lb/>  will agree with us that they are really unfit for human habitation,<lb/>  and their injurious offensiveness in this respect is considerably<lb/>  aggravated by the fact that two lavatories are established inside<lb/>  the grain lofts. Men arise in the morning with what is known to<lb/> us as "that tired Frongoch feeling"; and the debilitating effect of<lb/>  the sleeping in these grain lofts have been established beyond all<lb/>  doubt by the number of men who have fainted on the early morning<lb/>  parade. There are quite a number of prisoners suffering from<lb/>  lung trouble sleeping amidst the other prisoners and when these<lb/>  prisoners have been sent sick in the ordinary course of procedure<lb/>  they have been certified as alright; but when these men are brought<lb/>  specially before the doctor by the camp leader he admits on a re-<lb/>  examination that these men are suffering from lung trouble. It is<lb/>  absolutely iniquitous that these unfortunate prisoners should be<lb/>  compelled to live in such grain lofts amidst hundreds of other men.</p>  <p>On the 26th August last an application was made by the<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-25T11:18:53" who="#NR">
+                
+                    Page 4061 modified:
+                    <!-- 
+Camp leader for a transference of the whole body of prisoners<lb/> to what is known as the North Camp (wooden huts) on the grounds<lb/> that it was more healthy and comfortable than the old distillery<lb/> buildings which constitute the South Camp; this application<lb/> was brutally ignored. Another application for a transfer was<lb/> made on 11th October but the Commandant stated that he could not<lb/> move us without an order from the Home Office.</p>  <p>We should like to know if this refusal to transfer us<lb/> arose from a desire on the part of the authorities to ruin the<lb/> men's constitution by keeping them in the unhygienic and<lb/> insanitary surroundings of the South Camp.</p>  Signed (5)<lb/>  <p>P.S. It is rumoured this morning (11th inst) that<lb/> this transfer to the North Camp is about to be granted to us.<lb/> We should like very much to know the reason why it should not be<lb/> granted to us on the 26th August instead of leaving it to this<lb/> late hour of the day when any of the men's health has already<lb/> become affected.</p>  <p>We are enclosing a copy of a letter to Mr. Ginnell<lb/> which was posted to him on the 10th inst. and we should be very glad <lb/> if you would deal with it, as no doubt, Mr. Ginnell would have<lb/> dealt with it had he been at liberty.</p>  M.S. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4060 created using version from <date when="2014-09-18T13:30:27"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4060 removed (version from <date when="2014-09-18T13:30:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4060 removed (version from <date when="2014-09-19T11:32:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4060 removed (version from <date when="2014-09-30T14:05:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4060 removed (version from <date when="2014-09-30T14:24:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4060 removed (version from <date when="2015-01-31T13:12:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4060 removed (version from <date when="2015-11-25T11:17:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4061 created using version from <date when="2014-09-30T14:24:06"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4061 removed (version from <date when="2014-09-30T14:24:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4061 removed (version from <date when="2014-10-08T11:28:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4061 removed (version from <date when="2015-11-25T11:18:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 4060 (version from <date when="2015-11-25T11:17:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 4061 added to letter (version from <date when="2015-11-25T11:18:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 4060 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 4061 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:52" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1597_img_4060" url="67f43438a8bd8ae343b86189726b0160.jpg"/> 
+    
+    <graphic xml:id="L1916_1597_img_4061" url="1ad495dc371f9d53b3ec47b66c5ea8e3.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="4060" facs="#L1916_1597_img_4060"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><dateline><date>26th August 11th October, 1916.</date></dateline>  <address><addrLine>To Alfred Byrne M.P.,</addrLine>
+<addrLine>House of Commons.</addrLine></address>  <salute>A chara,</salute></opener>  <p>We, the undersigned, being the duly elected Camp Leaders<lb/>  are desirous of drawing your attention to several grave complaints<lb/>  concerning the conditions of our internment here.</p>  <p>As doubtlelss you are aware the Irish prisoners are housed<lb/>  here in grain lofts which were never intended for human habitation,<lb/>  some of them not even possessing windows, being lighted and ventilated<lb/>  only by a few skylights. According to Government measurement the<lb/>  grain lofts at present in occupation are supposed to accomodate<lb/>  185, 200, 300, and 60 prisoners respectively but we feel sure that<lb/>  all impartial persons having any knowledge of hygiene or sanitation<lb/>  will agree with us that they are really unfit for human habitation,<lb/>  and their injurious offensiveness in this respect is considerably<lb/>  aggravated by the fact that two lavatories are established inside<lb/>  the grain lofts. Men arise in the morning with what is known to<lb/> us as "that tired Frongoch feeling"; and the debilitating effect of<lb/>  the sleeping in these grain lofts have been established beyond all<lb/>  doubt by the number of men who have fainted on the early morning<lb/>  parade. There are quite a number of prisoners suffering from<lb/>  lung trouble sleeping amidst the other prisoners and when these<lb/>  prisoners have been sent sick in the ordinary course of procedure<lb/>  they have been certified as alright; but when these men are brought<lb/>  specially before the doctor by the camp leader he admits on a re-<lb/>  examination that these men are suffering from lung trouble. It is<lb/>  absolutely iniquitous that these unfortunate prisoners should be<lb/>  compelled to live in such grain lofts amidst hundreds of other men.</p>  <p>On the 26th August last an application was made by the<pb/>
+        
+    
+
+    
+         
+        <pb n="4061" facs="#L1916_1597_img_4061"/>
+        
+        
+           
+            Camp leader for a transference of the whole body of prisoners<lb/> to what is known as the North Camp (wooden huts) on the grounds<lb/> that it was more healthy and comfortable than the old distillery<lb/> buildings which constitute the South Camp; this application<lb/> was brutally ignored. Another application for a transfer was<lb/> made on 11th October but the Commandant stated that he could not<lb/> move us without an order from the Home Office.</p>  <p>We should like to know if this refusal to transfer us<lb/> arose from a desire on the part of the authorities to ruin the<lb/> men's constitution by keeping them in the unhygienic and<lb/> insanitary surroundings of the South Camp.</p>  Signed (5)<lb/>  <p>P.S. It is rumoured this morning (11th inst) that<lb/> this transfer to the North Camp is about to be granted to us.<lb/> We should like very much to know the reason why it should not be<lb/> granted to us on the 26th August instead of leaving it to this<lb/> late hour of the day when any of the men's health has already<lb/> become affected.</p>  <p>We are enclosing a copy of a letter to Mr. Ginnell<lb/> which was posted to him on the 10th inst. and we should be very glad <lb/> if you would deal with it, as no doubt, Mr. Ginnell would have<lb/> dealt with it had he been at liberty.</p>  M.S.
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

@@ -7,8 +7,8 @@ import sys
 
 
 class Stream:
-	def __init__(self, f, dict_key, print_out=False, sheet="Translations"):
-		
+	def __init__(self, f, dict_key, print_out=False, sheet="Table1"):
+		print(type(f), f)
 		#print("default sheet:", sheet)
 		# Setup class for Excel file
 		if f.endswith('xlsx'):

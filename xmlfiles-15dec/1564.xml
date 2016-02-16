@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1564">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from James Walsh to Alice Stopford Green, 27 July 1916</title>
+                
+                <author>James Walsh </author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Ryan101">Ryan101</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="AnneParsons">Anne Parsons</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1564</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This letter was addressed to Alice Stopford Green (1847-1929). Green was the wife of historian John Richard Green (1837-1883). In addition to this she was a nationalist, involved in the Howth gun-running and a historian in her own right. She was shocked by the 1916 Rising and horrified that Casement had been plotting to obtain German assistance. Nonetheless, she visited Casement in prison and lobbied hard to prevent his execution.   Author of the letter James Walsh (b. 1880) was a clerk in Urlingford Union, County  Kilkenny.  The letter is in regard to a petition gathered by the Urlingsford Board of Guardians for clemency to be shown to Rodger Casement  in response to his death sentence.    Rodger Casement  (1864-1916) had been imprisoned in London after he had been arrested while landing on the coast of Kerry in a submarine on the eve of the Easter Rising. A campaign was launched featuring many prominent figures such as Alice Stopford Green, W. B. Yeats and George Bernard Shaw to secure a reprieve for Caseme</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#National Library of Ireland">National Library of Ireland</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Alice_Stopford_Green_">Alice Stopford Green </persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#James_Walsh_">James Walsh </persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-10-08T10:00:50" who="#Ryan101">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-10-08T10:00:50" who="#AnneParsons">
+                
+                    Page 3981 modified:
+                    <!-- 
+27th July, 1916 Mrs Stofford Green, 36 Grosvenor Road, Westminster. Madam, By direction of the Urlingford Board of Guardians, and at the suggestion of Mr J.F. Sweetman of Mount St. Benedict, Gorey, Co Wexford, I send you herewith, the attached Petition unanimously adopted by 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-08T10:04:10" who="#Ryan101">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-10-08T10:04:10" who="#AnneParsons">
+                
+                    Page 3982 modified:
+                    <!-- 
+by them at their meeting today, on the proposition of Mr. T. Harrington, J.P.Co.C., seconded by Mr Wm O'Connell, J.P., D.C., pleading for clemency for Roger Casement, and urging that the sentence passed on him may not be carried out. - I am, Madam, Your obedient Servant, James Walsh, Clerk of Union 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-26T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-27T10:28:09" who="#NR">
+                
+                    Page 3981 modified:
+                    <!-- 
+<date>27th July, 1916</date> <address>Mrs Stofford Green,<lb/> 36 Grosvenor Road,<lb/> Westminster.</address> <salute>Madam,</salute> <p>By direction of the<lb/>  Urlingford Board of<lb/>  Guardians, and at the<lb/>  suggestion of Mr J.F. Sweetman<lb/>  of Mount St. Benedict,<lb/>  Gorey, Co Wexford, I send<lb/>  you herewith, the attached<lb/>  Petition unanimously adopted<lb/>  <hi rend="underline">by</hi><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-27T10:29:58" who="#NR">
+                
+                    Page 3982 modified:
+                    <!-- 
+by them at their meeting<lb/> today, on the proposition<lb/>  of Mr. T. Harrington, J.P.Co.C.,<lb/>  seconded by Mr W<hi rend="superscript">m</hi> O'Connell, <lb/> J.P., D.C., pleading for<lb/>  clemency for Roger <lb/> Casement, and urging<lb/>  that the sentence passed<lb/>  on him may not be<lb/>  carried out. -</p> <salute>I am, Madam,<lb/> Your obedient Servant,</salute> James Walsh,<lb/> <hi rend="underline">Clerk of Union</hi> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3981 created using version from <date when="2014-10-08T10:00:50"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3981 removed (version from <date when="2014-10-08T10:00:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3981 removed (version from <date when="2015-11-27T10:28:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3982 created using version from <date when="2014-10-08T10:04:10"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3982 removed (version from <date when="2014-10-08T10:04:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3982 removed (version from <date when="2015-11-27T10:29:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3981 (version from <date when="2015-11-27T10:28:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3982 added to letter (version from <date when="2015-11-27T10:29:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:15" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:17" who="#PythonScript">
+                
+                    Clean tags: Page 3981 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:17" who="#PythonScript">
+                
+                    Clean tags: Page 3982 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:28" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1564_img_3981" url="ce453c10c95266e0f63502b00afabda1.jpg"/> 
+    
+    <graphic xml:id="L1916_1564_img_3982" url="f8e42bbee71bd9daeba824e98e8de0cf.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3981" facs="#L1916_1564_img_3981"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><dateline><date>27th July, 1916</date></dateline> <address><addrLine>Mrs Stofford Green,</addrLine>
+<addrLine>36 Grosvenor Road,</addrLine>
+<addrLine>Westminster.</addrLine></address> <salute>Madam,</salute></opener> <p>By direction of the<lb/>  Urlingford Board of<lb/>  Guardians, and at the<lb/>  suggestion of Mr J.F. Sweetman<lb/>  of Mount St. Benedict,<lb/>  Gorey, Co Wexford, I send<lb/>  you herewith, the attached<lb/>  Petition unanimously adopted<lb/>  <hi rend="underline">by</hi><pb/>
+        
+    
+
+    
+         
+        <pb n="3982" facs="#L1916_1564_img_3982"/>
+        
+        
+           
+            by them at their meeting<lb/> today, on the proposition<lb/>  of Mr. T. Harrington, J.P.Co.C.,<lb/>  seconded by Mr W<hi rend="superscript">m</hi> O'Connell, <lb/> J.P., D.C., pleading for<lb/>  clemency for Roger <lb/> Casement, and urging<lb/>  that the sentence passed<lb/>  on him may not be<lb/>  carried out. -</p> <closer><salute>I am, Madam,<lb/> Your obedient Servant,</salute></closer> James Walsh,<lb/> <hi rend="underline">Clerk of Union</hi>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

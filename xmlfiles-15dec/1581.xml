@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1581">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from George Gavan Duffy to Messrs Corrigan &amp; Corrigan, 31 July 1916</title>
+                
+                <author>George Gavan Duffy</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="MaryGrehan">Mary Grehan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Scribe57">Scribe57</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="RichardBreen">RichardBreen</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1581</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>George Gavan Duffy (1882-1951) was an Irish politician, barrister and judge. He unsuccessfully defended Roger Casement at his trial for high treason after the Easter Rising. His legal practice represented many of those detained in the aftermath of the Rising..  Frongoch Internment Camp in Wales was a makeshift prison used for the internment of approximately 1,800 Irishmen in the wake of the Easter Rising, 1916. It was to become known as the &#39;University of Revolution&#39; because of the revolutionary nature of the inmates.  Gavan Duffy&#39;s legal practice has been representing Irish Prisoners held in England but, because he has been fully engaged in the defence of Roger Casement, he has had to delegate the prisoners&#39; work to his colleague, Mr McDonnell. As regards fees, Gavan Duffy says that had he known from the outset that instructions were on behalf of  the National Aid Committee he wouldn&#39;t have taken any money. He has reduced the fees to a nominal amount.   He is reluctant to take on any cases which are unlikely</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Military Archives of Ireland">Military Archives of Ireland</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Messrs_Corrigan_&amp;_Corrigan">Messrs Corrigan &amp; Corrigan</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#George_Gavan_Duffy">George Gavan Duffy</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-04-18T20:02:57" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-04-18T20:02:57" who="#Scribe57">
+                
+                    Page 4007 modified:
+                    <!-- 
+31st July 1916.  Measrs Corrigan & Corrigan 3 ST. Andrew Street,  Dublin.  Dear Sirs:-  <hi rend="underline">The Irish Prisoners</hi>:-  I have carefully considered with Mr McDonnell your <lb/> suggestion that we should reduce our proposed charge of 3/4d per <lb/> head to cover the costs and expenses herein, for we are both anxious <lb/> to meet you in every possible way.  <p>paragraph</p>When you and Mr Byrne first instructed me, I did not <lb/> realize that the Nation Aid Committee was instructing you and <lb/> I feel considerably embarrassed now, because it is repugnant to take <lb/> money from that source in competition with the destitute.   <p>paragraph</p>Had I not been so deeply engaged in Roger Casement's case <lb/> as to have had to refuse all new work and devote practically every <lb/> moment of my time to him (as you will readily understand, I felt <lb/> bound to do), I should have felt it a pleasure and a duty to take <lb/> up the cases of the Irish Prisoners myself with to without any <lb/> promise of reward. But as it was quite impossible for me to look <lb/> after them, I delegated to Mr MacDonnell the bulk of the work. He <lb/> is <hi rend="underline">literally</hi> the only solicitor in London to whom I should have <lb/> cared to confide this business and my confidence in him is not <lb/> misplaced for, not only has he given up the past month almost <lb/> exclusively to the Irish Prisoners at the expense of very long hours, <lb/> as you know, but he has done the work and advised the prisoners with <lb/> really remarkable skill. It is due to Mr McDonnell that your <lb/> Committee should know that I have satisfied myself of this fact. His<lb/>  labours have necessarily been a very great strain upon him, but I <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-18T20:14:17" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-04-18T20:14:17" who="#Scribe57">
+                
+                    Page 4008 modified:
+                    <!-- 
+<hi rend="underline">Messrs Corrigan & Corrigan.</hi> <hi rend="underline">(2)</hi> <hi rend="underline">31/7/16</hi>  need not dwell on this because you are yourselves in a position, from <lb/> your own observations, to give the Committee full information on that <lb/>score.  <p>paragraph</p>All the Irish Prisoners in this country (some 1,800, I think) <lb/> have now been dealt with and we are now met with the unpleasant dilemma <lb/> of our fees on the one hand, and Irish distress on the other. The <lb/> original fees ask/ed for were by no means excessive - in fact quite the <lb/> contrary, but we cannot hold our for them in the special circumstances <lb/> and, after consultation with Mr McDonnell, I have decided to ask your <lb/> Committee for a sum of 200 guineas in settlement, of which about £20 <lb/> represents disbursements out of pocket. This will cover all the work <lb/> we have done, including the Nunans' case.   <pb/>I only wish I had been in a position to tell the Committee <lb/> that I should make no claim at all; nothing would have given no greater <lb/>pleasure.  <p>paragraph</p>As to the Nunans' case, I have taken the advice of Senior <lb/> and Junior Counsel and have reluctantly come to the conclusion that <lb/>there is no prospect of doing anything for them by way of <hi rend="underline">habeus <lb/> corpus</hi>.   As to Collins and Stack, I am in communication with Dr. O'Connell <lb/> of Tralee who is specially concerned for them.   <p>paragraph</p> As to the prisoners in England generally, you will receive <lb/> by this mail a list of those who have been released from Mr McDonnell <lb/> and a further list will follow. I am very anxious to apply for <hi rend="underline">habeus <lb/> corpus</hi> in the case of any of those unreleased prisoners where we have <lb/> a prospect of success, but, on the other hand, I really do not think <lb/> that there is anything to be gained from there present temper of public <lb/> opinion <hi rend="underline">in England</hi> by making applications (if they are foredoomed to <lb/> failure) with the object of enlisting public opinion upon the hardships <lb/> these men have suffered.   <p>paragraph</p> I am going to consider with Mr McDonnell any particular case <lb/> of a person who, upon special facts, may have grounds for claiming <lb/> his liberty by <hi rend="underline">habeus corpus</hi>, but, apart from such special cases, as <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-18T20:20:39" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-04-18T20:20:39" who="#Scribe57">
+                
+                    Page 4009 modified:
+                    <!-- 
+<hi rend="underline">Messrs Corrigan & Corrigan  (3)  31/7/16</hi>  to which I am still very doubtful of any success in the Law Courts, <lb/> I think your Committee will agree that legal proceedings should not <lb/> be taken unless there is, at least, a fair prospect of a favourable <lb/> issue.  <p>paragraph</p> In my view, public opinion in Ireland should be publicly <lb/> acquainted with the facts concerning the prisoners, so far as it is <lb/> possible for you to obtain publicity and the Irish members of <lb/> Parliament should be pressed to take up the matter as a body and this, <lb/> I think, they might be prevailed upon to do if your Committee's demands <lb/> were supported from the various constituencies. AS they are the only <lb/> people who can voice Irish opinion freely at the present moment and <lb/> as they are the elected representatives and ambassadors of the Nation,<lb/> it is quite obviously their duty to take this matter up whole-heartedly <lb/> and I think it is quite obviously the duty of those interested in the <lb/> prisoners to press their claims on the Irish members, however much <lb/> the politics of many of us may differ from the politics of the Irish <lb/> parties.   <p>paragraph</p><hi rend="underline">Re</hi> Tierney. He has been before the Committee, but he is very <lb/> seriously ill and I have very grave doubts as to his recovery. <lb/> Yours Faithfully 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-29T14:25:24" who="#MaryGrehan">
+                
+                    Page 4007 modified:
+                    <!-- 
+<!~~ stamped on the right hand corner in red BUREAU OF MILITARY HISTORY 1913-21.<lb/>BURO MILEATA 1913-21<lb/> No. C.C. 45/4/17 ~~>  <date>31st July 1916.</date> <address>Measrs Corrigan & Corrigan 3 ST. Andrew Street,  Dublin</address>.  <salute>Dear Sirs:-</salute> <hi rend="underline">The Irish Prisoners</hi>:-  <p>I have carefully considered with Mr McDonnell your <lb/> suggestion that we should reduce our proposed charge of 3/4d per <lb/> head to cover the costs and expenses herein, for we are both anxious <lb/> to meet you in every possible way.</p> <p> When you and Mr Byrne first instructed me, I did not <lb/> realize that the Nation Aid Committee was instructing you and <lb/> I feel considerably embarrassed now, because it is repugnant to take <lb/> money from that source in competition with the destitute.</p> <p> Had I not been so deeply engaged in Roger Casement's case <lb/> as to have had to refuse all new work &amp; devote practically every <lb/> moment of my time to him (as you will readily understand, I felt <lb/> bound to do), I should have felt it a pleasure and a duty to take <lb/> up the cases of the Irish Prisoners myself with to without any <lb/> promise of reward. But as it was quite impossible for me to look <lb/> after them, I delegated to Mr MacDonnell the bulk of the work. He <lb/> is <hi rend="underline">literally</hi> the only solicitor in London to whom I should have <lb/> cared to confide this business and my confidence in him is not <lb/> misplaced for, not only has he given up the past month almost <lb/> exclusively to the Irish Prisoners at the expense of very long hours, <lb/> as you know, but he has done the work and advised the prisoners with <lb/> really remarkable skill. It is due to Mr McDonnell that your <lb/> Committee should know that I have satisfied myself of this fact. His<lb/>  labours have necessarily been a very great strain upon him, but I <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-29T14:30:43" who="#MaryGrehan">
+                
+                    Page 4008 modified:
+                    <!-- 
+<hi rend="underline">Messrs Corrigan & Corrigan.</hi> <hi rend="underline">(2)</hi> <hi rend="underline">31/7/16</hi>  need not dwell on this because you are yourselves in a position, from <lb/> your own observations, to give the Committee full information on that <lb/>score.<p> </p> <p>All the Irish Prisoners in this country (some 1,800, I think) <lb/> have now been dealt with and we are now met with the unpleasant dilemma <lb/> of our fees on the one hand, and Irish distress on the other. The <lb/> original fees ask/ed for were by no means excessive - in fact quite the <lb/> contrary, but we cannot hold our for them in the special circumstances <lb/> and, after consultation with Mr McDonnell, I have decided to ask your <lb/> Committee for a sum of 200 guineas in settlement, of which about £20 <lb/> represents disbursements out of pocket. This will cover all the work <lb/> we have done, including the Nunans' case. <pb/> <p>I  only wish I had been in a position to tell the Committee <lb/> that I should make no claim at all; nothing would have given no greater <lb/>pleasure.<p> </p>As to the Nunans' case, I have taken the advice of Senior <lb/> and Junior Counsel and have reluctantly come to the conclusion that <lb/>there is no prospect of doing anything for them by way of <hi rend="underline">habeus <lb/> corpus</hi>. <p> As to Collins &amp; Stack, I am in communication with Dr. O'Connell <lb/> of Tralee who is specially concerned for them. </p>  <p> As to the prisoners in England generally, you will receive <lb/> by this mail a list of those who have been released from Mr McDonnell <lb/> and a further list will follow. I am very anxious to apply for <hi rend="underline">habeus <lb/> corpus</hi> in the case of any of those unreleased prisoners where we have <lb/> a prospect of success, but, on the other hand, I really do not think <lb/> that there is anything to be gained from there present temper of public <lb/> opinion <hi rend="underline">in England</hi> by making applications (if they are foredoomed to <lb/> failure) with the object of enlisting public opinion upon the hardships <lb/> these men have suffered. </p>  <p> I am going to consider with Mr McDonnell any particular case <lb/> of a person who, upon special facts, may have grounds for claiming <lb/> his liberty by <hi rend="underline">habeus corpus</hi>, but, apart from such special cases, as <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-29T14:33:43" who="#MaryGrehan">
+                
+                    Page 4009 modified:
+                    <!-- 
+<hi rend="underline">Messrs Corrigan & Corrigan  (3)  31/7/16</hi>  to which I am still very doubtful of any success in the Law Courts, <lb/> I think your Committee will agree that legal proceedings should not <lb/> be taken unless there is, at least, a fair prospect of a favourable <lb/> issue. </p>  <p> In my view, public opinion in Ireland should be publicly <lb/> acquainted with the facts concerning the prisoners, so far as it is <lb/> possible for you to obtain publicity and the Irish members of <lb/> Parliament should be pressed to take up the matter as a body and this, <lb/> I think, they might be prevailed upon to do if your Committee's demands <lb/> were supported from the various constituencies. AS they are the only <lb/> people who can voice Irish opinion freely at the present moment and <lb/> as they are the elected representatives and ambassadors of the Nation,<lb/> it is quite obviously their duty to take this matter up whole-heartedly <lb/> and I think it is quite obviously the duty of those interested in the <lb/> prisoners to press their claims on the Irish members, however much <lb/> the politics of many of us may differ from the politics of the Irish <lb/> parties. </p><p><hi rend="underline">Re</hi> Tierney. He has been before the Committee, but he is very <lb/> seriously ill and I have very grave doubts as to his recovery. </p> <salute>Yours faithfully,</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-03T00:00:00" who="#RB">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#RB" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-03T23:11:34" who="#RichardBreen">
+                
+                    Page 4007 modified:
+                    <!-- 
+<!~~ stamped on the right hand corner in red BUREAU OF MILITARY HISTORY 1913-21.<lb/>BURO MILEATA 1913-21<lb/> No. C.C. 45/4/17 ~~>  <date>31st July 1916.</date> <address>Measrs Corrigan & Corrigan <lb/>3 ST. Andrew Street,  <lb/>Dublin</address>.  <salute>Dear Sirs:-</salute> <lb/><hi rend="underline">The Irish Prisoners</hi>:-  <p>I have carefully considered with Mr McDonnell your  <lb/> suggestion that we should reduce our proposed charge of 3/4d per <lb/> head to cover the costs and expenses herein, for we are both anxious  <lb/> to meet you in every possible way.</p>  <p> When you and Mr Byrne first instructed me, I did not  <lb/> realize that the Nation Aid Committee was instructing you and  <lb/> I feel considerably embarrassed now, because it is repugnant to take  <lb/> money from that source in competition with the destitute.</p>  <p> Had I not been so deeply engaged in Roger Casement's case  <lb/> as to have had to refuse all new work &amp; devote practically every  <lb/> moment of my time to him (as you will readily understand, I felt  <lb/> bound to do), I should have felt it a pleasure and a duty to take  <lb/> up the cases of the Irish Prisoners myself with to without any  <lb/> promise of reward. But as it was quite impossible for me to look  <lb/> after them, I delegated to Mr MacDonnell the bulk of the work. He <lb/> is <hi rend="underline">literally</hi> the only solicitor in London to whom I should have  <lb/> cared to confide this business and my confidence in him is not  <lb/> misplaced for, not only has he given up the past month almost  <lb/> exclusively to the Irish Prisoners at the expense of very long hours,  <lb/> as you know, but he has done the work and advised the prisoners with  <lb/> really remarkable skill. It is due to Mr McDonnell that your  <lb/> Committee should know that I have satisfied myself of this fact. His <lb/>  labours have necessarily been a very great strain upon him, but I 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-03T23:23:36" who="#RichardBreen">
+                
+                    Page 4008 modified:
+                    <!-- 
+<hi rend="underline">Messrs Corrigan & Corrigan.</hi> <hi rend="underline">(2)</hi> <hi rend="underline">31/7/16</hi>  need not dwell on this because you are yourselves in a position, from  <lb/> your own observations, to give the Committee full information on that  <lb/>score.</p>  <p>All the Irish Prisoners in this country (some 1,800, I think)  <lb/> have now been dealt with and we are now met with the unpleasant dilemma  <lb/> of our fees on the one hand, and Irish distress on the other. The  <lb/> original fees ask/ed for were by no means excessive - in fact quite the  <lb/> contrary, but we cannot hold our for them in the special circumstances  <lb/> and, after consultation with Mr McDonnell, I have decided to ask your  <lb/> Committee for a sum of 200 guineas in settlement, of which about £20  <lb/> represents disbursements out of pocket. This will cover all the work  <lb/> we have done, including the Nunans' case. <pb/>  <p>I  only wish I had been in a position to tell the Committee  <lb/> that I should make no claim at all; nothing would have given no greater  <lb/>pleasure.</p> <p>As to the Nunans' case, I have taken the advice of Senior  <lb/> and Junior Counsel and have reluctantly come to the conclusion that  <lb/>there is no prospect of doing anything for them by way of <hi rend="underline">habeus</hi>  <lb/> <hi rend="underline">corpus</hi></p> <p> As to Collins &amp; Stack, I am in communication with Dr. O'Connell  <lb/> of Tralee who is specially concerned for them. </p>   <p> As to the prisoners in England generally, you will receive  <lb/> by this mail a list of those who have been released from Mr McDonnell  <lb/> and a further list will follow. I am very anxious to apply for <hi rend="underline">habeus</hi> <lb/><hi rend="underline">corpus</hi> in the case of any of those unreleased prisoners where we have <lb/> a prospect of success, but, on the other hand, I really do not think  <lb/> that there is anything to be gained from there present temper of public  <lb/> opinion <hi rend="underline">in England</hi> by making applications (if they are foredoomed to  <lb/> failure) with the object of enlisting public opinion upon the hardships  <lb/> these men have suffered. </p>   <p> I am going to consider with Mr McDonnell any particular case  <lb/> of a person who, upon special facts, may have grounds for claiming  <lb/> his liberty by <hi rend="underline">habeus corpus</hi>, but, apart from such special cases, as 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-03T23:26:10" who="#RichardBreen">
+                
+                    Page 4009 modified:
+                    <!-- 
+<hi rend="underline">Messrs Corrigan & Corrigan  (3)  31/7/16</hi>  to which I am still very doubtful of any success in the Law Courts,  <lb/> I think your Committee will agree that legal proceedings should not  <lb/> be taken unless there is, at least, a fair prospect of a favourable  <lb/> issue. </p>  <p> In my view, public opinion in Ireland should be publicly  <lb/> acquainted with the facts concerning the prisoners, so far as it is  <lb/> possible for you to obtain publicity and the Irish members of  <lb/> Parliament should be pressed to take up the matter as a body and this,  <lb/> I think, they might be prevailed upon to do if your Committee's demands  <lb/> were supported from the various constituencies. As they are the only  <lb/> people who can voice Irish opinion freely at the present moment and  <lb/> as they are the elected representatives and ambassadors of the Nation, <lb/> it is quite obviously their duty to take this matter up whole-heartedly  <lb/> and I think it is quite obviously the duty of those interested in the  <lb/> prisoners to press their claims on the Irish members, however much  <lb/> the politics of many of us may differ from the politics of the Irish  <lb/> parties. </p> <p><hi rend="underline">Re</hi> Tierney. He has been before the Committee, but he is very  <lb/> seriously ill and I have very grave doubts as to his recovery. </p> <salute>Yours faithfully,</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T15:43:51" who="#NR">
+                
+                    Page 4007 modified:
+                    <!-- 
+<!~~ stamped on the right hand corner in red BUREAU OF MILITARY HISTORY 1913-21.<lb/>BURO MILEATA 1913-21<lb/> No. C.C. 45/4/17 ~~>  <date>31st July 1916.</date> <address>Measrs Corrigan &amp; Corrigan <lb/>3 ST. Andrew Street,  <lb/>Dublin</address>.  <salute>Dear Sirs:-</salute> <lb/><hi rend="underline">The Irish Prisoners</hi>:-  <p>I have carefully considered with Mr McDonnell your  <lb/> suggestion that we should reduce our proposed charge of 3/4d per <lb/> head to cover the costs and expenses herein, for we are both anxious  <lb/> to meet you in every possible way.</p>  <p> When you and Mr Byrne first instructed me, I did not  <lb/> realize that the Nation Aid Committee was instructing you and  <lb/> I feel considerably embarrassed now, because it is repugnant to take  <lb/> money from that source in competition with the destitute.</p>  <p> Had I not been so deeply engaged in Roger Casement's case  <lb/> as to have had to refuse all new work &amp; devote practically every  <lb/> moment of my time to him (as you will readily understand, I felt  <lb/> bound to do), I should have felt it a pleasure and a duty to take  <lb/> up the cases of the Irish Prisoners myself with to without any  <lb/> promise of reward. But as it was quite impossible for me to look  <lb/> after them, I delegated to Mr MacDonnell the bulk of the work. He <lb/> is <hi rend="underline">literally</hi> the only solicitor in London to whom I should have  <lb/> cared to confide this business and my confidence in him is not  <lb/> misplaced for, not only has he given up the past month almost  <lb/> exclusively to the Irish Prisoners at the expense of very long hours,  <lb/> as you know, but he has done the work and advised the prisoners with  <lb/> really remarkable skill. It is due to Mr McDonnell that your  <lb/> Committee should know that I have satisfied myself of this fact. His <lb/>  labours have necessarily been a very great strain upon him, but I 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T15:44:26" who="#NR">
+                
+                    Page 4008 modified:
+                    <!-- 
+<hi rend="underline">Messrs Corrigan & Corrigan.</hi> <hi rend="underline">(2)</hi> <hi rend="underline">31/7/16</hi>  <lb/>need not dwell on this because you are yourselves in a position, from  <lb/> your own observations, to give the Committee full information on that  <lb/>score.</p>  <p>All the Irish Prisoners in this country (some 1,800, I think)  <lb/> have now been dealt with and we are now met with the unpleasant dilemma  <lb/> of our fees on the one hand, and Irish distress on the other. The  <lb/> original fees ask/ed for were by no means excessive - in fact quite the  <lb/> contrary, but we cannot hold our for them in the special circumstances  <lb/> and, after consultation with Mr McDonnell, I have decided to ask your  <lb/> Committee for a sum of 200 guineas in settlement, of which about £20  <lb/> represents disbursements out of pocket. This will cover all the work  <lb/> we have done, including the Nunans' case. </p> <p>I  only wish I had been in a position to tell the Committee  <lb/> that I should make no claim at all; nothing would have given no greater  <lb/>pleasure.</p> <p>As to the Nunans' case, I have taken the advice of Senior  <lb/> and Junior Counsel and have reluctantly come to the conclusion that  <lb/>there is no prospect of doing anything for them by way of <hi rend="underline">habeus</hi>  <lb/> <hi rend="underline">corpus</hi></p> <p> As to Collins &amp; Stack, I am in communication with Dr. O'Connell  <lb/> of Tralee who is specially concerned for them. </p>   <p> As to the prisoners in England generally, you will receive  <lb/> by this mail a list of those who have been released from Mr McDonnell  <lb/> and a further list will follow. I am very anxious to apply for <hi rend="underline">habeus</hi> <lb/><hi rend="underline">corpus</hi> in the case of any of those unreleased prisoners where we have <lb/> a prospect of success, but, on the other hand, I really do not think  <lb/> that there is anything to be gained from there present temper of public  <lb/> opinion <hi rend="underline">in England</hi> by making applications (if they are foredoomed to  <lb/> failure) with the object of enlisting public opinion upon the hardships  <lb/> these men have suffered. </p>   <p> I am going to consider with Mr McDonnell any particular case  <lb/> of a person who, upon special facts, may have grounds for claiming  <lb/> his liberty by <hi rend="underline">habeus corpus</hi>, but, apart from such special cases, as 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T15:44:50" who="#NR">
+                
+                    Page 4009 modified:
+                    <!-- 
+<hi rend="underline">Messrs Corrigan & Corrigan  (3)  31/7/16</hi>  <lb/>to which I am still very doubtful of any success in the Law Courts,  <lb/> I think your Committee will agree that legal proceedings should not  <lb/> be taken unless there is, at least, a fair prospect of a favourable  <lb/> issue. </p>  <p> In my view, public opinion in Ireland should be publicly  <lb/> acquainted with the facts concerning the prisoners, so far as it is  <lb/> possible for you to obtain publicity and the Irish members of  <lb/> Parliament should be pressed to take up the matter as a body and this,  <lb/> I think, they might be prevailed upon to do if your Committee's demands  <lb/> were supported from the various constituencies. As they are the only  <lb/> people who can voice Irish opinion freely at the present moment and  <lb/> as they are the elected representatives and ambassadors of the Nation, <lb/> it is quite obviously their duty to take this matter up whole-heartedly  <lb/> and I think it is quite obviously the duty of those interested in the  <lb/> prisoners to press their claims on the Irish members, however much  <lb/> the politics of many of us may differ from the politics of the Irish  <lb/> parties. </p> <p><hi rend="underline">Re</hi> Tierney. He has been before the Committee, but he is very  <lb/> seriously ill and I have very grave doubts as to his recovery. </p> <salute>Yours faithfully,</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4007 created using version from <date when="2015-04-18T20:02:57"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4007 removed (version from <date when="2015-04-18T20:02:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4007 removed (version from <date when="2015-04-29T14:25:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4007 removed (version from <date when="2015-12-03T23:11:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4007 removed (version from <date when="2015-12-04T15:43:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4008 created using version from <date when="2015-04-18T20:14:17"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4008 removed (version from <date when="2015-04-18T20:14:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4008 removed (version from <date when="2015-04-29T14:30:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4008 removed (version from <date when="2015-12-03T23:23:36"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4008 removed (version from <date when="2015-12-04T15:44:26"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4009 created using version from <date when="2015-04-18T20:20:39"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4009 removed (version from <date when="2015-04-18T20:20:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4009 removed (version from <date when="2015-04-29T14:33:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4009 removed (version from <date when="2015-12-03T23:26:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4009 removed (version from <date when="2015-12-04T15:44:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 4007 (version from <date when="2015-12-04T15:43:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 4008 added to letter (version from <date when="2015-12-04T15:44:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 4009 added to letter (version from <date when="2015-12-04T15:44:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 4008 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 4009 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 4007 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:44" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1581_img_4007" url="11a7cf35e3068772e04f62cd747f2f08.jpg"/> 
+    
+    <graphic xml:id="L1916_1581_img_4008" url="21ee7cd1e138f707f9c63441315f476b.jpg"/> 
+    
+    <graphic xml:id="L1916_1581_img_4009" url="2aa34d0e26e7e6be8b82bcf5c33e5984.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="4007" facs="#L1916_1581_img_4007"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<!-- stamped on the right hand corner in red BUREAU OF MILITARY HISTORY 1913-21.<lb/>BURO MILEATA 1913-21<lb/> No. C.C. 45/4/17 -->  <opener><dateline><date>31st July 1916.</date></dateline> <address><addrLine>Measrs Corrigan &amp; Corrigan</addrLine>
+<addrLine>3 ST. Andrew Street,</addrLine>
+<addrLine>Dublin</addrLine></address>.  <salute>Dear Sirs:-</salute></opener> <lb/><hi rend="underline">The Irish Prisoners</hi>:-  <p>I have carefully considered with Mr McDonnell your  <lb/> suggestion that we should reduce our proposed charge of 3/4d per <lb/> head to cover the costs and expenses herein, for we are both anxious  <lb/> to meet you in every possible way.</p>  <p> When you and Mr Byrne first instructed me, I did not  <lb/> realize that the Nation Aid Committee was instructing you and  <lb/> I feel considerably embarrassed now, because it is repugnant to take  <lb/> money from that source in competition with the destitute.</p>  <p> Had I not been so deeply engaged in Roger Casement's case  <lb/> as to have had to refuse all new work &amp; devote practically every  <lb/> moment of my time to him (as you will readily understand, I felt  <lb/> bound to do), I should have felt it a pleasure and a duty to take  <lb/> up the cases of the Irish Prisoners myself with to without any  <lb/> promise of reward. But as it was quite impossible for me to look  <lb/> after them, I delegated to Mr MacDonnell the bulk of the work. He <lb/> is <hi rend="underline">literally</hi> the only solicitor in London to whom I should have  <lb/> cared to confide this business and my confidence in him is not  <lb/> misplaced for, not only has he given up the past month almost  <lb/> exclusively to the Irish Prisoners at the expense of very long hours,  <lb/> as you know, but he has done the work and advised the prisoners with  <lb/> really remarkable skill. It is due to Mr McDonnell that your  <lb/> Committee should know that I have satisfied myself of this fact. His <lb/>  labours have necessarily been a very great strain upon him, but I
+        
+    
+
+    
+         
+        <pb n="4008" facs="#L1916_1581_img_4008"/>
+        
+        
+           
+            <hi rend="underline">Messrs Corrigan &amp; Corrigan.</hi> <hi rend="underline">(2)</hi> <hi rend="underline">31/7/16</hi>  <lb/>need not dwell on this because you are yourselves in a position, from  <lb/> your own observations, to give the Committee full information on that  <lb/>score.</p>  <p>All the Irish Prisoners in this country (some 1,800, I think)  <lb/> have now been dealt with and we are now met with the unpleasant dilemma  <lb/> of our fees on the one hand, and Irish distress on the other. The  <lb/> original fees ask/ed for were by no means excessive - in fact quite the  <lb/> contrary, but we cannot hold our for them in the special circumstances  <lb/> and, after consultation with Mr McDonnell, I have decided to ask your  <lb/> Committee for a sum of 200 guineas in settlement, of which about £20  <lb/> represents disbursements out of pocket. This will cover all the work  <lb/> we have done, including the Nunans' case. </p> <p>I  only wish I had been in a position to tell the Committee  <lb/> that I should make no claim at all; nothing would have given no greater  <lb/>pleasure.</p> <p>As to the Nunans' case, I have taken the advice of Senior  <lb/> and Junior Counsel and have reluctantly come to the conclusion that  <lb/>there is no prospect of doing anything for them by way of <hi rend="underline">habeus</hi>  <lb/> <hi rend="underline">corpus</hi></p> <p> As to Collins &amp; Stack, I am in communication with Dr. O'Connell  <lb/> of Tralee who is specially concerned for them. </p>   <p> As to the prisoners in England generally, you will receive  <lb/> by this mail a list of those who have been released from Mr McDonnell  <lb/> and a further list will follow. I am very anxious to apply for <hi rend="underline">habeus</hi> <lb/><hi rend="underline">corpus</hi> in the case of any of those unreleased prisoners where we have <lb/> a prospect of success, but, on the other hand, I really do not think  <lb/> that there is anything to be gained from there present temper of public  <lb/> opinion <hi rend="underline">in England</hi> by making applications (if they are foredoomed to  <lb/> failure) with the object of enlisting public opinion upon the hardships  <lb/> these men have suffered. </p>   <p> I am going to consider with Mr McDonnell any particular case  <lb/> of a person who, upon special facts, may have grounds for claiming  <lb/> his liberty by <hi rend="underline">habeus corpus</hi>, but, apart from such special cases, as
+        
+    
+         
+        <pb n="4009" facs="#L1916_1581_img_4009"/>
+        
+        
+           
+            <hi rend="underline">Messrs Corrigan &amp; Corrigan  (3)  31/7/16</hi>  <lb/>to which I am still very doubtful of any success in the Law Courts,  <lb/> I think your Committee will agree that legal proceedings should not  <lb/> be taken unless there is, at least, a fair prospect of a favourable  <lb/> issue. </p>  <p> In my view, public opinion in Ireland should be publicly  <lb/> acquainted with the facts concerning the prisoners, so far as it is  <lb/> possible for you to obtain publicity and the Irish members of  <lb/> Parliament should be pressed to take up the matter as a body and this,  <lb/> I think, they might be prevailed upon to do if your Committee's demands  <lb/> were supported from the various constituencies. As they are the only  <lb/> people who can voice Irish opinion freely at the present moment and  <lb/> as they are the elected representatives and ambassadors of the Nation, <lb/> it is quite obviously their duty to take this matter up whole-heartedly  <lb/> and I think it is quite obviously the duty of those interested in the  <lb/> prisoners to press their claims on the Irish members, however much  <lb/> the politics of many of us may differ from the politics of the Irish  <lb/> parties. </p> <p><hi rend="underline">Re</hi> Tierney. He has been before the Committee, but he is very  <lb/> seriously ill and I have very grave doubts as to his recovery. </p> <closer><salute>Yours faithfully,</salute></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

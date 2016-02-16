@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1574">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Arthur John Eagleston to the Lord Justices, 23 May 1916. </title>
+                
+                <author>Arthur John Eagleston</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Smorris">Smorris</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Ryan101">Ryan101</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Anthropanda">Anthropanda</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1574</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is a letter from Arthur John Eagleston (1870-1944), assistant secretary in the Home Office in London, to the Lords Justices at Dublin Castle confirming that they have been sworn in as Lord Justices for the Government in Ireland during the absence of the lord ieutenant. The lord lieutenant, Ivor Churchill Guest, Lord Wimborne (1873-1939), had reluctantly offered his resignation in the aftermath of the Easter Rising but was later exonerated by the commission of enquiry into the Rising and resumed the role, which he held until 1918.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#National Archives of Ireland ">National Archives of Ireland </repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Lords_Justices,_Dublin_Castle">Lords Justices, Dublin Castle</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Arthur_John_Eagleston">Arthur John Eagleston</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-08-21T17:29:04" who="#Ryan101">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-08-21T17:29:04" who="#Smorris">
+                
+                    Page 3995 modified:
+                    <!-- 
+<address>Whitehall</address> <date>23rd May, 1916.</date>  <salute>My Lords,</salute><p> I have the honour , by direction of the secretary of the State, to acknowledge the receipt of your Excellencies' letter of the 20th instant, notifying that you have been sworn as Lords Justices for the government of Ireland during the absence of the Lord Lieutenant.</p> <salute>I have the honour to be. My Lords, Your Excellencies' obedient Servant, A. J. Eagleston</salute>  Their Excellencies The Lords Justices, &c. &c. &c. Dublin Castle 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-06T22:58:43" who="#Anthropanda">
+                
+                    Page 3995 modified:
+                    <!-- 
+<add>8816-21May.1916 <lb/> OFFICE</add>  <head><address>Whitehall</address> <date>23rd May, 1916.</date></head>  <head>274983/10</head>  <salute>My Lords,<lb/></salute><p> I have the honour , by direction <lb/> of the secretary of the State, to acknowledge the <lb/> receipt of your Excellencies' letter of the <lb/> 20th instant, notifying that you have been <lb/> sworn as Lords Justices for the government <lb/> of Ireland during the absence of the <lb/> Lord Lieutenant.<lb/></p> <salute>I have the honour to be, <lb/> My Lords, <lb/> Your Excellencies' obedient Servant, <lb/> A. J. Eagleston<lb/></salute>  Their Excellencies <lb/> The Lords Justices, <lb/>  &c. &c. &c. <lb/> Dublin Castle.<lb/>  <add>e. <gap/> <lb/> <hi rend="underline">27-r-16</hi> </add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-06T23:00:36" who="#Anthropanda">
+                
+                    Page 3995 modified:
+                    <!-- 
+<add>8816-21May.1916 <lb/> OFFICE<lb/></add>  <head><address>Whitehall<lb/></address> <date>23rd May, 1916.<lb/></date></head>  <head>274983/10<lb/></head>  <salute>My Lords,<lb/></salute><p> I have the honour , by direction <lb/> of the secretary of the State, to acknowledge the <lb/> receipt of your Excellencies' letter of the <lb/> 20th instant, notifying that you have been <lb/> sworn as Lords Justices for the government <lb/> of Ireland during the absence of the <lb/> Lord Lieutenant.<lb/></p> <salute>I have the honour to be, <lb/> My Lords, <lb/> Your Excellencies' obedient Servant, <lb/> A. J. Eagleston<lb/></salute>  Their Excellencies <lb/> The Lords Justices, <lb/>  &c. &c. &c. <lb/> Dublin Castle.<lb/>  <add>e. <gap/> <lb/> <hi rend="underline">27-r-16</hi> </add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T15:49:06" who="#Tbrosnan">
+                
+                    Page 3995 modified:
+                    <!-- 
+<add>8816-21May.1916 <lb/> OFFICE<lb/></add> <head><address>Whitehall<lb/></address> <date>23rd May, 1916.<lb/></date></head> <head>274983/10<lb/></head> <salute>My Lords,<lb/></salute><p> <p>I have the honour , by direction <lb/> of the secretary of the State, to acknowledge the <lb/> receipt of your Excellencies' letter of the <lb/> 20<hi rend="superscript">th</hi> instant, notifying that you have been <lb/> sworn as Lords Justices for the government <lb/> of Ireland during the absence of the <lb/> Lord Lieutenant.<lb/></p> <salute>I have the honour to be, <lb/> My Lords, <lb/> Your Excellencies' obedient Servant, <lb/> A. J. Eagleston<lb/></salute>  Their Excellencies <lb/> The Lords Justices, <lb/>  &c. &c. &c. <lb/> Dublin Castle.<lb/>  <add>e. <gap/> <lb/> <hi rend="underline"><date>27-8-16</date></hi> </add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-26T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-27T10:07:15" who="#NR">
+                
+                    Page 3995 modified:
+                    <!-- 
+<address>Whitehall</address> <date>23rd May, 1916.</date> <salute>My Lords,</salute> <p>I have the honour , by direction <lb/>  of the secretary of the State, to acknowledge the <lb/>  receipt of your Excellencies' letter of the <lb/>  20<hi rend="superscript">th</hi> instant, notifying that you have been <lb/>  sworn as Lords Justices for the government <lb/>  of Ireland during the absence of the <lb/>  Lord Lieutenant.</p> <salute>I have the honour to be, <lb/> My Lords, <lb/> Your Excellencies' obedient Servant,</salute> A. J. Eagleston<lb/>  <address>Their Excellencies <lb/> The Lords Justices, <lb/>  &c. &c. &c. <lb/> Dublin Castle.</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3995 created using version from <date when="2014-08-21T17:29:04"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3995 removed (version from <date when="2014-08-21T17:29:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3995 removed (version from <date when="2014-10-06T22:58:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3995 removed (version from <date when="2014-10-06T23:00:36"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3995 removed (version from <date when="2015-11-24T15:49:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3995 removed (version from <date when="2015-11-27T10:07:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3995 (version from <date when="2015-11-27T10:07:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:17" who="#PythonScript">
+                
+                    Clean tags: Page 3995 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:24" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1574_img_3995" url="679bb29648bdb7fcbd1bcec505e490f8.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3995" facs="#L1916_1574_img_3995"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>Whitehall</addrLine></address> <dateline><date>23rd May, 1916.</date></dateline> <salute>My Lords,</salute></opener> <p>I have the honour , by direction <lb/>  of the secretary of the State, to acknowledge the <lb/>  receipt of your Excellencies' letter of the <lb/>  20<hi rend="superscript">th</hi> instant, notifying that you have been <lb/>  sworn as Lords Justices for the government <lb/>  of Ireland during the absence of the <lb/>  Lord Lieutenant.</p> <closer><salute>I have the honour to be, <lb/> My Lords, <lb/> Your Excellencies' obedient Servant,</salute> A. J. Eagleston<lb/>  <address><addrLine>Their Excellencies</addrLine>
+<addrLine>The Lords Justices,</addrLine>
+<addrLine>&c. &c. &c.</addrLine>
+<addrLine>Dublin Castle.</addrLine></address></closer>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

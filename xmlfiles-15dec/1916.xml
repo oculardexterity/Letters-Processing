@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1916">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from George A. Lyons to the Honorary Secretary of Sinn Féin, 5 April 1916</title>
+                
+                <author>George A. Lyons</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="WB">William Buck</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Scribe57">Scribe57</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Annie">Annie</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1916</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>A letter from George A. Lyons, Honorary Secretary, B. Company, Third Battallion, Irish Volunteers, to the Honorary Secretary of Sinn Féin inquiring about the cost of hiring a room on 29 April for a &#39;smoker&#39; or a recruitment event.     George A. Lyons (d. 1950) fought in the Boland&#39;s Mill Garrison during Easter Week. He was imprisoned in Frongoch, Wandsworth and Lincoln. Prior to the rising Lyons had been a founding member of the Irish Republican Brotherhood and was an active participant in the War of Independence. </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Allen Library">Allen Library</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Honorary_Secretary,_Sinn_Féin">Honorary Secretary, Sinn Féin</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#George_A._Lyons">George A. Lyons</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-02-14T20:37:15" who="#WB">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-02-14T20:37:15" who="#Annie">
+                
+                    Page 4804 modified:
+                    <!-- 
+( top left ) <date> IE/AL/1916/7</date>  address>  B. Coy~~- Third Battalion I.V.                                           144 Gt. Brunswick St.                                             5  4/16 salute> A Chara, <lb/> The above propose holding <lb/> a "snooker " on Sat. 29th inst. <lb/> and would like to know for <lb/> what figure they could have the <lb/> use of your room if then vacant <lb/> Yours Fraternally, <lb/> Geo. A. Lyons <lb/> Hon. Sec.  ( end of page ) The Hon. Sec. <lb/> Sinn Fein. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-08T16:00:53" who="#Scribe57">
+                
+                    Page 4804 modified:
+                    <!-- 
+( top left ) <date> IE/AL/1916/7</date>  address>  B. Coy~~- Third Battalion I.V.                                           144 Gt. Brunswick St.                                             5  4/16 salute> A Chara, <lb/> The above propose holding <lb/> a "smoker " on Sat. 29th inst. <lb/> and would like to know for <lb/> what figure they could have the <lb/> use of your room if then vacant <lb/> Yours Fraternally, <lb/> Geo. A. Lyons <lb/> Hon. Sec.  ( end of page ) The Hon. Sec. <lb/> Sinn Fein. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T14:52:41" who="#NR">
+                
+                    Page 4804 modified:
+                    <!-- 
+<address>B. Coy~~- Third Battalion I.V.<lb/> 144 Gt. Brunswick St.</address> <date>5  4/16</date> <salute>A Chara, </salute> <p>The above propose holding <lb/>  a "smoker " on Sat. 29th inst. <lb/>  and would like to know for <lb/>  what figure they could have the <lb/>  use of your room if then vacant</p>   <salute>Yours Fraternally,  </salute>Geo. A. Lyons <lb/>  Hon. Sec.<lb/> <address>The Hon. Sec. <lb/>  Sinn Fein.</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4804 created using version from <date when="2015-02-14T20:37:15"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4804 removed (version from <date when="2015-02-14T20:37:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4804 removed (version from <date when="2015-04-08T16:00:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4804 removed (version from <date when="2015-11-20T14:52:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 4804 (version from <date when="2015-11-20T14:52:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 4804 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:45" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1916_img_4804" url="c368167d08fe9f0d8946892ba2ec09c4.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="4804" facs="#L1916_1916_img_4804"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>B. Coy--- Third Battalion I.V.</addrLine>
+<addrLine>144 Gt. Brunswick St.</addrLine></address> <dateline><date>5  4/16</date></dateline> <salute>A Chara, </salute></opener> <p>The above propose holding <lb/>  a "smoker " on Sat. 29th inst. <lb/>  and would like to know for <lb/>  what figure they could have the <lb/>  use of your room if then vacant</p>   <closer><salute>Yours Fraternally,  </salute>Geo. A. Lyons <lb/>  Hon. Sec.<lb/> <address><addrLine>The Hon. Sec.</addrLine>
+<addrLine>Sinn Fein.</addrLine></address></closer>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

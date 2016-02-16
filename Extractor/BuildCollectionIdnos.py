@@ -17,18 +17,18 @@ class BuildCollectionIdnos(Processor):
 	def _addIdnos(self, row):
 		print('Extracting IDnos, letter ', row["Letter"])
 		new_row = row
+		print(row["DocCollection"])
+		new_row["Document_Collection"] = self.extracted(row["DocCollection"])
+		new_row["Document_Number"] = self.subextracted(row["DocCollection"])
 
-		new_row["Document_Collection"] = self.extracted(row["Document Collection/Number"])
-		new_row["Document_Number"] = self.subextracted(row["Document Collection/Number"])
-
-
+		print(new_row["Document_Collection"], new_row["Document_Number"])
 		# AND going to add a date function here for no reason #
 		try:
 			date_parsed = dateparser.parse(row["DATE_created"])
 			new_row["DATE_created_as_words"] = date_parsed.strftime('%d %B %Y')[1:] if date_parsed.strftime('%d %B %Y')[0] == '0' else date_parsed.strftime('%d %B %Y')
 		except Exception as e:
 			pass
-			#print(e, row["Letter"])
+			print(e, row["Letter"])
 
 		return new_row
 

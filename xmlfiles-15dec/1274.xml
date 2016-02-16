@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1274">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from William Henry Caunt to Herbert Henry Asquith, 4 May 1916</title>
+                
+                <author>William Henry Caunt</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BarneyDoherty">Barney Doherty</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1274</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is a letter from a William Henry Caunt (b. 1879) of Cheshire to  Herbert Henry Asquith (1852-1928), then Liberal Prime Minister of Great Britain. Caunt writes to complain about the low level of security on the Irish borders, which he sees as a threat to national security. Caunt claims he is writing as someone who was trapped in Dublin during the Rising during which stray shots posed a constant risk to one&#39;s life he feared the rebels. As a solution Caunt recommends that a house to house search should be carried out and conscription introduced in Ireland.     </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#National Archives of Ireland">National Archives of Ireland</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Herbert_Henry_Asquith">Herbert Henry Asquith</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#William_Henry_Caunt">William Henry Caunt</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-10-17T12:41:19" who="#BarneyDoherty">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-10-17T12:41:19" who="#SS">
+                
+                    Page 3344 modified:
+                    <!-- 
+Sir,  I feel it my public duty to bring to your notice the comparatively lax scrutiny which is being exercised in the case of persons passing from as well as to Ireland, and which,  from the point of view of national safety, I am convinced is nothing like as thorough as the present state of affairs in  Ireland demand. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-17T12:43:59" who="#SS">
+                
+                    Page 3344 modified:
+                    <!-- 
+Sir,  I feel it my public duty to bring to your notice the comparatively lax scrutiny which is being exercised in the case of persons passing from as well as to Ireland, and which,  from the point of view of national safety, I am convinced is nothing like as thorough as the present state of affairs in  Ireland demand. I speak as one of those luckless subjects of  His Majesty who, until Monday evening last, was prevented from leaving Dublin during Easter week owing to the ill-gotten purposes of republican Irishmen, suffering much inconvenience, fright, and constant risk of one's life from stray shots which flitted about  from one side, than the other, and all the unexpected outcome of an innocent visit for Easter Sunday and Monday. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-10-17T12:55:52" who="#SS">
+                
+                    Page 3344 modified:
+                    <!-- 
+Sir,  I feel it my public duty to bring to your notice the comparatively lax scrutiny which is being exercised in the case of persons passing from as well as to Ireland, and which,  from the point of view of national safety, I am convinced is nothing like as thorough as the present state of affairs in  Ireland demand. I speak as one of those luckless subjects of  His Majesty who, until Monday evening last, was prevented from leaving Dublin during Easter week owing to the ill-gotten purposes of republican Irishmen, suffering much inconvenience, fright, and constant risk of one's life from stray shots which flitted about  from one side, than the other, and all the unexpected outcome of an innocent visit for Easter Sunday and Monday. I do not complain  so much of the scrutiny on the other side, xx xxxx as of the fact that at Holyhead no person's landing from the Dublin S.S. Coy's  Steamer "Munster" was challenged wither by a representative from the Army, Navy, or Civic Police Authorities. Personally I expected  the Kingstown examination was but a preliminary, and not a final one. I can assure you, in the face of political assertions to the  contrary from Irish M.P.s in parliament that the rebels have so  large a body of open and secret sympathisers as to demand the strict- est scrutiny by the authorities at each port to and from Ireland. A  house to house search here is imperative where arms and treason abound,  and it would be interesting to know how many Alien or Sein Fein Clergy  are presently enjoying liberty and immunity from suspicion. Why not  after this, compel every Irishmen to do his bit who can be spared?   Yours faithfully, William Henry Caunt  To the Right Hon: H.H. ASWUITH, M.P. , P.C. DOWNING STREET WESTMINSTER S.W. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-30T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-30T10:34:07" who="#NR">
+                
+                    Page 3344 modified:
+                    <!-- 
+<address>33, NELSON STREET,<lb/> C R E W E<lb/>  CHESIRE.</address>   <date>May 4th. 1916</date> <salute>Sir,</salute>  <p>I feel it my public duty to bring to your<lb/> notice the comparatively lax scrutiny which is being exercised<lb/> in the case of persons passing from as well as to Ireland, and which,<lb/>  from the point of view of national safety, I am convinced is<lb/> nothing like as thorough as the present state of affairs in<lb/>  Ireland demand. I speak as one of those luckless subjects of<lb/>  His Majesty who, until Monday evening last, was prevented from<lb/> leaving Dublin during Easter week owing to the ill-gotten purposes<lb/> of republican Irishmen, suffering much inconvenience, fright, and<lb/> constant risk of one's life from stray shots which flitted about<lb/>  from one side, than the other, and all the unexpected outcome of an<lb/> innocent visit for Easter Sunday and Monday. I do not complain<lb/>  so much of the scrutiny on the other side, xx xxxx as of the fact<lb/> that at Holyhead no person's landing from the Dublin S.S. Coy's<lb/>  Steamer "Munster" was challenged wither by a representative from<lb/> the Army, Navy, or Civic Police Authorities. Personally I expected<lb/>  the Kingstown examination was but a preliminary, and not a final<lb/> one. I can assure you, in the face of political assertions to the<lb/>  contrary from Irish M.P.s in parliament that the rebels have so <lb/> large a body of open and secret sympathisers as to demand the strict-<lb/> est scrutiny by the authorities at each port to and from Ireland. A<lb/>  house to house search here is imperative where arms and treason abound,<lb/>  and it would be interesting to know how many Alien or Sein Fein Clergy<lb/>  are presently enjoying liberty and immunity from suspicion. Why not<lb/>  after this, compel every Irishmen to do his bit who can be spared?</p>   <salute>Yours faithfully,</salute> William Henry Caunt<lb/>  <address>To the Right Hon:<lb/> H.H. ASQUITH, M.P. , P.C.<lb/> DOWNING STREET<lb/> WESTMINSTER<lb/> S.W.</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3344 created using version from <date when="2014-10-17T12:41:19"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3344 removed (version from <date when="2014-10-17T12:41:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3344 removed (version from <date when="2014-10-17T12:43:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3344 removed (version from <date when="2014-10-17T12:55:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3344 removed (version from <date when="2015-11-30T10:34:07"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3344 (version from <date when="2015-11-30T10:34:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:15" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:19" who="#PythonScript">
+                
+                    Clean tags: Page 3344 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:35" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1274_img_3344" url="e0f476b3cef8e6c0cb24c0a6bc0da2dd.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3344" facs="#L1916_1274_img_3344"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>33, NELSON STREET,</addrLine>
+<addrLine>C R E W E</addrLine>
+<addrLine>CHESIRE.</addrLine></address>   <dateline><date>May 4th. 1916</date></dateline> <salute>Sir,</salute></opener>  <p>I feel it my public duty to bring to your<lb/> notice the comparatively lax scrutiny which is being exercised<lb/> in the case of persons passing from as well as to Ireland, and which,<lb/>  from the point of view of national safety, I am convinced is<lb/> nothing like as thorough as the present state of affairs in<lb/>  Ireland demand. I speak as one of those luckless subjects of<lb/>  His Majesty who, until Monday evening last, was prevented from<lb/> leaving Dublin during Easter week owing to the ill-gotten purposes<lb/> of republican Irishmen, suffering much inconvenience, fright, and<lb/> constant risk of one's life from stray shots which flitted about<lb/>  from one side, than the other, and all the unexpected outcome of an<lb/> innocent visit for Easter Sunday and Monday. I do not complain<lb/>  so much of the scrutiny on the other side, xx xxxx as of the fact<lb/> that at Holyhead no person's landing from the Dublin S.S. Coy's<lb/>  Steamer "Munster" was challenged wither by a representative from<lb/> the Army, Navy, or Civic Police Authorities. Personally I expected<lb/>  the Kingstown examination was but a preliminary, and not a final<lb/> one. I can assure you, in the face of political assertions to the<lb/>  contrary from Irish M.P.s in parliament that the rebels have so <lb/> large a body of open and secret sympathisers as to demand the strict-<lb/> est scrutiny by the authorities at each port to and from Ireland. A<lb/>  house to house search here is imperative where arms and treason abound,<lb/>  and it would be interesting to know how many Alien or Sein Fein Clergy<lb/>  are presently enjoying liberty and immunity from suspicion. Why not<lb/>  after this, compel every Irishmen to do his bit who can be spared?</p>   <closer><salute>Yours faithfully,</salute> William Henry Caunt<lb/>  <address><addrLine>To the Right Hon:</addrLine>
+<addrLine>H.H. ASQUITH, M.P. , P.C.</addrLine>
+<addrLine>DOWNING STREET</addrLine>
+<addrLine>WESTMINSTER</addrLine>
+<addrLine>S.W.</addrLine></address></closer>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1553">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Colonel Henry Gerard Kennard to the Under-Secretary for Ireland, 13 May 1916</title>
+                
+                <author>Henry Gerard Kennard</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="HH">Hannah Healy</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Annie">Annie</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Ryan101">Ryan101</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1553</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>Letter from Colonel Henry Gerard Kennard (b. 1871), the commander of the Dublin garrison in 1916. The letter was addressed to the under-secretary for Ireland. This position was previously held by Sir Matthew Nathan (1862-1939). However, in May 1916 Nathan offered his resignation following the outbreak of the Easter Rising. He was soon replaced by Sir Robert Chalmers (1858-1938).     In this letter Kennard informs the under-secretary that he is forwarding him the 13th list of casualties incurred in connection with the Sinn Féin insurrection.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#National Archives of Ireland">National Archives of Ireland</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Sir_Robert_Chalmers">Sir Robert Chalmers</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Henry_Gerard_Kennard">Henry Gerard Kennard</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-08-18T11:44:11" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-08-18T11:44:11" who="#Ryan101">
+                
+                    Page 3953 modified:
+                    <!-- 
+Subject;- Sinn Fein Insurrection.<p>paragraph</p>D.G.C.R No. 45/16.<hi rend="underline">underlined text</hi> The,<p>paragraph</p> Under Secretary for Ireland, <p>paragraph</p> Upper Castle Yard,<p>paragraph</p> Dublin. Sir,<p>paragraph</p> I have the honor to forward herewith the 13th list of Casualties incurred in connection with the Sein<unclear>questionable reading</unclear> Fein Insurrection.<p>paragraph</p> <gap/> also attached <add>added text</add> I have the honor to be, Sir, Your obedient servant, H.G Kennard Colonel, <p>paragraph</p> Commanding Troops, Dublin.<p>paragraph</p> Lr. Castle Yard, Dublin. <address>address</address> <p>paragraph</p>13. 5. 1916.<date>date</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-08-18T11:53:32" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-08-18T11:53:32" who="#Ryan101">
+                
+                    Page 3954 modified:
+                    <!-- 
+King George V. Hospital. Dublin.<address>address</address> May 11th 1916. <date>date</date><p>paragraph</p> To. A.D.M.S, <p>paragraph</p> Dublin District. <p>paragraph</p> The undernoted casualties have not been previously reported to you:<p>paragraph</p> Pte. Fox S.Staffs. Killed.<p>paragraph</p> 3370 Sibley A. 2/7 Sher.For.<p>paragraph</p> 2793 Barks G.W<p>paragraph</p> 2420 Cpl. Hoyle C. <p>paragraph</p> 5605 Pte. Holbrook A.<p>paragraph</p> 2853 or 28537 Kitchen H.T. 2/8<p>paragraph</p> 3080 OR 30807 Gross T. 2/7<p>paragraph</p> 4136 Holland T. 2/8<p>paragraph</p> 4809 Jepps P. 2/7 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-27T16:46:48" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-01-27T16:46:48" who="#Annie">
+                
+                    Page 3955 modified:
+                    <!-- 
+( top left ) 7155 A. D. M. S. D. D. <lb/> Sergeant Fletcher 6th South Staffords..     ( DEAD ).<lb/> Private Barrett, 6th South Staffords     ( DEAD ). <lb/> These men were buried in the grounds of the Parochial <lb/> Hall, Noirthumberland Road, Ballsbridge. <lb/> <gap/> <lb/> 12/5/16 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-26T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-27T11:33:41" who="#NR">
+                
+                    Page 3953 modified:
+                    <!-- 
+Subject;- Sinn Fein Insurrection.<lb/> D.G.C.R No. 45/16.<lb/>  <address>The Under Secretary for Ireland, <lb/>  Upper Castle Yard,<lb/>  Dublin.</address>  <salute>Sir,</salute>  <p>I have the honor to forward herewith the 13th<lb/>  list of Casualties incurred in connection with the<lb/>  Sein Fein Insurrection.</p>   <salute>I have the honor to be, <lb/> Sir, <lb/> Your obedient servant,</salute>  <hi rend="underline">H.G Kennard Colonel</hi>, <lb/>  Commanding Troops, Dublin.<lb/>  <address>Lr. Castle Yard,<lb/>  Dublin.</address>  <date>13. 5. 1916.</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-27T11:34:47" who="#NR">
+                
+                    Page 3954 modified:
+                    <!-- 
+<!~~ King George V. Hospital. Dublin.<address>address</address> May 11th 1916. <date>date</date><p>paragraph</p> To. A.D.M.S, <p>paragraph</p> Dublin District. <p>paragraph</p> The undernoted casualties have not been previously reported to you:<p>paragraph</p> Pte. Fox S.Staffs. Killed.<p>paragraph</p> 3370 Sibley A. 2/7 Sher.For.<p>paragraph</p> 2793 Barks G.W<p>paragraph</p> 2420 Cpl. Hoyle C. <p>paragraph</p> 5605 Pte. Holbrook A.<p>paragraph</p> 2853 or 28537 Kitchen H.T. 2/8<p>paragraph</p> 3080 OR 30807 Gross T. 2/7<p>paragraph</p> 4136 Holland T. 2/8<p>paragraph</p> 4809 Jepps P. 2/7 ~~> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-27T11:38:16" who="#NR">
+                
+                    Page 3955 modified:
+                    <!-- 
+7155 A. D. M. S. D. D. <lb/>  Sergeant Fletcher 6th South Staffords..     ( DEAD ).<lb/>  Private Barrett, 6th South Staffords     ( DEAD ).  <p> These men were buried in the grounds of the Parochial <lb/>  Hall, Noirthumberland Road, Ballsbridge.</p>  <note><unclear>Wpm, acknowledge<lb/> Lt. col. br.am.s</unclear></note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3955 created using version from <date when="2015-01-27T16:46:48"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3955 removed (version from <date when="2015-01-27T16:46:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3955 removed (version from <date when="2015-11-27T11:38:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3953 created using version from <date when="2014-08-18T11:44:11"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3953 removed (version from <date when="2014-08-18T11:44:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3953 removed (version from <date when="2015-11-27T11:33:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3954 created using version from <date when="2014-08-18T11:53:32"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3954 removed (version from <date when="2014-08-18T11:53:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3954 removed (version from <date when="2015-11-27T11:34:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3955 (version from <date when="2015-11-27T11:38:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3953 added to letter (version from <date when="2015-11-27T11:33:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3954 added to letter (version from <date when="2015-11-27T11:34:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 3953 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 3954 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 3955 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:44" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1553_img_3953" url="cfca4ea02764cd953786e8c2199fdeff.jpg"/> 
+    
+    <graphic xml:id="L1916_1553_img_3954" url="966aed4573498d3e2a8fd94dc580ee99.jpg"/> 
+    
+    <graphic xml:id="L1916_1553_img_3955" url="646c6551d809edd3348599f01b61f5df.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3953" facs="#L1916_1553_img_3953"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+Subject;- Sinn Fein Insurrection.<lb/> D.G.C.R No. 45/16.<lb/>  <opener><address><addrLine>The Under Secretary for Ireland,</addrLine>
+<addrLine>Upper Castle Yard,</addrLine>
+<addrLine>Dublin.</addrLine></address>  <salute>Sir,</salute></opener>  <p>I have the honor to forward herewith the 13th<lb/>  list of Casualties incurred in connection with the<lb/>  Sein Fein Insurrection.</p>   <salute>I have the honor to be, <lb/> Sir, <lb/> Your obedient servant,</salute>  <hi rend="underline">H.G Kennard Colonel</hi>, <lb/>  Commanding Troops, Dublin.<lb/>  <address>Lr. Castle Yard,<lb/>  Dublin.</address>  <date>13. 5. 1916.</date>
+        
+    
+
+    
+         
+        <pb n="3954" facs="#L1916_1553_img_3954"/>
+        
+        
+           
+            <!-- King George V. Hospital. Dublin.<address>address</address> May 11th 1916. <date>date</date><p>paragraph</p> To. A.D.M.S, <p>paragraph</p> Dublin District. <p>paragraph</p> The undernoted casualties have not been previously reported to you:<p>paragraph</p> Pte. Fox S.Staffs. Killed.<p>paragraph</p> 3370 Sibley A. 2/7 Sher.For.<p>paragraph</p> 2793 Barks G.W<p>paragraph</p> 2420 Cpl. Hoyle C. <p>paragraph</p> 5605 Pte. Holbrook A.<p>paragraph</p> 2853 or 28537 Kitchen H.T. 2/8<p>paragraph</p> 3080 OR 30807 Gross T. 2/7<p>paragraph</p> 4136 Holland T. 2/8<p>paragraph</p> 4809 Jepps P. 2/7 -->
+        
+    
+         
+        <pb n="3955" facs="#L1916_1553_img_3955"/>
+        
+        
+           
+            7155 A. D. M. S. D. D. <lb/>  Sergeant Fletcher 6th South Staffords..     ( DEAD ).<lb/>  Private Barrett, 6th South Staffords     ( DEAD ).  <p> These men were buried in the grounds of the Parochial <lb/>  Hall, Noirthumberland Road, Ballsbridge.</p>  <note><unclear>Wpm, acknowledge<lb/> Lt. col. br.am.s</unclear></note>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

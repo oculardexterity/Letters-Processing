@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_949">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Denis to Nancy O&#39;Rahilly, 5 May 1916.</title>
+                
+                <author>Denis</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Rosie17">Rosie17</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_949</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>Letter to Nancy O'Rahilly (1875-1961). The writer, Denis, expresses sympathy to the O'Rahilly family on the death of The O'Rahilly (1875-1916) and apologises for the years that he did not write.</p>
+                        
+                            <p> Nancy O'Rahillywas a member of the Provisional Council of Cumann na mBan at the founding in 1914 and the wife of Michael Joseph O'Rahilly, self-described as 'The' O'Rahilly . The O'Rahilly fought in the Easter Rising and was shot in Parnell/Moore Street on 28 April 1916 and died some time later. Nancy was pregnant at the time of her husband's death – the child was born three months later. </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                                Original DCN: Humphreys Papers, P106/120/5
+                             
+                        -->
+                            
+                                <collection type='public'>Humphreys Papers</collection>
+                            
+                            
+                        <idno>P106/120/5</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Nancy_ORahilly">Nancy O&#39;Rahilly</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Denis">Denis</persName>
+                    
+                     
+                    <placeName ref="#8_Moreton_Place,_South_Belgravia,_London,_England">8 Moreton Place, South Belgravia, London, England</placeName>
+                    
+                    
+                    <date when="1916-05-05">5 May 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-03-18T21:43:22" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-03-18T21:43:22" who="#Philcostel">
+                
+                    Page 2405 modified:
+                    <!-- 
+8 Moreton Place South Belgravia London 5/5/16. Dear Nannie, It is many years since I wrote to any of the Rahilly family, but I cannot let the unhappy, and very sad circumstances of last week, together with dear Michael's death to pass without offering you my dearest, sincerest, and heartfelt sympathy. Please accept it in the spirit in which it is offered & believe me to be, Yours truly, Denis 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-26T09:41:20" who="#Rosie17">
+                
+                    Page 2405 modified:
+                    <!-- 
+<address>8 Moreton Place<lb/> South Belgravia<lb/> London</address><date>5/5/16.</date><lb/> <salute>Dear Nannie,</salute> It is many years since I<lb/> wrote to any of the Rahilly family, but<lb/> I cannot let the unhappy, and very sad<lb/> circumstances of last week, together with<lb/> dear Michael's death to pass without<lb/> offering to you my dearest, sincerest<lb/>, and heartfelt sympathy.<p>paragraph</p> <p>paragraph</p>Please accept it in the spirit<lb/> in which it is offered &amp; believe me<lb/> to be, Yours truly,<lb/> Denis 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-05T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T11:40:56" who="#NR">
+                
+                    Page 2405 modified:
+                    <!-- 
+<address>8 Moreton Place <lb/>South Belgravia <lb/>London</address><date>5/5/16.</date> <salute>Dear Nannie,</salute> <p>It is many years since I <lb/> wrote to any of the Rahilly family, but <lb/> I cannot let the unhappy, and very sad <lb/> circumstances of last week, together with <lb/> dear Michael's death to pass without <lb/> offering to you my dearest, sincerest, <lb/>and heartfelt sympathy.</p> <p>Please accept it in the spirit <lb/> in which it is offered &amp; believe me <lb/> to be, <salute>Yours truly,</salute> <signed><hi rend="underline">Denis</hi></signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2405 created using version from <date when="2014-03-18T21:43:22"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2405 removed (version from <date when="2014-03-18T21:43:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2405 removed (version from <date when="2015-05-26T09:41:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2405 removed (version from <date when="2016-01-06T11:40:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:23" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2405 (version from <date when="2016-01-06T11:40:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:26" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:27" who="#PythonScript">
+                
+                    Clean tags: Page 2405 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:30" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_949_img_2405" url="14021dc43459d1c690762ac1f99113fd.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2405" facs="#L1916_949_img_2405"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>8 Moreton Place</addrLine>
+<addrLine>South Belgravia</addrLine>
+<addrLine>London</addrLine></address><dateline><date>5/5/16.</date></dateline> <salute>Dear Nannie,</salute></opener> <p>It is many years since I <lb/> wrote to any of the Rahilly family, but <lb/> I cannot let the unhappy, and very sad <lb/> circumstances of last week, together with <lb/> dear Michael's death to pass without <lb/> offering to you my dearest, sincerest, <lb/>and heartfelt sympathy.</p> <p>Please accept it in the spirit <lb/> in which it is offered &amp; believe me <lb/> to be, <closer><salute>Yours truly,</salute> <signed><hi rend="underline">Denis</hi></signed></closer>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

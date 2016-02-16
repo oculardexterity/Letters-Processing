@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_973">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Máire de Buitléir to Nancy O&#39;Rahilly, 24 May 1916.</title>
+                
+                <author>Máire de Buitléir </author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_973</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This letter is from Máire de Buitléir (1873-1920)  It was sent to Nancy O&#39;Rahilly, (1875-1961). The writer expresses sympathy on the death of The O&#39;Rahilly and assures Mrs. O&#39;Rahilly of her prayers - she also prays for her own husband and she is sure that he and O&#39;Rahilly are in paradise together. The writer remarks on the high degree of respect there is for Mr. O&#39;Rahilly, even among those who didn&#39;t know him, didn&#39;t share his political outlook, and who &#39;disapproved entirely of the Rising&#39;.    Máire de Buitléir was a writer and Gaelic League activist, married to Tomás Ó Núalláin, (d.1914), Latin Professor and Irish scholar. Nancy O&#39;Rahilly was a member of the Provisional Council of Cumann na mBan at the founding in 1914. She was the wife of Michael Joseph O&#39;Rahilly, self-described as &#39;The&#39; O&#39;Rahilly (1875-1916), who was shot in Parnell/Moore Street on 28 April 1916 and died some time later. Nancy was pregnant at the time of her husband&#39;s death – the child was born three months later.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Nancy_ORahilly">Nancy O&#39;Rahilly</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Máire_de_Buitléir_">Máire de Buitléir </persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-11-09T17:52:31" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-09T17:52:31" who="#Philcostel">
+                
+                    Page 2518 modified:
+                    <!-- 
+5 Warwick Terrace 24th May A Chara Dhilis It was so good of you to write. I know what an effort it must cost you & scarcely expected it. May God comfort you. You have been constantly in my thoughts & prayers. So has he been also, but I have a strong conviction he does not need our prayers - unless to increase his glory in Heaven. I believe we can help our beloved ones in that way. So I keep on praying always for my beloved husband, though I am sure he is in Paradise with yours. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-09T18:41:07" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-09T18:41:07" who="#Philcostel">
+                
+                    Page 2519 modified:
+                    <!-- 
+My sister - whose prayers are wasted so much more than mine - is also praying much for you both. I have told her all about it & she is deeply touched. It would comfort you a little if you heard the many words of esteem & admiration concerning your dear one which I have heard during the last few weeks, even from those who had not  the slightest sympathy with his political ideas, & who disapproved entirely of the Rising. <hi rend="underline">Everyone</hi> speaks well of him. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-09T19:50:20" who="#Philcostel">
+                
+                    Page 2519 modified:
+                    <!-- 
+My sister - whose prayers are wasted so much more than mine - is also praying much for you both. I have told her all about it & she is deeply touched. It would comfort you a little if you heard the many words of esteem & admiration concerning your dear one which I have heard during the last few weeks, even from those who had not  the slightest sympathy with his political ideas, & who disapproved entirely of the Rising. <hi rend="underline">Everyone</hi> speaks well of him. Everyone says they know he acted from the highest motives, & most bravely & unselfishly & chivalrously. Dozens of people who never met him have said to me "I hear he was such a good man - intensely religious 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-09T20:31:33" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-09T20:31:33" who="#Philcostel">
+                
+                    Page 2520 modified:
+                    <!-- 
+& good in every way." And when people look at his picture in the papers they say "What a good face he had." Everyone too feels for you the deepest sympathy. I am so glad to hear you are not suffering so much in body as you are in mind. I feared you would have been very ill. I will call soon to inquire for you. You must not trouble acknowledging this. I enclose a few leaflets with some <gap/><gap/> thoughts of mind.  <gap/> may like them too <gap/><gap/>, always Yours Very Sincerely Máire de Buitléir bean Thomáis Uí Nualláin 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-09T20:32:51" who="#Philcostel">
+                
+                    Page 2520 modified:
+                    <!-- 
+& good in every way." And when people look at his picture in the papers they say "What a good face he had." Everyone too feels for you the deepest sympathy. I am so glad to hear you are not suffering so much in body as you are in mind. I feared you would have been very ill. I will call soon to inquire for you. You must not trouble acknowledging this. I enclose a few leaflets with some <gap/><gap/> thoughts of mind.  <gap/> may like them too ?Believe me?, always Yours Very Sincerely Máire de Buitléir bean Thomáis Uí Nualláin 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-11T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-11T11:51:23" who="#NR">
+                
+                    Page 2518 modified:
+                    <!-- 
+<address>5 Warwick Terrace</address> <date>24th May</date> <salute><foreign>A Chara Dhilis</foreign></salute> <p>It was so good of you to write.  <lb/>I know what an effort it must  <lb/>cost you &amp; scarcely expected <lb/> it. May God comfort you. <lb/> You have been constantly <lb/> in my thoughts &amp; prayers.  <lb/>So has he been also, but I  <lb/>have a strong conviction he <lb/> does not need our prayers <lb/> - unless to increase his glory  <lb/>in Heaven. I believe we can  <lb/>help our beloved ones in <lb/> that way. So I keep on pray <lb/>-ing always for my beloved hus <lb/>band, though I am sure he <lb/> is in Paradise with yours.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-11T11:54:45" who="#NR">
+                
+                    Page 2519 modified:
+                    <!-- 
+<p>My sister - whose prayers are wasted <lb/> so much more than mine - is also  <lb/>praying much for you both. I have <lb/> told her all about it &amp; she is <lb/> deeply touched. It would com <lb/>-fort you a little if you heard the  <lb/>many words of esteem &amp; admir <lb/>-ation concerning your dear one <lb/> which I have heard during <lb/> the last few weeks, even from <lb/> those who had not the slightest  <lb/>sympathy with his political ideas,  <lb/>&amp; who disapproved entirely <lb/> of the Rising. <hi rend="underline">Everyone</hi> speaks <lb/> well of him. Everyone says <lb/> they know he acted from the  <lb/>highest motives, &amp; most  <lb/>bravely &amp; unselfishly & chi- <lb/>-valrously. Dozens of people <lb/> who never met him have said <lb/> to me "I hear he was such <lb/> a good man - intensely religious 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-11T11:57:57" who="#NR">
+                
+                    Page 2520 modified:
+                    <!-- 
+<lb/>&amp; good in every way." And when people look at his <lb/> picture in the papers they say "What a good face  <lb/>he had." Everyone too feels for you the deepest  <lb/>sympathy. I am so glad to hear you are not  <lb/>suffering so much in body as you are in  <lb/>mind. I feared you would have been very ill. <lb/>I will call soon to inquire for you. You <lb/> must not trouble acknowledging this. <lb/>I enclose a few leaflets with some favour- <lb/>it thoughts of mind.  You may like them too</p> <salute>Believe me, always <lb/>Yours Very Sincerely</salute> <signed>Máire de Buitléir <lb/>bean Thomáis Uí Nualláin</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2519 created using version from <date when="2014-11-09T18:41:07"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2519 removed (version from <date when="2014-11-09T18:41:07"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2519 removed (version from <date when="2014-11-09T19:50:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2519 removed (version from <date when="2015-12-11T11:54:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2520 created using version from <date when="2014-11-09T20:31:33"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2520 removed (version from <date when="2014-11-09T20:31:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2520 removed (version from <date when="2014-11-09T20:32:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2520 removed (version from <date when="2015-12-11T11:57:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2518 created using version from <date when="2014-11-09T17:52:31"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2518 removed (version from <date when="2014-11-09T17:52:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2518 removed (version from <date when="2015-12-11T11:51:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2519 (version from <date when="2015-12-11T11:54:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2520 added to letter (version from <date when="2015-12-11T11:57:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2518 added to letter (version from <date when="2015-12-11T11:51:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 2520 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 2518 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 2519 cleaned of 6 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:32" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_973_img_2518" url="ec7dc8d3b82b5414e784ad1cfcca7a97.jpg"/> 
+    
+    <graphic xml:id="L1916_973_img_2519" url="38d194feca5a90a6b7ea180be4bd716a.jpg"/> 
+    
+    <graphic xml:id="L1916_973_img_2520" url="6758d802583fc49b5dcb0366f026b811.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2518" facs="#L1916_973_img_2518"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>5 Warwick Terrace</addrLine></address> <dateline><date>24th May</date></dateline> <salute><foreign>A Chara Dhilis</foreign></salute></opener> <p>It was so good of you to write.  <lb/>I know what an effort it must  <lb/>cost you &amp; scarcely expected <lb/> it. May God comfort you. <lb/> You have been constantly <lb/> in my thoughts &amp; prayers.  <lb/>So has he been also, but I  <lb/>have a strong conviction he <lb/> does not need our prayers <lb/> - unless to increase his glory  <lb/>in Heaven. I believe we can  <lb/>help our beloved ones in <lb/> that way. So I keep on pray <lb/>-ing always for my beloved hus <lb/>band, though I am sure he <lb/> is in Paradise with yours.</p>
+        
+    
+
+    
+         
+        <pb n="2519" facs="#L1916_973_img_2519"/>
+        
+        
+           
+            <p>My sister - whose prayers are wasted <lb/> so much more than mine - is also  <lb/>praying much for you both. I have <lb/> told her all about it &amp; she is <lb/> deeply touched. It would com <lb/>-fort you a little if you heard the  <lb/>many words of esteem &amp; admir <lb/>-ation concerning your dear one <lb/> which I have heard during <lb/> the last few weeks, even from <lb/> those who had not the slightest  <lb/>sympathy with his political ideas,  <lb/>&amp; who disapproved entirely <lb/> of the Rising. <hi rend="underline">Everyone</hi> speaks <lb/> well of him. Everyone says <lb/> they know he acted from the  <lb/>highest motives, &amp; most  <lb/>bravely &amp; unselfishly &amp; chi- <lb/>-valrously. Dozens of people <lb/> who never met him have said <lb/> to me "I hear he was such <lb/> a good man - intensely religious
+        
+    
+         
+        <pb n="2520" facs="#L1916_973_img_2520"/>
+        
+        
+           
+            <lb/>&amp; good in every way." And when people look at his <lb/> picture in the papers they say "What a good face  <lb/>he had." Everyone too feels for you the deepest  <lb/>sympathy. I am so glad to hear you are not  <lb/>suffering so much in body as you are in  <lb/>mind. I feared you would have been very ill. <lb/>I will call soon to inquire for you. You <lb/> must not trouble acknowledging this. <lb/>I enclose a few leaflets with some favour- <lb/>it thoughts of mind.  You may like them too</p> <closer><salute>Believe me, always <lb/>Yours Very Sincerely</salute> <signed>Máire de Buitléir <lb/>bean Thomáis Uí Nualláin</signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

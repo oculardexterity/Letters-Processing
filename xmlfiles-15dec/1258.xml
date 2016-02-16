@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1258">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Lieutenant Colonel R. L. Owens to Anna O&#39;Rahilly, 28 May 1916</title>
+                
+                <author>R.L. Owens</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="HH">Hannah Healy</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Smorris">Smorris</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1258</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This letter was written by Lieutenant Colonel R. L. Owens to Anna O&#39;Rahilly (d.1958). In this letter Owens states that he will call for a report from the man who was in command of his company on Moore Street during the 1916 Rising and that in the meantime he will make inquiries about Michael on Miss O&#39;Rahilly&#39;s behalf.This letter is part of a series of correspondence in which Miss O&#39;Rahilly is attempting to locate a watch belonging to Michael O&#39;Rahilly which was not returned to the family after his death.     Owens was a Lieutenant Colonel at Richmond Barracks and served over the 3rd Battalion of the Royal Irish Regiment. This was one of the regiments involved in helping to defeat the Rising in 1916.     Anna O&#39;Rahilly was the sister of Michael O&#39;Rahilly. Michael Joseph &#39;The&#39; O&#39;Rahilly (1875–1916) was a nationalist and a journalist. In 1916 he aligned himself with Eoin MacNeill and Bulmer Hobson who opposed a preemptive rising. Although O&#39;Rahilly played a large role in delivering MacNeill&#39;s countermanding o</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Anna_ORahilly">Anna O&#39;Rahilly</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#R.L._Owens">R.L. Owens</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-08-25T20:06:51" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-08-25T20:06:51" who="#Smorris">
+                
+                    Page 3353 modified:
+                    <!-- 
+<address>Richmond Barracks, Dublin</address> Dear Madam,  I am in receipt of your letter of the 27th instant. I have called for a report from the officer<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-30T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-30T11:35:48" who="#NR">
+                
+                    Page 3353 modified:
+                    <!-- 
+<address>Richmond Barracks,<lb/>  Dublin</address> <date>28<hi rend="underline"><hi rend="superscript">th</hi></hi> May 1916</date> <salute>Dear Madam,</salute>  I am in receipt<lb/>  of your letter of the<lb/>  27<hi rend="underline"><hi rend="superscript">th</hi></hi> instant. I have<lb/>  called for a report<lb/>  from the officer<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-30T11:35:52" who="#NR">
+                
+                    Page 3353 modified:
+                    <!-- 
+<address>Richmond Barracks,<lb/>  Dublin</address> <date>28<hi rend="underline"><hi rend="superscript">th</hi></hi> May 1916</date> <salute>Dear Madam,</salute>  <p>I am in receipt<lb/>  of your letter of the<lb/>  27<hi rend="underline"><hi rend="superscript">th</hi></hi> instant. I have<lb/>  called for a report<lb/>  from the officer<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-30T11:37:18" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-11-30T11:37:18" who="#NR">
+                
+                    Page 3354 modified:
+                    <!-- 
+who was in com<lb/> mand of the Company <lb/>  at Moore St<lb/> and on receipt <lb/> of the same a<lb/>  further reply<lb/>  will be sent for.<pb/>  Meantime full<lb/>  enquiries will be<lb/>  made.</p> <salute>Yours truly</salute> R.L. Owens<lb/> Lt Col<lb/> M<hi rend="superscript">rs</hi> A. ORahilly<lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3354 created using version from <date when="2015-11-30T11:37:18"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3354 removed (version from <date when="2015-11-30T11:37:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3353 created using version from <date when="2014-08-25T20:06:51"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3353 removed (version from <date when="2014-08-25T20:06:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3353 removed (version from <date when="2015-11-30T11:35:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3353 removed (version from <date when="2015-11-30T11:35:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3354 (version from <date when="2015-11-30T11:37:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3353 added to letter (version from <date when="2015-11-30T11:35:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 3353 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 3354 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:50" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1258_img_3353" url="2cf358d1d869ca6c8e7e15e386d0d707.jpg"/> 
+    
+    <graphic xml:id="L1916_1258_img_3354" url="de8381e3056c17b59021162fcf7adf42.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3353" facs="#L1916_1258_img_3353"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>Richmond Barracks,</addrLine>
+<addrLine>Dublin</addrLine></address> <dateline><date>28<hi rend="underline"><hi rend="superscript">th</hi></hi> May 1916</date></dateline> <salute>Dear Madam,</salute></opener>  <p>I am in receipt<lb/>  of your letter of the<lb/>  27<hi rend="underline"><hi rend="superscript">th</hi></hi> instant. I have<lb/>  called for a report<lb/>  from the officer<pb/>
+        
+    
+
+    
+         
+        <pb n="3354" facs="#L1916_1258_img_3354"/>
+        
+        
+           
+            who was in com<lb/> mand of the Company <lb/>  at Moore St<lb/> and on receipt <lb/> of the same a<lb/>  further reply<lb/>  will be sent for.<pb/>  Meantime full<lb/>  enquiries will be<lb/>  made.</p> <closer><salute>Yours truly</salute></closer> R.L. Owens<lb/> Lt Col<lb/> M<hi rend="superscript">rs</hi> A. ORahilly<lb/>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

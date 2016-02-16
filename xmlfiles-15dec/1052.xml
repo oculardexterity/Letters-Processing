@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1052">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from S.M. Martina to Nancy O&#39;Rahilly, 25 May 1916.</title>
+                
+                <author>S.M. Martina</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1052</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is a letter from S.M. Martina to Nancy O&#39;Rahilly  (1875-1961). The writer apologises for not writing sooner, saying that, as a stranger, she didn&#39;t want to intrude too early on Mrs. O&#39;Rahilly&#39;s grief. She praises The O&#39;Rahilly and and says that the sisters have been offering prayers. She mentions &#39;the boys&#39; and hopes they will be a comfort. Finally the writer requests a supply of mortuary cards and offers deepest sympathy. In a P.S. she invites Mrs. O&#39;Rahilly to visit the Convent.    Nancy O&#39;Rahilly was a member of the Provisional Council of Cumann na mBan at its founding in 1914. She was the wife of Michael Joseph O&#39;Rahilly, self-styled as &#39;The&#39; O&#39;Rahilly (1875-1916), who was shot in Parnell/Moore Street on 28 April 1916 and died some time later. Nancy was pregnant at the time of her husband&#39;s death – the child was born three months later.  </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Nancy_ORahilly">Nancy O&#39;Rahilly</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#S.M._Martina">S.M. Martina</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-11-09T17:31:19" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-09T17:31:19" who="#Philcostel">
+                
+                    Page 2730 modified:
+                    <!-- 
+St. Mary's Dominican College, Muckross Park, Donnybrook, Dublin, S. 25th May 1916<note>T.M.T.D></note> <note>P.S. When you feel equal, we should like to have a visit from you.</note>  Dear Mrs. O'Rahilly, You must think it very strange that I never wrote a line to offer you our deepest sympathy in the biggest sorrow of your life. Believe me it was 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-09T17:37:02" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-09T17:37:02" who="#Philcostel">
+                
+                    Page 2731 modified:
+                    <!-- 
+through no want of sympathy, but there are times when a stranger's letter might jar and in a grief such as yours I thought it better to wait a little before intruding. May God comfort your poor broken heart, as He alone can. You have the comfort of knowing that your dear husband was a good, holy man and died a holy, happy death. We have prayed much for him and you. I hope the boys will be a great comfort 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-09T17:41:39" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-09T17:41:39" who="#Philcostel">
+                
+                    Page 2732 modified:
+                    <!-- 
+to you now. If you get any mortuary cards of your dear husband may I ask for a few. We should like to remember such a noble soul R.I.P. Joined by the Sisters in deepest sympathy, love to my old Children. Yours very sincerely in J.C. <hi rend="underline">S.M. Martina</hi> O.S.D. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-09T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-09T14:50:29" who="#NR">
+                
+                    Page 2730 modified:
+                    <!-- 
+<address>St. Mary's Dominican College, <lb/>Muckross Park, <lb/>Donnybrook, <lb/>Dublin, S.</address> <date>25th May 1916</date> <note>P.S. When you  <lb/>feel equal, we  <lb/>should like to <lb/>have a visit  <lb/>from you.</note>  <salute>Dear M<hi rend="superscript">rs</hi>. O'Rahilly,</salute> <p>You must think  <lb/>it very strange that I  <lb/>never wrote a line to <lb/> offer you our deepest <lb/> sympathy in the biggest <lb/> sorrow of your life.</p> <p>Believe me it was 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-09T14:54:04" who="#NR">
+                
+                    Page 2731 modified:
+                    <!-- 
+<lb/>through no want of  <lb/>sympathy, but there are <lb/> times when a stranger's <lb/> letter might jar and <lb/> in a grief such as  <lb/>yours I thought it  <lb/>better to wait a little  <lb/>before intruding. <lb/>May God comfort  <lb/>your poor broken heart,  <lb/>as He alone can. You  <lb/>have the comfort of  <lb/>knowing that your dear <lb/>husband was a good, <lb/> holy man and died  <lb/>a holy, happy death. <lb/>We have prayed much  <lb/>for him and you.</p> <p>I hope the boys <lb/> will be a great comfort 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-09T14:56:08" who="#NR">
+                
+                    Page 2732 modified:
+                    <!-- 
+<lb/>to you now.</p> <p>If you get any mortuary <lb/> cards of your dear husband <lb/> may I ask for a few. <lb/>We should like to remember <lb/> such a noble soul R.I.P. <lb/>Joined by the Sisters in <lb/> deepest sympathy, love  <lb/>to my old Children.</p> <salute>Yours very sincerely in J.C.</salute> <signed><hi rend="underline">S.M. Martina</hi></signed> <lb/>O.S.D. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2731 created using version from <date when="2014-11-09T17:37:02"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2731 removed (version from <date when="2014-11-09T17:37:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2731 removed (version from <date when="2015-12-09T14:54:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2732 created using version from <date when="2014-11-09T17:41:39"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2732 removed (version from <date when="2014-11-09T17:41:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2732 removed (version from <date when="2015-12-09T14:56:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2730 created using version from <date when="2014-11-09T17:31:19"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2730 removed (version from <date when="2014-11-09T17:31:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2730 removed (version from <date when="2015-12-09T14:50:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2731 (version from <date when="2015-12-09T14:54:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2732 added to letter (version from <date when="2015-12-09T14:56:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2730 added to letter (version from <date when="2015-12-09T14:50:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:15" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 2730 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 2731 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 2732 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:29" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1052_img_2730" url="85f16b4cfabb85e9d8f5d36fdb757b6f.jpg"/> 
+    
+    <graphic xml:id="L1916_1052_img_2731" url="da0c34d5369c7096d5f54b182cc59218.jpg"/> 
+    
+    <graphic xml:id="L1916_1052_img_2732" url="6816c7200743e4b10bfbf88fef41fd0e.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2730" facs="#L1916_1052_img_2730"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>St. Mary's Dominican College,</addrLine>
+<addrLine>Muckross Park,</addrLine>
+<addrLine>Donnybrook,</addrLine>
+<addrLine>Dublin, S.</addrLine></address> <dateline><date>25th May 1916</date></dateline></opener> <note>P.S. When you  <lb/>feel equal, we  <lb/>should like to <lb/>have a visit  <lb/>from you.</note>  <salute>Dear M<hi rend="superscript">rs</hi>. O'Rahilly,</salute> <p>You must think  <lb/>it very strange that I  <lb/>never wrote a line to <lb/> offer you our deepest <lb/> sympathy in the biggest <lb/> sorrow of your life.</p> <p>Believe me it was
+        
+    
+
+    
+         
+        <pb n="2731" facs="#L1916_1052_img_2731"/>
+        
+        
+           
+            <lb/>through no want of  <lb/>sympathy, but there are <lb/> times when a stranger's <lb/> letter might jar and <lb/> in a grief such as  <lb/>yours I thought it  <lb/>better to wait a little  <lb/>before intruding. <lb/>May God comfort  <lb/>your poor broken heart,  <lb/>as He alone can. You  <lb/>have the comfort of  <lb/>knowing that your dear <lb/>husband was a good, <lb/> holy man and died  <lb/>a holy, happy death. <lb/>We have prayed much  <lb/>for him and you.</p> <p>I hope the boys <lb/> will be a great comfort
+        
+    
+         
+        <pb n="2732" facs="#L1916_1052_img_2732"/>
+        
+        
+           
+            <lb/>to you now.</p> <p>If you get any mortuary <lb/> cards of your dear husband <lb/> may I ask for a few. <lb/>We should like to remember <lb/> such a noble soul R.I.P. <lb/>Joined by the Sisters in <lb/> deepest sympathy, love  <lb/>to my old Children.</p> <closer><salute>Yours very sincerely in J.C.</salute> <signed><hi rend="underline">S.M. Martina</hi></signed></closer> <lb/>O.S.D.
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

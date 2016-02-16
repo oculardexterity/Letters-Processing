@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1053">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Herbert Pim to Nancy O&#39;Rahilly, 26 May, 1916.</title>
+                
+                <author>Herbert Pim</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Hughesf">Hughesf</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Ruthfitzmaurice">Ruthfitzmaurice</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1053</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is a letter from Herbert Moore Pim (1883-1950) to Nancy O&#39;Rahilly (1875-1961). The writer describes receiving news of The O&#39;Rahilly&#39;s death as a nightmare - he hopes everything will be all right on waking. He loved O&#39;Rahilly as a dear friend. He and his son want to convey sympathy to &#39;the boys&#39; (Mrs. O&#39;Rahilly&#39;s sons). He himself was taken away while his son was at school and didn&#39;t have a chance to say goodbye. He also describes prison life.    Nancy O&#39;Rahilly was a member of the Provisional Council of Cumann na mBan aand the wife of Michael Joseph O&#39;Rahilly, self-styled as &#39;The&#39; O&#39;Rahilly (1875-1916), who was shot in Parnell/Moore Street on 28 April 1916 and died some time later. Nancy was pregnant at the time of her husband&#39;s death.     Herbert Pim had joined the Irish Volunteers in 1914, published a pamphlet series entitled &#39;Tracts of our times&#39;, including writing by Patrick Pearse, and in early 1916 founded the literary and political monthly, &#39;The Irishman&#39;.  He was arrested after the Easter Rising </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Nancy_ORahilly">Nancy O&#39;Rahilly</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Herbert_Pim">Herbert Pim</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-07-04T12:41:44" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-07-04T12:41:44" who="#Hughesf">
+                
+                    Page 2733 modified:
+                    <!-- 
+From H. Pim Irish Prisoner (Stafford) c/o Chief Postal Censor, London, May 26th  My dear Madadm O'Rahilly Turlough & I were on holiday in Tyrone when the news burst upon us. I <sic>haden't</sic> the faintest suspicion of trouble.  The whole business even now seems like a nightmare from which we shall wake to find everything all right.  I heard on Wednesday 3rd <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-07-04T12:42:11" who="#Hughesf">
+                
+                    Page 2733 modified:
+                    <!-- 
+From H. Pim Irish Prisoner (Stafford) c/o Chief Postal Censor, London, May 26th  My dear Madam O'Rahilly Turlough & I were on holiday in Tyrone when the news burst upon us. I <sic>haden't</sic> the faintest suspicion of trouble.  The whole business even now seems like a nightmare from which we shall wake to find everything all right.  I heard on Wednesday 3rd <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-07-04T12:45:21" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-07-04T12:45:21" who="#Hughesf">
+                
+                    Page 2735 modified:
+                    <!-- 
+about The O'Rahilly, & from that moment I ceased to feel anything.  The tragedy & the deaths before that had made me weep & suffer; but this news provided so great a shock that I found myself <gap/>. It was a great relief to be arrested, to suffer a little personal inconvenience. <gap/> must be vain things for you.  but if it comforts you to know that you have the most whole hearted sympathy <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-07-04T12:49:13" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-07-04T12:49:13" who="#Hughesf">
+                
+                    Page 2734 modified:
+                    <!-- 
+of one who loved The O'Rahilly as a dear friend, & who respected his brilliance & fine spirit, you have sympathy. Turlough was of so sorry for you all.  I don't know how to write this letter, but I want you to convey my sympathy to you dear boys.  One's little troubles are a mere detail in the disaster which has overwhelmed our people.  They took me away before Turlough returned from school; so I cried not <gap/> good-bye; & he is in a spiritual atmosphere antagonistic to his Religion.  You will pray for us both, won't you?  My life is quite monastic here; & one has ample time for one's prayers.  We are allowed papers, books & tobacco; but between me & vacuity is one fill for a pipe & a volume of <hi rend="underline">The Lines of the Spirit.</hi> Yours ever Herbert M Pim 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-28T10:32:20" who="#Ruthfitzmaurice">
+                
+                    Page 2735 modified:
+                    <!-- 
+about The O'Rahilly, & from that moment I ceased to feel anything.  The tragedy & the deaths before that had made me weep & suffer; but this news provided so great a shock that I found myself atrophie. It was a great relief to be arrested, to suffer a little personal inconvenience. Words must be vain things for you.  but if it comforts you to know that you have the most whole hearted sympathy <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-28T10:36:21" who="#Ruthfitzmaurice">
+                
+                    Page 2734 modified:
+                    <!-- 
+of one who loved The O'Rahilly as a dear friend, & who respected his brilliance & fine spirit, you have that sympathy. Turlough was oh so sorry for you all.  I don't know how to write this letter, but I want you to convey my sympathy to your dear boys.  One's little troubles are a mere detail in the disaster which has overwhelmed our people.  They took me away before Turlough returned from school, so I could not say good-bye; & he is in a spiritual atmosphere antagonistic to his Religion.  You will pray for us both, won't you?  My life is quite monastic here; & one has ample time for one's prayers.  We are allowed papers, books & tobacco; but between me & vacuity is one fill for a pipe & a volume of <hi rend="underline">The Lines of the Spirit.</hi> Yours ever Herbert M Pim 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-21T17:05:59" who="#Tbrosnan">
+                
+                    Page 2733 modified:
+                    <!-- 
+From H. Pim<lb/> Irish Prisoner (Stafford) <address>c/o Chief Postal Censor, London,</address> <date>May 26th</date><lb/> <salute>My dear Madam O'Rahilly</salute> <p>Turlough<lb/> & I were on holiday<lb/> in Tyrone when the news<lb/> burst upon us. I <sic>haden't</sic><lb/> the faintest suspicion<lb/> of trouble.  The whole <lb/>business even now<lb/> seems like a nightmare <lb/>from which we shall <lb/>wake to find everything<lb/> all right.  I heard<lb/> on Wednesday 3rd <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-21T17:09:17" who="#Tbrosnan">
+                
+                    Page 2735 modified:
+                    <!-- 
+about The O'Rahilly; &amp; <lb/>from that moment I<lb/> ceased to feel anything. <lb/> The tragedy & the deaths<lb/> before that had made<lb/> me weep &amp; suffer; but<lb/> this news provided <lb/>so great a shock that<lb/> I found myself atrophied.</p> <p>It was a great relief<lb/> to be arrested, to<lb/> suffer a little personal<lb/> inconvenience.</p> <p>Words must be vain<lb/> things for you.  But if<lb/> it comforts you to know<lb/> that you have the most<lb/> whole hearted sympathy <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-21T17:14:59" who="#Tbrosnan">
+                
+                    Page 2734 modified:
+                    <!-- 
+of one who loved The O'Rahilly as<lb/> a dear friend, &amp; who respected his<lb/> brilliance & fine spirit, you have<lb/> that sympathy.</p> <p>Turlough was oh so sorry for<lb/> you all.  I don't know how to<lb/> write this letter, but I want you<lb/> to convey my sympathy to your<lb/> dear boys.  One's little<lb/> troubles are a mere detail in<lb/> the disaster which has overwhelmed <lb/>our people.  They took me away<lb/> before Turlough returned from school,<lb/> so I could not say good-bye; &amp; he is<lb/> in a spiritual atmosphere antagonistic<lb/> to his Religion.  You will pray for<lb/> us both, won't you?  My life is<lb/> quite monastic here; &amp; one has ample<lb/> time for one's prayers.  We are allowed<lb/> papers, books &amp; tobacco; but between<lb/> me & vacuity is one fill for a pipe & a volume of <hi rend="underline">The Lives<lb/> of the Saints.</hi><lb/><salute>Yours ever</salute>Herbert M <hi rend="underline">Pim</hi> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-21T17:15:57" who="#Tbrosnan">
+                
+                    Page 2734 modified:
+                    <!-- 
+of one who loved The O'Rahilly as<lb/> a dear friend, &amp; who respected his<lb/> brilliance & fine spirit, you have<lb/> that sympathy.</p> <p>Turlough was oh so sorry for<lb/> you all.  I don't know how to<lb/> write this letter, but I want you<lb/> to convey my sympathy to your<lb/> dear boys.  One's little<lb/> troubles are a mere detail in<lb/> the disaster which has overwhelmed <lb/>our people.  They took me away<lb/> before Turlough returned from school,<lb/> so I could not say good-bye; &amp; he is<lb/> in a spiritual atmosphere antagonistic<lb/> to his Religion.  You will pray for<lb/> us both, won't you?  My life is<lb/> quite monastic here; &amp; one has ample<lb/> time for one's prayers.  We are allowed<lb/> papers, books &amp; tobacco; but between<lb/> me & vacuity is one fill for a pipe &amp; a volume of <hi rend="underline">The Lives<lb/> of the Saints.</hi><lb/><salute>Yours ever</salute>Herbert M <hi rend="underline">Pim</hi> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-09T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-09T14:37:31" who="#NR">
+                
+                    Page 2733 modified:
+                    <!-- 
+<address>From H. Pim <lb/>Irish Prisoner (Stafford) <lb/>c/o Chief Postal Censor, <lb/>London,</address> <date>May 26<hi rend="superscript">th</hi></date> <salute>My dear Madam O'Rahilly</salute> <p>Turlough <lb/> &amp; I were on holiday <lb/> in Tyrone when the news <lb/> burst upon us. I <sic>haden't</sic> <lb/> the faintest suspicion <lb/> of trouble.  The whole  <lb/>business even now <lb/> seems like a nightmare  <lb/>from which we shall  <lb/>wake to find everything <lb/> all right.  I heard <lb/> on Wednesday 3rd 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-09T14:38:46" who="#NR">
+                
+                    Page 2735 modified:
+                    <!-- 
+about The O'Rahilly; &amp;  <lb/>from that moment I <lb/> ceased to feel anything.  <lb/> The tragedy &amp; the deaths <lb/> before that had made <lb/> me weep &amp; suffer; but <lb/> this news provided  <lb/>so great a shock that <lb/> I found myself atrophied.</p> <p>It was a great relief <lb/> to be arrested, to <lb/> suffer a little personal<lb/> inconvenience.</p> <p>Words must be vain <lb/> things for you.  But if <lb/> it comforts you to know <lb/> that you have the most <lb/> whole hearted sympathy 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-09T14:40:19" who="#NR">
+                
+                    Page 2734 modified:
+                    <!-- 
+<lb/>of one who loved The O'Rahilly as <lb/> a dear friend, &amp; who respected his <lb/> brilliance &amp; fine spirit, you have <lb/> that sympathy.</p> <p>Turlough was oh so sorry for <lb/> you all.  I don't know how to <lb/> write this letter, but I want you <lb/> to convey my sympathy to your <lb/> dear boys.  One's little <lb/> troubles are a mere detail in <lb/> the disaster which has overwhelmed  <lb/>our people.  They took me away <lb/> before Turlough returned from school, <lb/> so I could not say good-bye; &amp; he is <lb/> in a spiritual atmosphere antagonistic <lb/> to his Religion.  You will pray for <lb/> us both, won't you?  My life is <lb/> quite monastic here; &amp; one has ample <lb/> time for one's prayers.  We are allowed <lb/> papers, books &amp; tobacco; but between <lb/> me &amp; vacuity is one fill for a pipe &amp; a volume of <hi rend="underline">The Lives <lb/> of the Saints.</hi><lb/> <salute>Yours ever</salute> <signed>Herbert M <hi rend="underline">Pim</hi></signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2735 created using version from <date when="2014-07-04T12:45:21"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2735 removed (version from <date when="2014-07-04T12:45:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2735 removed (version from <date when="2015-01-28T10:32:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2735 removed (version from <date when="2015-09-21T17:09:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2735 removed (version from <date when="2015-12-09T14:38:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2733 created using version from <date when="2014-07-04T12:41:44"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2733 removed (version from <date when="2014-07-04T12:41:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2733 removed (version from <date when="2014-07-04T12:42:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2733 removed (version from <date when="2015-09-21T17:05:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2733 removed (version from <date when="2015-12-09T14:37:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2734 created using version from <date when="2014-07-04T12:49:13"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2734 removed (version from <date when="2014-07-04T12:49:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2734 removed (version from <date when="2015-01-28T10:36:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2734 removed (version from <date when="2015-09-21T17:14:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2734 removed (version from <date when="2015-09-21T17:15:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2734 removed (version from <date when="2015-12-09T14:40:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2735 (version from <date when="2015-12-09T14:38:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2733 added to letter (version from <date when="2015-12-09T14:37:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:15" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2734 added to letter (version from <date when="2015-12-09T14:40:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:17" who="#PythonScript">
+                
+                    Clean tags: Page 2733 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:17" who="#PythonScript">
+                
+                    Clean tags: Page 2734 cleaned of 7 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:17" who="#PythonScript">
+                
+                    Clean tags: Page 2735 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:24" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1053_img_2733" url="aac4e49e5eadf2d0ef708803b3b71b3d.jpg"/> 
+    
+    <graphic xml:id="L1916_1053_img_2734" url="3e2af2eab13bf5c1d126ad19ac8ea474.jpg"/> 
+    
+    <graphic xml:id="L1916_1053_img_2735" url="c4ffff88b3727601b6545f7e964d3750.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2733" facs="#L1916_1053_img_2733"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<address>From H. Pim <lb/>Irish Prisoner (Stafford) <lb/>c/o Chief Postal Censor, <lb/>London,</address> <opener><dateline><date>May 26<hi rend="superscript">th</hi></date></dateline> <salute>My dear Madam O'Rahilly</salute></opener> <p>Turlough <lb/> &amp; I were on holiday <lb/> in Tyrone when the news <lb/> burst upon us. I <sic>haden't</sic> <lb/> the faintest suspicion <lb/> of trouble.  The whole  <lb/>business even now <lb/> seems like a nightmare  <lb/>from which we shall  <lb/>wake to find everything <lb/> all right.  I heard <lb/> on Wednesday 3rd
+        
+    
+
+    
+         
+        <pb n="2734" facs="#L1916_1053_img_2734"/>
+        
+        
+           
+            <lb/>of one who loved The O'Rahilly as <lb/> a dear friend, &amp; who respected his <lb/> brilliance &amp; fine spirit, you have <lb/> that sympathy.</p> <p>Turlough was oh so sorry for <lb/> you all.  I don't know how to <lb/> write this letter, but I want you <lb/> to convey my sympathy to your <lb/> dear boys.  One's little <lb/> troubles are a mere detail in <lb/> the disaster which has overwhelmed  <lb/>our people.  They took me away <lb/> before Turlough returned from school, <lb/> so I could not say good-bye; &amp; he is <lb/> in a spiritual atmosphere antagonistic <lb/> to his Religion.  You will pray for <lb/> us both, won't you?  My life is <lb/> quite monastic here; &amp; one has ample <lb/> time for one's prayers.  We are allowed <lb/> papers, books &amp; tobacco; but between <lb/> me &amp; vacuity is one fill for a pipe &amp; a volume of <hi rend="underline">The Lives <lb/> of the Saints.</hi><lb/> <closer><salute>Yours ever</salute> <signed>Herbert M <hi rend="underline">Pim</hi></signed></closer>
+        
+    
+         
+        <pb n="2735" facs="#L1916_1053_img_2735"/>
+        
+        
+           
+            about The O'Rahilly; &amp;  <lb/>from that moment I <lb/> ceased to feel anything.  <lb/> The tragedy &amp; the deaths <lb/> before that had made <lb/> me weep &amp; suffer; but <lb/> this news provided  <lb/>so great a shock that <lb/> I found myself atrophied.</p> <p>It was a great relief <lb/> to be arrested, to <lb/> suffer a little personal<lb/> inconvenience.</p> <p>Words must be vain <lb/> things for you.  But if <lb/> it comforts you to know <lb/> that you have the most <lb/> whole hearted sympathy
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

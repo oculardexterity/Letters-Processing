@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2108">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from General John Grenfell Maxwell to Bishop Edward Thomas O&#39;Dwyer, 6 May 1916</title>
+                
+                <author>John Grenfell Maxwell</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="WB">William Buck</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Lainey">Lainey</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2108</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This letter was written by Sir General John Grenfell Maxwell (1859 – 1929), to Bishop Edward Thomas O&#39;Dwyer (1842-1917), who served as the Bishop of Limerick from 1888 until his death. In this letter Maxwell is requesting that O’Dwyer remove two priests in his diocese so that they cannot interact with the general population. According to Maxwell the presence of these priests is a dangerous menace to the peace and safety of the realm and had they been laymen both would already be under arrest. The priests concerned are Fr Thomas Wall (1877 – 1956), and Fr Michael Hayes (1873 – 1934). Maxwell reportedly called for the pair’s removal because they were providing moral support to the rebels of Easter Week 1916.    Maxwell had been appointed commander in chief of the British forces in Ireland after the outbreak of the Easter Rising. He arrived in Ireland on Friday 28 April, the fifth day of the insurrection. As acting military governor of Ireland, Maxwell dealt with the rebellion according to his understa</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Limerick Diocesan Archive">Limerick Diocesan Archive</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Edward_Thomas_ODwyer">Edward Thomas O&#39;Dwyer</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#John_Grenfell_Maxwell">John Grenfell Maxwell</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-04-14T11:00:55" who="#WB">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-04-14T11:00:55" who="#Lainey">
+                
+                    Page 5332 modified:
+                    <!-- 
+<hi rend="underline">No. O.B.7. (57).</hi>  <address>Head Quarters, Irish Command, Parkgate, DUBLIN, 6th May, 1916.</address>  <salute>My Lord,</salute> <p>I have the honour to request your Lordship's co-operation in a matter connected with the recent deplorable situation in Ireland the settlement of which I am confident you desire no less keenly than I do.</p> <p>There are two Priests in your Diocese, the Reverend Father Thomas Wall, of Drumcollogher, Co.Limerick, and the Reverend Father M. Hayes, of Newcastle West, County Limerick, whose presence in that neighbourhood I consider to be a dangerous menace to the peace and safety of the Realm, and had these priests been lay men they would have already been placed under arrest. In this case I would be glad if your Lordship could obviate the necessity for such action by moving these Priests  to such employment as will deny their having intercourse with the people, and inform me of your decision. </p>  <salute>I ahve the honour to be, Your obedient servant, J. G. Maxwell General, Commander-in-Chief, The Forces in Ireland.</salute>   <address>The Most Reverend Dr. O'Dwyer, Bishop of LIMERICK, LIMERICK></address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-19T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-19T15:55:44" who="#NR">
+                
+                    Page 5332 modified:
+                    <!-- 
+<hi rend="underline">No. O.B.7. (57).</hi><lb/>  <address>Head Quarters, Irish Command,<lb/> Parkgate, DUBLIN,</address> <date>6th May, 1916.</date>  <salute>My Lord,</salute> <p>I have the honour to request your Lordship's<lb/>  co-operation in a matter connected with the present<lb/>  deplorable situation in Ireland the settlement of which<lb/>  I am confident you desire no less keenly than I do.</p>  <p>There are two Priests in your Diocese, the Reverend<lb/>  Father Thomas Wall, of Drumcollogher, Co.Limerick, and <lb/> the Reverend Father M. Hayes, of Newcastle West, County<lb/> Limerick, whose presence in that neighbourhood I consider<lb/>  to be a dangerous menace to the peace and safety of the<lb/>  Realm, and had these priests been lay men they would have<lb/>  already been placed under arrest. In this case I would<lb/>  be glad if your Lordship could obviate the necessity<lb/>  for such action by moving these Priests  to such employment<lb/>  as will deny their having intercourse with the people, and<lb/>  inform me of your decision. </p>  <salute>I have the honour to be,<lb/> Your obedient servant,</salute> J. G. Maxwell<lb/> General,<lb/> Commander-in-Chief,<lb/> The Forces in Ireland.<lb/>  <salute>The Most Reverend Dr. O'Dwyer,<lb/> Bishop of LIMERICK,<lb/> LIMERICK</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:08" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5332 created using version from <date when="2015-04-14T11:00:55"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:08" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5332 removed (version from <date when="2015-04-14T11:00:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:08" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5332 removed (version from <date when="2015-11-19T15:55:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 5332 (version from <date when="2015-11-19T15:55:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 5332 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:46" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2108_img_5332" url="054639680201b29e3f4f64f8966ff19f.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="5332" facs="#L1916_2108_img_5332"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<hi rend="underline">No. O.B.7. (57).</hi><lb/>  <opener><address><addrLine>Head Quarters, Irish Command,</addrLine>
+<addrLine>Parkgate, DUBLIN,</addrLine></address> <dateline><date>6th May, 1916.</date></dateline>  <salute>My Lord,</salute></opener> <p>I have the honour to request your Lordship's<lb/>  co-operation in a matter connected with the present<lb/>  deplorable situation in Ireland the settlement of which<lb/>  I am confident you desire no less keenly than I do.</p>  <p>There are two Priests in your Diocese, the Reverend<lb/>  Father Thomas Wall, of Drumcollogher, Co.Limerick, and <lb/> the Reverend Father M. Hayes, of Newcastle West, County<lb/> Limerick, whose presence in that neighbourhood I consider<lb/>  to be a dangerous menace to the peace and safety of the<lb/>  Realm, and had these priests been lay men they would have<lb/>  already been placed under arrest. In this case I would<lb/>  be glad if your Lordship could obviate the necessity<lb/>  for such action by moving these Priests  to such employment<lb/>  as will deny their having intercourse with the people, and<lb/>  inform me of your decision. </p>  <closer><salute>I have the honour to be,<lb/> Your obedient servant,</salute> J. G. Maxwell<lb/> General,<lb/> Commander-in-Chief,<lb/> The Forces in Ireland.<lb/>  <salute>The Most Reverend Dr. O'Dwyer,<lb/> Bishop of LIMERICK,<lb/> LIMERICK</salute></closer>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

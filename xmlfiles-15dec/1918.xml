@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1918">
+    <fileDesc>
+            <titleStmt>
+                <title>A note to the Officer Commanding A Company, c 24 April 1916</title>
+                
+                <author>MISSING</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="WB">William Buck</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Ruby">Ruby</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Scribe57">Scribe57</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Delmacarroll">Delmacarroll</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1918</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>A note to the Officer Commanding A Company, most probably written during the Easter Rising.     Éamonn Ceannt was succeed as the Captain of A Company, Irish Volunteers, in 1914 by Seamus Murphy. During the Easter Rising, Murphy was in charge of the garrison at the Marrowbone Lane Distillery with Captain Con Colbert as his second in command. This note informs Murphy of the best vantage points for securing and defending the area surrounding College Green.     </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Allen Library">Allen Library</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Seamus_Murphy">Seamus Murphy</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                    
+                    <persName ref="MISSING"></persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-02-13T20:27:35" who="#WB">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-02-13T20:27:35" who="#Delmacarroll">
+                
+                    Page 4807 modified:
+                    <!-- 
+To O.C. <hi rend="underline">A Company</hi><lb/>  The houses in Grafton St forming the<lb/>triangle opposite Trinity College are unoccupied<lb/> They are high and the roofs could I think dominate<lb/>College Green and check the sniper on the roof of the<lb/> Bank also the line of <gap/>,Dame St to <unclear>Georges</unclear> St<lb/>Westmorland St and Grafton St<lb/>  Given by Rev. <unclear>M</unclear>Allen PP<lb/>High Street 22 .7.66<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-08T14:28:45" who="#Scribe57">
+                
+                    Page 4807 modified:
+                    <!-- 
+To O.C. <hi rend="underline">A Company</hi><lb/>  The houses in Grafton St forming the <lb/> triangle opposite Trinity College are unoccupied<lb/> They are high and the roofs could I think dominate<lb/>College Green and check the snipers on the roof of the<lb/> Bank also the line of Route, Dame St. to Georges St<lb/>Westmorland St and Grafton St<lb/>  Given by Rev.Ml Allen PP<lb/>High Street 22 .7.66<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-26T14:06:45" who="#Ruby">
+                
+                    Page 4807 modified:
+                    <!-- 
+To O.C. <hi rend="underline">A Company</hi><lb/>  The houses in Grafton St forming the <lb/> triangle opposite Trinity College are unoccupied<lb/> They are high and the roofs could I think dominate<lb/>College Green and check the snipers on the roof of the<lb/> Bank also the line of Route, Dame St. to Georges St<lb/>Westmorland St and Grafton St<lb/>  Given by Rev.MC Allen PP<lb/>High Street 22 .7.66<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-04T13:44:41" who="#Ruby">
+                
+                    Page 4807 modified:
+                    <!-- 
+To O.C. <hi rend="underline">A Company</hi><lb/>  The houses in Grafton St forming the <lb/> triangle opposite Trinity College are unoccupied<lb/> They are high and the roofs could I think dominate<lb/>College Green and check the snipers on the roof of the<lb/> Bank also the line of Route, Dame St. to Georges St<lb/>Westmoreland St and Grafton St<lb/>  Given by Rev.MC Allen PP<lb/>High Street 22 .7.66<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T14:50:54" who="#NR">
+                
+                    Page 4807 modified:
+                    <!-- 
+<address>To O.C. <hi rend="underline">A Company</hi></address>  <p>The houses in Grafton St forming the <lb/>  triangle opposite Trinity College are unoccupied<lb/> They are high and the roofs could I think dominate<lb/> College Green and check the snipers on the roof of the<lb/> Bank also the line of Route, Dame St. to Georges St<lb/> Westmoreland St and Grafton St</p>  Given by Rev.MC Allen PP<lb/> High Street 22 .7.66 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4807 created using version from <date when="2015-02-13T20:27:35"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4807 removed (version from <date when="2015-02-13T20:27:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4807 removed (version from <date when="2015-04-08T14:28:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4807 removed (version from <date when="2015-05-26T14:06:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4807 removed (version from <date when="2015-06-04T13:44:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4807 removed (version from <date when="2015-11-20T14:50:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 4807 (version from <date when="2015-11-20T14:50:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:17" who="#PythonScript">
+                
+                    Clean tags: Page 4807 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:27" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1918_img_4807" url="c41228bda08b82d36921bb71978a4b73.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+
+        
+            
+            <pb n="4807" facs="#L1916_1918_img_4807"/>
+                <text type="unknown" decls="#corresp1">
+                    <body>
+                        <address>To O.C. <hi rend="underline">A Company</hi></address>  <p>The houses in Grafton St forming the <lb/>  triangle opposite Trinity College are unoccupied<lb/> They are high and the roofs could I think dominate<lb/> College Green and check the snipers on the roof of the<lb/> Bank also the line of Route, Dame St. to Georges St<lb/> Westmoreland St and Grafton St</p>  Given by Rev.MC Allen PP<lb/> High Street 22 .7.66
+            
+        
+        
+            </body>
+        </text>
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

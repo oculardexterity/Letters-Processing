@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1259">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Lieutenant Colonel R. L. Owens to Anna O&#39;Rahilly, 29 May 1916</title>
+                
+                <author>R. L. Owens</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="HH">Hannah Healy</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1259</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This letter was written by Lieutenant Colonel R.L. Owens to Anna O&#39;Rahilly. In this letter Owens informs Miss O&#39;Rahilly that he has been in communication with the commanding officer at Moore Street and that he has no information regarding the missing articles which Miss O&#39;Rahilly is searching for. He states that the company of his battalion was relieved at 5:30 pm Saturday 29 April by a company of the 26th Notts and Derby Regiment. This letter is part of a series of correspondence in which Miss O&#39;Rahilly is attempting to locate a watch belonging to Michael O&#39;Rahilly which was not returned to the family after his death.     Owens was a Lieutenant Colonel at Richmond Barracks and served over the 3rd Battalion of the Royal Irish Regiment. This was one of the regiments involved in helping to defeat the Rising in 1916.     Anna O&#39;Rahilly was the sister of Michael O&#39;Rahilly. Michael Joseph &#39;The&#39; O&#39;Rahilly (1875–1916) was a nationalist and a journalist. In 1916 he aligned himself with Eoin MacNeill and Bulmer Hobs</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Anna_ORahilly">Anna O&#39;Rahilly</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#R._L._Owens">R. L. Owens</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-11-03T21:17:46" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-03T21:17:46" who="#Philcostel">
+                
+                    Page 3326 modified:
+                    <!-- 
+RICHMOND BARRACKS, DUBLIN. 29th May 1916. Dear Madam, In continuation of my letter of the 28th instant, I beg to inform you that I have been in communication with the Officer Commanding the the Company of my Battalion on duty at Moore Street during the Rebellion, and regret I can give you no information regarding the missing articles. The Company of my Battalion was relieved at 5.30 p.m. on Saturday 29th April by a Company of the 2/6th Notts & derby Regiment, and up to that time our men remained at their post at the Barricade North of Moore Street. Yours Truly, R.L. Owens Lieut. Colonel. Commanding 3rd Battalion The Royal Irish Regt. To, Mrs. Anna O'Rahilly 54, Northumberland Road,  DUBLIN. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-30T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-30T10:55:00" who="#NR">
+                
+                    Page 3326 modified:
+                    <!-- 
+<address>RICHMOND BARRACKS,<lb/> DUBLIN.</address> <date>29th May 1916.</date> <salute>Dear Madam,</salute> <p>In continuation of my letter of the <lb/> 28th instant, I beg to inform you that I have been<lb/>  in communication with the Officer Commanding the<lb/> Company of my Battalion on duty at Moore Street during<lb/>  the Rebellion, and regret I can give you no information<lb/>  regarding the missing articles.</p> <p>The Company of my Battalion was relieved<lb/>  at 5.30 p.m. on Saturday 29th April by a Company of the<lb/>  2/6th Notts &amp; derby Regiment, and up to that time our <lb/> men remained at their post at the Barricade North of <lb/> Moore Street.</p> <salute>Yours Truly,</salute> R.L. Owens<lb/> Lieut. Colonel.<lb/> Commanding 3rd Battalion The Royal Irish Regt.<lb/> <address>To,<lb/> Mrs. Anna O'Rahilly<lb/> 54, Northumberland Road, <lb/> DUBLIN.</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3326 created using version from <date when="2014-11-03T21:17:46"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3326 removed (version from <date when="2014-11-03T21:17:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3326 removed (version from <date when="2015-11-30T10:55:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3326 (version from <date when="2015-11-30T10:55:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:19" who="#PythonScript">
+                
+                    Clean tags: Page 3326 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:38" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1259_img_3326" url="57b82cce206329b8acb17f54fecdb03a.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3326" facs="#L1916_1259_img_3326"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>RICHMOND BARRACKS,</addrLine>
+<addrLine>DUBLIN.</addrLine></address> <dateline><date>29th May 1916.</date></dateline> <salute>Dear Madam,</salute></opener> <p>In continuation of my letter of the <lb/> 28th instant, I beg to inform you that I have been<lb/>  in communication with the Officer Commanding the<lb/> Company of my Battalion on duty at Moore Street during<lb/>  the Rebellion, and regret I can give you no information<lb/>  regarding the missing articles.</p> <p>The Company of my Battalion was relieved<lb/>  at 5.30 p.m. on Saturday 29th April by a Company of the<lb/>  2/6th Notts &amp; derby Regiment, and up to that time our <lb/> men remained at their post at the Barricade North of <lb/> Moore Street.</p> <closer><salute>Yours Truly,</salute> R.L. Owens<lb/> Lieut. Colonel.<lb/> Commanding 3rd Battalion The Royal Irish Regt.<lb/> <address><addrLine>To,</addrLine>
+<addrLine>Mrs. Anna O'Rahilly</addrLine>
+<addrLine>54, Northumberland Road,</addrLine>
+<addrLine>DUBLIN.</addrLine></address></closer>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1667">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Wilfred Short, 9 June 1916</title>
+                
+                <author>Wilfred Short</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Miriamc">Miriamc</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Smtm">Smtm</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BarneyDoherty">Barney Doherty</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1667</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is a letter from Wilfred Short to the Chief Secretary&#39;s Office. Short is writing to enclose an anonymous letter addressed to Arthur James Balfour.    The enclosed letter claims that the Irish are planning another Rising, and warns that the British should prepare the military and navy. The writer says that millions of Irish American Fenians plan to take over not only Ireland but England.&#34;These traitors will eat the heart out of the Empire&#34;.    Wilfred Short (1870 - 1947) was a British civil servant. In 1916 he was serving as private secretary to the statesman Arthur James Balfour (1848-1930), a British Conservative politician who was the Prime Minister of the United Kingdom from July 1902 to December 1905.    The letter is addressed to the Chief Secretary for Ireland. At this time there is no official Chief Secretary for Ireland following the resignation of Augustine Birrell (1850-1933) on 3 May 1916. Birrell&#39;s resignation was a consequence of the 1916 Rising for which he accepted responsibility. His succ</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#National Archives of Ireland">National Archives of Ireland</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName>MISSING</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Wilfred_Short">Wilfred Short</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-12-16T17:41:59" who="#BarneyDoherty">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-12-16T17:41:59" who="#Smtm">
+                
+                    Page 4167 modified:
+                    <!-- 
+Dublin 7th June 1916<lb/> Sir<lb/> <p>I wish to let you know that the Irish are <lb/> rising again<lb/> on White Monday or so, and<lb/> your Government would<lb/> want to take precautions<lb/> This is why they want<lb/> Home Rule in order </p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-16T17:47:59" who="#BarneyDoherty">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-12-16T17:47:59" who="#Smtm">
+                
+                    Page 4168 modified:
+                    <!-- 
+to get the military and<lb/> ships that guards the<lb/> coast of Ireland with-<lb/> drawn until they get<lb/> in the 3 millions of<lb/> Irish American Fenians<lb/> who are coming over to<lb/> take not only Ireland<lb/> but England. the way<lb/> Asquith has acted in<lb/> letting out the rebels<lb/> has demonstrated to<lb/><pb/> them that they 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-16T17:52:34" who="#Smtm">
+                
+                    Page 4168 modified:
+                    <!-- 
+to get the military and<lb/> ships that guards the<lb/> coast of Ireland with-<lb/> drawn until they get<lb/> in the 3 millions of<lb/> Irish American Fenians<lb/> who are coming over to<lb/> take not only Ireland<lb/> but England. the way<lb/> Asquith has acted in<lb/> letting out the rebels<lb/> has demonstrated to<lb/><pb/> them that they can kill<lb/> police etc. with impunity<lb/> and so they are u-forming<lb/> and are rising again.<lb/> <pb/>You must see that<lb/> the Liberals are not let<lb/> wipe out the whole <lb/> Constitution and it is<lb/> time they were put out<lb/> before they trail England<lb/> in the Aust any more.<lb/> and you should see that<lb/> a good Conservative<lb/></p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-16T17:58:14" who="#BarneyDoherty">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-12-16T17:58:14" who="#Smtm">
+                
+                    Page 4169 modified:
+                    <!-- 
+General is appointed<lb/> in Lord Kitchiner's<lb/> place. <p>England's difficulty<lb/> is Ireland's opportunity<lb/> has long been the rebels<lb/> motto, and this rising<lb/> in Ireland is made<lb/> whilst the men are in<lb/> France, and unless this<lb/> war is stopped these traitors<lb/> will eat the hear out <lb/> of this Empire</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-16T18:08:17" who="#BarneyDoherty">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-12-16T18:08:17" who="#Smtm">
+                
+                    Page 4166 modified:
+                    <!-- 
+<date>9 June 1916</date> <salute>Dear Sir,</salute> The enclosed anony- <lb/> mous communication<lb/> has been addressed to<lb/> Mr Balfour. For<lb/> what it may be<lb/> worth I send it to<lb/> you. Yours faithfully<lb/> Wilfrid Short 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-16T18:09:25" who="#Smtm">
+                
+                    Page 4167 modified:
+                    <!-- 
+Dublin <date>7 June 1916</date><lb/> <salute>Sir</salute> <p>I wish to let you know that the Irish are <lb/> rising again<lb/> on White Monday or so, and<lb/> your Government would<lb/> want to take precautions<lb/> This is why they want<lb/> Home Rule in order </p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-09T16:06:38" who="#Miriamc">
+                
+                    Page 4168 modified:
+                    <!-- 
+to get the military and<lb/> ships that guards the<lb/> coast of Ireland with-<lb/> drawn until they get<lb/> in the 3 millions of<lb/> Irish American Fenians<lb/> who are coming over to<lb/> take not only Ireland<lb/> but England. the way<lb/> Asquith has acted in<lb/> letting out the rebels<lb/> has demonstrated to<lb/><pb/> them that they can kill<lb/> police etc. with impunity<lb/> and so they are re-forming<lb/> and are rising again.<lb/> <pb/>You must see that<lb/> the Liberals are not let<lb/> wipe out the whole <lb/> Constitution and it is<lb/> time they were put out<lb/> before they trail England<lb/> in the Aust any more.<lb/> and you should see that<lb/> a good Conservative<lb/></p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-09T16:08:11" who="#Miriamc">
+                
+                    Page 4168 modified:
+                    <!-- 
+to get the military and<lb/> ships that guards the<lb/> coast of Ireland with-<lb/> drawn until they get<lb/> in the 3 millions of<lb/> Irish American Fenians<lb/> who are coming over to<lb/> take not only Ireland<lb/> but England. the way<lb/> Asquith has acted in<lb/> letting out the rebels<lb/> has demonstrated to<lb/><pb/> them that they can kill<lb/> police etc. with impunity<lb/> and so they are re-forming<lb/> and are rising again.<lb/> <pb/>You must see that<lb/> the Liberals are not let<lb/> wipe out the whole <lb/> Constitution and it is<lb/> time they were put out<lb/> before they trail England<lb/> in the dust any more.<lb/> and you should see that<lb/> a good Conservative<lb/></p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T15:35:37" who="#NR">
+                
+                    Page 4166 modified:
+                    <!-- 
+<date>9 June 1916</date> <salute>Dear Sir,</salute> <p>The enclosed anony- <lb/> mous communication<lb/> has been addressed to<lb/> Mr Balfour. For<lb/> what it may be<lb/> worth I send it to<lb/> you. <salute>Yours faithfully</salute></p> <hi rend="underline">Wilfrid Short</hi> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T15:37:44" who="#NR">
+                
+                    Page 4167 modified:
+                    <!-- 
+<address>Dublin</address>  <date>7<hi rend="superscript">th</hi> June 1916</date> <salute>Sir</salute> <p>I wish to let you<lb/>  know that the Irish are <lb/> rising again on White <lb/> Monday or so, and<lb/> your Government would<lb/> want to take precautions<lb/> This is why they want<lb/> Home Rule in order<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T15:38:34" who="#NR">
+                
+                    Page 4168 modified:
+                    <!-- 
+to get the military and<lb/> ships that guards the<lb/> coast of Ireland with-<lb/> drawn until they get<lb/> in the 3 millions of<lb/> Irish American Fenians<lb/> who are coming over to<lb/> take not only Ireland<lb/> but England. the way<lb/> Asquith has acted in<lb/> letting out the rebels<lb/> has demonstrated to<pb/> them that they can kill<lb/> police etc. with impunity<lb/> and so they are re-forming<lb/> and are rising again.</p> <p>You must see that<lb/> the Liberals are not let<lb/> wipe out the whole <lb/> Constitution and it is<lb/> time they were put out<lb/> before they trail England<lb/> in the dust any more.<lb/> and you should see that<lb/> a good Conservative<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T15:39:21" who="#NR">
+                
+                    Page 4169 modified:
+                    <!-- 
+General is appointed<lb/> in Lord Kitchiner's<lb/> place.</p> <p>England's difficulty<lb/> is Ireland's opportunity<lb/> has long been the rebels<lb/> motto, and this rising<lb/> in Ireland is made<lb/> whilst the men are in<lb/> France, and unless this<lb/> war is stopped these traitors<lb/> will eat the hear out <lb/> of this Empire</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4168 created using version from <date when="2014-12-16T17:47:59"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4168 removed (version from <date when="2014-12-16T17:47:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4168 removed (version from <date when="2014-12-16T17:52:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4168 removed (version from <date when="2015-02-09T16:06:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4168 removed (version from <date when="2015-02-09T16:08:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4168 removed (version from <date when="2015-11-24T15:38:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4169 created using version from <date when="2014-12-16T17:58:14"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4169 removed (version from <date when="2014-12-16T17:58:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4169 removed (version from <date when="2015-11-24T15:39:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4166 created using version from <date when="2014-12-16T18:08:17"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4166 removed (version from <date when="2014-12-16T18:08:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4166 removed (version from <date when="2015-11-24T15:35:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4167 created using version from <date when="2014-12-16T17:41:59"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4167 removed (version from <date when="2014-12-16T17:41:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4167 removed (version from <date when="2014-12-16T18:09:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4167 removed (version from <date when="2015-11-24T15:37:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 4168 (version from <date when="2015-11-24T15:38:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 4169 added to letter (version from <date when="2015-11-24T15:39:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 4166 added to letter (version from <date when="2015-11-24T15:35:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 4167 added to letter (version from <date when="2015-11-24T15:37:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 4168 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 4169 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 4166 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 4167 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:52" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1667_img_4166" url="a7bd8ea9a2d1c5ea4ebf93aca94bdd91.jpg"/> 
+    
+    <graphic xml:id="L1916_1667_img_4167" url="be3b9b3c561ec94dce3237b741ad78ec.jpg"/> 
+    
+    <graphic xml:id="L1916_1667_img_4168" url="a3958ad0c94aa2e28fabdf8157239f28.jpg"/> 
+    
+    <graphic xml:id="L1916_1667_img_4169" url="0394a1960574bdae42f0ebbef0a12c3f.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="4166" facs="#L1916_1667_img_4166"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><dateline><date>9 June 1916</date></dateline> <salute>Dear Sir,</salute></opener> <p>The enclosed anony- <lb/> mous communication<lb/> has been addressed to<lb/> Mr Balfour. For<lb/> what it may be<lb/> worth I send it to<lb/> you. <salute>Yours faithfully</salute></p> <hi rend="underline">Wilfrid Short</hi>
+        
+    
+
+    
+         
+        <pb n="4167" facs="#L1916_1667_img_4167"/>
+        
+        
+           
+            <address>Dublin</address>  <date>7<hi rend="superscript">th</hi> June 1916</date> <salute>Sir</salute> <p>I wish to let you<lb/>  know that the Irish are <lb/> rising again on White <lb/> Monday or so, and<lb/> your Government would<lb/> want to take precautions<lb/> This is why they want<lb/> Home Rule in order<pb/>
+        
+    
+         
+        <pb n="4168" facs="#L1916_1667_img_4168"/>
+        
+        
+           
+            to get the military and<lb/> ships that guards the<lb/> coast of Ireland with-<lb/> drawn until they get<lb/> in the 3 millions of<lb/> Irish American Fenians<lb/> who are coming over to<lb/> take not only Ireland<lb/> but England. the way<lb/> Asquith has acted in<lb/> letting out the rebels<lb/> has demonstrated to<pb/> them that they can kill<lb/> police etc. with impunity<lb/> and so they are re-forming<lb/> and are rising again.</p> <p>You must see that<lb/> the Liberals are not let<lb/> wipe out the whole <lb/> Constitution and it is<lb/> time they were put out<lb/> before they trail England<lb/> in the dust any more.<lb/> and you should see that<lb/> a good Conservative<pb/>
+        
+    
+         
+        <pb n="4169" facs="#L1916_1667_img_4169"/>
+        
+        
+           
+            General is appointed<lb/> in Lord Kitchiner's<lb/> place.</p> <p>England's difficulty<lb/> is Ireland's opportunity<lb/> has long been the rebels<lb/> motto, and this rising<lb/> in Ireland is made<lb/> whilst the men are in<lb/> France, and unless this<lb/> war is stopped these traitors<lb/> will eat the hear out <lb/> of this Empire</p>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

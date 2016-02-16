@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1790">
+    <fileDesc>
+            <titleStmt>
+                <title>Telegram from Daisy Craske to D. W. Oliver, 4 May 1916</title>
+                
+                <author>Daisy Craske</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="KB">Karolina Badzmierowska</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Miriamc">Miriamc</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Scribe57">Scribe57</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Daithai64">Daithai64</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1790</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is a telegram from Daisy Craske to her brother, D. W. Oliver, the London manager of Montreal Bank. The telegram gives details of an alternative address to which a dispatch can be sent. The awaited dispatch is regards a maid who travelled to Dublin but has been missing since Easter Monday.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#National Archives of Ireland">National Archives of Ireland</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#D.W.Oliver">D.W.Oliver</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Daisy_Craske">Daisy Craske</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-02-03T15:37:42" who="#KB">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-02-03T15:37:42" who="#Daithai64">
+                
+                    Page 4489 modified:
+                    <!-- 
+POST OFFICE TELEGRAPHS BIRR 4TH  31  TO OLIVER BANK OF MONTREAL      WATERLOO LONDON +  KINDLY WIRE MRS EGAN SAN BERNARD 65 LINDSAY ROAD GLASNEVIN DUBLIN ANY NEWS OF CISSIE HARTE CANT WIRE FROM HERE TO DUBLIN MANY THANKS + DAISY  Trever (?) left for Dublin Sunday or Monday (Easter) 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-04T11:43:18" who="#Miriamc">
+                
+                    Page 4489 modified:
+                    <!-- 
+POST OFFICE TELEGRAPHS BIRR 4TH  31  TO OLIVER BANK OF MONTREAL      WATERLOO LONDON +  KINDLY WIRE MRS EGAN SAN BERNARD 65 LINDSAY ROAD GLASNEVIN DUBLIN ANY NEWS OF CISSIE HARTE CANT WIRE FROM HERE TO DUBLIN MANY THANKS + DAISY  Nurse (?) left for Dublin Sunday or Monday (Easter) 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-09T20:25:40" who="#Scribe57">
+                
+                    Page 4489 modified:
+                    <!-- 
+POST OFFICE TELEGRAPHS BIRR 4TH  31  TO OLIVER BANK OF MONTREAL      WATERLOO LONDON +  KINDLY WIRE MRS EGAN SAN BERNARD 65 LINDSAY ROAD GLASNEVIN DUBLIN ANY NEWS OF CISSIE HARTE CANT WIRE FROM HERE TO DUBLIN MANY THANKS  +Niece left for Dublin Sunday or Monday (Easter) 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T15:01:29" who="#NR">
+                
+                    Page 4489 modified:
+                    <!-- 
+POST OFFICE TELEGRAPHS<lb/> <date>BIRR 4TH  MAY 31</date>  <address>TO OLIVER BANK OF MONTREAL<lb/>      WATERLOO LONDON +</address>  <p>KINDLY WIRE MRS EGAN SAN BERNARD 65 LINDSAY<lb/> ROAD GLASNEVIN DUBLIN ANY NEWS OF CISSIE HARTE<lb/> CANT WIRE FROM HERE TO DUBLIN MANY THANKS</p> + DAISY.<lb/>  <note>+Niece left for Dublin<lb/> Sunday or Monday (Easter)</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4489 created using version from <date when="2015-02-03T15:37:42"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4489 removed (version from <date when="2015-02-03T15:37:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4489 removed (version from <date when="2015-02-04T11:43:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4489 removed (version from <date when="2015-04-09T20:25:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4489 removed (version from <date when="2015-11-24T15:01:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 4489 (version from <date when="2015-11-24T15:01:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 4489 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:31" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1790_img_4489" url="a94ffb797c0181ccd6539daa268794c0.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+
+        
+            
+            <pb n="4489" facs="#L1916_1790_img_4489"/>
+                <text type="telegram" decls="#corresp1">
+                    <body>
+                        POST OFFICE TELEGRAPHS<lb/> <date>BIRR 4TH  MAY 31</date>  <address>TO OLIVER BANK OF MONTREAL<lb/>      WATERLOO LONDON +</address>  <p>KINDLY WIRE MRS EGAN SAN BERNARD 65 LINDSAY<lb/> ROAD GLASNEVIN DUBLIN ANY NEWS OF CISSIE HARTE<lb/> CANT WIRE FROM HERE TO DUBLIN MANY THANKS</p> + DAISY.<lb/>  <note>+Niece left for Dublin<lb/> Sunday or Monday (Easter)</note>
+            
+        
+        
+            </body>
+        </text>
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

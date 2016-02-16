@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1227">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from D. M. R. to Mary Ellen O&#39;Rahilly, 20 May 1916</title>
+                
+                <author>D. M. R.</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="AaronHoey">AaronHoey</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1227</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is a letter to Mary Ellen (‘Nell’) O’Rahilly. The letter concerns the death of Mary O&#39;Rahilly&#39;s brother, Michael, in which the author offers their condolence and praises Michael for his actions. She informs Nell that she has cut Michael&#39;s photo out of the paper as his name will &#39;live in History&#39;.    Michael Joseph &#39;The&#39; O&#39;Rahilly (1875–1916) was a nationalist and a journalist. In 1916 he aligned himself with Eoin MacNeill and Bulmer Hobson who opposed a preemptive rising. Although O&#39;Rahilly played a large role in delivering MacNeill&#39;s countermanding order he felt obligated to stand with the men he recruited and trained. O&#39;Rahilly was fatally wounded on the Thursday 27 April when the GPO was being evacuated.     Nell was also involved in the Nationalist movement as a member of Cumann na mBan and was imprisoned after the Rising for her role.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Mary_Ellen_ORahilly">Mary Ellen O&#39;Rahilly</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#D._M._R.">D. M. R.</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-11-04T21:11:26" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-04T21:11:26" who="#Philcostel">
+                
+                    Page 3273 modified:
+                    <!-- 
+<hi rend="underline">20th May 1916</hi> My dear Nell I cannot tell you how much I feel for & sympathise with you & dear Anna on the death of poor Michael R.I.P.. Since the Post was <hi rend="underline">allowed</hi> to come here I've been trying to write to you but I feel things <hi rend="underline">too</hi> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-04T21:16:00" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-04T21:16:00" who="#Philcostel">
+                
+                    Page 3274 modified:
+                    <!-- 
+much to be able to speak of them, especially as my letter must be public & <hi rend="underline">common property!</hi> However one thing must ever be a comfort to & that is that Michael is <hi rend="underline">surely</hi> in Heaven. I cut (& mean to keep) his Photo out of the Paper. He died as a hero & his name shall live in History. I am proud of being 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-04T21:19:32" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-04T21:19:32" who="#Philcostel">
+                
+                    Page 3275 modified:
+                    <!-- 
+Irish. This Isle of ours is indeed worthy to be called "the Island of Saints & Martyrs". I must call to see you as soon as I can. Poor Dick, how I feel for him. Best we can only pray. i know you'll be brave & strong during this terrible 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-04T21:25:10" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-04T21:25:10" who="#Philcostel">
+                
+                    Page 3276 modified:
+                    <!-- 
+time of trial. You & Anna are far braver than I should be under the circumstances. But enough now till we meet, which I hope shall be <hi rend="underline">very soon</hi>. With fondest love to you & Anna <sic>Shelat</sic> & <sic>Emmit</sic>. <gap/> Yours affectionately D.M.R. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-30T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-30T12:01:05" who="#NR">
+                
+                    Page 3273 modified:
+                    <!-- 
+<date><hi rend="underline">20th May 1916</hi></date> <salute>My dear Nell</salute> <p>I cannot tell <lb/> you how much I fee<lb/>l  for &amp; sympathise with<lb/>  you &amp; dear Anna on the<lb/>  death of poor Michael R.I.P.<lb/> Since the Post was <hi rend="underline">allowed</hi><lb/>  to come here I've been<lb/>  trying to write to you<lb/>  but I feel things <hi rend="underline">too</hi><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-30T12:03:44" who="#NR">
+                
+                    Page 3274 modified:
+                    <!-- 
+much to be able to <lb/> speak of them, especially<lb/>  as my letter must be public <lb/> &amp; <hi rend="underline">common property!</hi></p> <p>However one thing must<lb/>  ever be a comfort to<lb/>  &amp; that is that <lb/> Michael is <hi rend="underline">surely</hi> in<lb/>  Heaven. I cut (&amp; mean to keep)<lb/>  his Photo out of the Paper.<lb/> He died as a hero &amp; his<lb/>  name shall live in History.<lb/> I am proud of being<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-30T12:06:52" who="#NR">
+                
+                    Page 3275 modified:
+                    <!-- 
+Irish. This Isle of ours is  indeed worthy to be called<lb/>  "the Island of Saints &amp; Martyrs".<lb/> I must call to see you<lb/>  as soon as I can. Poor<lb/>  Dick, how I feel for him.<lb/>  Best we can only pray. <lb/> I know you'll be brave<lb/>  &amp; strong during this terrible<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-30T12:10:47" who="#NR">
+                
+                    Page 3276 modified:
+                    <!-- 
+time of trial. You<lb/>  &amp; Anna are far braver<lb/>  than I should be<lb/>  under the circumstances.<lb/> But enough now till<lb/>  we meet, which I<lb/>  hope shall be <hi rend="underline">very<lb/>  soon</hi>. With fondest<lb/>  love to you &amp; Anna<lb/>  <sic>Shelia</sic> &amp; <sic>Emmit</sic>.</p>  <salute>Yours affectionately</salute> D.M.R. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3274 created using version from <date when="2014-11-04T21:16:00"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3274 removed (version from <date when="2014-11-04T21:16:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3274 removed (version from <date when="2015-11-30T12:03:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3275 created using version from <date when="2014-11-04T21:19:32"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3275 removed (version from <date when="2014-11-04T21:19:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3275 removed (version from <date when="2015-11-30T12:06:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3276 created using version from <date when="2014-11-04T21:25:10"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3276 removed (version from <date when="2014-11-04T21:25:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3276 removed (version from <date when="2015-11-30T12:10:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3273 created using version from <date when="2014-11-04T21:11:26"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3273 removed (version from <date when="2014-11-04T21:11:26"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3273 removed (version from <date when="2015-11-30T12:01:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3274 (version from <date when="2015-11-30T12:03:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3275 added to letter (version from <date when="2015-11-30T12:06:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3276 added to letter (version from <date when="2015-11-30T12:10:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3273 added to letter (version from <date when="2015-11-30T12:01:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 3273 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 3274 cleaned of 4 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 3275 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 3276 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:44" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1227_img_3273" url="f6ae3a0ef38cca2ed6be8f0404e39632.jpg"/> 
+    
+    <graphic xml:id="L1916_1227_img_3274" url="71f6d45013b9f2e19e3d906e8019c47c.jpg"/> 
+    
+    <graphic xml:id="L1916_1227_img_3275" url="75414552c5d0f3d59d794d76d948de77.jpg"/> 
+    
+    <graphic xml:id="L1916_1227_img_3276" url="3d87fb1a4090fb906aa0b938fb0517e4.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3273" facs="#L1916_1227_img_3273"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><dateline><date><hi rend="underline">20th May 1916</hi></date></dateline> <salute>My dear Nell</salute></opener> <p>I cannot tell <lb/> you how much I fee<lb/>l  for &amp; sympathise with<lb/>  you &amp; dear Anna on the<lb/>  death of poor Michael R.I.P.<lb/> Since the Post was <hi rend="underline">allowed</hi><lb/>  to come here I've been<lb/>  trying to write to you<lb/>  but I feel things <hi rend="underline">too</hi><pb/>
+        
+    
+
+    
+         
+        <pb n="3274" facs="#L1916_1227_img_3274"/>
+        
+        
+           
+            much to be able to <lb/> speak of them, especially<lb/>  as my letter must be public <lb/> &amp; <hi rend="underline">common property!</hi></p> <p>However one thing must<lb/>  ever be a comfort to<lb/>  &amp; that is that <lb/> Michael is <hi rend="underline">surely</hi> in<lb/>  Heaven. I cut (&amp; mean to keep)<lb/>  his Photo out of the Paper.<lb/> He died as a hero &amp; his<lb/>  name shall live in History.<lb/> I am proud of being<pb/>
+        
+    
+         
+        <pb n="3275" facs="#L1916_1227_img_3275"/>
+        
+        
+           
+            Irish. This Isle of ours is  indeed worthy to be called<lb/>  "the Island of Saints &amp; Martyrs".<lb/> I must call to see you<lb/>  as soon as I can. Poor<lb/>  Dick, how I feel for him.<lb/>  Best we can only pray. <lb/> I know you'll be brave<lb/>  &amp; strong during this terrible<pb/>
+        
+    
+         
+        <pb n="3276" facs="#L1916_1227_img_3276"/>
+        
+        
+           
+            time of trial. You<lb/>  &amp; Anna are far braver<lb/>  than I should be<lb/>  under the circumstances.<lb/> But enough now till<lb/>  we meet, which I<lb/>  hope shall be <hi rend="underline">very<lb/>  soon</hi>. With fondest<lb/>  love to you &amp; Anna<lb/>  <sic>Shelia</sic> &amp; <sic>Emmit</sic>.</p>  <closer><salute>Yours affectionately</salute></closer> D.M.R.
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_999">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Henry O&#39;Hanrahan to his mother and sisters, 15 May 1916</title>
+                
+                <author>Henry O&#39;Hanrahan</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="BH">Brian Hughes</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Hughesf">Hughesf</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_999</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is a letter from Henry O&#39;Hanrahan (d. 1927)  to his mother Mary O&#39;Hanrahan (née Williams) and his sisters Eily, Aine and Máire. The letter was written from Portland prison in England and in the extract, Henry describes the rebel surrender, praises the women in his garrison and assures his mother than he is &#39;alright&#39;, noting that his brother is &#39;better off&#39; and that they had priests in regularly in Jacob&#39;s.    O&#39;Hanrhan was a brother of Michael O&#39;Hanrahan (1877-1916), nationalist and journalist. Michael served as quarter master general of the second battalion of the Irish Volunteers from 1915 and in 1916 was third in command, after Thomas MacDonagh and John MacBride, of the rebel garrison at Jacob&#39;s biscuit factory. He was executed on 4 May 1916. Henry O&#39;Hanrahan fought under his brother during the Easter Rising was was sentenced to penal servitude for life but was released in 1917.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Irish Capuchin Provincial Archives">Irish Capuchin Provincial Archives</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Mary,_Eily,_Aine_and_Máire_OHanrahan">Mary, Eily, Aine and Máire O&#39;Hanrahan</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Henry_OHanrahan">Henry O&#39;Hanrahan</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-06-22T17:57:02" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-06-22T17:57:02" who="#Hughesf">
+                
+                    Page 2572 modified:
+                    <!-- 
+Portland Prison, May 15th 1916 Extract from letter of Harry O'Hanrahan to his mother & sisters  "The Sunday Esq in which we surrendered, we marched to Richmond Barracks & the... & ourselves were trying to keep in a bunch, this we did until the detectives came about 2.00 & picked out about 14 including the 2 Cosgraves, T Mac Donagh, Kent ourselves & you know the results since we were picked out on Monday" We had 7 or 8 girls at Jacobs including Máire Walker, they were <gap/> - - they were very good to poor Miceál & myself" "Now in other <gap/> ... ask you not to fret aabout me.  I am & will be alright.  I <gap/> God & as far from Miceál is he not better off.  When we started we were all prepared to go under & had confession in Jacob's on the Tuesday & Wednesday <gap/> that were there.  We had the Priests very often.  We had only one casualty there. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-10T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-10T15:23:42" who="#NR">
+                
+                    Page 2572 modified:
+                    <!-- 
+<address>Portland Prison,</address> <date>May 15th 1916</date> <lb/>Extract from letter of Harry O'Hanrahan to his mother &amp; sisters  <p>"The Sunday Esq in which we surrendered, we <lb/> marched to Richmond Barracks &amp; the... &amp; ourselves <lb/> were trying to keep in a bunch, this we did <lb/> until the detectives came about 2.00 &amp; <lb/> picked out about 14 including the 2 Cosgraves, <lb/> T Mac Donagh, Kent ourselves &amp; you know <lb/> the results since we were picked out on <lb/> Monday"</p> <p>We had 7 or 8 girls at Jacobs including <lb/> Máire Walker, they were <unclear>brides</unclear> - - they were <lb/> very good to poor Miceál &amp; myself" <lb/>"Now in other <unclear>area</unclear> ... ask you not to fret about <lb/> me.  I am &amp; will be alright.  I have God &amp; as far  <lb/>from Miceál is he not better off.  When we started  <lb/>we were all prepared to go under &amp; had confession <lb/> in Jacob's on the Tuesday &amp; Wednesday <unclear>wqs</unclear> that were <lb/> there.  We had the Priests very often.</p> <lb/>  We had only one casualty there. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2572 created using version from <date when="2014-06-22T17:57:02"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2572 removed (version from <date when="2014-06-22T17:57:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:57" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2572 removed (version from <date when="2015-12-10T15:23:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2572 (version from <date when="2015-12-10T15:23:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:18" who="#PythonScript">
+                
+                    Clean tags: Page 2572 cleaned of 10 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:32" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_999_img_2572" url="484d25b798b2cdaae47dd87f01d9f202.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2572" facs="#L1916_999_img_2572"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>Portland Prison,</addrLine></address> <dateline><date>May 15th 1916</date></dateline></opener> <lb/>Extract from letter of Harry O'Hanrahan to his mother &amp; sisters  <p>"The Sunday Esq in which we surrendered, we <lb/> marched to Richmond Barracks &amp; the... &amp; ourselves <lb/> were trying to keep in a bunch, this we did <lb/> until the detectives came about 2.00 &amp; <lb/> picked out about 14 including the 2 Cosgraves, <lb/> T Mac Donagh, Kent ourselves &amp; you know <lb/> the results since we were picked out on <lb/> Monday"</p> <p>We had 7 or 8 girls at Jacobs including <lb/> Máire Walker, they were <unclear>brides</unclear> - - they were <lb/> very good to poor Miceál &amp; myself" <lb/>"Now in other <unclear>area</unclear> ... ask you not to fret about <lb/> me.  I am &amp; will be alright.  I have God &amp; as far  <lb/>from Miceál is he not better off.  When we started  <lb/>we were all prepared to go under &amp; had confession <lb/> in Jacob's on the Tuesday &amp; Wednesday <unclear>wqs</unclear> that were <lb/> there.  We had the Priests very often.</p> <lb/>  We had only one casualty there.
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

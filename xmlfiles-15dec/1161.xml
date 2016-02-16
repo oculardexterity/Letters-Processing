@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1161">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Major E. A. Andrews to Military Authorities, May 1916</title>
+                
+                <author>E.A. Andrewes</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="BH">Brian Hughes</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Dommo">Dommo</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1161</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is a pass issued by the military to Edward Walsh (d. 1935), an employee of the Great Southern and Western Railway at Kingsbridge Station (now Heuston Station), to allow him to travel in Dublin in the aftermath of the Easter Rising. Walsh was living on North Circular Road and was also a colleague of Seán Heuston (1891-1916) who was executed for his part in the Rising. Heuston addressed one of his last letters to Walsh. Also pasted above is another similar pass issued to Walsh around the same time.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Military Archives of Ireland">Military Archives of Ireland</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Military_Authorities">Military Authorities</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#E.A._Andrewes">E.A. Andrewes</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-01-13T13:41:40" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-01-13T13:41:40" who="#Dommo">
+                
+                    Page 3074 modified:
+                    <!-- 
+<hi rend="underline">20</hi> TO MILITARY AUTHORITIES CONCERNED.- Mr E. Walsh 62 N.C.Rd. The bearer is an employee of G.S.W.R. and is authorised to enter and leave the Kingsbridge station in the execution of his duties. Specimen of Signature E Walsh L Crasre Lt.Cel. for O.C. Troops Kingsbridge  BUREAU OF MILITARY HISTORY 1913-21 BURO STAIRE MILEATA 1913-1921 NO. C.D. 95/2/8  Headquarters   59th Division,     North Circular Road,Dublin ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Please pass bearer Mr. E. Walsh(62 Nth. Circular Rd.) daily anywhere in Dublin City and County. <del>SIGNALS R.E.</del> No. ............... Date 2/5/16 Hd. Qtr. 59th (N.M.) DIV. E. A. Andrewes Major. for G.O.C. Troops in Dublin. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-02T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-02T12:20:47" who="#NR">
+                
+                    Page 3074 modified:
+                    <!-- 
+<hi rend="underline">20</hi> TO MILITARY AUTHORITIES CONCERNED.- <p>Mr E. Walsh 62 N.C.Rd. The bearer <lb/> is an employee of G.S.W.R. and is authorised to enter and leave the <lb/>Kingsbridge station in the execution of his duties.</p> <lb/>Specimen of Signature E Walsh <lb/>L Crasre Lt.Cel. <lb/>for O.C. Troops Kingsbridge   <address>Headquarters  <lb/> 59th Division,  <lb/> North Circular Road,Dublin</address> ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ <p>Please pass bearer Mr. E. Walsh(62 Nth. Circular Rd.) <lb/>daily anywhere in Dublin City and County. <del>SIGNALS R.E.</del></p> <lb/>No. ............... <date>Date 2/5/16</date> <lb/>Hd. Qtr. 59th (N.M.) DIV. <lb/>E. A. Andrewes <lb/>Major. <lb/>for G.O.C. Troops in Dublin. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-02T12:20:48" who="#NR">
+                
+                    Page 3074 modified:
+                    <!-- 
+<hi rend="underline">20</hi> TO MILITARY AUTHORITIES CONCERNED.- <p>Mr E. Walsh 62 N.C.Rd. The bearer <lb/> is an employee of G.S.W.R. and is authorised to enter and leave the <lb/>Kingsbridge station in the execution of his duties.</p> <lb/>Specimen of Signature E Walsh <lb/>L Crasre Lt.Cel. <lb/>for O.C. Troops Kingsbridge   <address>Headquarters  <lb/> 59th Division,  <lb/> North Circular Road,Dublin</address> ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ <p>Please pass bearer Mr. E. Walsh(62 Nth. Circular Rd.) <lb/>daily anywhere in Dublin City and County. <del>SIGNALS R.E.</del></p> <lb/>No. ............... <date>Date 2/5/16</date> <lb/>Hd. Qtr. 59th (N.M.) DIV. <lb/>E. A. Andrewes <lb/>Major. <lb/>for G.O.C. Troops in Dublin. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-02T12:27:45" who="#NR">
+                
+                    Page 3074 modified:
+                    <!-- 
+<hi rend="underline">20</hi> TO MILITARY AUTHORITIES CONCERNED.- <p>Mr E. Walsh 62 N.C.Rd. The bearer <lb/> is an employee of G.S.W.R. and is authorised to enter and leave the <lb/>Kingsbridge station in the execution of his duties.</p> <lb/>Specimen of Signature E Walsh <lb/>L Crasre Lt.Cel. <lb/>for O.C. Troops Kingsbridge   <address>Headquarters  <lb/> 59th Division,  <lb/> North Circular Road,Dublin</address> ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ <p>Please pass bearer Mr. E. Walsh(62 Nth. Circular Rd.) <lb/>daily anywhere in Dublin City and County. <del>SIGNALS R.E.</del></p> <lb/>No. ............... <date>Date 2/5/16</date> <lb/>Hd. Qtr. 59th (N.M.) DIV. <lb/>E. A. Andrewes <lb/>Major. <lb/>for G.O.C. Troops in Dublin. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-02T12:28:12" who="#NR">
+                
+                    Page 3074 modified:
+                    <!-- 
+<hi rend="underline">20</hi> TO MILITARY AUTHORITIES CONCERNED.- <p>Mr E. Walsh 62 N.C.Rd. The bearer <lb/> is an employee of G.S.W.R. and is authorised to enter and leave the <lb/>Kingsbridge station in the execution of his duties.</p> <lb/>Specimen of Signature E Walsh <lb/>L Crasre Lt.Cel. <lb/>for O.C. Troops Kingsbridge   <address>Headquarters  <lb/> 59th Division,  <lb/> North Circular Road,Dublin</address>  <p>Please pass bearer Mr. E. Walsh(62 Nth. Circular Rd.) <lb/>daily anywhere in Dublin City and County. <del>SIGNALS R.E.</del></p> <lb/>No. ............... <date>Date 2/5/16</date> <lb/>Hd. Qtr. 59th (N.M.) DIV. <lb/>E. A. Andrewes <lb/>Major. <lb/>for G.O.C. Troops in Dublin. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3074 created using version from <date when="2015-01-13T13:41:40"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3074 removed (version from <date when="2015-01-13T13:41:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3074 removed (version from <date when="2015-12-02T12:20:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3074 removed (version from <date when="2015-12-02T12:20:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3074 removed (version from <date when="2015-12-02T12:27:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3074 removed (version from <date when="2015-12-02T12:28:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3074 (version from <date when="2015-12-02T12:28:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:19" who="#PythonScript">
+                
+                    Clean tags: Page 3074 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:38" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1161_img_3074" url="90ff7b87d5157945282f838852da1238.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3074" facs="#L1916_1161_img_3074"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<hi rend="underline">20</hi> TO MILITARY AUTHORITIES CONCERNED.- <p>Mr E. Walsh 62 N.C.Rd. The bearer <lb/> is an employee of G.S.W.R. and is authorised to enter and leave the <lb/>Kingsbridge station in the execution of his duties.</p> <lb/>Specimen of Signature E Walsh <lb/>L Crasre Lt.Cel. <lb/>for O.C. Troops Kingsbridge   <opener><address><addrLine>Headquarters</addrLine>
+<addrLine>59th Division,</addrLine>
+<addrLine>North Circular Road,Dublin</addrLine></address></opener>  <p>Please pass bearer Mr. E. Walsh(62 Nth. Circular Rd.) <lb/>daily anywhere in Dublin City and County. <del>SIGNALS R.E.</del></p> <lb/>No. ............... <date>Date 2/5/16</date> <lb/>Hd. Qtr. 59th (N.M.) DIV. <lb/>E. A. Andrewes <lb/>Major. <lb/>for G.O.C. Troops in Dublin.
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

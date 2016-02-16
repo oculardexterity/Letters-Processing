@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1159">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Davie English to his brother, Patrick English, 1916</title>
+                
+                <author>Davie English</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="EC">Emma Clarke</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Hughesf">Hughesf</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1159</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This letter is from a collection Patrick English (1894-1970), who at the time of writing was a prisoner in Stafford prison and Frongoch internment camp.  While this letter is undated, it is clear from the context that the letter was written not long after the Rising.  In the letter, Davie tells his brother that he is not to worry about their mother, although she is very lonely.      Davie writes about the lack of sport and enquires after other people he knows that are in Frongoch with his brother.  He also mentions how sad he feels about the events of the Rising and how he hopes that peace will come soon. He ends the letter with a postscript that Patrick will have to find another girlfriend when he gets home as his one is now &#34;stepping out&#34; with a soldier.    Patrick English was an Irish Volunteer imprisoned in the Stafford and later Frongoch Prisons. He had at least six cousins fighting with the British Army in France during his incarceration.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Private Collection, Patrick English"></repository>
+                        <collection type='private'>Private Collection, Patrick English</collection>
+                        
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Patrick_English">Patrick English</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Davie_English">Davie English</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-06-15T18:55:18" who="#EC">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-06-15T18:55:18" who="#Hughesf">
+                
+                    Page 3067 modified:
+                    <!-- 
+<note>Kathleen Nellie & Frank sends their love &#x2014; you will have to look out for another girl when you get home as I see <sic>you</sic> girl walking out with a soldier &#x2014; good bye</note>  <address>Hampton Cottages Cabra Sunday</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-06-15T18:59:16" who="#Hughesf">
+                
+                    Page 3067 modified:
+                    <!-- 
+<note>Kathleen Nellie & Frank sends their love &#x2014; you will have to look out for another girl when you get home as I see <sic>you</sic> girl walking out with a soldier &#x2014; good bye</note>  <address>Hampton Cottages Cabra Sunday</address>  Dear Patrick a few lines hoping they may find you well under the circumstances.  I expect you must feel very lonely but <add>you</add> must keep your heart up as you know the darkest <add>hour</add> is before the dawn.  you need not be fretting about my mother as you know she will not be cold or hungry whhile we have anything needless to say she is very lonely.  I go to see her every night when I am finished work.  I <sic>supose</sic> you know we have to be up early now, the daylight saving bill, then we are off early in the evening, <sic>their</sic> is not much sport, no football no <sic>raceing</sic>but <sic>raceing</sic>is starting very soon.  I had a bad day at Fair House on Easter Monday 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-06-15T18:59:51" who="#Hughesf">
+                
+                    Page 3067 modified:
+                    <!-- 
+<note>Kathleen Nellie & Frank sends their love &#x2014; you will have to look out for another girl when you get home as I see <sic>you</sic> girl walking out with a soldier &#x2014; good bye</note>  <address>Hampton Cottages Cabra Sunday</address>  Dear Patrick a few lines hoping they may find you well under the circumstances.  I expect you must feel very lonely but <add>you</add> must keep your heart up as you know the darkest <add>hour</add> is before the dawn.  you need not be fretting about my mother as you know she will not be cold or hungry whhile we have anything needless to say she is very lonely.  I go to see her every night when I am finished work.  I <sic>supose</sic> you know we have to be up early now, the daylight saving bill, then we are off early in the evening, <sic>their</sic> is not much sport, no football no <sic>raceing</sic>but <sic>raceing</sic>is starting very soon.  I had a bad day at Fairy House on Easter Monday 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-06-15T19:07:33" who="#EC">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-06-15T19:07:33" who="#Hughesf">
+                
+                    Page 3066 modified:
+                    <!-- 
+I had all my money on a stiff one in the last race you need not trouble about answering my letter when you are writing home you can say if you received my letter.  I <sic>seen</sic>in the papers  a lot of names I know. I went to all the prisons in Dublin before I seen your name in the Herald, when you are writing home let us know if you are allowed <sic>cigraettes</sic> Mr Ginnell said yous are allowed some of that is so I will send you some at once.  tell M Cosgrave I was asking for him and tell him Abbotstown garden is in the same place if you are near any of the lads that I know tell them I send them my best wishes and tell <add>them</add> from me that, Kathleen na <sic>Houilan</sic> sends them her love and hopes she will soon see them all again.  I think <add>the</add> whole thing is too sad for words, but I trust in God that peace will soon come, I often think now that the summer is here the fields & trees in bloom that we were made for <sic>nobeler</sic> things than fighting, Your loving Brother Davie 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-02T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-02T12:30:10" who="#NR">
+                
+                    Page 3067 modified:
+                    <!-- 
+<note>Kathleen <lb/>Nellie & Frank <lb/>sends their <lb/>love <lb/>&#x2014; <lb/>you will have to look out for another girl when you get home as I see <sic>you</sic> girl walking out with a soldier &#x2014; good bye</note>  <address>Hampton Cottages Cabra Sunday</address>  Dear Patrick a few lines hoping they may find you well under the circumstances.  I expect you must feel very lonely but <add>you</add> must keep your heart up as you know the darkest <add>hour</add> is before the dawn.  you need not be fretting about my mother as you know she will not be cold or hungry whhile we have anything needless to say she is very lonely.  I go to see her every night when I am finished work.  I <sic>supose</sic> you know we have to be up early now, the daylight saving bill, then we are off early in the evening, <sic>their</sic> is not much sport, no football no <sic>raceing</sic>but <sic>raceing</sic>is starting very soon.  I had a bad day at Fairy House on Easter Monday 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-02T12:32:55" who="#NR">
+                
+                    Page 3067 modified:
+                    <!-- 
+<note>Kathleen <lb/>Nellie &amp; Frank <lb/>sends their <lb/>love <lb/>&#x2014; <lb/>you will have <lb/>to look out <lb/>for another <lb/>girl when <lb/>you get home <lb/>as I see <lb/><sic>you</sic> girl walking <lb/>out with a <lb/>soldier <lb/>&#x2014; good bye</note>  <address>Hampton Cottages <lb/>Cabra <lb/>Sunday</address>  <date>Dear Patrick</date> <p>a few lines hoping they may find you <lb/>well under the circumstances.  I expect you must feel very lonely <lb/>but <add>you</add> must keep your heart up as you know the darkest <add>hour</add> is <lb/>before the dawn.  you need not be fretting about my mother as you <lb/>know she will not be cold or hungry whhile we have anything <lb/>needless to say she is very lonely.  I go to see her every night <lb/>when I am finished work.  I <sic>supose</sic> you know we have to be up <lb/>early now, the daylight saving bill, then we are off early in the <lb/>evening, <sic>their</sic> is not much sport, no football no <sic>raceing</sic>but <lb/><sic>raceing</sic>is starting very soon.  I had a bad day at Fairy House <lb/>on Easter Monday 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-02T12:37:02" who="#NR">
+                
+                    Page 3066 modified:
+                    <!-- 
+<lb/>I had all my money on a stiff one in the last race <lb/>you need not trouble about answering my letter when you are <lb/>writing home you can say if you received my letter.  I <sic>seen</sic>in <lb/>the papers  a lot of names I know. I went to all the prisons <lb/>in Dublin before I seen your name in the Herald, when you are <lb/>writing home let us know if you are allowed <sic>cigraettes</sic> <lb/>Mr Ginnell said yous are allowed some of that is so I will send <lb/>you some at once.  tell M Cosgrave I was asking for him and <lb/>tell him Abbotstown garden is in the same place if you are <lb/>near any of the lads that I know tell them I send them <lb/>my best wishes and tell <add>them</add> from me that, Kathleen na <sic>Houilan</sic> <lb/>sends them her love and hopes she will soon see them <lb/>all again.  I think <add>the</add> whole thing is too sad for words, but I trust <lb/>in God that peace will soon come, I often think now that <lb/>the summer is here the fields &amp; trees in bloom that we were made <lb/>for <sic>nobeler</sic> things than fighting.</p> <salute>Your loving <lb/>Brother</salute><signed>Davie</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3066 created using version from <date when="2014-06-15T19:07:33"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3066 removed (version from <date when="2014-06-15T19:07:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3066 removed (version from <date when="2015-12-02T12:37:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3067 created using version from <date when="2014-06-15T18:55:18"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3067 removed (version from <date when="2014-06-15T18:55:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3067 removed (version from <date when="2014-06-15T18:59:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3067 removed (version from <date when="2014-06-15T18:59:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3067 removed (version from <date when="2015-12-02T12:30:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3067 removed (version from <date when="2015-12-02T12:32:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3066 (version from <date when="2015-12-02T12:37:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3067 added to letter (version from <date when="2015-12-02T12:32:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 3066 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 3067 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:41" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1159_img_3066" url="f8cb6017cf9ddc7986d25074c075c7f6.jpg"/> 
+    
+    <graphic xml:id="L1916_1159_img_3067" url="18a8fdc60db451e2a4de88f9437b4b6f.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3066" facs="#L1916_1159_img_3066"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<lb/>I had all my money on a stiff one in the last race <lb/>you need not trouble about answering my letter when you are <lb/>writing home you can say if you received my letter.  I <sic>seen</sic>in <lb/>the papers  a lot of names I know. I went to all the prisons <lb/>in Dublin before I seen your name in the Herald, when you are <lb/>writing home let us know if you are allowed <sic>cigraettes</sic> <lb/>Mr Ginnell said yous are allowed some of that is so I will send <lb/>you some at once.  tell M Cosgrave I was asking for him and <lb/>tell him Abbotstown garden is in the same place if you are <lb/>near any of the lads that I know tell them I send them <lb/>my best wishes and tell <add>them</add> from me that, Kathleen na <sic>Houilan</sic> <lb/>sends them her love and hopes she will soon see them <lb/>all again.  I think <add>the</add> whole thing is too sad for words, but I trust <lb/>in God that peace will soon come, I often think now that <lb/>the summer is here the fields &amp; trees in bloom that we were made <lb/>for <sic>nobeler</sic> things than fighting.</p> <opener><salute>Your loving Brother</salute></opener><signed>Davie</signed>
+        
+    
+
+    
+         
+        <pb n="3067" facs="#L1916_1159_img_3067"/>
+        
+        
+           
+            <note>Kathleen <lb/>Nellie &amp; Frank <lb/>sends their <lb/>love <lb/>&#x2014; <lb/>you will have <lb/>to look out <lb/>for another <lb/>girl when <lb/>you get home <lb/>as I see <lb/><sic>you</sic> girl walking <lb/>out with a <lb/>soldier <lb/>&#x2014; good bye</note>  <address>Hampton Cottages <lb/>Cabra <lb/>Sunday</address>  <date>Dear Patrick</date> <p>a few lines hoping they may find you <lb/>well under the circumstances.  I expect you must feel very lonely <lb/>but <add>you</add> must keep your heart up as you know the darkest <add>hour</add> is <lb/>before the dawn.  you need not be fretting about my mother as you <lb/>know she will not be cold or hungry whhile we have anything <lb/>needless to say she is very lonely.  I go to see her every night <lb/>when I am finished work.  I <sic>supose</sic> you know we have to be up <lb/>early now, the daylight saving bill, then we are off early in the <lb/>evening, <sic>their</sic> is not much sport, no football no <sic>raceing</sic>but <lb/><sic>raceing</sic>is starting very soon.  I had a bad day at Fairy House <lb/>on Easter Monday
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_940">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Kathleen Lynn to Nancy O&#39;Rahilly, 23 November 1916.</title>
+                
+                <author>Kathleen Lynn</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Rosie17">Rosie17</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_940</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>A note from Dr Kathleen Lynn (1874-1955) advising Nancy O'Rahilly (1875-1961) that he will be calling on her to vaccinate the baby and he advises her on what to prepare for the visit.</p>
+                        
+                            <p>Nancy O'Rahilly  was a member of the Provisional Council of Cumann na mBan at the founding in 1914 and the wife of Michael Joseph O'Rahilly, self-described as 'The' O'Rahilly (1875-1916). The O'Rahilly fought in the Easter Rising and was shot in Parnell/Moore Street on 28 April 1916 and died some time later. Nancy was pregnant at the time of her husband's death – the child was born three months later. Dr Kathleen Lynn was a medical practitioner, a suffragist, a nationalist, and a revolutionary. Lynn was Chief Medical Officer of the Irish Citizen Army during Easter 1916 and was a part of the City Hall garrison, of which she took command of the garrison after the death of Seán Connolly on the first day of the Rising. After independence, Lynn dedicated much time and energy towards the improvement of public health, and played a significant role in the eradication of tuberculosis in Ireland.  </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                                Original DCN: Humphreys Papers, P106/092/12
+                             
+                        -->
+                            
+                                <collection type='public'>Humphreys Papers</collection>
+                            
+                            
+                        <idno>P106/092/12</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Nancy_ORahilly">Nancy O&#39;Rahilly</persName>
+                
+                
+                
+                    <placeName  ref="#Dublin,_Ireland">Dublin, Ireland</placeName>
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Kathleen_Lynn">Kathleen Lynn</persName>
+                    
+                     
+                    <placeName ref="#9_Belgrave_Road,_Rathmines,_Dublin,_Ireland">9 Belgrave Road, Rathmines, Dublin, Ireland</placeName>
+                    
+                    
+                    <date when="1916-11-23">23 November 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-03-18T20:51:37" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-03-18T20:51:37" who="#Philcostel">
+                
+                    Page 2393 modified:
+                    <!-- 
+9 Belgrave Road, Rathmines Telephone 220 Rathmines 23.11.16 Dear Madam O'Rahilly I shall be very pleased to call at your house on Monday next at 12.30 to vaccinate the baby. I shall want a small enamelled saucepan to boil my things Yrs sincerely K.Lynn 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-03-09T09:55:10" who="#Rosie17">
+                
+                    Page 2393 modified:
+                    <!-- 
+<note>P106/92(6)</note> <address>9 Belgrave Road<lb/>, Rathmines</address> Telephone 220 Rathmines <date>23.11.16</date> <salute>Dear Madam O'Rahilly</salute> I shall be<lb/> very pleased to<lb/> call at your<lb/> house on Monday<lb/> next at 12.30<lb/> to vaccinate the<lb/> baby. I shall want <lb/>a small enamelled<lb/> saucepan to <lb/>boil my things<p>paragraph</p> <salute>Yrs sincerely K.Lynn</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-05T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T12:53:51" who="#NR">
+                
+                    Page 2393 modified:
+                    <!-- 
+<address>9 Belgrave Road <lb/>, Rathmines <lb/>Telephone 220 Rathmines</address> <date>23.11.16</date> <salute>Dear Madam O'Rahilly</salute> <p>I shall be <lb/> very pleased to <lb/> call at your <lb/> house on Monday <lb/> next at 12.30 <lb/> to vaccinate the <lb/> baby. I shall want  <lb/>a small enamelled <lb/> saucepan to  <lb/>boil my things</p> <salute>Yrs sincerely</salute> <signed>K.Lynn</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2393 created using version from <date when="2014-03-18T20:51:37"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2393 removed (version from <date when="2014-03-18T20:51:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2393 removed (version from <date when="2015-03-09T09:55:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2393 removed (version from <date when="2016-01-06T12:53:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:22" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2393 (version from <date when="2016-01-06T12:53:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:26" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                    Clean tags: Page 2393 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:33" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_940_img_2393" url="85fce79a2b78db5cbf3d187569fbb0cb.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2393" facs="#L1916_940_img_2393"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>9 Belgrave Road</addrLine>
+<addrLine>, Rathmines</addrLine>
+<addrLine>Telephone 220 Rathmines</addrLine></address> <dateline><date>23.11.16</date></dateline> <salute>Dear Madam O'Rahilly</salute></opener> <p>I shall be <lb/> very pleased to <lb/> call at your <lb/> house on Monday <lb/> next at 12.30 <lb/> to vaccinate the <lb/> baby. I shall want  <lb/>a small enamelled <lb/> saucepan to  <lb/>boil my things</p> <closer><salute>Yrs sincerely</salute> <signed>K.Lynn</signed></closer>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

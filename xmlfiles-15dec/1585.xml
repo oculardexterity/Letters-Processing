@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1585">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from the Irish Prisoners, Frongoch, to Timothy Healy, KC, MP, 7 October 1916.</title>
+                
+                <author>Irish Prisoners, Frongoch</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Scribe57">Scribe57</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Smorris">Smorris</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1585</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>Frongoch Internment Camp in Wales was a makeshift prison used for the internment of approximately 1,800 Irishmen in the wake of the Easter Rising, 1916. It was to become known as the “University of Revolution” because of the revolutionary nature of the inmates.  Timothy Michael &#34;Tim&#34; Healy, (1855 – 1931) was an Irish nationalist politician, journalist, author, barrister, and an Irish MP in the Irish Parliamentary Party in the House of Commons. He was one of the few King&#39;s Counsel who represented Irish prisoners detained at Frongoch Internment Camp after the Easter Rising, 1916.    This is further to the prisoners&#39; letter of 4 October (BMH CD45/4/6/1) to Healy.  This letter draws attention to a specific case which shows that the concerns previously expressed are well founded.  It details the escalation of punishment of prisoners refusing to do certain work and cites the case of  prisoner Patrick Daly and his treatment for refusal to comply with orders.  The writer wants to challenge the legality of movin</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Military Archives of Ireland">Military Archives of Ireland</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Timothy_Healy">Timothy Healy</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Irish_Prisoners,_Frongoch">Irish Prisoners, Frongoch</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-08-24T20:29:07" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-08-24T20:29:07" who="#Smorris">
+                
+                    Page 4032 modified:
+                    <!-- 
+in the hospital to the bed. He was left in this hospital without any orderly in attendance or even within calling distance by the sentry placed over him. There being two separate and distinct in the South Camp. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-08-24T20:52:37" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-08-24T20:52:37" who="#Smorris">
+                
+                    Page 4031 modified:
+                    <!-- 
+<p>Further acts of the prisoner Daly which had arisen primarily as a result of refusing to obey a wrongful order are not punishable by the Commandant, or by court-martial at all, as they occurred outside his proper place of internment, from which he had been illegally removed. And we are further of opinion, that if any officer connected with this camp should sit at, or preside over this court-martial its findings would be null and void, on the grounds that such an officer was interested in the <sic>convidtion</sic> of the prisoner.</p> <p>The prisoners here have never objected to clean up refuse created by themselves within their place of internment; and we are always prepared to efficiently carry out all work essential to the sanitation of our place of internment; but we distinctly and clearly refuse <hi rend="underline">en bloc</hi> to the cleaning out of refuse pits which have no connection with our place of internment, and contend that before any of us can be removed from this our place of internment, an entirely new order by the Secretary of State must be individually served upon us</p> <p>If our contention is correct as to the illegality of the removal of prisoners to the North Camp, under the circumstances previously stated, we would ask you to consider whether these men are interned at all; this is to say whether their illegal removal has not quashed their Order of Internment; and if this is correct the trail of Daly by court-martial by any set of officers appointed for the purpose will be utterly illegal.</p> <p>Our desire is to retain you for the trail on behalf of Daly if he is court-martial but our difficulty is getting in touch with a solicitor who will brief you. If we could get in touch with Mr Gavan Duffy we would gladly instruct him in the matter.</p> <salute>We desire, Sir, to remain, Your obedient servants, Head Leader Leader Room 1. Leader Room 2. Leader Room 3. Leader Room 4.</salute>  P.S<date>.8th October.</date> On this date the prisoner Patrick Daly was dragged down from his cell in the North Camp to the hospital in the South camp by four soldiers alto there were stretchers available. This condition may be judged from the fact that he had to be lifted bodily from the chair<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-08-24T21:17:05" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-08-24T21:17:05" who="#Smorris">
+                
+                    Page 4030 modified:
+                    <!-- 
+"Notice is hereby given to the above- named that an Order has been made by Secretary of the State under the Regulation 14B of the Defense of the Realm Regulations directing that he shall be interned at the Place of Internment at Frongoch." <p>Now, Sir, on our arrival here we were directly and specifically given the control and management of the South Camp, Frongoch. by the military Commandant; and the names and methods by which we have carried out our duties in thnis respect continued to draw forth unstinted praise from him, ( and he informed us on the parade that he had furnished a Report to this effect to the Home Office) until we refused on principle to undertake work in the neighbouring quarries, when the North Camp was opened up for the internment of further Irish prisoners , the same control and management was given to the prisoners interned therein, that they were separate and distinct internment camps, and there is no physical connection between them, and as a further elucidation of this point we may remark that when sometime ago the majority of the prisoners interned here applied to the Commandant for a transference of the whole body of prisoners to the North camp on the grounds that it was more healthy and comfortable than the old distillery buildings which constitute the South Camp, he informed them that he had no power to do so without an Order to that effect from the Secretary of State.</p> <p>We contend, Sir, that by virtue of the Order served upon each of us that the South Camp Frongoch is our place of internment, and must continue to remain so until revoked by another Order emanating from the Competent authority, who in this case is clearly the Secretary of the State, and that the Commandant here has no authority to the order the prisoners to undertake work which is entirely outside the bounds of their place of internment. In our opinion the commandant is acting <hi rend="underline">"ultrs-vires" </hi>or illegally in punishing any of the prisoners here for refusing to clean out the soldiers refuse pits, a work which is entirely outside the bounds of their place of internment; and that the Commandant has no power or authority whatever to take any prisoner from out of his place of intern-ment, as defined by the Order served upon him in another place of internment without obtaining in each case an order from the Secretary of State ordering him to do so . If this is correct the </p><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-09-12T10:59:13" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-09-12T10:59:13" who="#Smorris">
+                
+                    Page 4029 modified:
+                    <!-- 
+<hi rend="underline">Copy</hi> D 7/10/16 J.M.S.B.  P.I.C  L 9/10/16 Q.F.B.      7/10/16 <lb/> T.M Healy Esq. K.C., M.P. <p>Arising out of the subject of our letter to you dated 4th<lb/> inst., <hi rend="underline">re</hi> vindictive and unjustifiable punishment which is being<lb/> inflicted upon us, we beg to specially draw your attention to a <lb/> specific instance which would seem to indicate the rapid approach of <lb/> those disastrous results which we have foreseen from the commencement<lb/> of the inflicted punishments.</p> <hi rend="underline">4th Oct</hi><lb/> <p>On this date the usual fatigue party of eight prisoners was <lb/> detailed by our Camp Leaders to clean out our own ash pit. Before doing<lb/>  so this fatigue party proceeded to the entrance gate of the South Camp. <lb/> and there stipulated to the military authority that they would only<lb/> clean out their own ash pits on the conditions that they got a <lb/> guarantee that the would not be punished for refusing to clean out<lb/> the soldiers refuse pits. This guarantee would not be given them; and<lb/> they were placed in the gaurd-room by the military authorities. <hi rend="underline">5th Oct</hi> </p> <p>On this date the above party of eight prisoners was sentenced<lb/> by the Commandant to 14 days solitary confinement in the cells in the<lb/> North Camp, to be followed, we presume, by the usual punishment of <lb/> isolation. he also ordered the additional punishment, that Daly's<lb/> inward and outward letters be stopped altogether for one month. <hi rend="underline">6th Oct</hi></p> <p>On this date one of the prisoners, Patrick Daly( see para<lb/> date 15th Sept. of previous letter), who was a member of the above<lb/> fatigue party was again brought before the Commandant charged with<lb/>  refusing to clean out his cell in the North Camp, and to eat his food.<lb/> The Commandant put this prisoner back for trial by court martial under <lb/> sections 9 and 44 of the Army Act, which he stated carried on conviction<lb/> sentences of imprisonment, with or without hard labour, not exceeding<lb/> two years, or penal servitude for not less then three years; or death.<lb/> Apart altogether from the undesirable effect upon discipline of the<lb/> general body of prisoners here, which these proceedings may be<lb/>  calculated to have, there are many grave legal points pertaining to these<lb/>  punishments to which we earnestly desire to draw you attention.<lb/> </p> <p>The opening paragraph of the order by virtue of which this<lb/> large body of untried and unconvicted Irishmen are kept in internment<lb/> here, reads as follows:-  (1) <pb/></p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-14T18:32:21" who="#Scribe57">
+                
+                    Page 4029 modified:
+                    <!-- 
+<hi rend="underline">Copy</hi> D 7/10/16 J.M.S.B.  P.I.C  L 9/10/16 Q.F.B.      7/10/16 <lb/> T.M Healy Esq. K.C., M.P. <p>Arising out of the subject of our letter to you dated 4th<lb/> inst., <hi rend="underline">re</hi> vindictive and unjustifiable punishment which is being<lb/> inflicted upon us, we beg to specially draw your attention to a <lb/> specific instance which would seem to indicate the rapid approach of <lb/> those disastrous results which we have foreseen from the commencement<lb/> of the inflicted punishments.</p> <hi rend="underline">4th Oct</hi><lb/> <p>On this date the usual fatigue party of eight prisoners was <lb/> detailed by our Camp Leaders to clean out our own ash pit. Before doing<lb/>  so this fatigue party proceeded to the entrance gate of the South Camp. <lb/> and there stipulated to the military authority that they would only<lb/> clean out their own ash pits on the conditions that they got a <lb/> guarantee that they would not be punished for refusing to clean out<lb/> the soldiers refuse pits. This guarantee would not be given them; and<lb/> they were placed in the guard-room by the military authorities. <hi rend="underline">5th Oct</hi> </p> <p>On this date the above party of eight prisoners was sentenced<lb/> by the Commandant to 14 days solitary confinement in the cells in the<lb/> North Camp, to be followed, we presume, by the usual punishment of <lb/> isolation. He also ordered the additional punishment, that Daly's<lb/> inward and outward letters be stopped altogether for one month. <hi rend="underline">6th Oct</hi></p> <p>On this date one of the prisoners, Patrick Daly( see para<lb/> date 15th Sept. of previous letter), who was a member of the above<lb/> fatigue party was again brought before the Commandant charged with<lb/>  refusing to clean out his cell in the North Camp, and to eat his food.<lb/> The Commandant put this prisoner back for trial by court martial under <lb/> sections 9 and 44 of the Army Act, which he stated carried on conviction<lb/> sentences of imprisonment, with or without hard labour, not exceeding<lb/> two years, or penal servitude for not less then three years; or death.<lb/> Apart altogether from the undesirable effect upon discipline of the<lb/> general body of prisoners here, which these proceedings may be<lb/> calculated to have, there are many grave legal points pertaining to these<lb/>  punishments to which we earnestly desire to draw you attention.<lb/> </p> <p>The opening paragraph of the order by virtue of which this<lb/> large body of untried and unconvicted Irishmen are kept in internment<lb/> here, reads as follows:-  (1) <pb/></p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-14T22:00:21" who="#Scribe57">
+                
+                    Page 4030 modified:
+                    <!-- 
+"Notice is hereby given to the above- named that an Order has been <lb/>made by Secretary of the State under the Regulation 14B of the Defense <lb/>of the Realm Regulations directing that he shall be interned at the <lb/>Place of Internment at Frongoch." <p>Now, Sir, on our arrival here we were directly and specifically <lb/>given the control and management of the South Camp, Frongoch. by the <lb/>military Commandant; and the names and methods by which we have carried<lb/> out our duties in this respect continued to draw forth unstinted praise <lb/>from him, ( and he informed us on the parade that he had furnished a Report<lb/> to this effect to the Home Office) until we refused on principle to<lb/> undertake work in the neighbouring quarries, when the North Camp was <lb/>opened up for the internment of further Irish prisoners , the same control <lb/>and management was given to the prisoners interned therein, that they<lb/> were separate and distinct internment camps, and there is no physical <lb/>connection between them, and as a further elucidation of this point we <lb/>may remark that when sometime ago the majority of the prisoners <lb/>interned here applied to the Commandant for a transference of the whole <lb/>body of prisoners to the North camp on the grounds that it was more <lb/>healthy and comfortable than the old distillery buildings which <lb/>constitute the South Camp, he informed them that he had no power to do so <lb/>without an Order to that effect from the Secretary of State.</p> <p>We contend, Sir, that by virtue of the Order served upon each <lb/>of us that the South Camp Frongoch is our place of internment, and must <lb/>continue to remain so until revoked by another Order emanating from the <lb/>Competent authority, who in this case is clearly the Secretary of the State, and that the Commandant here has no authority to order the prisoners to <lb/>undertake work which is entirely outside the bounds of their place of <lb/>internment. In our opinion the commandant is acting <hi rend="underline">"ultrs-vires" </hi>or <lb/>illegally in punishing any of the prisoners here for refusing to clean <lb/>out the soldiers refuse pits, a work which is entirely outside the bounds <lb/>of their place of internment; and that the Commandant has no power or <lb/>authority whatever to take any prisoner from out of his place of intern<lb/>-ment, as defined by the Order served upon him, and to intern him in <lb/>  another place of internment without obtaining in each case an order from <lb/>the Secretary of State ordering him to do so . If this is correct the </p><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-14T22:09:55" who="#Scribe57">
+                
+                    Page 4031 modified:
+                    <!-- 
+<p>Further acts of the prisoner Daly which had arisen primarily as a <lb/>result of refusing to obey a wrongful order are not punishable by the <lb/>Commandant, or by court-martial at all, as they occurred outside his <lb/>proper place of internment, from which he had been illegally removed. <lb/>And we are further of opinion, that if any officer connected with this <lb/>camp should sit at, or preside over this court-martial its findings <lb/>would be null and void, on the grounds that such an officer was<lb/> interested in the <sic>conviction</sic> of the prisoner.</p> <p>The prisoners here have never objected to clean up refuse <lb/>created by themselves within their place of internment; and we are <lb/>always prepared to efficiently carry out all work essential to the <lb/>sanitation of our place of internment; but we distinctly and clearly <lb/>refuse <hi rend="underline">en bloc</hi> to the cleaning out of refuse pits which have no <lb/>connection with our place of internment, and contend that before any <lb/>of us can be removed from this our place of internment, an entirely <lb/>new order by the Secretary of State must be individually served upon us</p> <p>If our contention is correct as to the illegality of the <lb/>removal of prisoners to the North Camp, under the circumstances <lb/>previously stated, we would ask you to consider whether these men are <lb/>interned at all; this is to say whether their illegal removal has not <lb/>quashed their Order of Internment; and if this is correct the trail <lb/>of Daly by court-martial by any set of officers appointed for the <lb/>purpose will be utterly illegal.</p> <p>Our desire is to retain you for the trail on behalf of Daly <lb/>if he is court-martialed but our difficulty is getting in touch with a <lb/>solicitor who will brief you. If we could get in touch with Mr Gavan <lb/>Duffy we would gladly instruct him in the matter.</p> <salute>We desire, Sir, to remain, Your obedient servants, Head Leader Leader Room 1. Leader Room 2. Leader Room 3. Leader Room 4.</salute>  P.S<date>.8th October.</date> On this date the prisoner Patrick Daly was dragged down from <lb/>his cell in the North Camp to the hospital in the South camp by four <lb/>soldiers alto there were stretchers available. This condition may <lb/>be judged from the fact that he had to be lifted bodily from the chair<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-14T22:11:18" who="#Scribe57">
+                
+                    Page 4032 modified:
+                    <!-- 
+in the hospital to the bed. He was left in this hospital without any <lb/>orderly in attendance or even within calling distance by the sentry placed <lb/>over him. There being two separate and distinct hospitals in the South Camp. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-25T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-25T15:19:35" who="#NR">
+                
+                    Page 4029 modified:
+                    <!-- 
+T.M Healy Esq. K.C., M.P.<lb/> <p>Arising out of the subject of our letter to you dated 4th<lb/> inst., <hi rend="underline">re</hi> vindictive and unjustifiable punishment which is being<lb/> inflicted upon us, we beg to specially draw your attention to a <lb/> specific instance which would seem to indicate the rapid approach of <lb/> those disastrous results which we have foreseen from the commencement<lb/> of the inflicted punishments.</p> <hi rend="underline">4th Oct</hi><lb/> <p>On this date the usual fatigue party of eight prisoners was <lb/> detailed by our Camp Leaders to clean out our own ash pit. Before doing<lb/>  so this fatigue party proceeded to the entrance gate of the South Camp. <lb/> and there stipulated to the military authority that they would only<lb/> clean out their own ash pits on the conditions that they got a <lb/> guarantee that they would not be punished for refusing to clean out<lb/> the soldiers refuse pits. This guarantee would not be given them; and<lb/> they were placed in the guard-room by the military authorities. <hi rend="underline">5th Oct</hi> </p> <p>On this date the above party of eight prisoners was sentenced<lb/> by the Commandant to 14 days solitary confinement in the cells in the<lb/> North Camp, to be followed, we presume, by the usual punishment of <lb/> isolation. He also ordered the additional punishment, that Daly's<lb/> inward and outward letters be stopped altogether for one month. <hi rend="underline">6th Oct</hi></p> <p>On this date one of the prisoners, Patrick Daly( see para<lb/> date 15th Sept. of previous letter), who was a member of the above<lb/> fatigue party was again brought before the Commandant charged with<lb/>  refusing to clean out his cell in the North Camp, and to eat his food.<lb/> The Commandant put this prisoner back for trial by court martial under <lb/> sections 9 and 44 of the Army Act, which he stated carried on conviction<lb/> sentences of imprisonment, with or without hard labour, not exceeding<lb/> two years, or penal servitude for not less then three years; or death.<lb/> Apart altogether from the undesirable effect upon discipline of the<lb/> general body of prisoners here, which these proceedings may be<lb/> calculated to have, there are many grave legal points pertaining to these<lb/>  punishments to which we earnestly desire to draw you attention.</p> <p>The opening paragraph of the order by virtue of which this<lb/> large body of untried and unconvicted Irishmen are kept in internment<lb/> here, reads as follows:- </p> <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-25T15:33:37" who="#NR">
+                
+                    Page 4030 modified:
+                    <!-- 
+<p>"Notice is hereby given to the above- named that an Order has been <lb/> made by Secretary of the State under the Regulation 14B of the Defense <lb/> of the Realm Regulations directing that he shall be interned at the <lb/> Place of Internment at Frongoch."</p> <p>Now, Sir, on our arrival here we were directly and specifically <lb/> given the control and management of the South Camp, Frongoch. by the <lb/> military Commandant; and the names and methods by which we have carried<lb/>  out our duties in this respect continued to draw forth unstinted praise <lb/> from him, ( and he informed us on the parade that he had furnished a Report<lb/>  to this effect to the Home Office) until we refused on principle to<lb/>  undertake work in the neighbouring quarries, when the North Camp was <lb/> opened up for the internment of further Irish prisoners , the same control <lb/> and management was given to the prisoners interned therein, that they<lb/>  were separate and distinct internment camps, and there is no physical <lb/> connection between them, and as a further elucidation of this point we <lb/> may remark that when sometime ago the majority of the prisoners <lb/> interned here applied to the Commandant for a transference of the whole <lb/> body of prisoners to the North camp on the grounds that it was more <lb/> healthy and comfortable than the old distillery buildings which <lb/> constitute the South Camp, he informed them that he had no power to do so <lb/> without an Order to that effect from the Secretary of State.</p> <p>We contend, Sir, that by virtue of the Order served upon each <lb/> of us that the South Camp Frongoch is our place of internment, and must<lb/> continue to remain so until revoked by another Order emanating from the <lb/> Competent authority, who in this case is clearly the Secretary of the State,<lb/>  and that the Commandant here has no authority to order the prisoners to <lb/> undertake work which is entirely outside the bounds of their place of <lb/> internment. In our opinion the commandant is acting <hi rend="underline">"ultrs-vires" </hi>or <lb/> illegally in punishing any of the prisoners here for refusing to clean <lb/> out the soldiers refuse pits, a work which is entirely outside the bounds <lb/> of their place of internment; and that the Commandant has no power or <lb/> authority whatever to take any prisoner from out of his place of intern<lb/> -ment, as defined by the Order served upon him, and to intern him in <lb/>   another place of internment without obtaining in each case an order from <lb/> the Secretary of State ordering him to do so . If this is correct the<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-25T15:38:13" who="#NR">
+                
+                    Page 4031 modified:
+                    <!-- 
+Further acts of the prisoner Daly which had arisen primarily as a <lb/> result of refusing to obey a wrongful order are not punishable by the <lb/> Commandant, or by court-martial at all, as they occurred outside his <lb/> proper place of internment, from which he had been illegally removed. <lb/> And we are further of opinion, that if any officer connected with this <lb/> camp should sit at, or preside over this court-martial its findings <lb/> would be null and void, on the grounds that such an officer was<lb/>  interested in the <sic>conviction</sic> of the prisoner.</p> <p>The prisoners here have never objected to clean up refuse <lb/> created by themselves within their place of internment; and we are <lb/> always prepared to efficiently carry out all work essential to the <lb/> sanitation of our place of internment; but we distinctly and clearly <lb/> refuse <hi rend="underline">en bloc</hi> to the cleaning out of refuse pits which have no <lb/> connection with our place of internment, and contend that before any <lb/> of us can be removed from this our place of internment, an entirely <lb/> new order by the Secretary of State must be individually served upon us</p> <p>If our contention is correct as to the illegality of the <lb/> removal of prisoners to the North Camp, under the circumstances <lb/> previously stated, we would ask you to consider whether these men are <lb/> interned at all; this is to say whether their illegal removal has not <lb/> quashed their Order of Internment; and if this is correct the trail <lb/> of Daly by court-martial by any set of officers appointed for the <lb/> purpose will be utterly illegal.</p> <p>Our desire is to retain you for the trail on behalf of Daly <lb/> if he is court-martialed but our difficulty is getting in touch with a <lb/> solicitor who will brief you. If we could get in touch with Mr Gavan <lb/> Duffy we would gladly instruct him in the matter.</p> <salute>We desire, Sir, to remain,<lb/> Your obedient servants,</salute> Head Leader<lb/> Leader Room 1.<lb/> Leader Room 2.<lb/> Leader Room 3.<lb/> Leader Room 4.<lb/>  P.S<date>.8th October.</date> On this date the prisoner Patrick Daly was dragged down from <lb/> his cell in the North Camp to the hospital in the South camp by four <lb/> soldiers alto there were stretchers available. This condition may <lb/> be judged from the fact that he had to be lifted bodily from the chair<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-25T15:38:53" who="#NR">
+                
+                    Page 4032 modified:
+                    <!-- 
+in the hospital to the bed. He was left in this hospital without any <lb/> orderly in attendance or even within calling distance by the sentry placed <lb/> over him. There being two separate and distinct hospitals in the South Camp.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4029 created using version from <date when="2014-09-12T10:59:13"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4029 removed (version from <date when="2014-09-12T10:59:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4029 removed (version from <date when="2015-04-14T18:32:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4029 removed (version from <date when="2015-11-25T15:19:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4032 created using version from <date when="2014-08-24T20:29:07"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4032 removed (version from <date when="2014-08-24T20:29:07"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4032 removed (version from <date when="2015-04-14T22:11:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4032 removed (version from <date when="2015-11-25T15:38:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4030 created using version from <date when="2014-08-24T21:17:05"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4030 removed (version from <date when="2014-08-24T21:17:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4030 removed (version from <date when="2015-04-14T22:00:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4030 removed (version from <date when="2015-11-25T15:33:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4031 created using version from <date when="2014-08-24T20:52:37"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4031 removed (version from <date when="2014-08-24T20:52:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4031 removed (version from <date when="2015-04-14T22:09:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4031 removed (version from <date when="2015-11-25T15:38:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 4029 (version from <date when="2015-11-25T15:19:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 4032 added to letter (version from <date when="2015-11-25T15:38:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 4030 added to letter (version from <date when="2015-11-25T15:33:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:15" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 4031 added to letter (version from <date when="2015-11-25T15:38:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 4032 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 4029 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 4030 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 4031 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:44" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1585_img_4029" url="7367237badfabf8667c582eccaa8df7c.jpg"/> 
+    
+    <graphic xml:id="L1916_1585_img_4030" url="be6c131d15fbef8170bbbd36a66e8395.jpg"/> 
+    
+    <graphic xml:id="L1916_1585_img_4031" url="58bc914c681a05ee84e0f8f0aff9051e.jpg"/> 
+    
+    <graphic xml:id="L1916_1585_img_4032" url="9d7a4c7014ce9e7535a17094267f8bd8.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="4029" facs="#L1916_1585_img_4029"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+T.M Healy Esq. K.C., M.P.<lb/> <p>Arising out of the subject of our letter to you dated 4th<lb/> inst., <hi rend="underline">re</hi> vindictive and unjustifiable punishment which is being<lb/> inflicted upon us, we beg to specially draw your attention to a <lb/> specific instance which would seem to indicate the rapid approach of <lb/> those disastrous results which we have foreseen from the commencement<lb/> of the inflicted punishments.</p> <hi rend="underline">4th Oct</hi><lb/> <p>On this date the usual fatigue party of eight prisoners was <lb/> detailed by our Camp Leaders to clean out our own ash pit. Before doing<lb/>  so this fatigue party proceeded to the entrance gate of the South Camp. <lb/> and there stipulated to the military authority that they would only<lb/> clean out their own ash pits on the conditions that they got a <lb/> guarantee that they would not be punished for refusing to clean out<lb/> the soldiers refuse pits. This guarantee would not be given them; and<lb/> they were placed in the guard-room by the military authorities. <hi rend="underline">5th Oct</hi> </p> <p>On this date the above party of eight prisoners was sentenced<lb/> by the Commandant to 14 days solitary confinement in the cells in the<lb/> North Camp, to be followed, we presume, by the usual punishment of <lb/> isolation. He also ordered the additional punishment, that Daly's<lb/> inward and outward letters be stopped altogether for one month. <hi rend="underline">6th Oct</hi></p> <p>On this date one of the prisoners, Patrick Daly( see para<lb/> date 15th Sept. of previous letter), who was a member of the above<lb/> fatigue party was again brought before the Commandant charged with<lb/>  refusing to clean out his cell in the North Camp, and to eat his food.<lb/> The Commandant put this prisoner back for trial by court martial under <lb/> sections 9 and 44 of the Army Act, which he stated carried on conviction<lb/> sentences of imprisonment, with or without hard labour, not exceeding<lb/> two years, or penal servitude for not less then three years; or death.<lb/> Apart altogether from the undesirable effect upon discipline of the<lb/> general body of prisoners here, which these proceedings may be<lb/> calculated to have, there are many grave legal points pertaining to these<lb/>  punishments to which we earnestly desire to draw you attention.</p> <p>The opening paragraph of the order by virtue of which this<lb/> large body of untried and unconvicted Irishmen are kept in internment<lb/> here, reads as follows:- </p> <pb/>
+        
+    
+
+    
+         
+        <pb n="4030" facs="#L1916_1585_img_4030"/>
+        
+        
+           
+            <p>"Notice is hereby given to the above- named that an Order has been <lb/> made by Secretary of the State under the Regulation 14B of the Defense <lb/> of the Realm Regulations directing that he shall be interned at the <lb/> Place of Internment at Frongoch."</p> <p>Now, Sir, on our arrival here we were directly and specifically <lb/> given the control and management of the South Camp, Frongoch. by the <lb/> military Commandant; and the names and methods by which we have carried<lb/>  out our duties in this respect continued to draw forth unstinted praise <lb/> from him, ( and he informed us on the parade that he had furnished a Report<lb/>  to this effect to the Home Office) until we refused on principle to<lb/>  undertake work in the neighbouring quarries, when the North Camp was <lb/> opened up for the internment of further Irish prisoners , the same control <lb/> and management was given to the prisoners interned therein, that they<lb/>  were separate and distinct internment camps, and there is no physical <lb/> connection between them, and as a further elucidation of this point we <lb/> may remark that when sometime ago the majority of the prisoners <lb/> interned here applied to the Commandant for a transference of the whole <lb/> body of prisoners to the North camp on the grounds that it was more <lb/> healthy and comfortable than the old distillery buildings which <lb/> constitute the South Camp, he informed them that he had no power to do so <lb/> without an Order to that effect from the Secretary of State.</p> <p>We contend, Sir, that by virtue of the Order served upon each <lb/> of us that the South Camp Frongoch is our place of internment, and must<lb/> continue to remain so until revoked by another Order emanating from the <lb/> Competent authority, who in this case is clearly the Secretary of the State,<lb/>  and that the Commandant here has no authority to order the prisoners to <lb/> undertake work which is entirely outside the bounds of their place of <lb/> internment. In our opinion the commandant is acting <hi rend="underline">"ultrs-vires" </hi>or <lb/> illegally in punishing any of the prisoners here for refusing to clean <lb/> out the soldiers refuse pits, a work which is entirely outside the bounds <lb/> of their place of internment; and that the Commandant has no power or <lb/> authority whatever to take any prisoner from out of his place of intern<lb/> -ment, as defined by the Order served upon him, and to intern him in <lb/>   another place of internment without obtaining in each case an order from <lb/> the Secretary of State ordering him to do so . If this is correct the<pb/>
+        
+    
+         
+        <pb n="4031" facs="#L1916_1585_img_4031"/>
+        
+        
+           
+            Further acts of the prisoner Daly which had arisen primarily as a <lb/> result of refusing to obey a wrongful order are not punishable by the <lb/> Commandant, or by court-martial at all, as they occurred outside his <lb/> proper place of internment, from which he had been illegally removed. <lb/> And we are further of opinion, that if any officer connected with this <lb/> camp should sit at, or preside over this court-martial its findings <lb/> would be null and void, on the grounds that such an officer was<lb/>  interested in the <sic>conviction</sic> of the prisoner.</p> <p>The prisoners here have never objected to clean up refuse <lb/> created by themselves within their place of internment; and we are <lb/> always prepared to efficiently carry out all work essential to the <lb/> sanitation of our place of internment; but we distinctly and clearly <lb/> refuse <hi rend="underline">en bloc</hi> to the cleaning out of refuse pits which have no <lb/> connection with our place of internment, and contend that before any <lb/> of us can be removed from this our place of internment, an entirely <lb/> new order by the Secretary of State must be individually served upon us</p> <p>If our contention is correct as to the illegality of the <lb/> removal of prisoners to the North Camp, under the circumstances <lb/> previously stated, we would ask you to consider whether these men are <lb/> interned at all; this is to say whether their illegal removal has not <lb/> quashed their Order of Internment; and if this is correct the trail <lb/> of Daly by court-martial by any set of officers appointed for the <lb/> purpose will be utterly illegal.</p> <p>Our desire is to retain you for the trail on behalf of Daly <lb/> if he is court-martialed but our difficulty is getting in touch with a <lb/> solicitor who will brief you. If we could get in touch with Mr Gavan <lb/> Duffy we would gladly instruct him in the matter.</p> <opener><salute>We desire, Sir, to remain, Your obedient servants,</salute></opener> Head Leader<lb/> Leader Room 1.<lb/> Leader Room 2.<lb/> Leader Room 3.<lb/> Leader Room 4.<lb/>  P.S<date>.8th October.</date> On this date the prisoner Patrick Daly was dragged down from <lb/> his cell in the North Camp to the hospital in the South camp by four <lb/> soldiers alto there were stretchers available. This condition may <lb/> be judged from the fact that he had to be lifted bodily from the chair<pb/>
+        
+    
+         
+        <pb n="4032" facs="#L1916_1585_img_4032"/>
+        
+        
+           
+            in the hospital to the bed. He was left in this hospital without any <lb/> orderly in attendance or even within calling distance by the sentry placed <lb/> over him. There being two separate and distinct hospitals in the South Camp.</p>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

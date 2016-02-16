@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1157">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter to Patrick English from his mother, Kate, 18 May 1916</title>
+                
+                <author>Kate English</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Hughesf">Hughesf</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Rosie17">Rosie17</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Cmcgoohan">Cmcgoohan</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1157</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>Kate English (b1855) was the mother of Patrick English (1894-1970) . This letter is part of a correspondence shared between Kate and Patrick during his imprisonment in 1916.    In this letter, Kate expresses her concern for her son Patrick, following the Rising and his subsequent imprisonment in Frongoch.  She mentions her relief on finding out that he was alive and that she will send on shoes and socks or anything else he may need.    Patrick English was an Irish Volunteer imprisoned in the Stafford and later Frongoch Prisons. He had at least six cousins fighting with the British Army in France during his incarceration.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Private collection, Patrick English"></repository>
+                        <collection type='private'>Private collection, Patrick English</collection>
+                        
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Patrick_English">Patrick English</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Kate_English">Kate English</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-06-15T18:46:42" who="#Cmcgoohan">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-06-15T18:46:42" who="#Hughesf">
+                
+                    Page 3061 modified:
+                    <!-- 
+Dunsink Cottages Castleknock Co Dublin 18/5/1916  My Dear son Patrick I hope you will have the pleasure of reading this letter from me My heart was broken about you I culd not make out where you went to on Easter Monday I was near wild <sic>untill</sic> I saw your name in the Paper but "thank God" you are alive I am all <sic>righ</sic> <sic>my self</sic> I sleep in Jamesy's and <sic>comes</sic> home in the morning I am sure you 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-06-15T18:49:45" who="#Cmcgoohan">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-06-15T18:49:45" who="#Hughesf">
+                
+                    Page 3062 modified:
+                    <!-- 
+can imagine how lonely <gap/> for you the only one I have but cheer up and trust in God that we will meet again I want to know if you would be allowed to receive any <sic>shir</sic> or socks or any thing at all I would send them on Jamesy David Katie Nellie and all join in sending their best love to you and is Praying night and day for the best hoping you will get this to let you know I am alive x x x x I remain Your loving Mother K English 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-09T07:25:54" who="#Rosie17">
+                
+                    Page 3061 modified:
+                    <!-- 
+<address>Dunsink Cottages<lb/> Castleknock<lb/> Co Dublin<lb/></address> <date>18/5/1916 </date> <salute>My Dear son Patrick</salute> I hope<lb/> you will have the pleasure of<lb/> reading this letter from me<lb/> My heart was broken about<lb/> you I could not make out<lb/> where you went to on Easter Monday I was near wild<lb/> <sic>untill</sic> I saw your name in<lb/> the Paper but "thank God"<lb/> you are alive I am all <sic>righ</sic><lb/> <sic>my self</sic> I sleep in Jamesy's<lb/> and <sic>comes</sic> home in the<lb/> morning I am sure you<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-09T07:27:32" who="#Rosie17">
+                
+                    Page 3062 modified:
+                    <!-- 
+can imagine how lonely <gap/><lb/> for you the only one I have<lb/> but cheer up and trust in<lb/> God that we will meet again<lb/> I want to know if you would<lb/> be allowed to receive any <sic>shir</sic><lb/> or socks or any thing at all I<lb/> would send them on Jamesy David Katie Nellie and all<lb/> join in sending their best<lb/> love to you and is Praying<lb/> night and day for the best<lb/> hoping you will get this to let you know I am alive<lb/> x x x x <salute>I remain<lb/> Your loving<lb/> Mother<lb/> K English</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-02T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-02T16:10:56" who="#NR">
+                
+                    Page 3061 modified:
+                    <!-- 
+<address>Dunsink Cottages<lb/> <lb/>Castleknock <lb/>Co Dublin</address> <date>18/5/1916</date> <salute>My Dear son Patrick</salute> <p>I hope <lb/> you will have the pleasure of <lb/>reading this letter from me <lb/>My heart was broken about <lb/>you I could not make out <lb/>where you went to on Easter <lb/>Monday I was near wild <lb/> <sic>untill</sic> I saw your name in <lb/>the Paper but "thank God" <lb/>you are alive I am all <sic>righ</sic> <lb/><sic>my self</sic> I sleep in Jamesy's <lb/>and <sic>comes</sic> home in the <lb/>morning I am sure you 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-02T16:15:14" who="#NR">
+                
+                    Page 3062 modified:
+                    <!-- 
+<lb/>can imagine how lonely <gap/> <lb/>for you the only one I have <lb/>but cheer up and trust in <lb/>God that we will meet again <lb/>I want to know if you would <lb/>be allowed to receive any <sic>shirt</sic> <lb/>or socks or any thing at all I <lb/>would send them on Jamesy <lb/>David Katie Nellie and all <lb/>join in sending their best <lb/>love to you and is Praying <lb/>night and day for the best <lb/>hoping you will get this to <lb/>let you know I am alive <lb/>x x x x <salute>I remain <lb/>Your loving <lb/>Mother</salute> <signed>K English</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3061 created using version from <date when="2014-06-15T18:46:42"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3061 removed (version from <date when="2014-06-15T18:46:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3061 removed (version from <date when="2015-06-09T07:25:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3061 removed (version from <date when="2015-12-02T16:10:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3062 created using version from <date when="2014-06-15T18:49:45"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3062 removed (version from <date when="2014-06-15T18:49:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3062 removed (version from <date when="2015-06-09T07:27:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3062 removed (version from <date when="2015-12-02T16:15:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3061 (version from <date when="2015-12-02T16:10:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3062 added to letter (version from <date when="2015-12-02T16:19:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:15" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:19" who="#PythonScript">
+                
+                    Clean tags: Page 3061 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:19" who="#PythonScript">
+                
+                    Clean tags: Page 3062 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:38" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1157_img_3061" url="75d2600e17bbf7579efab3db3f9c755e.jpg"/> 
+    
+    <graphic xml:id="L1916_1157_img_3062" url="ffc112a1579e798409affdf52b27f2f7.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3061" facs="#L1916_1157_img_3061"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>Dunsink Cottages</addrLine>
+<addrLine></addrLine>
+<addrLine>Castleknock</addrLine>
+<addrLine>Co Dublin</addrLine></address> <dateline><date>18/5/1916</date></dateline> <salute>My Dear son Patrick</salute></opener> <p>I hope <lb/> you will have the pleasure of <lb/>reading this letter from me <lb/>My heart was broken about <lb/>you I could not make out <lb/>where you went to on Easter <lb/>Monday I was near wild <lb/> <sic>untill</sic> I saw your name in <lb/>the Paper but "thank God" <lb/>you are alive I am all <sic>righ</sic> <lb/><sic>my self</sic> I sleep in Jamesy's <lb/>and <sic>comes</sic> home in the <lb/>morning I am sure you
+        
+    
+
+    
+         
+        <pb n="3062" facs="#L1916_1157_img_3062"/>
+        
+        
+           
+            <lb/>can imagine how lonely <gap/> <lb/>for you the only one I have <lb/>but cheer up and trust in <lb/>God that we will meet again <lb/>I want to know if you would <lb/>be allowed to receive any <sic>shirt</sic> <lb/>or socks or any thing at all I <lb/>would send them on Jamesy <lb/>David Katie Nellie and all <lb/>join in sending their best <lb/>love to you and is Praying <lb/>night and day for the best <lb/>hoping you will get this to <lb/>let you know I am alive <lb/>x x x x <closer><salute>I remain <lb/>Your loving <lb/>Mother</salute> <signed>K English</signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1264">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Helena Moloney to Mary Ellen Humphreys, 1916</title>
+                
+                <author>Helena Moloney</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="HH">Hannah Healy</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="EBairead">EBairead</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1264</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This letter was sent to Mrs. Humphreys by Helena Maloney. In the letter Moloney questions Nell on whether there is any truth to the rumours that Michael&#39;s body is to be exhumed and brought to &#39;his native place&#39; tomorrow. She outlines how important Michael was to the men in the ICA and that they are anxious to know the truth about these rumours.    Helana Maloney (1883-1967) was a founding member of Inghinide na hEireann, a member of the Irish Citizen Army and a close colleague of James Connolly and Markievicz. She was part of the group of rebels who seized City Hall during the Easter Rising and was imprisoned in Aylesbury prison until December 1916.    The letter was sent to Mary Ellen (Nell) Humphreys (née O&#39;Rahilly). Nell was the sister of The O&#39;Rahilly. Michael Joseph &#39;The&#39; O&#39;Rahilly (1875–1916) was a nationalist and a journalist. In 1916 he aligned himself with Eoin MacNeill and Bulmer Hobson who opposed a preemptive rising. Although O&#39;Rahilly played a large role in delivering MacNeill&#39;s countermanding</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Mary_Ellen_ORahilly">Mary Ellen O&#39;Rahilly</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Helena_Moloney">Helena Moloney</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-11-20T16:34:14" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-20T16:34:14" who="#EBairead">
+                
+                    Page 3332 modified:
+                    <!-- 
+P106/126 <head>Each for All</head> <head><del>Irish Transport & General Workers</del> Union Head Offices: Liberty Hall, Beresfort Place, Dublin. <del>James Larkin General Secretary</del></head> <head>All for each</head> <head>Phone - Dublin 3421</head> <head>Temporary Offices, <del>31 Eden Quay,</del>……………………………..19</head> <date>Saturday</date>  <salute>Dear Mrs Humphrys</salute>  Some of our men (Citizen Army) branch<lb/> of Republican A.) have heard that The O’Rahillys’ body is to be<lb/> exhumed and brought to his native place tomorrow.<lb/> All our men have the greatest respect and love for him<lb/>, and are most anxious to turn up and testify<lb/> to it. If it is true could you let me know, - there are<lb/> rumours and counter rumours, and we are all anxious to know the<lb/> truth. Our men are keenly alive to the part he played<lb/> in arming them, and making it possible for them<lb/> to play the part they played. Could you let me know the particulars, and give them to bearer. I am<lb/> writing in great haste Yours sincerely<lb/> Helena Moloney 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-30T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-30T10:43:11" who="#NR">
+                
+                    Page 3332 modified:
+                    <!-- 
+<!~~ P106/126 <head>Each for All</head> <head><del>Irish Transport & General Workers</del> Union Head Offices: Liberty Hall, Beresfort Place, Dublin. <del>James Larkin General Secretary</del></head> <head>All for each</head> <head>Phone - Dublin 3421</head> ~~> <address>Temporary Offices, <del>31 Eden Quay,</del>……………………………..19</address> <date>Saturday</date>  <salute>Dear Mrs Humphrys</salute>  <p>Some of our men (Citizen Army) branch<lb/>  of Republican A.) have heard that The O’Rahillys’ body is to be<lb/>  exhumed and brought to his native place tomorrow.<lb/>  All our men have the greatest respect and love for him,<lb/>  and are most anxious to turn up and testify<lb/>  to it. If it is true could you let me know, - there are<lb/>  rumours and counter rumours, and we are all anxious to know the<lb/>  truth. Our men are keenly alive to the part he played<lb/>  in arming them, and making it possible for them<lb/>  to play the part they played. Could you let me <lb/> know the particulars, and give them to bearer. I am<lb/>  writing in great haste <salute>Yours sincerely</salute></p> Helena Moloney 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3332 created using version from <date when="2014-11-20T16:34:14"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3332 removed (version from <date when="2014-11-20T16:34:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3332 removed (version from <date when="2015-11-30T10:43:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3332 (version from <date when="2015-11-30T10:43:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 3332 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:45" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1264_img_3332" url="5d4e3cf75829b1d4f111ff25f9967f30.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3332" facs="#L1916_1264_img_3332"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<!-- P106/126 <head>Each for All</head> <head><del>Irish Transport &amp; General Workers</del> Union Head Offices: Liberty Hall, Beresfort Place, Dublin. <del>James Larkin General Secretary</del></head> <head>All for each</head> <head>Phone - Dublin 3421</head> --> <opener><address><addrLine>Temporary Offices, <del>31 Eden Quay,</del>……………………………..19</addrLine></address> <dateline><date>Saturday</date></dateline>  <salute>Dear Mrs Humphrys</salute></opener>  <p>Some of our men (Citizen Army) branch<lb/>  of Republican A.) have heard that The O’Rahillys’ body is to be<lb/>  exhumed and brought to his native place tomorrow.<lb/>  All our men have the greatest respect and love for him,<lb/>  and are most anxious to turn up and testify<lb/>  to it. If it is true could you let me know, - there are<lb/>  rumours and counter rumours, and we are all anxious to know the<lb/>  truth. Our men are keenly alive to the part he played<lb/>  in arming them, and making it possible for them<lb/>  to play the part they played. Could you let me <lb/> know the particulars, and give them to bearer. I am<lb/>  writing in great haste <closer><salute>Yours sincerely</salute></closer></p> Helena Moloney
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

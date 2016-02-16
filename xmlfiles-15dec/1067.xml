@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1067">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Eva Gore-Booth to Helena Molony, 1 September 1916</title>
+                
+                <author>Eva Gore-Bopth</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="BH">Brian Hughes</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Hughesf">Hughesf</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BarneyDoherty">Barney Doherty</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1067</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is a letter from Eva Selina Gore-Booth (1870-1926) to Helena Malony (1883-1967). This letter was written while Malony was in prison. Eva Gore-Booth enquires about Malony and the rules regarding letters and visitors and refers to her sister and other female prisoners, Dr Kathleen Lynn and Madeleine ffrench-Mullen.    Eva Gore-Booth was a poet, trade unionist, suffragist, and an active social campaigner, mostly on women&#39;s issues, and contributor to the Irish literary revival from the late 1890s. A sister of Constance Markievicz, she was active in the campaign for a reprieve of Markievicz&#39;s death sentence for her participation in the Easter Rising and for the improvement of her prison conditions.    Helena Malony  was a republican, feminist and labour activist. She was a founder member of Inghinide na hEireann, a member of the Irish Citizen Army and a close colleague of James Connolly and Countess Markievicz. She was part of the garrison of rebels who seized City Hall during the Easter Rising and was impris</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Military Archives of Ireland">Military Archives of Ireland</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Helena_Malony">Helena Malony</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Eva_Gore-Bopth">Eva Gore-Bopth</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-06-03T17:56:38" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-06-03T17:56:38" who="#Hughesf">
+                
+                    Page 2764 modified:
+                    <!-- 
+33 Fitzroy Sq <gap/> My Dear Miss Maloney <p>I dont know if you will get this letter because I don't know what the rules are for interned people, but I thought I would chance writing you a line to say I have seen my sister since she came to England and she is well and cheerful <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-06-03T18:01:34" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-06-03T18:01:34" who="#Hughesf">
+                
+                    Page 2765 modified:
+                    <!-- 
+Please tell me if theres any chance of my being allowed to see you and who's the right person to apply to.  I heard from the Doctor, Miss Mullen and other friends this morning They seem well &amp; cheerful  I hope you are all right and not having <lb/> a bad time.  My sister says man never made a wall but God threw a gap in it as an old woman used to say at home With kindest remembrances from Miss Roper &amp; myself Yours Eva GB 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-08-21T08:53:27" who="#BarneyDoherty">
+                
+                    Page 2764 modified:
+                    <!-- 
+33 Fitzroy Sq <gap/> My Dear Miss Maloney <p>I dont know if<lb/> you will get this letter<lb/> because I don't know what<lb/> the rules are for interned<lb/> people, but I thought I<lb/> would chance writing you<lb/> a line to say I have seen<lb/> my sister since she came<lb/> to England and she is<lb/> well and cheerful <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-08-21T08:57:46" who="#BarneyDoherty">
+                
+                    Page 2765 modified:
+                    <!-- 
+<pb/>Please tell me if theres<lb/> any chance of my<lb/> being allowed to see<lb/> you and who's the<lb/> right person to apply<lb/> to.  I heard from the Doctor,<lb/> Miss Mullen and other<lb/> friends this morning<lb/> they seem well &amp; cheerful<lb/> I hope you are all right<lb/> and not having <lb/> a bad time. My sister<lb/> says man never made<lb/> a wall but God threw a<lb/> gap in it as an old<lb/> woman used to say at home<lb/> <salute>With kindest<lb/> remembrances<lb/> from Miss Roper &amp;<lb/> myself Yours<lb/> Eva GB</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-09T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-09T11:02:33" who="#NR">
+                
+                    Page 2764 modified:
+                    <!-- 
+<address>33 Fitzroy Sq</address> <lb/>W <salute>My Dear Miss Maloney</salute> <p>I dont know if <lb/>you will get this letter <lb/>because I don't know what <lb/>the rules are for interned <lb/>people, but I thought I <lb/>would chance writing you <lb/>a line to say I have seen <lb/>my sister since she came <lb/>to England and she is <lb/>well and cheerful 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-09T11:04:40" who="#NR">
+                
+                    Page 2765 modified:
+                    <!-- 
+<lb/>Please tell me if theres <lb/>any chance of my <lb/>being allowed to see <lb/>you and who's the <lb/>right person to apply <lb/>to. I heard from the Doctor, <lb/>Miss Mullen and other  <lb/>friends this morning <lb/>they seem well &amp; cheerful <lb/>I hope you are all right <lb/>and not having  <lb/>a bad time. My sister <lb/>says man never made <lb/>a wall but God threw a <lb/>gap in it as an old <lb/>woman used to say at home</p> <salute>With kindest <lb/>remembrances <lb/>from Miss Roper &amp;<lb/> <lb/>myself Yours</salute> <signed>Eva GB</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2764 created using version from <date when="2014-06-03T17:56:38"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2764 removed (version from <date when="2014-06-03T17:56:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2764 removed (version from <date when="2014-08-21T08:53:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2764 removed (version from <date when="2015-12-09T11:02:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2765 created using version from <date when="2014-06-03T18:01:34"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2765 removed (version from <date when="2014-06-03T18:01:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2765 removed (version from <date when="2014-08-21T08:57:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:09:58" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2765 removed (version from <date when="2015-12-09T11:04:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2764 (version from <date when="2015-12-09T11:02:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2765 added to letter (version from <date when="2015-12-09T11:04:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 2764 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 2765 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:51" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1067_img_2764" url="05bc1be19de22bc40c4c50cad62fa86c.jpg"/> 
+    
+    <graphic xml:id="L1916_1067_img_2765" url="9549d709afc774f673fcfba4dbb0ad4d.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2764" facs="#L1916_1067_img_2764"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>33 Fitzroy Sq</addrLine></address> W <salute>My Dear Miss Maloney</salute></opener> <p>I dont know if <lb/>you will get this letter <lb/>because I don't know what <lb/>the rules are for interned <lb/>people, but I thought I <lb/>would chance writing you <lb/>a line to say I have seen <lb/>my sister since she came <lb/>to England and she is <lb/>well and cheerful
+        
+    
+
+    
+         
+        <pb n="2765" facs="#L1916_1067_img_2765"/>
+        
+        
+           
+            <lb/>Please tell me if theres <lb/>any chance of my <lb/>being allowed to see <lb/>you and who's the <lb/>right person to apply <lb/>to. I heard from the Doctor, <lb/>Miss Mullen and other  <lb/>friends this morning <lb/>they seem well &amp; cheerful <lb/>I hope you are all right <lb/>and not having  <lb/>a bad time. My sister <lb/>says man never made <lb/>a wall but God threw a <lb/>gap in it as an old <lb/>woman used to say at home</p> <closer><salute>With kindest <lb/>remembrances <lb/>from Miss Roper &amp;<lb/> <lb/>myself Yours</salute> <signed>Eva GB</signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

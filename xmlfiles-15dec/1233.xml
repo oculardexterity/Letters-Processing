@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1233">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from A. Guinell to Mary Ellen O&#39;Rahilly, 9 June 1916.</title>
+                
+                <author>A. Guinell</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="HH">Hannah Healy</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="AaronHoey">AaronHoey</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1233</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is a letter to Mary Ellen (‘Nell’) O’Rahilly concerning the death of her brother Micheal.  The author of this letter expresses her sympathy for Nell and Michael&#39;s family but notes that this is what he would have wanted. While expressing sympathy for the plight of Ireland&#39;s men the writer acknowledges that it is the wives, mothers and sister of those men who suffer most. The author then requests that Nell send on &#39;relics&#39; of Michael and any other photographs, that she can lay her hands on, of the leaders of the Rising.     Michael Joseph &#39;The&#39; O&#39;Rahilly (1875–1916) was a nationalist and a journalist. In 1916 he aligned himself with Eoin MacNeill and Bulmer Hobson who opposed a preemptive rising. Although O&#39;Rahilly played a large role in delivering MacNeill&#39;s countermanding order he felt obligated to stand with the men he recruited and trained. O&#39;Rahilly was fatally wounded on the Thursday 27 April when the GPO was being evacuated.     Nell was also involved in the Nationalist movement as a member </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Mary_Ellen_ORahilly">Mary Ellen O&#39;Rahilly</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#A._Guinell">A. Guinell</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-11-03T21:23:42" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-03T21:23:42" who="#Philcostel">
+                
+                    Page 3283 modified:
+                    <!-- 
+51, Queen's Road, Richmond, Surrey. 9th June '16 Dear Mrs. Humphreys, My husband asks me to acknowledge & thank you for your letter of 5th June. Needless to say we were <hi rend="underline">delighted</hi>to hear your good news. Long may he live! Your sister-in-law must try to be as brave as she can & to remember that <hi rend="underline">he</hi>would not have had it otherwise & that 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-03T21:33:53" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-03T21:33:53" who="#Philcostel">
+                
+                    Page 3284 modified:
+                    <!-- 
+if Ireland exacts much from her men she often expects more from the wives, mothers & sisters of her dearest & best. Enclosed are some questions. He has not got a copy of the questions about the watch, chain & ring. Would Madame please let him know if the articles have been returned. You will not forget, I hope, to get any "relics" you can for us - & also we want a photografh of you know whom & also, if possible of P.H.P. & any others you can lay your hands on. If we are in Dublin we shall certainly call. With all good wishes to Madame & <!~~ the final piece of this letter is contained in the top right corner of the first page and is transcribed here ~~> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-03T21:37:02" who="#Philcostel">
+                
+                    Page 3283 modified:
+                    <!-- 
+51, Queen's Road, Richmond, Surrey. 9th June '16 Dear Mrs. Humphreys, My husband asks me to acknowledge & thank you for your letter of 5th June. Needless to say we were <hi rend="underline">delighted</hi>to hear your good news. Long may he live! Your sister-in-law must try to be as brave as she can & to remember that <hi rend="underline">he</hi>would not have had it otherwise & that <!~~ the script on the top left corner of this page is the conclusion of the letter and is transcribe on the next page ~~> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-03T21:38:05" who="#Philcostel">
+                
+                    Page 3284 modified:
+                    <!-- 
+if Ireland exacts much from her men she often expects more from the wives, mothers & sisters of her dearest & best. Enclosed are some questions. He has not got a copy of the questions about the watch, chain & ring. Would Madame please let him know if the articles have been returned. You will not forget, I hope, to get any "relics" you can for us - & also we want a photografh of you know whom & also, if possible of P.H.P. & any others you can lay your hands on. If we are in Dublin we shall certainly call. With all good wishes to Madame & <!~~ the final piece of this letter is contained in the top right corner of the first page and is transcribed here ~~> yourself from us both. I remain, Yours sincerely A. Guinell 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-07-22T10:38:01" who="#HH">
+                
+                    Page 3284 modified:
+                    <!-- 
+if Ireland exacts much from her men she often expects more from the wives, mothers & sisters of her dearest & best. Enclosed are some questions. He has not got a copy of the questions about the watch, chain & ring. Would Madame please let him know if the articles have been returned. You will not forget, I hope, to get any "relics" you can for us - & also we want a photograph of you know whom & also, if possible of P.H.P. & any others you can lay your hands on. If we are in Dublin we shall certainly call. With all good wishes to Madame & <!~~ the final piece of this letter is contained in the top right corner of the first page and is transcribed here ~~> yourself from us both. I remain, Yours sincerely A. Guinell 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-30T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-30T11:39:45" who="#NR">
+                
+                    Page 3283 modified:
+                    <!-- 
+<address>51, Queen's Road,<lb/> Richmond,<lb/> Surrey.</address> <date>9th June '16</date> <salute>Dear Mrs. Humphreys,</salute> <p>My husband asks me to acknowledge<lb/>  &amp; thank you for your letter of 5th June.<lb/> Needless to say we were <hi rend="underline">delighted</hi>to hear<lb/>  your good news. Long may he live!</p> <p>Your sister-in-law must try to be as <lb/> brave as she can &amp; to remember that <hi rend="underline">he</hi><lb/> would not have had it otherwise &amp; that<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-30T11:42:14" who="#NR">
+                
+                    Page 3284 modified:
+                    <!-- 
+if Ireland exacts much from her men she<lb/>  often expects more from the wives, mothers<lb/>  &amp; sisters of her dearest &amp; best. Enclosed<lb/>  are some questions. He has not got a copy of <lb/> the questions about the watch, chain &amp;<lb/>  ring. Would Madame please let him know<lb/>  if the articles have been returned.</p> <p>You will not forget, I hope, to get any<lb/>  "relics" you can for us - &amp; also we want<lb/>  a photograph of you know whom &amp;<lb/> also, if possible of P.H.P. &amp; any others you can<lb/>  lay your hands on.</p> <p>If we are in Dublin we shall certainly<lb/>  call. With all good wishes to Madame &<pb/> <!~~ the final piece of this letter is contained in the top right corner of the first page and is transcribed here ~~> yourself from us both.</p> <salute>I remain,<lb/> Yours sincerely</salute> A. Guinell 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3284 created using version from <date when="2014-11-03T21:33:53"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3284 removed (version from <date when="2014-11-03T21:33:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3284 removed (version from <date when="2014-11-03T21:38:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3284 removed (version from <date when="2015-07-22T10:38:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3284 removed (version from <date when="2015-11-30T11:42:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3283 created using version from <date when="2014-11-03T21:23:42"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3283 removed (version from <date when="2014-11-03T21:23:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3283 removed (version from <date when="2014-11-03T21:37:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3283 removed (version from <date when="2015-11-30T11:39:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3284 (version from <date when="2015-11-30T11:42:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3283 added to letter (version from <date when="2015-11-30T11:39:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 3283 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 3284 cleaned of 7 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:41" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1233_img_3283" url="8af9a0e2f14e4a9be5851ed890b708a2.jpg"/> 
+    
+    <graphic xml:id="L1916_1233_img_3284" url="758fbef3455b68ff7fc1da77986f1721.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3283" facs="#L1916_1233_img_3283"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>51, Queen's Road,</addrLine>
+<addrLine>Richmond,</addrLine>
+<addrLine>Surrey.</addrLine></address> <dateline><date>9th June '16</date></dateline> <salute>Dear Mrs. Humphreys,</salute></opener> <p>My husband asks me to acknowledge<lb/>  &amp; thank you for your letter of 5th June.<lb/> Needless to say we were <hi rend="underline">delighted</hi>to hear<lb/>  your good news. Long may he live!</p> <p>Your sister-in-law must try to be as <lb/> brave as she can &amp; to remember that <hi rend="underline">he</hi><lb/> would not have had it otherwise &amp; that<pb/>
+        
+    
+
+    
+         
+        <pb n="3284" facs="#L1916_1233_img_3284"/>
+        
+        
+           
+            if Ireland exacts much from her men she<lb/>  often expects more from the wives, mothers<lb/>  &amp; sisters of her dearest &amp; best. Enclosed<lb/>  are some questions. He has not got a copy of <lb/> the questions about the watch, chain &amp;<lb/>  ring. Would Madame please let him know<lb/>  if the articles have been returned.</p> <p>You will not forget, I hope, to get any<lb/>  "relics" you can for us - &amp; also we want<lb/>  a photograph of you know whom &amp;<lb/> also, if possible of P.H.P. &amp; any others you can<lb/>  lay your hands on.</p> <p>If we are in Dublin we shall certainly<lb/>  call. With all good wishes to Madame &<pb/> <!-- the final piece of this letter is contained in the top right corner of the first page and is transcribed here --> yourself from us both.</p> <closer><salute>I remain,<lb/> Yours sincerely</salute></closer> A. Guinell
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

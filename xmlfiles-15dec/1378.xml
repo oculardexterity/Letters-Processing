@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1378">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from James Maloney to Patrick English, 3 July 1916</title>
+                
+                <author>James Maloney</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Scribe500">Scribe500</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="AaronHoey">AaronHoey</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BarneyDoherty">Barney Doherty</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1378</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This letter is from James Maloney (b. 1896), and is addressed to Patrick English (1894-1970). In the letter Maloney states that English&#39;s last letter arrived safely and he will send him some cigarettes, notepaper and stamps. Maloney states that his glad Dublin is now quiet after seeing so much trouble. Maloney requests that English tells Cosgrave he was &#39;asking for him&#39;. He also informs English that he was released from Richmond Barracks. Maloney also discusses his injured brother, Peter (b.1894), who was wounded in the Battle of Loos. Maloney ends the letter by hoping that English, Cosgrave and all the boys will be released before long.     After the Easter Rising of 1916 Patrick English was interned at Stafford Prison before being moved to Frongoch internment camp in Wales</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Private Collection, Patrick English"></repository>
+                        <collection type='private'>Private Collection, Patrick English</collection>
+                        
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Patrick_English">Patrick English</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#James_Maloney">James Maloney</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-28T11:44:54" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-28T11:44:54" who="#Scribe500">
+                
+                    Page 3584 modified:
+                    <!-- 
+<address>Dubber Finglas</address> <date>July 3<hi rend="superscript">rd</hi>7/16</date> <salute>Dear Patrick</salute> I received your letter quite safe.  I am<lb/> glad to hear that your getting through<lb/>all right and not downhearted I am<lb/> sending you some cigarettes the Post<lb/> Irelands Own and some note paper <lb/> stamps I trust you will get them safe<lb/> the <unclear>F. Club</unclear> is in great fettle we have<lb/> enterd in the Baldoyle Tournament for<lb/> which the Proceeds goes for the repairs of<lb/> Howth Catholic Church  The Fingal<lb/> Final is put back for some time <lb/> <unclear>Dublins</unclear> Pride were playing Geraldines on <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-28T13:11:31" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-28T13:11:31" who="#Scribe500">
+                
+                    Page 3585 modified:
+                    <!-- 
+<!~~ there appears to be some text missing at the top ~~> I suppost you know that J Bully<lb/> and B Duke is released and I suppose you do<lb/> not know that I was released myself<lb/> from Richmond Brks. Dublin is now<lb/>quite and I hope it will remain so for<lb/> its after seeing a lot of trouble.  Tell<lb/> Cosgrave I am asking for him and<lb/> I will write to him in a few days the Weather over here is very bad<lb/> its always raining we hadnt a fine<lb/> day since Summer came in<p>My Brother Peter is in London in<lb/> Hospital he was Wounded on April 5<hi rend="superscript">th</hi><lb/> at the Battle of Loos he is after<pb/> going through an operation and is now <lb/>progressing favourly  I think I have<lb/> no more to say at present so I will<lb/> have to close hoping yours and Cosgrave <lb/> and all boys release before long.</p> <salute>I remain yours <lb/>Fond <unclear>Cellmate</unclear><lb/> James Maloney</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-28T20:47:45" who="#Scribe500">
+                
+                    Page 3585 modified:
+                    <!-- 
+<!~~ there appears to be some text missing at the top ~~> I suppost you know that J Bully<lb/> and B Duke is released and I suppose you do<lb/> not know that I was released myself<lb/> from Richmond Brks. Dublin is now<lb/>quite and I hope it will remain so for<lb/> its after seeing a lot of trouble.  Tell<lb/> Cosgrave I am asking for him and<lb/> I will write to him in a few days the Weather over here is very bad<lb/> its always raining we hadnt a fine<lb/> day since Summer came in<p>My Brother Peter is in London in<lb/> Hospital he was Wounded on April 5<hi rend="superscript">th</hi><lb/> at the Battle of Loos he is after<pb/> going through an operation and is now <lb/>progressing favourly  I think I have<lb/> no more to say at present so I will<lb/> have to close hoping yours and Cosgrave <lb/> and all boys release before long.</p> <salute>I remain yours <lb/>Fond <unclear>C Cellmate</unclear><lb/> James Maloney</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-07T23:54:38" who="#Scribe500">
+                
+                    Page 3584 modified:
+                    <!-- 
+<address>Dubber Finglas</address> <date>July 3<hi rend="superscript">rd</hi>7/16</date><lb/> <salute>Dear Patrick</salute><lb/> I received your letter quite safe. I am<lb/> glad to hear that your getting through<lb/>all right and not downhearted I am<lb/> sending you Some Cigarettes the Post<lb/> Irelands Own and some note Paper <lb/> stamps I trust you will get them safe<lb/> the <unclear>F. Club</unclear> is in great fettle we have<lb/> <sic>enterd</sic> in the Baldoyle Tournament for<lb/> which the Proceeds goes for the repairs of<lb/> Howth Catholic Church The Fingal<lb/> Final is put back for some time <lb/> <unclear>Dublins</unclear> Pride were playing Geraldines on <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-08T00:02:37" who="#Scribe500">
+                
+                    Page 3585 modified:
+                    <!-- 
+<!~~ there appears to be some text missing at the top ~~> I suppost you know that J Bully and<lb/> B Duke is released and I suppose you do<lb/> not know that I was released myself<lb/> from Richmond Brks. Dublin is now<lb/>quite and I hope it will remain so for<lb/> its after seeing a lot of trouble. Tell<lb/> Cosgrave I am asking for him and<lb/> I will write to him in a few days<lb/> the Weather over here is very bad<lb/> its always raining we hadnt a fine<lb/> day since Summer came in<p>My Brother Peter is in London in<lb/> Hospital he was Wounded on April 5<hi rend="superscript">th</hi><lb/> at the Battle of Loos he is after<lb/> going through an operation and is now <lb/>progressing favourly I think I have<lb/> no more to say at present so I will<lb/> here Close hoping yours and Cosgrave <lb/> and all boys release before long.</p> <salute>I remain yours <lb/>Fond <unclear>C Cellmate</unclear><lb/> James Maloney</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T00:00:00" who="#BD">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#BD" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T15:38:08" who="#BarneyDoherty">
+                
+                    Page 3584 modified:
+                    <!-- 
+<address>Dubber Finglas</address>  <date>July 3<hi rend="superscript">rd</hi>7/16</date> <salute>Dear Patrick</salute> <p> <lb/> I received your letter quite safe. I am <lb/> glad to hear that your getting through <lb/>all right and not downhearted I am <lb/> sending you some cigarettes the post <lb/> Irelands Own and some note Paper and  <lb/> stamps I trust you will get them safe <lb/> the <unclear>F. Club</unclear> is in great fettle we have <lb/> <sic>enterd</sic> in the Baldoyle Tournament for <lb/> which the proceeds goes for the repairs of <lb/> Howth Catholic Church The Fingal <lb/> Final is put back for some time  <lb/> <gap/> Pride were playing Geraldines on 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T15:43:00" who="#BarneyDoherty">
+                
+                    Page 3585 modified:
+                    <!-- 
+<!~~ there appears to be some text missing at the top ~~> I suppost you know that J Bully and <lb/> B Duke is released and I suppose you do <lb/> not know that I was released myself <lb/> from Richmond Brks. Dublin is now <lb/>quite and I hope it will remain so for <lb/> its after seeing a lot of trouble. Tell <lb/> Cosgrave I am asking for him and <lb/> I will write to him in a few days <lb/> the Weather over here is very bad <lb/> its always raining we hadn't a fine <lb/> day since Summer came in.</p> <p> <lb/>My Brother Peter is in London in <lb/> Hospital he was Wounded on April 5<hi rend="superscript">th</hi> <lb/> at the Battle of Loos he is after <pb/> <lb/> going through an operation and is now  <lb/>progressing favourly I think I have <lb/> no more to say at present so I will <lb/> here Close hoping yours and Cosgrave < lb/> and all boys release before long. </p>  <salute>I remain yours <lb/>Fond <gap/></salute> <signed>James Maloney</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-07T09:55:43" who="#NR">
+                
+                    Page 3584 modified:
+                    <!-- 
+<address>Dubber Finglas</address>  <date>July 3<hi rend="superscript">rd</hi>7/16</date> <salute>Dear Patrick</salute> <p> I received your letter quite safe. I am <lb/> glad to hear that your getting through <lb/>all right and not downhearted I am <lb/> sending you some cigarettes the post <lb/> Irelands Own and some note Paper and  <lb/> stamps I trust you will get them safe <lb/> the <unclear>F. Club</unclear> is in great fettle we have <lb/> <sic>enterd</sic> in the Baldoyle Tournament for <lb/> which the proceeds goes for the repairs of <lb/> Howth Catholic Church The Fingal <lb/> Final is put back for some time  <lb/> <unclear>kms</unclear> Pride were playing Geraldines on 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-07T09:56:51" who="#NR">
+                
+                    Page 3585 modified:
+                    <!-- 
+<!~~ there appears to be some text missing at the top ~~> <lb/>I suppose you know that J Bully and <lb/> B Duke is released and I suppose you do <lb/> not know that I was released myself <lb/> from Richmond Brks. Dublin is now <lb/>quite and I hope it will remain so for <lb/> its after seeing a lot of trouble. Tell <lb/> Cosgrave I am asking for him and <lb/> I will write to him in a few days <lb/> the Weather over here is very bad <lb/> its always raining we hadn't a fine <lb/> day since Summer came in.</p> <p>My Brother Peter is in London in <lb/> Hospital he was Wounded on April 5<hi rend="superscript">th</hi> <lb/> at the Battle of Loos he is after <pb/> <lb/> going through an operation and is now  <lb/>progressing favourly I think I have <lb/> no more to say at present so I will <lb/> here Close hoping yours and Cosgrave  <lb/> and all boys release before long.</p>  <salute>I remain yours  <lb/>Fond <gap/></salute> <signed>James Maloney</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3584 created using version from <date when="2015-08-28T11:44:54"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3584 removed (version from <date when="2015-08-28T11:44:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3584 removed (version from <date when="2015-09-07T23:54:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3584 removed (version from <date when="2015-12-04T15:38:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3584 removed (version from <date when="2015-12-07T09:55:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3585 created using version from <date when="2015-08-28T13:11:31"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3585 removed (version from <date when="2015-08-28T13:11:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3585 removed (version from <date when="2015-08-28T20:47:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3585 removed (version from <date when="2015-09-08T00:02:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3585 removed (version from <date when="2015-12-04T15:43:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3585 removed (version from <date when="2015-12-07T09:56:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3584 (version from <date when="2015-12-07T09:55:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3585 added to letter (version from <date when="2015-12-07T09:56:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 3584 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 3585 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:54" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1378_img_3584" url="00fc283e4f00e4d47b963f95e3bb6e7b.jpg"/> 
+    
+    <graphic xml:id="L1916_1378_img_3585" url="b58e43883752555f83ed77a1f1be9f3e.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3584" facs="#L1916_1378_img_3584"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>Dubber Finglas</addrLine></address>  <dateline><date>July 3<hi rend="superscript">rd</hi>7/16</date></dateline> <salute>Dear Patrick</salute></opener> <p> I received your letter quite safe. I am <lb/> glad to hear that your getting through <lb/>all right and not downhearted I am <lb/> sending you some cigarettes the post <lb/> Irelands Own and some note Paper and  <lb/> stamps I trust you will get them safe <lb/> the <unclear>F. Club</unclear> is in great fettle we have <lb/> <sic>enterd</sic> in the Baldoyle Tournament for <lb/> which the proceeds goes for the repairs of <lb/> Howth Catholic Church The Fingal <lb/> Final is put back for some time  <lb/> <unclear>kms</unclear> Pride were playing Geraldines on
+        
+    
+
+    
+         
+        <pb n="3585" facs="#L1916_1378_img_3585"/>
+        
+        
+           
+            <!-- there appears to be some text missing at the top --> <lb/>I suppose you know that J Bully and <lb/> B Duke is released and I suppose you do <lb/> not know that I was released myself <lb/> from Richmond Brks. Dublin is now <lb/>quite and I hope it will remain so for <lb/> its after seeing a lot of trouble. Tell <lb/> Cosgrave I am asking for him and <lb/> I will write to him in a few days <lb/> the Weather over here is very bad <lb/> its always raining we hadn't a fine <lb/> day since Summer came in.</p> <p>My Brother Peter is in London in <lb/> Hospital he was Wounded on April 5<hi rend="superscript">th</hi> <lb/> at the Battle of Loos he is after <pb/> <lb/> going through an operation and is now  <lb/>progressing favourly I think I have <lb/> no more to say at present so I will <lb/> here Close hoping yours and Cosgrave  <lb/> and all boys release before long.</p>  <closer><salute>I remain yours  <lb/>Fond <gap/></salute> <signed>James Maloney</signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

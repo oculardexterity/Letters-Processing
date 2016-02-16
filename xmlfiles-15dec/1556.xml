@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1556">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Ernest Whitlock to the Chief Secretary for Ireland, 18 May 1916</title>
+                
+                <author>Ernest Whitlock </author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="AaronHoey">AaronHoey</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1556</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is a letter from Ernest John Whitlock (b. 1861), an architect and surveyor from Yorkshire, to the chief secretary of Ireland. While the letter is addressed to the chief secretary, there was no active chief secretary at the time this letter was written. This is due to the fact that Augustine Birrell (1850-1933) resigned on 3 May 1916 following his administrational failure during the 1916 Rising while his successor, Henry Duke (1855-1939), did not formally accept the position until 31 June 1916. In the letter, Whitlock states his profession and the fact he is 50 (above the military service age) and has worked in the profession for 18 years. Whitlock then states that he wishes to offer his services to the Irish government for any work needed following the destruction of Dublin city due to the Easter Rising</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#National Archives of Ireland">National Archives of Ireland</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#The_Chief_Secretary_for_Ireland">The Chief Secretary for Ireland</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Ernest_Whitlock_">Ernest Whitlock </persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-10-24T20:30:45" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-10-24T20:30:45" who="#Philcostel">
+                
+                    Page 3960 modified:
+                    <!-- 
+<!~~ Letterhead ~~>Corp. Telephone 1454. Chancery Buildings, Manor Street, Hull, 18 May 1916 Ernest Whitlock, Architect and Surveyor  The Chief Secretary of Ireland Dear Sir I am an Architect & Surveyor & since the war have had no work to do & no prospect of obtaining anything here. I thought probably on a/c of the Dublin trouble you might require men of our profession to make surveys plans & estimates & carry out works where the Buildings have been damaged. I am 50 years old & have been in business here 18 years. I have good references & shall be glad to call on you if you could find me employment Yours truly <hi rend="underline">E. Whitlock</hi> <note>Ack & inform that there's no appt. in this Dept. in connection with which his appl. for employment could be considered. 19.5.16</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-26T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-27T11:27:17" who="#NR">
+                
+                    Page 3960 modified:
+                    <!-- 
+<address>Chancery Buildings,<lb/>  Manor Street,<lb/>  Hull,</address> <date>18 May 1916</date> ERNEST WHITLOCK,<lb/> ARCHITECT AND SURVEYOR<lb/> <address>The Chief Secretary<lb/> of Ireland</address> <salute>Dear Sir</salute> <p>I am an Architect &amp; Surveyor<lb/>  &amp; since the war have had no<lb/>  work to do &amp; no prospect of<lb/>  obtaining anything here.</p> <p>I thought probably on a/c of<lb/>  the Dublin trouble you<lb/>  might require men of our<lb/>  profession to make surveys<lb/>  plans &amp; estimates &amp; carry<lb/>  out works where the Buildings<lb/>  have been damaged.</p> I am 50 years old &amp; have<lb/>  been in business here 18 <lb/> years. I have good references <lb/> &amp; shall be glad to call on<lb/>  you if you could find me employment</p> Yours truly <hi rend="underline">E. Whitlock</hi> <note>Ack & inform that there's no appt. in this Dept. in connection with which his appl. for employment could be considered. 19.5.16</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-27T11:28:46" who="#NR">
+                
+                    Page 3960 modified:
+                    <!-- 
+<address>Chancery Buildings,<lb/>  Manor Street,<lb/>  Hull,</address> <date>18 May 1916</date> ERNEST WHITLOCK,<lb/> ARCHITECT AND SURVEYOR<lb/> <address>The Chief Secretary<lb/> of Ireland</address> <salute>Dear Sir</salute> <p>I am an Architect &amp; Surveyor<lb/>  &amp; since the war have had no<lb/>  work to do &amp; no prospect of<lb/>  obtaining anything here.</p> <p>I thought probably on a/c of<lb/>  the Dublin trouble you<lb/>  might require men of our<lb/>  profession to make surveys<lb/>  plans &amp; estimates &amp; carry<lb/>  out works where the Buildings<lb/>  have been damaged.</p> <p>I am 50 years old &amp; have<lb/>  been in business here 18 <lb/> years. I have good references <lb/> &amp; shall be glad to call on<lb/>  you if you could find me employment</p> <salute>Yours truly</salute> <hi rend="underline">E. Whitlock</hi><lb/> <note>Ack &amp; inform that there's no<lb/>  appt. in this Dept. in connection<lb/>  with which his appl. for employment<lb/>  could be considered. 19.5.16</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3960 created using version from <date when="2014-10-24T20:30:45"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3960 removed (version from <date when="2014-10-24T20:30:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3960 removed (version from <date when="2015-11-27T11:27:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3960 removed (version from <date when="2015-11-27T11:28:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3960 (version from <date when="2015-11-27T11:28:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 3960 cleaned of 8 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:50" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1556_img_3960" url="769fc52042258344e3411a207bd35e59.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3960" facs="#L1916_1556_img_3960"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>Chancery Buildings,</addrLine>
+<addrLine>Manor Street,</addrLine>
+<addrLine>Hull,</address> <dateline><date>18 May 1916</date></dateline> ERNEST WHITLOCK,</addrLine>
+<addrLine>ARCHITECT AND SURVEYOR</addrLine>
+<addrLine><address>The Chief Secretary</addrLine>
+<addrLine>of Ireland</addrLine></address> <salute>Dear Sir</salute></opener> <p>I am an Architect &amp; Surveyor<lb/>  &amp; since the war have had no<lb/>  work to do &amp; no prospect of<lb/>  obtaining anything here.</p> <p>I thought probably on a/c of<lb/>  the Dublin trouble you<lb/>  might require men of our<lb/>  profession to make surveys<lb/>  plans &amp; estimates &amp; carry<lb/>  out works where the Buildings<lb/>  have been damaged.</p> <p>I am 50 years old &amp; have<lb/>  been in business here 18 <lb/> years. I have good references <lb/> &amp; shall be glad to call on<lb/>  you if you could find me employment</p> <closer><salute>Yours truly</salute></closer> <hi rend="underline">E. Whitlock</hi><lb/> <note>Ack &amp; inform that there's no<lb/>  appt. in this Dept. in connection<lb/>  with which his appl. for employment<lb/>  could be considered. 19.5.16</note>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

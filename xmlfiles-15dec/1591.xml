@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1591">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from the the Acetylene Corporation to the Secretary, Irish Office, 18 May 1916.</title>
+                
+                <author>The Acetylene Corporation</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Ryan101">Ryan101</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Lainey">Lainey</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1591</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is a letter from the Acetylene Corporation Ltd. to the secretary at the Irish Office in London. In the letter the Corporation offer their services to remove girders and other debris caused by the Easter Rising via the use of an oxy-acetylene blow pipe.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#National Archives of Ireland ">National Archives of Ireland </repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#_Secretary,_Irish_Office_"> Secretary, Irish Office </persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#The_Acetylene_Corporation">The Acetylene Corporation</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-12-03T12:21:13" who="#Ryan101">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-12-03T12:21:13" who="#Lainey">
+                
+                    Page 4049 modified:
+                    <!-- 
+.                                                     <hi rend="underline">ON ADMIRALTY & WAR OFFICE LISTS</hi> TELEGRAMS                          CONTRACTORS TO H.M. GOVERNMENT, THE PRINCIPAL RAILWAY COMPANIES,          TELEPHONE: "FLAMMA,VIC,LONDON,"        BOROUGH AND COUNTY COUNCILS, CROWN AGENTS FOR THE COLONIES &c,&c.      VICTORIA 4830.                                                                                                 &#x2014;                                                                                                                           THE ACETYLENE CORPORATION OF GREAT BRITAIN, LTD.,                                               (WITH WHICH IS ASSOCIATED THE BRITISH AIR GAS COMPANY, LIMITED) <address>Branches:                                                                                                                                     <address>Works:; 166, BUCHANAN ST,                                                                                                                                  19, ESHER STREET, GLASGOW,                                                                                                                                                WESTMINSTER. 19, CROW ST,                                                                                                                                           Carbide Depots: DUBLIN.</address>                                                                                                                                    AT EVERY IMPORTANT PORT                                                                                                                                                                                                                                                      <address>49, Victoria Street, Westminster.</address>                        IN THE UNITED KINGDOM                                            Ref:- M                                              <date>18th May 1916</date>                  </address>                                                                             <address>                                            The Secretary,                                                   Irish Office,                                                                                          <note>                                                       36 - 38, Old Queen Street, S.W.</address>                                       CHIEF SECRETARY'S                                                                                                                                                              8653 - 22.MAY.1916                                                                                                                                                                      OFFICE</note>  <salute>Dear Sir,</salute>                          <p>In connection with the ruined buildings in Dublin we should like to bring to your notice that we have a branch at 19, Crow Street, Dublin and are in a position to cut away girders and other debris expeditiously by the oxy-acetylene blow pipe.</p>                          <p>We have several skilled men in Dublin and the necessary plant and we could therefore give immediate attention to any work of this description which may require to be done.</p>                          <p>Will you be so kind as to bring this matter to the notice of the responsible authorities as we are not sure to whom we should apply in Dublin.</p>                                                                                                <salute>Yours faithfully,                                                                                                      THE ACETYLENE CORPORATION LTD.</salute> <note><gap/ to request that application might be made to the <gap/> of Dublin </note>  REGISTERED 26 MAY 1916 <salute><gap/></salute> <date>25/6</date> <salute><gap/></salute> <date>26/6</date> <salute><gap/></salute> <date>25/6</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-25T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-25T12:51:53" who="#NR">
+                
+                    Page 4049 modified:
+                    <!-- 
+<!~~ <hi rend="underline">ON ADMIRALTY & WAR OFFICE LISTS</hi> TELEGRAMS                          CONTRACTORS TO H.M. GOVERNMENT, THE PRINCIPAL RAILWAY COMPANIES,          TELEPHONE: "FLAMMA,VIC,LONDON,"        BOROUGH AND COUNTY COUNCILS, CROWN AGENTS FOR THE COLONIES &c,&c.      VICTORIA 4830.                                                                                                 &#x2014;                                                                                                                           THE ACETYLENE CORPORATION OF GREAT BRITAIN, LTD.,                                               (WITH WHICH IS ASSOCIATED THE BRITISH AIR GAS COMPANY, LIMITED) <address>Branches:                                                                                                                                     <address>Works:; 166, BUCHANAN ST,                                                                                                                                  19, ESHER STREET, GLASGOW,                                                                                                                                                WESTMINSTER. 19, CROW ST,                                                                                                                                           Carbide Depots: DUBLIN.</address>                                                                                                                                    AT EVERY IMPORTANT PORT                                                                                                                                                                                                                                                      <address>49, Victoria Street, Westminster.</address>                        IN THE UNITED KINGDOM                                            Ref:- M                                              <date>18th May 1916</date>                  </address> ~~>                                                                               <address>The Secretary,<lb/>  Irish Office,<lb/>                                                                                            36 - 38, Old Queen Street, S.W.</address>                                       <salute>Dear Sir,</salute>                          <p>In connection with the ruined buildings in Dublin<lb/>  we should like to bring to your notice that we have a branch at<lb/>  19, Crow Street, Dublin and are in a position to cut away any<lb/>  girders and other debris expeditiously by the oxy-acetylene blow<lb/>  pipe.</p>                          <p>We have several skilled men in Dublin and the<lb/>  necessary plant and we could therefore give immediate attention<lb/>  to any work of this description which may require to be done.</p>                          <p>Will you be so kind as to bring this matter to the<lb/>  notice of the responsible authorities as we are not sure to whom<lb/>  we should apply in Dublin.</p>  <salute>Yours faithfully,</salute> THE ACETYLENE CORPORATION LTD. <note>ack &amp; request that <lb/> application might be made<lb/>  to the Corporation of Dublin </note>  REGISTERED 26 MAY 1916 <salute><gap/></salute> <date>25/6</date> <salute><gap/></salute> <date>26/6</date> <salute><gap/></salute> <date>25/6</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4049 created using version from <date when="2014-12-03T12:21:13"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4049 removed (version from <date when="2014-12-03T12:21:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4049 removed (version from <date when="2015-11-25T12:51:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 4049 (version from <date when="2015-11-25T12:51:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:19" who="#PythonScript">
+                
+                    Clean tags: Page 4049 cleaned of 4 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:41" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1591_img_4049" url="2bae091f5e624653b8cbaf9d53e612b8.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="4049" facs="#L1916_1591_img_4049"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<!-- <hi rend="underline">ON ADMIRALTY &amp; WAR OFFICE LISTS</hi> TELEGRAMS                          CONTRACTORS TO H.M. GOVERNMENT, THE PRINCIPAL RAILWAY COMPANIES,          TELEPHONE: "FLAMMA,VIC,LONDON,"        BOROUGH AND COUNTY COUNCILS, CROWN AGENTS FOR THE COLONIES &c,&c.      VICTORIA 4830.                                                                                                 &#x2014;                                                                                                                           THE ACETYLENE CORPORATION OF GREAT BRITAIN, LTD.,                                               (WITH WHICH IS ASSOCIATED THE BRITISH AIR GAS COMPANY, LIMITED) <opener><address><addrLine>Branches:                                                                                                                                     <address>Works:; 166, BUCHANAN ST,                                                                                                                                  19, ESHER STREET, GLASGOW,                                                                                                                                                WESTMINSTER. 19, CROW ST,                                                                                                                                           Carbide Depots: DUBLIN.</addrLine></address></opener>                                                                                                                                    AT EVERY IMPORTANT PORT                                                                                                                                                                                                                                                      <address>49, Victoria Street, Westminster.</address>                        IN THE UNITED KINGDOM                                            Ref:- M                                              <date>18th May 1916</date>                  </address> -->                                                                               <address>The Secretary,<lb/>  Irish Office,<lb/>                                                                                            36 - 38, Old Queen Street, S.W.</address>                                       <salute>Dear Sir,</salute>                          <p>In connection with the ruined buildings in Dublin<lb/>  we should like to bring to your notice that we have a branch at<lb/>  19, Crow Street, Dublin and are in a position to cut away any<lb/>  girders and other debris expeditiously by the oxy-acetylene blow<lb/>  pipe.</p>                          <p>We have several skilled men in Dublin and the<lb/>  necessary plant and we could therefore give immediate attention<lb/>  to any work of this description which may require to be done.</p>                          <p>Will you be so kind as to bring this matter to the<lb/>  notice of the responsible authorities as we are not sure to whom<lb/>  we should apply in Dublin.</p>  <salute>Yours faithfully,</salute> THE ACETYLENE CORPORATION LTD. <note>ack &amp; request that <lb/> application might be made<lb/>  to the Corporation of Dublin </note>  REGISTERED 26 MAY 1916 <closer><salute><gap/></salute> <date>25/6</date> <salute><gap/></salute> <date>26/6</date> <salute><gap/></salute> <date>25/6</date></closer>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

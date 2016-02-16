@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1895">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from W.S. Lennon to Sarah  Mallin, 7 May 1916</title>
+                
+                <author>W.S. Lennon</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="KB">Karolina Badzmierowska</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Cathyc">Cathyc</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Annie">Annie</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Rosie17">Rosie17</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1895</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>Letter from Major W.S. Lennon, commandant at the Kilmainham Detention Barracks, to Sarah Mallin (c. 1854 - 1928) on the eve of her son&#39;s execution. Lennon advises Sarah that her son wishes to see her and that he is sending a motor car for her conveyance.     Sarah Mallin (née Dowling) was the mother of Michael Mallin (1874 - 1916). Michael led the Citizen Army force that occupied St Stephen&#39;s Green on Monday 24 April, digging trenches in the park and erecting barricades on the surrounding roads. Mallin was tried by court martial in Richmond barracks on 5 May and sentenced to death. He was shot by firing squad in Kilmainham jail on 8 May 1916 and buried at Arbour Hill.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#National Museum of Ireland">National Museum of Ireland</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Agnes_Mallin_née_Hickey">Agnes Mallin née Hickey</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#W.S._Lennon">W.S. Lennon</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-02-02T23:42:52" who="#KB">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-02-02T23:42:52" who="#Annie">
+                
+                    Page 4759 modified:
+                    <!-- 
+Mrs Mallon <lb/> 20 High Rd Kilmainham <lb/> Madame <lb/> Your son Michael Mallon desires to <lb/> see you. I am sending a motor car <lb/> for your convenience. <lb/> I am Madame <lb/> Your obedient servant <lb/> W.S. Lennon <lb/> Major <lb/>Comdt 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-10T20:30:07" who="#Cathyc">
+                
+                    Page 4759 modified:
+                    <!-- 
+Mrs Mallon <lb/> 20 High Rd Kilmainham <lb/> Madame <lb/> Your son Michael Mallon desires to <lb/> see you. I am sending a motor car <lb/> for your conveyance. <lb/> I am Madame <lb/> Your obedient servant <lb/> W.S. Lennon <lb/> Major <lb/>Comdt 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-01T21:32:44" who="#Rosie17">
+                
+                    Page 4759 modified:
+                    <!-- 
+<address>Mrs Mallon <lb/> 20 High Rd Kilmainham</address> <lb/> <salute>Madame</salute> <lb/> Your son Michael Mallon desires to <lb/> see you. I am sending a motor car <lb/> for your conveyance. <lb/><lb/> <salute>I am Madame <lb/> Your obedient servant <lb/> W.S. Lennon <lb/> Major</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T15:18:47" who="#NR">
+                
+                    Page 4759 modified:
+                    <!-- 
+<date>7 May 1916</date> <address>Mrs Mallon 20 High Rd Kilmainham</address>   <salute>Madam</salute>   <p>Your son Michael Mallon desires to <lb/>  see you. I am sending a motor car <lb/>  for your conveyance</p> <salute>I am Madam  Your obedient servant</salute>  W.S. Lennon <lb/>  Major<lb/> Comdt. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T15:18:53" who="#NR">
+                
+                    Page 4759 modified:
+                    <!-- 
+<date>7 May 1916</date> <address>Mrs Mallon 20 High Rd Kilmainham</address>   <salute>Madam</salute>   <p>Your son Michael Mallon desires to <lb/>  see you. I am sending a motor car <lb/>  for your conveyance</p> <salute>I am Madam  Your obedient servant</salute>  W.S. Lennon <lb/>  Major<lb/> Com<hi rend="superscript">dt.</hi> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4759 created using version from <date when="2015-02-02T23:42:52"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4759 removed (version from <date when="2015-02-02T23:42:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4759 removed (version from <date when="2015-02-10T20:30:07"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4759 removed (version from <date when="2015-04-01T21:32:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4759 removed (version from <date when="2015-11-20T15:18:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4759 removed (version from <date when="2015-11-20T15:18:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 4759 (version from <date when="2015-11-20T15:18:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:19" who="#PythonScript">
+                
+                    Clean tags: Page 4759 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:39" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1895_img_4759" url="15e2c74ee81adcc23ca09ed8c5dcdfc3.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="4759" facs="#L1916_1895_img_4759"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><dateline><date>7 May 1916</date></dateline> <address><addrLine>Mrs Mallon 20 High Rd Kilmainham</addrLine></address>   <salute>Madam</salute></opener>   <p>Your son Michael Mallon desires to <lb/>  see you. I am sending a motor car <lb/>  for your conveyance</p> <closer><salute>I am Madam  Your obedient servant</salute></closer>  W.S. Lennon <lb/>  Major<lb/> Com<hi rend="superscript">dt.</hi>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

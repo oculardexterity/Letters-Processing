@@ -3,6 +3,7 @@ import collections
 import datetime
 import jinja2
 import os
+import re
 import shelve
 from xml.etree import ElementTree as ET
 
@@ -11,14 +12,27 @@ from Stream import Stream
 
 
 def to_snake_case(text):
-	return text.replace(' ', '_')
+	return text.replace(' ', '_').replace("'","")
 
 def replace_contrib_names(name):
 	with shelve.open('editorList.shelve') as editor_list:
 		if name in editor_list:
 			return editor_list[name][1]
+		elif name and name[0] in [str(i) for i in range(10)]:
+			name = "x" + name
+			return name.replace(" ","").replace("'","")
 		else:
-			return name.replace(" ","").replace("'"," ")
+			return name.replace(" ","").replace("'","")
+
+
+#### NOT WORKING----check this out tomorrow
+def abstract_split(abstract):
+	if '\n\n' in abstract:
+		return abstract.split('\n\n')
+	elif '    ' in abstract:
+		return abstract.split('    ')
+	else:
+		return [abstract]
 
 def run_templater(inputFile, outputDir):#, templateFolder):
 	editors = []
@@ -86,14 +100,16 @@ def run_templater(inputFile, outputDir):#, templateFolder):
 		templateFile = open('newTemplate.xml').read()
 
 		env = jinja2.Environment()
-		env.globals.update(sorted=sorted, to_snake=to_snake_case,replace_contribs=replace_contrib_names) 
+		env.globals.update(sorted=sorted, to_snake=to_snake_case,replace_contribs=replace_contrib_names,
+			 abstract_split=abstract_split) 
 
 		template = env.from_string(templateFile)
 
 
 	
 	
-	
+		print(item["DocCollection"])
+		print(item["Document_Collection"],"~", item["Document_Number"])
 	
 
 
@@ -101,7 +117,8 @@ def run_templater(inputFile, outputDir):#, templateFolder):
 
 		#for k, v in item.items():
 		#	print(k, type(k), v)
-		del item[None]
+		if None in item:
+			del item[None]
 
 		templatedText = template.render(item)
 		f = open(outputDir+key+".xml", 'w')

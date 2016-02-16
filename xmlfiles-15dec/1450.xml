@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1450">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Robert Anderson to Edward O&#39;Farrell, 9 May 1916.</title>
+                
+                <author>Robert Anderson</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="AaronHoey">AaronHoey</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Islander">Islander</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1450</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is a letter from Robert Anderson (b. 1860), the honourable secretary for the Irish Association of the Volunteers Training Corps, to Edward O&#39;Farrell (1857-1926), the assistant under-secretary for Ireland. This was an association which comprised of men who were over the age to actively engage in military service set up to have a home defence force to prevent a German invasion. The letter notes that the full number of special constables required for the Dublin Metropolitan Police in the aftermath of the Easter Rising has been acquired. Anderson also notes this information has been sent to the commissioner, with whom he has only had verbal contact. </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#National Archives of Ireland">National Archives of Ireland</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Edward_OFarrell">Edward O&#39;Farrell</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Robert_Anderson">Robert Anderson</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-08-06T15:05:17" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-08-06T15:05:17" who="#Islander">
+                
+                    Page 3739 modified:
+                    <!-- 
+Telephone-Dublin, 4772 IRISH ASSOCIATION OF VOLUNTEER TRAINING CORPS (Authorised by the Government as the recognised Central Body of all affiliated Volunteer Training Corps in Ireland.) <address>18 South Frederick Street, Dublin</address> <date>9th May 1916</date> <address>Chief Secretarys Office 8003- 11th May 1916</address> <salute>My dear O Farrell,</salute><salute>salute</salute> <p>Thanks for your letter of the 6th inst., which I have not had time to answer until now</p>. <p>We have secured the full number of Special Constables required by the D.M.P. , and a letter to this effect has been sent to the Commissioner with a request that their duty should be clearly defined and that written application for their services should be sent to us. So far, we have had nothing but verbal communications with the Commissioner.</p> <salute>Yours truly,</salute> R.A. Anderson  Hon. Secretary  Sir Edward O Farrell, C. B., Assistant Under Secretary DUBLIN CASTLE 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-26T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-27T15:14:24" who="#NR">
+                
+                    Page 3739 modified:
+                    <!-- 
+<hi rend="underline">Telephone-Dublin, 4772</hi><lb/> IRISH ASSOCIATION OF VOLUNTEER TRAINING CORPS.<lb/> (Authorised by the Government as the recognised Central Body of all affiliated <lb/> Volunteer Training Corps in Ireland.)<lb/> <address>18 South Frederick Street, <lb/> Dublin</address> <date>9th May 1916</date> <salute>My dear O Farrell,</salute> <p>Thanks for your letter of the 6th inst., which<lb/>  I have not had time to answer until now</p>. <p>We have secured the full number of Special<lb/>  Constables required by the D.M.P. , and a letter to this effect has<lb/> been sent to the Commissioner with a request that their duty should<lb/> be clearly defined and that written application for their services <lb/> should be sent to us. So far, we have had nothing but verbal<lb/> communications with the Commissioner.</p> <salute>Yours truly,</salute> R.A. Anderson<lb/> Hon. Secretary<lb/>  <address>Sir Edward O Farrell, C. B.,<lb/> Assistant Under Secretary<lb/> DUBLIN CASTLE</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3739 created using version from <date when="2014-08-06T15:05:17"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3739 removed (version from <date when="2014-08-06T15:05:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3739 removed (version from <date when="2015-11-27T15:14:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:11" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3739 (version from <date when="2015-11-27T15:14:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:19" who="#PythonScript">
+                
+                    Clean tags: Page 3739 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:36" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1450_img_3739" url="9a3455f0c69c43430fdb208fe3a3e604.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3739" facs="#L1916_1450_img_3739"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<hi rend="underline">Telephone-Dublin, 4772</hi><lb/> IRISH ASSOCIATION OF VOLUNTEER TRAINING CORPS.<lb/> (Authorised by the Government as the recognised Central Body of all affiliated <lb/> Volunteer Training Corps in Ireland.)<lb/> <opener><address><addrLine>18 South Frederick Street,</addrLine>
+<addrLine>Dublin</addrLine></address> <dateline><date>9th May 1916</date></dateline> <salute>My dear O Farrell,</salute></opener> <p>Thanks for your letter of the 6th inst., which<lb/>  I have not had time to answer until now</p>. <p>We have secured the full number of Special<lb/>  Constables required by the D.M.P. , and a letter to this effect has<lb/> been sent to the Commissioner with a request that their duty should<lb/> be clearly defined and that written application for their services <lb/> should be sent to us. So far, we have had nothing but verbal<lb/> communications with the Commissioner.</p> <closer><salute>Yours truly,</salute> R.A. Anderson<lb/> Hon. Secretary<lb/>  <address><addrLine>Sir Edward O Farrell, C. B.,</addrLine>
+<addrLine>Assistant Under Secretary</addrLine>
+<addrLine>DUBLIN CASTLE</addrLine></address></closer>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

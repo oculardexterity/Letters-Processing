@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1393">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Kate English to Patrick English in prison, 1916</title>
+                
+                <author>Kate English </author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Scribe57">Scribe57</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="AaronHoey">AaronHoey</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Annie">Annie</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1393</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This letter is from Kate English to her son Patrick. In this letter Kate informs Patrick that their family will be moving to the enclosed address as his sister, Nellie, has taken a big house for the family. In his application for a state pension, in recognition of his service, Patrick would later state that his family were evicted from their home in Dunsink as a result of his service during Easter Week.     Kate also informs Michael of the local news before ending the letter with the enclosure of a PO for one shilling so Patrick can buy some cigarettes.    This letter was written by Kate (b. 1855) to Patrick English (1894-1970) while he was interned. Patrick had been stationed in the G.P.O for the Rising. Following the surrender he was sent to Stafford Prison before being moved to Frongoch internment camp in Wales.                </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Private Collection, Patrick English"></repository>
+                        <collection type='private'>Private Collection, Patrick English</collection>
+                        
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Patrick_English">Patrick English</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Kate_English_">Kate English </persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-02-19T17:31:06" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-02-19T17:31:06" who="#Annie">
+                
+                    Page 3622 modified:
+                    <!-- 
+< /address> No 2 Ashtown Villa. <lb/> Blackhorse Lane, <lb/> Phoenix Park. </salute> My dear Patrick <lb/> I was delighted to get your <lb/> letter Saturday morning but <lb/> I am very disappointed you were <lb/> not here yourself but we cant help <lb/> You must only wait your turn <lb/> Mickey <gap/> arrived home on <lb/> Friday. I am leaving here <lb/> and going to live with Nellie<lb/> in the above address. She has <lb/> taken a big house so that <lb/>will be our home when you <lb/> <gap/> it is just at Smiths <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-19T20:11:36" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-02-19T20:11:36" who="#Annie">
+                
+                    Page 3623 modified:
+                    <!-- 
+the dairy people, so if you <lb/> get this letter before you come <lb/> I will be gone but I am not <lb/> sure what day I am going <lb/> yet I am delighted you are able <lb/> to get to mass every day <lb/> that alone will cheer you up <lb/> and when you are in the <lb/> best of health we have <lb/> a lot to be thankful for <lb/> but I trust in God you will <lb/> be home soon for I am dying <lb/> to see you once more <lb/> I am grand myself I feel <lb/> young again since the (mice ?? ) <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-19T20:35:47" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-02-19T20:35:47" who="#Annie">
+                
+                    Page 3624 modified:
+                    <!-- 
+weather has come in. All <lb/> the doolans looks fine <lb/> Poor Mikey is limping <lb/> still but he wont be long <lb/> until he is alright .I was <lb/> speaking to the Mc Nultys they <lb/><lb/> told me I won't know you <lb/> when you come home you <lb/> are quite a favourite <lb/> with all Jamesy  sends his <lb/> <lb/>best love and Marie Katie & Nellie <lb/> Frank they are delighted <lb/> with their new home it is <lb/> so convenient to everything <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-19T20:37:44" who="#Annie">
+                
+                    Page 3623 modified:
+                    <!-- 
+the dairy people, so if you <lb/> get this letter before you come <lb/> I will be gone but I am not <lb/> sure what day I am going <lb/> yet I am delighted you are able <lb/> to get to mass every day <lb/> that alone will cheer you up <lb/> and when you are in the <lb/> best of health we have <lb/> a lot to be thankful for <lb/> but I trust in God you will <lb/> be home soon for I am dying <lb/> to see you once more <lb/> I am grand myself I feel <lb/> young again since the nice <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-19T20:54:05" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-02-19T20:54:05" who="#Annie">
+                
+                    Page 3625 modified:
+                    <!-- 
+I think I will say no more <lb/> now only I hope by the <lb/> time this reaches you <lb/> you will be home here <lb/> if possible <lb/> but it could happen <lb/> Good Bye dear Son <lb/> write soon if you are <lb/> there with Love from <lb/> all your Fond Mother. <lb/> PS. Enclosed is a PO. for 1s. <lb/> to get cigarettes <lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-15T01:40:17" who="#Scribe57">
+                
+                    Page 3622 modified:
+                    <!-- 
+< /address> No 2 Ashtown Villa. <lb/> Blackhorse Lane, <lb/> Phoenix Park. </salute> My dear Patrick <lb/> I was delighted to get your <lb/> letter Saturday morning but <lb/> I am very disappointed you were <lb/> not here yourself but we cant help <lb/> You must only wait your turn <lb/> Mickey Dolan arrived home on <lb/> Friday. I am leaving here <lb/> and going to live with Nellie<lb/> in the above address. She has <lb/> taken a big house so that <lb/>will be our home when you <lb/> arrive, it is just at Smiths <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-26T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-27T16:10:24" who="#NR">
+                
+                    Page 3622 modified:
+                    <!-- 
+<address> No 2 Ashtown Villa. <lb/>  Blackhorse Lane, <lb/> <hi rend="underline">Phoenix Park.</hi>  </salute> My dear Patrick <lb/> <p> I was delighted to get your <lb/>  letter Saturday morning but <lb/>  I am very disappointed you were <lb/>  not here yourself but we cant help <lb/>  You must only wait your turn <lb/>  Mickey Dolan arrived home on <lb/>  Friday. I am leaving here <lb/>  and going to live with Nellie<lb/>  in the above address. She has <lb/>  taken a big house so that <lb/> will be our home when you <lb/> arrive, it is just at Smiths <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-27T16:10:57" who="#NR">
+                
+                    Page 3623 modified:
+                    <!-- 
+the dairy people, so if you <lb/>  get this letter before you come <lb/>  I will be gone but I am not <lb/> sure what day I am going <lb/>  yet I am delighted you are able <lb/>  to get to mass every day <lb/>  that alone will cheer you up <lb/>  and when you are in the <lb/>  best of health we have <lb/>  a lot to be thankful for <lb/>  but I trust in God you will <lb/>  be home soon for I am dying <lb/>  to see you once more <lb/>  I am grand myself I feel <lb/>  young again since the nice <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-27T16:12:34" who="#NR">
+                
+                    Page 3624 modified:
+                    <!-- 
+weather has come in. All <lb/>  the doolans looks fine <lb/>  Poor Mikey is limping <lb/>  still but he wont be long <lb/>  until he is alright. I was <lb/>  speaking to the Mc Nultys they <lb/> told me I won't know you <lb/>  when you come home you <lb/>  are quite <del>official</del> a favourite <lb/>  with all Jamesy  sends his <lb/> best love and Marie Katie &amp; Nellie <lb/>  Frank they are delighted <lb/>  with their new home it is <lb/>  so convenient to everything <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-27T16:12:35" who="#NR">
+                
+                    Page 3624 modified:
+                    <!-- 
+weather has come in. All <lb/>  the doolans looks fine <lb/>  Poor Mikey is limping <lb/>  still but he wont be long <lb/>  until he is alright. I was <lb/>  speaking to the Mc Nultys they <lb/> told me I won't know you <lb/>  when you come home you <lb/>  are quite <del>official</del> a favourite <lb/>  with all Jamesy  sends his <lb/> best love and Marie Katie &amp; Nellie <lb/>  Frank they are delighted <lb/>  with their new home it is <lb/>  so convenient to everything <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-27T16:12:51" who="#NR">
+                
+                    Page 3624 modified:
+                    <!-- 
+weather has come in. All <lb/>  the doolans looks fine <lb/>  Poor Mikey is limping <lb/>  still but he wont be long <lb/>  until he is alright. I was <lb/>  speaking to the Mc Nultys they <lb/> told me I won't know you <lb/>  when you come home you <lb/>  are quite <del>official</del> a favourite <lb/>  with all Jamesy  sends his <lb/> best love and Marie Katie &amp; Nellie <lb/>  Frank they are delighted <lb/>  with their new home it is <lb/>  so convenient to everything <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-27T16:13:11" who="#NR">
+                
+                    Page 3624 modified:
+                    <!-- 
+weather has come in. All <lb/>  the doolans looks fine <del>that</del><lb/>  Poor Mikey is limping <lb/>  still but he wont be long <lb/>  until he is alright. I was <lb/>  speaking to the Mc Nultys they <lb/> told me I won't know you <lb/>  when you come home you <lb/>  are quite <del>official</del> a favourite <lb/>  with all Jamesy  sends his <lb/> best love and Marie Katie &amp; Nellie <lb/>  Frank they are delighted <lb/>  with their new home it is <lb/>  so convenient to everything <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-27T16:14:26" who="#NR">
+                
+                    Page 3625 modified:
+                    <!-- 
+I think I will say no more <lb/>  now only I hope by the <lb/>  time this reaches you <lb/>  you will be home here <lb/>  if possible <lb/>  but it could happen.</p>  <salute>Good Bye dear Son <lb/>  write soon if you are <lb/>  there with Love from <lb/>  <hi rend="underline">all your Fond Mother</hi></salute>.  PS. Enclosed is a PO. for 1s. <lb/>  to get <hi rend="underline">cigarettes</hi> <lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3625 created using version from <date when="2015-02-19T20:54:05"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3625 removed (version from <date when="2015-02-19T20:54:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3625 removed (version from <date when="2015-11-27T16:14:26"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3622 created using version from <date when="2015-02-19T17:31:06"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3622 removed (version from <date when="2015-02-19T17:31:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3622 removed (version from <date when="2015-04-15T01:40:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3622 removed (version from <date when="2015-11-27T16:10:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3623 created using version from <date when="2015-02-19T20:11:36"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3623 removed (version from <date when="2015-02-19T20:11:36"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3623 removed (version from <date when="2015-02-19T20:37:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3623 removed (version from <date when="2015-11-27T16:10:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3624 created using version from <date when="2015-02-19T20:35:47"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3624 removed (version from <date when="2015-02-19T20:35:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3624 removed (version from <date when="2015-11-27T16:12:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3624 removed (version from <date when="2015-11-27T16:12:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3624 removed (version from <date when="2015-11-27T16:12:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3624 removed (version from <date when="2015-11-27T16:13:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3625 (version from <date when="2015-11-27T16:14:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3622 added to letter (version from <date when="2015-11-27T16:10:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:13" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3623 added to letter (version from <date when="2015-11-27T16:10:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3624 added to letter (version from <date when="2015-11-27T16:13:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 3624 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 3625 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 3622 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 3623 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:51" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1393_img_3622" url="25a5afd2625bbc6180bbc65337d80732.jpg"/> 
+    
+    <graphic xml:id="L1916_1393_img_3623" url="a6499a20bda7e8c936cb42e073a4c878.jpg"/> 
+    
+    <graphic xml:id="L1916_1393_img_3624" url="36d0c4d7c3ef7354d08ce7791a696a0b.jpg"/> 
+    
+    <graphic xml:id="L1916_1393_img_3625" url="090bea4b784aa2c812e3c64d2f33f7da.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3622" facs="#L1916_1393_img_3622"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<address> No 2 Ashtown Villa. <lb/>  Blackhorse Lane, <lb/> <hi rend="underline">Phoenix Park.</hi>  </salute> My dear Patrick <lb/> <p> I was delighted to get your <lb/>  letter Saturday morning but <lb/>  I am very disappointed you were <lb/>  not here yourself but we cant help <lb/>  You must only wait your turn <lb/>  Mickey Dolan arrived home on <lb/>  Friday. I am leaving here <lb/>  and going to live with Nellie<lb/>  in the above address. She has <lb/>  taken a big house so that <lb/> will be our home when you <lb/> arrive, it is just at Smiths <pb/>
+        
+    
+
+    
+         
+        <pb n="3623" facs="#L1916_1393_img_3623"/>
+        
+        
+           
+            the dairy people, so if you <lb/>  get this letter before you come <lb/>  I will be gone but I am not <lb/> sure what day I am going <lb/>  yet I am delighted you are able <lb/>  to get to mass every day <lb/>  that alone will cheer you up <lb/>  and when you are in the <lb/>  best of health we have <lb/>  a lot to be thankful for <lb/>  but I trust in God you will <lb/>  be home soon for I am dying <lb/>  to see you once more <lb/>  I am grand myself I feel <lb/>  young again since the nice <pb/>
+        
+    
+         
+        <pb n="3624" facs="#L1916_1393_img_3624"/>
+        
+        
+           
+            weather has come in. All <lb/>  the doolans looks fine <del>that</del><lb/>  Poor Mikey is limping <lb/>  still but he wont be long <lb/>  until he is alright. I was <lb/>  speaking to the Mc Nultys they <lb/> told me I won't know you <lb/>  when you come home you <lb/>  are quite <del>official</del> a favourite <lb/>  with all Jamesy  sends his <lb/> best love and Marie Katie &amp; Nellie <lb/>  Frank they are delighted <lb/>  with their new home it is <lb/>  so convenient to everything <pb/>
+        
+    
+         
+        <pb n="3625" facs="#L1916_1393_img_3625"/>
+        
+        
+           
+            I think I will say no more <lb/>  now only I hope by the <lb/>  time this reaches you <lb/>  you will be home here <lb/>  if possible <lb/>  but it could happen.</p>  <closer><salute>Good Bye dear Son <lb/>  write soon if you are <lb/>  there with Love from <lb/>  <hi rend="underline">all your Fond Mother</hi></salute></closer>.  PS. Enclosed is a PO. for 1s. <lb/>  to get <hi rend="underline">cigarettes</hi> <lb/>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

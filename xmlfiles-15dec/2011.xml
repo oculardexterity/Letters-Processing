@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2011">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Jeannie Adams to her sister Annie Adams, 27 April 1916</title>
+                
+                <author>Jeannie Adams</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Ollyo">Ollyo</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Johnthegeo">Johnthegeo</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2011</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>Letter from Jeannie Adams (d. 1936), to her sister Annie Adams (1889- 1966). In this letter Jeannie thanks Annie for her recent letter and card. She writes that she attended Church twice on Easter Sunday and thought of her brother &#39;Poor Johnnie&#39; who had been home &#39;this time last year&#39;.     Jeannie Adams, born Jane Adams, later emigrated to Auckland, New Zealand, where she died in 1936. During the Great War, her brother John Adams (1890-1971), served with the 9th (Service) Battalion, Royal Irish Fusiliers. He spent the winter of 1915-16 in the trenches near the Somme valley. John Adams was wounded two months before the Battle of the Somme and spent Christmas 1916 in a camp in Tipperary. After returning to the Western Front in early 1917, he was involved in the Battle of Messines and further fighting in Ypres (Passchendaele). He was seriously wounded in October 1918, a few weeks before the end of the war.    </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Adams Family Collection">Adams Family Collection</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Annie_Adams">Annie Adams</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Jeannie_Adams">Jeannie Adams</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-07-06T21:27:03" who="#Johnthegeo">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-07-06T21:27:03" who="#Ollyo">
+                
+                    Page 5033 modified:
+                    <!-- 
+<address>Church Hill<lb/>Hollywood<lb/>Co. Down</address><lb/><date>27 April 1916</date><lb/><lb/> <salute>My Dear Annie</salute><lb/> <p>thanks very much for letter and card, which I got alright <lb/>I hope you are all quite well.  I suppose Easter was very quiet <lb/>well I was at Church twice on Sunday the Soldiers were at <lb/>the morning service there was a good many I was thinking <lb/>of Poor Johnnie he was here this time last year.  I saw <lb/>Cissie Crozier and Annie and Sara on Saturday night <lb/>the asked me down to Annie on Monday, so Sara came <lb/>up for me in the afternoon and we went down round the <lb/>shore the tide was full in and it was lovely.  Leonard Brown <lb/>was down he isn't bad wee chap at all  I was talking <lb/>to him a good while he was telling me all the news about <lb/>home he says his Father is very ill he was in a bad way <lb/>about him he said he wanted Jimmie and Davie Crozier <lb/>to come with him  I wish Jimmie had come they all went. <lb/>up to town about five they wanted me to go with them but I <lb/>did not go.  I wonder did he get home.  Sometimes the  <lb/>Crozier are not bad.  they always ask me to go with them <lb/>if the are for minnie or anywhere  </p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-07-06T21:38:10" who="#Ollyo">
+                
+                    Page 5033 modified:
+                    <!-- 
+<address>Church Hill<lb/>Hollywood<lb/>Co. Down</address><lb/><date>27 April 1916</date><lb/><lb/> <salute>My Dear Annie</salute><lb/> <p>thanks very much for letter and card, which I got alright <lb/>I hope you are all quite well.  I suppose Easter was very quiet <lb/>well I was at Church twice on Sunday the Soldiers were at <lb/>the morning service there was a good many I was thinking <lb/>of Poor Johnnie he was here this time last year.  I saw <lb/>Cissie Crozier and Annie and Sara on Saturday night <lb/>the asked me down to Annie on Monday, so Sara came <lb/>up for me in the afternoon and we went down round the <lb/>shore the tide was full in and it was lovely.  Leonard Brown <lb/>was down he isn't bad wee chap at all  I was talking <lb/>to him a good while he was telling me all the news about <lb/>home he says his Father is very ill he was in a bad way <lb/>about him he said he wanted Jimmie and Davie Crozier <lb/>to come with him  I wish Jimmie had come they all went. <lb/>up to town about five they wanted me to go with them but I <lb/>did not go.  I wonder did he get home.  Sometimes the  <lb/>Crozier are not bad.  they always ask me to go with them <lb/>if the are for minnie or anywhere  </p>  <!~~ Text below written across top of page ~~><lb/> <p>I think this is near about <lb/>all as its near bed time <lb/>I hope you will write me <lb/>a good long letter soon has Jimmie <lb/>the potatoes all in <lb/>yet.  The weather has been <lb/>nice this last few days <lb/>was Thomas Moffatt home at <lb/>Easter I don’t think any <lb/>of the boy got any leave <lb/>the might later on.</p><lb/> <p>Write soon give my love <lb/>to all   I remain your <lb/>Loving Sister Jeannie<lb/> Write soon</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T11:01:50" who="#NR">
+                
+                    Page 5033 modified:
+                    <!-- 
+<address>Church Hill<lb/> Hollywood<lb/> Co. Down</address> <date>27 April 1916</date> <salute>My Dear Annie</salute> <p>thanks very much for letter and card, which I got alright <lb/> I hope you are all quite well.  I suppose Easter was very quiet <lb/> well I was at Church twice on Sunday the Soldiers were at <lb/> the morning service there was a good many I was thinking <lb/> of Poor Johnnie he was here this time last year.  I saw <lb/> Cissie Crozier and Annie and Sara on Saturday night <lb/> the asked me down to Annie on Monday, so Sara came <lb/> up for me in the afternoon and we went down round the <lb/> shore the tide was full in and it was lovely.  Leonard Brown <lb/> was down he isn't bad wee chap at all  I was talking <lb/> to him a good while he was telling me all the news about <lb/> home he says his Father is very ill he was in a bad way <lb/> about him he said he wanted Jimmie and Davie Crozier <lb/> to come with him  I wish Jimmie had come they all went. <lb/> up to town about five they wanted me to go with them but I <lb/> did not go.  I wonder did he get home.  Sometimes the  <lb/> Crozier are not bad.  they always ask me to go with them <lb/>if the are for minnie or anywhere <pb/>  I think this is near about <lb/> all as its near bed time <lb/> I hope you will write me <lb/> a good long letter soon has Jimmie <lb/> the potatoes all in <lb/> yet.  The weather has been <lb/> nice this last few days <lb/> was Thomas Moffatt home at <lb/> Easter I don’t think any <lb/> of the boy got any leave <lb/> the might later on.</p> <p>Write soon give my love <lb/> to all <salute> I remain your <lb/> Loving Sister </salute>Jeannie<lb/> Write soon</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:07" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5033 created using version from <date when="2015-07-06T21:27:03"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:07" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5033 removed (version from <date when="2015-07-06T21:27:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:07" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5033 removed (version from <date when="2015-07-06T21:38:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:07" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5033 removed (version from <date when="2015-11-20T11:01:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 5033 (version from <date when="2015-11-20T11:01:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 5033 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:46" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2011_img_5033" url="6beec39d08bcb18b0888bae628c3fdb2.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="5033" facs="#L1916_2011_img_5033"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>Church Hill</addrLine>
+<addrLine>Hollywood</addrLine>
+<addrLine>Co. Down</addrLine></address> <dateline><date>27 April 1916</date></dateline> <salute>My Dear Annie</salute></opener> <p>thanks very much for letter and card, which I got alright <lb/> I hope you are all quite well.  I suppose Easter was very quiet <lb/> well I was at Church twice on Sunday the Soldiers were at <lb/> the morning service there was a good many I was thinking <lb/> of Poor Johnnie he was here this time last year.  I saw <lb/> Cissie Crozier and Annie and Sara on Saturday night <lb/> the asked me down to Annie on Monday, so Sara came <lb/> up for me in the afternoon and we went down round the <lb/> shore the tide was full in and it was lovely.  Leonard Brown <lb/> was down he isn't bad wee chap at all  I was talking <lb/> to him a good while he was telling me all the news about <lb/> home he says his Father is very ill he was in a bad way <lb/> about him he said he wanted Jimmie and Davie Crozier <lb/> to come with him  I wish Jimmie had come they all went. <lb/> up to town about five they wanted me to go with them but I <lb/> did not go.  I wonder did he get home.  Sometimes the  <lb/> Crozier are not bad.  they always ask me to go with them <lb/>if the are for minnie or anywhere <pb/>  I think this is near about <lb/> all as its near bed time <lb/> I hope you will write me <lb/> a good long letter soon has Jimmie <lb/> the potatoes all in <lb/> yet.  The weather has been <lb/> nice this last few days <lb/> was Thomas Moffatt home at <lb/> Easter I don’t think any <lb/> of the boy got any leave <lb/> the might later on.</p> <p>Write soon give my love <lb/> to all <closer><salute> I remain your <lb/> Loving Sister </salute></closer>Jeannie<lb/> Write soon</p>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

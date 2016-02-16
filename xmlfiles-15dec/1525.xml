@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1525">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Agnes Halton to Herbert Henry Asquith, 28 April 1916.</title>
+                
+                <author>Agnes Halton</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="AaronHoey">AaronHoey</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1525</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This is a letter from Agnes Halton in the US to Herbert Henry Asquith (1852-1928), British prime minister. Asquith, a Liberal MP, served as prime minister from 1908 until his resignation in December 1916. .  He was one of the longest continuously serving prime minister in the 20th century. In the letter, Halton states that she does not wish to be a traitor to her religion, but that the real allies to Germany are the Irish Catholic Clergy. She states that, if necessary she can provide names. Halton goes on to say that she wishes that the guilty are punished, but states that not all Irish are guilty, and that some are like John Redmond (1856-1918) and T. P. O&#39;Connor (1848-1929), Home Rulers. She warns that it must be followed up on as Irishmen will not betray their priest.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#National Archives of Ireland">National Archives of Ireland</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Herbert_Henry_Asquith">Herbert Henry Asquith</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Agnes_Halton">Agnes Halton</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-11-06T13:15:20" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-06T13:15:20" who="#Philcostel">
+                
+                    Page 3897 modified:
+                    <!-- 
+1218 Arch St North Pittsburg U.S.A. April 28 1916 Mr Asquith Prime Minister Dear Sir At the expense of being considered a traitor to my church I must tell you that the real allies of the Germans and the ring leaders of this revolt are certain Irish Roman Catholic priests - I have been shocked at the hatred of England expressed by them. If necessary I can give names and occasions where these expressions have been made I assure you Sir that this is in no spirit of revenge nor for any gain except my love of England and my wish to see the guilty punished in Ireland for not all are guilty in Ireland for there are many as true as TP O'Connor or John Redmond himself. You may be inclined to ignore this warning coming from an unknown source but it is a clue and I implore you to heed it. I know the task is hard as the Irish are like the French 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-06T13:25:27" who="#Philcostel">
+                
+                    Page 3897 modified:
+                    <!-- 
+1218 Arch St North Pittsburg U.S.A. April 28 1916 Mr Asquith Prime Minister Dear Sir At the expense of being considered a traitor to my church I must tell you that the real allies of the Germans and the ring leaders of this revolt are certain Irish Roman Catholic priests - I have been shocked at the hatred of England expressed by them. If necessary I can give names and occasions where these expressions have been made I assure you Sir that this is in no spirit of revenge nor for any gain except my love of England and my wish to see the guilty punished in Ireland for not all are guilty in Ireland for there are many as true as TP O'Connor or John Redmond himself. You may be inclined to ignore this warning coming from an unknown source but it is a clue and I implore you to heed it. I know the task is hard as the Irish are like the French Érucius for good or evil but no Irishman will betray his priest That your investigator must find out Sir I beg your pardon for addressing you I had thought to write the consul here but that would have caused delay My excuse is England in trouble for whom my life or work is freely given I have the honor to be your most humble servany Agnes Halton 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-06T13:26:22" who="#Philcostel">
+                
+                    Page 3897 modified:
+                    <!-- 
+1218 Arch St North Pittsburg U.S.A. April 28 1916 Mr Asquith Prime Minister Dear Sir At the expense of being considered a traitor to my church I must tell you that the real allies of the Germans and the ring leaders of this revolt are certain Irish Roman Catholic priests - I have been shocked at the hatred of England expressed by them. If necessary I can give names and occasions where these expressions have been made I assure you Sir that this is in no spirit of revenge nor for any gain except my love of England and my wish to see the guilty punished in Ireland for not all are guilty in Ireland for there are many as true as TP O'Connor or John Redmond himself. You may be inclined to ignore this warning coming from an unknown source but it is a clue and I implore you to heed it. I know the task is hard as the Irish are like the French Érucius for good or evil but no Irishman will betray his priest That your investigator must find out Sir I beg your pardon for addressing you I had thought to write the consul here but that would have caused delay My excuse is England in trouble for whom my life or work is freely given I have the <sic>honor</sic> to be your most humble servant Agnes Halton 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-26T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-27T12:40:09" who="#NR">
+                
+                    Page 3897 modified:
+                    <!-- 
+<date>1218 Arch St North Pittsburg U.S.A</date>. <date>April 28 1916</date> <address>Mr Asquith Prime Minister</address> <salute>Dear Sir</salute> <p>At the expense of being considered a traitor to my church<lb/>  I must tell you that the real allies of the Germans and<lb/>  the ring leaders of this revolt are certain Irish Roman<lb/>  Catholic priests - I have been shocked at the hatred <add>of England expressed</add><lb/>  by them. If necessary I can give names and<lb/>  occasions where these expressions have been made<lb/> I assure you Sir that this is in no spirit of revenge<lb/>  nor for any gain except my love of England<lb/>  and my wish to see the guilty punished in Ireland<lb/>  for not all are guilty in Ireland for there are<lb/>  many as true as TP O'Connor or John Redmond<lb/>  himself. You may be inclined to ignore this<lb/>  warning coming from an unknown source but it is a<lb/>  clue and I implore you to heed it. I know the task<lb/>  is hard as the Irish are like the French Érucius<lb/>  for good or evil but no Irishman will betray<lb/>  his priest That your investigator must find out<lb/> Sir I beg your pardon for addressing you I had<lb/>  thought to write the consul here but that would have<lb/>  caused delay My excuse is England in trouble <lb/> for whom my life or work is freely given</p> <salute>I have the <sic>honor</sic> to be your most humble servant</salute> Agnes Halton 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3897 created using version from <date when="2014-11-06T13:15:20"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3897 removed (version from <date when="2014-11-06T13:15:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3897 removed (version from <date when="2014-11-06T13:25:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3897 removed (version from <date when="2014-11-06T13:26:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3897 removed (version from <date when="2015-11-27T12:40:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:11" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3897 (version from <date when="2015-11-27T12:40:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:20" who="#PythonScript">
+                
+                    Clean tags: Page 3897 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:45" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1525_img_3897" url="50c92397059d3db119fe3ac9bf9d9960.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3897" facs="#L1916_1525_img_3897"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><dateline><date>1218 Arch St North Pittsburg U.S.A</date></dateline>. <dateline><date>April 28 1916</date></dateline> <address><addrLine>Mr Asquith Prime Minister</addrLine></address> <salute>Dear Sir</salute></opener> <p>At the expense of being considered a traitor to my church<lb/>  I must tell you that the real allies of the Germans and<lb/>  the ring leaders of this revolt are certain Irish Roman<lb/>  Catholic priests - I have been shocked at the hatred <add>of England expressed</add><lb/>  by them. If necessary I can give names and<lb/>  occasions where these expressions have been made<lb/> I assure you Sir that this is in no spirit of revenge<lb/>  nor for any gain except my love of England<lb/>  and my wish to see the guilty punished in Ireland<lb/>  for not all are guilty in Ireland for there are<lb/>  many as true as TP O'Connor or John Redmond<lb/>  himself. You may be inclined to ignore this<lb/>  warning coming from an unknown source but it is a<lb/>  clue and I implore you to heed it. I know the task<lb/>  is hard as the Irish are like the French Érucius<lb/>  for good or evil but no Irishman will betray<lb/>  his priest That your investigator must find out<lb/> Sir I beg your pardon for addressing you I had<lb/>  thought to write the consul here but that would have<lb/>  caused delay My excuse is England in trouble <lb/> for whom my life or work is freely given</p> <closer><salute>I have the <sic>honor</sic> to be your most humble servant</salute></closer> Agnes Halton
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

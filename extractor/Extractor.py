@@ -26,14 +26,14 @@ class RemovePageDuplicates(Processor):
 		if old['Translation_Timestamp'] >= new['Translation_Timestamp']:
 			#print('old')
 			letter = old
-			letter["Contributor_List"] + [new["Contributor"], new["RevisorID"]]
+			letter["Contributor_List"] + [new["Contributor"], new["revID"]]
 			letter["Contributor_List"] = list(set(letter["Contributor_List"]))
 			#print(letter["Contributor_List"])
 			edit_per = {'datetime': str(new["Translation_Timestamp"]).replace(" ","T"), 
 					'Omeka_RevisionPageNo': new["Page"], 
 					"Omeka_Translation": commentise(new["Translation"]),  
 					'editType': 'Revision in Omeka', 
-					'editor': new["RevisorID"] 
+					'editor': new["revID"] 
 				}
 			edit_py = {
 					'Duplicate_pageTimestamp': str(new["Translation_Timestamp"]).replace(" ","T"),
@@ -48,13 +48,13 @@ class RemovePageDuplicates(Processor):
 		elif new['Translation_Timestamp'] >= old['Translation_Timestamp']:
 			#print('new')
 			letter = new
-			letter["Contributor_List"] = list(set(old["Contributor_List"] + [new["Contributor"], new["RevisorID"]]))
+			letter["Contributor_List"] = list(set(old["Contributor_List"] + [new["Contributor"], new["revID"]]))
 			#print(letter["Contributor_List"])
 			edit_per = {'datetime': str(old["Translation_Timestamp"]).replace(" ","T"), 
 					'Omeka_RevisionPageNo': old["Page"], 
 					"Omeka_Translation": commentise(old["Translation"]),  
 					'editType': 'Revision in Omeka', 
-					'editor': old["RevisorID"] 
+					'editor': old["revID"] 
 				}
 			edit_py = {
 					'Duplicate_pageTimestamp': str(old["Translation_Timestamp"]).replace(" ","T"),
@@ -69,7 +69,7 @@ class RemovePageDuplicates(Processor):
 	#@editLogger('New page instance created', 'PythonScript')
 	def pageDuplicatesTransform(self, field):
 		print('Extracting from spreadsheet, new, page: ', field["Page"], " Letter: ", field["Letter"])
-		field["Contributor_List"] = [field["Contributor"], field["RevisorID"]]
+		field["Contributor_List"] = [field["Contributor"], field["revID"]]
 		#print(field["Contributor_List"])
 		edit_py = {
 					'New_pageTimestamp': str(field["Translation_Timestamp"]).replace(" ","T"),

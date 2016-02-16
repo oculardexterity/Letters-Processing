@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1992">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Eileen McGowan to Florence, 26 May 1916</title>
+                
+                <author>Eileen Ellen McGowan (née O&#39;Donovan Rossa)</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="WB">William Buck</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Scribe57">Scribe57</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Rosie17">Rosie17</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="LauraKeegan">LauraKeegan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Lizlinkz">Lizlinkz</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1992</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>This letter, addressed to Florence, was written by Eileen McGowan (née O’Donovan Rossa), (1878 – 1963). Eileen offers to help Florence anytime she may require it, especially after all that Florence and many others in Dublin did last summer. She writes that the suffering in Ireland must be dreadful and that she would have sent money with the letter only for she had read that the British confiscate money sent in letters.    Eileen was one of eighteen children of the Fenian leader Jeremiah O’Donovan Rossa (1831 – 1915). O’Donovan Rossa was an active figure in Irish politics from 1856 until 1906, until he immigrated to New York where he eventually passed away.   </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#Allen Library">Allen Library</repository>
+                        <!-- 
+                        -->
+                            
+                            
+                        <idno>MISSING</idno>
+
+                           
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Florence">Florence</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Eileen_Ellen_McGowan_(née_ODonovan_Rossa)">Eileen Ellen McGowan (née O&#39;Donovan Rossa)</persName>
+                    
+                    
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-03-12T12:45:59" who="#WB">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-03-12T12:45:59" who="#LauraKeegan">
+                
+                    Page 4978 modified:
+                    <!-- 
+5 Avietta St, <address>address</address>  Dear Florence: Thanks for your prompt acknowledgement and I am very glad that our good friend, Miss Murphy was able to assist you. What kind of work are you doing? Rikers and Hegamans is a good reliable firm and there <unclear>questionable reading</unclear> chances for promotion. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-03-12T13:02:00" who="#WB">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-03-12T13:02:00" who="#LauraKeegan">
+                
+                    Page 4979 modified:
+                    <!-- 
+Don't hesitate to write to me anytime that I can be of service to you.  It was a small thing for me to do in comparison with what you and many others in Dublin did for us last summer. The suffering in Ireland must be dreadful.  I read in one of the papers that the English government will confiscate money sent across in letters so it is useless to try and help anyone.  I wish your little family would set a day for a visit to me; any Saturday or Sunday afternoon will suit me. Best wishes to your mother, Sincerely yours, Eileen McGowan (Eileen O'Donavan Rossa) 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-03-12T13:05:18" who="#LauraKeegan">
+                
+                    Page 4978 modified:
+                    <!-- 
+5 Arrietta St, <gap/> May 26th-1916  Dear Florence: Thanks for your prompt acknowledgement and I am very glad that our good friend, Miss Murphy was able to assist you. What kind of work are you doing? Rikers and Hegamans is a good reliable firm and there should be chances for promotion. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-03-12T17:07:40" who="#Rosie17">
+                
+                    Page 4978 modified:
+                    <!-- 
+<address>5 Arrietta St, <gap/></address> <date>May 26t<hi rend="superscript">h</hi>-1916 </date> <salute>Dear Florence:</salute> Thanks for you<lb/>r prompt acknowledgement and<lb/> I am very glad that our<lb/> good friend, Miss Murphy,<lb/> was able to assist you.<p>paragraph</p> <p>paragraph</p>What kind of work<lb/> are you doing? Rikers<lb/> and Hegamans is a good<lb/> reliable firm and there<lb/> should be chances for promotion.<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-03-12T17:10:39" who="#Rosie17">
+                
+                    Page 4979 modified:
+                    <!-- 
+Don't hesitate to write to me anytime<lb/> that I can be of service to you.  It<lb/> was a small thing for me to do in<lb/> comparison with what you ,and<lb/> many others in Dublin did for<lb/> us last summer<p>.</p> <p>paragraph</p>The suffering in Ireland must<lb/> be dreadful.  I read in one o<lb/>f the papers that the English government<lb/> will confiscate money sent across<lb/> in letters so it is useless to<lb/> try and help anyone.<p>paragraph</p> <p>paragraph</p> I wish your little family<lb/> would set a day for a visit<lb/> to me; any Saturday or Sunday <lb/>afternoon will suit me.<p>paragraph</p> Best wishes to your mother,<lb/> <salute>Sincerely yours, Eileen McGowan</salute> <note>(Eileen O'Donovan Rossa)</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-08T15:02:23" who="#Scribe57">
+                
+                    Page 4978 modified:
+                    <!-- 
+<address>5 Arrietta St, <gap/> N.Y</address><lb/> <date>May 26t<hi rend="superscript">h</hi>-1916 </date> <salute>Dear Florence:</salute> Thanks for your<lb/> prompt acknowledgement and<lb/> I am very glad that our<lb/> good friend, Miss Murphy,<lb/> was able to assist you.<p>paragraph</p> <p>paragraph</p>What kind of work<lb/> are you doing? Rikers<lb/> and Hegamans is a good<lb/> reliable firm and there<lb/> should be chances for promotion.<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-08T15:05:28" who="#Scribe57">
+                
+                    Page 4979 modified:
+                    <!-- 
+Don't hesitate to write to me anytime<lb/> that I can be of service to you.  It<lb/> was a small thing for me to do in<lb/> comparison with what you ,and<lb/> many others in Dublin did for<lb/> us last summer<p>.</p> <p>paragraph</p>The suffering in Ireland must<lb/> be dreadful.  I read in one of <lb/> the papers that the English government<lb/> will confiscate money sent across<lb/> in letters so it is useless to<lb/> try and help anyone.<p>paragraph</p> <p>paragraph</p> I wish your little family<lb/> would set a day for a visit<lb/> to me; any Saturday or Sunday <lb/>afternoon will suit me.<p>paragraph</p> Best wishes to your mother,<lb/> <salute>Sincerely yours, Eileen McGowan</salute> <note>(Eileen O'Donovan Rossa)</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-09T18:29:15" who="#Lizlinkz">
+                
+                    Page 4978 modified:
+                    <!-- 
+Reference number. IE/AL/ODR/1/15 <address>5 Arrietta St, Tompkinsville,, <gap/> N.Y.</address><lb/> <date>May 26th<hi rend="superscript">h</hi>-1916 </date> <salute>Dear Florence:</salute> Thanks for your<lb/> prompt acknowledgement and<lb/> I am very glad that our<lb/> good friend, Miss Murphy,<lb/> was able to assist you.<p>paragraph</p> <p>paragraph</p>What kind of work<lb/> are you doing? Rikers<lb/> and Hegamans is a good<lb/> reliable firm and there<lb/> should be chances for promotion.<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-09T18:36:10" who="#Lizlinkz">
+                
+                    Page 4979 modified:
+                    <!-- 
+Don't hesitate to write to me anytime<lb/> that I can be of service to you.  It<lb/> was a small thing for me to do in<lb/> comparison with what you, and<lb/> many others in Dublin did for<lb/> us last summer.<p>.</p> <p>paragraph</p>The suffering in Ireland must<lb/> be dreadful.  I read in one of <lb/> the papers that the English government<lb/> will confiscate money sent across<lb/> in letters so it is useless to<lb/> try to help anyone.<p>paragraph</p> <p>paragraph</p> I wish your little family<lb/> would set a day for a visit<lb/> to me; any Saturday or Sunday <lb/>afternoon will suit me.<p>paragraph</p> Best wishes to your mother,<lb/> <salute>Sincerely yours, Eileen McGowan</salute> <note>(Eileen O'Donovan Rossa)</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T11:26:32" who="#NR">
+                
+                    Page 4978 modified:
+                    <!-- 
+<address>5 Arrietta St,<lb/> Tompkinsville, N.Y.</address> <date>May 26th<hi rend="superscript">h</hi>-1916</date> <salute>Dear Florence:-</salute> <p>Thanks for your<lb/>  prompt acknowledgement and<lb/>  I am very glad that our<lb/>  good friend, Miss Murphy,<lb/>  was able to assist you.</p> <p>What kind of work<lb/>  are you doing? Rikers<lb/>  and Hegamans is a good<lb/>  reliable firm and there<lb/>  should be chances for promotion.<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-20T11:32:18" who="#NR">
+                
+                    Page 4979 modified:
+                    <!-- 
+Don't hesitate to write to me anytime<lb/>  that I can be of service to you.  It<lb/>  was a small thing for me to do in<lb/>  comparison with what you, and<lb/>  many others in Dublin did for<lb/>  us last summer.</p> <p>The suffering in Ireland must<lb/>  be dreadful.  I read in one of <lb/>  the papers that the English government<lb/>  will confiscate money sent across<lb/>  in letters so it is useless to<lb/>  try to help anyone.</p>  <p> I wish your little family<lb/>  would set a day for a visit<lb/>  to me; any Saturday or Sunday <lb/> afternoon will suit me.</p> <salute>Best wishes to your mother,<lb/> Sincerely yours,</salute> Eileen McGowan <note>(Eileen O'Donovan Rossa)</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4979 created using version from <date when="2015-03-12T13:02:00"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4979 removed (version from <date when="2015-03-12T13:02:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4979 removed (version from <date when="2015-03-12T17:10:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4979 removed (version from <date when="2015-04-08T15:05:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4979 removed (version from <date when="2015-04-09T18:36:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4979 removed (version from <date when="2015-11-20T11:32:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 4978 created using version from <date when="2015-03-12T12:45:59"/>
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4978 removed (version from <date when="2015-03-12T12:45:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4978 removed (version from <date when="2015-03-12T13:05:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4978 removed (version from <date when="2015-03-12T17:07:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4978 removed (version from <date when="2015-04-08T15:02:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4978 removed (version from <date when="2015-04-09T18:29:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:06" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 4978 removed (version from <date when="2015-11-20T11:26:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:12" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 4979 (version from <date when="2015-11-20T11:32:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:14" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 4978 added to letter (version from <date when="2015-11-20T11:26:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:16" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 4978 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:21" who="#PythonScript">
+                
+                    Clean tags: Page 4979 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:22" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:23" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2015-12-15T10:10:51" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1992_img_4978" url="e835ad8875624ae69ab47f395b25f113.jpg"/> 
+    
+    <graphic xml:id="L1916_1992_img_4979" url="9f2a7de0907521d81c832b5b14159910.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="4978" facs="#L1916_1992_img_4978"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>5 Arrietta St,</addrLine>
+<addrLine>Tompkinsville, N.Y.</addrLine></address> <dateline><date>May 26th<hi rend="superscript">h</hi>-1916</date></dateline> <salute>Dear Florence:-</salute></opener> <p>Thanks for your<lb/>  prompt acknowledgement and<lb/>  I am very glad that our<lb/>  good friend, Miss Murphy,<lb/>  was able to assist you.</p> <p>What kind of work<lb/>  are you doing? Rikers<lb/>  and Hegamans is a good<lb/>  reliable firm and there<lb/>  should be chances for promotion.<pb/>
+        
+    
+
+    
+         
+        <pb n="4979" facs="#L1916_1992_img_4979"/>
+        
+        
+           
+            Don't hesitate to write to me anytime<lb/>  that I can be of service to you.  It<lb/>  was a small thing for me to do in<lb/>  comparison with what you, and<lb/>  many others in Dublin did for<lb/>  us last summer.</p> <p>The suffering in Ireland must<lb/>  be dreadful.  I read in one of <lb/>  the papers that the English government<lb/>  will confiscate money sent across<lb/>  in letters so it is useless to<lb/>  try to help anyone.</p>  <p> I wish your little family<lb/>  would set a day for a visit<lb/>  to me; any Saturday or Sunday <lb/> afternoon will suit me.</p> <closer><salute>Best wishes to your mother,<lb/> Sincerely yours,</salute></closer> Eileen McGowan <note>(Eileen O'Donovan Rossa)</note>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

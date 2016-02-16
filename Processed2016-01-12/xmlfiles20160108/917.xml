@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_917">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Hugh A. Law to Miss Griffin, 31 May 1916.</title>
+                
+                <author>Hugh A. Law</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_917</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>A letter from Hugh Law (1872-1943) to a Miss Griffin. Law is responding to a letter written by a Miss Griffin on behalf of Desmond Fitzgerald (1888-1947). Mr. Law agrees that Fitzgerald's sentence is very severe but that there is very little chance of getting sentences revised yet. He does think that later it should be possible to do something - at least for those who hadn't taken an active part. He will discuss it with his colleagues in London next month. He concludes by mentioning that all of his children are well, including his son who has spent nearly a year on the French front.</p>
+                        
+                            <p>Hugh Law was an Irish nationalist MP representing County Donegal in the British House of Commons from 1902 to 1918, and subsequently served as a TD in Dáil Éireann. Desmond Fitzgerald had served in the GPO during the Easter Rising, being placed in charge of the garrison's food supply. He initially escaped arrest after the Rising but was soon rounded up and imprisoned in Mountjoy, Dartmoor, Maidstone, Lewes and Portland.</p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                                Original DCN: Fitzgerald Papers, P80/1595/1
+                             
+                        -->
+                            
+                                <collection type='public'>Fitzgerald Papers</collection>
+                            
+                            
+                        <idno>P80/1595/1</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Miss_Griffin">Miss Griffin</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Hugh_A._Law">Hugh A. Law</persName>
+                    
+                     
+                    <placeName ref="#Ballymore,_Co._Donegal,_Ireland.">Ballymore, Co. Donegal, Ireland.</placeName>
+                    
+                    
+                    <date when="1916-05-31">31 May 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1943</item>
+                        
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                            <item n="tag">World War 1: 1914-1918</item>
+                            
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-03-26T10:36:46" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-03-26T10:36:46" who="#Philcostel">
+                
+                    Page 2343 modified:
+                    <!-- 
+<gap/> Ballymore Co.Donegal 31 May 1916. Dear Miss Griffin I have had the statement you sent me with regard to Mr.Desmond Fitzgerald, The sentence in his case certainly seems to be very severe. I am afraid there is not very much chance of getting such sentences revised just at present 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-03-26T10:41:10" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-03-26T10:41:10" who="#Philcostel">
+                
+                    Page 2344 modified:
+                    <!-- 
+while Martial Law is still in force & feeling is still naturally strong against the rebels. But a little later on we may be able to do something at any rate on behalf of those who did not take an active part in the insurrection. Anyway I'll keep the matter in mind & consult with my colleagues on my return to London early next month (June) 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-03-26T10:42:31" who="#Philcostel">
+                
+                    Page 2344 modified:
+                    <!-- 
+while Martial Law is still in force & feeling is still naturally strong against the rebels. But a little later on we may be able to do something at any rate on behalf of those who did not take an active part in the insurrection. Anyway I'll keep the matter in mind & consult with my colleagues on my return to London early next month (June). <del>deleted text</del> Mrs.Law 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-03-26T10:45:53" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-03-26T10:45:53" who="#Philcostel">
+                
+                    Page 2345 modified:
+                    <!-- 
+desires to be remembered to you. All the children as well, including our boy who has been at the French front for nearly a year with the Irish Guards. Very sincerely yours Hugh A.Law 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-18T15:12:46" who="#Comber">
+                
+                    Page 2343 modified:
+                    <!-- 
+<note>p80/1595</note> <address><gap/> Ballymore Co.Donegal</address> <date><hi rend="underline">31 May 1916.</hi></date> <salute>Dear Miss Griffin</salute> <p>I have had the<lb/> statement you sent me with<lb/> regard to Mr.Desmond Fitzgerald.</p> The sentence in his case<lb/> certainly seems to be very severe.<lb/> I am afraid there is not<lb/> much chance of getting such<lb/> sentences revised just at present<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-18T15:16:15" who="#Comber">
+                
+                    Page 2344 modified:
+                    <!-- 
+<pb/>while Martial Law is still in<lb/> force &amp; feeling is still naturally<lb/> strong against the rebels.<lb/> <p>But a little later on<lb/> we may be able to do something<lb/> at any rate on behalf of those<lb/> who did not take an active<lb/> part in the insurrection.</p> <p>Anyway I'll keep the matter<lb/> in mind &amp; consult with my<lb/> colleagues on my return to London<lb/> early next month (June).</p> <del>deleted text</del> <unclear>questionable reading</unclear>.Law 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-05T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T18:08:43" who="#NR">
+                
+                    Page 2343 modified:
+                    <!-- 
+ <address><unclear>Marchhouse</unclear> Ballymore Co.Donegal</address> <date><hi rend="underline">31 May 1916.</hi></date> <salute>Dear Miss Griffin</salute> <p>I have had the <lb/> statement you sent me with <lb/> regard to Mr.Desmond Fitzgerald.</p> <p>The sentence in his case <lb/> certainly seems to be very severe. <lb/> I am afraid there is not <lb/> much chance of getting such <lb/> sentences revised just at present 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T18:10:12" who="#NR">
+                
+                    Page 2344 modified:
+                    <!-- 
+<lb/>while Martial Law is still in <lb/> force &amp; feeling is still naturally <lb/> strong against the rebels.</p> <p>But a little later on <lb/> we may be able to do something <lb/> at any rate on behalf of those <lb/> who did not take an active <lb/> part in the insurrection.</p> <p>Anyway I'll keep the matter <lb/> in mind &amp; consult with my <lb/> colleagues on my return to London <lb/> early next month (June).</p> <del>My then</del> <unclear Mrs </unclear>.Law 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T18:12:11" who="#NR">
+                
+                    Page 2345 modified:
+                    <!-- 
+<lb/>desires to be remembered to you.</p> <p>All the children as well, <lb/> including our boy who has been <lb/> at the French front for nearly a <lb/> year with the Irish Guards.</p> <salute>Very sincerely yours</salute> <signed><hi rend="underline">Hugh A.Law</hi></signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2343 created using version from <date when="2014-03-26T10:36:46"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2343 removed (version from <date when="2014-03-26T10:36:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2343 removed (version from <date when="2015-02-18T15:12:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2343 removed (version from <date when="2016-01-06T18:08:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2344 created using version from <date when="2014-03-26T10:41:10"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2344 removed (version from <date when="2014-03-26T10:41:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2344 removed (version from <date when="2014-03-26T10:42:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2344 removed (version from <date when="2015-02-18T15:16:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2344 removed (version from <date when="2016-01-06T18:10:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2345 created using version from <date when="2014-03-26T10:45:53"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2345 removed (version from <date when="2014-03-26T10:45:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2345 removed (version from <date when="2016-01-06T18:12:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:22" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2343 (version from <date when="2016-01-06T18:08:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:23" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2344 added to letter (version from <date when="2016-01-06T18:10:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:24" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2345 added to letter (version from <date when="2016-01-06T18:12:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:26" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                    Clean tags: Page 2344 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                    Clean tags: Page 2345 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                    Clean tags: Page 2343 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:35" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_917_img_2343" url="e97478525af37a3f636cb9c158f6e35a.jpg"/> 
+    
+    <graphic xml:id="L1916_917_img_2344" url="a5384a85d301ee18f53d640e72f93fd8.jpg"/> 
+    
+    <graphic xml:id="L1916_917_img_2345" url="7e31516357db47e8c950f5e463e10714.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2343" facs="#L1916_917_img_2343"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+ <opener><address><addrLine><unclear>Marchhouse</unclear> Ballymore Co.Donegal</addrLine></address> <dateline><date><hi rend="underline">31 May 1916.</hi></date></dateline> <salute>Dear Miss Griffin</salute></opener> <p>I have had the <lb/> statement you sent me with <lb/> regard to Mr.Desmond Fitzgerald.</p> <p>The sentence in his case <lb/> certainly seems to be very severe. <lb/> I am afraid there is not <lb/> much chance of getting such <lb/> sentences revised just at present
+        
+    
+
+    
+         
+        <pb n="2344" facs="#L1916_917_img_2344"/>
+        
+        
+           
+            <lb/>while Martial Law is still in <lb/> force &amp; feeling is still naturally <lb/> strong against the rebels.</p> <p>But a little later on <lb/> we may be able to do something <lb/> at any rate on behalf of those <lb/> who did not take an active <lb/> part in the insurrection.</p> <p>Anyway I'll keep the matter <lb/> in mind &amp; consult with my <lb/> colleagues on my return to London <lb/> early next month (June).</p> <del>My then</del> <unclear> Mrs </unclear>.Law
+        
+    
+         
+        <pb n="2345" facs="#L1916_917_img_2345"/>
+        
+        
+           
+            <lb/>desires to be remembered to you.</p> <p>All the children as well, <lb/> including our boy who has been <lb/> at the French front for nearly a <lb/> year with the Irish Guards.</p> <closer><salute>Very sincerely yours</salute> <signed><hi rend="underline">Hugh A.Law</hi></signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

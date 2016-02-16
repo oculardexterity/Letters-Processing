@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_948">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Eiblín Ní Sheaghda to Nancy O&#39;Rahilly, c. May 1916</title>
+                
+                <author>Eiblín Ní Sheaghda</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Rosie17">Rosie17</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_948</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            <p>Letter from Eiblín Ní Sheaghda to Nancy O'Rahilly (1875-1961). Ní Sheaghda expresses her sympathy and that of the people of Dingle on the death of the O'Rahilly (1875-1916) and says that prayers are being offered for 'those noble heroes'.</p>
+                        
+                            <p>Nancy O'Rahilly  was a member of the Provisional Council of Cumann na mBan at the founding in 1914 and the wife of Michael Joseph O'Rahilly, self-described as 'The' O'Rahilly. The O'Rahilly fought in the Easter Rising and was shot in Parnell/Moore Street on 28 April 1916 and died some time later. Nancy was pregnant at the time of her husband's death – the child was born three months later. </p>
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <repository ref="#University College Dublin Archives">University College Dublin Archives</repository>
+                        <!-- 
+                                Original DCN: Humphreys Papers, P106/120/3
+                             
+                        -->
+                            
+                                <collection type='public'>Humphreys Papers</collection>
+                            
+                            
+                        <idno>P106/120/3</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="#Nancy_ORahilly">Nancy O&#39;Rahilly</persName>
+                
+                
+                
+                    <placeName  ref="#Dublin,_Ireland">Dublin, Ireland</placeName>
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                     
+                    <persName ref="#Eiblín_Ní_Sheaghda">Eiblín Ní Sheaghda</persName>
+                    
+                     
+                    <placeName ref="#Bridge_Street,_Dingle,_County_Kerry,_Ireland">Bridge Street, Dingle, County Kerry, Ireland</placeName>
+                    
+                    
+                    <date when="1916">12 January 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Female</item>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-03-31T19:57:08" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-03-31T19:57:08" who="#Philcostel">
+                
+                    Page 2403 modified:
+                    <!-- 
+Bridge St Dingle Sunday Dear Mrs O'Rahilly Words fail me to express my sympathy for you on the death of your dear husband we were all very sorry when we heard it, indeed so were all the Dingle people without exception it was only 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-03-31T20:00:43" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-03-31T20:00:43" who="#Philcostel">
+                
+                    Page 2404 modified:
+                    <!-- 
+for the past week that his esteem was plainly evident amongst the people here. We pray for those noble heroes every night after the rosary I hope their souls are in heaven may God grant that they are. How are the boys? I hope you are well yourself. Very sincerely Yours Eibhlin Ní Sheaghda 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-26T09:42:57" who="#Rosie17">
+                
+                    Page 2403 modified:
+                    <!-- 
+<address>Bridge St Dingle</address> <date>Sunday</date> <salute>Dear Mrs O'Rahilly</salute> Words fail me to express my <lb/>sympathy for you on<lb/> the death of your dear<lb/> husband we were all<lb/> very sorry when we heard<lb/> it, indeed so were all the<lb/> Dingle people without<lb/> exception it was only<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-26T09:44:22" who="#Rosie17">
+                
+                    Page 2404 modified:
+                    <!-- 
+for the past week tha<lb/>t his esteem was plainly <lb/>evident amongst the<lb/> people here<p>paragraph</p>. <p>paragraph</p>We pray for those noble<lb/> heroes every night after<lb/> the rosary I hope their souls<lb/> are in heaven may God<lb/> grant that they are.<p>paragraph</p> <p>paragraph</p>How are the boys<lb/>? I hope you are well yourself.<lb/> <salute>Very sincerely Yours Eibhlin Ní Sheaghda</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-05T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T11:47:27" who="#NR">
+                
+                    Page 2403 modified:
+                    <!-- 
+<address>Bridge St <lb/>Dingle</address> <date>Sunday</date> <salute>Dear Mrs O'Rahilly</salute> <p>Words fail me to express my  <lb/>sympathy for you on <lb/> the death of your dear <lb/> husband we were all <lb/> very sorry when we heard <lb/> it, indeed so were all the <lb/> Dingle people without <lb/> exception it was only 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T11:49:26" who="#NR">
+                
+                    Page 2404 modified:
+                    <!-- 
+<lb/>for the past week that <lb/> his esteem was plainly  <lb/>evident amongst the <lb/> people here</p>. <p>We pray for those noble <lb/> heroes every night after <lb/> the rosary I hope their souls <lb/> are in heaven may God <lb/> grant that they are.</p> <p>How are the boys<lb/>? <lb/>I hope you are well yourself.</p> <salute>Very sincerely <lb/>Yours</salute> <signed>Eibhlin Ní Sheaghda</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2404 created using version from <date when="2014-03-31T20:00:43"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2404 removed (version from <date when="2014-03-31T20:00:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2404 removed (version from <date when="2015-05-26T09:44:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2404 removed (version from <date when="2016-01-06T11:49:26"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2403 created using version from <date when="2014-03-31T19:57:08"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2403 removed (version from <date when="2014-03-31T19:57:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2403 removed (version from <date when="2015-05-26T09:42:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:10" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2403 removed (version from <date when="2016-01-06T11:47:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:22" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2404 (version from <date when="2016-01-06T11:49:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:24" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2403 added to letter (version from <date when="2016-01-06T11:47:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:26" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:27" who="#PythonScript">
+                
+                    Clean tags: Page 2403 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:27" who="#PythonScript">
+                
+                    Clean tags: Page 2404 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:28" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:29" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T11:16:32" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_948_img_2403" url="ae88829715a8725df1457eb2c1fd1b2a.jpg"/> 
+    
+    <graphic xml:id="L1916_948_img_2404" url="a2b1dd5fd62f0d18d7866232da6d5274.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2403" facs="#L1916_948_img_2403"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>Bridge St</addrLine>
+<addrLine>Dingle</addrLine></address> <dateline><date>Sunday</date></dateline> <salute>Dear Mrs O'Rahilly</salute></opener> <p>Words fail me to express my  <lb/>sympathy for you on <lb/> the death of your dear <lb/> husband we were all <lb/> very sorry when we heard <lb/> it, indeed so were all the <lb/> Dingle people without <lb/> exception it was only
+        
+    
+
+    
+         
+        <pb n="2404" facs="#L1916_948_img_2404"/>
+        
+        
+           
+            <lb/>for the past week that <lb/> his esteem was plainly  <lb/>evident amongst the <lb/> people here</p>. <p>We pray for those noble <lb/> heroes every night after <lb/> the rosary I hope their souls <lb/> are in heaven may God <lb/> grant that they are.</p> <p>How are the boys<lb/>? <lb/>I hope you are well yourself.</p> <closer><salute>Very sincerely <lb/>Yours</salute> <signed>Eibhlin Ní Sheaghda</signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

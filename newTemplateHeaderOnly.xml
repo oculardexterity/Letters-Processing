@@ -72,10 +72,10 @@
                 <msDesc>
                     <msIdentifier>
                         {% if 'Private' in Source %}
-                        <repository ref="#{{Source|e}}"></repository>
+                        <repository ref="#{{to_snake(Source|e)}}"></repository>
                         <collection type='private'>{{Source|e}}</collection>
                         {% else %}
-                        <repository ref="#{{Source|e}}">{{Source|e}}</repository>
+                        <repository ref="#{{to_snake(Source|e)}}">{{Source|e}}</repository>
                         <!-- {% if Document_Collection_Number %}
                                 Original DCN: {{Document_Collection_Number|e}}
                              {% endif %}
