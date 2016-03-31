@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_442">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Fred J. Allan to Mr Walker, 2 August 1916</title>
+                
+                <author>Fred J. Allan</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="BH">Brian Hughes</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Christysinclair">Christy sinclair</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BarneyDoherty">Barney Doherty</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_442</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>The letter is from Fred Allan (1861-1937), a member of the Irish National Aid Association.  The letter refers to the printing of a pamphlet of songs about the Rising. The pamphlets would be sold to raise funds and a garden fete and performance of the songs is also mentioned. The Stanley mentioned is Joseph Michael Stanley, a printer.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>The association was founded after the Rising to provide relief to the dependents of those who were executed, killed in the fighting or had lost their employment. It later merged with the Irish Volunteer Dependents' Fund to form the Irish National Aid and Volunteer Dependents' Fund. Frederick James Allen was an Irish Nationalist and republican. During the Parnell era, Allan was one of the most influential and powerful men in the IRB. He later resigned from the organisation in 1912. Allan opposed the 1916 Rising, viewing it as a futile gesture, yet he would go on to be heavily involved in the politics of the Irish War of Independence.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Military Archives of Ireland -->
+                        
+                        <repository ref="#MAI">Military Archives of Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Bureau of Military History Contemporary Documents, Joseph Michael Stanley Collection; BMH CD/4/3/6
+                             
+                        -->
+                            
+                                <collection type='public'>Bureau of Military History Contemporary Documents, Joseph Michael Stanley Collection</collection>
+                            
+                            
+                        <idno>BMH CD/4/3/6</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Mr Walker -->
+                        
+                        <persName ref="#Mr_Walker">Mr Walker</persName>
+                    
+                
+                
+                
+                    
+                    <!-- Normalised Place Found: 
+                    Dublin 
+                    Dublin
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName  ref="#Dublin">Electricity Supply Committee Offices, Cork Hill, Dublin</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Fred J. Allan -->
+                        
+                        <persName ref="#Allan_F_J">Fred J. Allan</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    Dublin 
+                    Dublin
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#Dublin">Electricity Supply Committee Offices, Cork Hill, Dublin</placeName>
+                    
+                
+                    
+                    <date when="1916-08-02">2 August 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2013-12-15T14:27:51" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-12-15T14:27:51" who="#Christysinclair">
+                
+                    Page 1223 modified:
+                    <!-- 
+Dear Mrs Walker,
+                            thanks for proof of music 'Easter Week'. I enclose
+wording for prases 3 + 4 of [_ _ _ _ _]
+
+it will be necessary to get
+"price 6d" in somewhere on front
+page. Can you manage it?
+I should also lie to have
+the edition printed off before Saturday
+week. we are having a garden fete that day and will have
+sung - and on sale. I also
+want 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-12-15T14:47:13" who="#Christysinclair">
+                
+                    Page 1223 modified:
+                    <!-- 
+Dear Mrs Walker,
+                            thanks for proof of music 'Easter Week'. I enclose
+wording for prases 3 + 4 of [_ _ _ _ _]
+
+it will be necessary to get
+"price 6d" in somewhere on front
+page. Can you manage it?
+I should also lie to have
+the edition printed off before Saturday
+week. we are having a garden fete that day and will have
+sung - and on sale. I also
+want a _ _ _ _ _ _ _ of _  _ _ _ _ would do - by Friday. for which ever _ _ _ _ _ _ _ is going to sing it 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-12-15T14:51:52" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-12-15T14:51:52" who="#Christysinclair">
+                
+                    Page 1224 modified:
+                    <!-- 
+I thought Stanley would have
+been back by now, but i'm sure
+he'll be home immediately 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-12-15T15:06:37" who="#Christysinclair">
+                
+                    Page 1223 modified:
+                    <!-- 
+Dear Mrs Walker,
+                            thanks for proof of music 'Easter Week'. I enclose
+wording for prases 3 + 4 of [_ _ _ _ _]
+
+it will be necessary to get
+"price 6d" in somewhere on front
+page. Can you manage it?
+I should also lie to have
+the edition printed off before Saturday
+week. we are having a garden fete that day and will have
+sung - and on sale. I also
+want a quantity  of copies - fourty
+would do - by Friday. for which-
+ever artiste is going to sing it 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-26T14:58:31" who="#Comber">
+                
+                    Page 1223 modified:
+                    <!-- 
+Telephone:-<lb/> 3601. &#x2014; (Branch 21).<lb/>
+<address>Electricity Supply Committee,<lb/> Dublin Corporation,<lb/> Offices and Showrooms ~~<lb/>Cork Hill,<lb/> Dublin, <date>2 August 1916</date></address>
+<address>Coisde Soláthair<lb/> na H-Aibhléise<lb/> BÁRDAS<lb/> BHAILE ATHA<lb/> CLIATH, CNOC CORCAIGHE,<lb/> ATH CLIATH.<lb/></address>
+Fred. J. Allan,<lb/> Secretary and<lb/> Commercial Manager.<lb/>
+<salute>Dear Mr Walker,</salute>
+<p>Thanks for proof of<lb/> music 'Easter Week'. I enclose<lb/> wording for pages 3 &amp; 4 of cover.<lb/></p>
+<p>It will be necessary to get<lb/> "Price 6<hi rend="superscript">d</hi>" in somewhere on front<lb/> page. Can you manage it?<lb/></p>
+I should also like to have<lb/> the edition printed off before Saturday<lb/> week. We are having a garden<lb/> fete that day and will have it<lb/> sung - and on sale. I also<lb/> want a couple of copies - proofs<lb/> would do - by Friday. for whichever<lb/> artiste is going to sing it<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-26T15:00:41" who="#Comber">
+                
+                    Page 1224 modified:
+                    <!-- 
+<pb/>I thought Stanley would have<lb/> been back by now, but i'm sure<lb/> he'll be home immediately<lb/>
+<salute>Yours Sincerely
+Fred J. Allan</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-26T15:05:00" who="#Comber">
+                
+                    Page 1223 modified:
+                    <!-- 
+Telephone:-<lb/> 3601. &#x2014; (Branch 21).<lb/>
+<address>Electricity Supply Committee,<lb/> Dublin Corporation,<lb/> Offices and Showrooms ~~<lb/>Cork Hill,<lb/> Dublin, <date>2 August 1916</date></address>
+<foreign><address>Coisde Soláthair<lb/> na H-Aibhléise<lb/> BÁRDAS<lb/> BHAILE ATHA<lb/> CLIATH, CNOC CORCAIGHE,<lb/> ATH CLIATH.<lb/></address></foreign>
+Fred. J. Allan,<lb/> Secretary and<lb/> Commercial Manager.<lb/>
+<salute>Dear Mr Walker,</salute>
+<p>Thanks for proof of<lb/> music 'Easter Week'. I enclose<lb/> wording for pages 3 &amp; 4 of cover.<lb/></p>
+<p>It will be necessary to get<lb/> "Price 6<hi rend="superscript">d</hi>" in somewhere on front<lb/> page. Can you manage it?<lb/></p>
+I should also like to have<lb/> the edition printed off before Saturday<lb/> week. We are having a garden<lb/> fete that day and will have it<lb/> sung - and on sale. I also<lb/> want a couple of copies - proofs<lb/> would do - by Friday. for whichever<lb/> artiste is going to sing it<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T16:40:05" who="#BarneyDoherty">
+                
+                    Page 1223 modified:
+                    <!-- 
+<lb/>Telephone:-<lb/> 3601. &#x2014; (Branch 21).
+<address>Electricity Supply Committee,
+<lb/> Dublin Corporation,
+<lb/> Offices and Showrooms ~~
+<lb/>Cork Hill,
+<lb/> Dublin, </address>
+<date>2 August 1916</date>
+<foreign><address>Coisde Soláthair
+<lb/> na H-Aibhléise
+<lb/> BÁRDAS
+<lb/> BHAILE ATHA
+<lb/> CLIATH, 
+<lb/>CNOC CORCAIGHE,
+<lb/> ATH CLIATH.</address></foreign>
+<lb/>Fred. J. Allan,
+<lb/> Secretary and
+<lb/> Commercial Manager.
+<salute>Dear Mr Walker,</salute>
+<p>Thanks for proof of
+<lb/> music 'Easter Week'. I enclose
+<lb/> wording for pages 3 &amp; 4 of cover.</p>
+<p>It will be necessary to get
+<lb/> "Price 6<hi rend="superscript">d</hi>" in somewhere on front
+<lb/> page. Can you manage it?</p>
+<p>I should also like to have
+<lb/> the edition printed off before Saturday
+<lb/> week. We are having a garden
+<lb/> fete that day and will have it
+<lb/> sung &#x2014; and on sale. I also
+<lb/> want a couple of copies &#x2014; proofs
+<lb/> would do &#x2014; by Friday. for which&#x2014;
+<lb/> ever artiste is going to sing it<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T16:41:11" who="#BarneyDoherty">
+                
+                    Page 1224 modified:
+                    <!-- 
+<lb/>I thought Stanley would have
+<lb/> been back by now, but I'm sure
+<lb/> he'll be home immediately
+<salute>Yours Sincerely</salute>
+<signed>Fred J. Allan</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-14T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-14T15:13:31" who="#NR">
+                
+                    Page 1223 modified:
+                    <!-- 
+<lb/>Telephone:-
+<lb/> 3601. &#x2014; (Branch 21).
+<address>Electricity Supply Committee,
+<lb/> Dublin Corporation,
+<lb/> Offices and Showrooms ~~
+<lb/>Cork Hill,
+<lb/> Dublin, </address>
+<date>2 August 1916</date>
+<foreign><address>Coisde Soláthair
+<lb/> na H-Aibhléise
+<lb/> BÁRDAS
+<lb/> BHAILE ATHA
+<lb/> CLIATH, 
+<lb/>CNOC CORCAIGHE,
+<lb/> ATH CLIATH.</address></foreign>
+<lb/>Fred. J. Allan,
+<lb/> Secretary and
+<lb/> Commercial Manager.
+<salute>Dear Mr Walker,</salute>
+<p>Thanks for proof of
+<lb/> music 'Easter Week'. I enclose
+<lb/> wording for pages 3 &amp; 4 of cover.</p>
+<p>It will be necessary to get
+<lb/> "Price 6<hi rend="superscript">d</hi>" in somewhere on front
+<lb/> page. Can you manage it?</p>
+<p>I should also like to have
+<lb/> the edition printed off before Saturday
+<lb/> week. We are having a garden
+<lb/> fete that day and will have it
+<lb/> sung &#x2014; and on sale. I also
+<lb/> want a couple of copies &#x2014; proofs
+<lb/> would do &#x2014; by Friday. for which&#x2014;
+<lb/> ever artiste is going to sing it 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1224 created using version from <date when="2013-12-15T14:51:52"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1224 removed (version from <date when="2013-12-15T14:51:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1224 removed (version from <date when="2015-01-26T15:00:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1224 removed (version from <date when="2016-01-08T16:41:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1223 created using version from <date when="2013-12-15T14:27:51"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1223 removed (version from <date when="2013-12-15T14:27:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1223 removed (version from <date when="2013-12-15T14:47:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1223 removed (version from <date when="2013-12-15T15:06:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1223 removed (version from <date when="2015-01-26T14:58:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1223 removed (version from <date when="2015-01-26T15:05:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1223 removed (version from <date when="2016-01-08T16:40:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1223 removed (version from <date when="2016-01-14T15:13:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 1224 (version from <date when="2016-01-14T15:14:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 1223 added to letter (version from <date when="2016-01-14T15:13:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:18" who="#PythonScript">
+                
+                    Clean tags: Page 1224 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:18" who="#PythonScript">
+                
+                    Clean tags: Page 1223 cleaned of 6 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:35" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:09" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:40" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_442_img_1223" url="6457cf7f30daf0a7844de7258b490ba8.jpg"/> 
+    
+    <graphic xml:id="L1916_442_img_1224" url="b4094985b353d1e8e8953506ad425ff8.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="1223" facs="#L1916_442_img_1223"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<lb/>Telephone:-
+<lb/> 3601. &#x2014; (Branch 21).
+<opener><address><addrLine>Electricity Supply Committee,</addrLine>
+<addrLine>Dublin Corporation,</addrLine>
+<addrLine>Offices and Showrooms --</addrLine>
+<addrLine>Cork Hill,</addrLine>
+<addrLine>Dublin,</addrLine></address>
+<dateline><date>2 August 1916</date></dateline></opener>
+<foreign><address>Coisde Soláthair
+<lb/> na H-Aibhléise
+<lb/> BÁRDAS
+<lb/> BHAILE ATHA
+<lb/> CLIATH, 
+<lb/>CNOC CORCAIGHE,
+<lb/> ATH CLIATH.</address></foreign>
+<lb/>Fred. J. Allan,
+<lb/> Secretary and
+<lb/> Commercial Manager.
+<salute>Dear Mr Walker,</salute>
+<p>Thanks for proof of
+<lb/> music 'Easter Week'. I enclose
+<lb/> wording for pages 3 &amp; 4 of cover.</p>
+<p>It will be necessary to get
+<lb/> "Price 6<hi rend="superscript">d</hi>" in somewhere on front
+<lb/> page. Can you manage it?</p>
+<p>I should also like to have
+<lb/> the edition printed off before Saturday
+<lb/> week. We are having a garden
+<lb/> fete that day and will have it
+<lb/> sung &#x2014; and on sale. I also
+<lb/> want a couple of copies &#x2014; proofs
+<lb/> would do &#x2014; by Friday. for which&#x2014;
+<lb/> ever artiste is going to sing it
+        
+    
+
+    
+         
+        <pb n="1224" facs="#L1916_442_img_1224"/>
+        
+        
+           
+            <lb/>I thought Stanley would have
+<lb/> been back by now, but I'm sure
+<lb/> he'll be home immediately
+<closer><salute>Yours Sincerely</salute>
+<signed>Fred J. Allan</signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

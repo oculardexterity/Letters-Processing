@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_443">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Fred J. Allan to Mr Walker, 28 June 1916</title>
+                
+                <author>Fred J. Allan</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="BH">Brian Hughes</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BarneyDoherty">Barney Doherty</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_443</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>The letter is from Fred Allan (1861-1937), a member of the Irish National Aid Association. The letter refers to the printing of a card with an image of Patrick and William Pearse, executed after the Easter Rising. The card would be sold to raise funds. Allen also asks about a piece of music that would be printed in pamphlet form for the same reason.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>The association was founded after the Rising to provide relief to the dependents of those who were executed, killed in the fighting or had lost their employment. It later merged with the Irish Volunteer Dependents' Fund to form the Irish National Aid and Volunteer Dependents' Fund. Frederick James Allen was an Irish Nationalist and republican. During the Parnell era, Allan was one of the most influential and powerful men in the IRB. He later resigned from the organisation in 1912. Allan opposed the 1916 Rising, viewing it as a futile gesture, yet he would go on to be heavily involved in the politics of the Irish War of Independence.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Military Archives of Ireland -->
+                        
+                        <repository ref="#MAI">Military Archives of Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Bureau of Military History Contemporary Documents, Joseph Michael Stanley Collection; BMH CD/4/3/6
+                             
+                        -->
+                            
+                                <collection type='public'>Bureau of Military History Contemporary Documents, Joseph Michael Stanley Collection</collection>
+                            
+                            
+                        <idno>BMH CD/4/3/6</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Mr Walker -->
+                        
+                        <persName ref="#Mr_Walker">Mr Walker</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Fred J. Allan -->
+                        
+                        <persName ref="#Allan_F_J">Fred J. Allan</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    Dublin 
+                    Dublin
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#Dublin">Electricity Supply Committee Offices, Cork Hill, Dublin</placeName>
+                    
+                
+                    
+                    <date when="1916-06-28">28 June 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2013-12-15T19:57:54" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-12-15T19:57:54" who="#Philcostel">
+                
+                    Page 1225 modified:
+                    <!-- 
+Electricity Supply Committee, Dublin Corporation, Offices and Showrooms - Cork Hill, Dublin
+[Coisde Soláthair na h_Aibhléise, Bárdas Bhaile Átha Cliath, Cnoc Corcaighe, Áth' Cliath]
+Telephone :- 3601. - Branch 21).
+Fred. J.Allan, Secretary and Commercial Manager
+28 June 1916
+
+Dear Mr. Walker
+I send you herewith the ?block? of the Brothers Pearse. Will you please give the copyright at once for the Irish National Aid Asso., as a proof might be shipped out from the engravers. Then as soon as possible we'd be glad to have a frilll or two on the size of card we arranged so that we can arrange the letter-press accordingly.
+Can you manage to give us frills in different inks? The black looks very cold. We expect to have an immense run and will go for a first edition of 5000. 
+Yours Very Truly
+Fred G.Allan
+<note>How are you getting on with the piece of music? Glad if you can ring me up between 4.30 & 5.</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-26T14:37:51" who="#Comber">
+                
+                    Page 1225 modified:
+                    <!-- 
+<address>Electricity Supply Committee,<lb/> Dublin Corporation, <lb/>Offices and Showrooms - Cork Hill,<lb/> Dublin<lb/></address>
+<date>28 June 1916</date>
+<address>Coisde Soláthair na h_Aibhléise,<lb/> Bárdas Bhaile Átha Cliath,<lb/> Cnoc Corcaighe,<lb/> Áth' Cliath<lb/></address>
+Telephone :- 3601. - Branch 21).
+<address>Fred. J.Allan,<lb/> Secretary and<lb/> Commercial Manager.</address>
+<salute>Dear Mr. Walker</salute>
+<p>I send you herewith<lb/> the <unclear>block</unclear> of the Brothers Pearse. Will<lb/> you please give the copyright at once<lb/> for the Irish National Aid Asso., as<lb/> a proof might be shipped out from<lb/> the engravers.<lb/> Then as<lb/> soon as possible we'd be glad to<lb/> have a <unclear>frilll</unclear> or two on the size of<lb/> card we arranged so that we can<lb/> arrange the letter-press accordingly.<lb/></p>
+<p>Can you manage to give us<lb/> <unclear>frills</unclear><del>deleted text</del> in different inks? The<lb/> black looks very cold. We<lb/> expect to have an immense run<lb/> and will go for a first edition of<lb/> 5000.<lb/></p>
+<salute>Yours Very Truly<lb/>
+Fred G.Allan<lb/></salute>
+<note>How are you getting on with the<lb/> piece of music? Glad if<lb/> you can ring me up between 4.30<lb/> &amp; 5.</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-26T15:05:34" who="#Comber">
+                
+                    Page 1225 modified:
+                    <!-- 
+<address>Electricity Supply Committee,<lb/> Dublin Corporation, <lb/>Offices and Showrooms - Cork Hill,<lb/> Dublin<lb/></address>
+<date>28 June 1916</date>
+<foreign><address>Coisde Soláthair na h_Aibhléise,<lb/> Bárdas Bhaile Átha Cliath,<lb/> Cnoc Corcaighe,<lb/> Áth' Cliath<lb/></address></foreign>
+Telephone :- 3601. - Branch 21).
+<address>Fred. J.Allan,<lb/> Secretary and<lb/> Commercial Manager.</address>
+<salute>Dear Mr. Walker</salute>
+<p>I send you herewith<lb/> the <unclear>block</unclear> of the Brothers Pearse. Will<lb/> you please give the copyright at once<lb/> for the Irish National Aid Asso., as<lb/> a proof might be shipped out from<lb/> the engravers.<lb/> Then as<lb/> soon as possible we'd be glad to<lb/> have a <unclear>frilll</unclear> or two on the size of<lb/> card we arranged so that we can<lb/> arrange the letter-press accordingly.<lb/></p>
+<p>Can you manage to give us<lb/> <unclear>frills</unclear><del>deleted text</del> in different inks? The<lb/> black looks very cold. We<lb/> expect to have an immense run<lb/> and will go for a first edition of<lb/> 5000.<lb/></p>
+<salute>Yours Very Truly<lb/>
+Fred G.Allan<lb/></salute>
+<note>How are you getting on with the<lb/> piece of music? Glad if<lb/> you can ring me up between 4.30<lb/> &amp; 5.</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T16:48:46" who="#BarneyDoherty">
+                
+                    Page 1225 modified:
+                    <!-- 
+<address>Electricity Supply Committee,
+<lb/> Dublin Corporation, 
+<lb/>Offices and Showrooms &#x2014; 
+<lb/>Cork Hill,
+<lb/> Dublin</address>
+<date>28 June 1916</date>
+<foreign><address>Coisde Soláthair na 
+<lb/>h_Aibhléise,
+<lb/> Bárdas Bhaile 
+<lb/>Átha Cliath,
+<lb/> Cnoc Corcaighe,
+<lb/> Áth' Cliath</address></foreign>
+<note>Telephone :&#x2014; 
+<lb/>3601. - Branch 21).</note>
+<address>Fred. J.Allan,
+<lb/> Secretary and
+<lb/> Commercial Manager.</address>
+<salute>Dear Mr. Walker</salute>
+<p>I send you herewith
+<lb/> the <unclear>block</unclear> of the Brothers Pearse. Will
+<lb/> you please give the copyright at once
+<lb/> for the Irish National Aid Asso., as
+<lb/> a proof might be shipped out from
+<lb/> the engravers. Then as
+<lb/> soon as possible we'd be glad to
+<lb/> have a <unclear>frilll</unclear> or two on the size of
+<lb/> card we arranged so that we can
+<lb/> arrange the letter-press accordingly.</p>
+<p>Can you manage to give us
+<lb/> <unclear>frills</unclear><del>deleted text</del> in different inks? The
+<lb/> black looks very cold. We
+<lb/> expect to have an immense run
+<lb/> and will go for a first edition of
+<lb/> 5000.</p>
+<salute>Yours Very Truly</salute>
+<signed>Fred G.Allan</signed>
+<note>How are you getting on with the
+<lb/> piece of music? Glad if
+<lb/> you can ring me up between 4.30
+<lb/> &amp; 5.</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-14T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-14T15:19:48" who="#NR">
+                
+                    Page 1225 modified:
+                    <!-- 
+<address>Electricity Supply Committee,
+<lb/> Dublin Corporation, 
+<lb/>Offices and Showrooms &#x2014; 
+<lb/>Cork Hill,
+<lb/> Dublin</address>
+<date>28 June 1916</date>
+<address><foreign>Coisde Soláthair na 
+<lb/>h_Aibhléise,
+<lb/> Bárdas Bhaile 
+<lb/>Átha Cliath,
+<lb/> Cnoc Corcaighe,
+<lb/> Áth' Cliath</foreign></address>
+<note>Telephone :&#x2014; 
+<lb/>3601. - Branch 21).</note>
+<address>Fred. J.Allan,
+<lb/> Secretary and
+<lb/> Commercial Manager.</address>
+<salute>Dear Mr. Walker</salute>
+<p>I send you herewith
+<lb/> the <unclear>block</unclear> of the Brothers Pearse. Will
+<lb/> you please give the copyright at once
+<lb/> for the Irish National Aid Asso., as
+<lb/> a proof might be shipped out from
+<lb/> the engravers. Then as
+<lb/> soon as possible we'd be glad to
+<lb/> have a <unclear>frilll</unclear> or two on the size of
+<lb/> card we arranged so that we can
+<lb/> arrange the letter-press accordingly.</p>
+<p>Can you manage to give us
+<lb/> <unclear>frills</unclear><del>are</del> in different inks? The
+<lb/> black looks very cold. We
+<lb/> expect to have an immense run
+<lb/> and will go for a first edition of
+<lb/> 5000.</p>
+<salute>Yours Very Truly</salute>
+<signed>Fred G.Allan</signed>
+<note>How are you getting on with the
+<lb/> piece of music? Glad if
+<lb/> you can ring me up between 4.30
+<lb/> &amp; 5.</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1225 created using version from <date when="2013-12-15T19:57:54"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1225 removed (version from <date when="2013-12-15T19:57:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1225 removed (version from <date when="2015-01-26T14:37:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1225 removed (version from <date when="2015-01-26T15:05:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1225 removed (version from <date when="2016-01-08T16:48:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1225 removed (version from <date when="2016-01-14T15:19:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 1225 (version from <date when="2016-01-14T15:19:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:22" who="#PythonScript">
+                
+                    Clean tags: Page 1225 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:25" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:31" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:37" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:32" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:38" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_443_img_1225" url="5d1338104781ec79fa82b8548bb9f0e7.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="1225" facs="#L1916_443_img_1225"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<address>Electricity Supply Committee,
+<lb/> Dublin Corporation, 
+<lb/>Offices and Showrooms &#x2014; 
+<lb/>Cork Hill,
+<lb/> Dublin</address>
+<date>28 June 1916</date>
+<address><foreign>Coisde Soláthair na 
+<lb/>h_Aibhléise,
+<lb/> Bárdas Bhaile 
+<lb/>Átha Cliath,
+<lb/> Cnoc Corcaighe,
+<lb/> Áth' Cliath</foreign></address>
+<note>Telephone :&#x2014; 
+<lb/>3601. - Branch 21).</note>
+<address>Fred. J.Allan,
+<lb/> Secretary and
+<lb/> Commercial Manager.</address>
+<salute>Dear Mr. Walker</salute>
+<p>I send you herewith
+<lb/> the <unclear>block</unclear> of the Brothers Pearse. Will
+<lb/> you please give the copyright at once
+<lb/> for the Irish National Aid Asso., as
+<lb/> a proof might be shipped out from
+<lb/> the engravers. Then as
+<lb/> soon as possible we'd be glad to
+<lb/> have a <unclear>frilll</unclear> or two on the size of
+<lb/> card we arranged so that we can
+<lb/> arrange the letter-press accordingly.</p>
+<p>Can you manage to give us
+<lb/> <unclear>frills</unclear><del>are</del> in different inks? The
+<lb/> black looks very cold. We
+<lb/> expect to have an immense run
+<lb/> and will go for a first edition of
+<lb/> 5000.</p>
+<closer><salute>Yours Very Truly</salute>
+<signed>Fred G.Allan</signed></closer>
+<note>How are you getting on with the
+<lb/> piece of music? Glad if
+<lb/> you can ring me up between 4.30
+<lb/> &amp; 5.</note>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1291">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Thomas Patrick Gill to Sir Matthew Nathan, 6 May 1916</title>
+                
+                <author>Thomas Patrick Gill</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="HH">Hannah Healy</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="RichardBreen">RichardBreen</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Lainey">Lainey</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1291</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from Thomas Patrick Gill (1858-1931) to Sir Matthew Nathan (1862-1939). In the letter Gill states the he is transmitting statements of the movements of the department's staff between 22 April and 1 May, the week of the Easter Rising. Gill adds that it was not possible to contact all members of staff and any further statements will be sent on later.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Sir Matthew Nathan was the under-secretary for Ireland from 1914 to 1916. In 1916 Nathan offered his resignation following the outbreak of the Easter Rising. Gill served as the secretary for the Department of Agriculture and Technical Instruction from its establishment in 1900 until 1923.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: National Archives of Ireland -->
+                        
+                        <repository ref="#NAI">National Archives of Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Chief Secretary&#39;s Office Registered Papers; CSO RP/1916/7721/2
+                             
+                        -->
+                            
+                                <collection type='public'>Chief Secretary's Office Registered Papers</collection>
+                            
+                            
+                        <idno>CSO RP/1916/7721/2</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Matthew Nathan -->
+                        
+                        <persName ref="#Nathan_M">Matthew Nathan</persName>
+                    
+                
+                
+                
+                    
+                    <!-- Normalised Place Found: 
+                    Dublin Castle 
+                    Dublin
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName  ref="#Dublin_Castle">Dublin Castle, Dublin, Ireland</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Thomas Patrick Gill -->
+                        
+                        <persName ref="#Gill_T">Thomas Patrick Gill</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    Dublin 
+                    Dublin
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#Dublin">Department of Agriculture and Technical Instruction, Dublin, Ireland.</placeName>
+                    
+                
+                    
+                    <date when="1916-05-06">6 May 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1931</item>
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                            <item n="tag">Official documents</item>
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-12-03T10:56:26" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-12-03T10:56:26" who="#Lainey">
+                
+                    Page 3405 modified:
+                    <!-- 
+Telegrams:
+   “Resources, Dublin.”
+
+  Any further communication 
+on   this  subject  should  be 
+addressed to 
+      “THE SECRETARY,”
+and the number and date of 
+this letter should be quoted.
+
+<lb/>
+With reference to your letter of the 1st instant, I am desired by the Vice-President to transmit, for the information of His Excellency the Lord Lieutenant, the accompanying statements as to the movements, &c., between April 22nd and May 1st of all the members of the Department’s staff employed in Dublin with whom it has been possible to get in touch up to the present. Any further statements will be forwarded as received.
+
+			I am,	
+				Sir, 
+			Your obedient Servant,
+
+<lb/>T. P. Gill 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-03T11:13:51" who="#Lainey">
+                
+                    Page 3405 modified:
+                    <!-- 
+Telegrams:
+   “Resources, Dublin.”                                                                                                          <address>
+                                                                                                                                           Department of Agriculture 
+	                                                                    <date>CHIEF SECRETARY'S                   and Technical Instruction for Ireland,
+		                                                              7721 - - 8.MAY.1916                               Upper Merrion Street,
+	                                                                                 OFFICE   </date>                        Dublin </address> 
+                                                                                    <date>6 May, 1916.</date>
+<note>
+Any further communication 
+on this subject should be 
+addressed to 
+      “THE SECRETARY,”
+and the number and date of 
+this letter should be quoted.
+</note>
+
+
+<p>With reference to your letter of the 1st instant, I am desired by the Vice-President to transmit, for the information of His Excellency the Lord Lieutenant, the accompanying statements as to the movements, &c., between April 22nd and May 1st of all the members of the Department’s staff employed in Dublin with whom it has been possible to get in touch up to the present. Any further statements will be forwarded as received.</p>
+
+			I am,	
+				Sir, 
+			Your obedient Servant,
+
+<salute>T. P. Gill</salute>
+Secretary.
+<salute>Chief Commissioner</salute>
+<date>8/5/16</date>
+The Under Secretary,
+Dublin Castle. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-04T12:10:32" who="#Lainey">
+                
+                    Page 3405 modified:
+                    <!-- 
+<note>Telegrams:
+   “Resources, Dublin.” </note>                                                                                                         
+
+<address>Department of Agriculture 
+and Technical Instruction for Ireland,
+ Upper Merrion Street,
+ Dublin </address> 
+
+<date>CHIEF SECRETARY'S 
+7721 - - 8.MAY.1916
+OFFICE   </date>   
+<date>6 May, 1916.</date>
+
+<note>
+Any further communication 
+on this subject should be 
+addressed to 
+      “THE SECRETARY,”
+and the number and date of 
+this letter should be quoted.
+</note>
+
+
+<p>With reference to your letter of the 1st instant, I am desired by the Vice-President to transmit, for the information of His Excellency the Lord Lieutenant, the accompanying statements as to the movements, &c., between April 22nd and May 1st of all the members of the Department’s staff employed in Dublin with whom it has been possible to get in touch up to the present. Any further statements will be forwarded as received.</p>
+
+
+<salute>I am,	
+Sir, 
+Your obedient Servant,T. P. Gill
+Secretary.
+Chief Commissioner</salute>
+<date>8/5/16</date>
+The Under Secretary,
+Dublin Castle. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T14:17:53" who="#RichardBreen">
+                
+                    Page 3405 modified:
+                    <!-- 
+<address>Department of Agriculture 
+<lb/>and Technical Instruction for Ireland,
+ <lb/>Upper Merrion Street,
+ Dublin </address> 
+
+<date>6 May, 1916.</date>
+
+<salute>Sir,</salute>
+<p>With reference to your letter of the 1st instant,
+<lb/> I am desired by the Vice-President to
+<lb/>transmit, for the information of His Excellency
+<lb/> the Lord Lieutenant, the accompanying statements
+ <lb/>as to the movements, &amp;c., between April 22nd
+<lb/> and May 1st of all the members of the 
+<lb/>Department’s staff employed in Dublin with whom
+<lb/> it has been possible to get in touch up to the
+<lb/> present. Any further statements will be 
+<lb/>forwarded as received.</p>
+
+
+<salute>I am,	
+<lb/>Sir, 
+<lb/>Your obedient Servant,
+<signed>T. P. Gill</signed>
+<lb/>Secretary.</salute>
+
+<address>The Under Secretary,
+Dublin Castle.</address>
+
+<add>Chief Commissioner
+<date>8/5/16</date></add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:50" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3405 created using version from <date when="2014-12-03T10:56:26"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:50" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3405 removed (version from <date when="2014-12-03T10:56:26"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:50" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3405 removed (version from <date when="2014-12-03T11:13:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:50" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3405 removed (version from <date when="2014-12-04T12:10:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:50" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3405 removed (version from <date when="2016-01-15T14:17:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3405 (version from <date when="2016-01-15T15:17:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:22" who="#PythonScript">
+                
+                    Clean tags: Page 3405 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:25" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:31" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:37" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:33" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:40" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1291_img_3405" url="3f7a4bf0468e221e77f6cb7e205e1085.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3405" facs="#L1916_1291_img_3405"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>Department of Agriculture</addrLine>
+<addrLine>and Technical Instruction for Ireland,</addrLine>
+<addrLine>Upper Merrion Street,
+ Dublin</addrLine></address> 
+
+<dateline><date>6 May, 1916.</date></dateline>
+
+<salute>Sir,</salute></opener>
+<p>With reference to your letter of the 1st instant,
+<lb/> I am desired by the Vice-President to
+<lb/>transmit, for the information of His Excellency
+<lb/> the Lord Lieutenant, the accompanying statements
+ <lb/>as to the movements, &amp;c., between April 22nd
+<lb/> and May 1st of all the members of the 
+<lb/>Department’s staff employed in Dublin with whom
+<lb/> it has been possible to get in touch up to the
+<lb/> present. Any further statements will be 
+<lb/>forwarded as received.</p>
+
+
+<closer><salute>I am,	
+<lb/>Sir, 
+<lb/>Your obedient Servant,
+<signed>T. P. Gill</signed>
+<lb/>Secretary.</salute>
+
+<address><addrLine>The Under Secretary,
+Dublin Castle.</addrLine></address>
+
+<add>Chief Commissioner
+<date>8/5/16</date></closer></add>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

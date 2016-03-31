@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2352">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Francis Oswald Lindley to Sir Edward Grey, 13 April 1916</title>
+                
+                <author>Francis Oswald Lindley</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="KB">Karolina Badzmierowska</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="SKerr">SKerr</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="AoifeCatherineKelly">Aoife Catherine Kelly</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Willow">Willow</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2352</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>Letter from the British Embassy in Petrograd, Russia and signed by Francis Oswald Lindley in the absence of the Ambassador (George William Buchanan (1872–1950)). The letters was sent to the Under Secretary at Dublin Castle, perhaps forwarded from London, where the recipient of the letter, Sir Edward Grey (1862-1933) was based.  The enclosure of the letter is a notice from the Institute for Mental Diseases, Section dealing with Foreigners at the Moscow Lunatic Asylum regarding a British patient, John Casey, born in County Mayo, Ireland and suffering an "early stage brain weakening". </p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Sir Francis Oswald Lindsey, a diplomat, was born in 1872. From July 1915 he became counsellor of embassy in Petrograd. After the withdrawal of the ambassador, Sir George William Buchanan, in January 1918 he was left in charge of the mission. Sir Edward Grey, 1st Viscount Grey of Fallodon, was a British Liberal statesman. He served as Foreign Secretary from 1905 to 1916, the longest continuous tenure of any person in that office.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: National Archives of Ireland -->
+                        
+                        <repository ref="#NAI">National Archives of Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Chief Secretary’s Office Registered Papers, NAI/CSO/RP/1916/77200
+                             
+                        -->
+                            
+                                <collection type='public'>Chief Secretary’s Office Registered Papers</collection>
+                            
+                            
+                        <idno>NAI/CSO/RP/1916/77200</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Edward Grey -->
+                        
+                        <persName ref="#Grey_E">Edward Grey</persName>
+                    
+                
+                
+                
+                    
+                    <!-- Normalised Place Found: 
+                    Dublin Castle 
+                    Dublin
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName  ref="#Dublin_Castle">Dublin Castle, Dublin, Ireland</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">Francis Oswald Lindley</persName>
+                    
+                
+                
+                 
+                    
+                    <placeName  ref="MISSING">Petrograd, Russia</placeName>
+                    
+                
+                    
+                    <date when="1916-04-13">13 April 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1950</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-05T15:17:30" who="#KB">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-05T15:17:30" who="#AoifeCatherineKelly">
+                
+                    Page 6214 modified:
+                    <!-- 
+<British Embassy><Petrograd>
+<April>13<1916.>
+
+Sir, 
+
+I have the honour to transmit, herewith, details with regard to John Kesey, a British Subject at pre-sent detained in a Moscow Lunatic Asylum.
+I have the honour to be, with the highest respect, sir, your most obedient, humble servant, signed in the absence of the Ambassdor, F. O. Lindley 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-05T15:26:22" who="#KB">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-05T15:26:22" who="#AoifeCatherineKelly">
+                
+                    Page 6215 modified:
+                    <!-- 
+2nd Department of the Foreign Office<February>26th<1916>
+Notice.
+Institues for Mental Disease
+Section dealing with Foreigners 
+Name of the Instituion The Alexevsky Mental Hospital
+Christian and Surname of Patient John CASEY
+Nationality British subject
+What passport has the patient held in Russia or who holds his papers Russian or otherwise assuring his nationality
+Billet given out at the Governor General's Foreign Department of the Chancery- 8th Feb. 1916. No, 1245, 
+Age 32
+Occupation or family circumstances Domestic Teacher (Tutor) Unmarried
+Place where born Ireland, County Mayo
+Place where generally resided Moscow
+Address of place where lived before entering Institution House No. 8 Big Chenovohovokomy, Periuluk, Tverskoy, District (2nd part)
+Name of Disease Early stage of brain weakening
+When brought to Institution 18 February 1916
+By whom placed in the Institution. By Chaplain of the English Church (?) The Rev. Andrea
+State who is maintaining him Being maintained by the English Church
+Christian & Surname &Address of parents, Spouse, grown up children & other persons who can accept charge of patient No knowledge of parents. 
+Signed by the 
+Doctor of the
+Alexevsky Mental Hospital
+Poctrayni ( ?) 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-09T13:24:03" who="#Willow">
+                
+                    Page 6214 modified:
+                    <!-- 
+<<address>British Embassy><lb/><Petrograd></address>
+<<date>April>13<1916.></date>
+311776  77200 <date>24 Apr 1916</date>
+
+Sir, 
+
+I have the honour to transmit, herewith, details<lb/> with regard to John Kesey, a British Subject at pre-sent<lb/> detained in a Moscow Lunatic Asylum.
+I have the honour to be<lb/>, with the highest respect<lb/>, sir, <lb/>your most obedient, <lb/>humble servant,<lb/> signed in the absence of the Ambassador, F. O. Lindley 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-09T13:34:30" who="#Willow">
+                
+                    Page 6215 modified:
+                    <!-- 
+<address>2nd Department of the Foreign Office</address><lb/><<date>February>26th<1916></date> No 932
+<hi rend="underline">Notice.</hi>
+<hi rend="underline">Institutes for Mental Disease</hi>
+<hi rend="underline">Section dealing with Foreigners</hi> 
+1.Name of the Institution The Alexevsky Mental Hospital<lb/>
+2.Christian and Surname of Patient John CASEY<lb/>
+3. Nationality British subject
+4. What passport has the patient<lb/> held in Russia or who holds<lb/> his papers Russian or otherwise<lb/> assuring his nationality<lb/>
+Billet given out at the Governor<lb/> General's Foreign Department of<lb/> the Chancery- <date>8th Feb. 1916</date>. No, 1245, <lb/>
+5. Age 32
+6. Occupation or family circumstances Domestic Teacher (Tutor) Unmarried<lb/>
+7. Place where born Ireland, County Mayo<lb/>
+8. Place where generally resided Moscow<lb/>
+9. Address of place where lived<lb/> before entering Institution House No. 8 Big Chenovohovokomy, Periuluk, Tverskoy, District (2nd part)
+10. Name of Disease Early stage of brain weakening<lb/>
+11. When brought to Institution 18 February 1916<lb/>
+12. By whom placed in the Institution. By Chaplain of the English Church (?) The Rev. Andrea<lb/>
+13. State who is maintaining him    Being maintained by the English Church<lb/>
+14. Christian & Surname &Address<lb/> of parents, Spouse, grown up<lb/> children & other persons who<lb/> can accept charge of patient  No knowledge of parents. <lb/>
+Signed by the<lb/> 
+Doctor of the<lb/>
+Alexevsky Mental Hospital<lb/>
+Poctrayni ( ?) 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-09T13:36:38" who="#KB">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-09T13:36:38" who="#Willow">
+                
+                    Page 6217 modified:
+                    <!-- 
+O.H.M.S<lb/><address>The Under Secretary<lb/>The Castle<lb/>Dublin</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-09T13:37:15" who="#KB">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-09T13:37:15" who="#Willow">
+                
+                    Page 6216 modified:
+                    <!-- 
+This page in Russian - translated on previous page to English 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T13:43:17" who="#SKerr">
+                
+                    Page 6214 modified:
+                    <!-- 
+No 22 Consular.
+<address>British Embassy Petrograd.</address>
+<date>April 13.1916.</date>
+
+<salute>Sir,</salute> 
+
+<p>I have the honour to transmit, herewith, details
+<lb/> with regard to John Kesey, a British Subject at pre-
+<lb/>sent detained in a Moscow Lunatic Asylum.</p>
+<lb/><salute>I have the honour to be,
+<lb/> with the highest respect,
+<lb/> sir, 
+<lb/>your most obedient, 
+<lb/>humble servant,</salute>
+<lb/> (signed in the absence of the Ambassador) F. O. Lindley 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T13:55:14" who="#SKerr">
+                
+                    Page 6215 modified:
+                    <!-- 
+<address>2nd Department of the Foreign Office</address>
+<date>February 26th 1916.</date> 
+<lb/>No 932
+<note><hi rend="underline">Translation of enclosure</hi></note>
+<lb/><hi rend="underline">NOTICE.</hi>
+<lb/><hi rend="underline"><sic>Institues</sic> for Mental Diseases</hi>
+<lb/><hi rend="underline">Section dealing with Foreigners.</hi> 
+<!~~ The following is presented in two columns ~~>
+<lb/>1.Name of the Institution The Alexevsky Mental Hospital
+<lb/>2.Christian and Surname of Patient John CASEY
+<lb/>3. Nationality British subject
+<lb/>4. What passport has the patient
+<lb/> held in Russia or who holds
+<lb/> his papers Russian or otherwise
+<lb/> assuring his nationality
+<lb/>Billet given out at the Governor
+<lb/> General's Foreign Department of
+<lb/> the Chancery &#x2014; 8th Feb. 1916. No. 1245.
+<lb/>5. Age 32
+<lb/>6. Occupation or family circum-
+<lb/>stances Domestic Teacher (Tutor) Unmarried
+<lb/>7. Place where born Ireland, County Mayo
+<lb/>8. Place where generally resided. Moscow
+<lb/>9. Address of place where lived
+<lb/> before entering Institution House No. 8 Big Chenovohovokomy, 
+<lb/>Periuluk, Tverskoy District (2nd part)
+<lb/>10. Name of Disease Early stage of brain weakening
+<lb/>11. When brought to Institution 18 February 1916
+<lb/>12. By whom placed in the Institution. By Chaplain of the English Church 
+<lb/>(?) The Rev. Andrea
+<lb/>13. State who is maintaining him    Being maintained by the English Church
+<lb/>14. Christian &amp; Surname &amp; Address
+<lb/> of parents, Spouse, grown up
+<lb/> children &amp; other persons who
+<lb/> can accept charge of patient  No knowledge of parents. 
+<lb/><salute>Signed by the
+<lb/>Doctor of the
+<lb/>Alexevsky Mental Hospital
+<lb/>POCTRAYNI ( ?)</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T13:57:27" who="#SKerr">
+                
+                    Page 6216 modified:
+                    <!-- 
+<!~~ This page in Russian - translated on previous page to English ~~> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T13:58:04" who="#SKerr">
+                
+                    Page 6217 modified:
+                    <!-- 
+<hi rend="underline">O.H.M.S</hi><lb/><address>The Under Secretary<lb/>The Castle<lb/>Dublin</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T16:04:58" who="#NR">
+                
+                    Page 6214 modified:
+                    <!-- 
+<lb/>No 22 Consular.
+<address>British Embassy,
+<lb/> Petrograd.</address>
+<date>April 13.1916.</date>
+
+<salute>Sir,</salute> 
+
+<p>I have the honour to transmit, herewith, details
+<lb/> with regard to John Kesey, a British Subject at pre-
+<lb/>sent detained in a Moscow Lunatic Asylum.</p>
+<lb/><salute>I have the honour to be,
+<lb/> with the highest respect,
+<lb/> sir, 
+<lb/>your most obedient, 
+<lb/>humble servant,</salute>
+<signed>(signed in the absence of the Ambassador) F. O. Lindley</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T16:10:41" who="#NR">
+                
+                    Page 6217 modified:
+                    <!-- 
+<hi rend="underline">O.H.M.S</hi><lb/>
+<address>The Under Secretary
+<lb/>The Castle
+<lb/>Dublin</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6216 created using version from <date when="2015-08-09T13:37:15"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6216 removed (version from <date when="2015-08-09T13:37:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6216 removed (version from <date when="2016-01-19T13:57:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6217 created using version from <date when="2015-08-09T13:36:38"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6217 removed (version from <date when="2015-08-09T13:36:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6217 removed (version from <date when="2016-01-19T13:58:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6217 removed (version from <date when="2016-01-21T16:10:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6214 created using version from <date when="2015-08-05T15:17:30"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6214 removed (version from <date when="2015-08-05T15:17:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6214 removed (version from <date when="2015-08-09T13:24:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6214 removed (version from <date when="2016-01-19T13:43:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6214 removed (version from <date when="2016-01-21T16:04:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6215 created using version from <date when="2015-08-05T15:26:22"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6215 removed (version from <date when="2015-08-05T15:26:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6215 removed (version from <date when="2015-08-09T13:34:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6215 removed (version from <date when="2016-01-19T13:55:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 6216 (version from <date when="2016-01-21T16:09:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6217 added to letter (version from <date when="2016-01-21T16:10:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6214 added to letter (version from <date when="2016-01-21T16:04:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6215 added to letter (version from <date when="2016-01-21T16:06:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                    Clean tags: Page 6216 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                    Clean tags: Page 6217 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                    Clean tags: Page 6214 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                    Clean tags: Page 6215 cleaned of 4 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:31" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:38" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:38" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:47" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2352_img_6214" url="26dd403223118aab87b36052a421d5d2.jpg"/> 
+    
+    <graphic xml:id="L1916_2352_img_6215" url="8923207426003bb3f6374dd1e6c5a446.jpg"/> 
+    
+    <graphic xml:id="L1916_2352_img_6216" url="24ffd74d9f2d402e178132ca02a28c4a.jpg"/> 
+    
+    <graphic xml:id="L1916_2352_img_6217" url="1f00c12ab351d785bcbb152550b8e3db.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="6214" facs="#L1916_2352_img_6214"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<lb/>No 22 Consular.
+<opener><address><addrLine>British Embassy,</addrLine>
+<addrLine>Petrograd.</addrLine></address>
+<dateline><date>April 13.1916.</date></dateline>
+
+<salute>Sir,</salute></opener> 
+
+<p>I have the honour to transmit, herewith, details
+<lb/> with regard to John Kesey, a British Subject at pre-
+<lb/>sent detained in a Moscow Lunatic Asylum.</p>
+<lb/><salute>I have the honour to be,
+<lb/> with the highest respect,
+<lb/> sir, 
+<lb/>your most obedient, 
+<lb/>humble servant,</salute>
+<signed>(signed in the absence of the Ambassador) F. O. Lindley</signed>
+        
+    
+
+    
+         
+        <pb n="6215" facs="#L1916_2352_img_6215"/>
+        
+        
+           
+            <address>2nd Department of the Foreign Office</address>
+<date>February 26th 1916.</date> 
+<lb/>No 932
+<note><hi rend="underline">Translation of enclosure</hi></note>
+<lb/><hi rend="underline">NOTICE.</hi>
+<lb/><hi rend="underline"><sic>Institues</sic> for Mental Diseases</hi>
+<lb/><hi rend="underline">Section dealing with Foreigners.</hi> 
+<!-- The following is presented in two columns -->
+<lb/>1.Name of the Institution The Alexevsky Mental Hospital
+<lb/>2.Christian and Surname of Patient John CASEY
+<lb/>3. Nationality British subject
+<lb/>4. What passport has the patient
+<lb/> held in Russia or who holds
+<lb/> his papers Russian or otherwise
+<lb/> assuring his nationality
+<lb/>Billet given out at the Governor
+<lb/> General's Foreign Department of
+<lb/> the Chancery &#x2014; 8th Feb. 1916. No. 1245.
+<lb/>5. Age 32
+<lb/>6. Occupation or family circum-
+<lb/>stances Domestic Teacher (Tutor) Unmarried
+<lb/>7. Place where born Ireland, County Mayo
+<lb/>8. Place where generally resided. Moscow
+<lb/>9. Address of place where lived
+<lb/> before entering Institution House No. 8 Big Chenovohovokomy, 
+<lb/>Periuluk, Tverskoy District (2nd part)
+<lb/>10. Name of Disease Early stage of brain weakening
+<lb/>11. When brought to Institution 18 February 1916
+<lb/>12. By whom placed in the Institution. By Chaplain of the English Church 
+<lb/>(?) The Rev. Andrea
+<lb/>13. State who is maintaining him    Being maintained by the English Church
+<lb/>14. Christian &amp; Surname &amp; Address
+<lb/> of parents, Spouse, grown up
+<lb/> children &amp; other persons who
+<lb/> can accept charge of patient  No knowledge of parents. 
+<lb/><salute>Signed by the
+<lb/>Doctor of the
+<lb/>Alexevsky Mental Hospital
+<lb/>POCTRAYNI ( ?)</salute>
+        
+    
+         
+        <pb n="6216" facs="#L1916_2352_img_6216"/>
+        
+        
+           
+            <!-- This page in Russian - translated on previous page to English -->
+        
+    
+        
+        
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+            <pb n="6217" facs="#L1916_2352_img_6217"/>
+            <text type="envelope" decls="#corresp1">
+                <body> 
+                    <ab>
+                        <hi rend="underline">O.H.M.S</hi><lb/>
+<address><addrLine>The Under Secretary</addrLine>
+<addrLine>The Castle</addrLine>
+<addrLine>Dublin</addrLine></address>
+                    </ab>
+                </body>
+            </text>
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

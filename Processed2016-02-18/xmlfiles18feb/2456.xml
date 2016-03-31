@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2456">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter to William Bourke Cockran, 8 June 1916</title>
+                
+                <author>MISSING</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Delmacarroll">Delmacarroll</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="MaryGrehan">Mary Grehan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="AIHSArchives">AIHS Archives</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Lainey">Lainey</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2456</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter to William Bourke Cockran (1854-1923) requesting Cockran to give a speech to the Irish Relief Fund Committee during the month.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>William Bourke Cockran was an Irish born Democrat and member of the US House of Representatives.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: The American Irish Historical Society -->
+                        
+                        <repository ref="#AIHS">The American Irish Historical Society</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: DFC0303a
+                             
+                        -->
+                            
+                                <collection type='public'>DFC0303a</collection>
+                            
+                            
+                        <idno>DFC0303a</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: William Bourke Cockran -->
+                        
+                        <persName ref="#Bourke_Cockran_W">William Bourke Cockran</persName>
+                    
+                
+                
+                
+                    
+                    <placeName  ref="MISSING">New York, NY, United States</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    <persName ref="MISSING">MISSING</persName>
+                
+                
+                
+                    
+                    <date when="1916-06-08">8 June 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                            <item n="tag">politics</item>
+                            
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-10-08T07:51:57" who="#AIHSArchives">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-10-08T07:51:57" who="#Lainey">
+                
+                    Page 6629 modified:
+                    <!-- 
+<date>June 8,1916.</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-10-08T07:58:08" who="#Lainey">
+                
+                    Page 6629 modified:
+                    <!-- 
+<date>June 8,1916.</date>
+
+<address><sic>Honorable</sic> W. Bourke Cockran,
+New York City, N.Y.</address>
+
+<salute>Dear Mr. Cockran:</salute>
+<p>We have started an Irish Relief Fund Committee and at a conference last night with Arch bishop Glennon it was agreed by all that it would be most desirable to have you speak here for the Cause some time during this month. Our people are neither so numerous nor so enthusiastic here as in your own City or Philadelphia or Chicago and need inspiration such as only you can give. A great number would come to hear you who would probably not attend to hear any other speaker and we believe we could give you a reception that would that would be in every way worthy of the Cause and of yourself.I <sic>earneatly</sic> hope that you can comply with our request and that you will send me a line or a wire at the earliest possible moment advising me what date you will find convenient to be here.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-10-08T08:00:01" who="#Lainey">
+                
+                    Page 6629 modified:
+                    <!-- 
+<date>June 8,1916.</date>
+
+<address><sic>Honorable</sic> W. Bourke Cockran,
+New York City, N.Y.</address>
+
+<salute>Dear Mr. Cockran:</salute>
+<p>We have started an Irish Relief Fund Committee and at a conference last night with Arch bishop Glennon it was agreed by all that it would be most desirable to have you speak here for the Cause some time during this month. Our people are neither so numerous nor so enthusiastic here as in your own City or Philadelphia or Chicago and need inspiration such as only you can give. A great number would come to hear you who would probably not attend to hear any other speaker and we believe we could give you a reception that would that would be in every way worthy of the Cause and of yourself.I <sic>earneatly</sic> hope that you can comply with our request and that you will send me a line or a wire at the earliest possible moment advising me what date you will find convenient to be here.</p>
+<p>I shall always recall with pleasure the hours we were together in Chicago and the almost <sic> majical</sic> way in which the crowds were parted to let us get to  and from the reviewing stand. With cordial good wishes</p>
+
+<salute>Sincerely yours,
+R-O.</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-10-14T13:50:14" who="#Comber">
+                
+                    Page 6629 modified:
+                    <!-- 
+<date>June 8,1916.</date>
+
+<address><sic>Honorable</sic> W. Bourke Cockran,
+New York City, N.Y.</address>
+
+<salute>Dear Mr. Cockran:</salute>
+<p>We have started an Irish Relief Fund<lb/>
+ Committee and at a conference last night with Archbishop<lb/>
+ Glennon it was agreed by all that it would be<lb/>
+ most desirable to have you speak here for the Cause<lb/>
+ some time during this month. Our people are neither<lb/>
+ so numerous nor so enthusiastic here as in your own<lb/>
+ City or Philadelphia or Chicago and need inspiration<lb/>
+ such as only you can give. A great number would come<lb/>
+ to hear you who would probably not attend to hear any<lb/>
+ other speaker and we believe we could give you a reception<lb/>
+ that would that would be in every way worthy of the Cause<lb/>
+ and of yourself.I <sic>earneatly</sic> hope that you can comply<lb/>
+ with our request and that you will send me a line or<lb/>
+ a wire at the earliest possible moment advising me what<lb/>
+ date you will find convenient to be here.</p>
+<p>I shall always recall with pleasure<lb/>
+ the hours we were together in Chicago and the almost<lb/>
+ <sic> majical</sic> way in which the crowds were parted to let us<lb/>
+ get to  and from the reviewing stand. With cordial good wishes</p>
+
+<salute>Sincerely yours</salute>,
+R-O. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-02T20:38:49" who="#MaryGrehan">
+                
+                    Page 6629 modified:
+                    <!-- 
+<date>June8,16</date>                                                                                                                                                                             
+
+<address>Honourable W. Bourke Cockran
+<lb/>New York City, N. Y.</address> 
+         
+<salute>Dear Mr. Cockran:</salute>
+
+<p>We have started an Irish Relief Fund
+<lb/> Committee and at a conference last night with Arch
+<lb/>bishop Glennon it was agreed by all that it would be
+<lb/> most desirable to have you speak here for the Cause
+<lb/> some time during this month. Our people are neither
+<lb/> so numerous nor so enthusiastic here as in your own
+<lb/> City or Philadelphia or Chicago and need inspiration
+<lb/> such as only you can give. A great number would come
+<lb/> to hear you who would probably not attend to hear any
+<lb/> other speaker and we believe we could give you a reception
+<lb/> that would that would be in every way worthy of the Cause
+<lb/> and of yourself.I <sic>earneatly</sic> hope that you can comply<lb/>
+ with our request and that you will send me a line or
+<lb/> a wire at the earliest possible moment advising me what<lb/>
+ date you will find convenient to be here.</p>
+<p>I shall always recall with pleasure
+<lb/> the hours we were together in Chicago and the almost
+<lb/> <sic> majical</sic> way in which the crowds were parted to let us
+<lb/> get to  and from the reviewing stand. With cordial good wishes</p>
+
+<salute>Sincerely yours</salute>,
+R-O. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-17T17:58:20" who="#Tbrosnan">
+                
+                    Page 6629 modified:
+                    <!-- 
+<date>June 8,16</date>                                                                                                                                                                             
+
+<address>Honorable W. Bourke Cockran
+<lb/>New York City, N. Y.</address> 
+         
+<salute>Dear Mr. Cockran:</salute>
+
+<p>We have started an Irish Relief Fund
+<lb/> Committee and at a conference last night with Arch
+<lb/>bishop Glennon it was agreed by all that it would be
+<lb/> most desirable to have you speak here for the Cause
+<lb/> some time during this month. Our people are neither
+<lb/> so numerous nor so enthusiastic here as in your own
+<lb/> City or Philadelphia or Chicago and need inspiration
+<lb/> such as only you can give. A great number would come
+<lb/> to hear you who would probably not attend to hear any
+<lb/> other speaker and we believe we could give you a reception
+<lb/> that would that would be in every way worthy of the Cause
+<lb/> and of yourself.I <sic>earneatly</sic> hope that you can comply<lb/>
+ with our request and that you will send me a line or
+<lb/> a wire at the earliest possible moment advising me what<lb/>
+ date you will find convenient to be here.</p>
+<p>I shall always recall with pleasure
+<lb/> the hours we were together in Chicago and the almost
+<lb/> magical  way in which the crowds were parted to let us
+<lb/> get to  and from the reviewing stand. With cordial good wishes</p>
+
+<salute>Sincerely yours</salute>,
+R-O. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-20T21:38:36" who="#Delmacarroll">
+                
+                    Page 6629 modified:
+                    <!-- 
+<date>June 8,16</date>                                                                                                                                                                             
+
+<address>Honorable W. Bourke Cockran
+<lb/>New York City, N. Y.</address> 
+         
+<salute>Dear Mr. Cockran:</salute>
+
+<p>We have started an Irish Relief Fund
+<lb/> Committee and at a conference last night with Arch
+<lb/>bishop Glennon it was agreed by all that it would be
+<lb/> most desirable to have you speak here for the Cause
+<lb/> some time during this month. Our people are neither
+<lb/> so numerous nor so enthusiastic here as in your own
+<lb/> City or Philadelphia or Chicago and need inspiration
+<lb/> such as only you can give. A great number would come
+<lb/> to hear you who would probably not attend to hear any
+<lb/> other speaker and we believe we could give you a reception
+<lb/> that would that would be in every way worthy of the Cause
+<lb/> and of yourself.I  earnestly  hope that you can comply
+<lb/>  with our request and that you will send me a line or
+<lb/> a wire at the earliest possible moment advising me what
+<lb/> date you will find convenient to be here.</p>
+<p>I shall always recall with pleasure
+<lb/> the hours we were together in Chicago and the almost
+<lb/> magical  way in which the crowds were parted to let us
+<lb/> get to  and from the reviewing stand. With cordial good
+<lb/> wishes</p>
+
+<salute>Sincerely yours</salute>,
+R-O. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T12:18:21" who="#NR">
+                
+                    Page 6629 modified:
+                    <!-- 
+<date>June 8,16</date>                                                                                                                                                                             
+
+<address>Honorable W. Bourke Cockran
+<lb/>New York City, N. Y.</address> 
+         
+<salute>Dear Mr. Cockran:</salute>
+
+<p>We have started an Irish Relief Fund
+<lb/> Committee and at a conference last night with Arch
+<lb/>bishop Glennon it was agreed by all that it would be
+<lb/> most desirable to have you speak here for the Cause
+<lb/> some time during this month. Our people are neither
+<lb/> so numerous nor so enthusiastic here as in your own
+<lb/> City or Philadelphia or Chicago and need inspiration
+<lb/> such as only you can give. A great number would come
+<lb/> to hear you who would probably not attend to hear any
+<lb/> other speaker and we believe we could give you a reception
+<lb/> that would that would be in every way worthy of the Cause
+<lb/> and of yourself.I  earnestly  hope that you can comply
+<lb/>  with our request and that you will send me a line or
+<lb/> a wire at the earliest possible moment advising me what
+<lb/> date you will find convenient to be here.</p>
+<p>I shall always recall with pleasure
+<lb/> the hours we were together in Chicago and the almost
+<lb/> magical  way in which the crowds were parted to let us
+<lb/> get to  and from the reviewing stand. With cordial good
+<lb/> wishes</p>
+
+<salute>Sincerely yours</salute>,
+<lb/>R-O. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6629 created using version from <date when="2015-10-08T07:51:57"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6629 removed (version from <date when="2015-10-08T07:51:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6629 removed (version from <date when="2015-10-08T07:58:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6629 removed (version from <date when="2015-10-08T08:00:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6629 removed (version from <date when="2015-10-14T13:50:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6629 removed (version from <date when="2015-12-02T20:38:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6629 removed (version from <date when="2015-12-17T17:58:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6629 removed (version from <date when="2015-12-20T21:38:36"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6629 removed (version from <date when="2016-01-20T12:18:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 6629 (version from <date when="2016-01-20T12:18:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:22" who="#PythonScript">
+                
+                    Clean tags: Page 6629 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:25" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:30" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:37" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:31" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:37" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2456_img_6629" url="d4e28d510aff46835a95ec1363d1f913.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="6629" facs="#L1916_2456_img_6629"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><dateline><date>June 8,16</date></dateline></opener>                                                                                                                                                                             
+
+<address>Honorable W. Bourke Cockran
+<lb/>New York City, N. Y.</address> 
+         
+<salute>Dear Mr. Cockran:</salute>
+
+<p>We have started an Irish Relief Fund
+<lb/> Committee and at a conference last night with Arch
+<lb/>bishop Glennon it was agreed by all that it would be
+<lb/> most desirable to have you speak here for the Cause
+<lb/> some time during this month. Our people are neither
+<lb/> so numerous nor so enthusiastic here as in your own
+<lb/> City or Philadelphia or Chicago and need inspiration
+<lb/> such as only you can give. A great number would come
+<lb/> to hear you who would probably not attend to hear any
+<lb/> other speaker and we believe we could give you a reception
+<lb/> that would that would be in every way worthy of the Cause
+<lb/> and of yourself.I  earnestly  hope that you can comply
+<lb/>  with our request and that you will send me a line or
+<lb/> a wire at the earliest possible moment advising me what
+<lb/> date you will find convenient to be here.</p>
+<p>I shall always recall with pleasure
+<lb/> the hours we were together in Chicago and the almost
+<lb/> magical  way in which the crowds were parted to let us
+<lb/> get to  and from the reviewing stand. With cordial good
+<lb/> wishes</p>
+
+<closer><salute>Sincerely yours</salute></closer>,
+<lb/>R-O.
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

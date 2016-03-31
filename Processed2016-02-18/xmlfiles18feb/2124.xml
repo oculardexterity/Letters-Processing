@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2124">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Olive Duffin to Ruth Duffin, 31 March 1916</title>
+                
+                <author>Olive Duffin</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="LS">Linda Spinazzè</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="VDG">Vinayak Das Gupta</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Alib22">Alib22</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tomroux">Tomroux</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2124</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from Olive Duffin to her sister Ruth. In this letter Olive discusses how her sisters Emma (1883-1979) and Dorothy are getting on, specifically travel arrangements and Dorothy’s new job with the admiralty. Olive also mentions a possible job for Marjorie as a female chauffeur. Olive offers to enclose the prospectus for the driving school with her letter.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>This letter is part of a rich correspondence between various members of the Duffin family, a large prosperous family living in Strandtown, Belfast. Several family members served in the war, including Major Terence Duffin, who was a staff officer with 107 Brigade, and later with Royal Irish Rifles; Major Charles G Duffin MC, Royal Field Artillery; and their sisters Emma, Celia and Dorothy who served as Voluntary Aid Detachments (VADS) in Egypt and France, and with the YMCA.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Duffin Papers, D2109/10/1/C/36
+                             
+                        -->
+                            
+                                <collection type='public'>Duffin Papers</collection>
+                            
+                            
+                        <idno>D2109/10/1/C/36</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Ruth Duffin -->
+                        
+                        <persName ref="#Duffin_R">Ruth Duffin</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Olive Duffin -->
+                        
+                        <persName ref="#Duffin_O">Olive Duffin</persName>
+                    
+                
+                
+                 
+                    
+                    <placeName  ref="MISSING">7 West Cliff, England</placeName>
+                    
+                
+                    
+                    <date when="1916-03-31">31 March 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Female</item>
+                      
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                            
+                            <item n="tag">Family life</item>
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-04-28T09:45:19" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-04-28T09:45:19" who="#Tomroux">
+                
+                    Page 5387 modified:
+                    <!-- 
+<add>D2109/10/1/C</add><lb/>
+<address>7 West Cliff</address><lb/>
+<date>31<hi rend="superscript">st</hi> March 1916</date><lb/>
+<salute>My dear Ruth,</salute><lb/>
+<p>I suppose Emma has got home by now but she must have had <lb/>an awful journey as the railways are still all blocked as the result of <lb/>the storm. We did not get the worst of it here, but it was bad enough <lb/>and I am thankful this morning it is much warmer and looks as if <sic>thar</sic> <lb/>weather was really over and there might be a chance of Spring at last.</p><lb/>
+<p>I heard from Dorothy this morning, poor thing she is I am sure in an <lb/>awful fright but I am so pleased to hear she happened by a bit of luck <lb/>to hear of the lady wanting a tenant for a room in her flat for it sounds <lb/>much nicer than a boarding house or hostel and is very cheap, and if <lb/>the other people turned out decent it would be some company.</p><lb/>
+<p>Of course the hours and the pay are very bad and would really not be <lb/>worth keeping unless there was some chance of promotion, but it will be <lb/>a kind of trial trip and <sic>experienceand</sic> may lead to something else. <lb/>I've been making all enquiries I can for some time now, asking everyone <lb/>about work and spay and conditions and it is very discouraging, all the <lb/>hours are terribly long and pay not capable of being lived upon under <lb/>present conditions, rooms very hard to find.</p><lb/>
+<sic>Hve</sic> you any idea of what Marjorie thinks of doing? Or what she <lb/>would like to do. Do you think she would care to come to London and <lb/>take this course of training in motor mechanism and driving? I enclose <lb/>the prospectus. I know she is interested in it and it might just be <lb/>an occupation for her for a time. I am awfully taken with it and would <lb/>love to do it, the fees are very low and the whole thing sounds most <lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-28T09:56:12" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-04-28T09:56:12" who="#Tomroux">
+                
+                    Page 5388 modified:
+                    <!-- 
+<add>D2109/10/1/C</add><lb/>
+<p>businesslike. is eels that women chauffeuses are really wanted now <lb/>and it would be very useful to know. I think it is quite possible that <lb/>I could arrange with Miss Roberts to leave for a time even if not for <lb/>altogether, she can always get odd friends to come especially in the <del>summ</del> <lb/>summer and she likes nothing so much as a variety. May Darbyshire is <lb/>coming to her on the 15th for a fortnight so I shall be on the loose then.</p> <lb/>
+<p>I have <sic>alittle</sic> money in hand and then there will be the £50 and it <lb/>might not be a bad investment. Anyhow will you study the enclosed and <lb/>also sound Marjorie as to what she thinks, it might just be the distract<lb/>ion she needs, but I have heard so little I <sic>dont</sic>  know what her ideas may <lb/>be. Tell her I have also discovered a First Aid Yeomanry Nursing Corps <lb/>which sends members abroad in different capacities, paying a small sum for <lb/>themselves.</p><lb/>
+<p>I am just off now to pick tow at the Depot, a very wearisome <lb/>job! Do you know what is a good speed at <sic>typeing</sic> I can do 1800 <lb/>an hour now but not with great accuracy?</p><pb/>
+<salute>Much love to all <lb/>Yours ever<lb/>Olive.</salute><lb/>
+<p>P.S. Tell Emma I forgot she owed me ten shillings but I think she paid <lb/>some things I forgot about too. I wish you were having a little <lb/>change for your holiday.</p><lb/>
+<note>Return papers<lb/><hi rend="underline">please</hi>.</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-02T18:19:49" who="#Alib22">
+                
+                    Page 5387 modified:
+                    <!-- 
+<add>D2109/10/1/C</add><lb/>
+<address>7 West Cliff.</address><lb/>
+<date>31<hi rend="superscript">st</hi> March, 1916.</date><lb/>
+<salute>My dear Ruth,</salute><lb/>
+<p>I suppose Emma has got home by now but she must have had <lb/>an awful journey as the railways are still all blocked as the result of <lb/>the storm. We did not get the worst of it here, but it was bad enough <lb/>and I am thankful this morning it is much warmer and looks as if <sic>thar</sic> <lb/>weather was really over and there might be a chance of Spring at last.<lb/>
+<p>I heard from Dorothy this morning, poor thing she is I am sure in an <lb/>awful fright but I am so pleased to hear she happened by a bit of luck <lb/>to hear of the lady wanting a tenant for a room in her flat for it sounds <lb/>much nicer than a boarding house or hostel and is very cheap, and if <lb/>the other people turned out decent it would be some company.</p> <lb/>
+<p>Of course the hours and the pay are very bad and would really not be <lb/>worth keeping unless there was some chance of promotion, but it will be <lb/>a kind of trial trip and <sic>experienceand</sic> may lead to something else.</p> <lb/>I've been making all enquiries I can for some time now , asking everyone <lb/>about work and pay and conditions and it is very discouraging, all the <lb/>hours are terribly long and pay not capable of being lived upon under <lb/>present conditions, rooms very hard to find.</p><lb/>
+<sic>Hve</sic> you any idea of what Marjorie thinks of doing? Or what she <lb/>would like to do. Do you think she would care to come to London and <lb/>take this course of training in motor mechanism and driving<unclear>?</unclear> I enclose <lb/>the prospectus. I know she is interested in it and it might just be <lb/>an occupation for her for a time. I am awfully taken with it and would <lb/>love to do it , the fees are very low and the whole thing sounds most <lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-02T18:27:42" who="#Alib22">
+                
+                    Page 5388 modified:
+                    <!-- 
+<add>D2109/10/1/C</add><lb/>
+<p>businesslike. It <sic>semms</sic> that women chauffeuses are really wanted now <lb/>and it would be very useful to know. I think it is quite possible that <lb/>I could arrange with Miss Roberts to leave for a time even if not for <lb/>altogether, she can always get odd friends to come especially in the <del>summ</del> <lb/>summer and she likes nothing so much as a variety. May Darbyshire is <lb/>coming to her on the 15th for a fortnight so I shall be on the loose then.</p> <lb/>
+<p>I have <sic>alittle</sic> money in hand and then there will be the £50 and it <lb/>might not be a bad investment. Anyhow will you study the enclosed and <lb/>also sound Marjorie as to what she thinks , it might just be the distraction<lb/> she needs, but I have heard so little I <sic>dont</sic>  know what her ideas may <lb/>be. Tell her I have also discovered a First Aid Yeomanry Nursing Corps <lb/>which sends members abroad in different capacities, paying a small sum for <lb/>themselves.</p><lb/>
+<p>I am just off now to pick tow at the Depot, a very wearisome <lb/>job! Do you know what is a good speed at <sic>typeing</sic> I can do 1800 <lb/>an hour now but not with great accuracy?</p><pb/>
+<salute>Much love to all <lb/>Yours ever<lb/>Olive.</salute><lb/>
+<p>P.S. Tell Emma I forgot she owed me ten shillings but I think she paid <lb/>some things I forgot about too. I wish you were having a little<lb/> change for your holiday.</p><lb/>
+<note>Return papers <hi rend="underline">please</hi>.</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T11:48:36" who="#VDG">
+                
+                    Page 5387 modified:
+                    <!-- 
+<address>7 West Cliff.</address><lb/>
+<date>31st March, 1916.</date><lb/>
+<salute>My dear Ruth,</salute><lb/>
+<p>I suppose Emma has got home by now but she must have had <lb/>
+an awful journey as the railways are still all blocked as the result of <lb/>
+the storm. We did not get the worst of it here, but it was bad enough <lb/>
+and I am thankful this morning it is much warmer and looks as if <sic>thar</sic> <lb/>
+weather was really over and there might be a chance of Spring at last.</p>
+<p>I heard from Dorothy this morning, poor thing she is I am sure in an <lb/>
+awful fright but I am so pleased to hear she happened by a bit of luck <lb/>
+to hear of the lady wanting a tenant for a room in her flat for it sounds <lb/>
+much nicer than a boarding house or hostel and is very cheap, and if <lb/>
+the other people turned out decent it would be some company.</p> 
+<p>Of course the hours and the pay are very bad and would really not be <lb/>
+worth keeping unless there was some chance of promotion, but it will be <lb/>
+a kind of trial trip and <sic>experienceand</sic> may lead to something else.</p> 
+I've been making all enquiries I can for some time now , asking everyone <lb/>
+about work and pay and conditions and it is very discouraging, all the <lb/>
+hours are terribly long and pay not capable of being lived upon under <lb/>
+present conditions, rooms very hard to find.</p>
+<p><sic>Hve</sic> you any idea of what Marjorie thinks of doing? Or what she <lb/>
+would like to do. Do you think she would care to come to London and <lb/>
+take this course of training in motor mechanism and driving<unclear>?</unclear> I enclose <lb/>
+the prospectus. I know she is interested in it and it might just be <lb/>
+an occupation for her for a time. I am awfully taken with it and would <lb/>
+love to do it , the fees are very low and the whole thing sounds most <lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T11:52:11" who="#VDG">
+                
+                    Page 5387 modified:
+                    <!-- 
+<address>7 West Cliff.</address><lb/>
+<date>31st March, 1916.</date><lb/>
+<salute>My dear Ruth,</salute><lb/>
+<p>I suppose Emma has got home by now but she must have had <lb/>
+an awful journey as the railways are still all blocked as the result of <lb/>
+the storm. We did not get the worst of it here, but it was bad enough <lb/>
+and I am thankful this morning it is much warmer and looks as if <sic>thar</sic> <lb/>
+weather was really over and there might be a chance of Spring at last.</p>
+<p>I heard from Dorothy this morning, poor thing she is I am sure in an <lb/>
+awful fright but I am so pleased to hear she happened by a bit of luck <lb/>
+to hear of the lady wanting a tenant for a room in her flat for it sounds <lb/>
+much nicer than a boarding house or hostel and is very cheap, and if <lb/>
+the other people turned out decent it would be some company.</p> 
+<p>Of course the hours and the pay are very bad and would really not be <lb/>
+worth keeping unless there was some chance of promotion, but it will be <lb/>
+a kind of trial trip and <sic>experienceand</sic> may lead to something else.</p> 
+I've been making all enquiries I can for some time now , asking everyone <lb/>
+about work and pay and conditions and it is very discouraging, all the <lb/>
+hours are terribly long and pay not capable of being lived upon under <lb/>
+present conditions, rooms very hard to find.</p>
+<p><sic>Hve</sic> you any idea of what Marjorie thinks of doing? Or what she <lb/>
+would like to do. Do you think she would care to come to London and <lb/>
+take this course of training in motor mechanism and driving<unclear>?</unclear> I enclose <lb/>
+the prospectus. I know she is interested in it and it might just be <lb/>
+an occupation for her for a time. I am awfully taken with it and would <lb/>
+love to do it , the fees are very low and the whole thing sounds most <lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T11:55:18" who="#VDG">
+                
+                    Page 5388 modified:
+                    <!-- 
+</lb>businesslike. It <sic>semms</sic> that women chauffeuses are really wanted now 
+<lb/>and it would be very useful to know. I think it is quite possible that 
+<lb/>I could arrange with Miss Roberts to leave for a time even if not for 
+<lb/>altogether, she can always get odd friends to come especially in the <del>summ</del> 
+<lb/>summer and she likes nothing so much as a variety. May Darbyshire is 
+<lb/>coming to her on the 15th for a fortnight so I shall be on the loose then.</p> 
+<p>I have <sic>alittle</sic> money in hand and then there will be the £50 and it 
+<lb/>might not be a bad investment. Anyhow will you study the enclosed and 
+<lb/>also sound Marjorie as to what she thinks , it might just be the distraction 
+<lb/>she needs, but I have heard so little I <sic>dont</sic>  know what her ideas may 
+<lb/>be. Tell her I have also discovered a First Aid Yeomanry Nursing Corps 
+<lb/>which sends members abroad in different capacities, paying a small sum for 
+<lb/>themselves.</p>
+<p>I am just off now to pick tow at the Depot, a very wearisome 
+<lb/>job! Do you know what is a good speed at <sic>typeing</sic> I can do 1800 
+<lb/>an hour now but not with great accuracy?</p>
+<p><salute>Much love to all 
+<lb/>Yours ever
+<lb/>Olive.</salute></p>
+<p>P.S. Tell Emma I forgot she owed me ten shillings but I think she paid 
+<lb/>some things I forgot about too. I wish you were having a little
+<lb/> change for your holiday.</p>
+<note>Return papers <hi rend="underline">please</hi>.</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T15:01:19" who="#LS">
+                
+                    Page 5387 modified:
+                    <!-- 
+<address>7 West Cliff.</address>
+<date>31st March, 1916.</date>
+<salute>My dear Ruth,</salute>
+<p>I suppose Emma has got home by now but she must have had <lb/>
+an awful journey as the railways are still all blocked as the result of <lb/>
+the storm. We did not get the worst of it here, but it was bad enough <lb/>
+and I am thankful this morning it is much warmer and looks as if <sic>thar</sic> <lb/>
+weather was really over and there might be a chance of Spring at last.</p>
+<p>I heard from Dorothy this morning, poor thing she is I am sure in an <lb/>
+awful fright but I am so pleased to hear she happened by a bit of luck <lb/>
+to hear of the lady wanting a tenant for a room in her flat for it sounds <lb/>
+much nicer than a boarding house or hostel and is very cheap, and if <lb/>
+the other people turned out decent it would be some company.</p> 
+<p>Of course the hours and the pay are very bad and would really not be <lb/>
+worth keeping unless there was some chance of promotion, but it will be <lb/>
+a kind of trial trip and <sic>experienceand</sic> may lead to something else.</p> 
+I've been making all enquiries I can for some time now , asking everyone <lb/>
+about work and pay and conditions and it is very discouraging, all the <lb/>
+hours are terribly long and pay not capable of being lived upon under <lb/>
+present conditions, rooms very hard to find.</p>
+<p><sic>Hve</sic> you any idea of what Marjorie thinks of doing? Or what she <lb/>
+would like to do. Do you think she would care to come to London and <lb/>
+take this course of training in motor mechanism and driving<unclear>?</unclear> I enclose <lb/>
+the prospectus. I know she is interested in it and it might just be <lb/>
+an occupation for her for a time. I am awfully taken with it and would <lb/>
+love to do it , the fees are very low and the whole thing sounds most <lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T15:04:18" who="#LS">
+                
+                    Page 5388 modified:
+                    <!-- 
+</lb>businesslike. It <sic>semms</sic> that women chauffeuses are really wanted now 
+<lb/>and it would be very useful to know. I think it is quite possible that 
+<lb/>I could arrange with Miss Roberts to leave for a time even if not for 
+<lb/>altogether, she can always get odd friends to come especially in the <del>summ</del> 
+<lb/>summer and she likes nothing so much as a variety. May Darbyshire is 
+<lb/>coming to her on the 15th for a fortnight so I shall be on the loose then.</p> 
+<p>I have <sic>alittle</sic> money in hand and then there will be the £50 and it 
+<lb/>might not be a bad investment. Anyhow will you study the enclosed and 
+<lb/>also sound Marjorie as to what she thinks , it might just be the distraction 
+<lb/>she needs, but I have heard so little I <sic>dont</sic>  know what her ideas may 
+<lb/>be. Tell her I have also discovered a First Aid Yeomanry Nursing Corps 
+<lb/>which sends members abroad in different capacities, paying a small sum for 
+<lb/>themselves.</p>
+<p>I am just off now to pick tow at the Depot, a very wearisome 
+<lb/>job! Do you know what is a good speed at <sic>typeing</sic> I can do 1800 
+<lb/>an hour now but not with great accuracy?</p>
+<salute>Much love to all 
+<lb/>Yours ever
+<lb/>Olive.</salute>
+<note>P.S. Tell Emma I forgot she owed me ten shillings but I think she paid 
+<lb/>some things I forgot about too. I wish you were having a little
+<lb/> change for your holiday.</note>
+<note>Return papers <hi rend="underline">please</hi>.</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T16:38:39" who="#LS">
+                
+                    Page 5387 modified:
+                    <!-- 
+<address>7 West Cliff.</address>
+<date>31st March, 1916.</date>
+<salute>My dear Ruth,</salute>
+<p>I suppose Emma has got home by now but she must have had <lb/>
+an awful journey as the railways are still all blocked as the result of <lb/>
+the storm. We did not get the worst of it here, but it was bad enough <lb/>
+and I am thankful this morning it is much warmer and looks as if <sic>thar</sic> <lb/>
+weather was really over and there might be a chance of Spring at last.</p>
+<p>I heard from Dorothy this morning, poor thing she is I am sure in an <lb/>
+awful fright but I am so pleased to hear she happened by a bit of luck <lb/>
+to hear of the lady wanting a tenant for a room in her flat for it sounds <lb/>
+much nicer than a boarding house or hostel and is very cheap, and if <lb/>
+the other people turned out decent it would be some company.</p> 
+<p>Of course the hours and the pay are very bad and would really not be <lb/>
+worth keeping unless there was some chance of promotion, but it will be <lb/>
+a kind of trial trip and <sic>experienceand</sic> may lead to something else.</p> 
+I've been making all enquiries I can for some time now , asking everyone <lb/>
+about work and pay and conditions and it is very discouraging, all the <lb/>
+hours are terribly long and pay not capable of being lived upon under <lb/>
+present conditions, rooms very hard to find.</p>
+<p><sic>Hve</sic> you any idea of what Marjorie thinks of doing? Or what she <lb/>
+would like to do. Do you think she would care to come to London and <lb/>
+take this course of training in motor mechanism and driving<unclear>?</unclear> I enclose <lb/>
+the prospectus. I know she is interested in it and it might just be <lb/>
+an occupation for her for a time. I am awfully taken with it and would <lb/>
+love to do it , the fees are very low and the whole thing sounds most <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T13:56:20" who="#NR">
+                
+                    Page 5387 modified:
+                    <!-- 
+<address>7 West Cliff.</address>
+<date>31st March, 1916.</date>
+<salute>My dear Ruth,</salute>
+<p>I suppose Emma has got home by now but she must have had <lb/>
+an awful journey as the railways are still all blocked as the result of <lb/>
+the storm. We did not get the worst of it here, but it was bad enough <lb/>
+and I am thankful this morning it is much warmer and looks as if <sic>thar</sic> <lb/>
+weather was really over and there might be a chance of Spring at last.</p>
+<p>I heard from Dorothy this morning, poor thing she is I am sure in an <lb/>
+awful fright but I am so pleased to hear she happened by a bit of luck <lb/>
+to hear of the lady wanting a tenant for a room in her flat for it sounds <lb/>
+much nicer than a boarding house or hostel and is very cheap, and if <lb/>
+the other people turned out decent it would be some company.</p> 
+<p>Of course the hours and the pay are very bad and would really not be <lb/>
+worth keeping unless there was some chance of promotion, but it will be <lb/>
+a kind of trial trip and <sic>experienceand</sic> may lead to something else.</p> 
+I've been making all enquiries I can for some time now , asking everyone <lb/>
+about work and pay and conditions and it is very discouraging, all the <lb/>
+hours are terribly long and pay not capable of being lived upon under <lb/>
+present conditions, rooms very hard to find.</p>
+<p><sic>Hve</sic> you any idea of what Marjorie thinks of doing? Or what she <lb/>
+would like to do. Do you think she would care to come to London and <lb/>
+take this course of training in motor mechanism and driving<unclear>?</unclear> I enclose <lb/>
+the prospectus. I know she is interested in it and it might just be <lb/>
+an occupation for her for a time. I am awfully taken with it and would <lb/>
+love to do it , the fees are very low and the whole thing sounds most 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T13:56:53" who="#NR">
+                
+                    Page 5388 modified:
+                    <!-- 
+</lb>businesslike. It <sic>semms</sic> that women chauffeuses are really wanted now 
+<lb/>and it would be very useful to know. I think it is quite possible that 
+<lb/>I could arrange with Miss Roberts to leave for a time even if not for 
+<lb/>altogether, she can always get odd friends to come especially in the <del>summ</del> 
+<lb/>summer and she likes nothing so much as a variety. May Darbyshire is 
+<lb/>coming to her on the 15th for a fortnight so I shall be on the loose then.</p> 
+<p>I have <sic>alittle</sic> money in hand and then there will be the £50 and it 
+<lb/>might not be a bad investment. Anyhow will you study the enclosed and 
+<lb/>also sound Marjorie as to what she thinks , it might just be the distraction 
+<lb/>she needs, but I have heard so little I <sic>dont</sic>  know what her ideas may 
+<lb/>be. Tell her I have also discovered a First Aid Yeomanry Nursing Corps 
+<lb/>which sends members abroad in different capacities, paying a small sum for 
+<lb/>themselves.</p>
+<p>I am just off now to pick tow at the Depot, a very wearisome 
+<lb/>job! Do you know what is a good speed at <sic>typeing</sic> I can do 1800 
+<lb/>an hour now but not with great accuracy?</p>
+<salute>Much love to all 
+<lb/>Yours ever</salute>
+<signed>Olive.</signed>
+<note>P.S. Tell Emma I forgot she owed me ten shillings but I think she paid 
+<lb/>some things I forgot about too. I wish you were having a little
+<lb/> change for your holiday.</note>
+<note>Return papers <hi rend="underline">please</hi>.</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5387 created using version from <date when="2015-04-28T09:45:19"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5387 removed (version from <date when="2015-04-28T09:45:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5387 removed (version from <date when="2015-05-02T18:19:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5387 removed (version from <date when="2016-01-28T11:48:36"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5387 removed (version from <date when="2016-01-28T11:52:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5387 removed (version from <date when="2016-01-29T15:01:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5387 removed (version from <date when="2016-01-29T16:38:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5387 removed (version from <date when="2016-02-03T13:56:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5388 created using version from <date when="2015-04-28T09:56:12"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5388 removed (version from <date when="2015-04-28T09:56:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5388 removed (version from <date when="2015-05-02T18:27:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5388 removed (version from <date when="2016-01-28T11:55:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5388 removed (version from <date when="2016-01-29T15:04:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5388 removed (version from <date when="2016-02-03T13:56:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 5387 (version from <date when="2016-02-03T13:56:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5388 added to letter (version from <date when="2016-02-03T13:56:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:16" who="#PythonScript">
+                
+                    Clean tags: Page 5387 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:16" who="#PythonScript">
+                
+                    Clean tags: Page 5388 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:28" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:33" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:54" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:54" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2124_img_5387" url="66b04d6b1f8a07e62697694bc0490d9d.jpg"/> 
+    
+    <graphic xml:id="L1916_2124_img_5388" url="70caf78a9f4175e176e4153f87a6d8cc.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="5387" facs="#L1916_2124_img_5387"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>7 West Cliff.</addrLine></address>
+<dateline><date>31st March, 1916.</date></dateline>
+<salute>My dear Ruth,</salute></opener>
+<p>I suppose Emma has got home by now but she must have had <lb/>
+an awful journey as the railways are still all blocked as the result of <lb/>
+the storm. We did not get the worst of it here, but it was bad enough <lb/>
+and I am thankful this morning it is much warmer and looks as if <sic>thar</sic> <lb/>
+weather was really over and there might be a chance of Spring at last.</p>
+<p>I heard from Dorothy this morning, poor thing she is I am sure in an <lb/>
+awful fright but I am so pleased to hear she happened by a bit of luck <lb/>
+to hear of the lady wanting a tenant for a room in her flat for it sounds <lb/>
+much nicer than a boarding house or hostel and is very cheap, and if <lb/>
+the other people turned out decent it would be some company.</p> 
+<p>Of course the hours and the pay are very bad and would really not be <lb/>
+worth keeping unless there was some chance of promotion, but it will be <lb/>
+a kind of trial trip and <sic>experienceand</sic> may lead to something else.</p> 
+I've been making all enquiries I can for some time now , asking everyone <lb/>
+about work and pay and conditions and it is very discouraging, all the <lb/>
+hours are terribly long and pay not capable of being lived upon under <lb/>
+present conditions, rooms very hard to find.</p>
+<p><sic>Hve</sic> you any idea of what Marjorie thinks of doing? Or what she <lb/>
+would like to do. Do you think she would care to come to London and <lb/>
+take this course of training in motor mechanism and driving<unclear>?</unclear> I enclose <lb/>
+the prospectus. I know she is interested in it and it might just be <lb/>
+an occupation for her for a time. I am awfully taken with it and would <lb/>
+love to do it , the fees are very low and the whole thing sounds most
+        
+    
+
+    
+         
+        <pb n="5388" facs="#L1916_2124_img_5388"/>
+        
+        
+           
+            <lb/>businesslike. It <sic>semms</sic> that women chauffeuses are really wanted now 
+<lb/>and it would be very useful to know. I think it is quite possible that 
+<lb/>I could arrange with Miss Roberts to leave for a time even if not for 
+<lb/>altogether, she can always get odd friends to come especially in the <del>summ</del> 
+<lb/>summer and she likes nothing so much as a variety. May Darbyshire is 
+<lb/>coming to her on the 15th for a fortnight so I shall be on the loose then.</p> 
+<p>I have <sic>alittle</sic> money in hand and then there will be the £50 and it 
+<lb/>might not be a bad investment. Anyhow will you study the enclosed and 
+<lb/>also sound Marjorie as to what she thinks , it might just be the distraction 
+<lb/>she needs, but I have heard so little I <sic>dont</sic>  know what her ideas may 
+<lb/>be. Tell her I have also discovered a First Aid Yeomanry Nursing Corps 
+<lb/>which sends members abroad in different capacities, paying a small sum for 
+<lb/>themselves.</p>
+<p>I am just off now to pick tow at the Depot, a very wearisome 
+<lb/>job! Do you know what is a good speed at <sic>typeing</sic> I can do 1800 
+<lb/>an hour now but not with great accuracy?</p>
+<closer><salute>Much love to all 
+<lb/>Yours ever</salute>
+<signed>Olive.</signed></closer>
+<note>P.S. Tell Emma I forgot she owed me ten shillings but I think she paid 
+<lb/>some things I forgot about too. I wish you were having a little
+<lb/> change for your holiday.</note>
+<note>Return papers <hi rend="underline">please</hi>.</note>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

@@ -4,16 +4,19 @@ from Processor import Processor
 import Stream
 from fuzzywuzzy import fuzz, process
 
+from EditLogger import EditLogger
+
+editLogger = EditLogger()
 
 class BuildInstitutionRefs(Processor):
-	def __init__(self, inputFilePath, outputFilePath, instListFile, instSheet='Foglio1'):
+	def __init__(self, inputFilePath, outputFilePath, instListFile, instSheet='Foglio1', instColumn='NAME'):
 		self.resolve = self._addInstitutionRef
 		self.transform = self._addInstitutionRef
 		self.dict_key = 'Letter'
 		self.inputFilePath = inputFilePath
 		self.outputFilePath = outputFilePath
 
-		ins = Stream.Stream(instListFile, 'NAME', sheet=instSheet)
+		ins = Stream.Stream(instListFile, instColumn, sheet=instSheet)
 		self.institutionsDict = {k: v for k, v in ins.stream()}
 		self.choices = [k for k, v in self.institutionsDict.items()]
 
@@ -29,19 +32,14 @@ class BuildInstitutionRefs(Processor):
 		else:
 			return {'name': 'MISSING', 'ref': 'MISSING', 'matchPercent': match[1]}
 
+	@editLogger('Try to normalise institution refs', 'PythonScript')
 	def _addInstitutionRef(self, row):
 		new_row = row
 		if 'Source' in new_row:
 			new_row['InstitutionRefs'] = self._getInstitutionRef(row['Source'])
-		print(new_row['InstitutionRefs'])
+		#print(new_row['InstitutionRefs'])
 		return new_row
 
-'''
-files = Stream.Stream('Processed2016-02-16/shelves/ExtractorRPD_ExtractorMLP_FilterComplete_OmekaEditsLogged_TagsCleaned_PageTypesLogged_WrapOpener_FixAddrDateLines_BuildCollectionIdnos.shelve', 'Letter')
-
-for k, i in files.stream():
-
-		print(i['Source'], '---', getInstitutionRef(i['Source']))
 
 
 if __name__ == "__main__":
@@ -49,4 +47,3 @@ if __name__ == "__main__":
 	b = BuildInstitutionRefs('TEST2016-02-16/shelves/ExtractorRPD_ExtractorMLP_FilterComplete_OmekaEditsLogged_TagsCleaned_PageTypesLogged_WrapOpener_FixAddrDateLines_BuildCollectionIdnos.shelve',
 		'shelve_files/addedInst.shelve', 'spreadsheets/institution_ID.xlsx')
 	b.process()
-'''

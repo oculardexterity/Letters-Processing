@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2504">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Peter Mooney to his sister Katie Mooney, December 30th 1915</title>
+                
+                <author>Peter Mooney</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="RichardBreen">RichardBreen</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Meabhob">Meabhob</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2504</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>Letter from Peter Mooney (b.1886) to his sister, Katie (b.1884). Peter thanks Katie for her card and catches up on some of the family news from home.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Orphaned at age 7, Peter and his sister Katie were raised by their uncle William and his wife Mary in Caulstown. While there are no surviving enlistment papers for Peter, his War Badge Index Record shows his enlistment date as 18 October 1915. He served with the Royal Artillery and later transferred to the Royal Engineers where he was promoted to the rank of Sergeant. He served in several places at the Western Front, including Ypres, St. Omer and Passchendael. Peter and Kate were avid correspondents. This letter part of a collection of over ninety surviving letters.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Mooney Family Papers -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF INSTITUTION REF IS CORRECT --></VERIFY>
+                        
+                        <repository ref="#MISSING">MISSING</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Mooney Family Papers
+                             
+                        -->
+                            
+                                <collection type='public'>Mooney Family Papers</collection>
+                            
+                            
+                        <idno>Mooney Family Papers</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Katie Mooney -->
+                        
+                        <persName ref="#Mooney_K">Katie Mooney</persName>
+                    
+                
+                
+                
+                    
+                    <placeName  ref="MISSING">Caulstown, Dunboyne, Co. Meath, Ireland</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Peter Mooney -->
+                        
+                        <persName ref="#Mooney_P">Peter Mooney</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    Cork 
+                    Cork
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#Cork">5th Brigade, Royal Field Artillery, Ballincollig, Co. Cork, Ireland</placeName>
+                    
+                
+                    
+                    <date when="1915-12-30">30 December 1915</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1970</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                            <item n="tag">Country life</item>
+                            
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2016-01-16T13:01:52" who="#Meabhob">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2016-01-16T13:01:52" who="#Comber">
+                
+                    Page 6724 modified:
+                    <!-- 
+<!~~ Emblem stamp with following on banner  ~~>
+UBIOUE
+QUO FAS ET GLORIA DUCUNT
+<address>5th (B) Reserve Brigade R.F.A,<lb/>
+Ballincollig.</address>
+<date>Dec 30<hi rend="superscript">th</hi> 1915</date>
+<salute>Dear Katie.</salute>
+I received your letter<lb/>
+Card this morning. I am<lb/>
+glad to see by it that<lb/>
+you are all quite well.<lb/>
+The Wren boys seem to<lb/>
+have had a good time<lb/>
+this year. I would like<lb/>
+to see old Brindley on<lb/>
+the stairs I am sure<lb/>
+he enjoyed them well. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T11:46:16" who="#RichardBreen">
+                
+                    Page 6724 modified:
+                    <!-- 
+<address>5th (B) Reserve Brigade R.F.A,<lb/>
+Ballincollig.</address>
+<date>Dec 30<hi rend="superscript">th</hi> 1915</date>
+<salute>Dear Katie.</salute>
+<p>I received your letter<lb/>
+Card this morning. I am<lb/>
+glad to see by it that<lb/>
+you are all quite well.<lb/>
+The Wren boys seem to<lb/>
+have had a good time<lb/>
+this year. I would like<lb/>
+to see old Brindley on<lb/>
+the stairs I am sure<lb/>
+he enjoyed them well.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6724 created using version from <date when="2016-01-16T13:01:52"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6724 removed (version from <date when="2016-01-16T13:01:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6724 removed (version from <date when="2016-01-19T11:46:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 6724 (version from <date when="2016-01-21T12:18:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:21" who="#PythonScript">
+                
+                    Clean tags: Page 6724 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:25" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:30" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:36" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:25" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:27" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2504_img_6724" url="d51f8f83ed10e97232865d113d9e519c.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="6724" facs="#L1916_2504_img_6724"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<address>5th (B) Reserve Brigade R.F.A,<lb/>
+Ballincollig.</address>
+<opener><dateline><date>Dec 30<hi rend="superscript">th</hi> 1915</date></dateline>
+<salute>Dear Katie.</salute></opener>
+<p>I received your letter<lb/>
+Card this morning. I am<lb/>
+glad to see by it that<lb/>
+you are all quite well.<lb/>
+The Wren boys seem to<lb/>
+have had a good time<lb/>
+this year. I would like<lb/>
+to see old Brindley on<lb/>
+the stairs I am sure<lb/>
+he enjoyed them well.</p>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

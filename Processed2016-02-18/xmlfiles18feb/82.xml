@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_82">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from J. Eyre to Lady Clonbrock on collection of moss for surgical dressings, 20 April 1916</title>
+                
+                <author>J. Eyre</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="LS">Linda Spinazzè</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="MaryGrehan">Mary Grehan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Scribe500">Scribe500</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tomas808">Tomas808</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BarneyDoherty">Barney Doherty</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Rogerscl">Rogerscl</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="NicolaKMorris">NicolaKMorris</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_82</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>Letter from J.Eyre to Lady Clonbrock (1839-1928) concerning the use of sphagnum moss.  This moss was, during the Great War, used for surgical dressings due to a shortage of cotton wool, as well for as its medicinal benefits for combating infection. J. Eyre (most likely John Eyre) is writing to inform Lady Clonbrock that his sister-in-law would be able to acquire more moss, most probably to meet an increased demand in the local hospital.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Augusta Caroline Dillon (née Crofton) was the wife of Luke Gerald Dillon (1834-1917), the 4th Baron of Clonbrock, Co. Galway and the daughter of Lord Crofton of Mote Park (Edward Henry Churchill Crofton, 3rd Baron), Co. Roscommon. Aged 75 at the outbreak of war, Lady Clonbrock, worked closely with the Irish Women's Association to send basic necessities to Irish POWs. Many of her care packages went to members of the Connaught Rangers imprisoned in Limburg near Cologne.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: National Library of Ireland -->
+                        
+                        <repository ref="#NLI">National Library of Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Ms 35,796 (9)
+                             
+                        -->
+                            
+                                <collection type='public'>Ms 35,796 (9)</collection>
+                            
+                            
+                        <idno>Ms 35,796 (9)</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Lady Clonbrock -->
+                        
+                        <persName ref="#Dillon_A_C">Lady Clonbrock</persName>
+                    
+                
+                
+                
+                    
+                    <!-- Normalised Place Found: 
+                    Galway 
+                    Galway
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName  ref="#Galway">Galway, Ireland</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">J. Eyre</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    Galway 
+                    Galway
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#Galway">Galway, Ireland</placeName>
+                    
+                
+                    
+                    <date when="1916-04-20">20 April 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Female</item>
+                      
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                            <item n="tag">Country life</item>
+                            
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2013-11-08T15:58:06" who="#Tomas808">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-11-08T15:58:06" who="#Rogerscl">
+                
+                    Page 161 modified:
+                    <!-- 
+April 20th 1916
+The Castle,
+Eyrecourt.
+
+Dear Lady Clonbrock-
+Several people <gap/> here have been collecting spaghnum moss for a long time. My sister-in-law has been sending <unclear>some</unclear> to a depot she is interested in Brighton - but she asks me to say 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-11-08T16:22:22" who="#Tomas808">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-11-08T16:22:22" who="#Rogerscl">
+                
+                    Page 328 modified:
+                    <!-- 
+that she will be <gap/><gap/> to send <gap/><gap/><gap/> get to <gap/> depot. Sge would not like to promise it at <gap/> given <gap/> as to <gap/> defends <gap/><gap/>from drying at at present the bogs are too <unclear>wet</unclear> from  <gap/><gap/>.
+Mrs <unclear>Aldridoff</unclear> has been working at <gap/> for <pb/> some time at the <gap/> Red X meetings - which she holds in the school - I will read <unclear>your</unclear> circular at their next gathering, &amp; find out what they  will do - mean while may we have <gap/><gap/>of the papers of <unclear>instruction</unclear>
+Yours sincerely 
+J. Eyre 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-11-08T16:22:38" who="#Rogerscl">
+                
+                    Page 328 modified:
+                    <!-- 
+that she will be <gap/><gap/> to send <gap/><gap/><gap/> get to <gap/> depot. She would not like to promise it at <gap/> given <gap/> as to <gap/> defends <gap/><gap/>from drying at at present the bogs are too <unclear>wet</unclear> from  <gap/><gap/>.
+Mrs <unclear>Aldridoff</unclear> has been working at <gap/> for <pb/> some time at the <gap/> Red X meetings - which she holds in the school - I will read <unclear>your</unclear> circular at their next gathering, &amp; find out what they  will do - mean while may we have <gap/><gap/>of the papers of <unclear>instruction</unclear>
+Yours sincerely 
+J. Eyre 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-04-20T13:25:23" who="#NicolaKMorris">
+                
+                    Page 328 modified:
+                    <!-- 
+that she will be very glad to send all she can get to your depot. She would not like to promise it at any given time as so much depends on weather for drying + at present the bogs are too wet for anything.
+Mrs Aldridge has been working at <unclear> Spagrum </unclear> some time at the weekly Red X meetings - which she holds in the school - I will read your circular at their next gathering, &amp; find out what they  will do - mean while may we have <gap/><gap/>of the papers of instruction
+Yours sincerely 
+J. Eyre 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-17T15:58:19" who="#MaryGrehan">
+                
+                    Page 161 modified:
+                    <!-- 
+<date>April 20th 1916</date> <address>The Castle, Eyrecourt.</address> <salute>Dear Lady Clonbrock,</salute><lb/> Several people <gap/> <lb/> here have been collecting <lb/> Spaghnum moss for a <lb/> long time.  My sister-in-<lb/>law has been sending <lb/>some to a depot she <lb/> is interested in  Brighton, <lb/> but she asks be to say<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-17T16:07:33" who="#MaryGrehan">
+                
+                    Page 328 modified:
+                    <!-- 
+<note>This page is written in 2 columns< note>
+
+<pb/>that she will be very glad <lb/> to send all she can <lb/> get to your depot.<lb/> She would not like to promise <lb/> it at any given time as <lb/> so much depends on weather for drying &amp;  at present the <lb/> bogs are too wet for anything.<lb/>Mrs Aldridge has been <lb/> working at <unclear> Spagrum </unclear> for <lb/> some time at the weekly <lb/> Red X meetings which <lb/> she holds in the school. <lb/>  I will read your circular at their next gathering, <lb/> &amp; find out what they <lb/> will do. Mean while may we have some more of the papers of instruction.  <salute>Yours sincerely J. Eyre </salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-07-14T15:06:57" who="#LS">
+                
+                    Page 328 modified:
+                    <!-- 
+<note>This page is written in 2 columns</note>
+
+<pb/>that she will be very glad <lb/> to send all she can <lb/> get to your depot.<lb/> She would not like to promise <lb/> it at any given time as <lb/> so much depends on weather for drying &amp;  at present the <lb/> bogs are too wet for anything.<lb/>Mrs Aldridge has been <lb/> working at <unclear> Spagrum </unclear> for <lb/> some time at the weekly <lb/> Red X meetings which <lb/> she holds in the school. <lb/>  I will read your circular at their next gathering, <lb/> &amp; find out what they <lb/> will do. Mean while may we have some more of the papers of instruction.  <salute>Yours sincerely J. Eyre </salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-31T22:39:18" who="#Scribe500">
+                
+                    Page 161 modified:
+                    <!-- 
+<date>April 20<hi rend="superscript">th</hi> 1916</date><lb/> <address>The Castle,<lb/> Eyrecourt.</address><lb/> <salute>Dear Lady Clonbrock,</salute><lb/> <p>Several people <gap/> <lb/> here have been collecting <lb/> Spaghnum Moss for a <lb/> long time.  My sister-in-law<lb/> has been sending <lb/>some to a Depot she <lb/> is interested in Brighton, <lb/> but she asks me to say<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-31T22:59:17" who="#Scribe500">
+                
+                    Page 328 modified:
+                    <!-- 
+<note>This page is written in 2 columns</note>
+
+that she will be very glad <lb/> to send all she can <lb/> get to your depot. She<lb/> would not like to promise <lb/> it at any given time as <lb/> so much depends on weather for drying &amp;  at present the <lb/> bogs are too wet for anything.<lb/>Mrs Aldridge has been <lb/> working at Spagnum for some<pb/> time at the weekly <lb/> Red X meetings <!~~ Spagnum moss was used for wound dressing WW1 ~~> which <lb/> she holds in the school. <lb/>  I will read your circular<lb/> at their next gathering, <lb/> &amp; find out what they <lb/> will do. Mean while may we have some more of the papers of instruction.  <salute>Yours sincerely<lb/> <hi rend="underline">J. Eyre</hi> </salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-31T23:00:33" who="#Scribe500">
+                
+                    Page 328 modified:
+                    <!-- 
+<note>This page is written in 2 columns</note>
+
+that she will be very glad <lb/> to send all she can <lb/> get to your depot. She<lb/> would not like to promise <lb/> it at any given time as <lb/> so much depends on weather for drying &amp;  at present the <lb/> bogs are too wet for anything.<lb/>Mrs Aldridge has been <lb/> working at Spagnum for some<pb/> time at the weekly <lb/> Red X meetings which <lb/> she holds in the school. <lb/>  I will read your circular<lb/> at their next gathering, <lb/> &amp; find out what they <lb/> will do. Mean while may we have some more of the papers of instruction.  <salute>Yours sincerely<lb/> <hi rend="underline">J. Eyre</hi> </salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T16:28:30" who="#BarneyDoherty">
+                
+                    Page 161 modified:
+                    <!-- 
+<date>April 20<hi rend="superscript">th</hi> 1916</date>
+<address>The Castle,
+<lb/> Eyrecourt.</address>
+<salute>Dear Lady Clonbrock,</salute>
+<p>Several people <gap/> 
+<lb/> here have been collecting 
+<lb/> Spaghnum Moss for a 
+<lb/> long time. My sister-in-law
+<lb/> has been sending 
+<lb/>some to a Depot she 
+<lb/> is interested in Brighton, 
+<lb/> but she asks me to say 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T16:37:12" who="#BarneyDoherty">
+                
+                    Page 328 modified:
+                    <!-- 
+<lb/>that she will be very glad 
+<lb/> to send all she can 
+<lb/> get to your depot. She
+<lb/> would not like to promise 
+<lb/> it at any given time as 
+<lb/> so much depends on weather 
+<lb/>for drying &amp;  at present the 
+<lb/> bogs are too wet for anything.
+<lb/>Mrs Aldridge has been 
+<lb/> working at Spagnum for 
+<pb/>
+<lb/>some time at the weekly 
+<lb/> Red X meetings which 
+<lb/> she holds in the school. 
+<lb/>  I will read your circular
+<lb/> at their next gathering, 
+<lb/> &amp; find out what they 
+<lb/> will do. Mean while 
+<lb/>may we have some more 
+<lb/>of the papers of instruction. 
+<salute>Yours sincerely</salute>
+<signed> <hi rend="underline">J. Eyre</hi> </signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-11T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-02-11T11:52:39" who="#NR">
+                
+                    Page 161 modified:
+                    <!-- 
+<date>April 20<hi rend="superscript">th</hi> 1916</date>
+<address>The Castle,
+<lb/> Eyrecourt.</address>
+<salute>Dear Lady Clonbrock,</salute>
+<p>Several people <unclear>around</unclear> 
+<lb/> here have been collecting 
+<lb/> Spaghnum Moss for a 
+<lb/> long time. My sister-in-law
+<lb/> has been sending 
+<lb/>some to a Depot she 
+<lb/> is interested in Brighton, 
+<lb/> but she asks me to say 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 328 created using version from <date when="2013-11-08T16:22:22"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 328 removed (version from <date when="2013-11-08T16:22:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 328 removed (version from <date when="2013-11-08T16:22:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 328 removed (version from <date when="2014-04-20T13:25:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 328 removed (version from <date when="2015-02-17T16:07:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 328 removed (version from <date when="2015-07-14T15:06:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 328 removed (version from <date when="2015-08-31T22:59:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 328 removed (version from <date when="2015-08-31T23:00:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 328 removed (version from <date when="2016-01-21T16:37:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 161 created using version from <date when="2013-11-08T15:58:06"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 161 removed (version from <date when="2013-11-08T15:58:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 161 removed (version from <date when="2015-02-17T15:58:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 161 removed (version from <date when="2015-08-31T22:39:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 161 removed (version from <date when="2016-01-21T16:28:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 161 removed (version from <date when="2016-02-11T11:52:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 328 (version from <date when="2016-02-11T11:54:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 161 added to letter (version from <date when="2016-02-11T11:52:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 328 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 161 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:31" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:40" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:41" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_82_img_161" url="fbcbc763f300cb4db335a454f2464381.jpg"/> 
+    
+    <graphic xml:id="L1916_82_img_328" url="9879ff28477f6ddae664479c781c1592.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="161" facs="#L1916_82_img_161"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><dateline><date>April 20<hi rend="superscript">th</hi> 1916</date></dateline>
+<address><addrLine>The Castle,</addrLine>
+<addrLine>Eyrecourt.</addrLine></address>
+<salute>Dear Lady Clonbrock,</salute></opener>
+<p>Several people <unclear>around</unclear> 
+<lb/> here have been collecting 
+<lb/> Spaghnum Moss for a 
+<lb/> long time. My sister-in-law
+<lb/> has been sending 
+<lb/>some to a Depot she 
+<lb/> is interested in Brighton, 
+<lb/> but she asks me to say
+        
+    
+
+    
+         
+        <pb n="328" facs="#L1916_82_img_328"/>
+        
+        
+           
+            <lb/>that she will be very glad 
+<lb/> to send all she can 
+<lb/> get to your depot. She
+<lb/> would not like to promise 
+<lb/> it at any given time as 
+<lb/> so much depends on weather 
+<lb/>for drying &amp;  at present the 
+<lb/> bogs are too wet for anything.
+<lb/>Mrs Aldridge has been 
+<lb/> working at Spagnum for 
+<pb/>
+<lb/>some time at the weekly 
+<lb/> Red X meetings which 
+<lb/> she holds in the school. 
+<lb/>  I will read your circular
+<lb/> at their next gathering, 
+<lb/> &amp; find out what they 
+<lb/> will do. Mean while 
+<lb/>may we have some more 
+<lb/>of the papers of instruction. 
+<closer><salute>Yours sincerely</salute>
+<signed> <hi rend="underline">J. Eyre</hi> </signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

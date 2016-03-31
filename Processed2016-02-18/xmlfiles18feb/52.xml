@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_52">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from M. Dolan to Lady Clonbrock</title>
+                
+                <author>M. Dolan</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="FionaAhern">Fiona Ahern</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BarneyDoherty">Barney Doherty</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_52</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>Letter from a prisoner of war, M Dolan, to Lady Clonbrock (1839-1928). Dolan is writing to inform Lady Clonbrock that he is a resident of Ballinasloe, Galway and asks her to send parcels to him. </p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Augusta Caroline Dillon (née Crofton) was the wife of Luke Gerald Dillon (1834-1917), the 4th Baron of Clonbrock, Co. Galway and the daughter of Lord Crofton of Mote Park (Edward Henry Churchill Crofton, 3rd Baron), Co. Roscommon. Aged 75 at the outbreak of war, Lady Clonbrock, worked closely with the Irish Women's Association to send basic necessities to Irish POWs. Many of her care packages went to members of the Connaught Rangers imprisoned in Limburg near Cologne.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: National Library of Ireland -->
+                        
+                        <repository ref="#NLI">National Library of Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Collection List No 54
+                             
+                        -->
+                            
+                                <collection type='public'>Collection List No 54</collection>
+                            
+                            
+                        <idno>Collection List No 54</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Lady Clonbrock -->
+                        
+                        <persName ref="#Dillon_A_C">Lady Clonbrock</persName>
+                    
+                
+                
+                
+                    
+                    <!-- Normalised Place Found: 
+                    Galway 
+                    Galway
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName  ref="#Galway">Galway, Ireland</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">M. Dolan</persName>
+                    
+                
+                
+                 
+                    
+                    <placeName  ref="MISSING">Limburg (Lahn), Germany</placeName>
+                    
+                
+                    
+                    <date when="1916-10-16">16 October 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2013-10-10T09:08:09" who="#NULL">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-10-10T09:08:09" who="#FionaAhern">
+                
+                    Page 81 modified:
+                    <!-- 
+Kriegsgefangenenlager
+Limburg
+Lahn
+October 16, 1916
+Dear Madam
+Just a line to let you know I am gone on well dear Madam I wish to bring it to your notice that I am from Co. Galway, town of Ballinasloe and is a prisoner of war gone on 2 years.  Madam I would be very thankful to you if you could send me on some parcels as Pte T Fuery of the Conn Rangers has asked me to rite.  Thanking you in anticipation
+M. Dolan 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-10-10T09:15:48" who="#NULL">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-10-10T09:15:48" who="#FionaAhern">
+                
+                    Page 82 modified:
+                    <!-- 
+The Lady Clonbrook
+Clonbrook
+Aschragh
+Ballinsloe
+Co Galway
+ Ireland
+From:
+Kriegsgefangenenlager
+Limburg (Lahn)
+Pte M. Dolan
+Royal Irish Rifles
+Regiment No. 10112
+Prisoner of War Camp
+Limburg an der Lahn
+Germany 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T12:25:02" who="#BarneyDoherty">
+                
+                    Page 81 modified:
+                    <!-- 
+<address>Kriegsgefangenenlager
+<lb/>Limburg, Lahn</address> <date>October 16<hi rend="superscript">th</hi>, 1916</date>
+<salute>Dear Madam</salute>
+<p>Just a line to let you 
+<lb/>know I am gone on well Dear Madam 
+<lb/>I wish to bring it to your notice that 
+<lb/>I am from Co. Galway, town of Ballinasloe 
+<lb/>and is a prisoner of war gone on 2 
+<lb/>years. Madam I would be very thankful 
+<lb/>to you if you could send me on some 
+<lb/>parcels as Pte T Fuery of the Conn 
+<lb/>Rangers has asked me to rite.</p> <salute>Thanking you in 
+<lb/>anticipation</salute>
+<signed>M. Dolan</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T12:29:05" who="#BarneyDoherty">
+                
+                    Page 82 modified:
+                    <!-- 
+<lb/>Kriegsgefangenenlager
+<lb/>Limburg (Lahn)
+<address>Pte M. Dolan
+<lb/>Royal Irish Rifles
+<lb/>Regiment No. 10112
+<lb/>Prisoner of War Camp
+<lb/>Limburg an der Lahn, Germany</address>
+<pb/>
+<lb/>Kriegsgefangenen&#x2014;
+<lb/>Sendung.
+<lb/>Adresse: 
+<address>The Lady Clonbrook
+<lb/>Clonbrook
+<lb/>Aschragh
+<lb/>Ballinsloe
+<lb/>Co Galway
+<lb/>Ireland</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T13:08:15" who="#BarneyDoherty">
+                
+                    Page 82 modified:
+                    <!-- 
+<lb/>Kriegsgefangenenlager
+<lb/>Limburg (Lahn)
+<address>Pte M. Dolan
+<lb/>Royal Irish Rifles
+<lb/>Regiment No. 10112
+<lb/>Prisoner of War Camp
+<lb/>Limburg an der Lahn, Germany</address>
+<!~~ Right side ~~>
+<lb/>Kriegsgefangenen&#x2014;
+<lb/>Sendung.
+<lb/>Adresse: 
+<address>The Lady Clonbrook
+<lb/>Clonbrook
+<lb/>Aschragh
+<lb/>Ballinsloe
+<lb/>Co Galway
+<lb/>Ireland</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-05T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 82 created using version from <date when="2013-10-10T09:15:48"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 82 removed (version from <date when="2013-10-10T09:15:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 82 removed (version from <date when="2016-01-21T12:29:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 82 removed (version from <date when="2016-01-22T13:08:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 81 created using version from <date when="2013-10-10T09:08:09"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 81 removed (version from <date when="2013-10-10T09:08:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 81 removed (version from <date when="2016-01-21T12:25:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 82 (version from <date when="2016-02-05T15:47:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 81 added to letter (version from <date when="2016-02-05T15:46:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:20" who="#PythonScript">
+                
+                    Clean tags: Page 81 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:20" who="#PythonScript">
+                
+                    Clean tags: Page 82 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:25" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:30" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:36" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:22" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:24" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_52_img_81" url="4d13b0810bb34977401b35df751e4bc5.jpg"/> 
+    
+    <graphic xml:id="L1916_52_img_82" url="e44cd7eaf533b7733f817db8470ba3e4.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="81" facs="#L1916_52_img_81"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>Kriegsgefangenenlager</addrLine>
+<addrLine>Limburg, Lahn</addrLine></address> <dateline><date>October 16<hi rend="superscript">th</hi>, 1916</date></dateline>
+<salute>Dear Madam</salute></opener>
+<p>Just a line to let you 
+<lb/>know I am gone on well Dear Madam 
+<lb/>I wish to bring it to your notice that 
+<lb/>I am from Co. Galway, town of Ballinasloe 
+<lb/>and is a prisoner of war gone on 2 
+<lb/>years. Madam I would be very thankful 
+<lb/>to you if you could send me on some 
+<lb/>parcels as Pte T Fuery of the Conn 
+<lb/>Rangers has asked me to rite.</p> <salute>Thanking you in 
+<lb/>anticipation</salute>
+<signed>M. Dolan</signed>
+        
+    
+
+    
+         
+        <pb n="82" facs="#L1916_52_img_82"/>
+        
+        
+           
+            <lb/>Kriegsgefangenenlager
+<lb/>Limburg (Lahn)
+<address>Pte M. Dolan
+<lb/>Royal Irish Rifles
+<lb/>Regiment No. 10112
+<lb/>Prisoner of War Camp
+<lb/>Limburg an der Lahn, Germany</address>
+<!-- Right side -->
+<lb/>Kriegsgefangenen&#x2014;
+<lb/>Sendung.
+<lb/>Adresse: 
+<address>The Lady Clonbrook
+<lb/>Clonbrook
+<lb/>Aschragh
+<lb/>Ballinsloe
+<lb/>Co Galway
+<lb/>Ireland</address>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

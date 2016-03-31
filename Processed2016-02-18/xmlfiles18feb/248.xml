@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_248">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Eamonn T. Dore to James Ryan, 19 September 1916</title>
+                
+                <author>Eamonn T. Dore</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="BH">Brian Hughes</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Ewalshdaley">Ewalshdaley</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BarneyDoherty">Barney Doherty</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_248</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from Eamonn T Dore to James Ryan (1891-1970). Dore writes to Ryan, who had already been released from Frongach, about people at home and fills him in on the condition of the other prisoners.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>James Ryan  studied medicine in UCD. He was appointed chief medical officer in the GPO during the Easter Rising. After the Rising he was imprisoned in Stafford and, later, Frongoch and was released in August 1916. Ryan was later a founder member of Fianna Fáil and a government minister. Eamonn Dore was a member of the Irish Volunteers and served as a bodyguard to Sean MacDiarmada, one of the leaders of the Rising. He was subsequently imprisoned in Frongach internment camp.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: University College Dublin Archives -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF INSTITUTION REF IS CORRECT --></VERIFY>
+                        
+                        <repository ref="#UCD">University College Dublin, Archives</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Dr James Ryan Papers, P 88/36/1
+                             
+                        -->
+                            
+                                <collection type='public'>Dr James Ryan Papers</collection>
+                            
+                            
+                        <idno>P 88/36/1</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: James Ryan -->
+                        
+                        <persName ref="#Ryan_J">James Ryan</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Eamonn T. Dore -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF RECIPIENT IS CORRECT --></VERIFY>
+                        
+                        <persName ref="#Dore_E">Eamonn T Dore</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    Frongoch Internment Camp - Bala 
+                    Wales
+                    United Kingdom
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#Frongoch_Prison">Frongach internment camp, Bala, Wales</placeName>
+                    
+                
+                    
+                    <date when="1916-09-19">19 September 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2013-12-14T21:50:13" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-12-14T21:50:13" who="#Philcostel">
+                
+                    Page 638 modified:
+                    <!-- 
+Eamonn T. Dore 1704, The Internment Camp, Frongoch, Near Bala, Wales.
+Tuesday 19th September 1916 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-12-15T18:57:29" who="#Philcostel">
+                
+                    Page 638 modified:
+                    <!-- 
+Eamonn T. Dore 1704, The Internment Camp, Frongoch, Near Bala, Wales.
+Tuesday 19th September 1916 
+
+My dear Jim
+Received yours a few days ago and I must confess I envy the bl~~~~- fine time you are having. I hope who you know and all the boys are well. Doyle and Mul. I suppose are still enjoying themselves. Are they residents in the "Coombe" still?
+Make it your business to meet Mul. (Mulcahy) when you get this and tell him send on my two Cunninghams per return as I want to do a bit of work. Do not forget to give him my address
+
+<note>you can get them. I think Mul. has them. Remember me to all yours. Hoping you are in the pink. Yours, Eamonn. Murt will write in a few days. E.P.S. Tell all the boys I enquired for them. E.</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-12-15T19:07:56" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-12-15T19:07:56" who="#Philcostel">
+                
+                    Page 639 modified:
+                    <!-- 
+and see that he sends them on immediately. If you could resurrect a "Halliburton" send it on with them.
+Have you had an interview with Coffey yet? What kind of form is he in? I suppose Joe Murray will make another burst at the Autumn exams. Does he play Snooker at the Arcade still. Whenever you can find enough money i.e. without any private interviews with who you know send us on some grub.
+All the boys here are well. The weather is <sic>awfull</sic>. Any news that's worth having send it in your next. Try and have those books sent as soon as possible, and don't forget looking up "Halliburton" also "Mahon's" notes if 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-12-15T19:09:44" who="#Philcostel">
+                
+                    Page 639 modified:
+                    <!-- 
+and see that he sends them on immediately. If you could resurrect a "Halliburton" send it on with them.
+Have you had an interview with Coffey yet? What kind of form is he in? I suppose Joe Murray will make another burst at the Autumn exams. Does he play Snooker at the Arcade still. Whenever you can find enough money i.e. without any private interviews with who you know send us on some grub.
+All the boys here are well. The weather is <sic>awfull</sic>. Any news that's worth having send it in your next. Try and have those books sent as soon as possible, and don't forget looking up "Halliburton" also "Mahon's" notes if
+<!~~ the text is actually continued in the margin and header of page 1 - see my Marginal Note on that page ~~> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-12-15T19:11:00" who="#Philcostel">
+                
+                    Page 638 modified:
+                    <!-- 
+Eamonn T. Dore 1704, The Internment Camp, Frongoch, Near Bala, Wales.
+Tuesday 19th September 1916 
+
+My dear Jim
+Received yours a few days ago and I must confess I envy the bl~~~~- fine time you are having. I hope who you know and all the boys are well. Doyle and Mul. I suppose are still enjoying themselves. Are they residents in the "Coombe" still?
+Make it your business to meet Mul. (Mulcahy) when you get this and tell him send on my two Cunninghams per return as I want to do a bit of work. Do not forget to give him my address
+
+<note>you can get them. I think Mul. has them. Remember me to all yours. Hoping you are in the pink. Yours, Eamonn. Murt will write in a few days. E.P.S. Tell all the boys I enquired for them. E.</note><!~~ the text in this Marginal Note is actually a continuation of the text from page 2 ~~> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-24T21:30:06" who="#Ewalshdaley">
+                
+                    Page 638 modified:
+                    <!-- 
+Eamonn T. Dore 1704, The Internment Camp, Frongoch, Near Bala, Wales.
+Tuesday 19th September 1916 
+
+My dear Jim
+Received yours a few days ago and I must confess I envy the bl~~~~- fine time you are having. I hope who you know and all the boys are well. Doyle and Mul. I suppose are still enjoying themselves. Are they residents in the "Coombe" still?
+Make it your business to meet Mul. (Mulcahy) when you get this and tell him send on my two Cunninghams per return as I want to do a bit of work. Do not forget to give him my address
+
+<note>you can get them. I think Mul. has them. Remember me to all yours. Hoping you are in the pink. Yours, Eamonn. Murt will write in a few days. E.P.S. Tell all the boys I enquired for them not that it  will do  them any good.  . E.</note><!~~ the text in this Marginal Note is actually a continuation of the text from page 2 ~~> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-21T09:36:06" who="#Comber">
+                
+                    Page 638 modified:
+                    <!-- 
+<add>P88/36 (1)</add>
+<address>Eamonn T. Dore 1704, The Internment Camp, Frongoch, Near Bala, Wales.</address>
+<date>Tuesday 19<hi rend="superscript">th</hi> September 1916</date> 
+
+<salute>My dear Jim,</salute>
+<p>Received yours a few<lb/> days ago and I must confess I<lb/> envy the <gap/>bl fine time you are<lb/> having. I hope who you know and<lb/> all the boys are well. Doyle and<lb/> Mul. I suppose are still enjoying<lb/> themselves. Are they residents in<lb/> the "Coombe"  still?<lb/></p>
+Make it your business to<lb/> meet Mul. (Mulcahy) when you<lb/> get this and tell him send on<lb/> my two Cunninghams per return<lb/> as I want to do a bit of work.<lb/> Do not forget to give him my address<lb/><pb/>
+
+<note>you can get them. I think Mul. has them. Remember me to all<lb/> yours. Hoping<lb/> you are in the pink.<lb/>
+ <salute>Yours,<lb/> Eamonn.</salute> Murt will write in a few days. E<lb/>.P.S. Tell all the boys<lb/> I enquired for them not that it  will do  them<lb/> any good.  . E.<lb/></note><!~~ the text in this Marginal Note is actually a continuation of the text from page 2 ~~> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-21T09:40:18" who="#Comber">
+                
+                    Page 639 modified:
+                    <!-- 
+<pb/>and see that he sends them on<lb/> immediately. If you could resurrect<lb/> a "Halliburton" send it on with<lb/> them.<lb/>
+<p>Have you had an interview<lb/> with Coffey yet? What kind of<lb/> form is he in? I suppose Joe<lb/> Murray will make another burst<lb/> at the Autumn exams. Does he<lb/> play Snooker at the Arcade still.<lb/> Whenever you can find enough<lb/> money i.e. without any private<lb/> interviews with who you know<lb/> send us on some grub.<lb/></p>
+All the boys here are well.<lb/> The weather is <sic>awfull</sic>. Any news<lb/> that's worth having send it in<lb/> your next. Try and have those<lb/> books sent as soon as possible,<lb/> and don't forget looking up a<lb/> "Halliburton" also "Mahon's" notes if<lb/><pb/>
+<!~~ the text is actually continued in the margin and header of page 1 - see my Marginal Note on that page ~~> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T09:47:27" who="#Tbrosnan">
+                
+                    Page 638 modified:
+                    <!-- 
+<add>P88/36 (1)</add>
+<lb/><address>Eamonn T. Dore 1704, 
+<lb/>The Internment Camp, 
+<lb/>Frongoch,
+<lb/> Near Bala,
+<lb/> Wales.</address>
+<lb/><date>Tuesday 19<hi rend="superscript">th</hi> September 1916</date> 
+
+<lb/><salute>My dear Jim,</salute>
+<p>Received yours a few
+<lb/> days ago and I must confess I
+<lb/> envy the <unclear>bl&#x2014;</unclear> fine time you are
+<lb/> having. I hope who you know and
+<lb/> all the boys are well. Doyle and
+<lb/> <unclear>Mul.</unclear> I suppose are still enjoying
+<lb/> themselves. Are they residents in
+<lb/> the "Coombe"  still?</p>
+<p>Make it your business to
+<lb/> meet <unclear>Mcl</unclear>. (Mulcahy) when you
+<lb/> get this and tell him send on
+<lb/> my two Cunninghams per return
+<lb/> as I want to do a bit of work.
+<lb/> Do not forget to give him my address<pb/>
+
+<note>you can get them. I think Mul. has them. Remember me to all<lb/> yours. Hoping<lb/> you are in the pink.<lb/>
+ <salute>Yours,<lb/> Eamonn.</salute> Murt will write in a few days. E<lb/>.P.S. Tell all the boys<lb/> I enquired for them not that it  will do  them<lb/> any good.  . E.<lb/></note><!~~ the text in this Marginal Note is actually a continuation of the text from page 2 ~~> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T09:50:31" who="#Tbrosnan">
+                
+                    Page 639 modified:
+                    <!-- 
+<lb/>and see that he sends them on
+<lb/> immediately. If you could resurrect
+<lb/> a "Halliburton" send it on with
+<lb/> them.</p>
+<p>Have you had an interview
+<lb/> with Coffey yet? What kind of
+<lb/> form is he in? I suppose Joe
+<lb/> Murray will make another burst
+<lb/> at the Autumn exams. Does he
+<lb/> play Snooker at the Arcade still.
+<lb/> Whenever you can find enough
+<lb/> money i.e. without any private
+<lb/> interviews with who you know
+<lb/> send us on some grub.</p>
+<lb/>All the boys here are well.
+<lb/> The weather is <sic>awfull</sic>. Any news
+<lb/> that's worth having send it in<
+lb/> your next. Try and have those
+<lb/> books sent as soon as possible,
+<lb/> and don't forget looking up a
+<lb/> "Halliburton" also "Mahon's" notes if<pb/>
+<!~~ the text is actually continued in the margin and header of page 1 - see my Marginal Note on that page ~~> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-06T09:51:54" who="#Tbrosnan">
+                
+                    Page 638 modified:
+                    <!-- 
+<add>P88/36 (1)</add>
+<lb/><address>Eamonn T. Dore 1704, 
+<lb/>The Internment Camp, 
+<lb/>Frongoch,
+<lb/> Near Bala,
+<lb/> Wales.</address>
+<lb/><date>Tuesday 19<hi rend="superscript">th</hi> September 1916</date> 
+
+<lb/><salute>My dear Jim,</salute>
+<p>Received yours a few
+<lb/> days ago and I must confess I
+<lb/> envy the <unclear>bl&#x2014;</unclear> fine time you are
+<lb/> having. I hope who you know and
+<lb/> all the boys are well. Doyle and
+<lb/> <unclear>Mul.</unclear> I suppose are still enjoying
+<lb/> themselves. Are they residents in
+<lb/> the "Coombe"  still?</p>
+<p>Make it your business to
+<lb/> meet <unclear>Mcl</unclear>. (Mulcahy) when you
+<lb/> get this and tell him send on
+<lb/> my two Cunninghams per return
+<lb/> as I want to do a bit of work.
+<lb/> Do not forget to give him my address<pb/>
+
+<note><lb/>you can get them. I think Mul. has them. Remember me to all
+<lb/> yours. Hoping
+<lb/> you are in the pink.
+ <lb/><salute>Yours,<lb/> Eamonn.</salute> Murt will write in a few days. E
+<lb/>.P.S. Tell all the boys
+<lb/> I enquired for them not that it  will do  them
+<lb/> any good.  . E.
+</note><!~~ the text in this Marginal Note is actually a continuation of the text from page 2 ~~> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T11:15:55" who="#BarneyDoherty">
+                
+                    Page 638 modified:
+                    <!-- 
+<add>P88/36 (1)</add>
+<address>Eamonn T. Dore 1704, 
+<lb/>The Internment Camp, 
+<lb/>Frongoch,
+<lb/> Near Bala,
+<lb/> Wales.</address>
+<date>Tuesday 19<hi rend="superscript">th</hi> Sept. 1916</date> 
+
+<salute>My dear Jim,</salute>
+<p>Received yours a few
+<lb/> days ago and I must confess I
+<lb/> envy the <unclear>bl&#x2014;</unclear> fine time you are
+<lb/> having. I hope who you know and
+<lb/> all the boys are well. Doyle and
+<lb/> <unclear>Mul.</unclear> I suppose are still enjoying
+<lb/> themselves. Are they residents in
+<lb/> the "Coombe"  still?
+</p>
+<p>Make it your business to
+<lb/> meet <unclear>Mcl</unclear>.(Mulcahy) when you
+<lb/> get this and tell him send on
+<lb/> my two Cunninghams per return
+<lb/> as I want to do a bit of work.
+<lb/> Do not forget to give him my address<pb/>
+
+<note><lb/>you can get them. I think Mul. has them. Remember me to all
+<lb/> yours. Hoping
+<lb/> you are in the pink.
+<lb/><salute>Yours,</salute> <signed>Eamonn.</signed></note><!~~ the text in this Marginal Note is actually a continuation of the text from page 2 ~~> 
+<note>
+<lb/>.P.S. Tell all the boys
+<lb/> I enquired for them 
+<lb/> if that will do  them
+<lb/> any good.
+<lb/> Éamonn
+</note>
+<note>Murt will write in a few days. E</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T11:18:41" who="#BarneyDoherty">
+                
+                    Page 639 modified:
+                    <!-- 
+<lb/>and see that he sends them on
+<lb/> immediately. If you could resurrect
+<lb/> a "Halliburton" send it on with
+<lb/> them.</p>
+<p>Have you had an interview
+<lb/> with Coffey yet? What kind of
+<lb/> form is he in? I suppose Joe
+<lb/> Murray will make another burst
+<lb/> at the Autumn exams. Does he
+<lb/> play Snooker at the Arcade still.
+<lb/> Whenever you can find enough
+<lb/> money i.e. without any private
+<lb/> interviews with who you know
+<lb/> send us on some grub.</p>
+<lb/>All the boys here are well.
+<lb/> The weather is <sic>awfull</sic>. Any news
+<lb/> that's worth having send it in
+<lb/> your next. Try and have those
+<lb/> books sent as soon as possible,
+<lb/> and don't forget looking up a
+<lb/> "Halliburton" also "Mahon's" notes if<pb/>
+<!~~ the text is actually continued in the margin and header of page 1 - see my Marginal Note on that page ~~> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T15:39:36" who="#Tbrosnan">
+                
+                    Page 638 modified:
+                    <!-- 
+<add>P88/36 (1)</add>
+<address>Eamonn T. Dore 1704, 
+<lb/>The Internment Camp, 
+<lb/>Frongoch,
+<lb/> Near Bala,
+<lb/> Wales.</address>
+<date>Tuesday 19<hi rend="superscript">th</hi> Sept. 1916</date> 
+
+<salute>My dear Jim,</salute>
+<p>Received yours a few
+<lb/> days ago and I must confess I
+<lb/> envy the <unclear>bl&#x2014;</unclear> fine time you are
+<lb/> having. I hope who you know and
+<lb/> all the boys are well. Doyle and
+<lb/> <unclear>Mul.</unclear> I suppose are still enjoying
+<lb/> themselves. Are they residents in
+<lb/> the "Coombe"  still?</p>
+
+<p>Make it your business to
+<lb/> meet <unclear>Mcl</unclear>.(Mulcahy) when you
+<lb/> get this and tell him send on
+<lb/> my two Cunninghams per return
+<lb/> as I want to do a bit of work.
+<lb/> Do not forget to give him my address<pb/>
+
+<note><lb/>you can get them. I think Mul. has them. Remember me to all
+<lb/> yours. Hoping
+<lb/> you are in the pink.
+<lb/><salute>Yours,</salute> <signed>Eamonn.</signed></note><!~~ the text in this Marginal Note is actually a continuation of the text from page 2 ~~> 
+<note>
+<lb/>.P.S. Tell all the boys
+<lb/> I enquired for them 
+<lb/> if that will do  them
+<lb/> any good.
+<lb/> Éamonn
+</note>
+<note>Murt will write in a few days. E</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-13T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:39" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 638 created using version from <date when="2013-12-14T21:50:13"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:39" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 638 removed (version from <date when="2013-12-14T21:50:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:39" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 638 removed (version from <date when="2013-12-15T18:57:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:39" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 638 removed (version from <date when="2013-12-15T19:11:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:39" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 638 removed (version from <date when="2014-02-24T21:30:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:39" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 638 removed (version from <date when="2015-01-21T09:36:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:39" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 638 removed (version from <date when="2016-01-06T09:47:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:39" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 638 removed (version from <date when="2016-01-06T09:51:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:39" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 638 removed (version from <date when="2016-01-08T11:15:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:39" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 638 removed (version from <date when="2016-01-12T15:39:36"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:39" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 639 created using version from <date when="2013-12-15T19:07:56"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:39" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 639 removed (version from <date when="2013-12-15T19:07:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:39" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 639 removed (version from <date when="2013-12-15T19:09:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:39" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 639 removed (version from <date when="2015-01-21T09:40:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:39" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 639 removed (version from <date when="2016-01-06T09:50:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:39" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 639 removed (version from <date when="2016-01-08T11:18:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 638 (version from <date when="2016-01-13T15:35:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 639 added to letter (version from <date when="2016-01-13T15:35:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 638 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 639 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:28" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:32" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:42" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:43" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_248_img_638" url="c3cd3931c6af069cbaf0cb5197f8f451.jpg"/> 
+    
+    <graphic xml:id="L1916_248_img_639" url="c9a854f3b7e9dcbab1d9e5e863c8755a.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="638" facs="#L1916_248_img_638"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<add>P88/36 (1)</add>
+<opener><address><addrLine>Eamonn T. Dore 1704,</addrLine>
+<addrLine>The Internment Camp,</addrLine>
+<addrLine>Frongoch,</addrLine>
+<addrLine>Near Bala,</addrLine>
+<addrLine>Wales.</addrLine></address>
+<dateline><date>Tuesday 19<hi rend="superscript">th</hi> Sept. 1916</date></dateline> 
+
+<salute>My dear Jim,</salute></opener>
+<p>Received yours a few
+<lb/> days ago and I must confess I
+<lb/> envy the <unclear>bl&#x2014;</unclear> fine time you are
+<lb/> having. I hope who you know and
+<lb/> all the boys are well. Doyle and
+<lb/> <unclear>Mul.</unclear> I suppose are still enjoying
+<lb/> themselves. Are they residents in
+<lb/> the "Coombe"  still?</p>
+
+<p>Make it your business to
+<lb/> meet <unclear>Mcl</unclear>.(Mulcahy) when you
+<lb/> get this and tell him send on
+<lb/> my two Cunninghams per return
+<lb/> as I want to do a bit of work.
+<lb/> Do not forget to give him my address<pb/>
+
+<note><lb/>you can get them. I think Mul. has them. Remember me to all
+<lb/> yours. Hoping
+<lb/> you are in the pink.
+<lb/><salute>Yours,</salute> <signed>Eamonn.</signed></note><!-- the text in this Marginal Note is actually a continuation of the text from page 2 --> 
+<note>
+<lb/>.P.S. Tell all the boys
+<lb/> I enquired for them 
+<lb/> if that will do  them
+<lb/> any good.
+<lb/> Éamonn
+</note>
+<note>Murt will write in a few days. E</note>
+        
+    
+
+    
+         
+        <pb n="639" facs="#L1916_248_img_639"/>
+        
+        
+           
+            <lb/>and see that he sends them on
+<lb/> immediately. If you could resurrect
+<lb/> a "Halliburton" send it on with
+<lb/> them.</p>
+<p>Have you had an interview
+<lb/> with Coffey yet? What kind of
+<lb/> form is he in? I suppose Joe
+<lb/> Murray will make another burst
+<lb/> at the Autumn exams. Does he
+<lb/> play Snooker at the Arcade still.
+<lb/> Whenever you can find enough
+<lb/> money i.e. without any private
+<lb/> interviews with who you know
+<lb/> send us on some grub.</p>
+<lb/>All the boys here are well.
+<lb/> The weather is <sic>awfull</sic>. Any news
+<lb/> that's worth having send it in
+<lb/> your next. Try and have those
+<lb/> books sent as soon as possible,
+<lb/> and don't forget looking up a
+<lb/> "Halliburton" also "Mahon's" notes if<pb/>
+<!-- the text is actually continued in the margin and header of page 1 - see my Marginal Note on that page -->
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

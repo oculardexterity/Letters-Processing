@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2217">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from James Davidson to his mother, Clara Mary Davidson, 19 February 1916</title>
+                
+                <author>James Davidson</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Johnchambers81">Johnchambers81</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Wmcg">Wmcg</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Rosie17">Rosie17</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2217</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>Letter from James Davidson (1877-1916) to his mother. James writes about waiting for deliveries of parcels and his concern that his letters home are not being delivered. As per his previous letter, he stresses his need for replacement boots and requests that any items of kit be sent as soon as possible. He also mentions the conditions of the trenches and considerable shelling and fighting in nearby sections.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>This letter is part of a large correspondence from Captain James Davidson to his parents. Davidson, who was Managing Director of the Sirocco Engineering Works in Belfast, served with 13 Royal Irish Rifles and the Machine Gun Corps. His letters describe his experiences while training in England and serving in France. He was killed on 1 July 1916, the first day of the Battle of the Somme.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Davidson Family Papers, D3642/B/8/30
+                             
+                        -->
+                            
+                                <collection type='public'>Davidson Family Papers</collection>
+                            
+                            
+                        <idno>D3642/B/8/30</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Clara Mary Davidson -->
+                        
+                        <persName ref="#Davidson_C_M">Clara Mary Davidson</persName>
+                    
+                
+                
+                
+                    
+                    <!-- Normalised Place Found: 
+                    Bangor 
+                    Down
+                    United Kingdom
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName  ref="#Bangor">Seacourt, Bangor, Co. Down</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: James Davidson -->
+                        
+                        <persName ref="#Davidson_J">James Davidson</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    France 
+                    France
+                    France
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#France">France</placeName>
+                    
+                
+                    
+                    <date when="1916-02-19">19 February 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1916</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-06-17T13:09:38" who="#Wmcg">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-06-17T13:09:38" who="#Rosie17">
+                
+                    Page 5794 modified:
+                    <!-- 
+D3642/B/8/30
+
+<date>19/2/16</date>
+
+<salute>My dearest Mother</salute>  &#x2014; I got your<lb/> letter of 13th <unclear>just</unclear> &amp; was surprised<lb/> to hear that you had not received<lb/> any letters from me since<lb/> 1<hi rend="superscript">st</hi>.  I wrote on 1<hi rend="superscript">st</hi> &amp; 8<hi rend="superscript">th</hi> then to Father on 10<hi rend="superscript">th</hi> &amp; again to you<lb/> on 16t<hi rend="superscript">h</hi>.  I do hope you have<lb/> since received them as I am<lb/> now very badly off for boots<lb/> &amp; looking anxiously every day<lb/> for those trench books to turn<lb/> up.  The boots I had have<lb/> simply gone to pieces with the<lb/> trench work &amp; my feet are<lb/> always wet.  With regard to<lb/> the pair of boots which you say have arrived from Manfields<lb/> I cant remember whether I<lb/> ordered them or not but at<lb/> any rate they have come just<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-17T13:22:17" who="#Wmcg">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-06-17T13:22:17" who="#Rosie17">
+                
+                    Page 5795 modified:
+                    <!-- 
+at the right time &amp; you might<lb/> please have them also sent on<lb/> as soon as possible.  I<lb/> think I asked you to post me<lb/> a box of  Cockles pills &#x2014; these have<lb/> not come yet so if by chance<lb/> they have been overlooked would <lb/>you please get them for me.<lb/> <lb/> There was a terrific bombardment<lb/> this evening to the left of our<lb/> Sector &#x2014; it was like continuous<lb/> thunder &amp; the flashes of the guns<lb/> lit up the whole sky.  Our<lb/> particular part of the the line has<lb/> been rather more peaceful during<lb/> the past day or so but one of my gun <gap/>    had a great escape.  We had been annoying<lb/> the Germans considerably the <lb/>night before with 2 guns so<lb/> they started to look for us<lb/> with artillery &amp; actually dropped<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-17T13:30:44" who="#Wmcg">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-06-17T13:30:44" who="#Rosie17">
+                
+                    Page 5796 modified:
+                    <!-- 
+2 shells right on top of the<lb/> emplacement where the men <lb/>were taking shelter.  Fortunately<lb/> it had a concrete roof &amp; the <lb/>shell  did not penetrate for<lb/> otherwise everyone would have<lb/> been killed &amp; they were all<lb/> men of my own original section.<lb/>  Am kept awfully busy &#x2014; never<lb/> seem to have a minute &#x2014; but<lb/> have been keeping all right in<lb/> spite of the weather.  Trenches<lb/> have been flooded &amp; yest I<lb/> was wading all morning up to nearly<lb/> the knees &amp; with my ordinary old<lb/> boots so you can imagine wha<lb/>t a state I was in.  Must be off<lb/> to bed.  With fondest love to all.<p>paragraph</p>
+<salute>Your loving son,
+Jim</salute>
+
+<add>A Zepp as just been passing over but too high to see</add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-17T13:31:22" who="#Rosie17">
+                
+                    Page 5795 modified:
+                    <!-- 
+at the right time &amp; you might<lb/> please have them also sent on<lb/> as soon as possible.  I<lb/> think I asked you to post me<lb/> a box of  Cockles pills &#x2014; these have<lb/> not come yet so if by chance<lb/> they have been overlooked would <lb/>you please get them for me.<lb/> There was a terrific bombardment<lb/> this evening to the left of our<lb/> Sector &#x2014; it was like continuous<lb/> thunder &amp; the flashes of the guns<lb/> lit up the whole sky.  Our<lb/> particular part of the the line has<lb/> been rather more peaceful during<lb/> the past day or so but one of my gun <gap/>    had a great escape.  We had been annoying<lb/> the Germans considerably the <lb/>night before with 2 guns so<lb/> they started to look for us<lb/> with artillery &amp; actually dropped<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-17T13:32:11" who="#Rosie17">
+                
+                    Page 5794 modified:
+                    <!-- 
+D3642/B/8/30
+
+<date>19/2/16</date>
+
+<salute>My dearest Mother</salute>  &#x2014; I got your<lb/> letter of 13<hi rend="superscript">th</hi>  yest &amp; was surprised<lb/> to hear that you had not received<lb/> any letters from me since<lb/> 1<hi rend="superscript">st</hi>.  I wrote on 1<hi rend="superscript">st</hi> &amp; 8<hi rend="superscript">th</hi> then to Father on 10<hi rend="superscript">th</hi> &amp; again to you<lb/> on 16t<hi rend="superscript">h</hi>.  I do hope you have<lb/> since received them as I am<lb/> now very badly off for boots<lb/> &amp; looking anxiously every day<lb/> for those trench books to turn<lb/> up.  The boots I had have<lb/> simply gone to pieces with the<lb/> trench work &amp; my feet are<lb/> always wet.  With regard to<lb/> the pair of boots which you say have arrived from Manfields<lb/> I cant remember whether I<lb/> ordered them or not but at<lb/> any rate they have come just<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-17T13:36:28" who="#Wmcg">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-06-17T13:36:28" who="#Rosie17">
+                
+                    Page 5797 modified:
+                    <!-- 
+On Active Service<lb/>
+<gap/> 24<hi rend="suprscript">th</hi>/16
+
+RUBBER STAMPED    PASSED FIELD CENSOR 183
+
+<address>Mrs. S.C.Davidson<lb/>
+Seacourt<lb/>
+Bangor<lb/>
+Co Down<lb/>
+Ireland<lb/></address>
+
+
+JDavidson
+
+<date>19/2/16</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T16:37:25" who="#Johnchambers81">
+                
+                    Page 5794 modified:
+                    <!-- 
+<date>19/2/16</date>
+
+<salute>My dearest Mother</salute>  &#x2014; I got your
+<lb/> letter of 13<hi rend="superscript">th</hi>  yest &amp; was surprised
+<lb/> to hear that you had not received
+<lb/> any letters from me since
+<lb/> 1<hi rend="superscript">st</hi>.  I wrote on 1<hi rend="superscript">st</hi> &amp; 8<hi rend="superscript">th</hi> then to 
+<lb/>Father on 10<hi rend="superscript">th</hi> &amp; again to you
+<lb/> on 16t<hi rend="superscript">h</hi>.  I do hope you have
+<lb/> since received them as I am
+<lb/> now very badly off for boots
+<lb/> &amp; looking anxiously every day
+<lb/> for those trench books to turn
+<lb/> up.  The boots I had have
+<lb/> simply gone to pieces with the
+<lb/> trench work &amp; my feet are
+<lb/> always wet.  With regard to
+<lb/> the pair of boots which you say have arrived from Manfields
+<lb/> I cant remember whether I
+<lb/> ordered them or not but at
+<lb/> any rate they have come just 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T16:40:53" who="#Johnchambers81">
+                
+                    Page 5795 modified:
+                    <!-- 
+at the right time &amp; you migh
+t<lb/> please have them also sent on
+<lb/> as soon as possible.  I
+<lb/> think I asked you to post me
+<lb/> a box of  <unclear>Cockles</unclear> pills &#x2014; these have
+<lb/> not come yet so if by chance
+<lb/> they have been overlooked would
+<lb/>you please get them for me.
+<lb/> There was a terrific bombardment
+<lb/> this evening to the left of our
+<lb/> Sector &#x2014; it was like continuous
+<lb/> thunder &amp; the flashes of the guns
+<lb/> lit up the whole sky.  Our
+<lb/> particular part of the the line has
+<lb/> been rather more peaceful during
+<lb/> the past day or so but one of my gun teams had a great 
+<lb/>escape.  We had been annoying
+<lb/> the Germans considerably the 
+<lb/>night before with 2 guns so
+<lb/> they started to look for us
+<lb/> with artillery &amp; actually dropped 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T16:41:03" who="#Johnchambers81">
+                
+                    Page 5795 modified:
+                    <!-- 
+at the right time &amp; you might
+<lb/> please have them also sent on
+<lb/> as soon as possible.  I
+<lb/> think I asked you to post me
+<lb/> a box of  <unclear>Cockles</unclear> pills &#x2014; these have
+<lb/> not come yet so if by chance
+<lb/> they have been overlooked would
+<lb/>you please get them for me.
+<lb/> There was a terrific bombardment
+<lb/> this evening to the left of our
+<lb/> Sector &#x2014; it was like continuous
+<lb/> thunder &amp; the flashes of the guns
+<lb/> lit up the whole sky.  Our
+<lb/> particular part of the the line has
+<lb/> been rather more peaceful during
+<lb/> the past day or so but one of my gun teams had a great 
+<lb/>escape.  We had been annoying
+<lb/> the Germans considerably the 
+<lb/>night before with 2 guns so
+<lb/> they started to look for us
+<lb/> with artillery &amp; actually dropped 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T16:45:07" who="#Johnchambers81">
+                
+                    Page 5796 modified:
+                    <!-- 
+2 shells right on top of the
+<lb/> emplacement where the men 
+<lb/>were taking shelter.  Fortunately
+<lb/> it had a concrete roof &amp; the 
+<lb/>shell  did not penetrate for
+<lb/> otherwise everyone would have
+<lb/> been killed &amp; they were all
+<lb/> men of my own original section.
+<lb/>  Am kept awfully busy &#x2014; never
+<lb/> seem to have a minute &#x2014; but
+<lb/> have been keeping all right in
+<lb/> spite of the weather.  Trenches
+<lb/> have been flooded &amp; yest I
+<lb/> was wading all morning up to nearly
+<lb/> the knees &amp; with my ordinary old
+<lb/> boots so you can imagine what 
+<lb/>a state I was in.  Must be off
+<lb/> to bed.  With fondest love to all.
+<salute>Your loving son,</salute>
+<lb/><signed>Jim</signed>
+<add>A Zepp as just been passing over 
+<lb/>but too high to see</add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T16:46:01" who="#Johnchambers81">
+                
+                    Page 5797 modified:
+                    <!-- 
+On Active Service<lb/>
+<gap/> 24<hi rend="suprscript">th</hi>/16
+
+<!~~ RUBBER STAMPED    PASSED FIELD CENSOR 183
+ ~~>
+<address>Mrs. S.C.Davidson<lb/>
+Seacourt<lb/>
+Bangor<lb/>
+Co Down<lb/>
+Ireland<lb/></address>
+
+
+<add>JDavidson
+</add>
+<date>19/2/16</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T16:28:34" who="#NR">
+                
+                    Page 5794 modified:
+                    <!-- 
+<date>19/2/16</date>
+
+<salute>My dearest Mother</salute>  &#x2014; I got your
+<lb/> letter of 13<hi rend="superscript">th</hi>  yest &amp; was surprised
+<lb/> to hear that you had not received
+<lb/> any letters from me since
+<lb/> 1<hi rend="superscript">st</hi>.  I wrote on 1<hi rend="superscript">st</hi> &amp; 8<hi rend="superscript">th</hi> then to 
+<lb/>Father on 10<hi rend="superscript">th</hi> &amp; again to you
+<lb/> on 16t<hi rend="superscript">h</hi>.  I do hope you have
+<lb/> since received them as I am
+<lb/> now very badly off for boots
+<lb/> &amp; looking anxiously every day
+<lb/> for those trench books to turn
+<lb/> up.  The boots I had have
+<lb/> simply gone to pieces with the
+<lb/> trench work &amp; my feet are
+<lb/> always wet.  With regard to
+<lb/> the pair of boots which you say have arrived from Manfields
+<lb/> I cant remember whether I
+<lb/> ordered them or not but at
+<lb/> any rate they have come just 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T16:29:10" who="#NR">
+                
+                    Page 5795 modified:
+                    <!-- 
+<lb/>at the right time &amp; you might
+<lb/> please have them also sent on
+<lb/> as soon as possible.  I
+<lb/> think I asked you to post me
+<lb/> a box of  <unclear>Cockles</unclear> pills &#x2014; these have
+<lb/> not come yet so if by chance
+<lb/> they have been overlooked would
+<lb/>you please get them for me.
+<lb/> There was a terrific bombardment
+<lb/> this evening to the left of our
+<lb/> Sector &#x2014; it was like continuous
+<lb/> thunder &amp; the flashes of the guns
+<lb/> lit up the whole sky.  Our
+<lb/> particular part of the the line has
+<lb/> been rather more peaceful during
+<lb/> the past day or so but one of 
+<lb/>my gun teams had a great 
+<lb/>escape.  We had been annoying
+<lb/> the Germans considerably the 
+<lb/>night before with 2 guns so
+<lb/> they started to look for us
+<lb/> with artillery &amp; actually dropped 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T16:29:27" who="#NR">
+                
+                    Page 5796 modified:
+                    <!-- 
+<lb/>2 shells right on top of the
+<lb/> emplacement where the men 
+<lb/>were taking shelter.  Fortunately
+<lb/> it had a concrete roof &amp; the 
+<lb/>shell  did not penetrate for
+<lb/> otherwise everyone would have
+<lb/> been killed &amp; they were all
+<lb/> men of my own original section.
+<lb/>  Am kept awfully busy &#x2014; never
+<lb/> seem to have a minute &#x2014; but
+<lb/> have been keeping all right in
+<lb/> spite of the weather.  Trenches
+<lb/> have been flooded &amp; yest I
+<lb/> was wading all morning up to nearly
+<lb/> the knees &amp; with my ordinary old
+<lb/> boots so you can imagine what 
+<lb/>a state I was in.  Must be off
+<lb/> to bed.  With fondest love to all.
+<salute>Your loving son,</salute>
+<signed>Jim</signed>
+<add>A Zepp as just been passing over 
+<lb/>but too high to see</add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T16:29:51" who="#NR">
+                
+                    Page 5797 modified:
+                    <!-- 
+<lb/>On Active Service<lb/>
+<gap/> 24<hi rend="suprscript">th</hi>/16
+
+<address>Mrs. S.C.Davidson<lb/>
+Seacourt<lb/>
+Bangor<lb/>
+Co Down<lb/>
+Ireland<lb/></address>
+
+
+<add>JDavidson
+</add>
+<date>19/2/16</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5795 created using version from <date when="2015-06-17T13:22:17"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5795 removed (version from <date when="2015-06-17T13:22:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5795 removed (version from <date when="2015-06-17T13:31:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5795 removed (version from <date when="2016-01-22T16:40:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5795 removed (version from <date when="2016-01-22T16:41:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5795 removed (version from <date when="2016-01-28T16:29:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5796 created using version from <date when="2015-06-17T13:30:44"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5796 removed (version from <date when="2015-06-17T13:30:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5796 removed (version from <date when="2016-01-22T16:45:07"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5796 removed (version from <date when="2016-01-28T16:29:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5797 created using version from <date when="2015-06-17T13:36:28"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5797 removed (version from <date when="2015-06-17T13:36:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5797 removed (version from <date when="2016-01-22T16:46:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5797 removed (version from <date when="2016-01-28T16:29:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5794 created using version from <date when="2015-06-17T13:09:38"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5794 removed (version from <date when="2015-06-17T13:09:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5794 removed (version from <date when="2015-06-17T13:32:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5794 removed (version from <date when="2016-01-22T16:37:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5794 removed (version from <date when="2016-01-28T16:28:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 5795 (version from <date when="2016-01-28T16:29:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5796 added to letter (version from <date when="2016-01-28T16:29:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5797 added to letter (version from <date when="2016-01-28T16:29:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5794 added to letter (version from <date when="2016-01-28T16:28:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 5794 cleaned of 6 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 5795 cleaned of 5 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 5796 cleaned of 6 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 5797 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:28" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:32" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:52" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:52" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2217_img_5794" url="ca77ffece53a558a7dd5d2b4ada5adba.jpg"/> 
+    
+    <graphic xml:id="L1916_2217_img_5795" url="eed9054dfa5e85ceb93da3753a6dda0e.jpg"/> 
+    
+    <graphic xml:id="L1916_2217_img_5796" url="fa809b791cbebae575878c8bfb881a4d.jpg"/> 
+    
+    <graphic xml:id="L1916_2217_img_5797" url="c3c3561d1e63a231ead1ea32300f1175.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="5794" facs="#L1916_2217_img_5794"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><dateline><date>19/2/16</date></dateline>
+
+<salute>My dearest Mother</salute></opener>  &#x2014; I got your
+<lb/> letter of 13<hi rend="superscript">th</hi>  yest &amp; was surprised
+<lb/> to hear that you had not received
+<lb/> any letters from me since
+<lb/> 1<hi rend="superscript">st</hi>.  I wrote on 1<hi rend="superscript">st</hi> &amp; 8<hi rend="superscript">th</hi> then to 
+<lb/>Father on 10<hi rend="superscript">th</hi> &amp; again to you
+<lb/> on 16t<hi rend="superscript">h</hi>.  I do hope you have
+<lb/> since received them as I am
+<lb/> now very badly off for boots
+<lb/> &amp; looking anxiously every day
+<lb/> for those trench books to turn
+<lb/> up.  The boots I had have
+<lb/> simply gone to pieces with the
+<lb/> trench work &amp; my feet are
+<lb/> always wet.  With regard to
+<lb/> the pair of boots which you say have arrived from Manfields
+<lb/> I cant remember whether I
+<lb/> ordered them or not but at
+<lb/> any rate they have come just
+        
+    
+
+    
+         
+        <pb n="5795" facs="#L1916_2217_img_5795"/>
+        
+        
+           
+            <lb/>at the right time &amp; you might
+<lb/> please have them also sent on
+<lb/> as soon as possible.  I
+<lb/> think I asked you to post me
+<lb/> a box of  <unclear>Cockles</unclear> pills &#x2014; these have
+<lb/> not come yet so if by chance
+<lb/> they have been overlooked would
+<lb/>you please get them for me.
+<lb/> There was a terrific bombardment
+<lb/> this evening to the left of our
+<lb/> Sector &#x2014; it was like continuous
+<lb/> thunder &amp; the flashes of the guns
+<lb/> lit up the whole sky.  Our
+<lb/> particular part of the the line has
+<lb/> been rather more peaceful during
+<lb/> the past day or so but one of 
+<lb/>my gun teams had a great 
+<lb/>escape.  We had been annoying
+<lb/> the Germans considerably the 
+<lb/>night before with 2 guns so
+<lb/> they started to look for us
+<lb/> with artillery &amp; actually dropped
+        
+    
+         
+        <pb n="5796" facs="#L1916_2217_img_5796"/>
+        
+        
+           
+            <lb/>2 shells right on top of the
+<lb/> emplacement where the men 
+<lb/>were taking shelter.  Fortunately
+<lb/> it had a concrete roof &amp; the 
+<lb/>shell  did not penetrate for
+<lb/> otherwise everyone would have
+<lb/> been killed &amp; they were all
+<lb/> men of my own original section.
+<lb/>  Am kept awfully busy &#x2014; never
+<lb/> seem to have a minute &#x2014; but
+<lb/> have been keeping all right in
+<lb/> spite of the weather.  Trenches
+<lb/> have been flooded &amp; yest I
+<lb/> was wading all morning up to nearly
+<lb/> the knees &amp; with my ordinary old
+<lb/> boots so you can imagine what 
+<lb/>a state I was in.  Must be off
+<lb/> to bed.  With fondest love to all.
+<closer><salute>Your loving son,</salute>
+<signed>Jim</signed></closer>
+<add>A Zepp as just been passing over 
+<lb/>but too high to see</add>
+        
+    
+        
+        
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+            <pb n="5797" facs="#L1916_2217_img_5797"/>
+            <text type="envelope" decls="#corresp1">
+                <body> 
+                    <ab>
+                        <lb/>On Active Service<lb/>
+<gap/> 24<hi> rend="suprscript">th</hi>/16
+
+<address><addrLine>Mrs. S.C.Davidson</addrLine>
+<addrLine>Seacourt</addrLine>
+<addrLine>Bangor</addrLine>
+<addrLine>Co Down</addrLine>
+<addrLine>Ireland</addrLine>
+<addrLine></addrLine></address>
+
+
+<add>JDavidson
+</add>
+<date>19/2/16</date>
+                    </ab>
+                </body>
+            </text>
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

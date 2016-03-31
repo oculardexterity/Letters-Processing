@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_685">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter to Mabel FitzGerald, 1916</title>
+                
+                <author>MISSING</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Stevenandy">Stevenandy</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Willow">Willow</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_685</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>This is an unsigned and undated letter sent to to Mabel FitzGerald (née Washington McConnell) (1884-1958), wife of politician and intellectual Desmond Fitzgerald (1888-1947). The letter seems to have been written while Desmond was still in prison and thanks Mabel for her advice and requesting that she asks the author's daughter to come home if possible. The author also refers to some Irish Volunteers activities in Kerry.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Mabel was a former governess in London. She later vigorously canvassed her former acquaintances in London's liberal circles for support for Francis Sheehy Skeffington (1878 -1916) during his hunger strike in 1915. Both Mabel and Desmond would serve in the GPO garrison during Easter Week.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: University College Dublin Archives -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF INSTITUTION REF IS CORRECT --></VERIFY>
+                        
+                        <repository ref="#UCD">University College Dublin, Archives</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: FitzGerald Papers, P80/1545/1
+                             
+                        -->
+                            
+                                <collection type='public'>FitzGerald Papers</collection>
+                            
+                            
+                        <idno>P80/1545/1</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Mabel FitzGerald -->
+                        
+                        <persName ref="#FitzGerald_M">Mabel FitzGerald</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    <persName ref="MISSING">MISSING</persName>
+                
+                
+                
+                    
+                    <date when="1916"></date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                            <item n="tag">NULL</item>
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-02-25T20:25:20" who="#Stevenandy">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-02-25T20:25:20" who="#Willow">
+                
+                    Page 1688 modified:
+                    <!-- 
+180/1545 (1)
+Well Mrs it is time for me to write to you and I am very thankful to you on acount sic of your advising me and advising my little girl and if you can at all tell her to come home if you can at all how is Mr Fitzgerald is out off sic prison yet <unclear>loulinteaks</unclear> (lunatics?) 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-25T20:29:13" who="#Stevenandy">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-02-25T20:29:13" who="#Willow">
+                
+                    Page 1689 modified:
+                    <!-- 
+in Dingle yesterday they did a bank came from Dingle against Ballyfekkite ? loullinteaks
+Well no more to say but I am very thankful to you send me Nellion adress sic if you can 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-26T12:27:04" who="#Willow">
+                
+                    Page 1688 modified:
+                    <!-- 
+180/1545 (1)
+Well Mrs it is time<lb/> for me to write to you and<lb/> I am very thankful to you on <sic>acc<sic><sic>unusually-spelled text</sic>acount</sic></sic> of your advising<lb/> me and advising my little<lb/> girl and if you can at<lb/> all tell her to come home<lb/> if you can at all how is<lb/> Mr Fitzgerald is out off  prison yet <unclear>loulinteaks</unclear> (lunatics?)<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-26T12:29:03" who="#Willow">
+                
+                    Page 1689 modified:
+                    <!-- 
+in Dingle yesterday<lb/> they did a band came<lb/> from Dingle against Ballyfekkite ? loullinteaks<lb/>
+Well no more to say<lb/> but I am very thankful<lb/> to you send me Nellion<lb/> <sic>adr<hi rend="superscript"><hi rend="superscript">superscript text</hi>adress</hi></sic> if you can<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-04T15:31:47" who="#Comber">
+                
+                    Page 1688 modified:
+                    <!-- 
+180/1545 (1)
+Well Mrs it is time<lb/> for me to write to you and<lb/> I am very thankful to you<lb/> on <sic>acount</sic> of your <sic>advicing</sic><lb/> me and <sic>advicing</sic> my little<lb/> Girl and if you can at<lb/> all tell her to come home<lb/> if you can at all how is<lb/> Mr Fitzgerald is out <sic>off</sic><lb/>  prison yet We are all<lb/> Germans here and any<lb/> amount of <gap/><lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-04T15:35:31" who="#Comber">
+                
+                    Page 1689 modified:
+                    <!-- 
+<pb/>in Dingle yesterday<lb/> <sic>their</sic> did a Band came<lb/> from Dingle <del>deleted text</del>against<lb/> Ballyferriter  <unclear>Voullintears</unclear><lb/>
+Well no more to say<lb/> But I am very thankful<lb/> to you send me Nellion<lb/> <sic>adress</sic> if you can<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-04T15:36:09" who="#Comber">
+                
+                    Page 1688 modified:
+                    <!-- 
+180/1545 (1)
+Well Mrs it is time<lb/> for me to write to you and<lb/> I am very thankful to you<lb/> on <sic>acount</sic> of your <sic>advicing</sic><lb/> me and <sic>advicing</sic> my little<lb/> Girl and if you can at<lb/> all tell her to come home<lb/> if you can at all how is<lb/> Mr Fitzgerald is out <sic>off</sic><lb/>  prison yet We are all<lb/> Germans here and any<lb/> amount of <unclear>Voulintears</unclear><lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-13T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-13T14:34:09" who="#NR">
+                
+                    Page 1688 modified:
+                    <!-- 
+Well Mrs it is time
+<lb/> for me to write to you and
+<lb/> I am very thankful to you
+<lb/> on <sic>acount</sic> of your <sic>advicing</sic>
+<lb/> me and <sic>advicing</sic> my little
+<lb/> Girl and if you can at
+<lb/> all tell her to come home
+<lb/> if you can at all how is
+<lb/> Mr Fitzgerald is out <sic>off</sic>
+<lb/>  prison yet We are all
+<lb/> Germans here and any
+<lb/> amount of <unclear>Voulintears</unclear> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-13T14:35:07" who="#NR">
+                
+                    Page 1689 modified:
+                    <!-- 
+<lb/>in Dingle yesterday
+<lb/> <sic>their</sic> did a Band came
+<lb/> from Dingle <del>agin</del>against
+<lb/> Ballyferriter  <unclear>Voullintears</unclear>
+<lb/>Well no more to say
+<lb/> But I am very thankful
+<lb/> to you send me Nellion
+<lb/> <sic>adress</sic> if you can</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1688 created using version from <date when="2014-02-25T20:25:20"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1688 removed (version from <date when="2014-02-25T20:25:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1688 removed (version from <date when="2014-02-26T12:27:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1688 removed (version from <date when="2015-02-04T15:31:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1688 removed (version from <date when="2015-02-04T15:36:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1688 removed (version from <date when="2016-01-13T14:34:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1689 created using version from <date when="2014-02-25T20:29:13"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1689 removed (version from <date when="2014-02-25T20:29:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1689 removed (version from <date when="2014-02-26T12:29:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1689 removed (version from <date when="2015-02-04T15:35:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1689 removed (version from <date when="2016-01-13T14:35:07"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 1688 (version from <date when="2016-01-13T14:34:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 1689 added to letter (version from <date when="2016-01-13T14:35:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:19" who="#PythonScript">
+                
+                    Clean tags: Page 1688 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:19" who="#PythonScript">
+                
+                    Clean tags: Page 1689 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:25" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:29" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:35" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:13" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:13" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_685_img_1688" url="e129b10f3d27c532744ad20867c56117.jpg"/> 
+    
+    <graphic xml:id="L1916_685_img_1689" url="a5e8d6b38ca90e95842c5c1a86d3806a.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="1688" facs="#L1916_685_img_1688"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+Well Mrs it is time
+<lb/> for me to write to you and
+<lb/> I am very thankful to you
+<lb/> on <sic>acount</sic> of your <sic>advicing</sic>
+<lb/> me and <sic>advicing</sic> my little
+<lb/> Girl and if you can at
+<lb/> all tell her to come home
+<lb/> if you can at all how is
+<lb/> Mr Fitzgerald is out <sic>off</sic>
+<lb/>  prison yet We are all
+<lb/> Germans here and any
+<lb/> amount of <unclear>Voulintears</unclear>
+        
+    
+
+    
+         
+        <pb n="1689" facs="#L1916_685_img_1689"/>
+        
+        
+           
+            <lb/>in Dingle yesterday
+<lb/> <sic>their</sic> did a Band came
+<lb/> from Dingle <del>agin</del>against
+<lb/> Ballyferriter  <unclear>Voullintears</unclear>
+<lb/>Well no more to say
+<lb/> But I am very thankful
+<lb/> to you send me Nellion
+<lb/> <sic>adress</sic> if you can</p>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

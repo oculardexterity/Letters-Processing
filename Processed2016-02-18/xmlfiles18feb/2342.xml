@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2342">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Sir Wilfrid Spender to his wife Lady Lillian Spender, 20 August 1916</title>
+                
+                <author>Wilfrid Spender</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tnoonan1111">Tnoonan11 11</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2342</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from sir Wilfrid Bliss Spender (1876-1960) to his wife, Lady Lillian Spender, née Dean, (1880-1968). In this letter, Spender promises only 'a short scrawl', as he plans to drive out to two different corps to gather information on their history. He expresses concern at Lillian's heavy workload and recounts that he himself was up past midnight preparing a 'highly coloured' communiqué for the press - a task not helped by the fact that his various superiors all prefer different styles of writing. Spender also discusses financial matters, making particular reference to the rapidly falling price of rubber.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Sir Wilfrid Spender was a member of the British Army until 1913 when controversy surrounding his signature of the Ulster Solemn League and Covenant resulted in his resignation. Spender was called up for military service in 1914 and from 1915 served in the 36th (Ulster) Division. Throughout the war, Spender wrote a collection of letters to his wife Lady Lillian Spender. The letters date mainly from 1915 to 1918, when Sir Wilfrid was serving in France. The letters concern politics, the Irish question, personal life, and Wilfrid's experience of the Great War. Lady Lillian served in the Ulster Volunteer Nursing Corps during the war, and was an organiser of the Ulster Division Comforts Fund.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Lady Spender&#39;s Correspondence, D1633/1/1/392
+                             
+                        -->
+                            
+                                <collection type='public'>Lady Spender's Correspondence</collection>
+                            
+                            
+                        <idno>D1633/1/1/392</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Lillian Spender -->
+                        
+                        <persName ref="#Spender_L">Lillian Spender</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Wilfrid Spender -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF RECIPIENT IS CORRECT --></VERIFY>
+                        
+                        <persName ref="#Spender_W_B">Wilfrid Bliss Spender</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    France 
+                    France
+                    France
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#France">France</placeName>
+                    
+                
+                    
+                    <date when="1916-08-20">20 August 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1960</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                            <item n="tag">business</item>
+                            
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2016-01-27T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-27T12:39:46" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2016-01-27T12:39:46" who="#NR">
+                
+                    Page 6482 modified:
+                    <!-- 
+<date>aug 20</date>
+<salute>my pr</salute>
+<p>After my long letter yesterday you will only get a 
+<lb/>short paragraph today as I am preparing to go for a long motor
+<lb/>down to visit 2 of the corps in the back areas to collect
+<lb/>history. As I <del>only</del> got no pink pad marks yesterday, I contented myself
+<lb/>very fairly by again following an old trail of the pr's 
+<lb/>which I had kept back as reading to rather extra nice
+<lb/>expeditions, and read it after (very) early service 7.30 AM rather
+<lb/>a halo today, but I wondered if you turned up before I left church.</p>
+<p>I wonder what you are deciding to do, not I hope
+<lb/>getting worried by trying to force yourself to go on with work
+<lb/>or by feeling too tired to make decisions for yourself tho'
+<lb/>ready to do so continually at your own job.</p>
+<p>Yesterday I did not finish my communiqué till
+<lb/>past midnight though I had had it passed at 9pm &amp; sent
+<lb/>out. Unluckily the C in C likes it at dinner and being
+<lb/>toured by an article in Land &amp; Water which said "It is
+<lb/>no thanks to the official communiqués that we have learnt
+<lb/>the important bit of news that POZIERES mill has been 
+<lb/>taken", insisted on a highly coloured account going out 
+<lb/>at once which Butler Davidson &amp; myself proceeded to 
+<lb/>decoct! If only I knew which particular client I had to 
+<lb/>paint for it would make it so much easier, but while
+<lb/>the C in C likes the colours  of a Turner, Kiggell with whom 
+<lb/>I must agree- tho' called dismal by those who don't know him-
+<lb/>likes the more subdued old dutch print style, Butler 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-27T12:58:43" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2016-01-27T12:58:43" who="#NR">
+                
+                    Page 6483 modified:
+                    <!-- 
+<lb/>likes a nice little etching, and Charters through whom 
+<lb/>I first pass my wares has a distinct liking for the glaring
+<lb/>Christmas coloured print. However we all take it in good
+<lb/>part and I on;y wish one's seniors could be spared the thought
+<lb/>&amp; bother of the thing, tho' I shrewdly suspect it is a kind 
+<lb/>of hobby more like a chain problem.</p>
+<p>Let me know when you have quite made up your 
+<lb/>mind about the maids. I don't intend to influence you
+<lb/>against your judgement.</p> 
+<p>By the way I enclose Maguire's business letter. 
+<lb/>If you like either of them better than my choice of the 
+<lb/>(NS Wales!) new loan, you can purchase <del>them</del> it instead <add>with your £300</add>. It
+<lb/>means a little higher rate of interest at a little less
+<lb/>security - the 2 go together of course -. It is jolly good
+<lb/>for you to have this business! <add>You can consult the Pater</add> What I should like to
+<lb/>do is to ensure that our income from safe investments and 
+<lb/>pay and exclusions of <unclear>rubber</unclear> is sufficient to give us £800
+<lb/>a year, so that we had the rubber to play with in getting
+<lb/>our hutch and extras. At present with retired pay it is
+<lb/>about £600 we can <hi rend="underline">count on</hi>, so that we read another £4000
+<lb/>to be invested, of which thanks to the pr we shall have done 
+<lb/>£1500 when our war certificates mature. At present rubber is
+<lb/>giving us nearly £1500 a year but this cannot continue very long
+<lb/>in spite of a pr's care. Rubber profits have indeed <del>half</del> halved 
+<lb/>themselves already in the past 6 months!</p>
+<salute>Your bw</salute> 
+<signe>WB Spender</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6482 created using version from <date when="2016-01-27T12:39:46"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6482 removed (version from <date when="2016-01-27T12:39:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6483 created using version from <date when="2016-01-27T12:58:43"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6483 removed (version from <date when="2016-01-27T12:58:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 6482 (version from <date when="2016-01-27T12:39:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6483 added to letter (version from <date when="2016-01-27T12:58:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:19" who="#PythonScript">
+                
+                    Clean tags: Page 6482 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:19" who="#PythonScript">
+                
+                    Clean tags: Page 6483 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:25" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:29" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:35" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:13" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:13" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2342_img_6482" url="28e817212970087a4df27400eab0780d.jpg"/> 
+    
+    <graphic xml:id="L1916_2342_img_6483" url="24c7baf7845f3fcaa5e8c2a44b1ca32c.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="6482" facs="#L1916_2342_img_6482"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><dateline><date>aug 20</date></dateline>
+<salute>my pr</salute></opener>
+<p>After my long letter yesterday you will only get a 
+<lb/>short paragraph today as I am preparing to go for a long motor
+<lb/>down to visit 2 of the corps in the back areas to collect
+<lb/>history. As I <del>only</del> got no pink pad marks yesterday, I contented myself
+<lb/>very fairly by again following an old trail of the pr's 
+<lb/>which I had kept back as reading to rather extra nice
+<lb/>expeditions, and read it after (very) early service 7.30 AM rather
+<lb/>a halo today, but I wondered if you turned up before I left church.</p>
+<p>I wonder what you are deciding to do, not I hope
+<lb/>getting worried by trying to force yourself to go on with work
+<lb/>or by feeling too tired to make decisions for yourself tho'
+<lb/>ready to do so continually at your own job.</p>
+<p>Yesterday I did not finish my communiqué till
+<lb/>past midnight though I had had it passed at 9pm &amp; sent
+<lb/>out. Unluckily the C in C likes it at dinner and being
+<lb/>toured by an article in Land &amp; Water which said "It is
+<lb/>no thanks to the official communiqués that we have learnt
+<lb/>the important bit of news that POZIERES mill has been 
+<lb/>taken", insisted on a highly coloured account going out 
+<lb/>at once which Butler Davidson &amp; myself proceeded to 
+<lb/>decoct! If only I knew which particular client I had to 
+<lb/>paint for it would make it so much easier, but while
+<lb/>the C in C likes the colours  of a Turner, Kiggell with whom 
+<lb/>I must agree- tho' called dismal by those who don't know him-
+<lb/>likes the more subdued old dutch print style, Butler
+        
+    
+
+    
+         
+        <pb n="6483" facs="#L1916_2342_img_6483"/>
+        
+        
+           
+            <lb/>likes a nice little etching, and Charters through whom 
+<lb/>I first pass my wares has a distinct liking for the glaring
+<lb/>Christmas coloured print. However we all take it in good
+<lb/>part and I on;y wish one's seniors could be spared the thought
+<lb/>&amp; bother of the thing, tho' I shrewdly suspect it is a kind 
+<lb/>of hobby more like a chain problem.</p>
+<p>Let me know when you have quite made up your 
+<lb/>mind about the maids. I don't intend to influence you
+<lb/>against your judgement.</p> 
+<p>By the way I enclose Maguire's business letter. 
+<lb/>If you like either of them better than my choice of the 
+<lb/>(NS Wales!) new loan, you can purchase <del>them</del> it instead <add>with your £300</add>. It
+<lb/>means a little higher rate of interest at a little less
+<lb/>security - the 2 go together of course -. It is jolly good
+<lb/>for you to have this business! <add>You can consult the Pater</add> What I should like to
+<lb/>do is to ensure that our income from safe investments and 
+<lb/>pay and exclusions of <unclear>rubber</unclear> is sufficient to give us £800
+<lb/>a year, so that we had the rubber to play with in getting
+<lb/>our hutch and extras. At present with retired pay it is
+<lb/>about £600 we can <hi rend="underline">count on</hi>, so that we read another £4000
+<lb/>to be invested, of which thanks to the pr we shall have done 
+<lb/>£1500 when our war certificates mature. At present rubber is
+<lb/>giving us nearly £1500 a year but this cannot continue very long
+<lb/>in spite of a pr's care. Rubber profits have indeed <del>half</del> halved 
+<lb/>themselves already in the past 6 months!</p>
+<closer><salute>Your bw</salute></closer> 
+<signe>WB Spender</signed>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

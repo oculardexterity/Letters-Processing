@@ -1,0 +1,1526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2119">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Dorothy (Dussie) Duffin to Auntie B, 27 March 1916</title>
+                
+                <author>Dorothy Duffin</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="LS">Linda Spinazzè</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tomroux">Tomroux</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2119</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from Dorothy Duffin (b. 1881) to her Aunt. Dorothy's main news is that her sister Emma (1883–1979) has returned from Alexandria, Egypt, where she served as a VAD, and is currently in London. Dorothy is hoping that she, Olive and Celia will get to see her. She remarks on seeing women employed by the railway and comments that a job as a bus conductor would be 'infinitely more attractive than ordinary clerical work'. She describes a trip to St. John's Gate with her sister, Celia, and they discovered that there is little chance of Celia getting a posting abroad (France), of of Dorothy herself being called up.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>This letter is part of a rich correspondence between various members of the Duffin family, a large prosperous family living in Strandtown, Belfast. Several family members served in the war, including Major Terence Duffin, who served as a staff officer with 107 Brigade, and later with Royal Irish Rifles; Major Charles G Duffin MC, Royal Field Artillery; and their sisters Emma, Celia and Dorothy who served as Voluntary Aid Detachments (VADS) in Egypt and France, and with the YMCA.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Duffin Papers, D2109/10/1/C/31/3
+                             
+                        -->
+                            
+                                <collection type='public'>Duffin Papers</collection>
+                            
+                            
+                        <idno>D2109/10/1/C/31/3</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <persName ref="MISSING">Auntie B</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">Dorothy Duffin</persName>
+                    
+                
+                
+                 
+                    
+                    <placeName  ref="MISSING">Ardeevin, Epsom, England</placeName>
+                    
+                
+                    
+                    <date when="1916-03-27">27 March 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Female</item>
+                      
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                            
+                            <item n="tag">Family life</item>
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-04-21T21:05:19" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-04-21T21:05:19" who="#Tomroux">
+                
+                    Page 5369 modified:
+                    <!-- 
+<add>D2109/10/1/C</add><date>March 27<hi rend="superscript">th</hi><lb/>Sunday</date><gap/><hi rend="underline">1</hi><lb/><unclear>Epson</unclear><lb/><salute>Dearest Auntie B.</salute><lb/><p>Emma has just<lb/>telephoned to say she is at the<lb/><unclear>Strand</unclear>Palace Hotel! I am going<lb/>to meet her <sic>to-morrow</sic> morning. She<lb/>has <gap/> to  <unclear>Ohri</unclear> so I expect she<lb/>will be there too. I hope Celia can<lb/>get off. Such a gathering! I could<lb/>not hear a word she said over the<lb/>telephone <hi rend="underline">except</hi>the address! What<lb/>a lot she will have to tell!</p>I have been doing all I can to find<lb/>a job.<sic>have</sic> been to several <unclear>Bureau</unclear><lb/>Associations etc. Miss <unclear>Sharok</unclear>started<lb/> me with two letters. I was passed on to several people who took notes<lb/>about me, but I can't tell if any<lb/>thing may turn up. I am not going<lb/>to take ordinary office work on small<lb/>pay. My <gap/><gap/> private residential work is now almost nil. Since the<lb/><unclear>War</unclear>. I sent in a form to the <unclear>War</unclear> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-21T21:10:17" who="#Tomroux">
+                
+                    Page 5369 modified:
+                    <!-- 
+<add>D2109/10/1/C</add><date>March 27<hi rend="superscript">th</hi><lb/>Sunday</date><gap/><hi rend="underline">1</hi><lb/><unclear>Epson</unclear><lb/><salute>Dearest Auntie B.</salute><lb/><p>Emma has just<lb/>telephoned to say she is at the<lb/><unclear>Strand</unclear>Palace Hotel! I am going<lb/>to meet her <sic>to-morrow</sic> morning. She<lb/>has <unclear>wired</unclear> to  <unclear>Ohri</unclear> so I expect she<lb/>will be there too. I hope Celia can<lb/>get off. Such a gathering! I could<lb/>not hear a word she said over the<lb/>telephone <hi rend="underline">except</hi>the address! What<lb/>a lot she will have to tell!</p>I have been doing all I can to find<lb/>a job.<sic>have</sic> been to several <unclear>Bureau</unclear><lb/>Associations etc. Miss <unclear>Sharok</unclear>started<lb/> me with two letters. I was passed on to several people who took notes<lb/>about me, but I can't tell if any<lb/>thing may turn up. I am not going<lb/>to take ordinary office work on small<lb/>pay. My <unclear>time</unclear> the private residential work is now almost nil. Since the<lb/><unclear>War</unclear>. I sent in a form to the <unclear>War</unclear> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-21T21:22:22" who="#Tomroux">
+                
+                    Page 5369 modified:
+                    <!-- 
+<add>D2109/10/1/C</add><date>March 27<hi rend="superscript">th</hi><lb/>Sunday</date><gap/><hi rend="underline">1</hi><lb/><unclear>Epson</unclear><lb/><salute>Dearest Auntie B.</salute><lb/><p>Emma has just<lb/>telephoned to say she is at the<lb/><unclear>Strand</unclear>Palace Hotel! I am going<lb/>to meet her <sic>to-morrow</sic> morning. She<lb/>has <unclear>wired</unclear> to  <unclear>Ohri</unclear> so I expect she<lb/>will be there too. I hope Celia can<lb/>get off. Such a gathering! I could<lb/>not hear a word she said over the<lb/>telephone <hi rend="underline">except</hi> the address! What<lb/>a lot she will have to tell!</p>I have been doing all I can to find<lb/>a job. <sic>have</sic> been to several <unclear>Bureau</unclear><lb/>Associations etc. Miss <unclear>Sharok</unclear> started<lb/> me with two letters. I was passed on to several people who took notes<lb/>about me, but I can't tell if any<lb/>thing may turn up. I am not going<lb/>to take ordinary office work on small<lb/>pay. My <unclear>time</unclear> the private residential work is now almost nil. Since the<lb/>War. I sent in a form to the War<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-21T21:31:20" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-04-21T21:31:20" who="#Tomroux">
+                
+                    Page 5370 modified:
+                    <!-- 
+<add>D2109/10/1/C</add><hi rend="underline">2</hi><p><lb/>Office. It is disappointing about the<lb/><gap/>. Uncle Edmund says it is <lb/>no use going there without a definite <lb/>letter of introduction to a definite <lb/>man. I wrote to <unclear>Miss Arnold-Forster</unclear> <lb/>about a week ago asking for her <lb/>advice. if she <add>would</add> <unclear>have</unclear> an introduction <lb/>but have heard nothing from her <lb/>so I am stuck.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-21T21:32:16" who="#Tomroux">
+                
+                    Page 5369 modified:
+                    <!-- 
+<add>D2109/10/1/C</add><date>March 27<hi rend="superscript">th</hi><lb/>Sunday</date><gap/><hi rend="underline">1</hi><lb/><unclear>Epson</unclear><lb/><salute>Dearest Auntie B.</salute><lb/><p>Emma has just<lb/>telephoned to say she is at the<lb/><unclear>Strand</unclear>Palace Hotel! I am going<lb/>to meet her <sic>to-morrow</sic> morning. She<lb/>has <unclear>wired</unclear> to  <unclear>Ohri</unclear> so I expect she<lb/>will be there too. I hope Celia can<lb/>get off. Such a gathering! I could<lb/>not hear a word she said over the<lb/>telephone <hi rend="underline">except</hi> the address! What<lb/>a lot she will have to tell!</p><p>I have been doing all I can to find<lb/>a job. <sic>have</sic> been to several <unclear>Bureau</unclear><lb/>Associations etc. Miss <unclear>Sharok</unclear> started<lb/> me with two letters. I was passed on to several people who took notes<lb/>about me, but I can't tell if any<lb/>thing may turn up. I am not going<lb/>to take ordinary office work on small<lb/>pay. My <unclear>time</unclear> the private residential work is now almost nil. Since the<lb/>War. I sent in a form to the War</p><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-21T21:35:56" who="#Tomroux">
+                
+                    Page 5370 modified:
+                    <!-- 
+<add>D2109/10/1/C</add><hi rend="underline">2</hi><p><lb/>Office. It is disappointing about the<lb/><gap/>. Uncle Edmund says it is <lb/>no use going there without a definite <lb/>letter of introduction to a definite <lb/>man. I wrote to <unclear>Miss Arnold-Forster</unclear> <lb/>about a week ago asking for her <lb/>advice &amp; if she <add>would</add> <unclear>have</unclear> an introduction <lb/>but have heard nothing from her <lb/>so I am stuck.</p> <lb/>Aunt Fanny &amp; Uncle Edmund are as <lb/>kind as possible &amp; I expect to stay <lb/>here <sic>til</sic> April 1<hi rend="superscript">st</hi> &amp; then go to <lb/>the <unclear>Donnets</unclear> at Eastbourne. After <lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-21T21:36:28" who="#Tomroux">
+                
+                    Page 5369 modified:
+                    <!-- 
+<add>D2109/10/1/C</add><date>March 27<hi rend="superscript">th</hi><lb/>Sunday</date><gap/><hi rend="underline">1</hi><lb/><unclear>Epson</unclear><lb/><salute>Dearest Auntie B.</salute><lb/><p>Emma has just<lb/>telephoned to say she is at the<lb/><unclear>Strand</unclear>Palace Hotel! I am going<lb/>to meet her <sic>to-morrow</sic> morning. She<lb/>has <unclear>wired</unclear> to  Olive so I expect she<lb/>will be there too. I hope Celia can<lb/>get off. Such a gathering! I could<lb/>not hear a word she said over the<lb/>telephone <hi rend="underline">except</hi> the address! What<lb/>a lot she will have to tell!</p><p>I have been doing all I can to find<lb/>a job. <sic>have</sic> been to several <unclear>Bureau</unclear><lb/>Associations etc. Miss <unclear>Sharok</unclear> started<lb/> me with two letters. I was passed on to several people who took notes<lb/>about me, but I can't tell if any<lb/>thing may turn up. I am not going<lb/>to take ordinary office work on small<lb/>pay. My <unclear>time</unclear> the private residential work is now almost nil. Since the<lb/>War. I sent in a form to the War</p><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-22T19:11:02" who="#Tomroux">
+                
+                    Page 5370 modified:
+                    <!-- 
+<add>D2109/10/1/C</add><hi rend="underline">2</hi><p><lb/>Office. It is disappointing about the<lb/><gap/>. Uncle Edmund says it is <lb/>no use going there without a definite <lb/>letter of introduction to a definite <lb/>man. I wrote to <unclear>Miss Arnold-Forster</unclear> <lb/>about a week ago asking for her <lb/>advice &amp; if she <add>would</add> <unclear>have</unclear> an introduction <lb/>but have heard nothing from her <lb/>so I am stuck.</p> <p><lb/>Aunt Fanny &amp; Uncle Edmund are as <lb/>kind as possible &amp; I expect to stay <lb/>here <sic>til</sic> April 1<hi rend="superscript">st</hi> &amp; then go to <lb/>the <unclear>Donnets</unclear> at Eastbourne. After <lb/>that Olive tells me she will be <lb/>"on the loose" for a fortnight as<lb/> Miss Roberts is closing her house <lb/>to give the <unclear>household</unclear> a rest, and <lb/>will not require her. I hope we can <lb/>arrange to join together somehow for <lb/>that fortnight.</p><lb/>Baby <unclear>Lee</unclear> is a great joy. I don't <lb/>know what they would do without <lb/>her. She is a plain but attractive<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-22T19:26:34" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-04-22T19:26:34" who="#Tomroux">
+                
+                    Page 5371 modified:
+                    <!-- 
+<add>D2109/10/1/C</add><hi rend="underline">3</hi><lb/><p>little soul. <unclear>Emmie Epson</unclear> has decided <lb/>to remain on in India for the present.</p><lb/> <p>My heart aches for Charlie &amp; Marjorie <lb/>but I am glad they are together, if <lb/>only for a short time. It is vexing <lb/>that Charlie's training is not what was <lb/>expected. If Marjorie wants me I shall <lb/>go to her but perhaps she will think <lb/>of being with her <unclear>poor Aunts</unclear> for <lb/>a little bit.</p><lb/><p>Uncle Edmund has gone off to golf &amp; <lb/>Aunt Fanny &amp; I are going to walk <lb/>over the Downs to <unclear>Tadworth</unclear> and <lb/>see Harry and Janet. I am anxious <lb/>to see their children. It will be <lb/>a cold, stormy, long walk but Aunt <lb/>Fanny says she is able for it.</p><lb/><p>I hope Aunt Charlotte's throat and <lb/>ear are better &amp; that Craig can really <lb/>make her well. Have you good <lb/>news of <unclear>Elfie</unclear>? I trust the change <lb/>is a success.</p><lb/>I have met Celia twice, &amp; she stayed<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-22T19:45:18" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-04-22T19:45:18" who="#Tomroux">
+                
+                    Page 5372 modified:
+                    <!-- 
+<add>D2109/10/1/C</add><hi rend="underline">4</hi><lb/>a night here. She looks well and is <lb/><unclear>cheerful</unclear>.<lb/><p>It is interesting seeing women in <lb/><gap/> employed at all the railway <lb/>stations, on lifts, omnibuses etc. <lb/>I think being an omnibus conductor <lb/>would be infinitely more attractive <lb/>than ordinary clerical work.</p><lb/><p>Celia &amp; I made our way over to St <lb/>John's Gate &amp; interviewed Lady <unclear>Olive</unclear>,<lb/> who was covered with orders and <lb/>ribbons. She told Celia there was not <lb/>much chance of her getting <unclear>abroad</unclear>.<lb/> I doubt if I shall be called up <lb/>at all now as the demand for <lb/>V.A.D. nurses is evidently not so great.<lb/>St John's Gate is a quant old <lb/>place. The walls <gap/> with portraits <lb/>of the knights, suits of armour etc.<lb/> We got lost several times in the <lb/>back streets of <unclear>Clukenwell</unclear> but found <lb/>the place eventually.</p><lb/>I was all over London the other day<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-22T19:51:54" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-04-22T19:51:54" who="#Tomroux">
+                
+                    Page 5373 modified:
+                    <!-- 
+<add>D2109/10/1/C</add><hi rend="underline">5</hi><lb/>from the heart of the City to South <lb/>Kensington. Finding the way was quite <lb/>amusing, but interviewing the head <lb/>of offices &amp; Bureaus became wearisome <lb/>&amp; I got a glimpse of the deadly boredom <lb/>of London offices!<lb/>Best love to all the Aunties &#x2014; I <lb/>was so glad to get your letter. <lb/>Days are very long here, but I try <lb/>to be cheery for Aunt Fanny, and <lb/>if we all 4 meet in London <sic>to-morrow</sic> <lb/>it will be splendid.<lb/><salute>Your loving<pb/>Dussie</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-22T19:52:15" who="#Tomroux">
+                
+                    Page 5373 modified:
+                    <!-- 
+<add>D2109/10/1/C</add><hi rend="underline">5</hi><lb/>from the heart of the City to South <lb/>Kensington. Finding the way was quite <lb/>amusing, but interviewing the head <lb/>of offices &amp; Bureaus became wearisome <lb/>&amp; I got a glimpse of the deadly boredom <lb/>of London offices!<lb/>Best love to all the Aunties &#x2014; I <lb/>was so glad to get your letter. <lb/>Days are very long here, but I try <lb/>to be cheery for Aunt Fanny, and <lb/>if we all 4 meet in London <sic>to-morrow</sic> <lb/>it will be splendid.<lb/><salute>Your loving<pb/><hi rend="underline">Dussie</hi></salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-25T14:38:06" who="#Philcostel">
+                
+                    Page 5369 modified:
+                    <!-- 
+<add>D2109/10/1/C</add><date>March 27<hi rend="superscript">th</hi><lb/>Sunday</date><gap/><hi rend="underline">1</hi><lb/><address>Ardeevin<lb/> Epsom</address><lb/><salute>Dearest Auntie B.</salute><lb/><p>Emma has just<lb/>telephoned to say she is at the<lb//>Strand Palace Hotel! I am going<lb/>to meet her <sic>to-morrow</sic> morning &amp; she<lb/>has wired to  Olive so I expect she<lb/>will be there too. I hope Celia can<lb/>get off. Such a gathering! I could<lb/>not hear a word she said over the<lb/>telephone <hi rend="underline">except</hi> the address! What<lb/>a lot she will have to tell!</p><p>I have been doing all I can to find<lb/>a job.&amp; have been to several Bureaux<lb/>Associations etc. Miss <unclear>Sharok</unclear> started<lb/> me with two letters. I was passed on to several people who took notes<lb/>about me, but I can't tell if any<lb/>thing may turn up. I am not going<lb/>to take ordinary office work on small<lb/>pay.They tell me private residential work is now almost nil. Since the<lb/>War. I sent in a form to the War</p><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-25T14:45:28" who="#Philcostel">
+                
+                    Page 5370 modified:
+                    <!-- 
+<add>D2109/10/1/C</add><hi rend="underline">2</hi><p><lb/>Office. It is disappointing about the<lb/> Admiralty. Uncle Edmund says it is <lb/>no use going there without a definite <lb/>letter of introduction to a definite <lb/>man. I wrote to Mrs Arnold-Forster <lb/>about a week ago asking for her <lb/>advice &amp; if she <add>would</add> give an introduction <lb/>but have heard nothing from her <lb/>so I am stuck.</p> <p>Aunt Fanny &amp; Uncle Edmund are as <lb/>kind as possible &amp; I expect to stay <lb/>here <sic>till</sic> April 1<hi rend="superscript">st</hi> &amp; then go to <lb/>the <unclear>Donnets</unclear> at Eastbourne. After <lb/>that Olive tells me she will be <lb/>"on the loose" for a fortnight as<lb/> Miss Roberts is closing her house <lb/>to give the household a rest, and <lb/>will not require her. I hope we can <lb/>arrange to join together somehow for <lb/>that fortnight.</p>
+<p>Baby <unclear>Lee</unclear> is a great joy. I don't <lb/>know what they would do without <lb/>her. She is a plain but attractive<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-25T14:49:01" who="#Philcostel">
+                
+                    Page 5371 modified:
+                    <!-- 
+<add>D2109/10/1/C</add><hi rend="underline">3</hi><lb/><p>little soul. <unclear>Emmie Epson</unclear> has decided <lb/>to remain on in India for the present.</p><lb/> <p>My heart aches for Charlie &amp; Marjorie <lb/>but I am glad they are together, if <lb/>only for a short time. It is vexing <lb/>that Charlie's training is not what was <lb/>expected. If Marjorie wants me I shall <lb/>go to her but perhaps she will think <lb/>of being with her <unclear>poor Aunts</unclear> for <lb/>a little bit.</p><lb/><p>Uncle Edmund has gone off to golf &amp; <lb/>Aunt Fanny &amp; I are going to walk <lb/>over the Downs to <unclear>Tadworth</unclear> and <lb/>see Harry and Janet. I am anxious <lb/>to see their children. It will be <lb/>a cold, stormy, long walk but Aunt <lb/>Fanny says she is able for it.</p><lb/><p>I hope Aunt Charlotte's throat and <lb/>ear are better &amp; that Craig can really <lb/>make her well. Have you good <lb/>news of <unclear>Effie</unclear>? I trust the change <lb/>is a success.</p><lb/>I have met Celia twice, &amp; she stayed<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-25T14:54:12" who="#Philcostel">
+                
+                    Page 5372 modified:
+                    <!-- 
+<add>D2109/10/1/C</add><hi rend="underline">4</hi><lb/>a night here. She looks well and is <lb/>cheerful.<lb/><p> 
+<p>It is interesting seeing women in <lb/>London employed at all the railway <lb/>stations, on lifts, omnibuses etc. <lb/>I think being an omnibus conductor <lb/>would be infinitely more attractive <lb/>than ordinary clerical work.</p><lb/><p>Celia &amp; I made our way over to St <lb/>John's Gate &amp; interviewed Lady <unclear>Olivia</unclear>,<lb/> who was covered with orders and <lb/>ribbons. She told Celia there was not <lb/>much chance of her getting abroad.<lb/> I doubt if I shall be called up <lb/>at all now as the demand for <lb/>V.A.D. nurses is evidently not so great.<lb/>St John's Gate is a quaint old <lb/>place. The walls lined with portraits <lb/>of the knights, suits of armour etc.<lb/> We got lost several times in the <lb/>back streets of <unclear>Clerkenwell</unclear> but found <lb/>the place eventually.</p><lb/>
+<p>paragraph</p>I was all over London the other day<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-25T14:58:04" who="#Philcostel">
+                
+                    Page 5373 modified:
+                    <!-- 
+<add>D2109/10/1/C</add><hi rend="underline">5</hi><lb/>from the heart of the City to South <lb/>Kensington. Finding the way was quite <lb/>amusing, but interviewing the heads <lb/>of offices &amp; Bureaus became wearisome <lb/>&amp; I got a glimpse of the deadly boredom <lb/>of London offices!</p>
+<p>Best love to all the Aunties &#x2014; I <lb/>was so glad to get your letter. <lb/>Days are very long here, but I try <lb/>to be cheery for Aunt Fanny, and <lb/>if we all 4 meet in London <sic>to-morrow</sic> <lb/>it will be splendid.<lb/><salute>Your loving<lb/>><hi rend="underline">Dussie</hi></salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T15:51:24" who="#LS">
+                
+                    Page 5369 modified:
+                    <!-- 
+<date>March 27<hi rend="superscript">th</hi><lb/><hi rend="underline">Sunday</hi></date>
+<address>Ardeevin<lb/> Epsom</address>
+<salute>Dearest Auntie B.</salute>
+<p>Emma has just<lb/>
+telephoned to say she is at the<lb/>
+Strand Palace Hotel! I am going<lb/>
+to meet her <sic>to-morrow</sic> morning &amp; she<lb/>
+has wired to  Olive so I expect she<lb/>
+will be there too. I hope Celia can<lb/>
+get off. Such a gathering! I could<lb/>
+not hear a word she said over the<lb/>
+telephone <hi rend="underline">except</hi> the address! What<lb/>
+a lot she will have to tell!</p>
+<p>I have been doing all I can to find<lb/>
+a job &amp; have been to several Bureaux<lb/>
+Associations etc. Miss <unclear>Sharok</unclear> started<lb/> 
+me with two letters. I was passed on to several people who took notes<lb/>
+about me, but I can't tell if any<lb/>
+thing may turn up. I am not going<lb/>
+to take ordinary office work on small<lb/>
+pay. They tell me private residential work<lb/>
+ is now almost nil. Since the<lb/>
+War. I sent in a form to the War<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T15:54:49" who="#LS">
+                
+                    Page 5370 modified:
+                    <!-- 
+Office. It is disappointing about the<lb/> 
+Admiralty. Uncle Edmund says it is <lb/>
+no use going there without a definite <lb/>
+letter of introduction to a definite <lb/>
+man. I wrote to Mrs Arnold-Forster <lb/>
+about a week ago asking for her <lb/>
+advice &amp; if she <add>would</add> give an introduction <lb/>
+but have heard nothing from her <lb/>
+so I am stuck.</p> 
+<p>Aunt Fanny &amp; Uncle Edmund are as <lb/>
+kind as possible &amp; I expect to stay <lb/>
+here <sic>till</sic> April 1<hi rend="superscript">st</hi> &amp; then go to <lb/>
+the <unclear>Donnets</unclear> at Eastbourne. After <lb/>
+that Olive tells me she will be <lb/>
+"on the loose" for a fortnight as<lb/> 
+Miss Roberts is closing her house <lb/>
+to give the household a rest, and <lb/>
+will not require her. I hope we can <lb/>
+arrange to join together somehow for <lb/>
+that fortnight.</p>
+<p>Baby <unclear>Lee</unclear> is a great joy. I don't <lb/>
+know what they would do without <lb/>
+her. She is a plain but attractive<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T16:00:22" who="#LS">
+                
+                    Page 5371 modified:
+                    <!-- 
+little soul. <unclear>Emmie Epson</unclear> has decided <lb/>
+to remain on in India for the present.</p>
+<p>My heart aches for Charlie &amp; Marjorie <lb/>
+but I am glad they are together, if <lb/>
+only for a short time. It is vexing <lb/>
+that Charlie's training is not what was <lb/>
+expected. If Marjorie wants me I shall <lb/>
+go to her but perhaps she will think <lb/>
+of being with her <unclear>poor Aunts</unclear> for <lb/>a little bit.</p>
+<p>Uncle Edmund has gone off to golf &amp; <lb/>
+Aunt Fanny &amp; I are going to walk <lb/>
+over the Downs to <unclear>Tadworth</unclear> and <lb/>
+see Harry and Janet. I am anxious <lb/>
+to see their children. It will be <lb/>
+a cold, stormy, long walk but Aunt <lb/>
+Fanny says she is able for it.</p>
+<p>I hope Aunt Charlotte's throat and <lb/>
+ear are better &amp; that Craig can really <lb/>
+make her well. Have you good <lb/>
+news of <unclear>Effie</unclear>? I trust the change <lb/>
+is a success.</p><p>I have met Celia twice, &amp; she stayed<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T16:07:05" who="#LS">
+                
+                    Page 5372 modified:
+                    <!-- 
+a night here. She looks well and is <lb/>
+cheerful.</p> 
+<p>It is interesting seeing women in <lb/>
+London employed at all the railway <lb/>
+stations, on lifts, omnibuses etc. <lb/>
+I think being an omnibus conductor <lb/>
+would be infinitely more attractive <lb/>
+than ordinary clerical work.</p>
+<p>Celia &amp; I made our way over to St <lb/>
+John's Gate &amp; interviewed Lady <unclear>Olivia</unclear>,<lb/> 
+who was covered with orders and <lb/>
+ribbons. She told Celia there was not <lb/>
+much chance of her getting abroad.<lb/> 
+I doubt if I shall be called up <lb/>
+at all now as the demand for <lb/>
+V.A.D. nurses is evidently not so great.<lb/>
+St John's Gate is a quaint old <lb/>
+place. The walls lined with portraits <lb/>
+of the knights, suits of armour etc.<lb/> 
+We got lost several times in the <lb/>
+back streets of <unclear>Clerkenwell</unclear> but found <lb/>
+the place eventually.</p>
+<p>I was all over London the other day<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T16:09:08" who="#LS">
+                
+                    Page 5373 modified:
+                    <!-- 
+from the heart of the City to South <lb/>
+Kensington. Finding the way was quite <lb/>
+amusing, but interviewing the heads <lb/>
+of offices &amp; Bureaus became wearisome <lb/>
+&amp; I got a glimpse of the deadly boredom <lb/>
+of London offices!</p>
+<p>Best love to all the Aunties &#x2014; I <lb/>
+was so glad to get your letter. <lb/>
+Days are very long here, but I try <lb/>
+to be cheery for Aunt Fanny, and <lb/>
+if we all 4 meet in London <sic>to-morrow</sic> <lb/>
+it will be splendid.</p>
+<salute>Your loving<lb/><hi rend="underline">Dussie</hi></salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T15:17:31" who="#NR">
+                
+                    Page 5369 modified:
+                    <!-- 
+<date>March 27<hi rend="superscript">th</hi><lb/><hi rend="underline">Sunday</hi></date>
+<address>Ardeevin<lb/> Epsom</address>
+<salute>Dearest Auntie B.</salute>
+<p>Emma has just<lb/>
+telephoned to say she is at the<lb/>
+Strand Palace Hotel! I am going<lb/>
+to meet her <sic>to-morrow</sic> morning &amp; she<lb/>
+has wired to  Olive so I expect she<lb/>
+will be there too. I hope Celia can<lb/>
+get off. Such a gathering! I could<lb/>
+not hear a word she said over the<lb/>
+telephone <hi rend="underline">except</hi> the address! What<lb/>
+a lot she will have to tell!</p>
+<p>I have been doing all I can to find<lb/>
+a job &amp; have been to several Bureaux<lb/>
+Associations etc. Miss <unclear>Sharok</unclear> started<lb/> 
+me with two letters. I was passed<lb/>
+ on to several people who took notes<lb/>
+about me, but I can't tell if any<lb/>
+thing may turn up. I am not going<lb/>
+to take ordinary office work on small<lb/>
+pay. They tell me private residential work<lb/>
+ is now almost nil. Since the<lb/>
+War. I sent in a form to the War 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T15:18:01" who="#NR">
+                
+                    Page 5370 modified:
+                    <!-- 
+Office. It is disappointing about the<lb/> 
+Admiralty. Uncle Edmund says it is <lb/>
+no use going there without a definite <lb/>
+letter of introduction to a definite <lb/>
+man. I wrote to Mrs Arnold-Forster <lb/>
+about a week ago asking for her <lb/>
+advice &amp; if she <add>would</add> give an introduction <lb/>
+but have heard nothing from her <lb/>
+so I am stuck.</p> 
+<p>Aunt Fanny &amp; Uncle Edmund are as <lb/>
+kind as possible &amp; I expect to stay <lb/>
+here <sic>till</sic> April 1<hi rend="superscript">st</hi> &amp; then go to <lb/>
+the <unclear>Donnets</unclear> at Eastbourne. After <lb/>
+that Olive tells me she will be <lb/>
+"on the loose" for a fortnight as<lb/> 
+Miss Roberts is closing her house <lb/>
+to give the household a rest, and <lb/>
+will not require her. I hope we can <lb/>
+arrange to join together somehow for <lb/>
+that fortnight.</p>
+<p>Baby <unclear>Lee</unclear> is a great joy. I don't <lb/>
+know what they would do without <lb/>
+her. She is a plain but attractive 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T15:19:16" who="#NR">
+                
+                    Page 5371 modified:
+                    <!-- 
+little soul. <unclear>Emmie Epson</unclear> has decided <lb/>
+to remain on in India for the present.</p>
+<p>My heart aches for Charlie &amp; Marjorie <lb/>
+but I am glad they are together, if <lb/>
+only for a short time. It is vexing <lb/>
+that Charlie's training is not what was <lb/>
+expected. If Marjorie wants me I shall <lb/>
+go to her but perhaps she will think <lb/>
+of being with her <unclear>poor Aunts</unclear> for <lb/>
+a little bit.</p>
+<p>Uncle Edmund has gone off to golf &amp; <lb/>
+Aunt Fanny &amp; I are going to walk <lb/>
+over the Downs to <unclear>Tadworth</unclear> and <lb/>
+see Harry and Janet. I am anxious <lb/>
+to see their children. It will be <lb/>
+a cold, stormy, long walk but Aunt <lb/>
+Fanny says she is able for it.</p>
+<p>I hope Aunt Charlotte's throat and <lb/>
+ear are better &amp; that Craig can really <lb/>
+make her well. Have you good <lb/>
+news of <unclear>Effie</unclear>? I trust the change <lb/>
+is a success.</p>
+<p>I have met Celia twice, &amp; she stayed<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T15:19:17" who="#NR">
+                
+                    Page 5371 modified:
+                    <!-- 
+little soul. <unclear>Emmie Epson</unclear> has decided <lb/>
+to remain on in India for the present.</p>
+<p>My heart aches for Charlie &amp; Marjorie <lb/>
+but I am glad they are together, if <lb/>
+only for a short time. It is vexing <lb/>
+that Charlie's training is not what was <lb/>
+expected. If Marjorie wants me I shall <lb/>
+go to her but perhaps she will think <lb/>
+of being with her <unclear>poor Aunts</unclear> for <lb/>
+a little bit.</p>
+<p>Uncle Edmund has gone off to golf &amp; <lb/>
+Aunt Fanny &amp; I are going to walk <lb/>
+over the Downs to <unclear>Tadworth</unclear> and <lb/>
+see Harry and Janet. I am anxious <lb/>
+to see their children. It will be <lb/>
+a cold, stormy, long walk but Aunt <lb/>
+Fanny says she is able for it.</p>
+<p>I hope Aunt Charlotte's throat and <lb/>
+ear are better &amp; that Craig can really <lb/>
+make her well. Have you good <lb/>
+news of <unclear>Effie</unclear>? I trust the change <lb/>
+is a success.</p>
+<p>I have met Celia twice, &amp; she stayed<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T15:19:21" who="#NR">
+                
+                    Page 5371 modified:
+                    <!-- 
+little soul. <unclear>Emmie Epson</unclear> has decided <lb/>
+to remain on in India for the present.</p>
+<p>My heart aches for Charlie &amp; Marjorie <lb/>
+but I am glad they are together, if <lb/>
+only for a short time. It is vexing <lb/>
+that Charlie's training is not what was <lb/>
+expected. If Marjorie wants me I shall <lb/>
+go to her but perhaps she will think <lb/>
+of being with her <unclear>poor Aunts</unclear> for <lb/>
+a little bit.</p>
+<p>Uncle Edmund has gone off to golf &amp; <lb/>
+Aunt Fanny &amp; I are going to walk <lb/>
+over the Downs to <unclear>Tadworth</unclear> and <lb/>
+see Harry and Janet. I am anxious <lb/>
+to see their children. It will be <lb/>
+a cold, stormy, long walk but Aunt <lb/>
+Fanny says she is able for it.</p>
+<p>I hope Aunt Charlotte's throat and <lb/>
+ear are better &amp; that Craig can really <lb/>
+make her well. Have you good <lb/>
+news of <unclear>Effie</unclear>? I trust the change <lb/>
+is a success.</p>
+<p>I have met Celia twice, &amp; she stayed<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T15:19:29" who="#NR">
+                
+                    Page 5371 modified:
+                    <!-- 
+little soul. <unclear>Emmie Epson</unclear> has decided <lb/>
+to remain on in India for the present.</p>
+<p>My heart aches for Charlie &amp; Marjorie <lb/>
+but I am glad they are together, if <lb/>
+only for a short time. It is vexing <lb/>
+that Charlie's training is not what was <lb/>
+expected. If Marjorie wants me I shall <lb/>
+go to her but perhaps she will think <lb/>
+of being with her <unclear>poor Aunts</unclear> for <lb/>
+a little bit.</p>
+<p>Uncle Edmund has gone off to golf &amp; <lb/>
+Aunt Fanny &amp; I are going to walk <lb/>
+over the Downs to <unclear>Tadworth</unclear> and <lb/>
+see Harry and Janet. I am anxious <lb/>
+to see their children. It will be <lb/>
+a cold, stormy, long walk but Aunt <lb/>
+Fanny says she is able for it.</p>
+<p>I hope Aunt Charlotte's throat and <lb/>
+ear are better &amp; that Craig can really <lb/>
+make her well. Have you good <lb/>
+news of <unclear>Effie</unclear>? I trust the change <lb/>
+is a success.</p>
+<p>I have met Celia twice, &amp; she stayed 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T15:19:51" who="#NR">
+                
+                    Page 5372 modified:
+                    <!-- 
+a night here. She looks well and is <lb/>
+cheerful.</p> 
+<p>It is interesting seeing women in <lb/>
+London employed at all the railway <lb/>
+stations, on lifts, omnibuses etc. <lb/>
+I think being an omnibus conductor <lb/>
+would be infinitely more attractive <lb/>
+than ordinary clerical work.</p>
+<p>Celia &amp; I made our way over to St <lb/>
+John's Gate &amp; interviewed Lady <unclear>Olivia</unclear>,<lb/> 
+who was covered with orders and <lb/>
+ribbons. She told Celia there was not <lb/>
+much chance of her getting abroad.<lb/> 
+I doubt if I shall be called up <lb/>
+at all now as the demand for <lb/>
+V.A.D. nurses is evidently not so great.<lb/>
+St John's Gate is a quaint old <lb/>
+place. The walls lined with portraits <lb/>
+of the knights, suits of armour etc.<lb/> 
+We got lost several times in the <lb/>
+back streets of <unclear>Clerkenwell</unclear> but found <lb/>
+the place eventually.</p>
+<p>I was all over London the other day 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T15:20:50" who="#NR">
+                
+                    Page 5373 modified:
+                    <!-- 
+from the heart of the City to South <lb/>
+Kensington. Finding the way was quite <lb/>
+amusing, but interviewing the heads <lb/>
+of offices &amp; Bureaus became wearisome <lb/>
+&amp; I got a glimpse of the deadly boredom <lb/>
+of London offices!</p>
+<p>Best love to all the Aunties &#x2014; I <lb/>
+was so glad to get your letter. <lb/>
+Days are very long here, but I try <lb/>
+to be cheery for Aunt Fanny, and <lb/>
+if we all 4 meet in London <sic>to-morrow</sic> <lb/>
+it will be splendid.</p>
+<salute>Your loving</salute>
+<signed><hi rend="underline">Dussie</hi></signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5373 created using version from <date when="2015-04-22T19:51:54"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5373 removed (version from <date when="2015-04-22T19:51:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5373 removed (version from <date when="2015-04-22T19:52:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5373 removed (version from <date when="2015-04-25T14:58:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5373 removed (version from <date when="2016-01-29T16:09:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5373 removed (version from <date when="2016-02-03T15:20:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5370 created using version from <date when="2015-04-21T21:31:20"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5370 removed (version from <date when="2015-04-21T21:31:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5370 removed (version from <date when="2015-04-21T21:35:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5370 removed (version from <date when="2015-04-22T19:11:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5370 removed (version from <date when="2015-04-25T14:45:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5370 removed (version from <date when="2016-01-29T15:54:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5370 removed (version from <date when="2016-02-03T15:18:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5371 created using version from <date when="2015-04-22T19:26:34"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5371 removed (version from <date when="2015-04-22T19:26:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5371 removed (version from <date when="2015-04-25T14:49:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5371 removed (version from <date when="2016-01-29T16:00:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5371 removed (version from <date when="2016-02-03T15:19:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5371 removed (version from <date when="2016-02-03T15:19:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5371 removed (version from <date when="2016-02-03T15:19:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5371 removed (version from <date when="2016-02-03T15:19:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5369 created using version from <date when="2015-04-21T21:05:19"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5369 removed (version from <date when="2015-04-21T21:05:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5369 removed (version from <date when="2015-04-21T21:10:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5369 removed (version from <date when="2015-04-21T21:22:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5369 removed (version from <date when="2015-04-21T21:32:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5369 removed (version from <date when="2015-04-21T21:36:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5369 removed (version from <date when="2015-04-25T14:38:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5369 removed (version from <date when="2016-01-29T15:51:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5369 removed (version from <date when="2016-02-03T15:17:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5372 created using version from <date when="2015-04-22T19:45:18"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5372 removed (version from <date when="2015-04-22T19:45:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5372 removed (version from <date when="2015-04-25T14:54:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5372 removed (version from <date when="2016-01-29T16:07:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5372 removed (version from <date when="2016-02-03T15:19:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 5373 (version from <date when="2016-02-03T15:20:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5370 added to letter (version from <date when="2016-02-03T15:18:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5371 added to letter (version from <date when="2016-02-03T15:19:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5369 added to letter (version from <date when="2016-02-03T15:17:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5372 added to letter (version from <date when="2016-02-03T15:19:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:16" who="#PythonScript">
+                
+                    Clean tags: Page 5369 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:16" who="#PythonScript">
+                
+                    Clean tags: Page 5370 cleaned of 4 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:16" who="#PythonScript">
+                
+                    Clean tags: Page 5371 cleaned of 5 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:16" who="#PythonScript">
+                
+                    Clean tags: Page 5372 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:16" who="#PythonScript">
+                
+                    Clean tags: Page 5373 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:28" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:33" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:57" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:57" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2119_img_5369" url="3254ea0f682e4fbd33405734a7f83fad.jpg"/> 
+    
+    <graphic xml:id="L1916_2119_img_5370" url="be90e4a52d0114be5c7f0c32848d86da.jpg"/> 
+    
+    <graphic xml:id="L1916_2119_img_5371" url="aa19569c6daa3e553e4cd121d2dd312b.jpg"/> 
+    
+    <graphic xml:id="L1916_2119_img_5372" url="7a8ada7afbfb94575cab375a3f5a9f8d.jpg"/> 
+    
+    <graphic xml:id="L1916_2119_img_5373" url="e0f3946e2f1dd37c9298eff399f724c6.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="5369" facs="#L1916_2119_img_5369"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><dateline><date>March 27<hi rend="superscript">th</hi><hi rend="underline">Sunday</hi></date></dateline>
+<address><addrLine>Ardeevin</addrLine>
+<addrLine>Epsom</addrLine></address>
+<salute>Dearest Auntie B.</salute></opener>
+<p>Emma has just<lb/>
+telephoned to say she is at the<lb/>
+Strand Palace Hotel! I am going<lb/>
+to meet her <sic>to-morrow</sic> morning &amp; she<lb/>
+has wired to  Olive so I expect she<lb/>
+will be there too. I hope Celia can<lb/>
+get off. Such a gathering! I could<lb/>
+not hear a word she said over the<lb/>
+telephone <hi rend="underline">except</hi> the address! What<lb/>
+a lot she will have to tell!</p>
+<p>I have been doing all I can to find<lb/>
+a job &amp; have been to several Bureaux<lb/>
+Associations etc. Miss <unclear>Sharok</unclear> started<lb/> 
+me with two letters. I was passed<lb/>
+ on to several people who took notes<lb/>
+about me, but I can't tell if any<lb/>
+thing may turn up. I am not going<lb/>
+to take ordinary office work on small<lb/>
+pay. They tell me private residential work<lb/>
+ is now almost nil. Since the<lb/>
+War. I sent in a form to the War
+        
+    
+
+    
+         
+        <pb n="5370" facs="#L1916_2119_img_5370"/>
+        
+        
+           
+            Office. It is disappointing about the<lb/> 
+Admiralty. Uncle Edmund says it is <lb/>
+no use going there without a definite <lb/>
+letter of introduction to a definite <lb/>
+man. I wrote to Mrs Arnold-Forster <lb/>
+about a week ago asking for her <lb/>
+advice &amp; if she <add>would</add> give an introduction <lb/>
+but have heard nothing from her <lb/>
+so I am stuck.</p> 
+<p>Aunt Fanny &amp; Uncle Edmund are as <lb/>
+kind as possible &amp; I expect to stay <lb/>
+here <sic>till</sic> April 1<hi rend="superscript">st</hi> &amp; then go to <lb/>
+the <unclear>Donnets</unclear> at Eastbourne. After <lb/>
+that Olive tells me she will be <lb/>
+"on the loose" for a fortnight as<lb/> 
+Miss Roberts is closing her house <lb/>
+to give the household a rest, and <lb/>
+will not require her. I hope we can <lb/>
+arrange to join together somehow for <lb/>
+that fortnight.</p>
+<p>Baby <unclear>Lee</unclear> is a great joy. I don't <lb/>
+know what they would do without <lb/>
+her. She is a plain but attractive
+        
+    
+         
+        <pb n="5371" facs="#L1916_2119_img_5371"/>
+        
+        
+           
+            little soul. <unclear>Emmie Epson</unclear> has decided <lb/>
+to remain on in India for the present.</p>
+<p>My heart aches for Charlie &amp; Marjorie <lb/>
+but I am glad they are together, if <lb/>
+only for a short time. It is vexing <lb/>
+that Charlie's training is not what was <lb/>
+expected. If Marjorie wants me I shall <lb/>
+go to her but perhaps she will think <lb/>
+of being with her <unclear>poor Aunts</unclear> for <lb/>
+a little bit.</p>
+<p>Uncle Edmund has gone off to golf &amp; <lb/>
+Aunt Fanny &amp; I are going to walk <lb/>
+over the Downs to <unclear>Tadworth</unclear> and <lb/>
+see Harry and Janet. I am anxious <lb/>
+to see their children. It will be <lb/>
+a cold, stormy, long walk but Aunt <lb/>
+Fanny says she is able for it.</p>
+<p>I hope Aunt Charlotte's throat and <lb/>
+ear are better &amp; that Craig can really <lb/>
+make her well. Have you good <lb/>
+news of <unclear>Effie</unclear>? I trust the change <lb/>
+is a success.</p>
+<p>I have met Celia twice, &amp; she stayed
+        
+    
+         
+        <pb n="5372" facs="#L1916_2119_img_5372"/>
+        
+        
+           
+            a night here. She looks well and is <lb/>
+cheerful.</p> 
+<p>It is interesting seeing women in <lb/>
+London employed at all the railway <lb/>
+stations, on lifts, omnibuses etc. <lb/>
+I think being an omnibus conductor <lb/>
+would be infinitely more attractive <lb/>
+than ordinary clerical work.</p>
+<p>Celia &amp; I made our way over to St <lb/>
+John's Gate &amp; interviewed Lady <unclear>Olivia</unclear>,<lb/> 
+who was covered with orders and <lb/>
+ribbons. She told Celia there was not <lb/>
+much chance of her getting abroad.<lb/> 
+I doubt if I shall be called up <lb/>
+at all now as the demand for <lb/>
+V.A.D. nurses is evidently not so great.<lb/>
+St John's Gate is a quaint old <lb/>
+place. The walls lined with portraits <lb/>
+of the knights, suits of armour etc.<lb/> 
+We got lost several times in the <lb/>
+back streets of <unclear>Clerkenwell</unclear> but found <lb/>
+the place eventually.</p>
+<p>I was all over London the other day
+        
+    
+         
+        <pb n="5373" facs="#L1916_2119_img_5373"/>
+        
+        
+           
+            from the heart of the City to South <lb/>
+Kensington. Finding the way was quite <lb/>
+amusing, but interviewing the heads <lb/>
+of offices &amp; Bureaus became wearisome <lb/>
+&amp; I got a glimpse of the deadly boredom <lb/>
+of London offices!</p>
+<p>Best love to all the Aunties &#x2014; I <lb/>
+was so glad to get your letter. <lb/>
+Days are very long here, but I try <lb/>
+to be cheery for Aunt Fanny, and <lb/>
+if we all 4 meet in London <sic>to-morrow</sic> <lb/>
+it will be splendid.</p>
+<closer><salute>Your loving</salute>
+<signed><hi rend="underline">Dussie</hi></signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

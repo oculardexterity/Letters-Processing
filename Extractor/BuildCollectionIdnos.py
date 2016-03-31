@@ -17,9 +17,9 @@ class BuildCollectionIdnos(Processor):
 	def _addIdnos(self, row):
 		print('Extracting IDnos, letter ', row["Letter"])
 		new_row = row
-		print(row["DocCollection"])
-		new_row["Document_Collection"] = self.extracted(row["DocCollection"])
-		new_row["Document_Number"] = self.subextracted(row["DocCollection"])
+		#print(row["DocCollection"])
+		#new_row["Document_Collection"] = self.extracted(row["DocCollection"])
+		#new_row["Document_Number"] = self.subextracted(row["DocCollection"])
 
 		print(new_row["Document_Collection"], new_row["Document_Number"])
 		# AND going to add a date function here for no reason #

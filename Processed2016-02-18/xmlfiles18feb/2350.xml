@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2350">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Sir Wilfrid Spender to his wife Lady Lillian Spender, 27 August 1916</title>
+                
+                <author>Wilfrid Spender</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="SKerr">SKerr</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tnoonan1111">Tnoonan11 11</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Ciaranfriel">Ciaranfriel</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2350</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from sir Wilfrid Bliss Spender (1876-1960) to his wife, Lady Lillian Spender, née Dean, (1880-1968). In this letter, Spender discusses Lillian's holiday arrangements and family issues. He mentions a meeting with an acquaintance, the continuing failure of the Gazette to announce his promotion, and his hope that his brother Rex will be promoted to captain. He suggests that his superior's alterations of Spender's dispatch was so poor that the correction required correction. He finishes the letter with details of his visit to the trenches, declaring that he will never again go with the same companion if he can help it; said companion officer violated Spender's 'first superstition' by claiming that any trench he had been in was never shelled, and also refused to crawl in a one-foot-deep trench, though in full view of the enemy.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Sir Wilfrid Spender was a member of the British Army until 1913 when controversy surrounding his signature of the Ulster Solemn League and Covenant resulted in his resignation. Spender was called up for military service in 1914 and from 1915 served in the 36th (Ulster) Division. Throughout the war, Spender wrote a collection of letters to his wife Lady Lillian Spender. The letters date mainly from 1915 to 1918, when Sir Wilfrid was serving in France. The letters concern politics, the Irish question, personal life, and Wilfrid's experience of the Great War.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Lady Spender&#39;s Correspondence, D1633/1/1/399
+                             
+                        -->
+                            
+                                <collection type='public'>Lady Spender's Correspondence</collection>
+                            
+                            
+                        <idno>D1633/1/1/399</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Lillian Spender -->
+                        
+                        <persName ref="#Spender_L">Lillian Spender</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Wilfrid Spender -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF RECIPIENT IS CORRECT --></VERIFY>
+                        
+                        <persName ref="#Spender_W_B">Wilfrid Bliss Spender</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    France 
+                    France
+                    France
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#France">France</placeName>
+                    
+                
+                    
+                    <date when="1916-08-27">27 August 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1960</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                            
+                            <item n="tag">Family life</item>
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-09-02T16:51:04" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-09-02T16:51:04" who="#Ciaranfriel">
+                
+                    Page 6514 modified:
+                    <!-- 
+1633|1|1|399<note> Probable Catalogue Number and not part of original letter.</note><lb/><date>27 Aug</date><lb/><salute>My Pv</salute><unclear>Pv?</unclear><lb/>I write a short letter now as I may not have any time tomorrow as I am going up to the line for the day.<p>paragraph</p>I shall be delighted<hi rend="underline">delighted</hi> to let you carry out your suggestion about the family holiday. There<lb/>is only one difficulty, that mother if she heard of it might not understand. I agree with you<lb/>in doing things in the days of our prosperity<lb/><del>and</del>though we shall not be able to do<lb/> them later, I know, and anything which will<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-02T17:10:46" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-09-02T17:10:46" who="#Ciaranfriel">
+                
+                    Page 6518 modified:
+                    <!-- 
+make your holiday a real one.  I am so<lb/>glad to hear of Miss Hussey's offer<note>cannot be sure of the gender or exact surname here</note>It is kind<lb/>but I think it is up yo one of the others to<lb/>take a turn. It is good of the Mother to come &amp;help. I am sure she is very useful,&amp;I hope not too much of a tax on her.I rather<lb/>think it may be good for her &amp;also for the Pater that she shall have a little outside<lb/> interest tho'<sic>unusually-spelled text</sic>this does not distract from her<lb/> help. You will follow my meaning.<p>paragraph</p> I find Withard GS02 of the XV Corps was a contemporary of Edmund's at Radley I was with him today&amp;go with him<lb/> tomorrow. It is curious that my Gageth<unclear>questionable reading</unclear>> is<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-02T17:24:14" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-09-02T17:24:14" who="#Ciaranfriel">
+                
+                    Page 6519 modified:
+                    <!-- 
+so long in coming. I wonder if there is a hitch.<lb/>I wish they would make Rex a captain. From his last letter I judge that he is settling in a bit<lb/>now.<p>paragraph</p>I got off a letter to Mater really a good<lb/> b w<sic>unusually-spelled text</sic>, and rather scolded her for her scolding. I hope<lb/>you will see her when as soon as she returns from the Rundle's<unclear>questionable reading</unclear>&amp;invite yourself to dinner. If you could<lb/>stop there a few days before you settle into your new home it would be nice but don't<lb/> tire yourself with her deafness. It will mean many extravagant taxies to the Palace ahem!<p>paragraph</p>Did I tell you that K's correction to my draft was so bad that I had to correct his correction quite a lot. Today mine was passed with only one<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-02T17:53:48" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-09-02T17:53:48" who="#Ciaranfriel">
+                
+                    Page 6516 modified:
+                    <!-- 
+<date>date</date>-Sunday-<lb/>line alteration.Tomorrow morning's won't be mine so I hope you don't think it above the average.<date>date</date>Sunday morning 27th. It looks like a wet day and I am waiting for my orderly who wants to go with me.<p>paragraph</p> Just back after rather tiring and quite exciting time but I will not go with Withard again if I can help it. He went against my first <gap/>by saying they never shelled him, and later when we found ourselves in a trench 1 foot deep within full view of the enemy he seemed incapable<lb/>of crawling. It got rather on my nerves when I began thinking of how to even get him back.He was distinctly done up but even so should have gone slower if necessary. However, we got through alright after some unpleasant shaves, a lot of mud, a torn new mackintosh and plenty of exercise.<p>paragraph</p> Barge was with us. Mrs Barge has a little son I<lb/> was to be sure to tell you.If little p v had come now the Ulstermen would have suffered so perhaps it is better for one to come later. <salute>salute</salute>Your b w, WB Spender. I think it very good marks for writing to me again&amp;<gap/>but not if you were really tired. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T14:12:16" who="#SKerr">
+                
+                    Page 6514 modified:
+                    <!-- 
+<date>27 Aug</date>
+<salute>My Pr</salute>
+<p>I write a short letter now as I 
+<lb/>may not have any time tomorrow as I 
+<lb/>am going up to the line for the day.</p>
+<p>I shall be <hi rend="underline">delighted</hi> to let you carry out 
+<lb/>your suggestion about the family holiday. There
+<lb/>is only one difficulty, that mater if she heard 
+<lb/>of it might not understand. I agree with you
+<lb/>in doing things in the days of our prosperity
+<lb/><del>and</del>though we shall not be able to do
+<lb/> them later, I know, and anything which will<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T14:18:46" who="#SKerr">
+                
+                    Page 6518 modified:
+                    <!-- 
+make your holiday a real one.  I am so
+<lb/>glad to hear of <unclear>Mrs</unclear> Hussey's offer. It is kind
+<lb/>but I think it is up to one of the others to
+<lb/>take a turn. It is good of the Mother to 
+<lb/>come &amp; help. I am sure she is very useful, &amp;
+<lb/>I hope not too much of a tax on her. I rather
+<lb/>think it may be good for her &amp; also for the 
+<lb/>Pater that she shall have a little outside
+<lb/> interest tho' this does not distract from her
+<lb/> help. You will follow my meaning.</p> 
+<p>I find Withard <add>GS02</add> of the XV Corps was a 
+<lb/>contemporary of Edmund's at Radley I was 
+<lb/>with him today &amp; go up I hope with him
+<lb/> tomorrow. It is curious that my <unclear>gagith</unclear> is<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T14:25:12" who="#SKerr">
+                
+                    Page 6519 modified:
+                    <!-- 
+so long in coming. I wonder if there is a hitch.
+<lb/>I wish they would make Rex a Captain. From 
+<lb/>his last letter I judge that he is settling in a bit
+<lb/>now.</p>
+<p>I got off a letter to Mater really a good
+<lb/> b w, &amp; rather scolded her for her scolding. I hope
+<lb/>you will see her when as soon as she returns from the 
+<lb/><unclear>Rundle's</unclear> &amp; invite yourself to dinner. If you could
+<lb/>stop there a few days before you settle into 
+<lb/>your new home it would be nice but don't
+<lb/> tire yourself with her deafness. It will mean 
+<lb/>many extravagant taxies to the Palace ahem!</p>
+<p>Did I tell you that K's correction to my draft 
+<lb/>was so bad that I had to correct his correction 
+<lb/>quite a lot. Today mine was passed with only one<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T14:42:05" who="#SKerr">
+                
+                    Page 6516 modified:
+                    <!-- 
+&#x2014; Sunday &#x2014; 
+<lb/>line alteration. Tomorrow morning's won't be 
+<lb/>mine so I hope you won't think it above the 
+<lb/>average. Sunday morning 27<hi rend="superscript">th</hi> It looks like a wet 
+<lb/>day and I am waiting for my orderly who wants to 
+<lb/>go with me.</p>
+ <p>Just back after rather tiring and quite exciting time 
+<lb/>but I will not go with Withard again if I can help it. He 
+<lb/>went against my first <gap/>by saying they never 
+<lb/>shelled him, and later when we found ourselves in a trench 
+<lb/>1 foot deep within full view of the enemy he seemed inca-
+<lb/>table of crawling. It got rather on my nerves when I began 
+<lb/>thinking of how we were to get him back. He was distinct-
+<lb/>ly done up but even so he ought to have gone slower if 
+<lb/>necessary. However, we got through all right after some un-
+<lb/>pleasant shaves, a lot of mud a torn new mackintosh 
+<lb/>and plenty of exercise.</p>
+ <p>Barge was with us. Mrs Barge has a little son I
+<lb/> was to be sure to tell you. If little p v had come now the Ulstermen would have suffered so perhaps it is better for one to come later. <salute>salute</salute>Your b w, WB Spender. I think it very good marks for writing to me again&amp;<gap/>but not if you were really tired. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T14:44:49" who="#SKerr">
+                
+                    Page 6514 modified:
+                    <!-- 
+<date>27 Aug</date>
+<salute>My pr</salute>
+<p>I write a short letter now as I 
+<lb/>may not have any time tomorrow as I 
+<lb/>am going up to the line for the day.</p>
+<p>I shall be <hi rend="underline">delighted</hi> to let you carry out 
+<lb/>your suggestion about the family holiday. There
+<lb/>is only one difficulty, that mater if she heard 
+<lb/>of it might not understand. I agree with you
+<lb/>in doing things in the days of our prosperity
+<lb/><del>and</del>though we shall not be able to do
+<lb/> them later, I know, and anything which will<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T14:48:57" who="#SKerr">
+                
+                    Page 6516 modified:
+                    <!-- 
+&#x2014; Sunday &#x2014; 
+<lb/>line alteration. Tomorrow morning's won't be 
+<lb/>mine so I hope you won't think it above the 
+<lb/>average. Sunday morning 27<hi rend="superscript">th</hi> It looks like a wet 
+<lb/>day and I am waiting for my orderly who wants to 
+<lb/>go with me.</p>
+ <p>Just back after rather tiring and quite exciting time 
+<lb/>but I will not go with Withard again if I can help it. He 
+<lb/>went against my first <gap/>by saying they never 
+<lb/>shelled him, and later when we found ourselves in a trench 
+<lb/>1 foot deep within full view of the enemy he seemed inca-
+<lb/>table of crawling. It got rather on my nerves when I began 
+<lb/>thinking of how we were to get him back. He was distinct-
+<lb/>ly done up but even so he ought to have gone slower if 
+<lb/>necessary. However, we got through all right after some un-
+<lb/>pleasant shaves, a lot of mud a torn new mackintosh 
+<lb/>and plenty of exercise.</p>
+ <p>Barge was with us. Mrs Barge has a little son I
+<lb/> was to be sure to tell you. If little p r had come now 
+<lb/>the Ulstermen would have suffered so perhaps it is better for 
+<lb/>one to come later.<p>
+ <salute>Your b w</salute> WB Spender. 
+I think it very good marks for writing to me again &amp; <gap/> but not if you were really tired. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T15:13:33" who="#SKerr">
+                
+                    Page 6518 modified:
+                    <!-- 
+make your holiday a real one.  I am so
+<lb/>glad to hear of <unclear>Mrs</unclear> Hussey's offer. It is kind
+<lb/>but I think it is up to one of the others to
+<lb/>take a turn. It is good of the Mother to 
+<lb/>come &amp; help. I am sure she is very useful, &amp;
+<lb/>I hope not too much of a tax on her. I rather
+<lb/>think it may be good for her &amp; also for the 
+<lb/>Pater that she shall have a little outside
+<lb/> interest tho' this does not distract from her
+<lb/> help. You will follow my meaning.</p> 
+<p>I find Withard <add>GS02</add> of the XV Corps was a 
+<lb/>contemporary of Edmund's at Radley I was 
+<lb/>with him today &amp; go up I hope with him
+<lb/> tomorrow. It is curious that my <unclear>gazette</unclear> is<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T16:17:21" who="#NR">
+                
+                    Page 6514 modified:
+                    <!-- 
+<date>27 Aug</date>
+<salute>My pr</salute>
+<p>I write a short letter now as I 
+<lb/>may not have any time tomorrow as I 
+<lb/>am going up to the line for the day.</p>
+<p>I shall be <hi rend="underline">delighted</hi> to let you carry out 
+<lb/>your suggestion about the family holiday. There
+<lb/>is only one difficulty, that mater if she heard 
+<lb/>of it might not understand. I agree with you
+<lb/>in doing things in the days of our prosperity
+<lb/><del>and</del>though we shall not be able to do
+<lb/> them later, I know, and anything which will 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T16:17:51" who="#NR">
+                
+                    Page 6518 modified:
+                    <!-- 
+<lb/>make your holiday a real one.  I am so
+<lb/>glad to hear of <unclear>Mrs</unclear> Hussey's offer. It is kind
+<lb/>but I think it is up to one of the others to
+<lb/>take a turn. It is good of the Mother to 
+<lb/>come &amp; help. I am sure she is very useful, &amp;
+<lb/>I hope not too much of a tax on her. I rather
+<lb/>think it may be good for her &amp; also for the 
+<lb/>Pater that she shall have a little outside
+<lb/> interest tho' this does not distract from her
+<lb/> help. You will follow my meaning.</p> 
+<p>I find Withard <add>GS02</add> of the XV Corps was a 
+<lb/>contemporary of Edmund's at Radley I was 
+<lb/>with him today &amp; go up I hope with him
+<lb/> tomorrow. It is curious that my <unclear>gazette</unclear> is<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T16:18:29" who="#NR">
+                
+                    Page 6519 modified:
+                    <!-- 
+<lb/>so long in coming. I wonder if there is a hitch.
+<lb/>I wish they would make Rex a Captain. From 
+<lb/>his last letter I judge that he is settling in a bit
+<lb/>now.</p>
+<p>I got off a letter to Mater really a good
+<lb/> b w, &amp; rather scolded her for her scolding. I hope
+<lb/>you will see her when as soon as she returns from the 
+<lb/><unclear>Rundle's</unclear> &amp; invite yourself to dinner. If you could
+<lb/>stop there a few days before you settle into 
+<lb/>your new home it would be nice but don't
+<lb/> tire yourself with her deafness. It will mean 
+<lb/>many extravagant taxies to the Palace ahem!</p>
+<p>Did I tell you that K's correction to my draft 
+<lb/>was so bad that I had to correct his correction 
+<lb/>quite a lot. Today mine was passed with only one 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T16:21:39" who="#NR">
+                
+                    Page 6516 modified:
+                    <!-- 
+<lb/>&#x2014; Sunday &#x2014; 
+<lb/>line alteration. Tomorrow morning's won't be 
+<lb/>mine so I hope you won't think it above the 
+<lb/>average. Sunday morning 27<hi rend="superscript">th</hi> It looks like a wet 
+<lb/>day and I am waiting for my orderly who wants to 
+<lb/>go with me.</p>
+ <p>Just back after rather tiring and quite exciting time 
+<lb/>but I will not go with Withard again if I can help it. He 
+<lb/>went against my first <gap/>by saying they never 
+<lb/>shelled him, and later when we found ourselves in a trench 
+<lb/>1 foot deep within full view of the enemy he seemed inca-
+<lb/>table of crawling. It got rather on my nerves when I began 
+<lb/>thinking of how we were to get him back. He was distinct-
+<lb/>ly done up but even so he ought to have gone slower if 
+<lb/>necessary. However, we got through all right after some un-
+<lb/>pleasant shaves, a lot of mud a torn new mackintosh 
+<lb/>and plenty of exercise.</p>
+ <p>Barge was with us. Mrs Barge has a little son I
+<lb/> was to be sure to tell you. If little p r had come now 
+<lb/>the Ulstermen would have suffered so perhaps it is better for 
+<lb/>one to come later.<p>
+ <salute>Your b w</salute> <signed>WB Spender. </signed>I think it very
+<lb/> good marks for writing to me again &amp; <unclear>my pr</unclear> but not if you were really tired. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6519 created using version from <date when="2015-09-02T17:24:14"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6519 removed (version from <date when="2015-09-02T17:24:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6519 removed (version from <date when="2016-01-19T14:25:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6519 removed (version from <date when="2016-01-21T16:18:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6516 created using version from <date when="2015-09-02T17:53:48"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6516 removed (version from <date when="2015-09-02T17:53:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6516 removed (version from <date when="2016-01-19T14:42:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6516 removed (version from <date when="2016-01-19T14:48:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6516 removed (version from <date when="2016-01-21T16:21:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6514 created using version from <date when="2015-09-02T16:51:04"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6514 removed (version from <date when="2015-09-02T16:51:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6514 removed (version from <date when="2016-01-19T14:12:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6514 removed (version from <date when="2016-01-19T14:44:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6514 removed (version from <date when="2016-01-21T16:17:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6518 created using version from <date when="2015-09-02T17:10:46"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6518 removed (version from <date when="2015-09-02T17:10:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6518 removed (version from <date when="2016-01-19T14:18:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6518 removed (version from <date when="2016-01-19T15:13:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6518 removed (version from <date when="2016-01-21T16:17:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 6519 (version from <date when="2016-01-21T16:18:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6516 added to letter (version from <date when="2016-01-21T16:21:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6514 added to letter (version from <date when="2016-01-21T16:17:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6518 added to letter (version from <date when="2016-01-21T16:17:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 6514 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 6516 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 6518 cleaned of 4 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 6519 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:29" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:33" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:01" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:01" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2350_img_6514" url="6020ddcc39330993d1725c052c3f261d.jpg"/> 
+    
+    <graphic xml:id="L1916_2350_img_6516" url="e2e8bb5f2f0d81bca9523ee495ec16ca.jpg"/> 
+    
+    <graphic xml:id="L1916_2350_img_6518" url="15de87e40d6494c7ae5d467c85a9494d.jpg"/> 
+    
+    <graphic xml:id="L1916_2350_img_6519" url="70459d99c548cf8786228d4eb858c8ee.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="6514" facs="#L1916_2350_img_6514"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><dateline><date>27 Aug</date></dateline>
+<salute>My pr</salute></opener>
+<p>I write a short letter now as I 
+<lb/>may not have any time tomorrow as I 
+<lb/>am going up to the line for the day.</p>
+<p>I shall be <hi rend="underline">delighted</hi> to let you carry out 
+<lb/>your suggestion about the family holiday. There
+<lb/>is only one difficulty, that mater if she heard 
+<lb/>of it might not understand. I agree with you
+<lb/>in doing things in the days of our prosperity
+<lb/><del>and</del>though we shall not be able to do
+<lb/> them later, I know, and anything which will
+        
+    
+
+    
+         
+        <pb n="6516" facs="#L1916_2350_img_6516"/>
+        
+        
+           
+            <lb/>&#x2014; Sunday &#x2014; 
+<lb/>line alteration. Tomorrow morning's won't be 
+<lb/>mine so I hope you won't think it above the 
+<lb/>average. Sunday morning 27<hi rend="superscript">th</hi> It looks like a wet 
+<lb/>day and I am waiting for my orderly who wants to 
+<lb/>go with me.</p>
+ <p>Just back after rather tiring and quite exciting time 
+<lb/>but I will not go with Withard again if I can help it. He 
+<lb/>went against my first <gap/>by saying they never 
+<lb/>shelled him, and later when we found ourselves in a trench 
+<lb/>1 foot deep within full view of the enemy he seemed inca-
+<lb/>table of crawling. It got rather on my nerves when I began 
+<lb/>thinking of how we were to get him back. He was distinct-
+<lb/>ly done up but even so he ought to have gone slower if 
+<lb/>necessary. However, we got through all right after some un-
+<lb/>pleasant shaves, a lot of mud a torn new mackintosh 
+<lb/>and plenty of exercise.</p>
+ <p>Barge was with us. Mrs Barge has a little son I
+<lb/> was to be sure to tell you. If little p r had come now 
+<lb/>the Ulstermen would have suffered so perhaps it is better for 
+<lb/>one to come later.<p>
+ <salute>Your b w</salute> <signed>WB Spender. </signed>I think it very
+<lb/> good marks for writing to me again &amp; <unclear>my pr</unclear> but not if you were really tired.
+        
+    
+         
+        <pb n="6518" facs="#L1916_2350_img_6518"/>
+        
+        
+           
+            <lb/>make your holiday a real one.  I am so
+<lb/>glad to hear of <unclear>Mrs</unclear> Hussey's offer. It is kind
+<lb/>but I think it is up to one of the others to
+<lb/>take a turn. It is good of the Mother to 
+<lb/>come &amp; help. I am sure she is very useful, &amp;
+<lb/>I hope not too much of a tax on her. I rather
+<lb/>think it may be good for her &amp; also for the 
+<lb/>Pater that she shall have a little outside
+<lb/> interest tho' this does not distract from her
+<lb/> help. You will follow my meaning.</p> 
+<p>I find Withard <add>GS02</add> of the XV Corps was a 
+<lb/>contemporary of Edmund's at Radley I was 
+<lb/>with him today &amp; go up I hope with him
+<lb/> tomorrow. It is curious that my <unclear>gazette</unclear> is<pb/>
+        
+    
+         
+        <pb n="6519" facs="#L1916_2350_img_6519"/>
+        
+        
+           
+            <lb/>so long in coming. I wonder if there is a hitch.
+<lb/>I wish they would make Rex a Captain. From 
+<lb/>his last letter I judge that he is settling in a bit
+<lb/>now.</p>
+<p>I got off a letter to Mater really a good
+<lb/> b w, &amp; rather scolded her for her scolding. I hope
+<lb/>you will see her when as soon as she returns from the 
+<lb/><unclear>Rundle's</unclear> &amp; invite yourself to dinner. If you could
+<lb/>stop there a few days before you settle into 
+<lb/>your new home it would be nice but don't
+<lb/> tire yourself with her deafness. It will mean 
+<lb/>many extravagant taxies to the Palace ahem!</p>
+<p>Did I tell you that K's correction to my draft 
+<lb/>was so bad that I had to correct his correction 
+<lb/>quite a lot. Today mine was passed with only one
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

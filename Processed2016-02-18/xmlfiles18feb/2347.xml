@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2347">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Sir Wilfrid Spender to his wife Lady Lillian Spender, 25 August 1916</title>
+                
+                <author>Wilfrid Spender</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="SKerr">SKerr</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tnoonan1111">Tnoonan11 11</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Ciaranfriel">Ciaranfriel</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2347</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from sir Wilfrid Bliss Spender (1876-1960) to his wife, Lady Lillian Spender, née Dean, (1880-1968). In this letter, Spender worries that Lillian has overburdened herself with work, threatening to write to her employer and have her sacked if she does not take a holiday promptly. He mentions that his promotion has not yet been announced in the Gazette, and notes that they will both it will be extremely embarrassing if he is returned to the rank of Captain. He writes that he has resubmitted his dispatch, of which he is proud. Spender recounts a visit from 'Crichton', a King's Messenger and the brother of the late 4th Earl Erne, whose identity Spender did not realise until the visit had ended. He mentions that he has several times been startled by somebody whistling a familiar tune in the middle of the night, and speculates on the whistler's identity. Finally, he wonders how the dispatch he is writing can 'deal with a fortnight's almost uninterrupted failures at the end of July'.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Sir Wilfrid Spender was a member of the British Army until 1913 when controversy surrounding his signature of the Ulster Solemn League and Covenant resulted in his resignation. Spender was called up for military service in 1914 and from 1915 served in the 36th (Ulster) Division. Throughout the war, Spender wrote a collection of letters to his wife Lady Lillian Spender. The letters date mainly from 1915 to 1918, when Sir Wilfrid was serving in France. The letters concern politics, the Irish question, personal life, and Wilfrid's experience of the Great War.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Lady Spender&#39;s Correspondence, D1633/1/1/397
+                             
+                        -->
+                            
+                                <collection type='public'>Lady Spender's Correspondence</collection>
+                            
+                            
+                        <idno>D1633/1/1/397</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Lillian Spender -->
+                        
+                        <persName ref="#Spender_L">Lillian Spender</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Wilfrid Spender -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF RECIPIENT IS CORRECT --></VERIFY>
+                        
+                        <persName ref="#Spender_W_B">Wilfrid Bliss Spender</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    France 
+                    France
+                    France
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#France">France</placeName>
+                    
+                
+                    
+                    <date when="1916-08-25">25 August 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1960</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-10-01T13:52:39" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-10-01T13:52:39" who="#Ciaranfriel">
+                
+                    Page 6511 modified:
+                    <!-- 
+<date>August 25th <del>July</del></date>
+<salute>My pr</salute>
+Got your letter of 22nd this evening<hi rend="superscript">24th</hi>. No<lb/> old thing it won't do. If you aren't feeling better<lb/> when you get this&amp;tell me so I shall write to Lady R&amp;tell her she must get someone to<lb/> talk on from the first week in September.
+<p>I have written to <gap/>and told him <unclear>Jin</unclear>will manage <del>your</del> his parcels and we will settle up with her.</p>
+In your next letter tell me how you stand<lb/>in regard to our business and do no more. I<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-10-01T14:01:01" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-10-01T14:01:01" who="#Ciaranfriel">
+                
+                    Page 6512 modified:
+                    <!-- 
+by the 1Sept so I enclose a letter to Mr. Maguire for you to forward if you have not already <del>done</del> written.
+<p>But the first thing is your holiday<lb/>&amp;I tell you flat I shall write to Ruby<lb/>&amp;have you sacked if you are not very<lb/> good!  I am thinking of asking Jessie to<lb/> vet you but hitherto I have been able to<lb/> trust my pr to tell me the truth of how<lb/>she feels and so won't take extreme measures yet.</p>
+<p>As for your holiday you need not go<lb/>on economical lines this time<lb/> as I want it to be a real holiday.</p><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-10-01T14:13:42" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-10-01T14:13:42" who="#Ciaranfriel">
+                
+                    Page 6508 modified:
+                    <!-- 
+I haven't yet appeared in the Gazette -an <lb/>unusually long wait! Supposing I am sent back to Capt. again what a bw and pr we shall be<lb/> it will be a case of pppr! I hope my exalted <lb/>encomium-shan't talk of pay now!- begins<lb/> from the date of my duties, an extra 9/-a day<lb/>I believe I get which ought to pay for a a pr's chocolate even on a holiday! <p>I resubmitted the dispatch 19 May to<lb/>16th July to K today but I shall not hear what he thinks for a day or two, &amp;shall be very<lb/>depressed in consequence I expect for I really<lb/> have tried hard and only want a pr to make<lb/> it quite a success. I wish I could take it home</p><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-10-04T16:33:02" who="#Tbrosnan">
+                
+                    Page 6508 modified:
+                    <!-- 
+I haven't yet appeared in the Gazette -an <lb/>unusually long wait! Supposing I am sent back to Capt. again what a bw and pr we shall be<lb/> it will be a case of pppr! I hope my exalted <lb/>encomium-shan't talk of pay now!- begins<lb/> from the date of my duties, an extra 9/-a day<lb/>I believe I get which ought to pay for a a pr's chocolate even on a holiday! <p>I resubmitted the dispatch 19 May to<lb/>16th July to K today but I shall not hear what he thinks for a day or two, &amp;shall be very<lb/>depressed in consequence I expect for I really<lb/> have tried hard and only want a pr to make<lb/> it quite a success. I wish I could take it home<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-10-04T16:39:40" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-10-04T16:39:40" who="#Tbrosnan">
+                
+                    Page 6507 modified:
+                    <!-- 
+on leave and do it there tho' I see <add>there would be</add> difficulties <lb/>about maps, of which I have several square<lb/>yards for each day of the month to look<lb/>at! </p><p>Yesterday someone came in for a <unclear>break</unclear><lb/>said he came from Fermanagh talked of gun<lb/> running, and Fermanagh not I could not place<lb/>him eve when he said something which showed<lb/>his brother had died &amp; been a peer. Very interesting<lb/>it was but I wish I had known before he left<lb/>that it was Crichton - who is now a King's <lb/>messenger and whom I hope to see out here<lb/>again.</p><p>Several times at night I have been <lb/>startled by someone who whistles some of <lb/> my special tunes - Autumn the apple blossom<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-10-04T16:47:05" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-10-04T16:47:05" who="#Tbrosnan">
+                
+                    Page 6501 modified:
+                    <!-- 
+and the dire of <lb/><unclear>Colowoolan</unclear> (?) <gap/><lb/> will love my spelling<lb/>of this! I expect it <lb/>must be one of the <lb/>Artists rifles who form<lb/>the body guard here<lb/>a safe but not very<lb/>glorious role.</p><p>I wish K would<lb/>let me know what<lb/>he thinks of the dispatch<lb/>up to date. I must<lb/>go and see him tomorrow<lb/>to know how I am to<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-10-04T16:48:25" who="#Tbrosnan">
+                
+                    Page 6501 modified:
+                    <!-- 
+and the dire of <lb/><unclear>Colgwoolan</unclear> (?) <gap/><lb/> will love my spelling<lb/>of this! I expect it <lb/>must be one of the <lb/>Artists rifles who form<lb/>the body guard here<lb/>a safe but not very<lb/>glorious role.</p><p>I wish K would<lb/>let me know what<lb/>he thinks of the dispatch<lb/>up to date. I must<lb/>go and see him tomorrow<lb/>to know how I am to<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-10-04T16:55:25" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-10-04T16:55:25" who="#Tbrosnan">
+                
+                    Page 6502 modified:
+                    <!-- 
+<add>D1633/1/1/397</add><lb/> deal with a fortnights<lb/>almost uninterrupted<lb/>failures at the end<lb/> of July! Things are<lb/>better again now, &amp; will<lb/> be easier but not<lb/>the intermediate <gap/></p><p>I don't want long<lb/>letters now old thing<lb/>nor to give you anymore<lb/>business. Please look<lb/>after yourself as your<lb/>payment of the many <lb/>good marks you owe<lb/> - you say - to your <lb/>bw.</p> <salute>WB Spender</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-10-04T16:56:37" who="#Tbrosnan">
+                
+                    Page 6501 modified:
+                    <!-- 
+<date>Aug 25</date><lb/>and the dire of <lb/><unclear>Colgwoolan</unclear> (?) <gap/><lb/> will love my spelling<lb/>of this! I expect it <lb/>must be one of the <lb/>Artists rifles who form<lb/>the body guard here<lb/>a safe but not very<lb/>glorious role.</p><p>I wish K would<lb/>let me know what<lb/>he thinks of the dispatch<lb/>up to date. I must<lb/>go and see him tomorrow<lb/>to know how I am to<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T15:08:17" who="#SKerr">
+                
+                    Page 6511 modified:
+                    <!-- 
+<date>August 25th <del>July</del></date>
+<salute>My pr</salute>
+<p>Got your letter of 22nd this evening<add><hi rend="superscript">24th</hi></add>. No
+<lb/> old thing it won't do. If you aren't feeling better
+<lb/> when you get this &amp; tell me so I shall write to 
+<lb/>Lady R &amp; tell her she must get someone to
+<lb/> take on from the first week in September.</p>
+<p>I have written to <unclear>Rex</unclear> and told him <unclear>Jin</unclear>
+<lb/>will manage <del>your</del> his parcels and we will settle
+<lb/> up with her.</p>
+<p>In your next letter tell me how you stand
+<lb/>in regard to our business and do no more. I
+<lb/>can arrange nearly everything with Maguire
+<lb/>from here. <unclear>The lending</unclear> to the Government is
+<lb/>rather urgent though as I believe it has to be done<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T15:11:55" who="#SKerr">
+                
+                    Page 6512 modified:
+                    <!-- 
+by the 1 Sept so I enclose a letter to Mr
+<lb/>Maguire for you to forward if you have not 
+<lb/>already <del>done</del> written.</p>
+<p>But the first thing is your holiday
+<lb/>&amp; I tell you flat I shall write to Ruby
+<lb/>&amp; have you sacked if you are not very
+<lb/>good!  I am thinking of asking Jessie to
+<lb/> vet you but hitherto I have been able to
+<lb/> trust my pr to tell me the truth of how
+<lb/>she feels and so won't take extreme measures yet.</p>
+<p>As for your holiday you need not go
+<lb/>on economical lines this time as I want it 
+<lb/>to be a real holiday.</p><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T15:18:45" who="#SKerr">
+                
+                    Page 6508 modified:
+                    <!-- 
+<p>I haven't yet appeared in the Gazette &#x2014; an 
+<lb/>unusually long wait! Supposing I am sent 
+<lb/>back to Capt again what a bw and pr we shall be
+<lb/> it will be a case of pppr! I hope my exalted 
+<lb/>encomium &#x2014; shan't talk of pay now! &#x2014; begins
+<lb/> from the date of my duties, an extra 9/- a day
+<lb/>I believe I get which ought to pay for a 
+<lb/> pr's chocolate even on a holiday!</p>
+<p>I resubmitted the dispatch 19 May to
+<lb/>16 July to K today but I shall not hear what 
+<lb/>he thinks for a day or two, &amp; shall be very
+<lb/>depressed in consequence I expect for I really
+<lb/> have tried hard, &amp; only want a pr to make
+<lb/> it quite a success. I wish I could take it home<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T15:22:38" who="#SKerr">
+                
+                    Page 6507 modified:
+                    <!-- 
+on leave and do it there tho' I see <add>there would be</add> difficulties 
+<lb/>about maps, of which I have several square
+<lb/>yards for each day of the month to look
+<lb/>at! </p>
+<p>Yesterday someone came in for a <unclear>break</unclear>
+<lb/>said he came from Fermanagh talked of gun
+<lb/> running, and Fermanagh but I could not place
+<lb/>him even when he said something which showed
+<lb/>his brother had died &amp; been a peer. Very interesting
+<lb/>it was but I wish I had known before he left
+<lb/>that it was Crichton &#x2014; who is now a King's 
+<lb/>messenger and whom I hope to see out here
+<lb/>again.</p>
+<p>Several times at night I have been 
+<lb/>startled by someone who whistles some of 
+<lb/> my special tunes &#x2014; Autumn the apple blossom<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T15:26:20" who="#SKerr">
+                
+                    Page 6501 modified:
+                    <!-- 
+Aug 25
+<lb/>and the dirge of <lb/><unclear>Colquoolan</unclear> (??) you
+<lb/> will love my spelling
+<lb/>of this! I expect it 
+<lb/>must be one of the 
+<lb/>Artists rifles who form
+<lb/>the body guard here
+<lb/>a safe but not very<lb/>glorious role.</p>
+<p>I wish K would
+<lb/>let me know what
+<lb/>he thinks of the dispatch
+<lb/>up to date. I must
+<lb/>go and see him tomorrow
+<lb/>to know how I am to<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T15:29:21" who="#SKerr">
+                
+                    Page 6502 modified:
+                    <!-- 
+deal with a fortnights
+<lb/>almost uninterrupted
+<lb/>failures at the end
+<lb/> of July! Things are
+<lb/>better again now, &amp; will
+<lb/> be easier but not
+<lb/>the intermediate period.</p>
+<p>I don't want long
+<lb/>letters now old thing
+<lb/>nor to give you anymore
+<lb/>business. Please look
+<lb/>after yourself as your
+<lb/>payment of the many 
+<lb/>good marks you owe
+<lb/> &#x2014; you say &#x2014; to your 
+<lb/>bw.</p> 
+<salute>WB Spender</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T16:32:56" who="#NR">
+                
+                    Page 6511 modified:
+                    <!-- 
+<date>August 25th <del>July</del></date>
+<salute>My pr</salute>
+<p>Got your letter of 22nd this evening<add><hi rend="superscript">24th</hi></add>. No
+<lb/> old thing it won't do. If you aren't feeling better
+<lb/> when you get this &amp; tell me so I shall write to 
+<lb/>Lady R &amp; tell her she must get someone to
+<lb/> take on from the first week in September.</p>
+<p>I have written to <unclear>Rex</unclear> and told him <unclear>Jin</unclear>
+<lb/>will manage <del>your</del> his parcels and we will settle
+<lb/> up with her.</p>
+<p>In your next letter tell me how you stand
+<lb/>in regard to our business and do no more. I
+<lb/>can arrange nearly everything with Maguire
+<lb/>from here. <unclear>The lending</unclear> to the Government is
+<lb/>rather urgent though as I believe it has to be done 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T16:34:06" who="#NR">
+                
+                    Page 6512 modified:
+                    <!-- 
+<lb/>by the 1 Sept so I enclose a letter to Mr
+<lb/>Maguire for you to forward if you have not 
+<lb/>already <del>done</del> written.</p>
+<p>But the first thing is your holiday
+<lb/>&amp; I tell you flat I shall write to Ruby
+<lb/>&amp; have you sacked if you are not very
+<lb/>good!  I am thinking of asking Jessie to
+<lb/> vet you but hitherto I have been able to
+<lb/> trust my pr to tell me the truth of how
+<lb/>she feels and so won't take extreme measures yet.</p>
+<p>As for your holiday you need not go
+<lb/>on economical lines this time as I want it 
+<lb/>to be a real holiday.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T16:35:27" who="#NR">
+                
+                    Page 6508 modified:
+                    <!-- 
+<p>I haven't yet appeared in the Gazette &#x2014; an 
+<lb/>unusually long wait! Supposing I am sent 
+<lb/>back to Capt again what a bw and pr we shall be
+<lb/> it will be a case of pppr! I hope my exalted 
+<lb/>encomium &#x2014; shan't talk of pay now! &#x2014; begins
+<lb/> from the date of my duties, an extra 9/- a day
+<lb/>I believe I get which ought to pay for a 
+<lb/> pr's chocolate even on a holiday!</p>
+<p>I resubmitted the dispatch 19 May to
+<lb/>16 July to K today but I shall not hear what 
+<lb/>he thinks for a day or two, &amp; shall be very
+<lb/>depressed in consequence I expect for I really
+<lb/> have tried hard, &amp; only want a pr to make
+<lb/> it quite a success. I wish I could take it home 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T16:35:57" who="#NR">
+                
+                    Page 6507 modified:
+                    <!-- 
+<lb/>on leave and do it there tho' I see <add>there would be</add> difficulties 
+<lb/>about maps, of which I have several square
+<lb/>yards for each day of the month to look
+<lb/>at! </p>
+<p>Yesterday someone came in for a <unclear>break</unclear>
+<lb/>said he came from Fermanagh talked of gun
+<lb/> running, and Fermanagh but I could not place
+<lb/>him even when he said something which showed
+<lb/>his brother had died &amp; been a peer. Very interesting
+<lb/>it was but I wish I had known before he left
+<lb/>that it was Crichton &#x2014; who is now a King's 
+<lb/>messenger and whom I hope to see out here
+<lb/>again.</p>
+<p>Several times at night I have been 
+<lb/>startled by someone who whistles some of 
+<lb/> my special tunes &#x2014; Autumn the apple blossom 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T16:37:58" who="#NR">
+                
+                    Page 6501 modified:
+                    <!-- 
+<date>Aug 25</date>
+<lb/>and the dirge of 
+<lb/><unclear>Colquoolan</unclear> (??) you
+<lb/> will love my spelling
+<lb/>of this! I expect it 
+<lb/>must be one of the 
+<lb/>Artists rifles who form
+<lb/>the body guard here
+<lb/>a safe but not very
+<lb/>glorious role.</p>
+<p>I wish K would
+<lb/>let me know what
+<lb/>he thinks of the dispatch
+<lb/>up to date. I must
+<lb/>go and see him tomorrow
+<lb/>to know how I am to 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T16:38:41" who="#NR">
+                
+                    Page 6502 modified:
+                    <!-- 
+<lb/>deal with a fortnights
+<lb/>almost uninterrupted
+<lb/>failures at the end
+<lb/> of July! Things are
+<lb/>better again now, &amp; will
+<lb/> be easier but not
+<lb/>the intermediate period.</p>
+<p>I don't want long
+<lb/>letters now old thing
+<lb/>nor to give you anymore
+<lb/>business. Please look
+<lb/>after yourself as your
+<lb/>payment of the many 
+<lb/>good marks you owe
+<lb/> &#x2014; you say &#x2014; to your 
+<lb/>bw.</p> 
+<signed>WB Spender</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6512 created using version from <date when="2015-10-01T14:01:01"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6512 removed (version from <date when="2015-10-01T14:01:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6512 removed (version from <date when="2016-01-19T15:11:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6512 removed (version from <date when="2016-01-21T16:34:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6507 created using version from <date when="2015-10-04T16:39:40"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6507 removed (version from <date when="2015-10-04T16:39:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6507 removed (version from <date when="2016-01-19T15:22:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6507 removed (version from <date when="2016-01-21T16:35:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6501 created using version from <date when="2015-10-04T16:47:05"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6501 removed (version from <date when="2015-10-04T16:47:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6501 removed (version from <date when="2015-10-04T16:48:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6501 removed (version from <date when="2015-10-04T16:56:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6501 removed (version from <date when="2016-01-19T15:26:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6501 removed (version from <date when="2016-01-21T16:37:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6508 created using version from <date when="2015-10-01T14:13:42"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6508 removed (version from <date when="2015-10-01T14:13:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6508 removed (version from <date when="2015-10-04T16:33:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6508 removed (version from <date when="2016-01-19T15:18:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6508 removed (version from <date when="2016-01-21T16:35:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6511 created using version from <date when="2015-10-01T13:52:39"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6511 removed (version from <date when="2015-10-01T13:52:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6511 removed (version from <date when="2016-01-19T15:08:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6511 removed (version from <date when="2016-01-21T16:32:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6502 created using version from <date when="2015-10-04T16:55:25"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6502 removed (version from <date when="2015-10-04T16:55:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6502 removed (version from <date when="2016-01-19T15:29:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6502 removed (version from <date when="2016-01-21T16:38:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 6512 (version from <date when="2016-01-21T16:34:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6507 added to letter (version from <date when="2016-01-21T16:35:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6501 added to letter (version from <date when="2016-01-21T16:37:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6508 added to letter (version from <date when="2016-01-21T16:35:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6511 added to letter (version from <date when="2016-01-21T16:32:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6502 added to letter (version from <date when="2016-01-21T16:38:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 6512 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 6501 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 6502 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 6507 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 6508 cleaned of 5 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 6511 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:28" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:32" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:51" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:51" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2347_img_6501" url="b97a6a4a06c35dc5d948b7d0b96ee557.jpg"/> 
+    
+    <graphic xml:id="L1916_2347_img_6502" url="d5b19abc1b89ad6a2a366133f57d6438.jpg"/> 
+    
+    <graphic xml:id="L1916_2347_img_6507" url="89709e5f83b8ff08ba4cde5e8db5aa8a.jpg"/> 
+    
+    <graphic xml:id="L1916_2347_img_6508" url="82fedb18b692992de18ff0614722d39a.jpg"/> 
+    
+    <graphic xml:id="L1916_2347_img_6511" url="aca921a7f017a6f3c7b0aab185925fd5.jpg"/> 
+    
+    <graphic xml:id="L1916_2347_img_6512" url="c4a444ab2f97803b39724cfc002ada08.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="6501" facs="#L1916_2347_img_6501"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><dateline><date>Aug 25</date></dateline></opener>
+<lb/>and the dirge of 
+<lb/><unclear>Colquoolan</unclear> (??) you
+<lb/> will love my spelling
+<lb/>of this! I expect it 
+<lb/>must be one of the 
+<lb/>Artists rifles who form
+<lb/>the body guard here
+<lb/>a safe but not very
+<lb/>glorious role.</p>
+<p>I wish K would
+<lb/>let me know what
+<lb/>he thinks of the dispatch
+<lb/>up to date. I must
+<lb/>go and see him tomorrow
+<lb/>to know how I am to
+        
+    
+
+    
+         
+        <pb n="6502" facs="#L1916_2347_img_6502"/>
+        
+        
+           
+            <lb/>deal with a fortnights
+<lb/>almost uninterrupted
+<lb/>failures at the end
+<lb/> of July! Things are
+<lb/>better again now, &amp; will
+<lb/> be easier but not
+<lb/>the intermediate period.</p>
+<p>I don't want long
+<lb/>letters now old thing
+<lb/>nor to give you anymore
+<lb/>business. Please look
+<lb/>after yourself as your
+<lb/>payment of the many 
+<lb/>good marks you owe
+<lb/> &#x2014; you say &#x2014; to your 
+<lb/>bw.</p> 
+<signed>WB Spender</signed>
+        
+    
+         
+        <pb n="6507" facs="#L1916_2347_img_6507"/>
+        
+        
+           
+            <lb/>on leave and do it there tho' I see <add>there would be</add> difficulties 
+<lb/>about maps, of which I have several square
+<lb/>yards for each day of the month to look
+<lb/>at! </p>
+<p>Yesterday someone came in for a <unclear>break</unclear>
+<lb/>said he came from Fermanagh talked of gun
+<lb/> running, and Fermanagh but I could not place
+<lb/>him even when he said something which showed
+<lb/>his brother had died &amp; been a peer. Very interesting
+<lb/>it was but I wish I had known before he left
+<lb/>that it was Crichton &#x2014; who is now a King's 
+<lb/>messenger and whom I hope to see out here
+<lb/>again.</p>
+<p>Several times at night I have been 
+<lb/>startled by someone who whistles some of 
+<lb/> my special tunes &#x2014; Autumn the apple blossom
+        
+    
+         
+        <pb n="6508" facs="#L1916_2347_img_6508"/>
+        
+        
+           
+            <p>I haven't yet appeared in the Gazette &#x2014; an 
+<lb/>unusually long wait! Supposing I am sent 
+<lb/>back to Capt again what a bw and pr we shall be
+<lb/> it will be a case of pppr! I hope my exalted 
+<lb/>encomium &#x2014; shan't talk of pay now! &#x2014; begins
+<lb/> from the date of my duties, an extra 9/- a day
+<lb/>I believe I get which ought to pay for a 
+<lb/> pr's chocolate even on a holiday!</p>
+<p>I resubmitted the dispatch 19 May to
+<lb/>16 July to K today but I shall not hear what 
+<lb/>he thinks for a day or two, &amp; shall be very
+<lb/>depressed in consequence I expect for I really
+<lb/> have tried hard, &amp; only want a pr to make
+<lb/> it quite a success. I wish I could take it home
+        
+    
+         
+        <pb n="6511" facs="#L1916_2347_img_6511"/>
+        
+        
+           
+            <date>August 25th <del>July</del></date>
+<salute>My pr</salute>
+<p>Got your letter of 22nd this evening<add><hi rend="superscript">24th</hi></add>. No
+<lb/> old thing it won't do. If you aren't feeling better
+<lb/> when you get this &amp; tell me so I shall write to 
+<lb/>Lady R &amp; tell her she must get someone to
+<lb/> take on from the first week in September.</p>
+<p>I have written to <unclear>Rex</unclear> and told him <unclear>Jin</unclear>
+<lb/>will manage <del>your</del> his parcels and we will settle
+<lb/> up with her.</p>
+<p>In your next letter tell me how you stand
+<lb/>in regard to our business and do no more. I
+<lb/>can arrange nearly everything with Maguire
+<lb/>from here. <unclear>The lending</unclear> to the Government is
+<lb/>rather urgent though as I believe it has to be done
+        
+    
+         
+        <pb n="6512" facs="#L1916_2347_img_6512"/>
+        
+        
+           
+            <lb/>by the 1 Sept so I enclose a letter to Mr
+<lb/>Maguire for you to forward if you have not 
+<lb/>already <del>done</del> written.</p>
+<p>But the first thing is your holiday
+<lb/>&amp; I tell you flat I shall write to Ruby
+<lb/>&amp; have you sacked if you are not very
+<lb/>good!  I am thinking of asking Jessie to
+<lb/> vet you but hitherto I have been able to
+<lb/> trust my pr to tell me the truth of how
+<lb/>she feels and so won't take extreme measures yet.</p>
+<p>As for your holiday you need not go
+<lb/>on economical lines this time as I want it 
+<lb/>to be a real holiday.</p>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

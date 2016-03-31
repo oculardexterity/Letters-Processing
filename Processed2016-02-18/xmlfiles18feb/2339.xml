@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2339">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Sir Wilfrid Spender to his wife Lady Lillian Spender, 15 August 1916</title>
+                
+                <author>Wilfrid Spender</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="SKerr">SKerr</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tnoonan1111">Tnoonan11 11</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2339</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from sir Wilfrid Bliss Spender (1876-1960) to his wife, Lady Lillian Spender, née Dean, (1880-1968). In this letter, Spender expresses admiration at how Lillian remains constantly fresh when writing letters, and makes several allusions to the pet names the couple have for each other ('Brown Wolf' and 'Pink Rabbit'). Spender updates Lillian on the progress of his report, and regrets his departure from the Ulster Division, as leave has been specifically approved for that Division. He asks Lillian to send on the letter to his family.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Sir Wilfrid Spender was a member of the British Army until 1913 when controversy surrounding his signature of the Ulster Solemn League and Covenant resulted in his resignation. Spender was called up for military service in 1914 and from 1915 served in the 36th (Ulster) Division. Throughout the war, Spender wrote a collection of letters to his wife Lady Lillian Spender. The letters date mainly from 1915 to 1918, when Sir Wilfrid was serving in France. The letters concern politics, the Irish question, personal life, and Wilfrid's experience of the Great War. Lady Lillian served in the Ulster Volunteer Nursing Corps during the war, and was an organiser of the Ulster Division Comforts Fund.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Lady Spender&#39;s Correspondence, D1633/1/1/387
+                             
+                        -->
+                            
+                                <collection type='public'>Lady Spender's Correspondence</collection>
+                            
+                            
+                        <idno>D1633/1/1/387</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Lillian Spender -->
+                        
+                        <persName ref="#Spender_L">Lillian Spender</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Wilfrid Spender -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF RECIPIENT IS CORRECT --></VERIFY>
+                        
+                        <persName ref="#Spender_W_B">Wilfrid Bliss Spender</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    France 
+                    France
+                    France
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#France">France</placeName>
+                    
+                
+                    
+                    <date when="1916-08-15">15 August 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1960</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                            
+                            <item n="tag">Family life</item>
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2016-01-27T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-27T13:02:18" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2016-01-27T13:02:18" who="#SKerr">
+                
+                    Page 6468 modified:
+                    <!-- 
+<date>15 Aug</date>
+<salute>My pr</salute>
+<p>I ought to be out, but it is raining, so
+<lb/>I will begin a screed though I am not as fresh as
+<lb/>the pr always appears to be in spite of her many
+<lb/>hours at the desk. I like to see the way in
+<lb/>which your committee think it necessary to
+<lb/>get your approval &#x2014; even in regard to St Janes'
+<lb/>Palace. &#x2014; I shall certainly write to <add>you</add> there when
+<lb/>I am quite sure of the address! &#x2014; I am so
+<lb/>glad that a Wolf's paw marks has the same
+<lb/>effect as Cockles <add>(?)</add> pink pills according to the
+<lb/>patient, but I'm afraid the bw riffs rather
+<lb/>suspiciously as the compliment!</p>
+<p> I had a great <unclear>wrestle</unclear> this morning and
+<lb/>have completed the 34<hi rend="superscript">th</hi> page of my tome though<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-27T13:06:39" who="#SKerr">
+                
+                    Page 6468 modified:
+                    <!-- 
+<date>15 Aug</date>
+<salute>My pr</salute>
+<p>I ought to be out, but it is raining, so
+<lb/>I will begin a screed though I am not as fresh as
+<lb/>the pr always appears to be in spite of her many
+<lb/>hours at the desk. I like to see the way in
+<lb/>which your committee think it necessary to
+<lb/>get your approval &#x2014; even in regard to St Janes'
+<lb/>Palace. &#x2014; I shall certainly write to <add>you</add> there when
+<lb/>I am quite sure of the address! &#x2014; I am so
+<lb/>glad that a Wolf's paw marks has the same
+<lb/>effect as Cockles <add>(?)</add> pink pills according to the
+<lb/>patient, but I'm afraid the bw riffs rather
+<lb/>suspiciously as the compliment!</p>
+<p> I had a great <unclear>wrestle</unclear> this morning and
+<lb/>have completed the 34<hi rend="superscript">th</hi> page of my tome though
+
+<!~~ At top of page ~~>
+<p>There is 
+<lb/>a lot in 
+<lb/>this letter
+<lb/>which ought
+<lb/>to have been
+<lb/>reserved for
+<lb/>a family
+<lb/>letter. Can't
+<lb/>you send it
+<lb/>on ??
+<lb/>certainly the
+<lb/>last page</p><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-27T13:15:50" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2016-01-27T13:15:50" who="#SKerr">
+                
+                    Page 6469 modified:
+                    <!-- 
+very far from satisfied with it. It will need a
+<lb/>lot of polish and I know a pr would make such
+<lb/>an excellent chamois leather! I hear leave has
+<lb/>been <sic>aproved</sic> specially for the Ulster and one or
+<lb/>two other divisions &#x2014; boohoo why did I leave? &#x2014; </p>
+<p>Today's afternoon wire caused such a lot
+<lb/>of head scratching &#x2014; literally &#x2014; I think we were
+<lb/>nearly an hour as I rather stuck my toes in
+<lb/>at one or two phrases which <del>it</del> were proposed.</p>
+<p>I am cogitating whether it is fair to put
+<lb/>in the German written remarks about the extraordin-
+<lb/>ary disproportion between the Saxon &amp; Prussian troops
+<lb/>being employed in this battle, when I guess that
+<lb/>the figures may have been reversed at Verdun.
+<lb/>It would <del>make</del> <add>have</add> considerable effect in the
+<lb/>Saxon wireless stations!</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-27T14:33:57" who="#NR">
+                
+                    Page 6468 modified:
+                    <!-- 
+<date>15 Aug</date>
+<salute>My pr</salute>
+<p>I ought to be out, but it is raining, so
+<lb/>I will begin a screed though I am not as fresh as
+<lb/>the pr always appears to be in spite of her many
+<lb/>hours at the desk. I like to see the way in
+<lb/>which your committee think it necessary to
+<lb/>get your approval &#x2014; even in regard to St Janes'
+<lb/>Palace. &#x2014; I shall certainly write to <add>you</add> there when
+<lb/>I am quite sure of the address! &#x2014; I am so
+<lb/>glad that a Wolf's paw marks has the same
+<lb/>effect as Cockles <add>(?)</add> pink pills according to the
+<lb/>patient, but I'm afraid the bw riffs rather
+<lb/>suspiciously as the compliment!</p>
+<p> I had a great <unclear>wrestle</unclear> this morning and
+<lb/>have completed the 34<hi rend="superscript">th</hi> page of my tome though
+
+<!~~ At top of page ~~>
+<p>There is 
+<lb/>a lot in 
+<lb/>this letter
+<lb/>which ought
+<lb/>to have been
+<lb/>reserved for
+<lb/>a family
+<lb/>letter. Can't
+<lb/>you send it
+<lb/>on ??
+<lb/>certainly the
+<lb/>last page</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-27T14:34:30" who="#NR">
+                
+                    Page 6469 modified:
+                    <!-- 
+<lb/>very far from satisfied with it. It will need a
+<lb/>lot of polish and I know a pr would make such
+<lb/>an excellent chamois leather! I hear leave has
+<lb/>been <sic>aproved</sic> specially for the Ulster and one or
+<lb/>two other divisions &#x2014; boohoo why did I leave? &#x2014; </p>
+<p>Today's afternoon wire caused such a lot
+<lb/>of head scratching &#x2014; literally &#x2014; I think we were
+<lb/>nearly an hour as I rather stuck my toes in
+<lb/>at one or two phrases which <del>it</del> were proposed.</p>
+<p>I am cogitating whether it is fair to put
+<lb/>in the German written remarks about the extraordin-
+<lb/>ary disproportion between the Saxon &amp; Prussian troops
+<lb/>being employed in this battle, when I guess that
+<lb/>the figures may have been reversed at Verdun.
+<lb/>It would <del>make</del> <add>have</add> considerable effect in the
+<lb/>Saxon wireless stations!</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6468 created using version from <date when="2016-01-27T13:02:18"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6468 removed (version from <date when="2016-01-27T13:02:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6468 removed (version from <date when="2016-01-27T13:06:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6468 removed (version from <date when="2016-01-27T14:33:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6469 created using version from <date when="2016-01-27T13:15:50"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6469 removed (version from <date when="2016-01-27T13:15:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6469 removed (version from <date when="2016-01-27T14:34:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 6468 (version from <date when="2016-01-27T14:33:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6469 added to letter (version from <date when="2016-01-27T14:34:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:22" who="#PythonScript">
+                
+                    Clean tags: Page 6468 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:22" who="#PythonScript">
+                
+                    Clean tags: Page 6469 cleaned of 5 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:25" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:31" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:38" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:37" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:45" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2339_img_6468" url="54f676c6770454c32ab381294b75d931.jpg"/> 
+    
+    <graphic xml:id="L1916_2339_img_6469" url="9b0cdd2431edc38fb405f1308dc4021c.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="6468" facs="#L1916_2339_img_6468"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><dateline><date>15 Aug</date></dateline>
+<salute>My pr</salute></opener>
+<p>I ought to be out, but it is raining, so
+<lb/>I will begin a screed though I am not as fresh as
+<lb/>the pr always appears to be in spite of her many
+<lb/>hours at the desk. I like to see the way in
+<lb/>which your committee think it necessary to
+<lb/>get your approval &#x2014; even in regard to St Janes'
+<lb/>Palace. &#x2014; I shall certainly write to <add>you</add> there when
+<lb/>I am quite sure of the address! &#x2014; I am so
+<lb/>glad that a Wolf's paw marks has the same
+<lb/>effect as Cockles <add>(?)</add> pink pills according to the
+<lb/>patient, but I'm afraid the bw riffs rather
+<lb/>suspiciously as the compliment!</p>
+<p> I had a great <unclear>wrestle</unclear> this morning and
+<lb/>have completed the 34<hi rend="superscript">th</hi> page of my tome though
+
+<!-- At top of page -->
+<p>There is 
+<lb/>a lot in 
+<lb/>this letter
+<lb/>which ought
+<lb/>to have been
+<lb/>reserved for
+<lb/>a family
+<lb/>letter. Can't
+<lb/>you send it
+<lb/>on ??
+<lb/>certainly the
+<lb/>last page</p>
+        
+    
+
+    
+         
+        <pb n="6469" facs="#L1916_2339_img_6469"/>
+        
+        
+           
+            <lb/>very far from satisfied with it. It will need a
+<lb/>lot of polish and I know a pr would make such
+<lb/>an excellent chamois leather! I hear leave has
+<lb/>been <sic>aproved</sic> specially for the Ulster and one or
+<lb/>two other divisions &#x2014; boohoo why did I leave? &#x2014; </p>
+<p>Today's afternoon wire caused such a lot
+<lb/>of head scratching &#x2014; literally &#x2014; I think we were
+<lb/>nearly an hour as I rather stuck my toes in
+<lb/>at one or two phrases which <del>it</del> were proposed.</p>
+<p>I am cogitating whether it is fair to put
+<lb/>in the German written remarks about the extraordin-
+<lb/>ary disproportion between the Saxon &amp; Prussian troops
+<lb/>being employed in this battle, when I guess that
+<lb/>the figures may have been reversed at Verdun.
+<lb/>It would <del>make</del> <add>have</add> considerable effect in the
+<lb/>Saxon wireless stations!</p>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

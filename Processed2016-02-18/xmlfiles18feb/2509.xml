@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2509">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Peter Mooney to his sister Katie Mooney, 3 November 1915</title>
+                
+                <author>Peter Mooney</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Fionnualawilson">Fionnualawilson</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Rpoole">Rpoole</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="RichardBreen">RichardBreen</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2509</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>Letter from Peter Mooney (b.1886) to his sister, Katie (b.1884). Peter thanks Katie for the pouch of tobacco that was sent his way. He reports that the war seems to be getting no better, possibly referring to the British failure to break the German lines at Loos. Peter requests a nail scissors and the addresses of family and friends at home to write to. He closes with reference to the increasing number of recruits arriving to the front, wondering where they must be coming from. The recruits likely came from the British New Army regiments (so called Kitchener's Army), civilian volunteers who made up the depleted ranks of the British forces in 1915.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Orphaned at age 7, Peter and his sister Katie were raised by their uncle William and his wife Mary in Caulstown. While there are no surviving enlistment papers for Peter, his War Badge Index Record shows his enlistment date as 18 October 1915. He served with the Royal Artillery and later transferred to the Royal Engineers where he was promoted to the rank of Sergeant. He served in several places at the Western Front, including Ypres, St. Omer and Passchendael. Peter and Kate were avid correspondents. This letter part of a collection of over ninety surviving letters.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Mooney family papers -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF INSTITUTION REF IS CORRECT --></VERIFY>
+                        
+                        <repository ref="#MISSING">MISSING</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Mooney family papers
+                             
+                        -->
+                            
+                                <collection type='public'>Mooney family papers</collection>
+                            
+                            
+                        <idno>Mooney family papers</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Katie Mooney -->
+                        
+                        <persName ref="#Mooney_K">Katie Mooney</persName>
+                    
+                
+                
+                
+                    
+                    <placeName  ref="MISSING">Caulstown, Dunboyne, Co.Meath</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Peter Mooney -->
+                        
+                        <persName ref="#Mooney_P">Peter Mooney</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    Ballinacurra 
+                    Cork
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#Ballinacurra">Ballincollig, Co.Cork</placeName>
+                    
+                
+                    
+                    <date when="1915-11-03">3 November 1915</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1970</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-12-13T07:51:39" who="#Fionnualawilson">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-12-13T07:51:39" who="#Rpoole">
+                
+                    Page 6733 modified:
+                    <!-- 
+Dear Kate,
+      I received your letter this morning alright. I was glad to receive the <unclear>papers</unclear> The war seems to be getting no better. I forgot to tell you that I got the tobacco alright I will write when I want more. When you are writing again try & enclose <unclear>Christy Mufens</unclear> address as I would like to write to him 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-13T07:56:21" who="#Fionnualawilson">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-12-13T07:56:21" who="#Rpoole">
+                
+                    Page 6735 modified:
+                    <!-- 
+Tell Pat that I was ask for him. You might send me on a very small scissors for cutting my nails. Recruits are coming in here every day the wonder is where they are coming from. You will have to forgive me for writing such a short letter. I will write on Sunday again. I will now say good-Bye to all for the present. Your fond brother Peter Mooney 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-13T08:00:57" who="#Fionnualawilson">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-12-13T08:00:57" who="#Rpoole">
+                
+                    Page 6737 modified:
+                    <!-- 
+Miss. K. Mooney
+<unclear>Caulstown</unclear>
+Dunboyne
+Co. Meath 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-16T11:35:42" who="#Comber">
+                
+                    Page 6733 modified:
+                    <!-- 
+<!~~ Stamped emblem with inscription on banner underneath ~~>
+QUO FAS ET GLORIA DUCUNT
+<date>Nov 3<hi rend="superscript">rd</hi>1915</date>
+<salute>Dear Kate,</salute>
+I received your letter<lb/>
+ this morning alright. I was glad to receive the papers<lb/>
+ The war seems to be getting<lb/>
+ no better. I forgot to tell<lb/>
+ you that I got the tobacco<lb/>
+ alright I will write when<lb/>
+ I want more. When you<lb/>
+ are writing again try &amp; enclose<lb/>
+ <unclear>Christy Mufens</unclear> address as<lb/>
+ I would like to write to him<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-16T11:38:19" who="#Comber">
+                
+                    Page 6735 modified:
+                    <!-- 
+Tell Pat that I was asking<lb/>
+ for him. You might send me<lb/>
+ on a very small scissors for<lb/>
+ cutting my nails. Recruits<lb/>
+ are coming in here every day<lb/>
+ the wonder is where they are<lb/>
+ coming from. You will have<lb/>
+ to forgive me for writing such<lb/>
+ a short letter. I will write<lb/>
+ on Sunday again. I will now<lb/>
+ say Good&#x2014;Bye to all for<lb/>
+ the present. 
+<salute>Your fond brother</salute> 
+Peter Mooney 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-16T11:39:29" who="#Comber">
+                
+                    Page 6737 modified:
+                    <!-- 
+<!~~ Envelope ~~>
+Miss. K. Mooney<lb/>
+<unclear>Caulstown</unclear><lb/>
+Dunboyne<lb/>
+Co. Meath<lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T11:17:43" who="#RichardBreen">
+                
+                    Page 6733 modified:
+                    <!-- 
+<date>Nov 3<hi rend="superscript">rd</hi>1915</date>
+<salute>Dear Kate,</salute>
+<p>I received your letter<lb/>
+ this morning alright. I was<lb/>
+ glad to receive the papers<lb/>
+ The war seems to be getting<lb/>
+ no better. I forgot to tell<lb/>
+ you that I got the tobacco<lb/>
+ alright I will write when<lb/>
+ I want more. When you<lb/>
+ are writing again try &amp; enclose<lb/>
+ <unclear>Christy Mulans</unclear> address as<lb/>
+ I would like to write to him 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T11:18:02" who="#RichardBreen">
+                
+                    Page 6733 modified:
+                    <!-- 
+<date>Nov 3<hi rend="superscript">rd</hi>1915</date>
+<salute>Dear Kate,</salute>
+<p>I received your letter<lb/>
+ this morning alright. I was<lb/>
+ glad to receive the papers<lb/>
+ The war seems to be getting<lb/>
+ no better. I forgot to tell<lb/>
+ you that I got the tobacco<lb/>
+ alright I will write when<lb/>
+ I want more. When you<lb/>
+ are writing again try &amp; enclose<lb/>
+ <unclear>Christy Mulans</unclear> address as<lb/>
+ I would like to write to him</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T11:20:35" who="#RichardBreen">
+                
+                    Page 6735 modified:
+                    <!-- 
+<p>Tell Pat that I was asking<lb/>
+ for him. You might send me<lb/>
+ on a very small <sic>sciziors</sic> for<lb/>
+ cutting my nails. Recruits<lb/>
+ are coming in here every day<lb/>
+ the wonder is where they are<lb/>
+ coming from. You will have<lb/>
+ to forgive me for writing such<lb/>
+ a short letter. I will write<lb/>
+ on Sunday again. I will now<lb/>
+ say Good&#x2014;Bye to all for<lb/>
+ the present.</p> 
+<salute>Your fond Brother</salute> 
+<signed>Peter Mooney</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T11:21:24" who="#RichardBreen">
+                
+                    Page 6737 modified:
+                    <!-- 
+<!~~ Envelope ~~>
+<address>Miss. K. Mooney<lb/>
+Caulstown<lb/>
+Dunboyne<lb/>
+Co. Meath<lb/></address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T11:44:41" who="#NR">
+                
+                    Page 6733 modified:
+                    <!-- 
+<date>Nov 3<hi rend="superscript">rd</hi>1915</date>
+<salute>Dear Kate,</salute>
+<p>I received your letter<lb/>
+ this morning alright. I was<lb/>
+ glad to receive the papers<lb/>
+ The war seems to be getting<lb/>
+ no better. I forgot to tell<lb/>
+ you that I got the tobacco<lb/>
+ alright I will write when<lb/>
+ I want more. When you<lb/>
+ are writing again try &amp; enclose<lb/>
+ <unclear>Christy Mulans</unclear> address as<lb/>
+ I would like to write to him 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T11:45:20" who="#NR">
+                
+                    Page 6735 modified:
+                    <!-- 
+Tell Pat that I was asking<lb/>
+ for him. You might send me<lb/>
+ on a very small <sic>sciziors</sic> for<lb/>
+ cutting my nails. Recruits<lb/>
+ are coming in here every day<lb/>
+ the wonder is where they are<lb/>
+ coming from. You will have<lb/>
+ to forgive me for writing such<lb/>
+ a short letter. I will write<lb/>
+ on Sunday again. I will now<lb/>
+ say Good&#x2014;Bye to all for<lb/>
+ the present.</p> 
+<salute>Your fond Brother</salute> 
+<signed>Peter Mooney</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T12:09:45" who="#NR">
+                
+                    Page 6737 modified:
+                    <!-- 
+<address>Miss. K. Mooney<lb/>
+Caulstown<lb/>
+Dunboyne<lb/>
+Co. Meath</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6735 created using version from <date when="2015-12-13T07:56:21"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6735 removed (version from <date when="2015-12-13T07:56:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6735 removed (version from <date when="2016-01-16T11:38:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6735 removed (version from <date when="2016-01-19T11:20:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6735 removed (version from <date when="2016-01-21T11:45:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6733 created using version from <date when="2015-12-13T07:51:39"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6733 removed (version from <date when="2015-12-13T07:51:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6733 removed (version from <date when="2016-01-16T11:35:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6733 removed (version from <date when="2016-01-19T11:17:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6733 removed (version from <date when="2016-01-19T11:18:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6733 removed (version from <date when="2016-01-21T11:44:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6737 created using version from <date when="2015-12-13T08:00:57"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6737 removed (version from <date when="2015-12-13T08:00:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6737 removed (version from <date when="2016-01-16T11:39:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6737 removed (version from <date when="2016-01-19T11:21:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6737 removed (version from <date when="2016-01-21T12:09:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 6735 (version from <date when="2016-01-21T11:45:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6733 added to letter (version from <date when="2016-01-21T11:44:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6737 added to letter (version from <date when="2016-01-21T12:09:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 6737 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 6733 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 6735 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:29" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:34" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:02" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:02" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2509_img_6733" url="4a4cdc35ac247e5d7cd98b6e33396ece.jpg"/> 
+    
+    <graphic xml:id="L1916_2509_img_6735" url="c3ac336a172ffced20bf5105cf2777d8.jpg"/> 
+    
+    <graphic xml:id="L1916_2509_img_6737" url="bf9a0b861a96ed95399f46866d163aed.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="6733" facs="#L1916_2509_img_6733"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><dateline><date>Nov 3<hi rend="superscript">rd</hi>1915</date></dateline>
+<salute>Dear Kate,</salute></opener>
+<p>I received your letter<lb/>
+ this morning alright. I was<lb/>
+ glad to receive the papers<lb/>
+ The war seems to be getting<lb/>
+ no better. I forgot to tell<lb/>
+ you that I got the tobacco<lb/>
+ alright I will write when<lb/>
+ I want more. When you<lb/>
+ are writing again try &amp; enclose<lb/>
+ <unclear>Christy Mulans</unclear> address as<lb/>
+ I would like to write to him
+        
+    
+
+    
+         
+        <pb n="6735" facs="#L1916_2509_img_6735"/>
+        
+        
+           
+            Tell Pat that I was asking<lb/>
+ for him. You might send me<lb/>
+ on a very small <sic>sciziors</sic> for<lb/>
+ cutting my nails. Recruits<lb/>
+ are coming in here every day<lb/>
+ the wonder is where they are<lb/>
+ coming from. You will have<lb/>
+ to forgive me for writing such<lb/>
+ a short letter. I will write<lb/>
+ on Sunday again. I will now<lb/>
+ say Good&#x2014;Bye to all for<lb/>
+ the present.</p> 
+<closer><salute>Your fond Brother</salute> 
+<signed>Peter Mooney</signed></closer>
+        
+    
+        
+        
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+            <pb n="6737" facs="#L1916_2509_img_6737"/>
+            <text type="envelope" decls="#corresp1">
+                <body> 
+                    <ab>
+                        <address><addrLine>Miss. K. Mooney</addrLine>
+<addrLine>Caulstown</addrLine>
+<addrLine>Dunboyne</addrLine>
+<addrLine>Co. Meath</addrLine></address>
+                    </ab>
+                </body>
+            </text>
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

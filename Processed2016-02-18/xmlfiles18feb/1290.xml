@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1290">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Patrick Hayes to Anna O&#39;Rahilly, 23 August 1916</title>
+                
+                <author>Patrick Canon Hayes</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="RichardBreen">RichardBreen</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="AaronHoey">AaronHoey</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Rosie17">Rosie17</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1290</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from Patrick C. Hayes (b.1856) to Anna O'Rahilly, the sister of Michael Joseph O'Rahilly (1875-1916). The letter concerns a suggestion made on the part of Anne to build a spire in the memory of the O'Rahilly. The letter goes on to discuss the cost of such a project. </p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Michael Joseph O'Rahilly, self-described as 'The' O'Rahilly, was involved in the procurement of arms in the lead-up to the Rising and was involved in the Howth gun-running incident. He fought in the G.P.O. During the Rising and was shot in Parnell/Moore Street on 28 April 1916 and died some time later.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: University College Dublin  -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF INSTITUTION REF IS CORRECT --></VERIFY>
+                        
+                        <repository ref="#UCD">University College Dublin, Archives</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Sighle Humphreys Papers; P106/171/14/5
+                             
+                        -->
+                            
+                                <collection type='public'>Sighle Humphreys Papers</collection>
+                            
+                            
+                        <idno>P106/171/14/5</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Anna O&#39;Rahilly -->
+                        
+                        <persName ref="#ORahilly_A">Anna O'Rahilly</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">Patrick Canon Hayes</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    Dublin 
+                    Dublin
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#Dublin">Dublin</placeName>
+                    
+                
+                    
+                    <date when="1916-08-23">23 August 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-11-04T19:52:36" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-04T19:52:36" who="#Philcostel">
+                
+                    Page 3403 modified:
+                    <!-- 
+Royal Marine Hotel,
+Kingstown,
+Co. Dublin.
+Aug. 25, 1916
+Dear Miss O'Rahilly,
+I received your letter here this morning.
+Yes, I saw the suggestion in the Kerryman to build the spire to the memory of your brother. I could not think of undertaking such a heavy work. I found it difficult enough to build a Parochial Hall. It cost £300 and by that 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-04T20:03:08" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-04T20:03:08" who="#Philcostel">
+                
+                    Page 3404 modified:
+                    <!-- 
+from Ballylongford subscribers little over £100. The project of putting in large stained glass windows has not ?pulled? through at all. I was just about to commence the work about a year before the war when the people prevailed on me to build the Hall first. The window scheme will cost over £500.I got the plans & specifications from an architect. Of course in case the work is not carried out the money will be returned to you and your sister.
+With Kind Regards,
+I remain,
+Yours Sincerely,
+P. Hayes, P.P.
+Miss Anna O'Rahilly 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-03-09T16:31:36" who="#Rosie17">
+                
+                    Page 3403 modified:
+                    <!-- 
+Telephone
+(2 Lines)180) Kingstown.
+             181)
+Wire": comfort kinstown"
+
+<address>Royal Marine Hotel,<lb/>
+Kingstown<lb/>,
+Co. Dublin.<lb/</address>>
+<date>Aug. 25, 1916</date>
+<salute>Dear Miss O'Rahilly,</salute>
+I received your <lb/>letter here this morning<lb/>.
+Yes, I saw the suggestion<lb/> in the Kerryman to build <lb/>the spire to the memory<lb/> of your brother. I could<lb/> not think of undertaking<lb/> such a heavy work.<lb/> I found it difficult<lb/> enough to build a<lb/> Parochial Hall. It<lb/> cost £300 and by that<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-03-09T16:34:59" who="#Rosie17">
+                
+                    Page 3404 modified:
+                    <!-- 
+from Ballylongford subscribers <lb/>little over £100. The project<lb/> of putting in large stained<lb/> glass windows has not <lb/>?pulled? through at all. I <lb/>was just about to commence<lb/> the work about<lb/> a year before the war when<lb/> the people prevailed on<lb/> me to build the Hall<lb/> first. The window scheme <lb/>will cost over £500.I <lb/>got the plans &amp;specifications <lb/>from an architect.<lb/> Of course in case th<lb/>e work is not carried out<lb/> the money will be returned<lb/> to you and your sister.<p>paragraph</p>
+<salute>With Kind Regards,
+I remain,
+Yours Sincerely,
+P. Hayes, P.P.</salute>
+<address>Miss Anna O'Rahilly</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T14:22:28" who="#RichardBreen">
+                
+                    Page 3403 modified:
+                    <!-- 
+<address>Royal Marine Hotel,
+<lb/>Kingstown
+<lb/>,Co. Dublin.</address>
+
+<date>Aug. 25: 1916</date>
+
+<salute>Dear Miss O'Rahilly,</salute>
+<p>I received your 
+<lb/>letter here this morning.
+<lb/>Yes, I saw the suggestion
+<lb/> in the Kerryman to build 
+<lb/>the spire to the memory
+<lb/> of your brother. I could
+<lb/> not think of undertaking
+<lb/> such a heavy work.
+<lb/> I found it difficult
+<lb/> enough to build a
+<lb/> Parochial Hall. It
+<lb/> cost £300 and by that 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T14:27:49" who="#RichardBreen">
+                
+                    Page 3404 modified:
+                    <!-- 
+from Ballylongford subscribers 
+<lb/>little over £100. The project
+<lb/> of putting in large stained
+<lb/> glass windows has not 
+<lb/><unclear>success</unclear> through at all. I 
+<lb/>was just about to com-
+<lb/>mence the work about
+<lb/> a year before the war when
+<lb/> the people prevailed in
+<lb/> me to build the Hall
+<lb/> first. The window scheme 
+<lb/>will cost over £500.I 
+<lb/>got the plans &amp; specific-
+<lb/>ations from an architect.
+<lb/> Of course in case the
+<lb/>work is not carried out
+<lb/> the money will be ret-
+<lb/>urned to you and your 
+<lb/>sister.</p>
+<salute>With Kind Regards,
+<lb/>I remain,
+<lb/>Yours Sincerely,</salute>
+<signed>P. Hayes, P.P.</signed>
+
+<address>Miss Anna O'Rahilly</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T15:24:09" who="#NR">
+                
+                    Page 3404 modified:
+                    <!-- 
+<lb/>from Ballylongford subscribers 
+<lb/>little over £100. The project
+<lb/> of putting in large stained
+<lb/> glass windows has not 
+<lb/><unclear>success</unclear> through at all. I 
+<lb/>was just about to com-
+<lb/>mence the work about
+<lb/> a year before the war when
+<lb/> the people prevailed in
+<lb/> me to build the Hall
+<lb/> first. The window scheme 
+<lb/>will cost over £500.I 
+<lb/>got the plans &amp; specific-
+<lb/>ations from an architect.
+<lb/> Of course in case the
+<lb/>work is not carried out
+<lb/> the money will be ret-
+<lb/>urned to you and your 
+<lb/>sister.</p>
+<salute>With Kind Regards,
+<lb/>I remain,
+<lb/>Yours Sincerely,</salute>
+<signed>P. Hayes, P.P.</signed>
+
+<address>Miss Anna O'Rahilly</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:50" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3403 created using version from <date when="2014-11-04T19:52:36"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:50" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3403 removed (version from <date when="2014-11-04T19:52:36"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:50" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3403 removed (version from <date when="2015-03-09T16:31:36"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:50" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3403 removed (version from <date when="2016-01-15T14:22:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:50" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3404 created using version from <date when="2014-11-04T20:03:08"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:50" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3404 removed (version from <date when="2014-11-04T20:03:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:50" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3404 removed (version from <date when="2015-03-09T16:34:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:50" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3404 removed (version from <date when="2016-01-15T14:27:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:50" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3404 removed (version from <date when="2016-01-15T15:24:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3403 (version from <date when="2016-01-15T15:23:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3404 added to letter (version from <date when="2016-01-15T15:24:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 3403 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 3404 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:28" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:32" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:44" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:45" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1290_img_3403" url="008668c60159eee963fa698daed66e32.jpg"/> 
+    
+    <graphic xml:id="L1916_1290_img_3404" url="cef97cfcc504512d0d7c6c3f04a1a4bf.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3403" facs="#L1916_1290_img_3403"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>Royal Marine Hotel,</addrLine>
+<addrLine>Kingstown</addrLine>
+<addrLine>,Co. Dublin.</addrLine></address>
+
+<dateline><date>Aug. 25: 1916</date></dateline>
+
+<salute>Dear Miss O'Rahilly,</salute></opener>
+<p>I received your 
+<lb/>letter here this morning.
+<lb/>Yes, I saw the suggestion
+<lb/> in the Kerryman to build 
+<lb/>the spire to the memory
+<lb/> of your brother. I could
+<lb/> not think of undertaking
+<lb/> such a heavy work.
+<lb/> I found it difficult
+<lb/> enough to build a
+<lb/> Parochial Hall. It
+<lb/> cost £300 and by that
+        
+    
+
+    
+         
+        <pb n="3404" facs="#L1916_1290_img_3404"/>
+        
+        
+           
+            <lb/>from Ballylongford subscribers 
+<lb/>little over £100. The project
+<lb/> of putting in large stained
+<lb/> glass windows has not 
+<lb/><unclear>success</unclear> through at all. I 
+<lb/>was just about to com-
+<lb/>mence the work about
+<lb/> a year before the war when
+<lb/> the people prevailed in
+<lb/> me to build the Hall
+<lb/> first. The window scheme 
+<lb/>will cost over £500.I 
+<lb/>got the plans &amp; specific-
+<lb/>ations from an architect.
+<lb/> Of course in case the
+<lb/>work is not carried out
+<lb/> the money will be ret-
+<lb/>urned to you and your 
+<lb/>sister.</p>
+<closer><salute>With Kind Regards,
+<lb/>I remain,
+<lb/>Yours Sincerely,</salute>
+<signed>P. Hayes, P.P.</signed>
+
+<address><addrLine>Miss Anna O'Rahilly</addrLine></address></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

@@ -1,0 +1,1647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2175">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from William Montgomery to his parents, Harford and Sara Montgomery, 30 October, 1916</title>
+                
+                <author>William Alexander Montgomery</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="LynseyDunne">LynseyDunne</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Johnchambers81">Johnchambers81</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2175</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from William Montgomery to his parents, Harford Hugh (1856-1933) and Sarah. Montgomery starts off the letter by thanking his parents for the parcels they have sent him which include soda bread and other foods. He writes of his wishes for a better position in the army and his plans to meet a friend for dinner in town. He also reminds his parents that he had received no parcels of tobacco.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>This letter is part of a large collection that William, a Captain with the 9th Battalion of the Royal Irish Rifles, wrote to his parents, Harford Hugh and Sara Montgomery, throughout the war. The Montgomery family lived in Malone Park, one of the wealthiest suburbs of Belfast city. His first letter is dated 3 December 1914. Captain Montgomery was a decorated soldier. He was awarded both the Victoria and the 15 Star medals and was promoted to the rank of Major. His father owned a fire assessor business.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Papers of the Montgomery Family, D2794/1/1/17
+                             
+                        -->
+                            
+                                <collection type='public'>Papers of the Montgomery Family</collection>
+                            
+                            
+                        <idno>D2794/1/1/17</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <persName ref="MISSING">Harford Hugh Montgomery and Sara Montgomery</persName>
+                    
+                
+                
+                
+                    
+                    <placeName  ref="MISSING">Monacherra, Malone Park, Belfast, Ireland</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">William Alexander Montgomery</persName>
+                    
+                
+                
+                
+                    
+                    <date when="1916-10-30">30 October 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                            
+                            <item n="tag">Battle of the Somme</item>
+                            
+                        
+                            
+                            <item n="tag">Family life</item>
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-05-25T10:46:41" who="#LynseyDunne">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T10:46:41" who="#Tbrosnan">
+                
+                    Page 5618 modified:
+                    <!-- 
+<note>10 Nov 1916</note><address>In this Field</address><lb/><date>30.10.16</date> <salute>Dear father &amp; Mother</salute><p>I thank<lb/>father for his letter of 26<hi rend="superscript">th</hi>inst.<lb/>&amp; mother for hers of 26<hi rend="superscript">th</hi>inst.<lb/>I haven't got the soda bread &amp; 2 bottle of lemon cheese yet. In<lb/>fact as you will see from the<lb/>Certificate enclosed herewith our<lb/>parcels are not reaching us as<lb/>they should. You may take it<lb/>that I acknowledge receipt of all <lb/>parcels from you &amp; Emmie &amp; in<lb/>fact everybody else. Once or<lb/>twice I have when writing Emmie<lb/>asked her to advise you that I<lb/> had got a parcel from you. It <lb/> is possible that she may have<lb/>forgotten to tell you when she saw<lb/>you. ask her about it.</p><p>I have got that Acetylane<lb/>Syrup, the one you recommended<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T10:59:58" who="#LynseyDunne">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T10:59:58" who="#Tbrosnan">
+                
+                    Page 5619 modified:
+                    <!-- 
+2<lb/>I am writing by it now<lb/>just the very thing I was<lb/>looking for.</p><p>I have ordered those <unclear>Trench</unclear> card things &amp; Tin holders direct<lb/>from Moore &amp; Coates.</p><p>I am very much obliged to<lb/>father for bothering with them<lb/>expecially when he is so<lb/>busy. This fountain pen is<lb/>absolutely finished.</p><p>Major Haslett hasn't turned<lb/>up yet but he might be here<lb/>tonight, as a reinforcement <lb/>officer is notified to reach us<lb/>tonight. Meantime I am having<lb/>a delightful time as acting 2<hi rend="superscript">nd</hi>in Command - the best job in<lb/>the regimental side of the Army.</p><p>I had a very straight heart to<lb/>heart talk with the C.O today - <del>And</del> &amp;<lb/>he has promised me that when<lb/>he leaves this Battalion, he will<lb/> <pb/>       </p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T11:13:23" who="#LynseyDunne">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T11:13:23" who="#Tbrosnan">
+                
+                    Page 5620 modified:
+                    <!-- 
+<hi rend="underline">3</hi><lb/>fix it that I get a good job.<lb/>He won't of course let me go<lb/> before that except possibly<lb/> temporarily. I told him that<lb/>soldiering is I hope only an incident in my life that I <lb/>have seen all I want of the<lb/>regimental end of the <unclear>achievement</unclear> &amp; would now like to do a bit<lb/>&amp; the side that I would be better fitted for viz. Staff. I,<lb/>as the C.O says know this end<lb/>of it fro A to Z. I know it far<lb/>beyond the point of boredom.</p><p>The C.O.'s leaving the Battalion<lb/>depends on when he gets a Brigade<lb/>this I think must certainly<lb/>occur before the Spring.</p>I have the knowledge &amp; I<lb/>don't see why I shouldn't<lb/>personally benefit by its being<lb/>put to its best use in the<lb/>country's cause. The C.O has<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T11:25:55" who="#LynseyDunne">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T11:25:55" who="#Tbrosnan">
+                
+                    Page 5621 modified:
+                    <!-- 
+<hi rend="underline">4</hi><lb/>been exceedingly nice about it. <lb/>He told me he had been thinking<lb/>of my position for some time<lb/>back particularly as it became<lb/>affected by Horace's return, and <lb/> that even if I hadn't spoken<lb/>to him he was going to see both<lb/>the Bridadier &amp; the Major General<lb/>about it right away. In fact I <lb/>think he is seeing the Bridadier<lb/>about it at this very moment.</p><p>I wouldn't leave the little<lb/>devil even if I were only in<lb/>command of a platoon &amp; of course<lb/>as he knows that, it made it<lb/>easy for him to have Haslett<lb/>promoted &amp; made actind 2<hi rend="superscript">nd</hi> in<lb/> command during Woods absence<lb/>on his 2 <hi rend="superscript">1/2</hi> month course &amp; thus<lb/>in his opinion increase the<lb/>efficiency of <hi rend="underline">his</hi>Battalion by<lb/>having both of us instead of<lb/>only one. His argument<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T11:38:46" who="#LynseyDunne">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T11:38:46" who="#Tbrosnan">
+                
+                    Page 5622 modified:
+                    <!-- 
+<hi rend="underline">5</hi><lb/> to me in the beginning of the<lb/> having Horace back business<lb/> was that Horace was senior<lb/> to me, that it wasn't his fault<lb/>he was wounded &amp; that he<lb/>was both fit &amp; keen to return &amp; therefore he would return. All<lb/>of which I most cordially agreed<lb/>with possible excepting the "fit"<lb/>part. The  C.O. &amp; I discussed<lb/>all this as far back as 7<hi rend="superscript">th</hi>July.<lb/>Later of course I got my <unclear>A.S.O.4</unclear> that influenced him further to <lb/>give the majority to Horace.<lb/></p><p>I tell you all this just in case<lb/>you might happen to hear the<lb/>matter discussed. Horace is in<lb/>the devil of a stew about it.</p><p>I am very sorry to hear that the Salvage business isn't going<lb/>on as you could wish. What is the<lb/>good of it if it can't be pushed.</p><p>About knitted things - Socks<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T11:49:02" who="#LynseyDunne">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T11:49:02" who="#Tbrosnan">
+                
+                    Page 5623 modified:
+                    <!-- 
+<hi rend="underline">6</hi><lb/>Socks Socks. I wouldn't let<lb/> anyone bother about sweaters at<lb/>present. One can't have too many<lb/> socks in winter.</p><p>There is nothing else new<lb/>here that I can tell you. I<lb/>am in the best of health &amp; form and very much looking forward<lb/>to taking Horace to dine at a place<lb/>where he can crack bottles to <lb/>'wet his crowns'. I haven't dined<lb/><del>there f</del>"in town" for quite a<lb/>long time now. no money.<lb/>But Horace will make that all<lb/>right for once anway &amp; then<lb/>we expect a few more Military Crosses to be announced shortly; <lb/>so this will tide us over for quite a<lb/>bit.                   paragraph</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T11:52:13" who="#Tbrosnan">
+                
+                    Page 5623 modified:
+                    <!-- 
+<hi rend="underline">6</hi><lb/>Socks Socks. I wouldn't let<lb/> anyone bother about sweaters at<lb/>present. One can't have too many<lb/> socks in winter.</p><p>There is nothing else new<lb/>here that I can tell you. I<lb/>am in the best of health &amp; form and very much looking forward<lb/>to taking Horace to dine at a place<lb/>where he can crack bottles to <lb/>'wet his crowns'. I haven't dined<lb/><del>there f</del>"in town" for quite a<lb/>long time now. no money.<lb/>But Horace will make that all<lb/>right for once anway &amp; then<lb/>we expect a few more Military Crosses to be announced shortly; <lb/>so this will tide us over for quite a<lb/>bit. We got 4 more military<lb/>medals for N.C>O's &amp; men within the<lb/>last week. Some beribboned<lb/>Battalion this.</p> <salute>Your Affect. Son<lb/> W.T Montgomery</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T12:06:15" who="#LynseyDunne">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T12:06:15" who="#Tbrosnan">
+                
+                    Page 5624 modified:
+                    <!-- 
+Certified that I have received<lb/>no tobacco from either England<lb/>or Ireland since 25<hi rend="superscript">th</hi>August<lb/>1916 when I was last in Belfast.<lb/><salute>W. Montgomery Capt<lb/>9<hi rend="superscript">th</hi>Batt.R.I.Rifles</salute><date>30/10/16</date><note>TD2770</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T12:11:12" who="#LynseyDunne">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T12:11:12" who="#Tbrosnan">
+                
+                    Page 5625 modified:
+                    <!-- 
+<note><date>10 Nov 1916</date></note><address>F.H.Montgomery Esq C/o Messrs W<hi rend="superscript">m</hi>Montgomery &amp; Son 2 Wellington Place <hi rend="underline">Belfast.</hi></address> <note>Passed Field Censor 2188</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T12:12:10" who="#Tbrosnan">
+                
+                    Page 5619 modified:
+                    <!-- 
+<hi rend="underline">2</hi><lb/>I am writing by it now<lb/>just the very thing I was<lb/>looking for.</p><p>I have ordered those <unclear>Trench</unclear> card things &amp; Tin holders direct<lb/>from Moore &amp; Coates.</p><p>I am very much obliged to<lb/>father for bothering with them<lb/>expecially when he is so<lb/>busy. This fountain pen is<lb/>absolutely finished.</p><p>Major Haslett hasn't turned<lb/>up yet but he might be here<lb/>tonight, as a reinforcement <lb/>officer is notified to reach us<lb/>tonight. Meantime I am having<lb/>a delightful time as acting 2<hi rend="superscript">nd</hi>in Command - the best job in<lb/>the regimental side of the Army.</p><p>I had a very straight heart to<lb/>heart talk with the C.O today - <del>And</del> &amp;<lb/>he has promised me that when<lb/>he leaves this Battalion, he will<lb/> <pb/>       </p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T12:12:38" who="#Tbrosnan">
+                
+                    Page 5618 modified:
+                    <!-- 
+<note>10 Nov 1916</note><address>In this Field</address><lb/><date>30.10.16</date> <salute>Dear father &amp; Mother</salute><p>/ I thank<lb/>father for his letter of 26<hi rend="superscript">th</hi>inst.<lb/>&amp; mother for hers of 26<hi rend="superscript">th</hi>inst.<lb/>I haven't got the soda bread &amp; 2 bottle of lemon cheese yet. In<lb/>fact as you will see from the<lb/>Certificate enclosed herewith our<lb/>parcels are not reaching us as<lb/>they should. You may take it<lb/>that I acknowledge receipt of all <lb/>parcels from you &amp; Emmie &amp; in<lb/>fact everybody else. Once or<lb/>twice I have when writing Emmie<lb/>asked her to advise you that I<lb/> had got a parcel from you. It <lb/> is possible that she may have<lb/>forgotten to tell you when she saw<lb/>you. ask her about it.</p><p>I have got that Acetylane<lb/>Syrup, the one you recommended<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T12:14:07" who="#Tbrosnan">
+                
+                    Page 5625 modified:
+                    <!-- 
+<note><date>10 Nov 1916</date></note><address>F.H.Montgomery Esq C/o Messrs W<hi rend="superscript">m</hi>Montgomery &amp; Son 2 Wellington Place <hi rend="underline">Belfast.</hi></address> <note>Wm.A. Montgomery</note> <note>Passed Field Censor 2188</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-24T10:34:57" who="#Tbrosnan">
+                
+                    Page 5619 modified:
+                    <!-- 
+<hi rend="underline">2</hi><lb/>I am writing by it now<lb/>just the very thing I was<lb/>looking for.</p><p>I have ordered those Trench</un card things &amp; Tin holders direct<lb/>from Moore &amp; Coates.</p><p>I am very much obliged to<lb/>father for bothering with them<lb/>expecially when he is so<lb/>busy. This fountain pen is<lb/>absolutely finished.</p><p>Major Haslett hasn't turned<lb/>up yet but he might be here<lb/>tonight, as a reinforcement <lb/>officer is notified to reach us<lb/>tonight. Meantime I am having<lb/>a delightful time as acting 2<hi rend="superscript">nd</hi>in Command - the best job in<lb/>the regimental side of the Army.</p><p>I had a very straight heart to<lb/>heart talk with the C.O today - <del>And</del> &amp;<lb/>he has promised me that when<lb/>he leaves this Battalion, he will<lb/> <pb/>       </p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-24T10:38:18" who="#Tbrosnan">
+                
+                    Page 5621 modified:
+                    <!-- 
+<hi rend="underline">4</hi><lb/>been exceedingly nice about it. <lb/>He told me he had been thinking<lb/>of my position for some time<lb/>back particularly as it became<lb/>affected by Horace's return, and <lb/> that even if I hadn't spoken<lb/>to him he was going to see both<lb/>the Bridadier &amp; the Major General<lb/>about it right away. In fact I <lb/>think he is seeing the Bridadier<lb/>about it at this very moment.</p><p>I wouldn't leave the little<lb/>devil even if I were only in<lb/>command of a platoon &amp; of course<lb/>as he knows that, it made it<lb/>easy for him to have Haslett<lb/>promoted &amp; made acting 2<hi rend="superscript">nd</hi> in<lb/> command during Woods absence<lb/>on his 2 1/2 month course &amp; thus<lb/>in his opinion increase the<lb/>efficiency of <hi rend="underline">his</hi>Battalion by<lb/>having both of us instead of<lb/>only one. His argument<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-24T10:41:58" who="#Tbrosnan">
+                
+                    Page 5623 modified:
+                    <!-- 
+<hi rend="underline">6</hi><lb/>
+Socks Socks. I wouldn't let<lb/> anyone bother about sweaters at<lb/>present. One can't have too many<lb/> socks in winter.</p><p>There is nothing else new<lb/>here that I can tell you. I<lb/>am in the best of health &amp; form and very much looking forward<lb/>to taking Horace to dine at a place<lb/>where he can crack bottles to <lb/>'wet his crowns'. I haven't dined<lb/><del>there f</del>"in town" for quite a<lb/>long time now. no money.<lb/>But Horace will make that all<lb/>right for once anway &amp; then<lb/>we expect a few more Military Crosses to be announced shortly; <lb/>so this will tide us over for quite a<lb/>bit. We got 4 more military<lb/>medals for N.C>O's &amp; men within the<lb/>last week. Some beribboned<lb/>Battalion this.</p> <salute>Your Affect. Son<lb/> W.T Montgomery</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T11:13:01" who="#Johnchambers81">
+                
+                    Page 5618 modified:
+                    <!-- 
+<note>10 Nov 1916</note><address>In this Field</address>
+<lb/><date>30.10.16</date> 
+<salute>Dear father &amp; Mother</salute>
+<p>/ I thank
+<lb/>father for his letter of 26<hi rend="superscript">th</hi>inst.
+<lb/>&amp; mother for hers of 26<hi rend="superscript">th</hi>inst.
+<lb/>I haven't got the soda bread &amp; 2 
+<lb/>bottle of lemon cheese yet. In
+<lb/>fact as you will see from the
+<lb/>Certificate enclosed herewith our
+<lb/>parcels are not reaching us as
+<lb/>they should. You may take it
+<lb/>that I acknowledge receipt of all 
+<lb/>parcels from you &amp; Emmie &amp; in
+<lb/>fact everybody else. Once or
+<lb/>twice I have when writing Emmie
+<lb/>asked her to advise you that I
+<lb/> had got a parcel from you. It 
+<lb/> is possible that she may have
+<lb/>forgotten to tell you when she saw
+<lb/>you. ask her about it.</p>
+<p>I have got that Acetylane
+<lb/>Syrup, the one you recommended 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T11:16:40" who="#Johnchambers81">
+                
+                    Page 5619 modified:
+                    <!-- 
+<hi rend="underline">2</hi>
+<lb/>I am writing by it now. It is
+<lb/>just the very thing I was
+<lb/>looking for.</p>
+<p>I have ordered those Trench
+<lb/> card things &amp; Tin holders direct
+<lb/>from Moore &amp; Coates.</p>
+<p>I am very much obliged to
+<lb/>father for bothering with them
+<lb/>especially when he is so
+<lb/>busy. This fountain pen is
+<lb/>absolutely finished.</p>
+<p>Major Haslett hasn't turned
+<lb/>up yet but he might be here
+<lb/>tonight, as a reinforcement 
+<lb/>officer is notified to reach us
+<lb/>tonight. Meantime I am having
+<lb/>a delightful time as acting 2<hi rend="superscript">nd</hi>in Command - the best job in
+<lb/>the regimental side of the Army.</p>
+<p>I had a very straight heart to
+<lb/>heart talk with the C.O today - <del>And</del> &amp;
+<lb/>he has promised me that when
+<lb/>he leaves this Battalion, he will 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T11:20:32" who="#Johnchambers81">
+                
+                    Page 5620 modified:
+                    <!-- 
+<hi rend="underline">3</hi>
+<lb/>fix it that I get a good job.
+<lb/>He won't of course let me go
+<lb/> before that except possibly
+<lb/> temporarily. I told him that
+<lb/>soldiering is I hope only an incident in my life that I 
+<lb/>have seen all I want of the
+<lb/>regimental end of the <unclear>achievement</unclear> &amp; would now like to do a bit
+<lb/>in the side that I would be better fitted for viz. Staff. I,
+<lb/>as the C.O says know this end
+<lb/>of it fro A to Z. I know it far
+<lb/>beyond the point of boredom.</p>
+<p>The C.O.'s leaving the Battalion
+<lb/>depends on when he gets a Brigade
+<lb/>this I think must certainly
+<lb/>occur before the Spring.</p>
+<p>I have the knowledge &amp; I
+<lb/>don't see why I shouldn't
+<lb/>personally benefit by its being
+<lb/>put to its best use in the
+<lb/>country's cause. The C.O has 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T11:23:49" who="#Johnchambers81">
+                
+                    Page 5621 modified:
+                    <!-- 
+<hi rend="underline">4</hi>
+<lb/>been exceedingly nice about it. 
+<lb/>He told me he had been thinking
+<lb/>of my position for some time
+<lb/>back particularly as it became
+<lb/>affected by Horace's return, and 
+<lb/> that even if I hadn't spoken
+<lb/>to him he was going to see both
+<lb/>the Bridadier &amp; the Major General
+<lb/>about it right away. In fact I 
+<lb/>think he is seeing the Brigadier
+<lb/>about it at this very moment.</p>
+<p>I wouldn't leave the little
+<lb/>devil even if I were only in
+<lb/>command of a platoon &amp; of course
+<lb/>as he knows that, it made it
+<lb/>easy for him to have Haslett
+<lb/>promoted &amp; made acting 2<hi rend="superscript">nd</hi> in
+<lb/> command during Woods absence
+<lb/>on his 2 1/2 month course &amp; thus
+<lb/>in his opinion increase the
+<lb/>efficiency of <hi rend="underline">his</hi>Battalion by
+<lb/>having both of us instead of
+<lb/>only one. His argument 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T11:26:57" who="#Johnchambers81">
+                
+                    Page 5622 modified:
+                    <!-- 
+<hi rend="underline">5</hi>
+<lb/> to me in the beginning of the
+<lb/> having Horace back business
+<lb/> was that Horace was senior
+<lb/> to me, that it wasn't his fault
+<lb/>he was wounded &amp; that he
+<lb/>was both fit &amp; keen to return &amp; therefore he would return. All
+<lb/>of which I most cordially agreed
+<lb/>with possible excepting the "fit"
+<lb/>part. The  C.O. &amp; I discussed
+<lb/>all this as far back as 7<hi rend="superscript">th</hi>July.
+<lb/>Later of course I got my <unclear>A.S.O.4</unclear> that influenced him further to 
+<lb/>give the majority to Horace.</p>
+<p>I tell you all this just in case
+<lb/>you might happen to hear the
+<lb/>matter discussed. Horace is in
+<lb/>the devil of a stew about it.</p>
+<p>I am very sorry to hear that the Salvage business isn't going
+<lb/>on as you could wish. What is the
+<lb/>good of it if it can't be pushed.</p>
+<p>About knitted things - Socks 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T11:30:17" who="#Johnchambers81">
+                
+                    Page 5623 modified:
+                    <!-- 
+<hi rend="underline">6</hi>
+<lb/>
+Socks Socks. I wouldn't let
+<lb/> anyone bother about sweaters at
+<lb/>present. One can't have too many
+<lb/> socks in winter.</p>
+<p>There is nothing else new
+<lb/>here that I can tell you. I
+<lb/>am in the best of health &amp; form 
+<lb/>and very much looking forward
+<lb/>to taking Horace to dine at a place
+<lb/>where he can crack bottles to 
+<lb/>'wet his crowns'. I haven't dined
+<lb/><del>there f</del>"in town" for quite a
+<lb/>long time now. no money.
+<lb/>But Horace will make that all
+<lb/>right for once anway &amp; then
+<lb/>we expect a few more Military
+<lb/>Crosses to be announced shortly; 
+<lb/>so this will tide us over for quite a
+<lb/>bit. We got 4 more military
+<lb/>medals for N.C.Os &amp; men within the
+<lb/>last week. Some beribboned
+<lb/>Battalion this.</p> <salute>Your Affect. Son</salute>
+<lb/> <signed>W.T Montgomery</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T11:31:34" who="#Johnchambers81">
+                
+                    Page 5624 modified:
+                    <!-- 
+Certified that I have received
+<lb/>no tobacco from either England
+<lb/>or Ireland since 25<hi rend="superscript">th</hi>August
+<lb/>1916 when I was last in Belfast.
+<lb/><signed>W. Montgomery Capt</signed>
+<lb/>9<hi rend="superscript">th</hi>Batt.R.I.Rifles
+<date>30/10/16</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T11:32:33" who="#Johnchambers81">
+                
+                    Page 5625 modified:
+                    <!-- 
+<date>10 Nov 1916</date>
+<address>F.H.Montgomery Esq C/o Messrs W<hi rend="superscript">m</hi>Montgomery &amp; Son 
+<lb/>2 Wellington Place <hi rend="underline">
+<lb/>Belfast.</hi></address> 
+<note>Wm.A. Montgomery</note> <note>Passed Field Censor 2188</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T11:54:12" who="#NR">
+                
+                    Page 5619 modified:
+                    <!-- 
+<hi rend="underline">2</hi>
+<lb/>I am writing by it now. It is
+<lb/>just the very thing I was
+<lb/>looking for.</p>
+<p>I have ordered those Trench
+<lb/> card things &amp; Tin holders direct
+<lb/>from Moore &amp; Coates.</p>
+<p>I am very much obliged to
+<lb/>father for bothering with them
+<lb/>especially when he is so
+<lb/>busy. This fountain pen is
+<lb/>absolutely finished.</p>
+<p>Major Haslett hasn't turned
+<lb/>up yet but he might be here
+<lb/>tonight, as a reinforcement 
+<lb/>officer is notified to reach us
+<lb/>tonight. Meantime I am having
+<lb/>a delightful time as acting 2<hi rend="superscript">nd</hi>
+<lb/>in Command - the best job in
+<lb/>the regimental side of the Army.</p>
+<p>I had a very straight heart to
+<lb/>heart talk with the C.O today - <del>And</del> &amp;
+<lb/>he has promised me that when
+<lb/>he leaves this Battalion, he will 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T11:54:56" who="#NR">
+                
+                    Page 5620 modified:
+                    <!-- 
+<hi rend="underline">3</hi>
+<lb/>fix it that I get a good job.
+<lb/>He won't of course let me go
+<lb/> before that except possibly
+<lb/> temporarily. I told him that
+<lb/>soldiering is I hope only an
+<lb/> incident in my life that I 
+<lb/>have seen all I want of the
+<lb/>regimental end of the <unclear>achievement</unclear> 
+<lb/>&amp; would now like to do a bit
+<lb/>in the side that I would be
+<lb/> better fitted for viz. Staff. I,
+<lb/>as the C.O says know this end
+<lb/>of it fro A to Z. I know it far
+<lb/>beyond the point of boredom.</p>
+<p>The C.O.'s leaving the Battalion
+<lb/>depends on when he gets a Brigade
+<lb/>this I think must certainly
+<lb/>occur before the Spring.</p>
+<p>I have the knowledge &amp; I
+<lb/>don't see why I shouldn't
+<lb/>personally benefit by its being
+<lb/>put to its best use in the
+<lb/>country's cause. The C.O has 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T11:56:44" who="#NR">
+                
+                    Page 5622 modified:
+                    <!-- 
+<hi rend="underline">5</hi>
+<lb/> to me in the beginning of the
+<lb/> having Horace back business
+<lb/> was that Horace was senior
+<lb/> to me, that it wasn't his fault
+<lb/>he was wounded &amp; that he
+<lb/>was both fit &amp; keen to return &amp;
+<lb/> therefore he would return. All
+<lb/>of which I most cordially agreed
+<lb/>with possible excepting the "fit"
+<lb/>part. The  C.O. &amp; I discussed
+<lb/>all this as far back as 7<hi rend="superscript">th</hi>July.
+<lb/>Later of course I got my <unclear>A.S.O.4</unclear> 
+<lb/>that influenced him further to 
+<lb/>give the majority to Horace.</p>
+<p>I tell you all this just in case
+<lb/>you might happen to hear the
+<lb/>matter discussed. Horace is in
+<lb/>the devil of a stew about it.</p>
+<p>I am very sorry to hear that 
+<lb/>the Salvage business isn't going
+<lb/>on as you could wish. What is the
+<lb/>good of it if it can't be pushed.</p>
+<p>About knitted things - Socks 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T11:57:20" who="#NR">
+                
+                    Page 5623 modified:
+                    <!-- 
+<hi rend="underline">6</hi>
+<lb/>Socks Socks. I wouldn't let
+<lb/> anyone bother about sweaters at
+<lb/>present. One can't have too many
+<lb/> socks in winter.</p>
+<p>There is nothing else new
+<lb/>here that I can tell you. I
+<lb/>am in the best of health &amp; form 
+<lb/>and very much looking forward
+<lb/>to taking Horace to dine at a place
+<lb/>where he can crack bottles to 
+<lb/>'wet his crowns'. I haven't dined
+<lb/><del>there f</del>"in town" for quite a
+<lb/>long time now. no money.
+<lb/>But Horace will make that all
+<lb/>right for once anway &amp; then
+<lb/>we expect a few more Military
+<lb/>Crosses to be announced shortly; 
+<lb/>so this will tide us over for quite a
+<lb/>bit. We got 4 more military
+<lb/>medals for N.C.Os &amp; men within the
+<lb/>last week. Some beribboned
+<lb/>Battalion this.</p> <salute>Your Affect. Son</salute>
+<signed>W.T Montgomery</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T11:57:39" who="#NR">
+                
+                    Page 5624 modified:
+                    <!-- 
+<p>Certified that I have received
+<lb/>no tobacco from either England
+<lb/>or Ireland since 25<hi rend="superscript">th</hi>August
+<lb/>1916 when I was last in Belfast.</p>
+<lb/><signed>W. Montgomery Capt</signed>
+<lb/>9<hi rend="superscript">th</hi>Batt.R.I.Rifles
+<date>30/10/16</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5625 created using version from <date when="2015-05-25T12:11:12"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5625 removed (version from <date when="2015-05-25T12:11:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5625 removed (version from <date when="2015-05-25T12:14:07"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5625 removed (version from <date when="2016-01-28T11:32:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5619 created using version from <date when="2015-05-25T10:59:58"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5619 removed (version from <date when="2015-05-25T10:59:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5619 removed (version from <date when="2015-05-25T12:12:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5619 removed (version from <date when="2015-08-24T10:34:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5619 removed (version from <date when="2016-01-28T11:16:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5619 removed (version from <date when="2016-01-29T11:54:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5622 created using version from <date when="2015-05-25T11:38:46"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5622 removed (version from <date when="2015-05-25T11:38:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5622 removed (version from <date when="2016-01-28T11:26:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5622 removed (version from <date when="2016-01-29T11:56:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5623 created using version from <date when="2015-05-25T11:49:02"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5623 removed (version from <date when="2015-05-25T11:49:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5623 removed (version from <date when="2015-05-25T11:52:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5623 removed (version from <date when="2015-08-24T10:41:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5623 removed (version from <date when="2016-01-28T11:30:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5623 removed (version from <date when="2016-01-29T11:57:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5620 created using version from <date when="2015-05-25T11:13:23"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5620 removed (version from <date when="2015-05-25T11:13:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5620 removed (version from <date when="2016-01-28T11:20:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5620 removed (version from <date when="2016-01-29T11:54:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5624 created using version from <date when="2015-05-25T12:06:15"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5624 removed (version from <date when="2015-05-25T12:06:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5624 removed (version from <date when="2016-01-28T11:31:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5624 removed (version from <date when="2016-01-29T11:57:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5618 created using version from <date when="2015-05-25T10:46:41"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5618 removed (version from <date when="2015-05-25T10:46:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5618 removed (version from <date when="2015-05-25T12:12:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5618 removed (version from <date when="2016-01-28T11:13:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5621 created using version from <date when="2015-05-25T11:25:55"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5621 removed (version from <date when="2015-05-25T11:25:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5621 removed (version from <date when="2015-08-24T10:38:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5621 removed (version from <date when="2016-01-28T11:23:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 5625 (version from <date when="2016-01-29T11:57:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5619 added to letter (version from <date when="2016-01-29T11:54:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5622 added to letter (version from <date when="2016-01-29T11:56:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5623 added to letter (version from <date when="2016-01-29T11:57:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5620 added to letter (version from <date when="2016-01-29T11:54:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5624 added to letter (version from <date when="2016-01-29T11:57:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5618 added to letter (version from <date when="2016-01-29T11:52:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5621 added to letter (version from <date when="2016-01-29T11:55:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 5618 cleaned of 5 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 5619 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 5620 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 5621 cleaned of 4 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 5622 cleaned of 4 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 5623 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 5624 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 5625 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:28" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:32" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:49" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:49" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2175_img_5618" url="0bfe38668523687c3e8585608e818617.jpg"/> 
+    
+    <graphic xml:id="L1916_2175_img_5619" url="2c654e44fd6014745d98a0c07c25e766.jpg"/> 
+    
+    <graphic xml:id="L1916_2175_img_5620" url="914068e15dfb4ee55cd049debe4177e4.jpg"/> 
+    
+    <graphic xml:id="L1916_2175_img_5621" url="41333388d5054fa66c3827742c709c40.jpg"/> 
+    
+    <graphic xml:id="L1916_2175_img_5622" url="1233ac208495bc09f0b3d163ae5746c3.jpg"/> 
+    
+    <graphic xml:id="L1916_2175_img_5623" url="c5416e36111fcd0c2740b2d8f2b4812b.jpg"/> 
+    
+    <graphic xml:id="L1916_2175_img_5624" url="f4371129d5c8cb3a65d62ef3bcb9badf.jpg"/> 
+    
+    <graphic xml:id="L1916_2175_img_5625" url="3ff839f9f1b96509361eb455c8a12553.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="5618" facs="#L1916_2175_img_5618"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<note>10 Nov 1916</note><address>In this Field</address>
+<lb/><date>30.10.16</date> 
+<opener><salute>Dear father &amp; Mother</salute></opener>
+<p>/ I thank
+<lb/>father for his letter of 26<hi rend="superscript">th</hi>inst.
+<lb/>&amp; mother for hers of 26<hi rend="superscript">th</hi>inst.
+<lb/>I haven't got the soda bread &amp; 2 
+<lb/>bottle of lemon cheese yet. In
+<lb/>fact as you will see from the
+<lb/>Certificate enclosed herewith our
+<lb/>parcels are not reaching us as
+<lb/>they should. You may take it
+<lb/>that I acknowledge receipt of all 
+<lb/>parcels from you &amp; Emmie &amp; in
+<lb/>fact everybody else. Once or
+<lb/>twice I have when writing Emmie
+<lb/>asked her to advise you that I
+<lb/> had got a parcel from you. It 
+<lb/> is possible that she may have
+<lb/>forgotten to tell you when she saw
+<lb/>you. ask her about it.</p>
+<p>I have got that Acetylane
+<lb/>Syrup, the one you recommended
+        
+    
+
+    
+         
+        <pb n="5619" facs="#L1916_2175_img_5619"/>
+        
+        
+           
+            <hi rend="underline">2</hi>
+<lb/>I am writing by it now. It is
+<lb/>just the very thing I was
+<lb/>looking for.</p>
+<p>I have ordered those Trench
+<lb/> card things &amp; Tin holders direct
+<lb/>from Moore &amp; Coates.</p>
+<p>I am very much obliged to
+<lb/>father for bothering with them
+<lb/>especially when he is so
+<lb/>busy. This fountain pen is
+<lb/>absolutely finished.</p>
+<p>Major Haslett hasn't turned
+<lb/>up yet but he might be here
+<lb/>tonight, as a reinforcement 
+<lb/>officer is notified to reach us
+<lb/>tonight. Meantime I am having
+<lb/>a delightful time as acting 2<hi rend="superscript">nd</hi>
+<lb/>in Command - the best job in
+<lb/>the regimental side of the Army.</p>
+<p>I had a very straight heart to
+<lb/>heart talk with the C.O today - <del>And</del> &amp;
+<lb/>he has promised me that when
+<lb/>he leaves this Battalion, he will
+        
+    
+         
+        <pb n="5620" facs="#L1916_2175_img_5620"/>
+        
+        
+           
+            <hi rend="underline">3</hi>
+<lb/>fix it that I get a good job.
+<lb/>He won't of course let me go
+<lb/> before that except possibly
+<lb/> temporarily. I told him that
+<lb/>soldiering is I hope only an
+<lb/> incident in my life that I 
+<lb/>have seen all I want of the
+<lb/>regimental end of the <unclear>achievement</unclear> 
+<lb/>&amp; would now like to do a bit
+<lb/>in the side that I would be
+<lb/> better fitted for viz. Staff. I,
+<lb/>as the C.O says know this end
+<lb/>of it fro A to Z. I know it far
+<lb/>beyond the point of boredom.</p>
+<p>The C.O.'s leaving the Battalion
+<lb/>depends on when he gets a Brigade
+<lb/>this I think must certainly
+<lb/>occur before the Spring.</p>
+<p>I have the knowledge &amp; I
+<lb/>don't see why I shouldn't
+<lb/>personally benefit by its being
+<lb/>put to its best use in the
+<lb/>country's cause. The C.O has
+        
+    
+         
+        <pb n="5621" facs="#L1916_2175_img_5621"/>
+        
+        
+           
+            <hi rend="underline">4</hi>
+<lb/>been exceedingly nice about it. 
+<lb/>He told me he had been thinking
+<lb/>of my position for some time
+<lb/>back particularly as it became
+<lb/>affected by Horace's return, and 
+<lb/> that even if I hadn't spoken
+<lb/>to him he was going to see both
+<lb/>the Bridadier &amp; the Major General
+<lb/>about it right away. In fact I 
+<lb/>think he is seeing the Brigadier
+<lb/>about it at this very moment.</p>
+<p>I wouldn't leave the little
+<lb/>devil even if I were only in
+<lb/>command of a platoon &amp; of course
+<lb/>as he knows that, it made it
+<lb/>easy for him to have Haslett
+<lb/>promoted &amp; made acting 2<hi rend="superscript">nd</hi> in
+<lb/> command during Woods absence
+<lb/>on his 2 1/2 month course &amp; thus
+<lb/>in his opinion increase the
+<lb/>efficiency of <hi rend="underline">his</hi>Battalion by
+<lb/>having both of us instead of
+<lb/>only one. His argument
+        
+    
+         
+        <pb n="5622" facs="#L1916_2175_img_5622"/>
+        
+        
+           
+            <hi rend="underline">5</hi>
+<lb/> to me in the beginning of the
+<lb/> having Horace back business
+<lb/> was that Horace was senior
+<lb/> to me, that it wasn't his fault
+<lb/>he was wounded &amp; that he
+<lb/>was both fit &amp; keen to return &amp;
+<lb/> therefore he would return. All
+<lb/>of which I most cordially agreed
+<lb/>with possible excepting the "fit"
+<lb/>part. The  C.O. &amp; I discussed
+<lb/>all this as far back as 7<hi rend="superscript">th</hi>July.
+<lb/>Later of course I got my <unclear>A.S.O.4</unclear> 
+<lb/>that influenced him further to 
+<lb/>give the majority to Horace.</p>
+<p>I tell you all this just in case
+<lb/>you might happen to hear the
+<lb/>matter discussed. Horace is in
+<lb/>the devil of a stew about it.</p>
+<p>I am very sorry to hear that 
+<lb/>the Salvage business isn't going
+<lb/>on as you could wish. What is the
+<lb/>good of it if it can't be pushed.</p>
+<p>About knitted things - Socks
+        
+    
+         
+        <pb n="5623" facs="#L1916_2175_img_5623"/>
+        
+        
+           
+            <hi rend="underline">6</hi>
+<lb/>Socks Socks. I wouldn't let
+<lb/> anyone bother about sweaters at
+<lb/>present. One can't have too many
+<lb/> socks in winter.</p>
+<p>There is nothing else new
+<lb/>here that I can tell you. I
+<lb/>am in the best of health &amp; form 
+<lb/>and very much looking forward
+<lb/>to taking Horace to dine at a place
+<lb/>where he can crack bottles to 
+<lb/>'wet his crowns'. I haven't dined
+<lb/><del>there f</del>"in town" for quite a
+<lb/>long time now. no money.
+<lb/>But Horace will make that all
+<lb/>right for once anway &amp; then
+<lb/>we expect a few more Military
+<lb/>Crosses to be announced shortly; 
+<lb/>so this will tide us over for quite a
+<lb/>bit. We got 4 more military
+<lb/>medals for N.C.Os &amp; men within the
+<lb/>last week. Some beribboned
+<lb/>Battalion this.</p> <salute>Your Affect. Son</salute>
+<signed>W.T Montgomery</signed>
+        
+    
+         
+        <pb n="5624" facs="#L1916_2175_img_5624"/>
+        
+        
+           
+            <p>Certified that I have received
+<lb/>no tobacco from either England
+<lb/>or Ireland since 25<hi rend="superscript">th</hi>August
+<lb/>1916 when I was last in Belfast.</p>
+<lb/><signed>W. Montgomery Capt</signed>
+<lb/>9<hi rend="superscript">th</hi>Batt.R.I.Rifles
+<date>30.10.16</date>
+        
+    
+        
+        
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+            <pb n="5625" facs="#L1916_2175_img_5625"/>
+            <text type="envelope" decls="#corresp1">
+                <body> 
+                    <ab>
+                        <date>10 Nov 1916</date>
+<address><addrLine>F.H.Montgomery Esq C/o Messrs W<hi rend="superscript">m</hi>Montgomery &amp; Son</addrLine>
+<addrLine>2 Wellington Place <hi rend="underline"></addrLine>
+<addrLine>Belfast.</hi></addrLine></address> 
+<note>Wm.A. Montgomery</note> <note>Passed Field Censor 2188</note>
+                    </ab>
+                </body>
+            </text>
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

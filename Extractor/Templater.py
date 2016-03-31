@@ -35,7 +35,12 @@ def abstract_split(abstract):
 		return [abstract]
 
 def run_templater(inputFile, outputDir, templateFilePath):#, templateFolder):
+
+
 	print(templateFilePath)
+	templateFile = open(templateFilePath).read()
+
+
 	editors = []
 	contributors = []
 	wf = 0
@@ -97,8 +102,7 @@ def run_templater(inputFile, outputDir, templateFilePath):#, templateFolder):
 		item["Edits"] = sorted(item["Edits"], key=lambda f: datetime.datetime.strptime(f['datetime'], "%Y-%m-%dT%H:%M:%S"))
 
 		
-		print(templateFilePath)
-		templateFile = open(templateFilePath).read()
+		
 		#print(templateFile)
 	
 		env = jinja2.Environment()

@@ -1,0 +1,1242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2183">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from James Davidson to his mother, S.C. Davidson, 27 December 1915</title>
+                
+                <author>James Davidson</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="LisaMurphy">Lisa Murphy</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BrendanM">BrendanM</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="SKerr">SKerr</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2183</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>Letter from James Davidson (1877-1916) to his mother, Clara. This letter describes Christmas celebrations behind the lines in 1915: mass in  the morning, a football match between in the afternoon, then an 'excellent' dinner for 30 in cafe where billeted followed by party in the mess. The highlight of the party   was convincing three French maids that it was an English tradition for maids to kiss the Colonel on Christmas Day. He thanks his mother for all the parcels he has received from her and others.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>This letter is part of a large correspondence from Captain James Davidson to his parents. Davidson, who was Managing Director of the Sirocco Engineering Works in Belfast, served with 13 Royal Irish Rifles and the Machine Gun Corps. His letters describe his experiences while training in England and serving in France. He was killed on 1 July 1916, the first day of the Battle of the Somme.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Davidson Family Papers, D3642/B/8/20
+                             
+                        -->
+                            
+                                <collection type='public'>Davidson Family Papers</collection>
+                            
+                            
+                        <idno>D3642/B/8/20</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <persName ref="MISSING">S.C. Davidson</persName>
+                    
+                
+                
+                
+                    
+                    <!-- Normalised Place Found: 
+                    Bangor 
+                    Down
+                    United Kingdom
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName  ref="#Bangor">Seacourt, Bangor, Co. Down</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: James Davidson -->
+                        
+                        <persName ref="#Davidson_J">James Davidson</persName>
+                    
+                
+                
+                 
+                    
+                    <placeName  ref="MISSING">In the Field</placeName>
+                    
+                
+                    
+                    <date when="1915-12-27">27 December 1915</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1916</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-05-09T16:37:56" who="#BrendanM">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-09T16:37:56" who="#LisaMurphy">
+                
+                    Page 5669 modified:
+                    <!-- 
+<date>27/12/15</date>
+
+My Dearest Mother,
+                        Xmas has come + gone for another year &#x2014; I wonder how things will be when the next one comes round. We spent a very cheery Xmas indeed &#x2014; nothing much during the day &#x2014; went to mass in the Cathedral in morning to hear the music, in afternoon there was a football match between the 13th + 11th + then in the evening 30 of us sat down to a most excellent dinner in the cafe where I am billeted. One of the special delicacies was snails &#x2014; I need scarcely say I did not experiment but many did and quite enjoyed them.  The great feature however of the evening came after the coffee. A few of us before the dinner explained to the 3 maids that the English custom on Xmas evening was for the maids 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-09T16:47:32" who="#BrendanM">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-09T16:47:32" who="#LisaMurphy">
+                
+                    Page 5670 modified:
+                    <!-- 
+to kiss the Colonel; they took this quite seriously + so when the coffee had been served one of them went up behind Col. Savage, made a little speech about following English custom which he did not understand + then much to his surprise bent down + gave him a real good kiss.   Of course everyone simply yelled + the poor old Col. did not know what to do or say but attention was soon drawn from him as we insisted that everyone should be kissed in turn + all 3 maids did the round. Quite a tall order but they seemed to enjoy it + it created great amusement as you can imagine.   After that we had songs and speeches   everyone had to do something + as I could not sing I was let in for a speech.  Later we started dancing + the party did not break up till about 2am so I think we did 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-14T11:22:40" who="#Comber">
+                
+                    Page 5669 modified:
+                    <!-- 
+<date>27/12/15</date>
+<salute>My Dearest Mother,</salute>
+ Xmas has come &amp; gone<lb/> for another year &#x2014; I wonder how<lb/> things will be when the next one comes<lb/> round. We spent a very cheery<lb/> Xmas indeed &#x2014; nothing much during<lb/> the day &#x2014; went to mass in the Cathedral<lb/> in morning to hear the music, in the<lb/> afternoon there was a football match<lb/> between the 13<hi rend="superscript">th</hi> &amp; 11<hi rend="superscript">th</hi> &amp; then in the<lb/> evening 30 of us sat down to a most<lb/> excellent dinner in the cafe where I am<lb/> billeted. One of the special delicacies<lb/> was snails &#x2014; I need scarcely say I<lb/> did not experiment but many did &amp;<lb/> quite enjoyed them.  The great feature<lb/> however of the evening came after the coffee.<lb/> A few of us before the dinner explained<lb/> to the 3 maids that the English custom<lb/> on Xmas evening was for the maids<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-14T11:33:45" who="#Comber">
+                
+                    Page 5670 modified:
+                    <!-- 
+<pb/> to kiss the Colonel; they took this quite<lb/> seriously &amp; so when the coffee had been<lb/> served one of them went up behind Col.<lb/> Savage, made a little speech about<lb/> following English custom which he did<lb/> not understand &amp; then much to his surprise<lb/> bent down &amp; gave him a real good<lb/> kiss.   Of course everyone simply yelled<lb/> &amp; the poor old Col. did not know what<lb/> to do or say but attention was soon<lb/> drawn from him as we insisted that<lb/> everyone should be kissed in turn &amp;<lb/> all 3 maids did the round. Quite a<lb/> tall order but they seemed to enjoy it<lb/> &amp; it created great amusement as you can<lb/> imagine.   After that we had<lb/> songs &amp; speeches   everyone had to do<lb/> something &amp; as I could not sing I was<lb/> let in for a speech.  Later we started<lb/> dancing &amp; the party did not break up<lb/> till about 2am so I think we did<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-14T12:57:41" who="#BrendanM">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-14T12:57:41" who="#Comber">
+                
+                    Page 5671 modified:
+                    <!-- 
+pb/> not do badly. The plum pudding which<lb/> came the day before was a great success.<lb/> I also received a Scotch Bun but it has<lb/> not so far been sampled as till today I<lb/> could not find out whether it was supposed<lb/> to be eaten cold or heated. I understand<lb/> now it is to be eaten cold but it seems<lb/> most indigestible stuff. Have received<lb/> all kinds of parcels since I last wrote &#x2014;<lb/> one with pyjamas, one from K. with muffler<lb/> raisins &amp;c &amp; also 2 from Malcolmson's<lb/> with butter, cake &amp;c. It was so nice<lb/> to get all these good things in time - thanks<lb/> ever so much dear Mother &amp; would you<lb/> also thank Kathleen for her present &amp; letter.<lb/> I already have a muffler, but the second<lb/> one will probably be wanted later on.<lb/> Malcomson always includes a tin of café<lb/> au lait which I never use so it would<lb/> be better if they sent instead say a<lb/> box of dates, or sweets. There was<lb/> a special parcel of 4 lbs of butter came<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-14T13:06:45" who="#BrendanM">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-14T13:06:45" who="#Comber">
+                
+                    Page 5672 modified:
+                    <!-- 
+<pb/> in addition to the lb. in Malcolmsons<lb/> parcel so I am well supplied in this<lb/> direction &amp; it is really one of the <lb/> most acceptable things out here.<lb/>
+<p>However it will be quite sufficient if<lb/> you can arrange to have our lb. sent out<lb/> each week as the Bde. Major &amp; others also<lb/> get butter sent out to them. No news<lb/> of any move yet - it will be great luck<lb/> for us if we are able to spend the worst<lb/> of the Winter in our present quarters.</p> 
+<p>We are kept very busy &amp; its simply<lb/> wonderful how the time goes. Was<lb/> so glad to hear your good news of <gap/>.<lb/> It must have been most interesting to hear<lb/> all his accounts of the fighting at Gallipoli.<lb/></p> 
+With fondest love to all &amp; and best wishes for<lb/> the New Year.<lb/>
+<salute>Your loving son
+Jim</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-14T13:08:23" who="#BrendanM">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-14T13:08:23" who="#Comber">
+                
+                    Page 5673 modified:
+                    <!-- 
+<!~~ Envelope  ~~>
+Mrs. S. C. Davidson
+Seacourt
+Bangor
+Co Down
+Ireland 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-02T12:24:37" who="#SKerr">
+                
+                    Page 5669 modified:
+                    <!-- 
+<date>27/12/15</date>
+<salute>My dearest Mother</salute>
+ <p>Xmas has come &amp; gone
+<lb/> for another year &#x2014; I wonder how
+<lb/> things will be when the next one comes
+<lb/> round.</p> <p>We spent a very cheery
+<lb/> Xmas indeed &#x2014; nothing much during
+<lb/> the day &#x2014; went to mass in the Cathedral
+<lb/> in morning to hear the music, in the
+<lb/> afternoon there was a football match
+<lb/> between the 13<hi rend="underline"><hi rend="superscript">th</hi></hi> &amp; 11<hi rend="underline"><hi rend="superscript">th</hi></hi> &amp; then in the
+<lb/> evening 30 of us sat down to a most
+<lb/> excellent dinner in the cafe where I am
+<lb/> billeted. One of the special delicacies
+<lb/> was snails &#x2014; I need scarcely say I
+<lb/> did not experiment but many did &amp;
+<lb/> quite enjoyed them.  The great feature
+<lb/> however of the evening came after the coffee.
+<lb/> A few of us before the dinner explained
+<lb/> to the 3 maids that the English custom
+<lb/> on Xmas evening was for the maids<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-02T12:28:34" who="#SKerr">
+                
+                    Page 5670 modified:
+                    <!-- 
+to kiss the Colonel; they took this quite
+<lb/> seriously &amp; so when the coffee had been
+<lb/> served one of them went up behind Col.
+<lb/> Savage, made a little speech about
+<lb/> following English custom which he did
+<lb/> not understand &amp; then much to his surprise
+<lb/> bent down &amp; gave him a real good
+<lb/> kiss.   Of course everyone simply yelled
+<lb/> &amp; the poor old Col. did not know what
+<lb/> to do or say but attention was soon
+<lb/> drawn from him as we insisted that
+<lb/> everyone should be kissed in turn &amp;
+<lb/> all 3 maids did the round. Quite a
+<lb/> tall order but they seemed to enjoy it
+<lb/> &amp; it created great amusement as you can
+<lb/> imagine.   <p>After that we had
+<lb/> songs &amp; speeches &#x2014;  everyone had to do
+<lb/> something &amp; as I could not sing I was
+<lb/> let in for a speech.</p>  <p>Later we started
+<lb/> dancing &amp; the party did not break up
+<lb/> till about 2am so I think we did<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-02T12:30:55" who="#SKerr">
+                
+                    Page 5669 modified:
+                    <!-- 
+<date>27/12/15</date>
+<salute>My dearest Mother</salute>
+ <p>Xmas has come &amp; gone
+<lb/> for another year &#x2014; I wonder how
+<lb/> things will be when the next one comes
+<lb/> round.</p> <p>We spent a very cheery
+<lb/> Xmas indeed &#x2014; nothing much during
+<lb/> the day &#x2014; went to mass in the Cathedral
+<lb/> in morning to hear the music, in the
+<lb/> afternoon there was a football match
+<lb/> between the 13<hi rend="underline"><hi rend="superscript">th</hi></hi> &amp; 11<hi rend="underline"><hi rend="superscript">th</hi></hi> &amp; then in the
+<lb/> evening 30 of us sat down to a most
+<lb/> excellent dinner in the cafe where I am
+<lb/> billeted. One of the special delicacies
+<lb/> was snails &#x2014; I need scarcely say I
+<lb/> did not experiment but many did &amp;
+<lb/> quite enjoyed them.</p> <p> The great feature
+<lb/> however of the evening came after the coffee.
+<lb/> A few of us before the dinner explained
+<lb/> to the 3 maids that the English custom
+<lb/> on Xmas evening was for the maids<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-02T12:31:23" who="#SKerr">
+                
+                    Page 5670 modified:
+                    <!-- 
+to kiss the Colonel; they took this quite
+<lb/> seriously &amp; so when the coffee had been
+<lb/> served one of them went up behind Col.
+<lb/> Savage, made a little speech about
+<lb/> following English custom which he did
+<lb/> not understand &amp; then much to his surprise
+<lb/> bent down &amp; gave him a real good
+<lb/> kiss.   Of course everyone simply yelled
+<lb/> &amp; the poor old Col. did not know what
+<lb/> to do or say but attention was soon
+<lb/> drawn from him as we insisted that
+<lb/> everyone should be kissed in turn &amp;
+<lb/> all 3 maids did the round. Quite a
+<lb/> tall order but they seemed to enjoy it
+<lb/> &amp; it created great amusement as you can
+<lb/> imagine. </p>  <p>After that we had
+<lb/> songs &amp; speeches &#x2014;  everyone had to do
+<lb/> something &amp; as I could not sing I was
+<lb/> let in for a speech.</p>  <p>Later we started
+<lb/> dancing &amp; the party did not break up
+<lb/> till about 2am so I think we did<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-02T12:36:03" who="#SKerr">
+                
+                    Page 5671 modified:
+                    <!-- 
+not do badly. The plum pudding which
+<lb/> came the day before was a great success.
+<lb/> I also received a Scotch Bun but it has
+<lb/> not so far been sampled as till today I
+<lb/> could not find out whether it was supposed
+<lb/> to be eaten cold or heated. I understand
+<lb/> now it is to be eaten cold but it seems
+<lb/> most indigestible stuff.</p> <p> Have received
+<lb/> all kinds of parcels since I last wrote &#x2014;
+<lb/> one with pyjamas, one from K. with muffler
+<lb/> raisins etc. &amp; also 2 from Malcolmson's
+<lb/> with butter, cake etc. It was so nice
+<lb/> to get all these good things in time &#x2014; thanks
+<lb/> ever so much dear Mother &amp; would you
+<lb/> also thank Kathleen for her present &amp; letter.
+<lb/> I already have a muffler, but the second
+<lb/> one will probably be wanted later on.
+<lb/> Malcomson always includes a tin of café
+<lb/> au lait which I never use so it would
+<lb/> be better if they sent instead say a
+<lb/> box of dates, or sweets.</p> <p> There was
+<lb/> a special parcel of 4 lbs of butter came<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-02T12:42:09" who="#SKerr">
+                
+                    Page 5672 modified:
+                    <!-- 
+in addition to the lb. in Malcolmsons
+<lb/> parcel so I am well supplied in this
+<lb/> direction &amp; it is really one of the 
+<lb/> most acceptable things out here. </p>
+<p>However it will be quite sufficient if
+<lb/> you can arrange to have one lb. sent out
+<lb/> each week as the Bde. Major &amp; others also
+<lb/> get butter sent out to them. </p> <p>No news
+<lb/> of any move yet &#x2014; it will be great luck
+<lb/> for us if we are able to spend the worst
+<lb/> of the Winter in our present quarters.</p> 
+<p>We are kept very busy &amp; its simply
+<lb/> wonderful how the time goes. Was
+<lb/> so glad to hear your good news of <unclear>Hammie</unclear>.
+<lb/> It must have been most interesting to hear
+<lb/> all his accounts of the fighting at Gallipoli.</p> 
+<p>With fondest love to all &amp; and best wishes for
+<lb/> the New Year.</p>
+<salute>Your loving son</salute>
+Jim 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T11:50:11" who="#NR">
+                
+                    Page 5669 modified:
+                    <!-- 
+<date>27/12/15</date>
+<salute>My dearest Mother</salute>
+ <p>Xmas has come &amp; gone
+<lb/> for another year &#x2014; I wonder how
+<lb/> things will be when the next one comes
+<lb/> round.</p> <p>We spent a very cheery
+<lb/> Xmas indeed &#x2014; nothing much during
+<lb/> the day &#x2014; went to mass in the Cathedral
+<lb/> in morning to hear the music, in the
+<lb/> afternoon there was a football match
+<lb/> between the 13<hi rend="underline"><hi rend="superscript">th</hi></hi> &amp; 11<hi rend="underline"><hi rend="superscript">th</hi></hi> &amp; then in the
+<lb/> evening 30 of us sat down to a most
+<lb/> excellent dinner in the cafe where I am
+<lb/> billeted. One of the special delicacies
+<lb/> was snails &#x2014; I need scarcely say I
+<lb/> did not experiment but many did &amp;
+<lb/> quite enjoyed them.</p> <p> The great feature
+<lb/> however of the evening came after the coffee.
+<lb/> A few of us before the dinner explained
+<lb/> to the 3 maids that the English custom
+<lb/> on Xmas evening was for the maids 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T11:50:46" who="#NR">
+                
+                    Page 5670 modified:
+                    <!-- 
+<lb/>to kiss the Colonel; they took this quite
+<lb/> seriously &amp; so when the coffee had been
+<lb/> served one of them went up behind Col.
+<lb/> Savage, made a little speech about
+<lb/> following English custom which he did
+<lb/> not understand &amp; then much to his surprise
+<lb/> bent down &amp; gave him a real good
+<lb/> kiss.   Of course everyone simply yelled
+<lb/> &amp; the poor old Col. did not know what
+<lb/> to do or say but attention was soon
+<lb/> drawn from him as we insisted that
+<lb/> everyone should be kissed in turn &amp;
+<lb/> all 3 maids did the round. Quite a
+<lb/> tall order but they seemed to enjoy it
+<lb/> &amp; it created great amusement as you can
+<lb/> imagine. </p>  <p>After that we had
+<lb/> songs &amp; speeches &#x2014;  everyone had to do
+<lb/> something &amp; as I could not sing I was
+<lb/> let in for a speech.</p>  <p>Later we started
+<lb/> dancing &amp; the party did not break up
+<lb/> till about 2am so I think we did 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T11:51:10" who="#NR">
+                
+                    Page 5671 modified:
+                    <!-- 
+<lb/>not do badly. The plum pudding which
+<lb/> came the day before was a great success.
+<lb/> I also received a Scotch Bun but it has
+<lb/> not so far been sampled as till today I
+<lb/> could not find out whether it was supposed
+<lb/> to be eaten cold or heated. I understand
+<lb/> now it is to be eaten cold but it seems
+<lb/> most indigestible stuff.</p> <p> Have received
+<lb/> all kinds of parcels since I last wrote &#x2014;
+<lb/> one with pyjamas, one from K. with muffler
+<lb/> raisins etc. &amp; also 2 from Malcolmson's
+<lb/> with butter, cake etc. It was so nice
+<lb/> to get all these good things in time &#x2014; thanks
+<lb/> ever so much dear Mother &amp; would you
+<lb/> also thank Kathleen for her present &amp; letter.
+<lb/> I already have a muffler, but the second
+<lb/> one will probably be wanted later on.
+<lb/> Malcomson always includes a tin of café
+<lb/> au lait which I never use so it would
+<lb/> be better if they sent instead say a
+<lb/> box of dates, or sweets.</p> <p> There was
+<lb/> a special parcel of 4 lbs of butter came 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T11:51:39" who="#NR">
+                
+                    Page 5672 modified:
+                    <!-- 
+<lb/>in addition to the lb. in Malcolmsons
+<lb/> parcel so I am well supplied in this
+<lb/> direction &amp; it is really one of the 
+<lb/> most acceptable things out here. </p>
+<p>However it will be quite sufficient if
+<lb/> you can arrange to have one lb. sent out
+<lb/> each week as the Bde. Major &amp; others also
+<lb/> get butter sent out to them. </p> <p>No news
+<lb/> of any move yet &#x2014; it will be great luck
+<lb/> for us if we are able to spend the worst
+<lb/> of the Winter in our present quarters.</p> 
+<p>We are kept very busy &amp; its simply
+<lb/> wonderful how the time goes. Was
+<lb/> so glad to hear your good news of <unclear>Hammie</unclear>.
+<lb/> It must have been most interesting to hear
+<lb/> all his accounts of the fighting at Gallipoli.</p> 
+<p>With fondest love to all &amp; and best wishes for
+<lb/> the New Year.</p>
+<salute>Your loving son</salute>
+<signed>Jim</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T11:52:48" who="#NR">
+                
+                    Page 5673 modified:
+                    <!-- 
+<!~~ Envelope  ~~>
+<note>On Active Service</note>
+<date><hi rend="underline">Sent</hi> 31st Dec 1915</date>
+<address>Mrs. S. C. Davidson
+<lb/>Seacourt
+<lb/>Bangor
+<lb/>Co Down
+<lb/>Ireland</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5669 created using version from <date when="2015-05-09T16:37:56"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5669 removed (version from <date when="2015-05-09T16:37:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5669 removed (version from <date when="2015-05-14T11:22:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5669 removed (version from <date when="2016-02-02T12:24:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5669 removed (version from <date when="2016-02-02T12:30:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5669 removed (version from <date when="2016-02-03T11:50:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5672 created using version from <date when="2015-05-14T13:06:45"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5672 removed (version from <date when="2015-05-14T13:06:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5672 removed (version from <date when="2016-02-02T12:42:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5672 removed (version from <date when="2016-02-03T11:51:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5673 created using version from <date when="2015-05-14T13:08:23"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5673 removed (version from <date when="2015-05-14T13:08:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5673 removed (version from <date when="2016-02-03T11:52:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5670 created using version from <date when="2015-05-09T16:47:32"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5670 removed (version from <date when="2015-05-09T16:47:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5670 removed (version from <date when="2015-05-14T11:33:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5670 removed (version from <date when="2016-02-02T12:28:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5670 removed (version from <date when="2016-02-02T12:31:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5670 removed (version from <date when="2016-02-03T11:50:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5671 created using version from <date when="2015-05-14T12:57:41"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5671 removed (version from <date when="2015-05-14T12:57:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5671 removed (version from <date when="2016-02-02T12:36:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5671 removed (version from <date when="2016-02-03T11:51:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 5669 (version from <date when="2016-02-03T11:50:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5672 added to letter (version from <date when="2016-02-03T11:51:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5673 added to letter (version from <date when="2016-02-03T11:52:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5670 added to letter (version from <date when="2016-02-03T11:50:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5671 added to letter (version from <date when="2016-02-03T11:51:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 5672 cleaned of 5 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 5673 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 5669 cleaned of 8 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 5670 cleaned of 10 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 5671 cleaned of 5 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:29" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:34" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:03" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:03" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2183_img_5669" url="55b644a3fdf8caace18c9e9711836b39.jpg"/> 
+    
+    <graphic xml:id="L1916_2183_img_5670" url="e035b472d1cef294726a68b0b4dc7ba2.jpg"/> 
+    
+    <graphic xml:id="L1916_2183_img_5671" url="1729301c5a9c4ac338d6a9762b8433c2.jpg"/> 
+    
+    <graphic xml:id="L1916_2183_img_5672" url="ed0ba082262e59c0ab88776174f380e3.jpg"/> 
+    
+    <graphic xml:id="L1916_2183_img_5673" url="8cd4cd0d04c7b05ca7a450499e3216c0.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="5669" facs="#L1916_2183_img_5669"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><dateline><date>27/12/15</date></dateline>
+<salute>My dearest Mother</salute></opener>
+ <p>Xmas has come &amp; gone
+<lb/> for another year &#x2014; I wonder how
+<lb/> things will be when the next one comes
+<lb/> round.</p> <p>We spent a very cheery
+<lb/> Xmas indeed &#x2014; nothing much during
+<lb/> the day &#x2014; went to mass in the Cathedral
+<lb/> in morning to hear the music, in the
+<lb/> afternoon there was a football match
+<lb/> between the 13<hi rend="underline"><hi rend="superscript">th</hi></hi> &amp; 11<hi rend="underline"><hi rend="superscript">th</hi></hi> &amp; then in the
+<lb/> evening 30 of us sat down to a most
+<lb/> excellent dinner in the cafe where I am
+<lb/> billeted. One of the special delicacies
+<lb/> was snails &#x2014; I need scarcely say I
+<lb/> did not experiment but many did &amp;
+<lb/> quite enjoyed them.</p> <p> The great feature
+<lb/> however of the evening came after the coffee.
+<lb/> A few of us before the dinner explained
+<lb/> to the 3 maids that the English custom
+<lb/> on Xmas evening was for the maids
+        
+    
+
+    
+         
+        <pb n="5670" facs="#L1916_2183_img_5670"/>
+        
+        
+           
+            <lb/>to kiss the Colonel; they took this quite
+<lb/> seriously &amp; so when the coffee had been
+<lb/> served one of them went up behind Col.
+<lb/> Savage, made a little speech about
+<lb/> following English custom which he did
+<lb/> not understand &amp; then much to his surprise
+<lb/> bent down &amp; gave him a real good
+<lb/> kiss.   Of course everyone simply yelled
+<lb/> &amp; the poor old Col. did not know what
+<lb/> to do or say but attention was soon
+<lb/> drawn from him as we insisted that
+<lb/> everyone should be kissed in turn &amp;
+<lb/> all 3 maids did the round. Quite a
+<lb/> tall order but they seemed to enjoy it
+<lb/> &amp; it created great amusement as you can
+<lb/> imagine. </p>  <p>After that we had
+<lb/> songs &amp; speeches &#x2014;  everyone had to do
+<lb/> something &amp; as I could not sing I was
+<lb/> let in for a speech.</p>  <p>Later we started
+<lb/> dancing &amp; the party did not break up
+<lb/> till about 2am so I think we did
+        
+    
+         
+        <pb n="5671" facs="#L1916_2183_img_5671"/>
+        
+        
+           
+            <lb/>not do badly. The plum pudding which
+<lb/> came the day before was a great success.
+<lb/> I also received a Scotch Bun but it has
+<lb/> not so far been sampled as till today I
+<lb/> could not find out whether it was supposed
+<lb/> to be eaten cold or heated. I understand
+<lb/> now it is to be eaten cold but it seems
+<lb/> most indigestible stuff.</p> <p> Have received
+<lb/> all kinds of parcels since I last wrote &#x2014;
+<lb/> one with pyjamas, one from K. with muffler
+<lb/> raisins etc. &amp; also 2 from Malcolmson's
+<lb/> with butter, cake etc. It was so nice
+<lb/> to get all these good things in time &#x2014; thanks
+<lb/> ever so much dear Mother &amp; would you
+<lb/> also thank Kathleen for her present &amp; letter.
+<lb/> I already have a muffler, but the second
+<lb/> one will probably be wanted later on.
+<lb/> Malcomson always includes a tin of café
+<lb/> au lait which I never use so it would
+<lb/> be better if they sent instead say a
+<lb/> box of dates, or sweets.</p> <p> There was
+<lb/> a special parcel of 4 lbs of butter came
+        
+    
+         
+        <pb n="5672" facs="#L1916_2183_img_5672"/>
+        
+        
+           
+            <lb/>in addition to the lb. in Malcolmsons
+<lb/> parcel so I am well supplied in this
+<lb/> direction &amp; it is really one of the 
+<lb/> most acceptable things out here. </p>
+<p>However it will be quite sufficient if
+<lb/> you can arrange to have one lb. sent out
+<lb/> each week as the Bde. Major &amp; others also
+<lb/> get butter sent out to them. </p> <p>No news
+<lb/> of any move yet &#x2014; it will be great luck
+<lb/> for us if we are able to spend the worst
+<lb/> of the Winter in our present quarters.</p> 
+<p>We are kept very busy &amp; its simply
+<lb/> wonderful how the time goes. Was
+<lb/> so glad to hear your good news of <unclear>Hammie</unclear>.
+<lb/> It must have been most interesting to hear
+<lb/> all his accounts of the fighting at Gallipoli.</p> 
+<p>With fondest love to all &amp; and best wishes for
+<lb/> the New Year.</p>
+<closer><salute>Your loving son</salute>
+<signed>Jim</signed></closer>
+        
+    
+        
+        
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+            <pb n="5673" facs="#L1916_2183_img_5673"/>
+            <text type="envelope" decls="#corresp1">
+                <body> 
+                    <ab>
+                        <!-- Envelope  -->
+<note>On Active Service</note>
+<date><hi rend="underline">Sent</hi> 31st Dec 1915</date>
+<address><addrLine>Mrs. S. C. Davidson</addrLine>
+<addrLine>Seacourt</addrLine>
+<addrLine>Bangor</addrLine>
+<addrLine>Co Down</addrLine>
+<addrLine>Ireland</addrLine></address>
+                    </ab>
+                </body>
+            </text>
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

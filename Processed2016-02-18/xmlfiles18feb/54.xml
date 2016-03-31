@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_54">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter to Lady Clonbrock, 17 February 1916</title>
+                
+                <author>MISSING</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="EC">Emma Clarke</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Mulranf">Mulranf</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Roger">Roger</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BarneyDoherty">Barney Doherty</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_54</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A Letter from a prisoner of war to Lady Clonbrock (1839-1928). The prison writes concerning some books that he had requested in a previous postcard, books that had not arrived at the prisoner of war camp. </p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Augusta Caroline Dillon (née Crofton) was the wife of Luke Gerald Dillon (1834-1917), the 4th Baron of Clonbrock, Co. Galway and the daughter of Lord Crofton of Mote Park (Edward Henry Churchill Crofton, 3rd Baron), Co. Roscommon. Aged 75 at the outbreak of war, Lady Clonbrock, worked closely with the Irish Women's Association to send basic necessities to Irish POWs. Many of her care packages went to members of the Connaught Rangers imprisoned in Limburg near Cologne.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: National Library of Ireland -->
+                        
+                        <repository ref="#NLI">National Library of Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Clonbrock Estate Papers, Collection List No 54; Ms. 35,796(3)
+                             
+                        -->
+                            
+                                <collection type='public'>Clonbrock Estate Papers, Collection List No 54</collection>
+                            
+                            
+                        <idno>Ms. 35,796(3)</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Lady Clonbrock -->
+                        
+                        <persName ref="#Dillon_A_C">Lady Clonbrock</persName>
+                    
+                
+                
+                
+                    
+                    <!-- Normalised Place Found: 
+                    Ahascragh 
+                    Galway
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName  ref="#Ahascragh">Ahascragh, Ballinasloe, County Galway</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    <persName ref="MISSING">MISSING</persName>
+                
+                
+                 
+                    
+                    <placeName  ref="MISSING">Limburg (Lahn), Germany</placeName>
+                    
+                
+                    
+                    <date when="1917-02-17">17 February 1917</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2013-10-31T19:23:30" who="#EC">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-10-31T19:23:30" who="#Mulranf">
+                
+                    Page 92 modified:
+                    <!-- 
+Kriegsgefangenenlager,
+Limburg,
+17 Feb 1916
+
+To Lady Clonbrock,
+I wish to let you know that I answered your postcard which you asked me if I required any books but I have not received the books as yet trusting you may not receive my postcard. The parcels sent through your request from the Irish woman I receive them regular I beg to <gap/> .
+<lb/>
+Yours respectfully, J <gap/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-08T06:04:34" who="#Roger">
+                
+                    Page 92 modified:
+                    <!-- 
+<address><foreign>Kriegsgefangenenlager,Limburg,</foreign></address><date>17 Feb 1916</date>
+<p><salute>To Lady Clonbrock</salute>,I wish to<lb/> let you know that I answered your<lb/> postcard which you asked me if I<lb/> required any books but have<lb/> not received the books as yet trusting<lb/> you may not receive my P.C. The<lb/> parcels sent through your request<lb/> from the Irish <sic>womans</sic> I receive them regular<lb/> <salute>I beg to Remain yours Respectfully T <unclear>Furcis</unclear></salute></p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-08T06:09:31" who="#Roger">
+                
+                    Page 92 modified:
+                    <!-- 
+<address><foreign>Kriegsgefangenenlager,Limburg,</foreign></address><date>17 Feb 1916</date>
+<p><salute>To Lady Clonbrock</salute>,I wish to<lb/> let you know that I answered your<lb/> postcard which you asked me if I<lb/> required any books but have<lb/> not received the books as yet trusting<lb/> you may not receive my P.C. The<lb/> parcels sent through your request<lb/> from the Irish <sic>womans</sic> I receive them regular<lb/> <salute>I beg to Remain yours Respectfully T Fuery></salute></p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-08T06:33:25" who="#EC">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-01-08T06:33:25" who="#Roger">
+                
+                    Page 93 modified:
+                    <!-- 
+<address><foreign>Gefangenenlager Limburg (Lahn).</foreign></address><lb/><p>This is my address:<lb/><address><foreign>Kriegsgefangenen-Sendung</foreign>Mr. 10556 Pte T Feury, 11. Bat 6 Comp No. <unclear>816,</unclear> Limburg (Lahn) Germany</address>(Answer on Post-Card or by open letter, please).</p>
+<p><foreign>Feldpostbrief.<lb/>Kriegsgefangenen-Sendung:</foreign><lb/>Address:<lb/><address>To Lady Clonbrock, Ahascragh, Ballinasloe, <hi rend="underline">Co. Galway</hi> Ireland. <foreign>Irland</foreign></address></p><note><foreign>II. Gefangenen-<date>17. FEB 1916</date> Batailion,</foreign></note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T12:33:31" who="#BarneyDoherty">
+                
+                    Page 92 modified:
+                    <!-- 
+<address><foreign>Kriegsgefangenenlager,
+<lb/>Limburg,</foreign></address>
+<date>17 Feb 1916</date>
+<salute>To Lady Clonbrock</salute>,
+<p>I wish to
+<lb/> let you know that I answered your
+<lb/> postcard which you asked me if I
+<lb/> required any books but have
+<lb/> not received the books as yet trusting
+<lb/> you may not receive my P.C. The
+<lb/> parcels sent through your request
+<lb/> from the Irish <sic>womans</sic> I receive them regular</p>
+<salute>I beg to Remain yours Respectfully</salute> <signed>T <unclear>Filrey</unclear></signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T12:36:52" who="#BarneyDoherty">
+                
+                    Page 93 modified:
+                    <!-- 
+<address><foreign>Gefangenenlager 
+<lb/>Limburg (Lahn).</foreign></address>
+<lb/>This is my address:
+<lb/><address><foreign>Kriegsgefangenen-Sendung</foreign>
+<lb/>Mr. 10556 Pte T Feury, 
+<lb/>11. Bat 6 Comp No. <unclear>816,</unclear> 
+<lb/>Limburg (Lahn) Germany</address>
+<lb/>(Answer on Post-Card or by open letter, please).
+<pb/>
+<lb/><foreign>Feldpostbrief.
+<lb/>Kriegsgefangenen-Sendung:</foreign>
+<lb/>Address:
+<lb/><address>To Lady Clonbrock, Ahascragh, Ballinasloe, <hi rend="underline">Co. Galway</hi> Ireland.</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T12:50:27" who="#BarneyDoherty">
+                
+                    Page 92 modified:
+                    <!-- 
+<address><foreign>Kriegsgefangenenlager,
+<lb/>Limburg,</foreign></address>
+<date>17 Feb 1916</date>
+<salute>To Lady Clonbrock</salute>,
+<p>I wish to
+<lb/> let you know that I answered your
+<lb/> postcard which you asked me if I
+<lb/> required any books but have
+<lb/> not received the books as yet trusting
+<lb/> you may not receive my P.C. The
+<lb/> parcels sent through your request
+<lb/> from the Irish <sic>womans</sic> I receive them regular</p>
+<salute>I beg to Remain yours Respectfully</salute> <signed>T <unclear>Furey</unclear></signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T13:07:36" who="#BarneyDoherty">
+                
+                    Page 93 modified:
+                    <!-- 
+<address><foreign>Gefangenenlager 
+<lb/>Limburg (Lahn).</foreign></address>
+<lb/>This is my address:
+<lb/><address><foreign>Kriegsgefangenen-Sendung</foreign>
+<lb/>Mr. 10556 Pte T Feury, 
+<lb/>11. Bat 6 Comp No. <unclear>816,</unclear> 
+<lb/>Limburg (Lahn) Germany</address>
+<lb/>(Answer on Post-Card or by open letter, please).
+<!~~ Right side ~~>
+<lb/><foreign>Feldpostbrief.
+<lb/>Kriegsgefangenen-Sendung:</foreign>
+<lb/>Address:
+<lb/><address>To Lady Clonbrock, Ahascragh, Ballinasloe, <hi rend="underline">Co. Galway</hi> Ireland.</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-05T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 93 created using version from <date when="2015-01-08T06:33:25"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 93 removed (version from <date when="2015-01-08T06:33:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 93 removed (version from <date when="2016-01-21T12:36:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 93 removed (version from <date when="2016-01-22T13:07:36"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 92 created using version from <date when="2013-10-31T19:23:30"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 92 removed (version from <date when="2013-10-31T19:23:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 92 removed (version from <date when="2015-01-08T06:04:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 92 removed (version from <date when="2015-01-08T06:09:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 92 removed (version from <date when="2016-01-21T12:33:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 92 removed (version from <date when="2016-01-21T12:50:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 93 (version from <date when="2016-02-05T16:00:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 92 added to letter (version from <date when="2016-02-05T16:00:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:21" who="#PythonScript">
+                
+                    Clean tags: Page 92 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:21" who="#PythonScript">
+                
+                    Clean tags: Page 93 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:25" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:30" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:36" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:24" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:26" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_54_img_92" url="4700013208171543f4be9571990682b8.jpg"/> 
+    
+    <graphic xml:id="L1916_54_img_93" url="042cf1d0addea627231c0fa7da624a5a.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="92" facs="#L1916_54_img_92"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine><foreign>Kriegsgefangenenlager,</addrLine>
+<addrLine>Limburg,</foreign></addrLine></address>
+<dateline><date>17 Feb 1916</date></dateline>
+<salute>To Lady Clonbrock</salute></opener>,
+<p>I wish to
+<lb/> let you know that I answered your
+<lb/> postcard which you asked me if I
+<lb/> required any books but have
+<lb/> not received the books as yet trusting
+<lb/> you may not receive my P.C. The
+<lb/> parcels sent through your request
+<lb/> from the Irish <sic>womans</sic> I receive them regular</p>
+<salute>I beg to Remain yours Respectfully</salute> <signed>T <unclear>Furey</unclear></signed>
+        
+    
+
+    
+         
+        <pb n="93" facs="#L1916_54_img_93"/>
+        
+        
+           
+            <address><foreign>Gefangenenlager 
+<lb/>Limburg (Lahn).</foreign></address>
+<lb/>This is my address:
+<lb/><address><foreign>Kriegsgefangenen-Sendung</foreign>
+<lb/>Mr. 10556 Pte T Feury, 
+<lb/>11. Bat 6 Comp No. <unclear>816,</unclear> 
+<lb/>Limburg (Lahn) Germany</address>
+<lb/>(Answer on Post-Card or by open letter, please).
+<!-- Right side -->
+<lb/><foreign>Feldpostbrief.
+<lb/>Kriegsgefangenen-Sendung:</foreign>
+<lb/>Address:
+<lb/><address>To Lady Clonbrock, Ahascragh, Ballinasloe, <hi rend="underline">Co. Galway</hi> Ireland.</address>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

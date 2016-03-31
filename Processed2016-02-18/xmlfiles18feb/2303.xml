@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2303">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Sir Wilfrid Spender to Lady Lillian Spender, 21 July 1916</title>
+                
+                <author>Wilfrid Spender</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="RichardBreen">RichardBreen</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Emilia">Emilia</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tnoonan1111">Tnoonan11 11</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2303</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from sir Wilfrid Bliss Spender (1876-1960) to his wife, Lady Lillian Spender, née Dean, (1880-1968). In this letter, Spender discusses a slur which he has recently suffered, speculating as to the perpetrator's identity and motivation. He warns that the newspapers' optimism on the war's progress is unfounded, that recent victories have been only partial, and that the fighting could well last for another year. He writes that he will be returning to the trenches quite soon. Spender relates a conversation he had with a sapper, Craig, which exemplified Craig's patriotism and dedication to the cause. He warns that if loyal soldiers of Craig's type are swamped by unwilling conscripts, the results will not be good - particularly if all the conscripts are recruited towards the end of the war, and not throughout.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Sir Wilfrid Spender was a member of the British Army until 1913 when controversy surrounding his signature of the Ulster Solemn League and Covenant resulted in his resignation. Spender was called up for military service in 1914 and from 1915 served in the 36th (Ulster) Division. Throughout the war, Spender wrote a collection of letters to his wife Lady Lillian Spender. The letters date mainly from 1915 to 1918, when Sir Wilfrid was serving in France. The letters concern politics, the Irish question, personal life, and Wilfrid's experience of the Great War. Lady Lillian served in the Ulster Volunteer Nursing Corps during the war, and was an organiser of the Ulster Division Comforts Fund.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Lady Spender&#39;s Correspondence, D1633/1/1/354
+                             
+                        -->
+                            
+                                <collection type='public'>Lady Spender's Correspondence</collection>
+                            
+                            
+                        <idno>D1633/1/1/354</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Lillian Spender -->
+                        
+                        <persName ref="#Spender_L">Lillian Spender</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Wilfrid Spender -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF RECIPIENT IS CORRECT --></VERIFY>
+                        
+                        <persName ref="#Spender_W_B">Wilfrid Bliss Spender</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    France 
+                    France
+                    France
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#France">France</placeName>
+                    
+                
+                    
+                    <date when="1916-07-21">21 July 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1960</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                            <item n="tag">politics</item>
+                            
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-25T19:15:11" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-25T19:15:11" who="#Emilia">
+                
+                    Page 6400 modified:
+                    <!-- 
+(illegible)    21 July 1916<lb/>
+I have just got your (illegible) letter. You by all means tell the family or any one you like, (illegible) not had to an (illegible) which (illegible) would make me very angry & would almost certainly do more harm than good. Anyhow I would not attempt one (illegible) nor any explanation. If 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-25T19:24:51" who="#Emilia">
+                
+                    Page 6400 modified:
+                    <!-- 
+<gap/>    <date>21 July 1916</date>
+I have just got your <gap/> letter. You by all means tell the family or any one you like, <gap/> not had to an <gap/> which <gap/> would make me very angry & would almost certainly do more harm than good. Anyhow I would not attempt one <gap/>nor any explanation. If <gap/> if it is worth which attempting any reconciliation.
+I am not <gap/> nor who has done this stupidity, whether G.C. Wrawfor or so I think Gerd P. <del>to</del> via Sir G. Puhaf it is as well. All of them have behaved in a <gap/> way, but I like them too will to <gap/> them the great  <gap/> which they would feel if they knew.
+O<gap/> rather enjoys stirring up mud & began to run me down for being too polite to the Corpo <gap/> at dinner. "Gen ought to be firm". The thing that I had not been firm about was in not <gap/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-27T17:06:59" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-27T17:06:59" who="#Tbrosnan">
+                
+                    Page 6397 modified:
+                    <!-- 
+being moved at 1 days' notice , as if it didn't care what <lb/>happened to our battalions &amp; men who had to march but<lb/>protested about our precious <unclear>actives</unclear> who have motors &amp;<lb/>lorries. G also supported old S that I ought to protest <lb/>against the inconvenience but C who is a soldier at any<lb/>rate, said that if we did not move to the new place<lb/>someone else would &amp; that we should then be between<lb/>2 stools, so I carried my way but not pleasantly. Old <lb/> S is as selfish as they make them &amp; pampers <add>selfishness</add> in others,<lb/>&amp; will get promoted in consequence. Perhaps he earns it for it <lb/>must be unpleasant </p><p>I think you have caught the newspaper optimism. If<lb/>you get the chance tell Sredward that in my view the<lb/>situation is much more critical than it has been for a <lb/>year past &amp; that partial success now means another<lb/> year's delay &amp; then equally no progress at the present<lb/> rate of preparation. I would go further &amp; say that unless<lb/>the nation is prepared at once to redouble its efforts, making<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-27T17:19:34" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-27T17:19:34" who="#Tbrosnan">
+                
+                    Page 6396 modified:
+                    <!-- 
+the whole empire work at full stretch &amp; no half measures<lb/>it is no good going on.</p> <p>I look upon our present action as absolutely inadequate<lb/>&amp; think we shall get into a worse instead of a better position<lb/>if things drift on, &amp; that unless we can make our minds<lb/>at once to tighten up every screw it would be better to<lb/>finish at once. I have less confidence in the Government<lb/>now that ever before &amp; really think that unless Sredward<lb/>does what he told you he can do he had better let them<lb/>give terms which I understand are now <del>obtainable</del> dictatable. </p><p>As you know I am not a pessimist but as things<lb/>stand now it seems to me that Balfour is trying to make<lb/>the nation face what we are really up against instead of<lb/><gap/>our costly success was taking the most patriotic<lb/>course. The present policy of partial effort will mean a <lb/>far more inconclusive finish <del>when</del> than is now possible<lb/>when everyone has come to the end of their resources,<lb/>except our Yankee cousins. </p><p>Some of our men will be in the trenches again tomorrow <lb/>and it is only a matter of days before we follow. I cannot of <lb/>course tell <del>wh</del> you what part of the country we are in, but<lb/>it is more fertile &amp; the people nicer that I had been led  <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-27T17:39:48" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-27T17:39:48" who="#Tbrosnan">
+                
+                    Page 6389 modified:
+                    <!-- 
+to expect </p><p> I had tea with the <gap/> Craig yesterday . He is a <lb/>nice chap &amp; seems fairly satisfied about Charles being all<lb/>right. He was left for 8 days in our old <gap/> when the  </p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-27T17:49:56" who="#Tbrosnan">
+                
+                    Page 6389 modified:
+                    <!-- 
+to expect </p><p> I had tea with the <gap/> Craig yesterday . He is a <lb/>nice chap &amp; seems fairly satisfied about Charles being all<lb/>right. He was left for 8 days in our old <gap/> when the<lb/>Division moved &amp; &amp; spoke guardedly but very strongly about<lb/>the difference between our men &amp; theirs, &amp; there is no <lb/>doubt in my mind that we <del>shall get a</del> cannot expect<lb/>anything from future elements in comparison with the original <lb/>new armies who were inspired by partition. The swarms<lb/>of unwilling conscripts will undoubtedly swamp the old<lb/> type by being saved till the end instead of being<lb/>mixed with them in moderate quantities earlier. </p><p>I must not let this letter end without lifting up<lb/>the <del><gap/></del>  curtain a little to the p v, to let her peep under &amp; see<lb/>what a very different bw is behind thanks to her help.<lb/>She knows this jolly well but never objects being told ! It is a beautiful summer day when we could have a<lb/>great romp, I don't think the weather will matter<lb/>much when we are together again.          </p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-27T18:01:59" who="#Tbrosnan">
+                
+                    Page 6389 modified:
+                    <!-- 
+to expect </p><p> I had tea with the <gap/> Craig yesterday . He is a <lb/>nice chap &amp; seems fairly satisfied about Charles being all<lb/>right. He was left for 8 days in our old <gap/> when the<lb/>Division moved &amp; &amp; spoke guardedly but very strongly about<lb/>the difference between our men &amp; theirs, &amp; there is no <lb/>doubt in my mind that we <del>shall get a</del> cannot expect<lb/>anything from future elements in comparison with the original <lb/>new armies who were inspired by partition. The swarms<lb/>of unwilling conscripts will undoubtedly swamp the old<lb/> type by being saved till the end instead of being<lb/>mixed with them in moderate quantities earlier. </p><p>I must not let this letter end without lifting up<lb/>the <del><gap/></del>  curtain a little to the p v, to let her peep under &amp; see<lb/>what a very different bw is behind thanks to her help.<lb/>She knows this jolly well but never objects being told ! It is a beautiful summer day when we could have a<lb/>great romp, I don't think the weather will matter<lb/>much when we are together again. I'm glad your work<lb/>  is a little less &amp; that the money is coming in for you<lb/>must need it all. By the way some of our Ulster Div men  <lb/><del>may</del> now have been transferred to other Divisions but you<lb/>will of course look after them just the same.</p> <salute>Your b w</salute> WB Spender 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T14:37:49" who="#RichardBreen">
+                
+                    Page 6400 modified:
+                    <!-- 
+<date>21 July 1916</date>
+<salute>My pr</salute>
+<p>I have just got your <hi rend="underline">extra nice</hi> letter. You by all 
+<lb/>means tell the family or any one you like, provided that it 
+<lb/>does not lead to an appeal which tho' kindly intended
+<lb/> would make me very angry, &amp; would almost certainly do
+<lb/> more harm than good. Anyhow I would not attempt one
+<lb/> myself nor any explanation. If one year's intercourse 
+<lb/>cannot absorb one from their kind of misunderstandings I'm
+<lb/>hanged if it is worthwhile attempting any reconciliation.</p>
+<p>I am not sure now who has done this stupidity, whether 
+<lb/>G.C. Wrawfor or so I think Genl P. <del>to</del> <add>via</add> Sir G.. Perhaps 
+<lb/>it is as well. All of them have behaved in a peculiar way, 
+<lb/>but I like them too well to cause them the great
+<lb/><sic>distain</sic> which they would feel if they knew.</p>
+<lb/>Old fat S rather enjoys stirring up mud &amp; began to 
+<lb/>run me down for being too polite to the Corps etc at 
+<lb/>dinner. "You ought to be firm". The thing that I had not 
+<lb/>been firm about was in not protesting against Div H A 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T14:41:34" who="#RichardBreen">
+                
+                    Page 6397 modified:
+                    <!-- 
+being moved at 1 days' notice, as if it didn't care what 
+<lb/>happened to our battalions &amp; men who had to march but
+<lb/>protested about our precious <unclear>selves</unclear> who have motors &amp;
+<lb/>lorries. G also supported old S that I ought to protest
+ <lb/>against the inconvenience but C who is a soldier at any
+<lb/>rate, said that if we did not move to the new place
+<lb/>someone else would &amp; that we should then be between
+<lb/>2 stools, so I carried my way but not pleasantly. Old 
+<lb/> S is as selfish as they make them &amp; pampers <add>selfishness</add> in others,
+<lb/>&amp; will get promoted in consequence. Perhaps he earns it for it 
+<lb/>must be unpleasant </p>
+<p>I think you have caught the newspaper optimism. If
+<lb/>you get the chance tell Sredward that in my view the
+<lb/>situation is much more critical than it has been for a 
+<lb/>year past &amp; that partial success now means another
+<lb/> year's delay &amp; then equally no progress at the present
+<lb/> rate of preparation. I would go further &amp; say that unless
+<lb/>the nation is prepared at once to redouble its efforts, making 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T15:30:45" who="#RichardBreen">
+                
+                    Page 6396 modified:
+                    <!-- 
+the whole empire work at full stretch &amp; no half measures <add>it is no good going on.</add></p>
+ <p>I look upon our present action as absolutely inadequate<lb/>&amp; think we shall get into a worse instead of a better position<lb/>if things drift on, &amp; that unless we can make our minds<lb/>at once to tighten up every screw it would be better to<lb/>finish at once. I have less confidence in the Government<lb/>now that ever before &amp; really think that unless Sredward<lb/>does what he told you he can do he had better let them<lb/>give terms which I understand are now <del>obtainable</del> dictatable. </p>
+<p>As you know I am not a pessimist but as things<lb/>stand now it seems to me that Balfour is trying to make<lb/>the nation face what we are really up against instead of<lb/><unclear>mistaking</unclear> our costly success was taking the most patriotic<lb/>course. The present policy of partial effort will mean a <lb/>far more inconclusive finish <del>when</del> than is now possible<lb/>when every one has come to the end of their resources,<lb/>except our Yankee cousins. </p><p>Some of our men will be in the trenches again tomorrow <lb/>and it is only a matter of days before we follow. I cannot of <lb/>course tell <del>wh</del> you what part of the country we are in, but<lb/>it is more fertile &amp; the people nicer that I had been led 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T15:33:37" who="#RichardBreen">
+                
+                    Page 6389 modified:
+                    <!-- 
+to expect </p>
+<p> I had tea with the <gap/> Craig yesterday . He is a <lb/>nice chap &amp; seems fairly satisfied about Charles being all<lb/>right. He was left for 8 days in our old <gap/> when the<lb/>Division moved &amp; &amp; spoke guardedly but very strongly about<lb/>the difference between our men &amp; theirs, &amp; there is no <lb/>doubt in my mind that we <del>shall get a</del> cannot expect<lb/>anything from future elements in comparison with the original <lb/>new armies who were inspired by partition. The swarms<lb/>of unwilling conscripts will undoubtedly swamp the old<lb/> type by being saved till the end instead of being<lb/>mixed with them in moderate quantities earlier. </p><p>I must not let this letter end without lifting up<lb/>the <del><gap/></del>  curtain a little to the p v, to let her peep under &amp; see<lb/>what a very different bw is behind thanks to her help.<lb/>She knows this jolly well but never objects being told ! 
+<lb/>It is a beautiful summer day when we could have a<lb/>great romp, I don't think the weather will matter<lb/>much when we are together again. I'm glad your work<lb/>  is a little less &amp; that the money is coming in for you<lb/>must need it all. By the way some of our Ulster Div men  <lb/><del>may</del> now have been transferred to other Divisions but you<lb/>will of course look after them just the same.</p> <salute>Your b w</salute> <signed>WB Spender</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T14:52:45" who="#NR">
+                
+                    Page 6397 modified:
+                    <!-- 
+<lb/>being moved at 1 days' notice, as if it didn't care what 
+<lb/>happened to our battalions &amp; men who had to march but
+<lb/>protested about our precious <unclear>selves</unclear> who have motors &amp;
+<lb/>lorries. G also supported old S that I ought to protest
+ <lb/>against the inconvenience but C who is a soldier at any
+<lb/>rate, said that if we did not move to the new place
+<lb/>someone else would &amp; that we should then be between
+<lb/>2 stools, so I carried my way but not pleasantly. Old 
+<lb/> S is as selfish as they make them &amp; pampers <add>selfishness</add> in others,
+<lb/>&amp; will get promoted in consequence. Perhaps he earns it for it 
+<lb/>must be unpleasant </p>
+<p>I think you have caught the newspaper optimism. If
+<lb/>you get the chance tell Sredward that in my view the
+<lb/>situation is much more critical than it has been for a 
+<lb/>year past &amp; that partial success now means another
+<lb/> year's delay &amp; then equally no progress at the present
+<lb/> rate of preparation. I would go further &amp; say that unless
+<lb/>the nation is prepared at once to redouble its efforts, making 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T14:53:53" who="#NR">
+                
+                    Page 6396 modified:
+                    <!-- 
+<lb/>the whole empire work at full stretch &amp; no half measures <add>it is no good going on.</add></p>
+ <p>I look upon our present action as absolutely inadequate
+<lb/>&amp; think we shall get into a worse instead of a better position
+<lb/>if things drift on, &amp; that unless we can make our minds
+<lb/>at once to tighten up every screw it would be better to
+<lb/>finish at once. I have less confidence in the Government
+<lb/>now that ever before &amp; really think that unless Sredward
+<lb/>does what he told you he can do he had better let them
+<lb/>give terms which I understand are now <del>obtainable</del> dictatable. </p>
+<p>As you know I am not a pessimist but as things
+<lb/>stand now it seems to me that Balfour is trying to make
+<lb/>the nation face what we are really up against instead of
+<lb/><unclear>mistaking</unclear> our costly success was taking the most patriotic
+<lb/>course. The present policy of partial effort will mean a 
+<lb/>far more inconclusive finish <del>when</del> than is now possible
+<lb/>when every one has come to the end of their resources,
+<lb/>except our Yankee cousins. </p>
+<p>Some of our men will be in the trenches again tomorrow 
+<lb/>and it is only a matter of days before we follow. I cannot of 
+<lb/>course tell <del>wh</del> you what part of the country we are in, but
+<lb/>it is more fertile &amp; the people nicer that I had been led 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T14:56:27" who="#NR">
+                
+                    Page 6389 modified:
+                    <!-- 
+<lb/>to expect </p>
+<p> I had tea with the sapper Craig yesterday . He is a 
+<lb/>nice chap &amp; seems fairly satisfied about Charles being all
+<lb/>right. He was left for 8 days in our old area when the
+<lb/>Division moved &amp; &amp; spoke guardedly but very strongly about
+<lb/>the difference between our men &amp; theirs, &amp; there is no 
+<lb/>doubt in my mind that we <del>shall get a</del> cannot expect
+<lb/>anything from future elements in comparison with the original
+ <lb/>new armies who were inspired by partition. The swarms
+<lb/>of unwilling conscripts will undoubtedly swamp the old
+<lb/> type by being saved till the end instead of being
+<lb/>mixed with them in moderate quantities earlier. </p>
+<p>I must not let this letter end without lifting up
+<lb/>the <del>wrap</del>  curtain a little to the p v, to let her peep under &amp; see
+<lb/>what a very different bw is behind thanks to her help.
+<lb/>She knows this jolly well but never objects being told ! 
+<lb/>It is a beautiful summer day when we could have a
+<lb/>great romp, I don't think the weather will matter
+<lb/>much when we are together again. I'm glad your work
+<lb/>  is a little less &amp; that the money is coming in for you
+<lb/>must need it all. By the way some of our Ulster Div men  
+<lb/><del>may</del> now have been transferred to other Divisions but you
+<lb/>will of course look after them just the same.</p>
+ <salute>Your b w</salute>
+ <signed>WB Spender</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6396 created using version from <date when="2015-08-27T17:19:34"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6396 removed (version from <date when="2015-08-27T17:19:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6396 removed (version from <date when="2016-01-20T15:30:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6396 removed (version from <date when="2016-01-22T14:53:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6397 created using version from <date when="2015-08-27T17:06:59"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6397 removed (version from <date when="2015-08-27T17:06:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6397 removed (version from <date when="2016-01-20T14:41:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6397 removed (version from <date when="2016-01-22T14:52:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6389 created using version from <date when="2015-08-27T17:39:48"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6389 removed (version from <date when="2015-08-27T17:39:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6389 removed (version from <date when="2015-08-27T17:49:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6389 removed (version from <date when="2015-08-27T18:01:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6389 removed (version from <date when="2016-01-20T15:33:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6389 removed (version from <date when="2016-01-22T14:56:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6400 created using version from <date when="2015-08-25T19:15:11"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6400 removed (version from <date when="2015-08-25T19:15:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6400 removed (version from <date when="2015-08-25T19:24:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6400 removed (version from <date when="2016-01-20T14:37:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 6396 (version from <date when="2016-01-22T14:53:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6397 added to letter (version from <date when="2016-01-22T14:52:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6389 added to letter (version from <date when="2016-01-22T14:56:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6400 added to letter (version from <date when="2016-01-22T14:52:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:18" who="#PythonScript">
+                
+                    Clean tags: Page 6400 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:18" who="#PythonScript">
+                
+                    Clean tags: Page 6396 cleaned of 5 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:18" who="#PythonScript">
+                
+                    Clean tags: Page 6397 cleaned of 8 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:18" who="#PythonScript">
+                
+                    Clean tags: Page 6389 cleaned of 6 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:29" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:34" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:07" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:07" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2303_img_6389" url="5f576b937361baa25e80fc385673becd.jpg"/> 
+    
+    <graphic xml:id="L1916_2303_img_6396" url="7f039e9415495c336eec7d72fa9065ab.jpg"/> 
+    
+    <graphic xml:id="L1916_2303_img_6397" url="8837f4956d2f6f2f8bdd20f7a43298bb.jpg"/> 
+    
+    <graphic xml:id="L1916_2303_img_6400" url="497a01ffc9b59b5922c44c8766f44607.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="6389" facs="#L1916_2303_img_6389"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<lb/>to expect </p>
+<p> I had tea with the sapper Craig yesterday . He is a 
+<lb/>nice chap &amp; seems fairly satisfied about Charles being all
+<lb/>right. He was left for 8 days in our old area when the
+<lb/>Division moved &amp; &amp; spoke guardedly but very strongly about
+<lb/>the difference between our men &amp; theirs, &amp; there is no 
+<lb/>doubt in my mind that we <del>shall get a</del> cannot expect
+<lb/>anything from future elements in comparison with the original
+ <lb/>new armies who were inspired by partition. The swarms
+<lb/>of unwilling conscripts will undoubtedly swamp the old
+<lb/> type by being saved till the end instead of being
+<lb/>mixed with them in moderate quantities earlier. </p>
+<p>I must not let this letter end without lifting up
+<lb/>the <del>wrap</del>  curtain a little to the p v, to let her peep under &amp; see
+<lb/>what a very different bw is behind thanks to her help.
+<lb/>She knows this jolly well but never objects being told ! 
+<lb/>It is a beautiful summer day when we could have a
+<lb/>great romp, I don't think the weather will matter
+<lb/>much when we are together again. I'm glad your work
+<lb/>  is a little less &amp; that the money is coming in for you
+<lb/>must need it all. By the way some of our Ulster Div men  
+<lb/><del>may</del> now have been transferred to other Divisions but you
+<lb/>will of course look after them just the same.</p>
+ <opener><salute>Your b w</salute>
+ <signed>WB Spender</signed></opener>
+        
+    
+
+    
+         
+        <pb n="6396" facs="#L1916_2303_img_6396"/>
+        
+        
+           
+            <lb/>the whole empire work at full stretch &amp; no half measures <add>it is no good going on.</add></p>
+ <p>I look upon our present action as absolutely inadequate
+<lb/>&amp; think we shall get into a worse instead of a better position
+<lb/>if things drift on, &amp; that unless we can make our minds
+<lb/>at once to tighten up every screw it would be better to
+<lb/>finish at once. I have less confidence in the Government
+<lb/>now that ever before &amp; really think that unless Sredward
+<lb/>does what he told you he can do he had better let them
+<lb/>give terms which I understand are now <del>obtainable</del> dictatable. </p>
+<p>As you know I am not a pessimist but as things
+<lb/>stand now it seems to me that Balfour is trying to make
+<lb/>the nation face what we are really up against instead of
+<lb/><unclear>mistaking</unclear> our costly success was taking the most patriotic
+<lb/>course. The present policy of partial effort will mean a 
+<lb/>far more inconclusive finish <del>when</del> than is now possible
+<lb/>when every one has come to the end of their resources,
+<lb/>except our Yankee cousins. </p>
+<p>Some of our men will be in the trenches again tomorrow 
+<lb/>and it is only a matter of days before we follow. I cannot of 
+<lb/>course tell <del>wh</del> you what part of the country we are in, but
+<lb/>it is more fertile &amp; the people nicer that I had been led
+        
+    
+         
+        <pb n="6397" facs="#L1916_2303_img_6397"/>
+        
+        
+           
+            <lb/>being moved at 1 days' notice, as if it didn't care what 
+<lb/>happened to our battalions &amp; men who had to march but
+<lb/>protested about our precious <unclear>selves</unclear> who have motors &amp;
+<lb/>lorries. G also supported old S that I ought to protest
+ <lb/>against the inconvenience but C who is a soldier at any
+<lb/>rate, said that if we did not move to the new place
+<lb/>someone else would &amp; that we should then be between
+<lb/>2 stools, so I carried my way but not pleasantly. Old 
+<lb/> S is as selfish as they make them &amp; pampers <add>selfishness</add> in others,
+<lb/>&amp; will get promoted in consequence. Perhaps he earns it for it 
+<lb/>must be unpleasant </p>
+<p>I think you have caught the newspaper optimism. If
+<lb/>you get the chance tell Sredward that in my view the
+<lb/>situation is much more critical than it has been for a 
+<lb/>year past &amp; that partial success now means another
+<lb/> year's delay &amp; then equally no progress at the present
+<lb/> rate of preparation. I would go further &amp; say that unless
+<lb/>the nation is prepared at once to redouble its efforts, making
+        
+    
+         
+        <pb n="6400" facs="#L1916_2303_img_6400"/>
+        
+        
+           
+            <closer><date>21 July 1916</date>
+<salute>My pr</salute></closer>
+<p>I have just got your <hi rend="underline">extra nice</hi> letter. You by all 
+<lb/>means tell the family or any one you like, provided that it 
+<lb/>does not lead to an appeal which tho' kindly intended
+<lb/> would make me very angry, &amp; would almost certainly do
+<lb/> more harm than good. Anyhow I would not attempt one
+<lb/> myself nor any explanation. If one year's intercourse 
+<lb/>cannot absorb one from their kind of misunderstandings I'm
+<lb/>hanged if it is worthwhile attempting any reconciliation.</p>
+<p>I am not sure now who has done this stupidity, whether 
+<lb/>G.C. Wrawfor or so I think Genl P. <del>to</del> <add>via</add> Sir G.. Perhaps 
+<lb/>it is as well. All of them have behaved in a peculiar way, 
+<lb/>but I like them too well to cause them the great
+<lb/><sic>distain</sic> which they would feel if they knew.</p>
+<lb/>Old fat S rather enjoys stirring up mud &amp; began to 
+<lb/>run me down for being too polite to the Corps etc at 
+<lb/>dinner. "You ought to be firm". The thing that I had not 
+<lb/>been firm about was in not protesting against Div H A
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

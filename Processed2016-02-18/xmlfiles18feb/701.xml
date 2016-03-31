@@ -1,0 +1,1840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_701">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Lord French to Sir John Maxwell, 3 May 1916</title>
+                
+                <author>John Denton Pinkstone French</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Edel">Edel</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_701</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>Letter from John French, 1st Earl of Ypres (1852-1925) to Sir John Maxwell (1859-1929). Referring to Maxwell's letter of 1 May, French notes with pleasure the progress of events in Ireland but expresses caution where it comes to the 'disposal' of the 'Sinn Féiners' (the British used this term to describe militant nationalists although Sinn Féin were not involved in the Rising) who are not to be severely punished. French expresses surprise at the 'comparatively small amount of damage in Dublin' and refers in detail to the executions of the leaders, the first three of whom had been shot that morning, and the sentence to Countess Constance Markievicz (1868-1927), who fought under Michael Mallin during the Rising but whose death sentence was later commuted on account of her gender. French also writes that he has communicated Maxwell's messages to the King and has asked for a word of congratulation to Maxwell and the troops and mentions that he has arranged for Maxwell to be appointed G.O.C. (General Officer Commanding) in Ireland with the rank of General.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Sir John Henry Grenfell Maxwell was appointed commander in chief of the British forces in Ireland after the outbreak of the Easter Rising. Before 1916, Maxwell briefly held command of British troops in Egypt, where he successfully organised defences against a Turkish attack in February 1915 and presided over the huge expansion of his command as Egypt became a major British imperial military base. In March 1916, having been superseded as general officer commanding in Egypt, he was recalled home when the Easter Rising broke out. Sir John Denton Pinkstone French, first Earl of Ypres, was a British officer. Upon the outbreak of war, French was appointed Field Marshal of the British Expeditionary Force (BEF). Although popular with his men, the failure of his offensives, Neuve-Chapelle and Loos, to break the German lines and his criticism of the home government led to his replacement as Field Marshal by sir Douglas Haig (1861-1928) in late 1915. French was appointed Commander in Chief of the Home forces in January 1916.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: University College Dublin Archives -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF INSTITUTION REF IS CORRECT --></VERIFY>
+                        
+                        <repository ref="#UCD">University College Dublin, Archives</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: De Valera Papers, P150/512
+                             
+                        -->
+                            
+                                <collection type='public'>De Valera Papers</collection>
+                            
+                            
+                        <idno>P150/512</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: John Grenfell Maxwell -->
+                        
+                        <persName ref="#Maxwell_J_G">John Grenfell Maxwell</persName>
+                    
+                
+                
+                
+                    
+                    <!-- Normalised Place Found: 
+                    Dublin 
+                    Dublin
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName  ref="#Dublin">Dublin, Ireland</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">John Denton Pinkstone French</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    London 
+                    London
+                    United Kingdom
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#London">G.H.Q., Home Forces, Horse Guards, Whitehall, S.W., London, England</placeName>
+                    
+                
+                    
+                    <date when="1916-05-03">3 May 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1929</item>
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-02-07T21:11:44" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-02-07T21:11:44" who="#Edel">
+                
+                    Page 1923 modified:
+                    <!-- 
+G,H.Q, Home Forces,
+
+May .3 .1916
+
+
+Horse Guards,
+Whitehall, SW 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-07T21:23:24" who="#Edel">
+                
+                    Page 1923 modified:
+                    <!-- 
+G,H.Q, Home Forces,
+Horse Guards,
+Whitehall, S.W.
+
+May .3.1916
+
+My Dear Maxwell,
+Your letter of May 1     ........any...with the ...of events in Ireland & ... must agree with all you say, except with the disposal of them.........wherever/whenever let them be severely punished. we shall have to think carefully before we mix them up with 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-07T21:33:52" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-02-07T21:33:52" who="#Edel">
+                
+                    Page 1924 modified:
+                    <!-- 
+regards & put the matter before the PM  and are now awaiting his decision which will be wired to you at once 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-07T21:47:57" who="#Edel">
+                
+                    Page 1924 modified:
+                    <!-- 
+regards & put the matter before the PM  and are now awaiting his decision which will be wired to you at once. P I agree with you
+
+
+the morning on his return. He hasn't .....and may be of assistance when the whole thing is thrashed out in Parliament. You shouldnt fear any political 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-07T21:48:23" who="#Edel">
+                
+                    Page 1924 modified:
+                    <!-- 
+regards & put the matter before the PM  and are now awaiting his decision which will be wired to you at once. P I agree with you
+
+
+the morning on his return. He hasn't .....and may be of assistance when the whole thing is thrashed out in Parliament. You shouldn't fear any political 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-07T21:55:58" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-02-07T21:55:58" who="#Edel">
+                
+                    Page 1925 modified:
+                    <!-- 
+of this interferance if youcan possibly help it.
+I am surprised at the............accounts of changes in Dublin
+I have communicated your messages to the King and have asked His Majesty to send a (letter) of congratulation to you and then 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-07T22:04:42" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-02-07T22:04:42" who="#Edel">
+                
+                    Page 1926 modified:
+                    <!-- 
+have arranges with the  G S that you are to be ......Ireland and are to have the ... Bank of Ireland
+As regards your ....reporting to.........................Executions of the 3 rebel leaders and the......... awarded to 3 others 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-07T22:07:12" who="#Edel">
+                
+                    Page 1926 modified:
+                    <!-- 
+have arranges with the  G S that you are to be ......Ireland and are to have the ... Bank of Ireland
+As regards your ....reporting to.........................Executions of the 3 rebel leaders and the......... awarded to 3 others it is the PM's intention to announce this at noon in the H of L and then ...can publish the news.
+The PM explained himself as 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-07T22:08:43" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-02-07T22:08:43" who="#Edel">
+                
+                    Page 1927 modified:
+                    <!-- 
+... at the stupidity of the trial 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-07T22:15:40" who="#Edel">
+                
+                    Page 1927 modified:
+                    <!-- 
+... at the stupidity of the trial     & pointed out that you were carrying out your instructions exactly & correctly and in strict accordance with Military and Martial law.      understands but asked .. to warn you lest I give them the impression all the Sein feiners wowuld suffer death. I told him that the fait of 3 of them 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-07T22:16:49" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-02-07T22:16:49" who="#Edel">
+                
+                    Page 1928 modified:
+                    <!-- 
+having been awarded 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-07T22:25:48" who="#Edel">
+                
+                    Page 1928 modified:
+                    <!-- 
+having been awarded ......of the attitude you were adopting towards them and that I thought it much better to ........ 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-09T15:15:24" who="#Edel">
+                
+                    Page 1923 modified:
+                    <!-- 
+G,H.Q, Home Forces,
+Horse Guards,
+Whitehall, S.W.
+
+May .3.1916
+
+My Dear Maxwell,
+Your letter of May 1     ........any...with the ...of events in Ireland & ... must agree with all you say, except with the disposal of these Sein Feinners wherever/whenever let them be severely punished. we shall have to think carefully before we mix them up with 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-09T15:26:49" who="#Edel">
+                
+                    Page 1924 modified:
+                    <!-- 
+Countess Mark     regards & put the matter before the PM  and are now awaiting his decision which will be wired to you at once. Possible I agree with you     april and be short.
+
+I sent Midleton over at the ...... request of the PM. He cannot be here the morning on his return. He hasn't .....and may be of assistance when the whole thing is thrashed out in Parliament. You shouldn't fear any political or 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-09T15:30:57" who="#Edel">
+                
+                    Page 1924 modified:
+                    <!-- 
+Countess Mark     regards & put the matter before the PM  and are now awaiting his decision which will be wired to you at once. Possible I agree with you     april and be short.
+
+I sent Midleton over at the particular request of the PM. He cannot be here the morning on his return. He hasn't .....and may be of assistance when the whole thing is thrashed out in Parliament. You shouldn't fear any political or 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-09T15:32:15" who="#Edel">
+                
+                    Page 1924 modified:
+                    <!-- 
+Countess Mark     regards & put the matter before the PM  and are now awaiting his decision which will be wired to you at once. Possible I agree with you     april and be short.
+
+I sent Midleton over at the particular request of the PM. He cannot be here the morning on his return. He hasn't ...much.....and may be of assistance when the whole thing is thrashed out in Parliament. You shouldn't fear any political or 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-09T15:32:25" who="#Edel">
+                
+                    Page 1924 modified:
+                    <!-- 
+Countess Mark     regards & put the matter before the PM  and are now awaiting his decision which will be wired to you at once. Possible I agree with you     April and be short.
+
+I sent Middleton over at the particular request of the PM. He cannot be here the morning on his return. He hasn't ...much.....and may be of assistance when the whole thing is thrashed out in Parliament. You shouldn't fear any political or 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-09T15:44:19" who="#Edel">
+                
+                    Page 1924 modified:
+                    <!-- 
+     regards & put the matter before the PM  and are now awaiting his decision which will be wired to you at once. Possible I agree with you     April and be short.
+
+I sent Middleton over at the particular request of the PM. He cannot be here the morning on his return. He hasn't ...much.....and may be of assistance when the whole thing is thrashed out in Parliament. You shouldn't fear any political or 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-09T15:47:29" who="#Edel">
+                
+                    Page 1925 modified:
+                    <!-- 
+of this interferance if you can possibly help it.
+I am surprised at the comparatively small amounts of changes in Dublin.
+I have communicated your messages to the King and have asked His Majesty to send a (letter) of congratulation to you and then 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-09T15:50:10" who="#Edel">
+                
+                    Page 1925 modified:
+                    <!-- 
+of this interferance if you can possibly help it.
+I am surprised at the comparatively small amounts of changes in Dublin.
+I have communicated your messages to the King and have asked His Majesty to send a (letter) of congratulation to you and the Troops. You would deserve it.
+By regards your own position 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-09T15:55:38" who="#Edel">
+                
+                    Page 1926 modified:
+                    <!-- 
+have arranged with the  G S that you are to be .. G  of C...Ireland and are to have the ... Bank of Ireland
+As regards your ....reporting to.........................Executions of the 3 rebel leaders and the......... awarded to 3 others it is the PM's intention to announce this at noon in the H of L and then ...can publish the news.
+The PM expressed himself as 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-09T15:57:21" who="#Edel">
+                
+                    Page 1927 modified:
+                    <!-- 
+suprised at the rapidity of the trial     & pointed out that you were carrying out your instructions exactly & correctly and in strict accordance with Military and Martial law.      understands but asked .. to warn you lest I give them the impression all the Sein feiners would suffer death. I told him that the fait of 3 of them 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-09T16:00:34" who="#Edel">
+                
+                    Page 1927 modified:
+                    <!-- 
+suprised at the rapidity of the trial & executions pointed out that you were carrying out your instructions exactly & correctly and in strict accordance with Military and Martial law. He quite understands but asked me.to warn you lest I give them the impression all the Sinn Feiners would suffer death. I told him that the fact of 3 of them 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-09T16:07:53" who="#Edel">
+                
+                    Page 1928 modified:
+                    <!-- 
+having been ammended .a much less severe sentence was evidence enough of the attitude you were adopting towards them and that I thought it much better to leave you alone to your own discretion. He agreed to this 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-09T16:09:03" who="#Edel">
+                
+                    Page 1928 modified:
+                    <!-- 
+having been ammended .a much less severe sentence was evidence enough of the attitude you were adopting towards them and that I thought it much better to leave you alone to your own discretion. He agreed to this.   ..... that you 
+
+Yours sincerely
+French 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-11T21:11:26" who="#Philcostel">
+                
+                    Page 1924 modified:
+                    <!-- 
+     regards & put the matter before the PM  and are now awaiting his decision which will be wired to you at once. Possible I agree with you     April and be short.
+
+I sent Middleton over at the particular request of the PM. He cannot be here this morning on his return. He hasn't done much harm and may be of assistance when the whole thing is thrashed out in Parliament. You shouldn't fear any political or 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-11T21:16:14" who="#Philcostel">
+                
+                    Page 1924 modified:
+                    <!-- 
+As regards the Countess Markievicz I have put the matter before the PM  and am now awaiting his decision which will be wired to you at once. Personally I agree with you - she might be short.
+
+I sent Middleton over at the particular request of the PM. He cannot be here this morning on his return. He hasn't done much harm and may be of assistance when the whole thing is thrashed out in Parliament. You shouldn't fear any political or 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-11T21:19:22" who="#Philcostel">
+                
+                    Page 1925 modified:
+                    <!-- 
+other interference if I can possibly help it.
+I am surprised at the comparatively small amounts of damage in Dublin.
+I have communicated your messages to the King and have asked His Majesty to send a wire of congratulation to you and the Troops. You well deserve it.
+as regards your own position I 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-11T21:25:00" who="#Philcostel">
+                
+                    Page 1926 modified:
+                    <!-- 
+have arranged with the  G S that you are to be G.O.C.in C.Ireland and are to have the Military rank of General.
+As regards your wire reporting Trial & Execution of the 3 rebel leaders and the punishment awarded to 3 others it is the PM's intention to announce this at once in the H of C and then the press can publish the news.
+The PM expressed himself as 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-11T21:29:33" who="#Philcostel">
+                
+                    Page 1927 modified:
+                    <!-- 
+"Impressed" at the rapidity of the trial & sentences.
+I pointed out that you were carrying out your instructions exactly & correctly and in strict accordance with Military and Martial law. He quite understands but asked me.to warn you not to give <del>deleted text</del>the impression that <hi rend="underline">all</hi> the Sinn Feiners would suffer death. I told him that the fact of 3 of them 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-11T21:33:33" who="#Philcostel">
+                
+                    Page 1928 modified:
+                    <!-- 
+having been awarded .a much less severe sentence was evidence enough of the attitude you were adopting towards them and that I thought it much better to leave you alone to your own discretion. He agreed to this.
+<gap/><gap/><gap/>   ..... tell you what passed. 
+
+Yours sincerely
+French 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-03-03T15:58:39" who="#Philcostel">
+                
+                    Page 1923 modified:
+                    <!-- 
+G,H.Q, Home Forces,
+Horse Guards,
+Whitehall, S.W.
+
+May .3.1916
+
+My Dear Maxwell,
+Your letter of May 1     ........any...with the ...of events in Ireland & ... must agree with all you say, except with the disposal of these Sinn Féiners who are not to be severely punished. We shall have to think carefully before we mix them up with Troops in the field. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-03-03T16:01:14" who="#Philcostel">
+                
+                    Page 1923 modified:
+                    <!-- 
+G,H.Q, Home Forces,
+Horse Guards,
+Whitehall, S.W.
+
+May .3.1916
+
+My Dear Maxwell,
+Your letter of May 1 - We are all very pleased with the progress of events in Ireland. I must agree with all you say, except with the disposal of these Sinn Féiners who are not to be severely punished. We shall have to think carefully before we mix them up with Troops in the field. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-03-03T16:03:40" who="#Philcostel">
+                
+                    Page 1924 modified:
+                    <!-- 
+As regards the Countess Markievicz I have put the matter before the PM  and am now awaiting his decision which will be wired to you at once. Personally I agree with you - she might be shot.
+
+I sent Middleton over at the particular request of the PM. He came to see me this morning on his return. He hasn't done much harm and may be of assistance when the whole thing is thrashed out in Parliament. You shouldn't fear any political or 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-03-03T16:05:10" who="#Philcostel">
+                
+                    Page 1925 modified:
+                    <!-- 
+other interference if I can possibly help it.
+I am surprised at the comparatively small amounts of damage in Dublin.
+I have communicated your messages to the King and have asked His Majesty to send a wire of congratulation to you and the Troops. You well deserve it.
+As regards your own position I 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-03-03T16:06:37" who="#Philcostel">
+                
+                    Page 1926 modified:
+                    <!-- 
+have arranged with the  G S that you are to be G.O.C.in C.Ireland and are to have the Military rank of General.
+As regards your wire reporting the Trial & Execution of the 3 rebel leaders and the punishment awarded to 3 others it is the PM's intention to announce this at once in the H of C and then the press can publish the news.
+The PM expressed himself as 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-03-03T16:11:27" who="#Philcostel">
+                
+                    Page 1928 modified:
+                    <!-- 
+having been awarded .a much less severe sentence was evidence enough of the attitude you were adopting towards them and that I thought it much better to leave you alone to your own discretion. He agreed to this.
+<gap/><gap/><gap/>   .....I must tell you what passed. 
+
+Yours sincerely
+French 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-08-12T16:11:12" who="#Edel">
+                
+                    Page 1923 modified:
+                    <!-- 
+<address>G,H.Q, Home Forces,
+Horse Guards,
+Whitehall, S.W.</address>
+
+<hi rend="underline">May .3.1916</hi>
+
+My Dear Maxwell,<lb/>
+Your letter of May 1 - We are<lb/> all very pleased with the<pb/> progress of events in Ireland<lb/>. I must agree with all you<lb/> say, except with the disposal of<lb/> these Sinn Féiners who are not<lb/> to be severely punished. We shall<lb/> have to think carefully before we<lb/> mix them up with Troops in the field.<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-08-12T16:13:58" who="#Edel">
+                
+                    Page 1924 modified:
+                    <!-- 
+As regards the Countess Markievicz<lb/> I have put the matter before the PM <lb/> and am now awaiting his decision<lb/> which will be wired to you at once.<lb/> Personally I agree with you - she might<lb/> be shot.<lb/><pb/>
+
+<pb/>I sent Middleton over at the particular<lb/> request of the PM. He came to see me<lb/> this morning on his return. He<lb/> hasn't done much harm and<lb/> may be of assistance when the<lb/> whole thing is thrashed out in Parliament.<lb/> You shouldn't fear any political or<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-08-12T16:15:38" who="#Edel">
+                
+                    Page 1925 modified:
+                    <!-- 
+other interference if I can possibly<lb/> help it.<lb/><pb/>
+<pb/>I am surprised at the comparatively<lb/> small amounts of damage in<lb/> Dublin.<lb/><pb/>
+<pb/>I have communicated your<lb/> messages to the King and have<lb/> asked His Majesty to send a<lb/> wire of congratulation to you<lb/> and the Troops. You well deserve<lb/> it.<lb/>
+<pb/>As regards your own position I<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-08-12T16:17:27" who="#Edel">
+                
+                    Page 1926 modified:
+                    <!-- 
+have arranged with the  G S that<lb/> you are to be G.O.C.in C.Ireland<lb/> and are to have the Military<lb/> rank of General.<lb/><pb/>
+<pb/>As regards your wire reporting<lb/> the Trial & Execution of the 3<lb/> rebel leaders and the punishment<lb/> awarded to 3 others it is the<lb/> PM's intention to announce this<lb/> at once in the H of C and then<lb/> the press can publish the news.<lb/>The PM expressed himself as<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-08-12T16:19:36" who="#Edel">
+                
+                    Page 1927 modified:
+                    <!-- 
+"Impressed" at the<lb/> rapidity of the trial & sentences.<lb/>
+<pb/>I pointed out that you were<lb/> carrying out your instructions<lb/> exactly & correctly and in<lb/> strict accordance with Military<lb/> and Martial law. He quite<lb/> understands but asked me.to<lb/> warn you not to give <del>deleted text</del>the<lb/> impression that <hi rend="underline">all</hi> the Sinn Feiners<lb/> would suffer death. I told him<lb/> that the fact of 3 of them<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-08-12T16:21:29" who="#Edel">
+                
+                    Page 1928 modified:
+                    <!-- 
+having been awarded .a much<lb/> less severe sentence was evidence<lb/> enough of the attitude you were<lb/> adopting towards them and that<lb/> I thought it much better to<lb/> leave you alone to your own<lb/> discretion. He agreed to this.<lb/>
+<gap/><gap/><gap/>   .....I  tell you what passed. <lb/>
+
+<pb/>Yours sincerely
+<hi rend="underline">French</hi> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-13T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-13T11:22:50" who="#NR">
+                
+                    Page 1923 modified:
+                    <!-- 
+<address>G,H.Q, Home Forces,
+<lb/>Horse Guards,
+<lb/>Whitehall, S.W.</address>
+
+<hi rend="underline">May .3.1916</hi>
+
+<salute>My Dear Maxwell,</salute>
+<p>Your letter of May 1 - We are
+<lb/> all very pleased with the 
+<lb/> progress of events in Ireland
+<lb/>. I must agree with all you
+<lb/> say, except with the disposal of
+<lb/> these Sinn Féiners who are not
+<lb/> to be severely punished. We shall
+<lb/> have to think carefully before we
+<lb/> mix them up with Troops in the field.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-13T11:24:00" who="#NR">
+                
+                    Page 1924 modified:
+                    <!-- 
+<p>As regards the Countess Markievicz
+<lb/> I have put the matter before the PM 
+<lb/> and am now awaiting his decision
+<lb/> which will be wired to you at once.
+<lb/> Personally I agree with you - she might
+<lb/> be shot.</p>
+<p>I sent Middleton over at the particular
+<lb/> request of the PM. He came to see me
+<lb/> this morning on his return. He
+<lb/> hasn't done much harm and
+<lb/> may be of assistance when the
+<lb/> whole thing is thrashed out in Parliament.
+<lb/> You shouldn't fear any political or 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-13T11:25:06" who="#NR">
+                
+                    Page 1925 modified:
+                    <!-- 
+<lb/>other interference if I can possibly
+<lb/> help it.</p>
+<p>I am surprised at the comparatively
+<lb/> small amounts of damage in
+<lb/> Dublin.</p>
+<p>I have communicated your
+<lb/> messages to the King and have
+<lb/> asked His Majesty to send a
+<lb/> wire of congratulation to you
+<lb/> and the Troops. You well deserve
+<lb/> it.</p>
+<p>As regards your own position I 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-13T11:26:01" who="#NR">
+                
+                    Page 1926 modified:
+                    <!-- 
+<lb/>have arranged with the  G S that
+<lb/> you are to be G.O.C.in C.Ireland
+<lb/> and are to have the Military
+<lb/> rank of General.</p>
+<p>As regards your wire reporting
+<lb/> the Trial &amp; Execution of the 3
+<lb/> rebel leaders and the punishment
+<lb/> awarded to 3 others it is the
+<lb/> PM's intention to announce this
+<lb/> at once in the H of C and then
+<lb/> the press can publish the news.
+<lb/>The PM expressed himself as 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-13T11:27:30" who="#NR">
+                
+                    Page 1927 modified:
+                    <!-- 
+<lb/><lb/>"Impressed" at the
+<lb/> rapidity of the trial &amp; sentences.</p>
+<pb/>I pointed out that you were
+<lb/> carrying out your instructions
+<lb/> exactly &amp; correctly and in
+<lb/> strict accordance with Military
+<lb/> and Martial law. He quite
+<lb/> understands but asked me to
+<lb/> <del>wern</del> warn you not to <del>have</del> give the
+<lb/> impression that <hi rend="underline">all</hi> the Sinn Feiners
+<lb/> would suffer death. I told him
+<lb/> that the fact of 3 of them 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-13T11:31:17" who="#NR">
+                
+                    Page 1928 modified:
+                    <!-- 
+<lb/>having been awarded a much
+<lb/> less severe sentence was evidence
+<lb/> enough of the attitude you were
+<lb/> adopting towards them and that
+<lb/> I thought it much better to
+<lb/> leave you alone to your own
+<lb/> discretion. He agreed to this.
+<lb/><unclear>I will tell you</unclear> what passed. </p>
+
+<salute>Yours sincerely</salute>
+<signed><hi rend="underline">French</hi></signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1927 created using version from <date when="2014-02-07T22:08:43"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1927 removed (version from <date when="2014-02-07T22:08:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1927 removed (version from <date when="2014-02-07T22:15:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1927 removed (version from <date when="2014-02-09T15:57:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1927 removed (version from <date when="2014-02-09T16:00:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1927 removed (version from <date when="2014-02-11T21:29:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1927 removed (version from <date when="2014-08-12T16:19:36"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1927 removed (version from <date when="2016-01-13T11:27:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1924 created using version from <date when="2014-02-07T21:33:52"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1924 removed (version from <date when="2014-02-07T21:33:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1924 removed (version from <date when="2014-02-07T21:47:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1924 removed (version from <date when="2014-02-07T21:48:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1924 removed (version from <date when="2014-02-09T15:26:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1924 removed (version from <date when="2014-02-09T15:30:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1924 removed (version from <date when="2014-02-09T15:32:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1924 removed (version from <date when="2014-02-09T15:32:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1924 removed (version from <date when="2014-02-09T15:44:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1924 removed (version from <date when="2014-02-11T21:11:26"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1924 removed (version from <date when="2014-02-11T21:16:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1924 removed (version from <date when="2014-03-03T16:03:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1924 removed (version from <date when="2014-08-12T16:13:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1924 removed (version from <date when="2016-01-13T11:24:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1928 created using version from <date when="2014-02-07T22:16:49"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1928 removed (version from <date when="2014-02-07T22:16:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1928 removed (version from <date when="2014-02-07T22:25:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1928 removed (version from <date when="2014-02-09T16:07:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1928 removed (version from <date when="2014-02-09T16:09:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1928 removed (version from <date when="2014-02-11T21:33:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1928 removed (version from <date when="2014-03-03T16:11:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1928 removed (version from <date when="2014-08-12T16:21:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1928 removed (version from <date when="2016-01-13T11:31:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1925 created using version from <date when="2014-02-07T21:55:58"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1925 removed (version from <date when="2014-02-07T21:55:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1925 removed (version from <date when="2014-02-09T15:47:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1925 removed (version from <date when="2014-02-09T15:50:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1925 removed (version from <date when="2014-02-11T21:19:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1925 removed (version from <date when="2014-03-03T16:05:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1925 removed (version from <date when="2014-08-12T16:15:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1925 removed (version from <date when="2016-01-13T11:25:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1926 created using version from <date when="2014-02-07T22:04:42"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1926 removed (version from <date when="2014-02-07T22:04:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1926 removed (version from <date when="2014-02-07T22:07:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1926 removed (version from <date when="2014-02-09T15:55:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1926 removed (version from <date when="2014-02-11T21:25:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1926 removed (version from <date when="2014-03-03T16:06:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1926 removed (version from <date when="2014-08-12T16:17:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1926 removed (version from <date when="2016-01-13T11:26:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1923 created using version from <date when="2014-02-07T21:11:44"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1923 removed (version from <date when="2014-02-07T21:11:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1923 removed (version from <date when="2014-02-07T21:23:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1923 removed (version from <date when="2014-02-09T15:15:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1923 removed (version from <date when="2014-03-03T15:58:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1923 removed (version from <date when="2014-03-03T16:01:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1923 removed (version from <date when="2014-08-12T16:11:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1923 removed (version from <date when="2016-01-13T11:22:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 1927 (version from <date when="2016-01-13T11:27:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 1924 added to letter (version from <date when="2016-01-13T11:24:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 1928 added to letter (version from <date when="2016-01-13T11:31:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 1925 added to letter (version from <date when="2016-01-13T11:25:07"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 1926 added to letter (version from <date when="2016-01-13T11:26:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 1923 added to letter (version from <date when="2016-01-13T11:22:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:19" who="#PythonScript">
+                
+                    Clean tags: Page 1923 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:19" who="#PythonScript">
+                
+                    Clean tags: Page 1924 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:19" who="#PythonScript">
+                
+                    Clean tags: Page 1925 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:19" who="#PythonScript">
+                
+                    Clean tags: Page 1926 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:19" who="#PythonScript">
+                
+                    Clean tags: Page 1927 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:19" who="#PythonScript">
+                
+                    Clean tags: Page 1928 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:25" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:29" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:35" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:15" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:15" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_701_img_1923" url="013246eccc256bb49d830a7405d941bd.jpg"/> 
+    
+    <graphic xml:id="L1916_701_img_1924" url="14422fb74d1e0db45c3359fcf736b4fa.jpg"/> 
+    
+    <graphic xml:id="L1916_701_img_1925" url="bfeaba729b1b358636079844f62e0d0c.jpg"/> 
+    
+    <graphic xml:id="L1916_701_img_1926" url="7b20a2f5faf9a23295e8a80a12ff13ab.jpg"/> 
+    
+    <graphic xml:id="L1916_701_img_1927" url="16e6a60db90526dfb1522c1462139bf5.jpg"/> 
+    
+    <graphic xml:id="L1916_701_img_1928" url="cf7b8afa54d5c646e4fe2e7802c9bea7.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="1923" facs="#L1916_701_img_1923"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>G,H.Q, Home Forces,</addrLine>
+<addrLine>Horse Guards,</addrLine>
+<addrLine>Whitehall, S.W.</addrLine></address>
+
+<hi rend="underline">May .3.1916</hi>
+
+<salute>My Dear Maxwell,</salute></opener>
+<p>Your letter of May 1 - We are
+<lb/> all very pleased with the 
+<lb/> progress of events in Ireland
+<lb/>. I must agree with all you
+<lb/> say, except with the disposal of
+<lb/> these Sinn Féiners who are not
+<lb/> to be severely punished. We shall
+<lb/> have to think carefully before we
+<lb/> mix them up with Troops in the field.</p>
+        
+    
+
+    
+         
+        <pb n="1924" facs="#L1916_701_img_1924"/>
+        
+        
+           
+            <p>As regards the Countess Markievicz
+<lb/> I have put the matter before the PM 
+<lb/> and am now awaiting his decision
+<lb/> which will be wired to you at once.
+<lb/> Personally I agree with you - she might
+<lb/> be shot.</p>
+<p>I sent Middleton over at the particular
+<lb/> request of the PM. He came to see me
+<lb/> this morning on his return. He
+<lb/> hasn't done much harm and
+<lb/> may be of assistance when the
+<lb/> whole thing is thrashed out in Parliament.
+<lb/> You shouldn't fear any political or
+        
+    
+         
+        <pb n="1925" facs="#L1916_701_img_1925"/>
+        
+        
+           
+            <lb/>other interference if I can possibly
+<lb/> help it.</p>
+<p>I am surprised at the comparatively
+<lb/> small amounts of damage in
+<lb/> Dublin.</p>
+<p>I have communicated your
+<lb/> messages to the King and have
+<lb/> asked His Majesty to send a
+<lb/> wire of congratulation to you
+<lb/> and the Troops. You well deserve
+<lb/> it.</p>
+<p>As regards your own position I
+        
+    
+         
+        <pb n="1926" facs="#L1916_701_img_1926"/>
+        
+        
+           
+            <lb/>have arranged with the  G S that
+<lb/> you are to be G.O.C.in C.Ireland
+<lb/> and are to have the Military
+<lb/> rank of General.</p>
+<p>As regards your wire reporting
+<lb/> the Trial &amp; Execution of the 3
+<lb/> rebel leaders and the punishment
+<lb/> awarded to 3 others it is the
+<lb/> PM's intention to announce this
+<lb/> at once in the H of C and then
+<lb/> the press can publish the news.
+<lb/>The PM expressed himself as
+        
+    
+         
+        <pb n="1927" facs="#L1916_701_img_1927"/>
+        
+        
+           
+            <lb/><lb/>"Impressed" at the
+<lb/> rapidity of the trial &amp; sentences.</p>
+<pb/>I pointed out that you were
+<lb/> carrying out your instructions
+<lb/> exactly &amp; correctly and in
+<lb/> strict accordance with Military
+<lb/> and Martial law. He quite
+<lb/> understands but asked me to
+<lb/> <del>wern</del> warn you not to <del>have</del> give the
+<lb/> impression that <hi rend="underline">all</hi> the Sinn Feiners
+<lb/> would suffer death. I told him
+<lb/> that the fact of 3 of them
+        
+    
+         
+        <pb n="1928" facs="#L1916_701_img_1928"/>
+        
+        
+           
+            <lb/>having been awarded a much
+<lb/> less severe sentence was evidence
+<lb/> enough of the attitude you were
+<lb/> adopting towards them and that
+<lb/> I thought it much better to
+<lb/> leave you alone to your own
+<lb/> discretion. He agreed to this.
+<lb/><unclear>I will tell you</unclear> what passed. </p>
+
+<closer><salute>Yours sincerely</salute>
+<signed><hi rend="underline">French</hi></signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

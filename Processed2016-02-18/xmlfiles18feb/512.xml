@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_512">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Fr F.M. Ryan O.P. to George Gavan Duffy, 12 July 1916</title>
+                
+                <author>Fr F.M. Ryan</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="BH">Brian Hughes</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="HelenR">HelenR</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_512</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>This is one of two surviving copies of a letter written by Fr F.M. Ryan to George Gavan Duffy (1882-1951). Fr Ryan writes to Gavan Duffy that Casement had come to him after his arrival in Ireland and told him that he was trying to stop the planned rebellion. The letter was written while Sir Roger Casement (1864-1916) was imprisoned in London after he had been arrested while landing on the coast of Kerry in a submarine on the eve of the Easter Rising.</p>
+                            
+                        
+                            
+                            <p> </p>
+                            
+                        
+                            
+                        
+                            
+                            <p>George Gavan Duffy was an Irish politician, barrister and judge. He unsuccessfully defended Roger Casement at his trial for high treason after the Easter Rising. A campaign was launched featuring many prominent figures such as W.B. Yeats and George Bernard Shaw to secure a reprieve for Casement but he was hanged on 3 August 1916.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: National Library of Ireland -->
+                        
+                        <repository ref="#NLI">National Library of Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Roger Casement Papers, Collection List No A15; Ms. 13,078 /7
+                             
+                        -->
+                            
+                                <collection type='public'>Roger Casement Papers, Collection List No A15</collection>
+                            
+                            
+                        <idno>Ms. 13,078 /7</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: George Gavan Duffy -->
+                        
+                        <persName ref="#GavanDuffy_G">George Gavan Duffy</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">Fr F.M. Ryan</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    Roscrea 
+                    Tipperary
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#Roscrea">Roscrea, County Tipperary</placeName>
+                    
+                
+                    
+                    <date when="1916-07-12">12 July 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2013-12-14T20:22:36" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-12-14T20:22:36" who="#HelenR">
+                
+                    Page 1426 modified:
+                    <!-- 
+Copy.
+
+Roscrea,
+Co. Tipperary.
+
+12th July 1916.
+
+Dear Mr. Gavan Duffy: -
+
+Sir Roger Casement saw me in Tralee on the 21st of April and told me he had come to Ireland to stop the rebellion then impending. He asked me to conceal his identity as well as his object in coming until he should have left Tralee, lest any attempt should be made to rescue him. On the other hand he was very anxious that I should spread the news broad-cast after he had left.
+
+Sincerely yours,
+F. M. Ryan, O. P.
+
+P.S. My address for three weeks after next Saturday will be: - "The Presbytery Bunerana, C. Donegal.".
+
+Envelope. 
+G. Gavan Duffy Esq.,
+4, Raymond Buildings
+Gray's Inn
+London W. C. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-02T16:10:44" who="#Comber">
+                
+                    Page 1426 modified:
+                    <!-- 
+Copy.
+<address>Roscrea, Co. Tipperary.</address>
+
+<date>12<hi rend="superscript">th</hi> July 1916.</date>
+
+<salute>Dear Mr. Gavan Duffy: -</salute>
+<p>Sir Roger Casement saw me in Tralee on the 21st of<lb/> April and told me he had come to Ireland to stop the rebellion<lb/> then impending. He asked me to conceal his identity as well<lb/> as his object in coming until he should have left Tralee,<lb/> lest any attempt should be made to rescue him. On the other<lb/> hand he was very anxious that I should spread the news broadcast<lb/> after he had left.<lb/></p>
+
+<salute>Sincerely yours,
+F. M. Ryan, O. P.</salute>
+
+P.S. My address for three weeks after next Saturday will be: -<lb/> "The Presbytery<lb/> Buncrana,<lb/> Co. Donegal.".<lb/>
+
+<address>Envelope. 
+G. Gavan Duffy Esq.,
+4, Raymond Buildings
+Gray's Inn
+London W.</address> C. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-02T16:11:02" who="#Comber">
+                
+                    Page 1426 modified:
+                    <!-- 
+Copy.
+<address>Roscrea, Co. Tipperary.</address>
+
+<date>12<hi rend="superscript">th</hi> July 1916.</date>
+
+<salute>Dear Mr. Gavan Duffy: -</salute>
+<p>Sir Roger Casement saw me in Tralee on the 21st of<lb/> April and told me he had come to Ireland to stop the rebellion<lb/> then impending. He asked me to conceal his identity as well<lb/> as his object in coming until he should have left Tralee,<lb/> lest any attempt should be made to rescue him. On the other<lb/> hand he was very anxious that I should spread the news broadcast<lb/> after he had left.<lb/></p>
+
+<salute>Sincerely yours,
+F. M. Ryan, O. P.</salute>
+
+P.S. My address for three weeks after next Saturday will be: -<lb/> "The Presbytery<lb/> Buncrana,<lb/> Co. Donegal.".<lb/>
+
+<address>Envelope. 
+G. Gavan Duffy Esq.,
+4, Raymond Buildings
+Gray's Inn
+London W.C.</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T12:09:30" who="#NR">
+                
+                    Page 1426 modified:
+                    <!-- 
+<address>Roscrea,
+<lb/> Co. Tipperary.</address>
+
+<date>12<hi rend="superscript">th</hi> July 1916.</date>
+
+<salute>Dear Mr. Gavan Duffy: -</salute>
+<p>Sir Roger Casement saw me in Tralee on the 21st of
+<lb/> April and told me he had come to Ireland to stop the rebellion
+<lb/> then impending. He asked me to conceal his identity as well
+<lb/> as his object in coming until he should have left Tralee,
+<lb/> lest any attempt should be made to rescue him. On the other
+<lb/> hand he was very anxious that I should spread the news broadcast
+<lb/> after he had left.</p>
+
+<salute>Sincerely yours,</salute>
+<signed>F. M. Ryan, O. P.</signed>
+
+<note>P.S. My address for three weeks after next Saturday will be: -
+<lb/> "The Presbytery
+<lb/> Buncrana,
+<lb/> Co. Donegal.".</note>
+
+<address>Envelope. 
+<lb/>G. Gavan Duffy Esq.,
+<lb/>4, Raymond Buildings
+<lb/>Gray's Inn
+<lb/>London W.C.</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1426 created using version from <date when="2013-12-14T20:22:36"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1426 removed (version from <date when="2013-12-14T20:22:36"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1426 removed (version from <date when="2015-02-02T16:10:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1426 removed (version from <date when="2015-02-02T16:11:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1426 removed (version from <date when="2016-01-15T12:09:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 1426 (version from <date when="2016-01-15T12:09:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:22" who="#PythonScript">
+                
+                    Clean tags: Page 1426 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:31" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:38" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:37" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:45" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_512_img_1426" url="623dfecb121afb5948411bf00f538d04.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="1426" facs="#L1916_512_img_1426"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>Roscrea,</addrLine>
+<addrLine>Co. Tipperary.</addrLine></address>
+
+<dateline><date>12<hi rend="superscript">th</hi> July 1916.</date></dateline>
+
+<salute>Dear Mr. Gavan Duffy: -</salute></opener>
+<p>Sir Roger Casement saw me in Tralee on the 21st of
+<lb/> April and told me he had come to Ireland to stop the rebellion
+<lb/> then impending. He asked me to conceal his identity as well
+<lb/> as his object in coming until he should have left Tralee,
+<lb/> lest any attempt should be made to rescue him. On the other
+<lb/> hand he was very anxious that I should spread the news broadcast
+<lb/> after he had left.</p>
+
+<salute>Sincerely yours,</salute>
+<signed>F. M. Ryan, O. P.</signed>
+
+<note>P.S. My address for three weeks after next Saturday will be: -
+<lb/> "The Presbytery
+<lb/> Buncrana,
+<lb/> Co. Donegal.".</note>
+
+<address>Envelope. 
+<lb/>G. Gavan Duffy Esq.,
+<lb/>4, Raymond Buildings
+<lb/>Gray's Inn
+<lb/>London W.C.</address>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

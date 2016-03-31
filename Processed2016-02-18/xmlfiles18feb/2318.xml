@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2318">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Sir Wilfrid Spender to his wife Lady Lillian Spender, 1 August 1916</title>
+                
+                <author>Wilfrid Spender</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Delmacarroll">Delmacarroll</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="RichardBreen">RichardBreen</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tnoonan1111">Tnoonan11 11</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2318</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter Spender from sir Wilfrid Spender (1876-1960) to his wife, Lady Lillian Spender, née Dean, (1880-1968).  In this letter, Spender writes that he is hungry in two ways, both for his dinner and for 'my rabbit pie' (his pet name for Lady Lillian being 'pink rabbit'). He gives details of a country excursion he made upon his horse Fanny, whose tendency towards distraction he compares to Lillian's propensity to 'swerve into hatshops' and 'loiter at the local Debenham's'. He concludes that Fanny is the better walking companion of the two. Spender also plans a holiday for Lillian. The letter is unfinished.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Sir Wilfrid Spender was a member of the British Army until 1913 when controversy surrounding his signature of the Ulster Solemn League and Covenant resulted in his resignation. Spender was called up for military service in 1914 and from 1915 served in the 36th (Ulster) Division. Throughout the war, Spender wrote a collection of letters to his wife Lady Lillian Spender. The letters date mainly from 1915 to 1918, when Sir Wilfrid was serving in France. The letters concern politics, the Irish question, personal life, and Wilfrid's experience of the Great War. Lady Lillian served in the Ulster Volunteer Nursing Corps during the war, and was an organiser of the Ulster Division Comforts Fund.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Lady Spender&#39;s Correspondence, D1633/1/1/371
+                             
+                        -->
+                            
+                                <collection type='public'>Lady Spender's Correspondence</collection>
+                            
+                            
+                        <idno>D1633/1/1/371</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Lillian Spender -->
+                        
+                        <persName ref="#Spender_L">Lillian Spender</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Wilfrid Spender -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF RECIPIENT IS CORRECT --></VERIFY>
+                        
+                        <persName ref="#Spender_W_B">Wilfrid Bliss Spender</persName>
+                    
+                
+                
+                
+                    
+                    <date when="1916-08-01">1 August 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1960</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                            <item n="tag">Love letters</item>
+                            
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-23T16:56:42" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-23T16:56:42" who="#Delmacarroll">
+                
+                    Page 6448 modified:
+                    <!-- 
+D1633/1/1/371<lb/>
+
+<date>Aug 1</date><lb/>
+
+<salute>My p r</salute> <lb/>
+
+A rather hungry b w hungry<lb/>
+in 2 ways principally for his dinner<lb/>
+of course as it is getting on for 9 &amp; I<lb/>
+am writing in the office till relieved.  It<lb/>
+is the quiet time of the day &amp; if I<lb/>
+had more to say except that I am hungry<lb/>
+for &#x2014; my rabbit pie &#x2014; I would prattle on.<lb/>
+Very hot today &amp; I felt so <del>hungry</del> <add>sleepy</add> after<lb/>
+lunch that I struck and left the office<lb/>
+for a country ride &amp; walk with Fan<lb/>
+Fan is so good in walking beside me<lb/>
+but like another smaller animal<lb/>
+prances off when she sees chocolates &#x2014; or <lb/>
+their equivalent but she does not <lb/>
+swerve at hat shops nor loiter at the<lb/>
+local Debenhams so I think on the<lb/>
+whole she is the better companion of the<lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-23T16:57:13" who="#Delmacarroll">
+                
+                    Page 6448 modified:
+                    <!-- 
+D1633/1/1/371<lb/>
+
+<date>Aug 1</date><lb/>
+
+<salute>My p r</salute> <lb/>
+
+A rather hungry b w hungry<lb/>
+in 2 ways principally for his dinner<lb/>
+of course as it is getting on for 9 &amp; I<lb/>
+am writing in the office till relieved.  It<lb/>
+is the quiet time of the day &amp; if I<lb/>
+had more to say except that I am hungry<lb/>
+for &#x2014; my rabbit pie &#x2014; I would prattle on.<lb/>
+Very hot today &amp; I felt so <del>hungry</del> <add>sleepy</add> after<lb/>
+lunch that I struck and left the office<lb/>
+for a country ride &amp; walk with Fan<lb/>
+Fan is so good in walking beside me<lb/>
+but like another smaller animal<lb/>
+prances off when she sees chocolates &#x2014; or <lb/>
+their equivalent but she does not <lb/>
+swerve at hat shops nor loiter at the<lb/>
+local Debenhams so I think on the<lb/>
+whole she is the better companion of the<lb/>
+2!  She also keeps up with the b w on<lb/>
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-23T17:00:12" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-23T17:00:12" who="#Delmacarroll">
+                
+                    Page 6449 modified:
+                    <!-- 
+the roads as well as on the grass&amp;<lb/>
+does not glance behind at taxies&#x2014;<lb/>
+at least she wouldn't if there  were any<lb/>
+taxies.  Besides when the b w is lazy she<lb/>
+carries him which the p r never does whilst<lb/>
+the b w has never had to carry Fanny!<lb/></p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-23T17:00:35" who="#Delmacarroll">
+                
+                    Page 6448 modified:
+                    <!-- 
+D1633/1/1/371<lb/>
+
+<date>Aug 1</date><lb/>
+
+<salute>My p r</salute> <lb/>
+
+<p>A rather hungry b w hungry<lb/>
+in 2 ways principally for his dinner<lb/>
+of course as it is getting on for 9 &amp; I<lb/>
+am writing in the office till relieved.  It<lb/>
+is the quiet time of the day &amp; if I<lb/>
+had more to say except that I am hungry<lb/>
+for &#x2014; my rabbit pie &#x2014; I would prattle on.<lb/>
+Very hot today &amp; I felt so <del>hungry</del> <add>sleepy</add> after<lb/>
+lunch that I struck and left the office<lb/>
+for a country ride &amp; walk with Fan<lb/>
+Fan is so good in walking beside me<lb/>
+but like another smaller animal<lb/>
+prances off when she sees chocolates &#x2014; or <lb/>
+their equivalent but she does not <lb/>
+swerve at hat shops nor loiter at the<lb/>
+local Debenhams so I think on the<lb/>
+whole she is the better companion of the<lb/>
+2!  She also keeps up with the b w on<lb/>
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-23T17:05:41" who="#Delmacarroll">
+                
+                    Page 6449 modified:
+                    <!-- 
+the roads as well as on the grass&amp;<lb/>
+does not glance behind at taxies&#x2014;<lb/>
+at least she wouldn't if there  were any<lb/>
+taxies.  Besides when the b w is lazy she<lb/>
+carries him which the p r never does whilst<lb/>
+the b w has never had to carry Fanny!<lb/></p>
+
+I feel very much for the p r in this<lb/>
+scorching weather.  I'm afraid she must be<lb/>
+fearfully limp &amp; remember that a good<lb/>
+holiday when you can take it is not a <lb/>
+luxury but a necessity.  Rex will of course<lb/>
+be delighted to see you <add>settled</add> at Bagley wood but<lb/>
+the sea side may be better but I don't<lb/>
+think less than one week is any use<lb/>
+at the sea and probably <del>1 month</del> 1<lb/>
+fortnight ought to be the minimum<lb/>
+but I expect your family will be trotting<lb/>
+off soon t 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-23T17:08:02" who="#Delmacarroll">
+                
+                    Page 6449 modified:
+                    <!-- 
+the roads as well as on the grass&amp;<lb/>
+does not glance behind at taxies&#x2014;<lb/>
+at least she wouldn't if there  were any<lb/>
+taxies.  Besides when the b w is lazy she<lb/>
+carries him which the p r never does whilst<lb/>
+the b w has never had to carry Fanny!<lb/></p>
+
+<p>I feel very much for the p r in this<lb/>
+scorching weather.  I'm afraid she must be<lb/>
+fearfully limp &amp; remember that a good<lb/>
+holiday when you can take it is not a <lb/>
+luxury but a necessity.  Rex will of course<lb/>
+be delighted to see you <add>settled</add> at Bagley wood but<lb/>
+the sea side may be better but I don't<lb/>
+think less than one week is any use<lb/>
+at the sea and probably <del>1 month</del> 1<lb/>
+fortnight ought to be the minimum<lb/>
+but I expect your family will be trotting<lb/>
+off soon <gap/> a hotel or rooms near<lb/>
+the other family (Evo?) might do<lb/></p>
+
+I hope your work is getting less now.<lb/>
+
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T16:22:26" who="#RichardBreen">
+                
+                    Page 6448 modified:
+                    <!-- 
+<date>Aug 1</date>
+<salute>My p r</salute> 
+
+<p>A rather hungry b w, hungry<lb/>
+in 2 ways principally for his dinner<lb/>
+of course as it is getting on for 9 &amp; I<lb/>
+am writing in the office till relieved.  It<lb/>
+is the quiet time of the day &amp; if I<lb/>
+had more to say except that I am hungry<lb/>
+for &#x2014; my rabbit pie. I could prattle on.</p>
+<p>Very hot today &amp; I felt so <del>hungry</del> <add>sleepy</add> after<lb/>
+lunch that I struck and left the office<lb/>
+for a country ride &amp; walk with Fan.<lb/>
+Fan is so good in walking beside me<lb/>
+but like another smaller animal<lb/>
+prances off when she sees chocolates &#x2014; or <lb/>
+their equivalent &#x2014; but she does not <lb/>
+swerve at hat shops, nor loiter at the<lb/>
+local Debenhams so I think on the<lb/>
+whole she is the better companion of the<lb/>
+2!  She also keeps up with the b w on 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T16:26:05" who="#RichardBreen">
+                
+                    Page 6449 modified:
+                    <!-- 
+the roads as well as on the grass, &amp;<lb/>
+does not glance behind at taxies &#x2014;<lb/>
+at least she wouldn't if there  were any<lb/>
+taxies.  Besides when the b w is lazy she<lb/>
+carries him which the p r never does whilst<lb/>
+the b w has never had to carry Fanny!<lb/></p>
+
+<p>I feel very much for the p r in this<lb/>
+scorching weather.  I'm afraid she must be<lb/>
+fearfully limp &amp; remember that a good<lb/>
+holiday when you can take it is not a <lb/>
+luxury but a necessity.  Rex will of course<lb/>
+be delighted to see you <add>settled</add> at Bagley wood but<lb/>
+the sea side may be better but I don't<lb/>
+think less than one week is any use, <lb/>
+at the sea and probably <del>1 month</del> 1<lb/>
+fortnight ought to be the minimum,<lb/>
+but I expect your family will be trotting<lb/>
+off soon or a hotel or rooms near<lb/>
+the other family (Edo?) might do</p>
+<p>I hope your work is getting less now.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T12:29:47" who="#NR">
+                
+                    Page 6449 modified:
+                    <!-- 
+the roads as well as on the grass, &amp;<lb/>
+does not glance behind at taxies &#x2014;<lb/>
+at least she wouldn't if there  were any<lb/>
+taxies.  Besides when the b w is lazy she<lb/>
+carries him which the p r never does whilst<lb/>
+the b w has never had to carry Fanny!</p>
+
+<p>I feel very much for the p r in this<lb/>
+scorching weather.  I'm afraid she must be<lb/>
+fearfully limp &amp; remember that a good<lb/>
+holiday when you can take it is not a <lb/>
+luxury but a necessity.  Rex will of course<lb/>
+be delighted to see you <add>settled</add> at Bagley wood but<lb/>
+the sea side may be better but I don't<lb/>
+think less than one week is any use, <lb/>
+at the sea and probably <del>1 month</del> 1<lb/>
+fortnight ought to be the minimum,<lb/>
+but I expect your family will be trotting<lb/>
+off soon or a hotel or rooms near<lb/>
+the other family (Edo?) might do</p>
+<p>I hope your work is getting less now.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6448 created using version from <date when="2015-08-23T16:56:42"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6448 removed (version from <date when="2015-08-23T16:56:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6448 removed (version from <date when="2015-08-23T16:57:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6448 removed (version from <date when="2015-08-23T17:00:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6448 removed (version from <date when="2016-01-19T16:22:26"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6449 created using version from <date when="2015-08-23T17:00:12"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6449 removed (version from <date when="2015-08-23T17:00:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6449 removed (version from <date when="2015-08-23T17:05:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6449 removed (version from <date when="2015-08-23T17:08:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6449 removed (version from <date when="2016-01-19T16:26:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6449 removed (version from <date when="2016-01-22T12:29:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 6448 (version from <date when="2016-01-22T12:29:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6449 added to letter (version from <date when="2016-01-22T12:29:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 6448 cleaned of 7 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 6449 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:29" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:34" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:04" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:03" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2318_img_6448" url="4a0ecad778535f4cb55f392354d21cb1.jpg"/> 
+    
+    <graphic xml:id="L1916_2318_img_6449" url="d54050940c311757fb51a44799638a36.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="6448" facs="#L1916_2318_img_6448"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><dateline><date>Aug 1</date></dateline>
+<salute>My p r</salute></opener> 
+
+<p>A rather hungry b w, hungry<lb/>
+in 2 ways principally for his dinner<lb/>
+of course as it is getting on for 9 &amp; I<lb/>
+am writing in the office till relieved.  It<lb/>
+is the quiet time of the day &amp; if I<lb/>
+had more to say except that I am hungry<lb/>
+for &#x2014; my rabbit pie. I could prattle on.</p>
+<p>Very hot today &amp; I felt so <del>hungry</del> <add>sleepy</add> after<lb/>
+lunch that I struck and left the office<lb/>
+for a country ride &amp; walk with Fan.<lb/>
+Fan is so good in walking beside me<lb/>
+but like another smaller animal<lb/>
+prances off when she sees chocolates &#x2014; or <lb/>
+their equivalent &#x2014; but she does not <lb/>
+swerve at hat shops, nor loiter at the<lb/>
+local Debenhams so I think on the<lb/>
+whole she is the better companion of the<lb/>
+2!  She also keeps up with the b w on
+        
+    
+
+    
+         
+        <pb n="6449" facs="#L1916_2318_img_6449"/>
+        
+        
+           
+            the roads as well as on the grass, &amp;<lb/>
+does not glance behind at taxies &#x2014;<lb/>
+at least she wouldn't if there  were any<lb/>
+taxies.  Besides when the b w is lazy she<lb/>
+carries him which the p r never does whilst<lb/>
+the b w has never had to carry Fanny!</p>
+
+<p>I feel very much for the p r in this<lb/>
+scorching weather.  I'm afraid she must be<lb/>
+fearfully limp &amp; remember that a good<lb/>
+holiday when you can take it is not a <lb/>
+luxury but a necessity.  Rex will of course<lb/>
+be delighted to see you <add>settled</add> at Bagley wood but<lb/>
+the sea side may be better but I don't<lb/>
+think less than one week is any use, <lb/>
+at the sea and probably <del>1 month</del> 1<lb/>
+fortnight ought to be the minimum,<lb/>
+but I expect your family will be trotting<lb/>
+off soon or a hotel or rooms near<lb/>
+the other family (Edo?) might do</p>
+<p>I hope your work is getting less now.</p>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

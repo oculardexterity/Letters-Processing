@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_70">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Mabel C. Wright to Lady Clonbrock, 4 April 1916</title>
+                
+                <author>Mabel Crawford Wright</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Cianlovestheyolos">Cian loves the yolos</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="MaryGrehan">Mary Grehan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tomas808">Tomas808</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BarneyDoherty">Barney Doherty</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="P.tomaszek">P.tomaszek</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Rosie17">Rosie17</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_70</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>Letter from Mabel C Wright of the Irish War Hospital Supply to Lady Clonbrock (1839-1928) requesting the creation of centres in County Galway for the collection of moss for surgical dressings.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Augusta Caroline Dillon (née Crofton) was the wife of Luke Gerald Dillon (1834-1917), the 4th Baron of Clonbrock, Co. Galway and the daughter of Lord Crofton of Mote Park (Edward Henry Churchill Crofton, 3rd Baron), Co. Roscommon. Aged 75 at the outbreak of war, Lady Clonbrock, worked closely with the Irish Women's Association to send basic necessities to Irish POWs. Many of her care packages went to members of the Connaught Rangers imprisoned in Limburg near Cologne.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: National Library of Ireland -->
+                        
+                        <repository ref="#NLI">National Library of Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Ms 35,796 (9)
+                             
+                        -->
+                            
+                                <collection type='public'>Ms 35,796 (9)</collection>
+                            
+                            
+                        <idno>Ms 35,796 (9)</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Lady Clonbrock -->
+                        
+                        <persName ref="#Dillon_A_C">Lady Clonbrock</persName>
+                    
+                
+                
+                
+                    
+                    <!-- Normalised Place Found: 
+                    Galway 
+                    Galway
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName  ref="#Galway">Galway, Ireland</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">Mabel Crawford Wright</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    Dublin 
+                    Dublin
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#Dublin">Dublin, Ireland</placeName>
+                    
+                
+                    
+                    <date when="1916-04-04">4 April 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                            <item n="tag">Patronage</item>
+                            
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2013-09-28T09:09:15" who="#Tomas808">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-09-28T09:09:15" who="#P.tomaszek">
+                
+                    Page 130 modified:
+                    <!-- 
+Dublin
+4/4/16
+
+<gap/>Lady Clonbrock 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-09-28T09:28:26" who="#P.tomaszek">
+                
+                    Page 130 modified:
+                    <!-- 
+Irish War Hospital Supply,
+Royal College of Science Sub-Depot
+Dublin
+4/4/16
+
+The Rt. Hon. Lady Clonbrock,
+President,
+Connaught Rangers <unclear>Comforts</unclear> Fund Committee
+Ahascragh,
+Co. Galway.
+
+Madam,
+At the request of the Director General of Voluntary Organisations this sub-depot which controls the Sphagnum branch of the Irish War Hospital Supply Depot, <gap/> Merrion Square, has undertaken for the War Office the Sphagnum Supply for Ireland. The Director General has suggested that in connection with this depot two main centres should be formed in the country for the collection and preparation of the moss, so that it may be sent to Dublin ready to be made up into surgical dressings. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-09-28T09:44:32" who="#Tomas808">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-09-28T09:44:32" who="#P.tomaszek">
+                
+                    Page 327 modified:
+                    <!-- 
+Should it be possible for your Committee to organise such a centre, as there are large supplies of the moss available in CO. Galway. We have already received most valuable help from Lady Mahon and others in the country, who would then contribute to your centre.
+I enclose some literature and a copy of our leaflet, and if your Committee can possibly undertake this work, we shall be pleased to supply any further information.
+The demand for moss dressings has <unclear>increased</unclear> with such unexpected rapidity, that it is absolutely essential to organise its collection on a much larger scale than we have done up to the present.
+
+Yrs. Truly 
+Mabel C. Wright 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-09-28T09:46:52" who="#P.tomaszek">
+                
+                    Page 327 modified:
+                    <!-- 
+Should it be possible for your Committee to organise such a centre, as there are large supplies of the moss available in CO. Galway. We have already received most valuable help from Lady Mahon and others in the country, who would then contribute to your centre.
+I enclose some literature and a copy of our leaflet, and if your Committee can possibly undertake this work, we shall be pleased to supply any further information.
+The demand for moss dressings has <unclear>increased</unclear> with such unexpected rapidity, that it is absolutely essential to organise its collection on a much larger scale than we have done up to the present.
+
+Yrs. Truly 
+Mabel C. Wright
+Supl. Sphagnum Dept. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-03-03T14:59:20" who="#Cianlovestheyolos">
+                
+                    Page 327 modified:
+                    <!-- 
+Should it be possible for your Committee to organise such a centre, as there are large supplies of the moss available in CO. Galway. We have already received most valuable help from Lady Mahon and others in the country, who would then contribute to your centre.
+I enclose some literature and a copy of our leaflet, and if your Committee can possibly undertake this work, we shall be pleased to supply any further information.
+The demand for moss dressings has increased with such unexpected rapidity, that it is absolutely essential to organise its collection on a much larger scale than we have done up to the present.
+
+Yrs. Truly 
+Mabel C. Wright
+Supl. Sphagnum Dept. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-17T16:14:38" who="#MaryGrehan">
+                
+                    Page 130 modified:
+                    <!-- 
+<address>Irish War Hospital Supply, Royal College of Science Sub-Depot, Dublin </address> <date><hi rend="underline">4/4/16</hi></date>
+
+<address>The Rt. Hon. Lady Clonbrock,
+President,
+Connaught Rangers <unclear>Comforts</unclear> Fund Committee
+Ahascragh,
+Co. Galway.</address>
+
+<salute>Madam,</salute>At the request of the Director General <lb/>of Voluntary Organisations this sub-depot <lb/> which controls the Sphagnum branch of <lb/> the Irish War Hospital Supply Depot, <lb/> 40 Merrion Square, has undertaken for <lb/> the War Office the Sphagnum Supply<lb/>  for Ireland. The Director General has <lb/> suggested that in connection with <lb/> this depot two main centres should be <lb/> formed in the country for the collection <lb/> and preparation of the moss, so that <lb/> it may be sent to Dublin ready to be <lb/> made up into surgical dressings.<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-17T16:19:30" who="#MaryGrehan">
+                
+                    Page 327 modified:
+                    <!-- 
+<pb/>Whould it be possible for your Committee to <lb/> organise such a centre, as there are large <lb/> supplies of the moss available in CO. Galway. <lb/>We have already received most valuable <lb/> help from Lady Mahon and others in <lb/> the country, who would then contribute <lb/>  to your centre.<p>I enclose some literature and a copy of <lb/> our leaflet, and if your Committee <lb/> can possibly undertake this work, we <lb/> shall be pleased to supply any further information.</p> <p> The demand for moss dressings has <lb/> increased with such unexpected rapidity, <lb/> that it is absolutely essential to <lb/> organise its collection on a much larger <lb/> scale than we have done up to the<lb/> present.
+
+<salute>Yrs. Truly 
+Mabel C. Wright
+Supl. Sphagnum Dept.</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-28T08:19:29" who="#Rosie17">
+                
+                    Page 130 modified:
+                    <!-- 
+<address>Irish War Hospital Supply, Royal College of Science Sub-Depot, Dublin </address> <date><hi rend="underline">4/4/16</hi></date>
+
+<address>The Rt. Hon. Lady Clonbrock,<lb/>
+President<lb/>,
+Connaught Rangers Comforts Fund Committe<lb/>e
+Ahascragh<lb/>,
+Co. Galway.</address><lb/>
+
+<salute>Madam,</salute>At the request of the Director General <lb/>of Voluntary Organisations this sub-depot <lb/> which controls the Sphagnum branch of <lb/> the Irish War Hospital Supply Depot, <lb/> 40 Merrion Square, has undertaken for <lb/> the War Office the Sphagnum Supply<lb/>  for Ireland. The Director General has <lb/> suggested that in connection with <lb/> this depot two main centres should be <lb/> formed in the country for the collection <lb/> and preparation of the moss, so that <lb/> it may be sent to Dublin ready to be <lb/> made up into surgical dressings.<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T13:39:22" who="#BarneyDoherty">
+                
+                    Page 130 modified:
+                    <!-- 
+<address>Irish War Hospital Supply, 
+<lb/>Royal College of Science Sub-Depot, 
+<lb/>Dublin </address> 
+<date><hi rend="underline">4/4/16</hi></date>
+
+<address>The Rt. Hon. Lady Clonbrock,
+<lb/>President,
+<lb/>Connaught Rangers Comforts Fund Committee,
+<lb/>Ahascragh,
+<lb/>Co. Galway.</address>
+
+<salute>Madam,</salute>
+<p>At the request of the Director General 
+<lb/>of Voluntary Organisations this sub-depot 
+<lb/> which controls the Sphagnum branch of 
+<lb/> the Irish War Hospital Supply Depot, 
+<lb/> 40 Merrion Square, has undertaken for 
+<lb/> the War Office the Sphagnum Supply
+<lb/>  for Ireland. The Director General has 
+<lb/> suggested that in connection with 
+<lb/> this depot two main centres should be 
+<lb/> formed in the country for the collection 
+<lb/> and preparation of the moss, so that 
+<lb/> it may be sent to Dublin ready to be 
+<lb/> made up into surgical dressings. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T13:48:02" who="#BarneyDoherty">
+                
+                    Page 327 modified:
+                    <!-- 
+<lb/>would it be possible for your Committee to 
+<lb/> organise such a centre, as there are large 
+<lb/> supplies of the moss available in CO. Galway. 
+<lb/>We have already received most valuable 
+<lb/> help from Lady Mahon and others in 
+<lb/> the country, who would then contribute 
+<lb/> to your centre.</p>
+<p>I enclose some literature and a copy of 
+<lb/> our leaflet, and if your Committee 
+<lb/> can possibly undertake this work, we 
+<lb/> shall be pleased to supply any further 
+<lb/>information.</p> 
+<p> The demand for moss dressings has 
+<lb/> increased with such unexpected rapidity, 
+<lb/> that it is absolutely essential to 
+<lb/> organise its collection on a much larger 
+<lb/> scale than we have done up to the
+<lb/> present.</p>
+
+<salute>Yrs. Truly </salute>
+<signed>Mabel C. Wright</signed>
+<lb/>Supr. Sphagnum Dept. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T14:52:41" who="#BarneyDoherty">
+                
+                    Page 327 modified:
+                    <!-- 
+<lb/>would it be possible for your Committee to 
+<lb/> organise such a centre, as there are large 
+<lb/> supplies of the moss available in CO. Galway. 
+<lb/>We have already received most valuable 
+<lb/> help from Lady Mahon and others in 
+<lb/> the country, who would then contribute 
+<lb/> to your centre.</p>
+<p>I enclose some literature and a copy of 
+<lb/> our leaflet, and if your Committee 
+<lb/> can possibly undertake this work, we 
+<lb/> shall be pleased to supply any further 
+<lb/>information.</p> 
+<p> The demand for moss dressings has 
+<lb/> increased with such unexpected rapidity, 
+<lb/> that it is absolutely essential to 
+<lb/> organise its collection on a much larger 
+<lb/> scale than we have done up to the
+<lb/> present.</p>
+
+<salute>Yrs. Truly </salute>
+<signed>Mabel C. Wright</signed>
+<lb/>Supt. Sphagnum Dept. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-09T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-02-09T10:13:05" who="#NR">
+                
+                    Page 130 modified:
+                    <!-- 
+<address>Irish War Hospital Supply, 
+<lb/>Royal College of Science Sub-Depot, 
+<lb/>Dublin </address> 
+<date><hi rend="underline">4/4/16</hi></date>
+
+<address>The Rt. Hon. Lady Clonbrock,
+<lb/>President,
+<lb/>Connaught Rangers Comforts Fund Committee,
+<lb/>Ahascragh,
+<lb/>Co. Galway.</address>
+
+<salute>Madam,</salute>
+<p>At the request of the Director General 
+<lb/>of Voluntary Organisations this sub-depot 
+<lb/> which controls the Sphagnum branch of 
+<lb/> the Irish War Hospital Supply Depot, 
+<lb/> 40 Merrion Square, has undertaken for 
+<lb/> the War Office the Sphagnum Supply
+<lb/>  for Ireland. The Director General has 
+<lb/> suggested that in connection with 
+<lb/> this depot two main centres should be 
+<lb/> formed in the country for the collection 
+<lb/> and preparation of the moss, so that 
+<lb/> it may be sent to Dublin ready to be 
+<lb/> made up into surgical dressings.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-09T10:13:29" who="#NR">
+                
+                    Page 327 modified:
+                    <!-- 
+<p>Would it be possible for your Committee to 
+<lb/> organise such a centre, as there are large 
+<lb/> supplies of the moss available in CO. Galway. 
+<lb/>We have already received most valuable 
+<lb/> help from Lady Mahon and others in 
+<lb/> the country, who would then contribute 
+<lb/> to your centre.</p>
+<p>I enclose some literature and a copy of 
+<lb/> our leaflet, and if your Committee 
+<lb/> can possibly undertake this work, we 
+<lb/> shall be pleased to supply any further 
+<lb/>information.</p> 
+<p> The demand for moss dressings has 
+<lb/> increased with such unexpected rapidity, 
+<lb/> that it is absolutely essential to 
+<lb/> organise its collection on a much larger 
+<lb/> scale than we have done up to the
+<lb/> present.</p>
+
+<salute>Yrs. Truly </salute>
+<signed>Mabel C. Wright</signed>
+<lb/>Supt. Sphagnum Dept. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 327 created using version from <date when="2013-09-28T09:44:32"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 327 removed (version from <date when="2013-09-28T09:44:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 327 removed (version from <date when="2013-09-28T09:46:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 327 removed (version from <date when="2014-03-03T14:59:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 327 removed (version from <date when="2015-02-17T16:19:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 327 removed (version from <date when="2016-01-21T13:48:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 327 removed (version from <date when="2016-01-21T14:52:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 327 removed (version from <date when="2016-02-09T10:13:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 130 created using version from <date when="2013-09-28T09:09:15"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 130 removed (version from <date when="2013-09-28T09:09:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 130 removed (version from <date when="2013-09-28T09:28:26"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 130 removed (version from <date when="2015-02-17T16:14:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 130 removed (version from <date when="2015-05-28T08:19:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 130 removed (version from <date when="2016-01-21T13:39:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 130 removed (version from <date when="2016-02-09T10:13:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 327 (version from <date when="2016-02-09T10:13:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 130 added to letter (version from <date when="2016-02-09T10:13:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 130 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 327 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:29" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:34" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:05" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:05" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_70_img_130" url="de2967ff61b1028e5e4853535d257470.jpg"/> 
+    
+    <graphic xml:id="L1916_70_img_327" url="6c42e4d6ee054e157f770d3a15077dba.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="130" facs="#L1916_70_img_130"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>Irish War Hospital Supply,</addrLine>
+<addrLine>Royal College of Science Sub-Depot,</addrLine>
+<addrLine>Dublin </address> 
+<dateline><date><hi rend="underline">4/4/16</hi></date></dateline>
+
+<address>The Rt. Hon. Lady Clonbrock,</addrLine>
+<addrLine>President,</addrLine>
+<addrLine>Connaught Rangers Comforts Fund Committee,</addrLine>
+<addrLine>Ahascragh,</addrLine>
+<addrLine>Co. Galway.</addrLine></address>
+
+<salute>Madam,</salute></opener>
+<p>At the request of the Director General 
+<lb/>of Voluntary Organisations this sub-depot 
+<lb/> which controls the Sphagnum branch of 
+<lb/> the Irish War Hospital Supply Depot, 
+<lb/> 40 Merrion Square, has undertaken for 
+<lb/> the War Office the Sphagnum Supply
+<lb/>  for Ireland. The Director General has 
+<lb/> suggested that in connection with 
+<lb/> this depot two main centres should be 
+<lb/> formed in the country for the collection 
+<lb/> and preparation of the moss, so that 
+<lb/> it may be sent to Dublin ready to be 
+<lb/> made up into surgical dressings.</p>
+        
+    
+
+    
+         
+        <pb n="327" facs="#L1916_70_img_327"/>
+        
+        
+           
+            <p>Would it be possible for your Committee to 
+<lb/> organise such a centre, as there are large 
+<lb/> supplies of the moss available in CO. Galway. 
+<lb/>We have already received most valuable 
+<lb/> help from Lady Mahon and others in 
+<lb/> the country, who would then contribute 
+<lb/> to your centre.</p>
+<p>I enclose some literature and a copy of 
+<lb/> our leaflet, and if your Committee 
+<lb/> can possibly undertake this work, we 
+<lb/> shall be pleased to supply any further 
+<lb/>information.</p> 
+<p> The demand for moss dressings has 
+<lb/> increased with such unexpected rapidity, 
+<lb/> that it is absolutely essential to 
+<lb/> organise its collection on a much larger 
+<lb/> scale than we have done up to the
+<lb/> present.</p>
+
+<closer><salute>Yrs. Truly </salute>
+<signed>Mabel C. Wright</signed></closer>
+<lb/>Supt. Sphagnum Dept.
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

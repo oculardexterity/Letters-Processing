@@ -1,0 +1,1204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_262">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Sean T. O&#39;Kelly to James Ryan, 22 October 1916</title>
+                
+                <author>Sean T. O&#39;Kelly</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="BH">Brian Hughes</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BarneyDoherty">Barney Doherty</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_262</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from Sean T. O'Kelly (1882-1966) to James Ryan (1891-1970). The letter was written after Ryan's release from Frongach but while O'Kelly was still imprisoned and O'Kelly mentions some prisoners who now feel neglected by their friends. O'Kelly also refers to personal and family matters and speculates about the release of the rest of the 1916 prisoners.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>James Ryan studied medicine in UCD. He was appointed chief medical officer in the GPO during the Easter Rising. After the Rising he was imprisoned in Stafford and, later, Frongoch and was released in August 1916. Ryan was later a founder member of Fianna Fáil and a government minister. Sean T. O'Kelly was a politician and later president of Ireland. He was arrested after the Rising and imprisoned first in Wandsworth the Woking, Frogach and Reading. O'Kelly married Ryan's sister Mary Kate (Kit in the letter) in 1918 and after her death he married another of Ryan's sisters, Phyllis.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: University College Dublin Archives -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF INSTITUTION REF IS CORRECT --></VERIFY>
+                        
+                        <repository ref="#UCD">University College Dublin, Archives</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Dr James Ryan Papers, P 88/42
+                             
+                        -->
+                            
+                                <collection type='public'>Dr James Ryan Papers</collection>
+                            
+                            
+                        <idno>P 88/42</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: James Ryan -->
+                        
+                        <persName ref="#Ryan_J">James Ryan</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Sean T. O&#39;Kelly -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF RECIPIENT IS CORRECT --></VERIFY>
+                        
+                        <persName ref="#OKelly_S_T">Seán T. O'Kelly</persName>
+                    
+                
+                
+                
+                    
+                    <date when="1916-10-22">22 October 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1966</item>
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                            <item n="tag">politics</item>
+                            
+                        
+                            
+                            <item n="tag">Family life</item>
+                            
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2013-11-15T18:08:50" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-11-15T18:08:50" who="#Philcostel">
+                
+                    Page 687 modified:
+                    <!-- 
+22-10-16
+My Dear Jim 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-11-15T18:24:13" who="#Philcostel">
+                
+                    Page 687 modified:
+                    <!-- 
+22-10-16
+My Dear Jim
+Thanks for your long and interesting epistle. I am delighted to hear you write so frequently to the boys in the camp. With a small number of exceptions the experience of all here has been that they have been almost completely forgotten by their friends who left them and went home and some of the boys feel very sore over the neglect of their friends - you know how much a letter now and then is appreciated by all the lads. For my own part I have no reason to complain. All my particular friends - or nearly all - have been kind enough in this way. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-11-15T18:58:41" who="#Philcostel">
+                
+                    Page 687 modified:
+                    <!-- 
+22-10-16
+My Dear Jim
+Thanks for your long and interesting epistle. I am delighted to hear you write so frequently to the boys in the camp. With a small number of exceptions the experience of all here has been that they have been almost completely forgotten by their friends who left them and went home and some of the boys feel very sore over the neglect of their friends - you know how much a letter now and then is appreciated by all the lads. For my own part I have no reason to complain. All my particular friends - or nearly all - have been kind enough in this way.
+I am sorry to hear that the yarn about P.O'C. is founded on fact. I laughed at it as a great yarn when A.G. told it to me first. Is it true that Mr. B. goes out to Poulaphuca once a week to see the lady and present her with flowers? How agreeable and kind of him! By the way how are the Grogans. Strange to say I never had a line from himself since long before Easter. I suppose they like being back in the old neighbourhood.
+Padraig was glad to hear your 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-11-15T19:20:05" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-11-15T19:20:05" who="#Philcostel">
+                
+                    Page 688 modified:
+                    <!-- 
+account of things in his county.He was greatly pleased with the complimentary references to his prowess as a card player. I believe he fancies himself some in that line. It is one of his weak spots and he is quite ready to swallow any quantity of praise. You should hear Nicholls or P.J.D. on him when they are playing together. It is very rich sometimes. I should be interested to see a game between himself and yourself on opposite sides. I believe with all his notions of himself you'd clean out his pockets quickly. We were all glad to learn the West was as reliable.
+Have you decided on the HallowEne for the ?Rick? up at the Widow's. I think even I would be quite willing to be tormented by being pestered to sing by herself and Jane B. for a whole night now. In fact I believe I should enjoy the experience which so often made me swear bad. We have decided to arrange some kind of joint spread for that night too and I have had the cheek to ask the widow to send me on a cake for the occasion.
+I would not be surprised if some of the camp men were home before long. While I don't 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-11-15T19:31:12" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-11-15T19:31:12" who="#Philcostel">
+                
+                    Page 689 modified:
+                    <!-- 
+credit the newspaper stories about wholesale releases I feel almost certain that they cannot keep the great bulk of these men very much longer. As to ourselves I don't believe there's much likelihood of our being home in time for the Christmas dinner. I shall be agreeably surprised if we are - or at any rate if I myself am so lucky.
+We had Mrs. D Brighid here on Thursday and of course had all the latest news and gossip from them. Tomorrow I hear  the Dalys are coming. I don't expect I shall be able to see them but but I'll have a try anyhow. On Tuesday I expect to 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-11-18T08:19:02" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-11-18T08:19:02" who="#Philcostel">
+                
+                    Page 690 modified:
+                    <!-- 
+I need not tell you anything of the 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-11-18T08:31:42" who="#Philcostel">
+                
+                    Page 689 modified:
+                    <!-- 
+credit the newspaper stories about wholesale releases I feel almost certain that they cannot keep the great bulk of these men very much longer. As to ourselves I don't believe there's much likelihood of our being home in time for the Christmas dinner. I shall be agreeably surprised if we are - or at any rate if I myself am so lucky.
+We had Mrs. D Brighid here on Thursday and of course had all the latest news and gossip from them. Tomorrow I hear  the Dalys are coming. I don't expect I shall be able to see them but but I'll have a try anyhow. On Tuesday I expect to see Seoirse G Duffy. So you see we will be kept fairly well up to date with the news. 
+I had a long letter from Thunder yesterday to tell me he had at last succeeded in getting the promotion and increase of salary he had been expecting for the last two years almost. He is greatly elated over it. He has £60 or £70 back pay to draw and intends doing himself well at the end of the month for a few days. You ought to ring him up and congratulate him. You should be well able to deputize for me in whatever is going! I believe his brother P.J. is marrying the Galway girl some time in January next. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-11-18T08:48:13" who="#Philcostel">
+                
+                    Page 690 modified:
+                    <!-- 
+I need not tell you anything of the visit Nell paid me. She has told you all there was to tell by this. I suppose she is at home enjoying herself and cheering the hearts of the old folk  and all the old friends and neighbours by this.
+O'Reilly I believe wrote to you recently. Ginger, W.T.C., A.G., P. Mór and all of the other boys are in A1 form.
+I hope Phyl. and "Baby" got the letters I sent them recently. How would you like to give them <hi rend="underline">one</hi> each for me.
+Do Bhuan Chara S.T.
+What has become of May Codd. I never hear a word about her now. Has she taken up a post or is she doing a post graduate course? I am often reminded of her when shaving and using the mirror shr presented to me in Richmond. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-21T10:03:55" who="#Comber">
+                
+                    Page 687 modified:
+                    <!-- 
+<add>P88/42 (1)</add>
+<date>22-10-16</date>
+<salute>My Dear Jim</salute>
+<p>Thanks for your long and<lb/> interesting epistle. I am delighted to hear<lb/> you write so frequently to the boys in the camp.<lb/> With a small number of exceptions the experience<lb/> of all here has been that they have been almost<lb/> completely forgotten by their friends who left them<lb/> and went home and some of the boys feel very<lb/> sore over the neglect of their friends - you<lb/> know how much a letter now and then is<lb/> appreciated by all the lads. For my own<lb/> part I have no reason to complain. All my<lb/> particular friends - or nearly all - have been<lb/> kind enough in this way.<lb/></p>
+<p>I am sorry to hear that the yar<lb/>n about P.O'C. is founded on fact. I laughed at it as a<lb/> great yarn when A.G. told it to me first. Is it true<lb/> that Mr. B. goes out to Poulaphuca once a week<lb/> to see the lady and present her with flowers? How<lb/> agreeable and kind of him! By the way how<lb/> are the Grogans. Strange to say I never had a line from<lb/> himself since long before Easter. I suppose they<lb/> like being back in the old neighbourhood.<lb/></p>
+Padraig was glad to hear your<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-21T10:14:26" who="#Comber">
+                
+                    Page 688 modified:
+                    <!-- 
+<add>P88/42 (2)</add>
+<add>2</add>
+<pb/>account of things in his county.He was<lb/> greatly pleased with the complimentary references<lb/> to his prowess as a card player. I<lb/> believe he fancies himself some in that line.<lb/> It is one of his weak spots and he is quite ready<lb/> to swallow any quantity of praise. You should<lb/> hear Nicholls or P.J.D. on him when they are<lb/> playing together. It is very rich sometimes. I<lb/> should be interested to see a game with yourself<lb/> on opposite sides. I believe<lb/> with all his notions of himself you'd clean out<lb/> his pockets quickly. We were all glad to learn the West was so reliable.<lb/>
+<p>Have you decided on the Hallow Eve<lb/> for the <gap/> up at the Widow's. I think even I<lb/> would be quite willing to be tormented by being<lb/> pestered to <hi rend="underline">sing</hi> by herself and Jane B. for a whole<lb/> night now. In fact I believe I should enjoy the<lb/> experience which so often made me swear bad.<lb/> We have decided to arrange some kind of joint<lb/> spread for that night too and I have had the cheek<lb/> to ask the widow to send me on a cake for the<lb/> occasion.<lb/></p>
+I would not be surprised if some of the<lb/> camp men were home before long. While I don't<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-21T10:23:31" who="#Comber">
+                
+                    Page 689 modified:
+                    <!-- 
+<add>P88/42 (3)</add>
+<add><hi rend="underline">3</hi></add>
+<pb/>credit the newspaper stories about wholesale<lb/> releases I feel almost certain that they cannot<lb/> keep the great bulk of these men very much longer.<lb/> As to ourselves I don't believe there's much likelihood<lb/> of our being home in time for the Christmas<lb/> dinner. I shall be agreeably surprised if we<lb/> are - or at any rate if I myself am so lucky.<lb/>
+<p>We had Mrs. D and Brighid here on Thursday<lb/> and of course had all the latest news and gossip<lb/> from them. Tomorrow I hear  the Dalys are coming.<lb/> I don't expect I shall be able to see them but<lb/> I'll have a try anyhow. On Tuesday I expect to<lb/> see Seoirse G Duffy. So you see we will be<lb/> kept fairly well up to date with the news.<lb/></p> 
+<p>I had a long letter from Thunder yesterday<lb/> to tell me he had at last succeeded in getting the<lb/> promotion and increase of salary he had been<lb/> expecting for the last two years almost. He is<lb/> greatly elated over it. He has £60 or £70 back<lb/> pay to draw and intends doing himself well at<lb/> the end of the month for a few days. You<lb/> ought to ring him up and congratulate him. You<lb/> should be well able to deputize for me in whatever<lb/> is going! I believe his brother P.J. is marrying<lb/> the Galway girl some time in January next.<lb/></p><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-21T10:28:19" who="#Comber">
+                
+                    Page 690 modified:
+                    <!-- 
+<pb/><p>I need not tell you anything of the visit Nell<lb/> paid me. She has told you all there<lb/> was to tell by this. I suppose she is at<lb/> home enjoying herself and cheering the<lb/> hearts of the old folk  and all her old<lb/> friends and neighbours by this.<lb/></p>
+<p>O'Reilly I believe wrote to you<lb/> recently. Ginger, W.T.C., A.G., P. Mór and<lb/> all of the other boys are in A1 form.<lb/></p>
+<p>I hope Phyl. and "Baby" got the<lb/> letters I sent them recently. How would<lb/> you like to give them <hi rend="underline">one</hi> each for me.<lb/></p>
+<salute>Do Bhuan Chara S.T.</salute>
+What has become of May Codd. I never hear<lb/> a word about her now. Has she taken up<lb/> a post or is she doing a post graduate course?<lb/> I am often reminded of her when shaving <gap/><lb/>and using the mirror she presented to me<lb/> in Richmond.<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T12:18:20" who="#BarneyDoherty">
+                
+                    Page 687 modified:
+                    <!-- 
+<add>P88/42 (1)</add>
+<date>22-10-16</date>
+<salute>My Dear Jim</salute>
+<p>Thanks for your long and
+<lb/> interesting epistle. I am delighted to hear
+<lb/> you write so frequently to the boys in the camp.
+<lb/> With a small number of exceptions the experience
+<lb/> of all here has been that they have been almost
+<lb/> completely forgotten by their friends who left them
+<lb/> and went home and some of the boys feel very
+<lb/> sore over the neglect of their friends &#x2014; you
+<lb/> know how much a letter now and then is
+<lb/> appreciated by all the lads. For my own
+<lb/> part I have no reason to complain. All my
+<lb/> particular friends &#x2014; or nearly all &#x2014; have been
+<lb/> kind enough in this way.<lb/></p>
+<p>I am sorry to hear that the yarn
+<lb/> about P.O'C. is founded on fact. I laughed at it as a
+<lb/> great yarn when A.G. told it to me first. Is it true
+<lb/> that Mr. B. goes out to Poulaphuca once a week
+<lb/> to see the lady and present her with flowers? How
+<lb/> agreeable and kind of him! By the way how
+<lb/> are the Grogans. Strange to say I never had a line from
+<lb/> himself since long before Easter. I suppose they
+<lb/> like being back in the old neighbourhood.</p>
+<p>Padraig was glad to hear your
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T12:45:37" who="#BarneyDoherty">
+                
+                    Page 688 modified:
+                    <!-- 
+<add>P88/42 (2)</add>
+<add>2</add>
+<lb/> account of things in his county.He was
+<lb/> greatly pleased with the complimentary refer&#x2014;
+<lb/> ences to his prowess as a card player. I
+<lb/> believe he fancies himself some in that line.
+<lb/> It is one of his weak spots and he is quite ready
+<lb/> to swallow any quantity of praise. You should
+<lb/> hear Nicholls or P.J.D. on him when they are
+<lb/> playing together. It is very rich sometimes. I
+<lb/> should be interested to see a game with your&#x2014;
+<lb/> self and himself on opposite sides. I believe
+<lb/> with all his notions of himself you'd clean out
+<lb/> his pockets quickly. We were all glad to learn 
+<lb/> the West was so reliable.<lb/>
+<p>Have you decided on the Hallow Eve
+<lb/> for the kick up at the Widow's. I think even I
+<lb/> would be quite willing to be tormented by being
+<lb/> pestered to <hi rend="underline">sing</hi> by herself and Jane B. for a whole
+<lb/> night now. In fact I believe I should enjoy the
+<lb/> experience which so often made me swear bad.
+<lb/> We have decided to arrange some kind of joint
+<lb/> spread for that night too and I have had the cheek
+<lb/> to ask the widow to send me on a cake for the
+<lb/> occasion.</p>
+<p>I would not be surprised if some of the
+<lb/> camp men were home before long. While I don't<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T12:52:43" who="#BarneyDoherty">
+                
+                    Page 689 modified:
+                    <!-- 
+<add>P88/42 (3)</add>
+<add><hi rend="underline">3</hi></add>
+<lb/>credit the newspaper stories about wholesale
+<lb/> releases I feel almost certain that they cannot
+<lb/> keep the great bulk of these men very much longer.
+<lb/> As to ourselves I don't believe there's much likeli&#x2014;
+<lb/> hood of our being home in time for the Christmas
+<lb/> dinner. I shall be agreeably surprised if we
+<lb/> are &#x2014; or at any rate if I myself am so lucky.
+<p>We had Mrs. D and Brighid here on Thursday
+<lb/> and of course had all the latest news and gossip
+<lb/> from them. Tomorrow I hear  the Dalys are coming.
+<lb/> I don't expect I shall be able to see them but
+<lb/> I'll have a try anyhow. On Tuesday I expect to
+<lb/> see Seoirse G Duffy. So you see we will be
+<lb/> kept fairly well up to date with the news.</p> 
+<p>I had a long letter from Thunder yesterday
+<lb/> to tell me he had at last succeeded in getting the
+<lb/> promotion and increase of salary he had been
+<lb/> expecting for the last two years almost. He is
+<lb/> greatly elated over it. He has £60 or £70 back
+<lb/> pay to draw and intends doing himself well at
+<lb/> the end of the month for a few days. You
+<lb/> ought to ring him up and congratulate him. You
+<lb/> should be well able to deputize for me in whatever
+<lb/> is going! I believe his brother P.J. is marrying the
+<lb/> Galway girl some time in January next.</p>
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T12:58:05" who="#BarneyDoherty">
+                
+                    Page 690 modified:
+                    <!-- 
+<p>I need not tell you anything of the visit Nell
+<lb/> paid me. She has told you all there
+<lb/> was to tell by this. I suppose she is at
+<lb/> home enjoying herself and cheering the
+<lb/> hearts of the old folk and all her old
+<lb/> friends and neighbours by this.</p>
+<p>O'Reilly I believe wrote to you
+<lb/> recently. Ginger, W.T.C., A.G., P. Mór and
+<lb/> all of the other boys are in A1 form.</p>
+<p>I hope Phyl. and "Baby" got the
+<lb/> letters I sent them recently. How would
+<lb/> you like to give them <hi rend="underline">one</hi> each for me.</p>
+<salute>Do Bhuan Chara</salute> <signed>S.T.</signed>
+<note>What has become of May Codd. I never hear
+<lb/> a word about her now. Has she taken up
+<lb/> a post or is she doing a post graduate course?
+<lb/> I am often reminded of her when shaving S.T.
+<lb/>and using the mirror she presented to me
+<lb/> in Richmond.</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-13T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-13T17:12:10" who="#NR">
+                
+                    Page 687 modified:
+                    <!-- 
+<add>P88/42 (1)</add>
+<date>22-10-16</date>
+<salute>My Dear Jim</salute>
+<p>Thanks for your long and
+<lb/> interesting epistle. I am delighted to hear
+<lb/> you write so frequently to the boys in the camp.
+<lb/> With a small number of exceptions the experience
+<lb/> of all here has been that they have been almost
+<lb/> completely forgotten by their friends who left them
+<lb/> and went home and some of the boys feel very
+<lb/> sore over the neglect of their friends &#x2014; you
+<lb/> know how much a letter now and then is
+<lb/> appreciated by all the lads. For my own
+<lb/> part I have no reason to complain. All my
+<lb/> particular friends &#x2014; or nearly all &#x2014; have been
+<lb/> kind enough in this way.</p>
+<p>I am sorry to hear that the yarn
+<lb/> about P.O'C. is founded on fact. I laughed at it as a
+<lb/> great yarn when A.G. told it to me first. Is it true
+<lb/> that Mr. B. goes out to Poulaphuca once a week
+<lb/> to see the lady and present her with flowers? How
+<lb/> agreeable and kind of him! By the way how
+<lb/> are the Grogans. Strange to say I never had a line from
+<lb/> himself since long before Easter. I suppose they
+<lb/> like being back in the old neighbourhood.</p>
+<p>Padraig was glad to hear your 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-13T17:13:09" who="#NR">
+                
+                    Page 688 modified:
+                    <!-- 
+<add>P88/42 (2)</add>
+<add>2</add>
+<lb/> account of things in his county.He was
+<lb/> greatly pleased with the complimentary refer&#x2014;
+<lb/> ences to his prowess as a card player. I
+<lb/> believe he fancies himself some in that line.
+<lb/> It is one of his weak spots and he is quite ready
+<lb/> to swallow any quantity of praise. You should
+<lb/> hear Nicholls or P.J.D. on him when they are
+<lb/> playing together. It is very rich sometimes. I
+<lb/> should be interested to see a game with your&#x2014;
+<lb/> self and himself on opposite sides. I believe
+<lb/> with all his notions of himself you'd clean out
+<lb/> his pockets quickly. We were all glad to learn 
+<lb/> the West was so reliable.</p>
+<p>Have you decided on the Hallow Eve
+<lb/> for the kick up at the Widow's. I think even I
+<lb/> would be quite willing to be tormented by being
+<lb/> pestered to <hi rend="underline">sing</hi> by herself and Jane B. for a whole
+<lb/> night now. In fact I believe I should enjoy the
+<lb/> experience which so often made me swear bad.
+<lb/> We have decided to arrange some kind of joint
+<lb/> spread for that night too and I have had the cheek
+<lb/> to ask the widow to send me on a cake for the
+<lb/> occasion.</p>
+<p>I would not be surprised if some of the
+<lb/> camp men were home before long. While I don't 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-13T17:13:51" who="#NR">
+                
+                    Page 689 modified:
+                    <!-- 
+<add>P88/42 (3)</add>
+<add><hi rend="underline">3</hi></add>
+<lb/>credit the newspaper stories about wholesale
+<lb/> releases I feel almost certain that they cannot
+<lb/> keep the great bulk of these men very much longer.
+<lb/> As to ourselves I don't believe there's much likeli&#x2014;
+<lb/> hood of our being home in time for the Christmas
+<lb/> dinner. I shall be agreeably surprised if we
+<lb/> are &#x2014; or at any rate if I myself am so lucky.
+<p>We had Mrs. D and Brighid here on Thursday
+<lb/> and of course had all the latest news and gossip
+<lb/> from them. Tomorrow I hear  the Dalys are coming.
+<lb/> I don't expect I shall be able to see them but
+<lb/> I'll have a try anyhow. On Tuesday I expect to
+<lb/> see Seoirse G Duffy. So you see we will be
+<lb/> kept fairly well up to date with the news.</p> 
+<p>I had a long letter from Thunder yesterday
+<lb/> to tell me he had at last succeeded in getting the
+<lb/> promotion and increase of salary he had been
+<lb/> expecting for the last two years almost. He is
+<lb/> greatly elated over it. He has £60 or £70 back
+<lb/> pay to draw and intends doing himself well at
+<lb/> the end of the month for a few days. You
+<lb/> ought to ring him up and congratulate him. You
+<lb/> should be well able to deputize for me in whatever
+<lb/> is going! I believe his brother P.J. is marrying the
+<lb/> Galway girl some time in January next.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 687 created using version from <date when="2013-11-15T18:08:50"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 687 removed (version from <date when="2013-11-15T18:08:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 687 removed (version from <date when="2013-11-15T18:24:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 687 removed (version from <date when="2013-11-15T18:58:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 687 removed (version from <date when="2015-01-21T10:03:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 687 removed (version from <date when="2016-01-08T12:18:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 687 removed (version from <date when="2016-01-13T17:12:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 690 created using version from <date when="2013-11-18T08:19:02"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 690 removed (version from <date when="2013-11-18T08:19:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 690 removed (version from <date when="2013-11-18T08:48:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 690 removed (version from <date when="2015-01-21T10:28:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 690 removed (version from <date when="2016-01-08T12:58:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 688 created using version from <date when="2013-11-15T19:20:05"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 688 removed (version from <date when="2013-11-15T19:20:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 688 removed (version from <date when="2015-01-21T10:14:26"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 688 removed (version from <date when="2016-01-08T12:45:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 688 removed (version from <date when="2016-01-13T17:13:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 689 created using version from <date when="2013-11-15T19:31:12"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 689 removed (version from <date when="2013-11-15T19:31:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 689 removed (version from <date when="2013-11-18T08:31:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 689 removed (version from <date when="2015-01-21T10:23:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 689 removed (version from <date when="2016-01-08T12:52:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 689 removed (version from <date when="2016-01-13T17:13:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 687 (version from <date when="2016-01-13T17:12:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 690 added to letter (version from <date when="2016-01-13T17:14:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 688 added to letter (version from <date when="2016-01-13T17:13:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 689 added to letter (version from <date when="2016-01-13T17:13:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 688 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 689 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 690 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 687 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:28" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:32" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:45" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:45" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_262_img_687" url="8fe9261206b8d83bbb9ba859e473a45e.jpg"/> 
+    
+    <graphic xml:id="L1916_262_img_688" url="c82f906ab94b769a7e489879b894b68b.jpg"/> 
+    
+    <graphic xml:id="L1916_262_img_689" url="0a00921a64c54b8ce1b3015a2dc3ada3.jpg"/> 
+    
+    <graphic xml:id="L1916_262_img_690" url="50cdf763a1379c172444bbf83a287be5.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="687" facs="#L1916_262_img_687"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<add>P88/42 (1)</add>
+<opener><dateline><date>22-10-16</date></dateline>
+<salute>My Dear Jim</salute></opener>
+<p>Thanks for your long and
+<lb/> interesting epistle. I am delighted to hear
+<lb/> you write so frequently to the boys in the camp.
+<lb/> With a small number of exceptions the experience
+<lb/> of all here has been that they have been almost
+<lb/> completely forgotten by their friends who left them
+<lb/> and went home and some of the boys feel very
+<lb/> sore over the neglect of their friends &#x2014; you
+<lb/> know how much a letter now and then is
+<lb/> appreciated by all the lads. For my own
+<lb/> part I have no reason to complain. All my
+<lb/> particular friends &#x2014; or nearly all &#x2014; have been
+<lb/> kind enough in this way.</p>
+<p>I am sorry to hear that the yarn
+<lb/> about P.O'C. is founded on fact. I laughed at it as a
+<lb/> great yarn when A.G. told it to me first. Is it true
+<lb/> that Mr. B. goes out to Poulaphuca once a week
+<lb/> to see the lady and present her with flowers? How
+<lb/> agreeable and kind of him! By the way how
+<lb/> are the Grogans. Strange to say I never had a line from
+<lb/> himself since long before Easter. I suppose they
+<lb/> like being back in the old neighbourhood.</p>
+<p>Padraig was glad to hear your
+        
+    
+
+    
+         
+        <pb n="688" facs="#L1916_262_img_688"/>
+        
+        
+           
+            <add>P88/42 (2)</add>
+<add>2</add>
+<lb/> account of things in his county.He was
+<lb/> greatly pleased with the complimentary refer&#x2014;
+<lb/> ences to his prowess as a card player. I
+<lb/> believe he fancies himself some in that line.
+<lb/> It is one of his weak spots and he is quite ready
+<lb/> to swallow any quantity of praise. You should
+<lb/> hear Nicholls or P.J.D. on him when they are
+<lb/> playing together. It is very rich sometimes. I
+<lb/> should be interested to see a game with your&#x2014;
+<lb/> self and himself on opposite sides. I believe
+<lb/> with all his notions of himself you'd clean out
+<lb/> his pockets quickly. We were all glad to learn 
+<lb/> the West was so reliable.</p>
+<p>Have you decided on the Hallow Eve
+<lb/> for the kick up at the Widow's. I think even I
+<lb/> would be quite willing to be tormented by being
+<lb/> pestered to <hi rend="underline">sing</hi> by herself and Jane B. for a whole
+<lb/> night now. In fact I believe I should enjoy the
+<lb/> experience which so often made me swear bad.
+<lb/> We have decided to arrange some kind of joint
+<lb/> spread for that night too and I have had the cheek
+<lb/> to ask the widow to send me on a cake for the
+<lb/> occasion.</p>
+<p>I would not be surprised if some of the
+<lb/> camp men were home before long. While I don't
+        
+    
+         
+        <pb n="689" facs="#L1916_262_img_689"/>
+        
+        
+           
+            <add>P88/42 (3)</add>
+<add><hi rend="underline">3</hi></add>
+<lb/>credit the newspaper stories about wholesale
+<lb/> releases I feel almost certain that they cannot
+<lb/> keep the great bulk of these men very much longer.
+<lb/> As to ourselves I don't believe there's much likeli&#x2014;
+<lb/> hood of our being home in time for the Christmas
+<lb/> dinner. I shall be agreeably surprised if we
+<lb/> are &#x2014; or at any rate if I myself am so lucky.
+<p>We had Mrs. D and Brighid here on Thursday
+<lb/> and of course had all the latest news and gossip
+<lb/> from them. Tomorrow I hear  the Dalys are coming.
+<lb/> I don't expect I shall be able to see them but
+<lb/> I'll have a try anyhow. On Tuesday I expect to
+<lb/> see Seoirse G Duffy. So you see we will be
+<lb/> kept fairly well up to date with the news.</p> 
+<p>I had a long letter from Thunder yesterday
+<lb/> to tell me he had at last succeeded in getting the
+<lb/> promotion and increase of salary he had been
+<lb/> expecting for the last two years almost. He is
+<lb/> greatly elated over it. He has £60 or £70 back
+<lb/> pay to draw and intends doing himself well at
+<lb/> the end of the month for a few days. You
+<lb/> ought to ring him up and congratulate him. You
+<lb/> should be well able to deputize for me in whatever
+<lb/> is going! I believe his brother P.J. is marrying the
+<lb/> Galway girl some time in January next.</p>
+        
+    
+         
+        <pb n="690" facs="#L1916_262_img_690"/>
+        
+        
+           
+            <p>I need not tell you anything of the visit Nell
+<lb/> paid me. She has told you all there
+<lb/> was to tell by this. I suppose she is at
+<lb/> home enjoying herself and cheering the
+<lb/> hearts of the old folk and all her old
+<lb/> friends and neighbours by this.</p>
+<p>O'Reilly I believe wrote to you
+<lb/> recently. Ginger, W.T.C., A.G., P. Mór and
+<lb/> all of the other boys are in A1 form.</p>
+<p>I hope Phyl. and "Baby" got the
+<lb/> letters I sent them recently. How would
+<lb/> you like to give them <hi rend="underline">one</hi> each for me.</p>
+<closer><salute>Do Bhuan Chara</salute> <signed>S.T.</signed></closer>
+<note>What has become of May Codd. I never hear
+<lb/> a word about her now. Has she taken up
+<lb/> a post or is she doing a post graduate course?
+<lb/> I am often reminded of her when shaving S.T.
+<lb/>and using the mirror she presented to me
+<lb/> in Richmond.</note>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_834">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Nancy Campbell to Mabel FitzGerald, 23 May 1916</title>
+                
+                <author>Nancy Campbell</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_834</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>Letter from Nancy Campbell to Mabel FitzGerald (1884-1957). Mrs. Campbell feels sure that there will be pressure put on the British by America. She feels that all of the prisoners will be released at the end of the war and urges Mrs FitzGerald to remain hopeful. She mentions a vacant house (in her area) which she suggests Mrs. FitzGerald might take for the summer. </p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Nancy Campbell, neé Maude, (b. 23 May 1886) was the daughter of Colonel Aubrey Maude, Cameronian Highlanders. Nancy met the poet Joseph Campbell (1879 – 1944) during a visit to Ireland in 1909 and married him in May 1910 whereupon Nancy became completely estranged from her family. Mabel Fitzgerald was the wife of Irish Volunteer Desmond Fitzgerald (1888-1947).  Mabel was a former governess in London. She later vigorously canvassed her former acquaintances in London's liberal circles for support for Francis Sheehy Skeffington (1878 -1916) during his hunger strike in 1915. Both Mabel and Desmond would serve in the GPO garrison during Easter Week.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: University College Dublin Archives -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF INSTITUTION REF IS CORRECT --></VERIFY>
+                        
+                        <repository ref="#UCD">University College Dublin, Archives</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: FitzGerald Papers, P80/1579/1
+                             
+                        -->
+                            
+                                <collection type='public'>FitzGerald Papers</collection>
+                            
+                            
+                        <idno>P80/1579/1</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Mabel FitzGerald -->
+                        
+                        <persName ref="#FitzGerald_M">Mabel FitzGerald</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Nancy Campbell -->
+                        
+                        <persName ref="#Campbell_N">Nancy Campbell</persName>
+                    
+                
+                
+                
+                    
+                    <date when="1916-05-23">23 May 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Female</item>
+                      
+                    
+                        <item n="death">1957</item>
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-02-28T13:07:23" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-02-28T13:07:23" who="#Philcostel">
+                
+                    Page 2132 modified:
+                    <!-- 
+May 23rd 1916
+
+Dear Mrs.Fitzgerald
+I had <gap/> by to find you yesterday but of course you had the chance of seeing your husband - I do hope you did?
+I think his sentence is monstrous - but I am sure pressure will 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-28T13:13:35" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-02-28T13:13:35" who="#Philcostel">
+                
+                    Page 2133 modified:
+                    <!-- 
+be brought to bear from America etc. - & even if he is left till the end of the war they will all be let out then.
+So, though I know you must feel wretched you mustn't be hopeless - they simply can't keep to all those atrocious sentences - so many of them too.
+What will your plans be? 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-28T13:17:54" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-02-28T13:17:54" who="#Philcostel">
+                
+                    Page 2134 modified:
+                    <!-- 
+There is the farm down (Mr.Quigley's you know) near here which I believe is to be "set" for the summer - you couldn't come there could you?
+I do hope the children are better - you don't want any other worries!
+I don't know if I can get in again this week - unless its 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-28T13:22:36" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-02-28T13:22:36" who="#Philcostel">
+                
+                    Page 2135 modified:
+                    <!-- 
+Friday - let me know if you'll be in then - I'll bring some more eggs.
+The heroism of the Volunteers grows & grows for me
+Yours
+Nancy Campbell 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-16T14:45:05" who="#Comber">
+                
+                    Page 2132 modified:
+                    <!-- 
+<date>May 23<hi rend="superscript">rd</hi> 1916</date>
+
+<salute>Dear Mrs.Fitzgerald</salute>
+<p>I had <gap/> by to<lb/> find you yesterday but<lb/> of course <del>deleted text</del> you had<lb/> the chance of seeing<lb/> your husband - I do hope you did?<lb/></p>
+I think his sentence is monstrous - but<lb/> I am sure pressure will<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-16T14:49:01" who="#Comber">
+                
+                    Page 2133 modified:
+                    <!-- 
+<pb/>be brought to bear from<lb/> America etc. - &amp; even<lb/> if he is left till the<lb/> end of the war they will<lb/> all be let out then.<lb/>
+<p>So, though I know you<lb/> must feel wretched,<lb/> you mustn't be hopeless &#x2014;<lb/> they simply can't keep to all those atrocious<lb/> sentences &#x2014;so many of<lb/> them too.<lb/></p>
+What will your plans be?<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-16T14:51:43" who="#Comber">
+                
+                    Page 2134 modified:
+                    <!-- 
+<pb/>There is the farm house<lb/> (Mr.Quigley's you know)<lb/> near here which I<lb/> believe is to be "set"<lb/> for the summer &#x2014; you couldn't come there,<lb/> could you?<lb/>
+<p>I do hope the children are<lb/> better - you don't want<lb/> any other worries!<lb/></p>
+I don't know if I<lb/> can get in again this week - unless its<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-16T14:53:34" who="#Comber">
+                
+                    Page 2135 modified:
+                    <!-- 
+<pb/>Friday &#x2014; let me know<lb/> if you'll be in then &#x2014;<lb/> I'll bring some more<lb/> eggs.<lb/>
+<p>The heroism of the<lb/> Volunteers grows &amp; grows for me<lb/></p>
+<salute>Yours
+Nancy Campbell</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T11:40:31" who="#NR">
+                
+                    Page 2132 modified:
+                    <!-- 
+<date>May 23<hi rend="superscript">rd</hi> 1916</date>
+
+<salute>Dear Mrs.Fitzgerald</salute>
+<p>I had <unclear>called</unclear> by to
+<lb/> find you yesterday but
+<lb/> of course <del>if</del> you had
+<lb/> the chance of seeing
+<lb/> your husband - I do hope you did?</p>
+<p>I think his sentence is monstrous - but
+<lb/> I am sure pressure will 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T11:42:02" who="#NR">
+                
+                    Page 2133 modified:
+                    <!-- 
+<lb/>be brought to bear from
+<lb/> America etc. - &amp; even
+<lb/> if he is left till the
+<lb/> end of the war they will
+<lb/> all be let out then.</p>
+<p>So, though I know you
+<lb/> must feel wretched,
+<lb/> you mustn't be hopeless &#x2014;
+<lb/> they simply can't keep to all those atrocious
+<lb/> sentences &#x2014;so many of
+<lb/> them too.</p>
+<p>What will your plans be? 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T11:43:00" who="#NR">
+                
+                    Page 2134 modified:
+                    <!-- 
+<lb/>There is the farm house
+<lb/> (Mr.Quigley's you know)
+<lb/> near here which I
+<lb/> believe is to be "set"
+<lb/> for the summer &#x2014; 
+<lb/>you couldn't come there,
+<lb/> could you?</p>
+<p>I do hope the children are
+<lb/> better - you don't want
+<lb/> any other worries!</p>
+<p>I don't know if I
+<lb/> can get in again
+<lb/> this week - unless its 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T11:44:59" who="#NR">
+                
+                    Page 2135 modified:
+                    <!-- 
+<lb/>Friday &#x2014; let me know
+<lb/> if you'll be in then &#x2014;
+<lb/> I'll bring some more<lb/>
+ eggs.</p>
+<p>The heroism of the
+<lb/> Volunteers grows &amp; 
+<lb/>grows for me</p>
+<salute>Yours</salute>
+<signed>Nancy Campbell</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2133 created using version from <date when="2014-02-28T13:13:35"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2133 removed (version from <date when="2014-02-28T13:13:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2133 removed (version from <date when="2015-02-16T14:49:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2133 removed (version from <date when="2016-01-08T11:42:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2134 created using version from <date when="2014-02-28T13:17:54"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2134 removed (version from <date when="2014-02-28T13:17:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2134 removed (version from <date when="2015-02-16T14:51:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2134 removed (version from <date when="2016-01-08T11:43:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2135 created using version from <date when="2014-02-28T13:22:36"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2135 removed (version from <date when="2014-02-28T13:22:36"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2135 removed (version from <date when="2015-02-16T14:53:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2135 removed (version from <date when="2016-01-08T11:44:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2132 created using version from <date when="2014-02-28T13:07:23"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2132 removed (version from <date when="2014-02-28T13:07:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2132 removed (version from <date when="2015-02-16T14:45:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2132 removed (version from <date when="2016-01-08T11:40:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2133 (version from <date when="2016-01-08T11:42:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2134 added to letter (version from <date when="2016-01-08T11:43:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2135 added to letter (version from <date when="2016-01-08T11:45:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2132 added to letter (version from <date when="2016-01-08T11:40:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:18" who="#PythonScript">
+                
+                    Clean tags: Page 2132 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:18" who="#PythonScript">
+                
+                    Clean tags: Page 2133 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:18" who="#PythonScript">
+                
+                    Clean tags: Page 2134 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:18" who="#PythonScript">
+                
+                    Clean tags: Page 2135 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:29" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:34" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:09" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:09" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_834_img_2132" url="b819479c8ab0c44a64cc1819addbfad6.jpg"/> 
+    
+    <graphic xml:id="L1916_834_img_2133" url="f8359c574c7484a16363aa6fef13e0ec.jpg"/> 
+    
+    <graphic xml:id="L1916_834_img_2134" url="2be4cd151e911fc10645169f6a4de94d.jpg"/> 
+    
+    <graphic xml:id="L1916_834_img_2135" url="24e654563d6c9f1948b334f1a3b71aba.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2132" facs="#L1916_834_img_2132"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><dateline><date>May 23<hi rend="superscript">rd</hi> 1916</date></dateline>
+
+<salute>Dear Mrs.Fitzgerald</salute></opener>
+<p>I had <unclear>called</unclear> by to
+<lb/> find you yesterday but
+<lb/> of course <del>if</del> you had
+<lb/> the chance of seeing
+<lb/> your husband - I do hope you did?</p>
+<p>I think his sentence is monstrous - but
+<lb/> I am sure pressure will
+        
+    
+
+    
+         
+        <pb n="2133" facs="#L1916_834_img_2133"/>
+        
+        
+           
+            <lb/>be brought to bear from
+<lb/> America etc. - &amp; even
+<lb/> if he is left till the
+<lb/> end of the war they will
+<lb/> all be let out then.</p>
+<p>So, though I know you
+<lb/> must feel wretched,
+<lb/> you mustn't be hopeless &#x2014;
+<lb/> they simply can't keep to all those atrocious
+<lb/> sentences &#x2014;so many of
+<lb/> them too.</p>
+<p>What will your plans be?
+        
+    
+         
+        <pb n="2134" facs="#L1916_834_img_2134"/>
+        
+        
+           
+            <lb/>There is the farm house
+<lb/> (Mr.Quigley's you know)
+<lb/> near here which I
+<lb/> believe is to be "set"
+<lb/> for the summer &#x2014; 
+<lb/>you couldn't come there,
+<lb/> could you?</p>
+<p>I do hope the children are
+<lb/> better - you don't want
+<lb/> any other worries!</p>
+<p>I don't know if I
+<lb/> can get in again
+<lb/> this week - unless its
+        
+    
+         
+        <pb n="2135" facs="#L1916_834_img_2135"/>
+        
+        
+           
+            <lb/>Friday &#x2014; let me know
+<lb/> if you'll be in then &#x2014;
+<lb/> I'll bring some more<lb/>
+ eggs.</p>
+<p>The heroism of the
+<lb/> Volunteers grows &amp; 
+<lb/>grows for me</p>
+<closer><salute>Yours</salute>
+<signed>Nancy Campbell</signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

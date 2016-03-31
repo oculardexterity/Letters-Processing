@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_777">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Lord French to Sir John Maxwell, 19 May 1916</title>
+                
+                <author>John Denton Pinkstone French</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_777</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>Letter from sir John French, 1st Earl of Ypres (1852-1925), commander of all British forces on home service, to Sir John Maxwell (1859-1929).  In this short letter French is arranging to visit Maxwell in Dublin and proposes 'the week after next', unless Maxwell wishes to postpone the visit.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Sir John Henry Grenfell Maxwell was appointed commander in chief of the British forces in Ireland after the outbreak of the Easter Rising. Before 1916, Maxwell briefly held command of British troops in Egypt, where he successfully organised defences against a Turkish attack in February 1915 and presided over the huge expansion of his command as Egypt became a major British imperial military base. In March 1916, having been superseded as general officer commanding in Egypt, he was recalled home when the Easter Rising broke out. Sir John Denton Pinkstone French, first Earl of Ypres, was a British officer. Upon the outbreak of war, French was appointed Field Marshal of the British Expeditionary Force (BEF). Although popular with his men, the failure of his offensives, Neuve-Chapelle and Loos, to break the German lines and his criticism of the home government led to his replacement as Field Marshal by sir Douglas Haig (1861-1928) in late 1915. French was appointed Commander in Chief of the Home forces in January 1916.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: University College Dublin Archives -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF INSTITUTION REF IS CORRECT --></VERIFY>
+                        
+                        <repository ref="#UCD">University College Dublin, Archives</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: De Valera Papers, P150/512
+                             
+                        -->
+                            
+                                <collection type='public'>De Valera Papers</collection>
+                            
+                            
+                        <idno>P150/512</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: John Grenfell Maxwell. -->
+                        
+                        <persName ref="#Maxwell_J_G">John Grenfell Maxwell</persName>
+                    
+                
+                
+                
+                    
+                    <!-- Normalised Place Found: 
+                    Dublin 
+                    Dublin
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName  ref="#Dublin">Dublin, Ireland</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">John Denton Pinkstone French</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    London 
+                    London
+                    United Kingdom
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#London">G.H.Q., Home Forces, Horse Guards, Whitehall, S.W., London, England</placeName>
+                    
+                
+                    
+                    <date when="1916-05-19">19 May 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1925</item>
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-02-28T21:39:40" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-02-28T21:39:40" who="#Philcostel">
+                
+                    Page 1994 modified:
+                    <!-- 
+<address>G.H.Q. Home Forces,</address>
+<address>Horse Guard,</address>
+<date><hi rend="underline">May.19.1916</hi></date>
+<salute>My Dear Maxwell,</salute>
+<p>Yours of 12<hi rend="superscript">th</hi></p>
+<p>You have acted with great<lb/> </p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-28T21:46:43" who="#Philcostel">
+                
+                    Page 1994 modified:
+                    <!-- 
+<address>G.H.Q. Home Forces,</address>
+<address>Horse Guard,</address>
+<date><hi rend="underline">May.19.1916</hi></date>
+<salute>My Dear Maxwell,</salute>
+<p>Yours of 12<hi rend="superscript">th</hi></p>
+<p>You have acted with great<lb/> promptitude, </p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-28T22:02:32" who="#Philcostel">
+                
+                    Page 1994 modified:
+                    <!-- 
+<address>G.H.Q. Home Forces,</address>
+<address>Horse Guard,</address>
+<date><hi rend="underline">May.19.1916</hi></date>
+<salute>My Dear Maxwell,</salute>
+<p>Yours of 12<hi rend="superscript">th</hi><lb/> and I feel <unclear>that</unclear> all people - whose<lb/> opinion matters - think so.</p>
+<p>i <unclear>will</unclear> see about Rifles for your<lb/> Reserve Regts.</p>
+<p>I am trying to arrange to go<lb/> over to you the week after<lb/></p>
+<p>You have acted with great<lb/> promptitude, <gap/>, &amp; <gap/></p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-28T22:05:42" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-02-28T22:05:42" who="#Philcostel">
+                
+                    Page 1995 modified:
+                    <!-- 
+next but will write again about<lb/> this: but I can defer my visit<lb/> if you prefer it.<lb/>
+<salute><unclear>Yours</unclear> <gap/></salute>
+<hi rend="underline">French</hi> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-11T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-11T11:17:05" who="#NR">
+                
+                    Page 1994 modified:
+                    <!-- 
+<address>G.H.Q. Home Forces,</address>
+<address>Horse Guard,</address>
+<date><hi rend="underline">May.19.1916</hi></date>
+<salute>My Dear Maxwell,</salute>
+<p>Yours of 12<hi rend="superscript">th</hi>
+<lb/> and I feel <unclear>that</unclear> all people - whose
+<lb/> opinion matters - think so.</p>
+<p>i <unclear>will</unclear> see about Rifles for your
+<lb/> Reserve Regts.</p>
+<p>I am trying to arrange to go
+<lb/> over to you the week after
+<p>You have acted with great<lb/> promptitude, <gap/>, &amp; <gap/></p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-11T11:17:54" who="#NR">
+                
+                    Page 1995 modified:
+                    <!-- 
+<lb/>next but will write again about
+<lb/> this: but I can defer my visit
+<lb/> if you prefer it.</p>
+<salute><unclear>Yours</unclear> sincerely</salute>
+<signed><hi rend="underline">French</hi></signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1994 created using version from <date when="2015-02-28T21:39:40"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1994 removed (version from <date when="2015-02-28T21:39:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1994 removed (version from <date when="2015-02-28T21:46:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1994 removed (version from <date when="2015-02-28T22:02:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1994 removed (version from <date when="2016-01-11T11:17:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1995 created using version from <date when="2015-02-28T22:05:42"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1995 removed (version from <date when="2015-02-28T22:05:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1995 removed (version from <date when="2016-01-11T11:17:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 1994 (version from <date when="2016-01-11T11:17:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 1995 added to letter (version from <date when="2016-01-11T11:17:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 1994 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 1995 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:28" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:32" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:43" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:43" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_777_img_1994" url="2941b321dd95d31a71c5c67fcc5449a2.jpg"/> 
+    
+    <graphic xml:id="L1916_777_img_1995" url="c8aaa235a50e82f9a9b8f2e1d7add83a.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="1994" facs="#L1916_777_img_1994"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>G.H.Q. Home Forces,</address>
+<address>Horse Guard,</addrLine></address>
+<dateline><date><hi rend="underline">May.19.1916</hi></date></dateline>
+<salute>My Dear Maxwell,</salute></opener>
+<p>Yours of 12<hi rend="superscript">th</hi>
+<lb/> and I feel <unclear>that</unclear> all people - whose
+<lb/> opinion matters - think so.</p>
+<p>i <unclear>will</unclear> see about Rifles for your
+<lb/> Reserve Regts.</p>
+<p>I am trying to arrange to go
+<lb/> over to you the week after
+<p>You have acted with great<lb/> promptitude, <gap/>, &amp; <gap/></p>
+        
+    
+
+    
+         
+        <pb n="1995" facs="#L1916_777_img_1995"/>
+        
+        
+           
+            <lb/>next but will write again about
+<lb/> this: but I can defer my visit
+<lb/> if you prefer it.</p>
+<closer><salute><unclear>Yours</unclear> sincerely</salute>
+<signed><hi rend="underline">French</hi></signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

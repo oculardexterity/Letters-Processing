@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1331">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from John Harold Smith-Wright to the Secretary, Dublin Castle, 31 May 1916</title>
+                
+                <author>Smith Wright</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="RichardBreen">RichardBreen</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="SKerr">SKerr</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="AaronHoey">AaronHoey</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Nocallaghan">Nocallaghan</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1331</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>This is a letter from John Harold Smith-Wright, lieutenant commander of the Royal Navy, to the secretary, Dublin Castle. The letter concerns a letter sent by Wright regarding compensation for travel expenses for his servant, Violet Williams. </p>
+                            
+                        
+                            
+                        
+                            
+                            <p>At the time this letter was sent, there was no active chief secretary in Dublin Castle as Henry Duke (1855-1939) did not take up the position until 5 July 1916, following the resignation of Augustine Birrell (1850-1933) in the immediate aftermath of the Easter Rising.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: National Archives of Ireland -->
+                        
+                        <repository ref="#NAI">National Archives of Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Chief Secretary&#39;s Office Registered Papers; CSO RP/1916/5612/9249
+                             
+                        -->
+                            
+                                <collection type='public'>Chief Secretary's Office Registered Papers</collection>
+                            
+                            
+                        <idno>CSO RP/1916/5612/9249</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <persName ref="MISSING">The Secretary</persName>
+                    
+                
+                
+                
+                    
+                    <!-- Normalised Place Found: 
+                    Dublin Castle 
+                    Dublin
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName  ref="#Dublin_Castle">Dublin Castle</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">Smith Wright</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    Chatam 
+                    Kent
+                    United Kingdom
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#Chatam">Chatham, Kent, England</placeName>
+                    
+                
+                    
+                    <date when="1916-05-31">31 May 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                            <item n="tag">business</item>
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-12-23T14:15:12" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-12-23T14:15:12" who="#Nocallaghan">
+                
+                    Page 3482 modified:
+                    <!-- 
+<address>R.N. Barracks<lb/>Chatham</address><date>31.5.16</date><lb/><lb/>Sir,<lb/>I should be obliged if you <lb/>would let me know whether any action<lb/> is being taken with regard to my letter<lb/>of 5th inst, casking for compensation in<lb/>regard to the travelling expenses of my<lb/>servant, Violet Williams.  I received an<lb/>acknowledgement of its receipt.<p>Yours faithfully</p>Smith Wright<lb/>Lt-Commander RN<lb/>The Secretary<lb/>Dublin Castle.
+<note><!~~ date stamp<lb/>CHIEF SECRETARY'S<lb/>9249 - 1 June 19116<lb/>OFFICE ~~></note>
+<note>Under Secretay<p>Submitted for directions as to reply<lb/>to be sent<gap/><lb/>1-6-'16</p></note>
+<note>Reply that their <sic>Excies</sic> are unable to recognize claim against public funds for compensation<lb/>in the circ. represented.<lb/><gap/><lb/>1.6.16<lb/></note>
+<note> <unclear>questionable reading</unclear>  on file in FD</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-10T15:00:51" who="#SKerr">
+                
+                    Page 3482 modified:
+                    <!-- 
+<address>R.N. Barracks
+<lb/>Chatham</address>
+<date>31.5.16</date>
+<salute>Sir,</salute>
+<lb/><p>I should be obliged if you 
+<lb/>would let me know whether any action
+<lb/> is being taken with regard to my letter
+<lb/>of 5th inst, asking for compensation in
+<lb/>regard to the travelling expenses of my
+<lb/>servant, Violet Williams.  I received an
+<lb/>acknowledgement of its receipt.</p>
+<salute>Yours faithfully</salute>
+Smith Wright
+<lb/>Lt-Commander RN<lb/>
+<address>The Secretary<lb/>Dublin Castle.</address>
+<note><!~~ date stamp<lb/>CHIEF SECRETARY'S<lb/>9249 - 1 June 19116<lb/>OFFICE ~~></note>
+<note>Under Secretary
+<lb/><p>Submitted for directions as to reply
+<lb/>to be sent <unclear>CWG</unclear>
+<lb/>1-6-'16</p></note>
+<note>Reply that their <sic>Excies</sic> are unable to recognize 
+<lb/>claim against public funds for compensation in 
+<lb/>the  <sic>circs.</sic> represented.<lb/>RC<lb/>1.6.16<lb/></note>
+<note> <unclear>questionable reading</unclear>  on file in FD</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T13:29:18" who="#RichardBreen">
+                
+                    Page 3482 modified:
+                    <!-- 
+<address>R.N. Barracks
+<lb/>Chatham</address>
+<date>31.5.16</date>
+
+<salute>Sir,</salute>
+<lb/><p>I should be obliged if you 
+<lb/>would let me know whether any action
+<lb/> is being taken with regard to my letter
+<lb/>of 5th inst,asking for compensation in
+<lb/>regard to the travelling expenses of my
+<lb/>servant, Violet Williams.  I received an
+<lb/>acknowledgement of its receipt.</p>
+
+<salute>Yours faithfully</salute>
+<signed>J. Smith Wright
+<lb/>Lt-Commander RN</signed>
+
+<address>The Secretary
+<lb/>Dublin Castle.</address>
+
+<note>Under Secretary
+<lb/>Submitted for directions as to reply
+<lb/>to be sent <unclear>CWG</unclear>
+<lb/>1-6-'16</note>
+
+<note>Reply that their <sic>Excies</sic> are unable to recognize 
+<lb/>claim against public funds for compensation in 
+<lb/>the  <sic>circs.</sic> represented.<lb/>RC<lb/>1.6.16<lb/></note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-18T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-18T13:38:08" who="#NR">
+                
+                    Page 3482 modified:
+                    <!-- 
+<address>R.N. Barracks
+<lb/>Chatham</address>
+<date>31.5.16</date>
+
+<salute>Sir,</salute>
+<p>I should be obliged if you 
+<lb/>would let me know whether any action
+<lb/> is being taken with regard to my letter
+<lb/>of 5th inst,asking for compensation in
+<lb/>regard to the travelling expenses of my
+<lb/>servant, Violet Williams.  I received an
+<lb/>acknowledgement of its receipt.</p>
+
+<salute>Yours faithfully</salute>
+<signed>J. Smith Wright
+<lb/>Lt-Commander RN</signed>
+
+<address>The Secretary
+<lb/>Dublin Castle.</address>
+
+<note>Under Secretary
+<lb/>Submitted for directions as to reply
+<lb/>to be sent <unclear>CWG</unclear>
+<lb/>1-6-'16</note>
+
+<note>Reply that their <sic>Excies</sic> are unable to recognize 
+<lb/>claim against public funds for compensation in 
+<lb/>the  <sic>circs.</sic> represented.<lb/>RC<lb/>1.6.16<lb/></note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:51" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3482 created using version from <date when="2014-12-23T14:15:12"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:51" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3482 removed (version from <date when="2014-12-23T14:15:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:51" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3482 removed (version from <date when="2015-12-10T15:00:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:51" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3482 removed (version from <date when="2016-01-15T13:29:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:51" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3482 removed (version from <date when="2016-01-18T13:38:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3482 (version from <date when="2016-01-18T13:38:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:18" who="#PythonScript">
+                
+                    Clean tags: Page 3482 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:29" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:35" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:11" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:11" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1331_img_3482" url="2f6691a65530b5f2076654c374a7c358.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3482" facs="#L1916_1331_img_3482"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>R.N. Barracks</addrLine>
+<addrLine>Chatham</addrLine></address>
+<dateline><date>31.5.16</date></dateline>
+
+<salute>Sir,</salute></opener>
+<p>I should be obliged if you 
+<lb/>would let me know whether any action
+<lb/> is being taken with regard to my letter
+<lb/>of 5th inst,asking for compensation in
+<lb/>regard to the travelling expenses of my
+<lb/>servant, Violet Williams.  I received an
+<lb/>acknowledgement of its receipt.</p>
+
+<salute>Yours faithfully</salute>
+<signed>J. Smith Wright
+<lb/>Lt-Commander RN</signed>
+
+<address>The Secretary
+<lb/>Dublin Castle.</address>
+
+<note>Under Secretary
+<lb/>Submitted for directions as to reply
+<lb/>to be sent <unclear>CWG</unclear>
+<lb/>1-6-'16</note>
+
+<note>Reply that their <sic>Excies</sic> are unable to recognize 
+<lb/>claim against public funds for compensation in 
+<lb/>the  <sic>circs.</sic> represented.<lb/>RC<lb/>1.6.16<lb/></note>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

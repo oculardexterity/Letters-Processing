@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_709">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from John Muldoon to Mabel FitzGerald, 26 May 1916</title>
+                
+                <author>John Muldoon</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Stevenandy">Stevenandy</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Willow">Willow</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_709</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>This letter is from politician and lawyer John Muldoon MP (1865-1938) to Mabel FitzGerald (née Washington McConnell) (1884-1958), wife of politician and intellectual Desmond FitzGerald (1888-1947). Mabel was particularly active in attempting to secure the release of her husband, who had not taken an active part in the actual fighting and Muldoon offers his support. He writes that the prisoners should all be released withing six months (a general amnesty did not take place until 1917) and the sentences were unjust as, in cases like FitzGerald's, the prisoners had been given no opportunity to defend themselves and call witnesses.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Mabel was a former governess in London. She later vigorously canvassed her former acquaintances in London's liberal circles for support for Francis Sheehy Skeffington (1878 -1916) during his hunger strike in 1915. Both Mabel and Desmond would serve in the GPO garrison during Easter Week.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: University College Dublin Archives -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF INSTITUTION REF IS CORRECT --></VERIFY>
+                        
+                        <repository ref="#UCD">University College Dublin, Archives</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Desmond FitzGerald Papers, P80/1586/1
+                             
+                        -->
+                            
+                                <collection type='public'>Desmond FitzGerald Papers</collection>
+                            
+                            
+                        <idno>P80/1586/1</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Mabel FitzGerald -->
+                        
+                        <persName ref="#FitzGerald_M">Mabel FitzGerald</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: John Muldoon -->
+                        
+                        <persName ref="#Muldoon_J">John Muldoon</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    Phoenix Park 
+                    Dublin
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#PhoenixPark">Dunedin, Orwell Park, Dublin</placeName>
+                    
+                
+                    
+                    <date when="1916-05-26">26 May 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1938</item>
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-02-25T19:55:51" who="#Stevenandy">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-02-25T19:55:51" who="#Willow">
+                
+                    Page 1741 modified:
+                    <!-- 
+Dunedin,
+Orwell Park
+Dublin
+26-5-16
+
+<hi rend="underline">Private</hi>
+
+Dear Mrs Fitzgerald - I am in receipt this morning of your letter upon the case of your husband, & I assure you I would be willing to do anything in my power to help you.  This whole business has broken my heart, but there are others who have suffered more, a great deal more, than I have.
+I feel confident in telling you that if things go well & if the country recovers itself soon, these sentences may not, will 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-25T19:59:58" who="#Stevenandy">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-02-25T19:59:58" who="#Willow">
+                
+                    Page 1742 modified:
+                    <!-- 
+not last six months.  The prisoners will all be restored to their homes, & released.
+I am also satisfied that under any circumstances these sentences, such as that inflicted upon your husband, could not be justified - could not be defended .  He was tried before a court-martial where he had no proper means of making a defence or calling witnesses or proving his innocence & I am sure that sentence can never stand when people are restored to 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-25T20:04:20" who="#Stevenandy">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-02-25T20:04:20" who="#Willow">
+                
+                    Page 1743 modified:
+                    <!-- 
+reason, & the passions of the moment have passed away.
+I wish you could send me the speech which your husband made in Bray, after which he was sent to Mountjoy.
+Be assured of my sympathy, believe me
+Your obedient servant
+John Muldoon 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-25T20:06:54" who="#Willow">
+                
+                    Page 1743 modified:
+                    <!-- 
+reason, & the passions of the moment have passed away.
+I wish you could send me the speech which your husband made in Bray, after which he was sent to Mountjoy.
+Be assured of my sympathy, believe me
+Your obedient servant
+John Muldoon
+P.S. Capt Donelan M.P. to whom I fancy you have already written authorizes me to say that he will co-operate in every effort on behalf of your husband JM 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-26T12:39:06" who="#Willow">
+                
+                    Page 1741 modified:
+                    <!-- 
+Dunedin, Orwell Park<lb/>
+Dublin26-5-16
+
+<hi rend="underline">Private</hi>
+
+Dear Mrs Fitzgerald - I am in<lb/> receipt this morning of your<lb/> letter upon the case of your<lb/> husband, & I assure you<lb/> I would be willing to do<lb/> anything in my power to<lb/> help you.  This whole business<lb/> has broken my heart, but<lb/> there are others who have<lb/> suffered more, a great deal<lb/> more, than I have.<p>paragraph</p>
+I feel confident in<lb/> telling you that if things<lb/> go well & if the country<lb/> recovers itself soon, these<lb/> sentences may not, will<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-26T12:42:17" who="#Willow">
+                
+                    Page 1742 modified:
+                    <!-- 
+not last six months.  The<lb/> prisoners will all be restored<lb/> to their homes, & released.<lb/>
+I am also satisfied that<lb/> under any circumstances<lb/> these sentences, such as<lb/> that inflicted upon your<lb/> husband, could not be<lb/> justified - could not be<lb/> defended .  He was tried<lb/> before a court-martial where<lb/> he had no proper means of<lb/> making a defence or<lb/> calling witnesses or proving<lb/> his innocence & I am<lb/>sure that sentence can<lb/> never stand when<lb/> people are restored to<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-26T12:45:06" who="#Willow">
+                
+                    Page 1743 modified:
+                    <!-- 
+reason, & the passions of the<lb/> moment have passed away.<p>paragraph</p>
+I wish you could send me<lb/> the speech which your<lb/> husband made in Bray,<lb/> after which he was sent<lb/> to Mountjoy.
+Be assured of my<lb/> sympathy, believe me
+Your obedient servant<lb/>
+John Muldoon<lb/>
+P.S. Capt Donelan M.P. to<lb/> whom I fancy you have already<lb/> written authorizes me to say<lb/> that he will co-operate in<lb/> every effort on behalf of<lb/> your husband <lb/>JM<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-05T15:23:55" who="#Comber">
+                
+                    Page 1741 modified:
+                    <!-- 
+<address>Dunedin, Orwell Park</address>
+Dublin <date>26-5-16</date>
+
+<hi rend="underline">Private</hi>
+
+<p><salute>Dear Mrs Fitzgerald</salute> - I am in<lb/> receipt this morning of your<lb/> letter upon the case of your<lb/> husband, &amp; I assure you<lb/> I would be willing to do<lb/> anything in my power to<lb/> help you.  This whole business<lb/> has broken my heart, but<lb/> there are others who have<lb/> suffered more, a great deal<lb/> more, than I have.</p>
+I feel confident in<lb/> telling you that if things<lb/> go well & if the country<lb/> recovers itself soon, these<lb/> sentences may not, will<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-05T15:25:46" who="#Comber">
+                
+                    Page 1742 modified:
+                    <!-- 
+<pb/>not last six months.  The<lb/> prisoners will all be restored<lb/> to their homes, &amp; released.<lb/>
+I am also satisfied that<lb/> under any circumstances<lb/> these sentences, such as<lb/> that inflicted upon your<lb/> husband, could not be<lb/> justified - could not be<lb/> defended .  He was tried<lb/> before a court-martial where<lb/> he had no proper means of<lb/> making a defence or<lb/> calling witnesses or proving<lb/> his innocence &amp; I am<lb/>sure that sentence can<lb/> never stand when<lb/> people are restored to<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-05T15:28:18" who="#Comber">
+                
+                    Page 1743 modified:
+                    <!-- 
+<pb/>reason, &amp; the passions of the<lb/> moment have passed away.
+<p>I wish you could send me<lb/> the speech which your<lb/> husband made in Bray,<lb/> after which he was sent<lb/> to Mountjoy.<lb/></p>
+Be assured of my<lb/> sympathy. &amp; believe me<lb/>
+<salute>Your obedient servant
+John Muldoo</salute>n
+P.S. Capt Donelan M.P. to<lb/> whom I fancy you have already<lb/> written authorizes me to say<lb/> that he will co-operate in<lb/> every effort on behalf of<lb/> your husband <lb/>
+<salute>JM</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-11T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-11T15:12:50" who="#NR">
+                
+                    Page 1741 modified:
+                    <!-- 
+<address>Dunedin, Orwell Park</address>
+<lb/>Dublin <date>26-5-16</date>
+
+<hi rend="underline">Private</hi>
+
+<p><salute>Dear Mrs Fitzgerald</salute> - I am in
+<lb/> receipt this morning of your
+<lb/> letter upon the case of your
+<lb/> husband, &amp; I assure you
+<lb/> I would be willing to do
+<lb/> anything in my power to
+<lb/> help you.  This whole business
+<lb/> has broken my heart, but
+<lb/> there are others who have
+<lb/> suffered more, a great deal
+<lb/> more, than I have.</p>
+<p>I feel confident in
+<lb/> telling you that if things
+<lb/> go well & if the country
+<lb/> recovers itself soon, these
+<lb/> sentences may not, will 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-11T15:15:35" who="#NR">
+                
+                    Page 1742 modified:
+                    <!-- 
+<lb/>not last six months.  The
+<lb/> prisoners will all be restored
+<lb/> to their homes, &amp; released.<lb/>
+I am also satisfied that
+<lb/> under any circumstances
+<lb/> these sentences, such as
+<lb/> that inflicted upon your
+<lb/> husband, could not be
+<lb/> justified - could not be
+<lb/> defended .  He was tried
+<lb/> before a court-martial where
+<lb/> he had no proper means of
+<lb/> making a defence or
+<lb/> calling witnesses or proving
+<lb/> his innocence &amp; I am
+<lb/>sure that sentence can
+<lb/> never stand when
+<lb/> people are restored to 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-11T15:17:20" who="#NR">
+                
+                    Page 1743 modified:
+                    <!-- 
+<lb/>reason, &amp; the passions of the
+<lb/> moment have passed away.</p>
+<p>I wish you could send me
+<lb/> the speech which your
+<lb/> husband made in Bray,
+<lb/> after which he was sent
+<lb/> to Mountjoy.</p>
+<p>Be assured of my
+<lb/> sympathy. &amp; believe me</p>
+<salute>Your obedient servant</salute>
+<signed>John Muldoon</signed>
+<note><p>P.S. Capt Donelan M.P. to
+<lb/> whom I fancy you have already<
+lb/> written authorises me to say
+<lb/> that he will co-operate in
+<lb/> every effort on behalf of
+<lb/> your husband </p>
+<signed>JM</signed></note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1742 created using version from <date when="2014-02-25T19:59:58"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1742 removed (version from <date when="2014-02-25T19:59:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1742 removed (version from <date when="2014-02-26T12:42:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1742 removed (version from <date when="2015-02-05T15:25:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1742 removed (version from <date when="2016-01-11T15:15:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1743 created using version from <date when="2014-02-25T20:04:20"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1743 removed (version from <date when="2014-02-25T20:04:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1743 removed (version from <date when="2014-02-25T20:06:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1743 removed (version from <date when="2014-02-26T12:45:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1743 removed (version from <date when="2015-02-05T15:28:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1743 removed (version from <date when="2016-01-11T15:17:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1741 created using version from <date when="2014-02-25T19:55:51"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1741 removed (version from <date when="2014-02-25T19:55:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1741 removed (version from <date when="2014-02-26T12:39:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1741 removed (version from <date when="2015-02-05T15:23:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1741 removed (version from <date when="2016-01-11T15:12:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 1742 (version from <date when="2016-01-11T15:15:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 1743 added to letter (version from <date when="2016-01-11T15:17:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 1741 added to letter (version from <date when="2016-01-11T15:12:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 1741 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 1742 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 1743 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:28" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:32" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:46" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:46" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_709_img_1741" url="ddfd2c9082c87bf6ac6a893278e32c84.jpg"/> 
+    
+    <graphic xml:id="L1916_709_img_1742" url="ac5de59ace38db4d68611226bd317278.jpg"/> 
+    
+    <graphic xml:id="L1916_709_img_1743" url="313a74d3cc1167d2248616e723407e1e.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="1741" facs="#L1916_709_img_1741"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>Dunedin, Orwell Park</addrLine></address>
+Dublin <dateline><date>26-5-16</date></dateline></opener>
+
+<hi rend="underline">Private</hi>
+
+<p><salute>Dear Mrs Fitzgerald</salute> - I am in
+<lb/> receipt this morning of your
+<lb/> letter upon the case of your
+<lb/> husband, &amp; I assure you
+<lb/> I would be willing to do
+<lb/> anything in my power to
+<lb/> help you.  This whole business
+<lb/> has broken my heart, but
+<lb/> there are others who have
+<lb/> suffered more, a great deal
+<lb/> more, than I have.</p>
+<p>I feel confident in
+<lb/> telling you that if things
+<lb/> go well &amp; if the country
+<lb/> recovers itself soon, these
+<lb/> sentences may not, will
+        
+    
+
+    
+         
+        <pb n="1742" facs="#L1916_709_img_1742"/>
+        
+        
+           
+            <lb/>not last six months.  The
+<lb/> prisoners will all be restored
+<lb/> to their homes, &amp; released.<lb/>
+I am also satisfied that
+<lb/> under any circumstances
+<lb/> these sentences, such as
+<lb/> that inflicted upon your
+<lb/> husband, could not be
+<lb/> justified - could not be
+<lb/> defended .  He was tried
+<lb/> before a court-martial where
+<lb/> he had no proper means of
+<lb/> making a defence or
+<lb/> calling witnesses or proving
+<lb/> his innocence &amp; I am
+<lb/>sure that sentence can
+<lb/> never stand when
+<lb/> people are restored to
+        
+    
+         
+        <pb n="1743" facs="#L1916_709_img_1743"/>
+        
+        
+           
+            <lb/>reason, &amp; the passions of the
+<lb/> moment have passed away.</p>
+<p>I wish you could send me
+<lb/> the speech which your
+<lb/> husband made in Bray,
+<lb/> after which he was sent
+<lb/> to Mountjoy.</p>
+<p>Be assured of my
+<lb/> sympathy. &amp; believe me</p>
+<salute>Your obedient servant</salute>
+<signed>John Muldoon</signed>
+<note><p>P.S. Capt Donelan M.P. to
+<lb/> whom I fancy you have already<lb/> written authorises me to say
+<lb/> that he will co-operate in
+<lb/> every effort on behalf of
+<lb/> your husband </p>
+<signed>JM</signed></note>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

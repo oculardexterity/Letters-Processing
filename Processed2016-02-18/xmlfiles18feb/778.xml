@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_778">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from &#39;R.H.&#39; to William Henry Brayden, 14 May 1916.</title>
+                
+                <author>R.H.</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_778</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>This letter is from a brigadier-general on the general staff of the British army in Ireland, writing on behalf of Sir John Grenfell Maxwell (1859-1929) to William Henry Brayden (1865-1933) the editor of the 'Freeman's Journal'. The letter complains about a number of articles which appeared in the 'Freeman's Journal', a nationalist newspaper, which he claims were aimed at criticising martial law and fostering sympathy for those who took up arms, or plotted to do so, during the Rising. It explains that articles of that nature will not be tolerated and action may be taken under the Defence of the Realm Act. The writer acknowledges that a number of innocent people have been detained but adds that 'flamboyant and incendiary language' would hinder the peace which General Maxwell is trying to restore.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: University College Dublin Archives -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF INSTITUTION REF IS CORRECT --></VERIFY>
+                        
+                        <repository ref="#UCD">University College Dublin, Archives</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: De Valera Papers, P150/512
+                             
+                        -->
+                            
+                                <collection type='public'>De Valera Papers</collection>
+                            
+                            
+                        <idno>P150/512</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <persName ref="MISSING">The Editor, Freeman&#39;s Journal.</persName>
+                    
+                
+                
+                
+                    
+                    <!-- Normalised Place Found: 
+                    Dublin 
+                    Dublin
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName  ref="#Dublin">Dublin, Ireland</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">R.H.</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    Parkgate 
+                    Dublin
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#Dublin_Parkgate">Headquarters, Irish Command, Parkgate, Dublin, Ireland</placeName>
+                    
+                
+                    
+                    <date when="1916-05-14">14 May 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-03-02T21:22:38" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-03-02T21:22:38" who="#Philcostel">
+                
+                    Page 1996 modified:
+                    <!-- 
+Headquarters, Irish Command, Parkgate, Dublin.
+14th May, 1916.
+Sir,
+I am directed by the General Officer Commanding-in-Chief to inform you that his attention has been drawn to several articles that have appeared recently in your paper, the purpose of which appears to be to criticise and bring into contempt the administration of Martial Law in this country and to foster sympathy for those who have taken up arms, or plotted to do so, against His Majesty's Troops.
+I am to inform you that the publication of such sentiments cannot be tolerated and that the appearance of any further articles of this nature in any newspaper under your control will render you liable to immediate action being taken under the provisions of the Defence of the Realm Act.
+The General Officer Commanding-in-Chief is well aware that the suppression of the rising inevitably entailed the regrettable arrest and detention of a certain number of persons who neither encouraged nor took part in the rebellion or in the preparations for same. These cases are being investigated with all possible dispatch and though some time may elapse before all the innocent persons can be liberated, Press comments dwelling upon and emphasising in flamboyant and incendiary language any such cases of hardship and injustice can but have a prejudicial effect upon the peace of the country which it is the object of the General Officer Commanding-in-Chief  to restore as speedily as possible.
+I have the honour to be,
+Your obedient Servant
+R.H.
+Brigadier General, General Staff.
+To The Editor, Freeman's Journal, Dublin. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-13T13:22:07" who="#Comber">
+                
+                    Page 1996 modified:
+                    <!-- 
+<address>Headquarters, Irish Command, Parkgate, Dublin.</address>
+<date>14<hi rend="superscript">th</hi> May, 1916.</date>
+<salute>Sir,</salute>
+<p>I am directed by the General Officer Commanding-in-Chief<lb/> to inform you that his attention has been drawn to several<lb/> articles that have appeared recently in your paper, the purpose<lb/> of which appears to be to criticise and bring into contempt the<lb/> administration of Martial Law in this country and to foster<lb/> sympathy for those who have taken up arms, or plotted<lb/> to do so, against His Majesty's Troops.<lb/></p>
+<p>I am to inform you that the publication of such<lb/> sentiments cannot be tolerated and that the appearance of any<lb/> further articles of this nature in any newspaper under your<lb/> control will render you liable to immediate action being taken<lb/> under the provisions of the Defence of the Realm Act.<lb/></p>
+<p>The General Officer Commanding-in-Chief is well aware<lb/> that the suppression of the rising inevitably entailed the<lb/> regrettable arrest and detention of a certain number of persons<lb/> who neither encouraged nor took part in the rebellion or in<lb/> the preparations for same. These cases are being investigated<lb/> with all possible dispatch and though some time may elapse before<lb/> all the innocent persons can be liberated, Press comments<lb/> dwelling upon and emphasising in flamboyant and incendiary<lb/> language any such cases of hardship and injustice can but have<lb/> a prejudicial effect upon the peace of the country which it is<lb/> the object of the General Officer Commanding-in-Chief  to restore<lb/> as speedily as possible.<lb/></p>
+<salute>I have the honour to be,
+Your obedient Servant
+R.H.
+Brigadier General, General Staff.</salute>
+<address>To The Editor, Freeman's Journal, Dublin.</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-11T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-11T11:07:18" who="#NR">
+                
+                    Page 1996 modified:
+                    <!-- 
+<address>Headquarters, Irish Command, 
+<lb/>Parkgate, Dublin.</address>
+<date>14<hi rend="superscript">th</hi> May, 1916.</date>
+<salute>Sir,</salute>
+<p>I am directed by the General Officer Commanding-in-Chief
+<lb/> to inform you that his attention has been drawn to severa
+l<lb/> articles that have appeared recently in your paper, the purpose
+<lb/> of which appears to be to criticise and bring into contempt the
+<lb/> administration of Martial Law in this country and to foster
+<lb/> sympathy for those who have taken up arms, or plotted
+<lb/> to do so, against His Majesty's Troops.</p>
+<p>I am to inform you that the publication of such
+<lb/> sentiments cannot be tolerated and that the appearance of any
+<lb/> further articles of this nature in any newspaper under your
+<lb/> control will render you liable to immediate action being taken
+<lb/> under the provisions of the Defence of the Realm Act.</p>
+<p>The General Officer Commanding-in-Chief is well aware
+<lb/> that the suppression of the rising inevitably entailed the
+<lb/> regrettable arrest and detention of a certain number of persons
+<lb/> who neither encouraged nor took part in the rebellion or in
+<lb/> the preparations for same. These cases are being investigated
+<lb/> with all possible dispatch and though some time may elapse before
+<lb/> all the innocent persons can be liberated, Press comments
+<lb/> dwelling upon and emphasising in flamboyant and incendiary
+<lb/> language any such cases of hardship and injustice can but have
+<lb/> a prejudicial effect upon the peace of the country which it is
+<lb/> the object of the General Officer Commanding-in-Chief  to restore
+<lb/> as speedily as possible.</p>
+<salute>I have the honour to be,
+<lb/>Your obedient Servant</salute>
+<signed>R.H.</signed>
+<lb/>Brigadier General, General Staff.
+<address>To 
+<lb/>The Editor, 
+<lb/>Freeman's Journal, 
+<lb/>D U B L I N.</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1996 created using version from <date when="2014-03-02T21:22:38"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1996 removed (version from <date when="2014-03-02T21:22:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1996 removed (version from <date when="2015-02-13T13:22:07"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1996 removed (version from <date when="2016-01-11T11:07:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 1996 (version from <date when="2016-01-11T11:07:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 1996 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:29" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:34" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:06" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:06" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_778_img_1996" url="33c7d34b32202281a50ee4c385212da2.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="1996" facs="#L1916_778_img_1996"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>Headquarters, Irish Command,</addrLine>
+<addrLine>Parkgate, Dublin.</addrLine></address>
+<dateline><date>14<hi rend="superscript">th</hi> May, 1916.</date></dateline>
+<salute>Sir,</salute></opener>
+<p>I am directed by the General Officer Commanding-in-Chief
+<lb/> to inform you that his attention has been drawn to severa
+l<lb/> articles that have appeared recently in your paper, the purpose
+<lb/> of which appears to be to criticise and bring into contempt the
+<lb/> administration of Martial Law in this country and to foster
+<lb/> sympathy for those who have taken up arms, or plotted
+<lb/> to do so, against His Majesty's Troops.</p>
+<p>I am to inform you that the publication of such
+<lb/> sentiments cannot be tolerated and that the appearance of any
+<lb/> further articles of this nature in any newspaper under your
+<lb/> control will render you liable to immediate action being taken
+<lb/> under the provisions of the Defence of the Realm Act.</p>
+<p>The General Officer Commanding-in-Chief is well aware
+<lb/> that the suppression of the rising inevitably entailed the
+<lb/> regrettable arrest and detention of a certain number of persons
+<lb/> who neither encouraged nor took part in the rebellion or in
+<lb/> the preparations for same. These cases are being investigated
+<lb/> with all possible dispatch and though some time may elapse before
+<lb/> all the innocent persons can be liberated, Press comments
+<lb/> dwelling upon and emphasising in flamboyant and incendiary
+<lb/> language any such cases of hardship and injustice can but have
+<lb/> a prejudicial effect upon the peace of the country which it is
+<lb/> the object of the General Officer Commanding-in-Chief  to restore
+<lb/> as speedily as possible.</p>
+<closer><salute>I have the honour to be,
+<lb/>Your obedient Servant</salute>
+<signed>R.H.</signed>
+<lb/>Brigadier General, General Staff.
+<address><addrLine>To</addrLine>
+<addrLine>The Editor,</addrLine>
+<addrLine>Freeman's Journal,</addrLine>
+<addrLine>D U B L I N.</addrLine></address></closer>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

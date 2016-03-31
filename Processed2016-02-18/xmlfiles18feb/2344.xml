@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2344">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Sir Wilfrid Spender to his wife Lady Lillian Spender, 22 August 1916</title>
+                
+                <author>Wilfrid Spender</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="SKerr">SKerr</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tnoonan1111">Tnoonan11 11</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2344</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from sir Wilfrid Bliss Spender (1876-1960) to his wife, Lady Lillian Spender, née Dean, (1880-1968).  In this letter, Spender discusses the report he is working on concerning the events surrounding July 1, and reflects on the odd fact that he is writing dispatches while his brother Rex is fighting in the trenches. He recounts a visit he recently received from a Brigadier-General Staff Officer seeking Spender's influence in order to secure a promotion. Spender expresses amusement that many officers think him influential over who gets promoted, given that his own career has little hope of progress. He mentions a holiday Lillian's maids are soon to take, and Lillian's hunt for a new house.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Sir Wilfrid Spender was a member of the British Army until 1913 when controversy surrounding his signature of the Ulster Solemn League and Covenant resulted in his resignation. Spender was called up for military service in 1914 and from 1915 served in the 36th (Ulster) Division. Throughout the war, Spender wrote a collection of letters to his wife Lady Lillian Spender. The letters date mainly from 1915 to 1918, when Sir Wilfrid was serving in France. The letters concern politics, the Irish question, personal life, and Wilfrid's experience of the Great War. Lady Lillian served in the Ulster Volunteer Nursing Corps during the war, and was an organiser of the Ulster Division Comforts Fund.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Lady Spender&#39;s Correspondence, D1633/1/1/394
+                             
+                        -->
+                            
+                                <collection type='public'>Lady Spender's Correspondence</collection>
+                            
+                            
+                        <idno>D1633/1/1/394</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Lillian Spender -->
+                        
+                        <persName ref="#Spender_L">Lillian Spender</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Wilfrid Spender -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF RECIPIENT IS CORRECT --></VERIFY>
+                        
+                        <persName ref="#Spender_W_B">Wilfrid Bliss Spender</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    France 
+                    France
+                    France
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#France">France</placeName>
+                    
+                
+                    
+                    <date when="1916-08-22">22 August 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1960</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                            <item n="tag">politics</item>
+                            
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2016-01-19T17:11:04" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T17:11:04" who="#SKerr">
+                
+                    Page 6504 modified:
+                    <!-- 
+<date>Aug. 22. 16.</date>
+<salute>My pr</salute>
+<p>The dispatch is not moving at all.
+<lb/>I am now back again at the 1<hi rend="superscript">st</hi> July which
+<lb/>I have just rewritten having found many
+<lb/>inaccuracies in my former account tho' based
+<lb/>on official documents! It really is difficult &amp;
+<lb/>I was never intended <del>as</del> <add>to be</add> a historian but I hope
+<lb/>to buckle to it again better tho' I don't see
+<lb/>how I am ever to get up to date. The first
+<lb/>12 pages before the attack I am fairly well
+<lb/>pleased with now but than I was in personal
+<lb/>touch with the whole thing.</p>
+<!~~ Written at the top of the page ~~>
+<lb/>to you yet
+<lb/>I am sure
+<lb/>he is really
+<lb/>grateful but
+<lb/>perhaps he thinks
+<lb/>we are making
+<lb/>him pay for
+<lb/>things he does
+<lb/>not want, but
+<lb/>I don't think
+<lb/>this likely
+<salute>Your bw</salute>
+<lb/>W B Spender
+<lb/>PS Mater will
+<lb/>address my letters
+<lb/>XV Corps please
+<lb/>tell her or Jin
+<lb/>next time 
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T17:19:57" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T17:19:57" who="#SKerr">
+                
+                    Page 6503 modified:
+                    <!-- 
+<p>However I drew one winner today getting
+<lb/>my evening report passed as "Excellent" I
+<lb/>feel as if I was back at School &amp; had got
+<lb/>top marks on my essay. It really is curious
+<lb/>to be doing this kind of work in the middle of 
+<lb/>a war with Rex in the trenches.</p>
+<p>You seem to <add>have</add> been having a happy time in
+<lb/>Wilts but I wonder whether you ought to have
+<lb/>spoken about Sam Hu not that I should mind
+<lb/>if he was found out, so I think it is as well.</p>
+<p>A very curious situation came <add>about</add> yesterday.
+<lb/>Gen' B.G a staff college contemporary had a talk
+<lb/>about the dispatch, &amp; after I had settled down to
+<lb/>make notes came in &amp; said What do you think<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T17:22:57" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T17:22:57" who="#SKerr">
+                
+                    Page 6496 modified:
+                    <!-- 
+of my position as a Brigadier Gen' GS, kept on
+<lb/>the staff because of my qualifications &amp; passed over
+<lb/>by 20 juniors in consequence. I am told it will be all right after the war but you know what
+<lb/>that means. Can't you do anything? !!! </p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T17:30:46" who="#SKerr">
+                
+                    Page 6496 modified:
+                    <!-- 
+of my position as a Brigadier Gen' GS, kept on
+<lb/>the staff because of my qualifications &amp; passed over
+<lb/>by 20 juniors in consequence. I am told it will be all right after the war but you know what
+<lb/>that means. Can't you do anything? !!! </p>
+<p>When I add that he attributes his not having
+<lb/>gone quicker to the fact that he was anti Ulster
+<lb/>and therefore not acceptable to H.G you will
+<lb/>realise the humour of the situation. It never
+<lb/>struck me that I should be held responsible for
+<lb/>the promotions and awards in the Gazette, &amp;
+<lb/>my future would indeed be a warm one if I
+<lb/>were not able to point to one great factor that
+<lb/>my name is not among them.</p>
+<p>I am so glad about the maids and hope
+<lb/>everything will go smoothly. The holiday for all<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T17:46:37" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T17:46:37" who="#SKerr">
+                
+                    Page 6497 modified:
+                    <!-- 
+as the move certainly seems indicated now
+<lb/>&amp; I think you can pay their tickets to Belfast
+<lb/>as a holiday treat (? from us both). I'm rather
+<lb/>disturbed at your having to house hunt again
+<lb/>you will be an experienced little pr when we
+<lb/>come to settle down in our own, whilst Maggie
+<lb/>ought to know exactly what is essential in
+<lb/>her department. I'm afraid St James Palace
+<lb/>sounds rather an expensive neighbourhood for a
+<lb/>pr. Was it the pr's face or the pr's furs which
+<lb/>made the porter chivy her to a first class carriage, or
+<lb/>the <foreign>tout assemble</foreign> perhaps? </p> <p>Mayne in Egypt
+<lb/>seems to be sorry he left the Division &amp; finds 3
+<lb/>ASC's &#x2014; 2 besides himself as <unclear>altern</unclear> of troop. Falls <unclear>seems</unclear>
+<lb/>rather low in the 36<hi rend="superscript">th</hi> simply stale I fancy.</p>
+<p>Quite enough for a pr even a pampered one.
+<lb/>when you next order at the store could you send out some
+<lb/>ANIS chocolate. No hurry about it. Has Rex written <!~~ Paragraph completed on page 1 ~~> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-27T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-27T11:45:23" who="#NR">
+                
+                    Page 6504 modified:
+                    <!-- 
+<date>Aug. 22. 16.</date>
+<salute>My pr</salute>
+<p>The dispatch is not moving at all.
+<lb/>I am now back again at the 1<hi rend="superscript">st</hi> July which
+<lb/>I have just rewritten having found many
+<lb/>inaccuracies in my former account tho' based
+<lb/>on official documents! It really is difficult &amp;
+<lb/>I was never intended <del>as</del> <add>to be</add> a historian but I hope
+<lb/>to buckle to it again better tho' I don't see
+<lb/>how I am ever to get up to date. The first
+<lb/>12 pages before the attack I am fairly well
+<lb/>pleased with now but than I was in personal
+<lb/>touch with the whole thing.</p>
+<!~~ Written at the top of the page ~~>
+<pb/>to you yet
+<lb/>I am sure
+<lb/>he is really
+<lb/>grateful but
+<lb/>perhaps he thinks
+<lb/>we are making
+<lb/>him pay for
+<lb/>things he does
+<lb/>not want, but
+<lb/>I don't think
+<lb/>this likely
+<salute>Your bw</salute>
+<lb/>W B Spender
+<lb/>PS Mater will
+<lb/>address my letters
+<lb/>XV Corps please
+<lb/>tell her or Jin
+<lb/>next time </p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-27T11:45:48" who="#NR">
+                
+                    Page 6503 modified:
+                    <!-- 
+<p>However I drew one winner today getting
+<lb/>my evening report passed as "Excellent" I
+<lb/>feel as if I was back at School &amp; had got
+<lb/>top marks on my essay. It really is curious
+<lb/>to be doing this kind of work in the middle of 
+<lb/>a war with Rex in the trenches.</p>
+<p>You seem to <add>have</add> been having a happy time in
+<lb/>Wilts but I wonder whether you ought to have
+<lb/>spoken about Sam Hu not that I should mind
+<lb/>if he was found out, so I think it is as well.</p>
+<p>A very curious situation came <add>about</add> yesterday.
+<lb/>Gen' B.G a staff college contemporary had a talk
+<lb/>about the dispatch, &amp; after I had settled down to
+<lb/>make notes came in &amp; said What do you think 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-27T11:46:37" who="#NR">
+                
+                    Page 6496 modified:
+                    <!-- 
+<lb/>of my position as a Brigadier Gen' GS, kept on
+<lb/>the staff because of my qualifications &amp; passed over
+<lb/>by 20 juniors in consequence. I am told it will
+<lb/> be all right after the war but you know what
+<lb/>that means. Can't you do anything? !!! </p>
+<p>When I add that he attributes his not having
+<lb/>gone quicker to the fact that he was anti Ulster
+<lb/>and therefore not acceptable to H.G you will
+<lb/>realise the humour of the situation. It never
+<lb/>struck me that I should be held responsible for
+<lb/>the promotions and awards in the Gazette, &amp;
+<lb/>my future would indeed be a warm one if I
+<lb/>were not able to point to one great factor that
+<lb/>my name is not among them.</p>
+<p>I am so glad about the maids and hope
+<lb/>everything will go smoothly. The holiday for all 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-27T11:47:27" who="#NR">
+                
+                    Page 6497 modified:
+                    <!-- 
+<lb/>as the move certainly seems indicated now
+<lb/>&amp; I think you can pay their tickets to Belfast
+<lb/>as a holiday treat (? from us both). I'm rather
+<lb/>disturbed at your having to house hunt again
+<lb/>you will be an experienced little pr when we
+<lb/>come to settle down in our own, whilst Maggie
+<lb/>ought to know exactly what is essential in
+<lb/>her department. I'm afraid St James Palace
+<lb/>sounds rather an expensive neighbourhood for a
+<lb/>pr. Was it the pr's face or the pr's furs which
+<lb/>made the porter chivy her to a first class carriage, or
+<lb/>the <foreign>tout assemble</foreign> perhaps? Mayne in Egypt
+<lb/>seems to be sorry he left the Division &amp; finds 3
+<lb/>ASC's &#x2014; 2 besides himself as <unclear>altern</unclear> of troop. Falls <unclear>seems</unclear>
+<lb/>rather low in the 36<hi rend="superscript">th</hi> simply stale I fancy.</p>
+<p>Quite enough for a pr even a pampered one.
+<lb/>when you next order at the store could you send out some
+<lb/>ANIS chocolate. No hurry about it. Has Rex written <!~~ Paragraph completed on page 1 ~~> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6503 created using version from <date when="2016-01-19T17:19:57"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6503 removed (version from <date when="2016-01-19T17:19:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6503 removed (version from <date when="2016-01-27T11:45:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6496 created using version from <date when="2016-01-19T17:22:57"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6496 removed (version from <date when="2016-01-19T17:22:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6496 removed (version from <date when="2016-01-19T17:30:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6496 removed (version from <date when="2016-01-27T11:46:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6504 created using version from <date when="2016-01-19T17:11:04"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6504 removed (version from <date when="2016-01-19T17:11:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6504 removed (version from <date when="2016-01-27T11:45:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6497 created using version from <date when="2016-01-19T17:46:37"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6497 removed (version from <date when="2016-01-19T17:46:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6497 removed (version from <date when="2016-01-27T11:47:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 6503 (version from <date when="2016-01-27T11:45:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6496 added to letter (version from <date when="2016-01-27T11:46:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6504 added to letter (version from <date when="2016-01-27T11:45:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6497 added to letter (version from <date when="2016-01-27T11:47:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:18" who="#PythonScript">
+                
+                    Clean tags: Page 6496 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:18" who="#PythonScript">
+                
+                    Clean tags: Page 6504 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:18" who="#PythonScript">
+                
+                    Clean tags: Page 6503 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:18" who="#PythonScript">
+                
+                    Clean tags: Page 6497 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:29" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:34" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:08" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:07" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2344_img_6496" url="3a6a89db98565869ccc7833801285a27.jpg"/> 
+    
+    <graphic xml:id="L1916_2344_img_6497" url="585d0271a148fddc43ddff1123e89297.jpg"/> 
+    
+    <graphic xml:id="L1916_2344_img_6503" url="bc15761dbec52389d02efbc389d4b6d3.jpg"/> 
+    
+    <graphic xml:id="L1916_2344_img_6504" url="ff1cb33b17b8c3b04cdcd7cda6d47ab6.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="6496" facs="#L1916_2344_img_6496"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<lb/>of my position as a Brigadier Gen' GS, kept on
+<lb/>the staff because of my qualifications &amp; passed over
+<lb/>by 20 juniors in consequence. I am told it will
+<lb/> be all right after the war but you know what
+<lb/>that means. Can't you do anything? !!! </p>
+<p>When I add that he attributes his not having
+<lb/>gone quicker to the fact that he was anti Ulster
+<lb/>and therefore not acceptable to H.G you will
+<lb/>realise the humour of the situation. It never
+<lb/>struck me that I should be held responsible for
+<lb/>the promotions and awards in the Gazette, &amp;
+<lb/>my future would indeed be a warm one if I
+<lb/>were not able to point to one great factor that
+<lb/>my name is not among them.</p>
+<p>I am so glad about the maids and hope
+<lb/>everything will go smoothly. The holiday for all
+        
+    
+
+    
+         
+        <pb n="6497" facs="#L1916_2344_img_6497"/>
+        
+        
+           
+            <lb/>as the move certainly seems indicated now
+<lb/>&amp; I think you can pay their tickets to Belfast
+<lb/>as a holiday treat (? from us both). I'm rather
+<lb/>disturbed at your having to house hunt again
+<lb/>you will be an experienced little pr when we
+<lb/>come to settle down in our own, whilst Maggie
+<lb/>ought to know exactly what is essential in
+<lb/>her department. I'm afraid St James Palace
+<lb/>sounds rather an expensive neighbourhood for a
+<lb/>pr. Was it the pr's face or the pr's furs which
+<lb/>made the porter chivy her to a first class carriage, or
+<lb/>the <foreign>tout assemble</foreign> perhaps? Mayne in Egypt
+<lb/>seems to be sorry he left the Division &amp; finds 3
+<lb/>ASC's &#x2014; 2 besides himself as <unclear>altern</unclear> of troop. Falls <unclear>seems</unclear>
+<lb/>rather low in the 36<hi rend="superscript">th</hi> simply stale I fancy.</p>
+<p>Quite enough for a pr even a pampered one.
+<lb/>when you next order at the store could you send out some
+<lb/>ANIS chocolate. No hurry about it. Has Rex written <!-- Paragraph completed on page 1 -->
+        
+    
+         
+        <pb n="6503" facs="#L1916_2344_img_6503"/>
+        
+        
+           
+            <p>However I drew one winner today getting
+<lb/>my evening report passed as "Excellent" I
+<lb/>feel as if I was back at School &amp; had got
+<lb/>top marks on my essay. It really is curious
+<lb/>to be doing this kind of work in the middle of 
+<lb/>a war with Rex in the trenches.</p>
+<p>You seem to <add>have</add> been having a happy time in
+<lb/>Wilts but I wonder whether you ought to have
+<lb/>spoken about Sam Hu not that I should mind
+<lb/>if he was found out, so I think it is as well.</p>
+<p>A very curious situation came <add>about</add> yesterday.
+<lb/>Gen' B.G a staff college contemporary had a talk
+<lb/>about the dispatch, &amp; after I had settled down to
+<lb/>make notes came in &amp; said What do you think
+        
+    
+         
+        <pb n="6504" facs="#L1916_2344_img_6504"/>
+        
+        
+           
+            <opener><dateline><date>Aug. 22. 16.</date></dateline>
+<salute>My pr</salute></opener>
+<p>The dispatch is not moving at all.
+<lb/>I am now back again at the 1<hi rend="superscript">st</hi> July which
+<lb/>I have just rewritten having found many
+<lb/>inaccuracies in my former account tho' based
+<lb/>on official documents! It really is difficult &amp;
+<lb/>I was never intended <del>as</del> <add>to be</add> a historian but I hope
+<lb/>to buckle to it again better tho' I don't see
+<lb/>how I am ever to get up to date. The first
+<lb/>12 pages before the attack I am fairly well
+<lb/>pleased with now but than I was in personal
+<lb/>touch with the whole thing.</p>
+<!-- Written at the top of the page -->
+<pb/>to you yet
+<lb/>I am sure
+<lb/>he is really
+<lb/>grateful but
+<lb/>perhaps he thinks
+<lb/>we are making
+<lb/>him pay for
+<lb/>things he does
+<lb/>not want, but
+<lb/>I don't think
+<lb/>this likely
+<closer><salute>Your bw</salute></closer>
+<lb/>W B Spender
+<lb/>PS Mater will
+<lb/>address my letters
+<lb/>XV Corps please
+<lb/>tell her or Jin
+<lb/>next time </p>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

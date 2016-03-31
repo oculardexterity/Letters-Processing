@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_854">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Mabel FitzGerald to the Governor of Richmond Barracks, 11 May 1916</title>
+                
+                <author>Mabel FitzGerald</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="MzBBs">MzBBs</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BBaker53">BBaker53</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_854</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>Letter from Mabel FitzGerald to the Governor of Richmond Barracks. Mabel FitzGerald's husband, Desmond FitzGerald, (1888-1947) had been arrested and detained. She has heard that he is to be moved from Kingstown Police Station to Richmond Barracks and to be tried by Court-Martial. She writes to be advised as to where and when the trial will take place. She enquires about visiting arrangements and wants to arrange for her husband to be allowed order food from a restaurant and to get daily papers. She asks that the distance from her home to the Barracks be taken into account when she is being notified of the trial.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Mabel was a former governess in London. She later vigorously canvassed her former acquaintances in London's liberal circles for support for Francis Sheehy Skeffington during his hunger strike in 1915. Both Mabel and Desmond would serve in the GPO garrison during Easter Week.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: University College Dublin Archives -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF INSTITUTION REF IS CORRECT --></VERIFY>
+                        
+                        <repository ref="#UCD">University College Dublin, Archives</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: FitzGerald Papers, P80/1572/1
+                             
+                        -->
+                            
+                                <collection type='public'>FitzGerald Papers</collection>
+                            
+                            
+                        <idno>P80/1572/1</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <persName ref="MISSING">The Governor, Richmond Barracks.</persName>
+                    
+                
+                
+                
+                    
+                    <!-- Normalised Place Found: 
+                    Richmond Barracks 
+                    Dublin
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName  ref="#Dublin_Richmond_Barracks">Richmond Barracks, Dublin, Ireland.</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Mabel FitzGerald -->
+                        
+                        <persName ref="#FitzGerald_M">Mabel FitzGerald</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    Bray 
+                    Wicklow
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#Bray">Bray, Co.Wicklow, Ireland.</placeName>
+                    
+                
+                    
+                    <date when="1916-05-11">11 May 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Female</item>
+                      
+                    
+                        <item n="death">1957</item>
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-02-14T22:13:20" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-02-14T22:13:20" who="#MzBBs">
+                
+                    Page 2167 modified:
+                    <!-- 
+11th May, 1916
+
+sir,
+I should be very glad to have some information as to
+Prison Regulations in Richmond Barracks.
+
+My husband, Mr Desmond FitzGerald, was brought before
+the Provost Marshall in Kingstown today and is, I hear, to be take
+to Richmond Barracks tomorrow to be tried beforre a Court Martial.
+
+I hope that it will be possible to inform me before 
+hand of the place, day and time of his trial: I shall be glad to 
+to know if this is done. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-14T22:19:48" who="#MzBBs">
+                
+                    Page 2167 modified:
+                    <!-- 
+11th May, 1916
+
+sir,
+I should be very glad to have some information as to
+Prison Regulations in Richmond Barracks.
+
+My husband, Mr Desmond FitzGerald, was brought before
+the Provost Marshall in Kingstown today and is, I hear, to be take
+to Richmond Barracks tomorrow to be tried beforre a Court Martial.
+
+I hope that it will be possible to inform me before 
+hand of the place, day and time of his trial: I shall be glad to 
+to know if this is done.
+
+And can I or other relatives or friends visit him in
+the Barracks? Please let me know the hours for doing so. It
+is posible that his sister will come over from England at the
+week-end specially to see him, I should be specially grateful for 
+precise information as to the hours at which he may be visited on
+Saturday and Sunday as her time will be so short.
+
+I hope that you will give Mr. FitzGerlad facilities fr
+for ordering his food from a Restaurant and for ordering daily
+papers if these are per mitted, as owing to the distance, I shall be
+unable to see to these matters for him, and that you will per-
+mit him to write me if he wishes a change of clothing to be sent
+him.
+
+If he is sentenced I presume that I will be permitted 
+to see him at least once after it before he is removed. I shall 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-02-14T22:22:18" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-02-14T22:22:18" who="#MzBBs">
+                
+                    Page 2168 modified:
+                    <!-- 
+be glad if in t his case the distance at which I live is taken into 
+account and sufficient time given me to keep the appointment.
+
+Hoping that you will see your way to let me have the in-
+formation I desire,
+
+I remain, 
+Yours truly,
+
+
+
+The Governor
+Richmond Barracks Prison,
+Dublin 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-27T00:07:29" who="#BBaker53">
+                
+                    Page 2167 modified:
+                    <!-- 
+<note>P80/1572(1)</note><lb/><lb/>
+<address>2 Loretto Villas
+Bray.<lb/></address>
+<date>11th May, 1916</date><lb/>
+
+<salute>Sir,</salute>
+<p>I should be very glad to have some information as to<lb/>
+Prison Regulations in Richmond Barracks.</p>
+
+<p>My husband, Mr Desmond FitzGerald, was brought before<lb/>
+the Provost Marshall in Kingstown today and is, I hear, to be <sic>take</sic><lb/>
+to Richmond Barracks tomorrow to be tried beforre a Court Martial.</p><lb/>
+
+<p>I hope that it will be possible to inform me before-<lb/>
+hand of the place, day and time of his trial: I shall be glad to<lb/> 
+to know if this is done.</p>
+
+<p>And can I or other relatives or friends visit him in<lb/>
+the Barracks? Please let me know the hours for doing so. It<lb/>
+is posible that his sister will come over from England at the<lb/>
+week-end specially to see him, I should be specially grateful for<lb/>
+precise information as to the hours at which he may be visited on<lb/>
+Saturday and Sunday as her time will be so short.</p>
+
+<p>I hope that you will give Mr. <sic>FitzGerlad</sic> facilities <del>fr</del><lb/>
+for ordering his food from a Restaurant and for ordering daily<lb/>
+papers if these are per mitted, as owing to the distance, I shall be<lb/>
+unable to see to these matters for him, and that you will per-<lb/>
+mit him to write me if he wishes a change of clothing to be sent<lb/>
+him.</p>
+
+<p>If he is sentenced I presume that I will be permitted <lb/>
+to see him at least once after it before he is removed. I shall</p><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-12-27T00:09:02" who="#BBaker53">
+                
+                    Page 2168 modified:
+                    <!-- 
+<note>P80/1572(2)</note>
+
+<p>be glad if in this case the distance at which I live is taken into <lb/>
+account and sufficient time given me to keep the appointment.</p>
+
+<p>Hoping that you will see your way to let me have the in-<lb/>
+formation I desire,</p>
+
+I remain, 
+Yours truly,
+
+
+
+<address>The Governor<lb/>
+Richmond Barracks Prison,<lb/>
+Dublin</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-16T20:43:17" who="#Comber">
+                
+                    Page 2167 modified:
+                    <!-- 
+<note>P80/1572(1)</note><lb/><lb/>
+<address>2 Loretto Villas
+Bray.<lb/></address>
+<date>11<hi rend="superscript">th</hi> May, 1916</date><lb/>
+
+<salute>Sir,</salute>
+<p>I should be very glad to have some information as to<lb/> Prison Regulations in Richmond Barracks.</p>
+<p>My husband, Mr Desmond FitzGerald, was brought before<lb/> the Provost Marshall in Kingstown today and is, I hear, to be <sic>take</sic><lb/> to Richmond Barracks tomorrow to be tried before a Court Martial.</p>
+<p>I hope that it will be possible to inform me beforehand<lb/> of the place, day and time of his trial: I shall be glad to<lb/> to know if this is done.</p>
+<p>And can I or other relatives or friends visit him in<lb/> the Barracks? Please let me know the hours for doing so. It<lb/> is <sic>posible</sic> that his sister will come over from England at the<lb/> week-end specially to see him, I should be specially grateful for<lb/>
+precise information as to the hours at which he may be visited on<lb/> Saturday and Sunday as her time will be so short.</p>
+<p>I hope that you will give Mr. <sic>FitzGerlad</sic> facilities <del>fr</del><lb/> for ordering his food from a Restaurant and for ordering daily<lb/> papers if these are <sic>per mitted</sic>, as owing to the distance, I shall be<lb/> unable to see to these matters for him, and that you will permit<lb/> him to write me if he wishes a change of clothing to be sent<lb/> him.</p>
+<p>If he <sic>issentenced</sic> I presume that I will be permitted <lb/> to see him at least once after it before he is <add>removed. I shall</add></p><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-16T20:44:52" who="#Comber">
+                
+                    Page 2168 modified:
+                    <!-- 
+<note>P80/1572(2)</note>
+
+<pb/><p>be glad if in this case the distance at which I live is taken into <lb/> account and sufficient time given me to keep the appointment.</p>
+<p>Hoping that you will see your way to let me have the information<lb/> I desire,</p>
+
+<salute>I remain, 
+Yours truly,</salute>
+
+
+
+<address>The Governor<lb/>
+Richmond Barracks Prison,<lb/>
+Dublin</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-07T18:19:22" who="#Tbrosnan">
+                
+                    Page 2167 modified:
+                    <!-- 
+<note>P80/1572(1)</note><lb/><lb/>
+<address>2 Loretto Villas
+Bray.<lb/></address>
+<lb/><date>11<hi rend="superscript">th</hi> May, 1916</date><lb/>
+
+<lb/><salute>Sir,</salute>
+<p>I should be very glad to have some information as to
+<lb/> Prison Regulations in Richmond Barracks.</p>
+<p>My husband, Mr Desmond FitzGerald, was brought before
+<lb/> the Provost Marshall in Kingstown today and is, I hear, to be <sic>take</sic>
+<lb/> to Richmond Barracks tomorrow to be tried before a Court Martial.</p>
+<p>I hope that it will be possible to inform me beforehand
+<lb/> of the place, day and time of his trial: I shall be glad to
+<lb/> to know if this is done.</p>
+<p>And can I or other relatives or friends visit him in
+<lb/> the Barracks? Please let me know the hours for doing so. It
+<lb/> is <sic>posible</sic> that his sister will come over from England at the
+<lb/> week-end specially to see him, I should be specially grateful for
+<lb/>precise information as to the hours at which he may be visited on
+<lb/> Saturday and Sunday as her time will be so short.</p>
+<p>I hope that you will give Mr. <sic>FitzGerlad</sic> facilities <del>fr</del>
+<lb/> for ordering his food from a Restaurant and for ordering daily
+<lb/> papers if these are <sic>per mitted</sic>, as owing to the distance, I shall be
+<lb/> unable to see to these matters for him, and that you will permit
+<lb/> him to write me if he wishes a change of clothing to be sent
+<lb/> him.</p>
+<p>If he is sentenced I presume that I will be permitted 
+<lb/> to see him at least once after it before he is <add>removed. I shall</add><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-07T18:20:45" who="#Tbrosnan">
+                
+                    Page 2168 modified:
+                    <!-- 
+<note>P80/1572(2)</note>
+be glad if in this case the distance at which I live is taken into 
+<lb/> account and sufficient time given me to keep the appointment.</p>
+<p>Hoping that you will see your way to let me have the information
+<lb/> I desire,</p>
+
+<lb/><salute>I remain, 
+<lb/>Yours truly,</salute>
+
+<lb/><address>The Governor
+<lb/>Richmond Barracks Prison,
+<lb/>Dublin</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T10:34:08" who="#NR">
+                
+                    Page 2167 modified:
+                    <!-- 
+<address>2 Loretto Villas
+Bray.</address>
+<date>11<hi rend="superscript">th</hi> May, 1916</date><lb/>
+
+<salute>Sir,</salute>
+<p>I should be very glad to have some information as to
+<lb/> Prison Regulations in Richmond Barracks.</p>
+<p>My husband, Mr Desmond FitzGerald, was brought before
+<lb/> the Provost Marshall in Kingstown today and is, I hear, to be <sic>take</sic>
+<lb/> to Richmond Barracks tomorrow to be tried before a Court Martial.</p>
+<p>I hope that it will be possible to inform me beforehand
+<lb/> of the place, day and time of his trial: I shall be glad to
+<lb/> to know if this is done.</p>
+<p>And can I or other relatives or friends visit him in
+<lb/> the Barracks? Please let me know the hours for doing so. It
+<lb/> is <sic>posible</sic> that his sister will come over from England at the
+<lb/> week-end specially to see him, I should be specially grateful for
+<lb/>precise information as to the hours at which he may be visited on
+<lb/> Saturday and Sunday as her time will be so short.</p>
+<p>I hope that you will give Mr. <sic>FitzGerlad</sic> facilities <del>fr</del>
+<lb/> for ordering his food from a Restaurant and for ordering daily
+<lb/> papers if these are <sic>per mitted</sic>, as owing to the distance, I shall be
+<lb/> unable to see to these matters for him, and that you will permit
+<lb/> him to write me if he wishes a change of clothing to be sent
+<lb/> him.</p>
+<p>If he is sentenced I presume that I will be permitted 
+<lb/> to see him at least once after it before he is <add>removed. I shall</add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T10:34:50" who="#NR">
+                
+                    Page 2168 modified:
+                    <!-- 
+<lb/>be glad if in this case the distance at which I live is taken into 
+<lb/> account and sufficient time given me to keep the appointment.</p>
+<p>Hoping that you will see your way to let me have the information
+<lb/> I desire,</p>
+
+<salute>I remain, 
+<lb/>Yours truly,</salute>
+
+<address>The Governor
+<lb/>Richmond Barracks Prison,
+<lb/>Dublin</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T10:34:51" who="#NR">
+                
+                    Page 2168 modified:
+                    <!-- 
+<lb/>be glad if in this case the distance at which I live is taken into 
+<lb/> account and sufficient time given me to keep the appointment.</p>
+<p>Hoping that you will see your way to let me have the information
+<lb/> I desire,</p>
+
+<salute>I remain, 
+<lb/>Yours truly,</salute>
+
+<address>The Governor
+<lb/>Richmond Barracks Prison,
+<lb/>Dublin</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T10:34:56" who="#NR">
+                
+                    Page 2168 modified:
+                    <!-- 
+<lb/>be glad if in this case the distance at which I live is taken into 
+<lb/> account and sufficient time given me to keep the appointment.</p>
+<p>Hoping that you will see your way to let me have the information
+<lb/> I desire,</p>
+
+<salute>I remain, 
+<lb/>Yours truly,</salute>
+
+<address>The Governor
+<lb/>Richmond Barracks Prison,
+<lb/>Dublin</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T10:35:04" who="#NR">
+                
+                    Page 2168 modified:
+                    <!-- 
+<lb/>be glad if in this case the distance at which I live is taken into 
+<lb/> account and sufficient time given me to keep the appointment.</p>
+<p>Hoping that you will see your way to let me have the information
+<lb/> I desire,</p>
+
+<salute>I remain, 
+<lb/>Yours truly,</salute>
+
+<address>The Governor
+<lb/>Richmond Barracks Prison,
+<lb/>Dublin.</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2168 created using version from <date when="2014-02-14T22:22:18"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2168 removed (version from <date when="2014-02-14T22:22:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2168 removed (version from <date when="2014-12-27T00:09:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2168 removed (version from <date when="2015-02-16T20:44:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2168 removed (version from <date when="2016-01-07T18:20:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2168 removed (version from <date when="2016-01-08T10:34:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2168 removed (version from <date when="2016-01-08T10:34:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2168 removed (version from <date when="2016-01-08T10:34:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2168 removed (version from <date when="2016-01-08T10:35:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2167 created using version from <date when="2014-02-14T22:13:20"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2167 removed (version from <date when="2014-02-14T22:13:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2167 removed (version from <date when="2014-02-14T22:19:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2167 removed (version from <date when="2014-12-27T00:07:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2167 removed (version from <date when="2015-02-16T20:43:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2167 removed (version from <date when="2016-01-07T18:19:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2167 removed (version from <date when="2016-01-08T10:34:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2168 (version from <date when="2016-01-08T10:35:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2167 added to letter (version from <date when="2016-01-08T10:34:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 2168 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 2167 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:31" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:40" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:41" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_854_img_2167" url="b6fe9f5c2aab6e5e03e33b39131abf00.jpg"/> 
+    
+    <graphic xml:id="L1916_854_img_2168" url="10b882c61de87c45a7a6f7779a7e7b9a.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2167" facs="#L1916_854_img_2167"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>2 Loretto Villas
+Bray.</addrLine></address>
+<dateline><date>11<hi rend="superscript">th</hi> May, 1916</date></dateline>
+
+<salute>Sir,</salute></opener>
+<p>I should be very glad to have some information as to
+<lb/> Prison Regulations in Richmond Barracks.</p>
+<p>My husband, Mr Desmond FitzGerald, was brought before
+<lb/> the Provost Marshall in Kingstown today and is, I hear, to be <sic>take</sic>
+<lb/> to Richmond Barracks tomorrow to be tried before a Court Martial.</p>
+<p>I hope that it will be possible to inform me beforehand
+<lb/> of the place, day and time of his trial: I shall be glad to
+<lb/> to know if this is done.</p>
+<p>And can I or other relatives or friends visit him in
+<lb/> the Barracks? Please let me know the hours for doing so. It
+<lb/> is <sic>posible</sic> that his sister will come over from England at the
+<lb/> week-end specially to see him, I should be specially grateful for
+<lb/>precise information as to the hours at which he may be visited on
+<lb/> Saturday and Sunday as her time will be so short.</p>
+<p>I hope that you will give Mr. <sic>FitzGerlad</sic> facilities <del>fr</del>
+<lb/> for ordering his food from a Restaurant and for ordering daily
+<lb/> papers if these are <sic>per mitted</sic>, as owing to the distance, I shall be
+<lb/> unable to see to these matters for him, and that you will permit
+<lb/> him to write me if he wishes a change of clothing to be sent
+<lb/> him.</p>
+<p>If he is sentenced I presume that I will be permitted 
+<lb/> to see him at least once after it before he is <add>removed. I shall</add>
+        
+    
+
+    
+         
+        <pb n="2168" facs="#L1916_854_img_2168"/>
+        
+        
+           
+            <lb/>be glad if in this case the distance at which I live is taken into 
+<lb/> account and sufficient time given me to keep the appointment.</p>
+<p>Hoping that you will see your way to let me have the information
+<lb/> I desire,</p>
+
+<closer><salute>I remain, 
+<lb/>Yours truly,</salute>
+
+<address><addrLine>The Governor</addrLine>
+<addrLine>Richmond Barracks Prison,</addrLine>
+<addrLine>Dublin.</addrLine></address></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

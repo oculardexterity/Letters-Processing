@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2343">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Sir Wilfrid Spender to his wife Lady Lillian Spender, 21 August 1916</title>
+                
+                <author>Wilfrid Spender</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tnoonan1111">Tnoonan11 11</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2343</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from sir Wilfrid Bliss Spender (1876-1960) to his wife, Lady Lillian Spender, née Dean, (1880-1968). In this letter, Spender discusses matters relating to house-hunting and to Lillian's maids. He expresses regret at his recent promotion, as his chance of getting leave before Christmas is much lower than if he were still in the Ulster Division. He discusses the army's failure to build on the successes of July 1, his continuing work on a dispatch, and the experience of his brother Rex in the trenches.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Sir Wilfrid Spender was a member of the British Army until 1913 when controversy surrounding his signature of the Ulster Solemn League and Covenant resulted in his resignation. Spender was called up for military service in 1914 and from 1915 served in the 36th (Ulster) Division. Throughout the war, Spender wrote a collection of letters to his wife Lady Lillian Spender. The letters date mainly from 1915 to 1918, when Sir Wilfrid was serving in France. The letters concern politics, the Irish question, personal life, and Wilfrid's experience of the Great War. Lady Lillian served in the Ulster Volunteer Nursing Corps during the war, and was an organiser of the Ulster Division Comforts Fund.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Lady Spender&#39;s Correspondence, D1633/1/1/393
+                             
+                        -->
+                            
+                                <collection type='public'>Lady Spender's Correspondence</collection>
+                            
+                            
+                        <idno>D1633/1/1/393</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Lillian Spender -->
+                        
+                        <persName ref="#Spender_L">Lillian Spender</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Wilfrid Spender -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF RECIPIENT IS CORRECT --></VERIFY>
+                        
+                        <persName ref="#Spender_W_B">Wilfrid Bliss Spender</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    France 
+                    France
+                    France
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#France">France</placeName>
+                    
+                
+                    
+                    <date when="1916-08-21">21 August 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1960</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2016-01-22T14:12:37" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T14:12:37" who="#Comber">
+                
+                    Page 6484 modified:
+                    <!-- 
+D1633/1/1/393
+<address>GENERAL HEADQUARTERS,<lb/>
+BRITISH ARMY IN THE FIELD.<lb/></address>
+<date>21 Aug</date>
+<salute>My <unclear>pr</unclear></salute>
+<p>So sorry to hear you are feeling as I<lb/>
+expected rather dumpy, but perhaps you are the better<lb/>
+for your week end. What have you settled about the<lb/>
+maids? Perhaps my pleading may make it easier to<lb/>
+come to terms. If so, I would suggest you <del>deleted text</del> send<lb/>
+them home on a holiday when you pick up and<lb/>
+that you leave house hunting etc till you have had<lb/>
+your change if you can put it off so long which I<lb/>
+am doubtful about.</p>
+Poor old thing the <unclear>b w</unclear> feels rather as you do, &amp;<lb/>
+if <unclear>questionable reading</unclear> is really opened in the <unclear>Ulster</unclear> Div will begin to<lb/>
+<unclear>questionable reading</unclear> his titles etc. I can't open any hopes I'm afraid<lb/>
+but <unclear>questionable reading</unclear> leave may be opened for GHQ <add>late</add> in September<lb/>
+&amp;then I come last which looks like Xmas, so its no less<lb/>
+<unclear>questionable reading</unclear> especially as I may be in division by then.<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T14:13:21" who="#Comber">
+                
+                    Page 6484 modified:
+                    <!-- 
+D1633/1/1/393
+<address>GENERAL HEADQUARTERS,<lb/>
+BRITISH ARMY IN THE FIELD.<lb/></address>
+<date>21 Aug</date>
+<salute>My <unclear>pr</unclear></salute>
+<p>So sorry to hear you are feeling as I<lb/>
+expected rather dumpy, but perhaps you are the better<lb/>
+for your week end. What have you settled about the<lb/>
+maids? Perhaps my pleading may make it easier to<lb/>
+come to terms. If so, I would suggest you <del>deleted text</del> send<lb/>
+them home on a holiday when you pick up and<lb/>
+that you leave house hunting etc till you have had<lb/>
+your change if you can put it off so long which I<lb/>
+am doubtful about.</p>
+<p>Poor old thing the <unclear>b w</unclear> feels rather as you do, &amp;<lb/>
+if <unclear>questionable reading</unclear> is really opened in the <unclear>Ulster</unclear> Div will begin to<lb/>
+<unclear>questionable reading</unclear> his titles etc. I can't open any hopes I'm afraid<lb/>
+but <unclear>questionable reading</unclear> leave may be opened for GHQ <add>late</add> in September<lb/>
+&amp;then I come last which looks like Xmas, so its no less<lb/>
+<unclear>questionable reading</unclear> especially as I may be in division by then.</p><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-27T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-27T12:02:54" who="#NR">
+                
+                    Page 6484 modified:
+                    <!-- 
+<address>GENERAL HEADQUARTERS,<lb/>
+BRITISH ARMY IN THE FIELD.</address>
+<date>21 Aug</date>
+<salute>My pr</salute>
+<p>So sorry to hear you are feeling as I<lb/>
+expected rather dumpy, but perhaps you are the better<lb/>
+for your week end. What have you settled about the<lb/>
+maids? Perhaps my pleading may make it easier to<lb/>
+come to terms. If so, I would suggest you <del>b</del> send<lb/>
+them home on a holiday when you pick up and<lb/>
+that you leave house hunting etc till you have had<lb/>
+your change if you can put it off so long which I<lb/>
+am doubtful about.</p>
+<p>Poor old thing the b w feels rather as you do, &amp;<lb/>
+if <unclear>leave</unclear> is really opened in the <unclear>Ulster</unclear> Div will begin to<lb/>
+<unclear>regret</unclear> his titles etc. I can't open any hopes I'm afraid<lb/>
+but <unclear>britain</unclear> leave may be opened for GHQ <add>late</add> in September<lb/>
+&amp;then I come last which looks like Xmas, so its no less<lb/>
+<unclear>questionable reading</unclear> especially as I may be in division by then.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-27T12:22:46" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2016-01-27T12:22:46" who="#NR">
+                
+                    Page 6486 modified:
+                    <!-- 
+<p>I saw General Cameron yesterday who strange to me
+<lb/>attributed the lack of <hi rend="superscript">any</hi> permanent success on July 1st to <unclear>line</unclear>
+<lb/>things of which 2 were those which I most strongly advocated 
+<lb/>before the attack.</p>
+<p>I hope to go to the 13th troop this afternoon to get further
+<lb/>news for my dispatch. It is most promising but going back,
+<lb/>but is I think improving except in length. Rex is better
+<lb/>and really plucky. I am glad he has pleasant companions
+<lb/>but wish Bull was less yackety now. I heard Leader had
+<lb/>got into trouble &amp; gone home. I find he is kown
+<lb/>here and as expelled from Japan (?)</p>
+<p>There is an early post today so I will
+<lb/>close but don't expect to write again later!</p>
+<salute>Your bw</salute>
+<signed>WB spender</signed>
+<note>PS. I wish you could let Belfast manage the 
+<lb/>Pot War. Your dream is entirely <unclear>amiss</unclear>. It's just
+<lb/>what might have happened!</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6486 created using version from <date when="2016-01-27T12:22:46"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6486 removed (version from <date when="2016-01-27T12:22:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6484 created using version from <date when="2016-01-22T14:12:37"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6484 removed (version from <date when="2016-01-22T14:12:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6484 removed (version from <date when="2016-01-22T14:13:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6484 removed (version from <date when="2016-01-27T12:02:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 6486 (version from <date when="2016-01-27T12:23:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6484 added to letter (version from <date when="2016-01-27T12:02:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 6484 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 6486 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:28" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:32" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:50" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:50" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2343_img_6484" url="48cbd6b16601c15e84ad167e651719c9.jpg"/> 
+    
+    <graphic xml:id="L1916_2343_img_6486" url="3436b1a576c703a4960d149c4d5cbab4.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="6484" facs="#L1916_2343_img_6484"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>GENERAL HEADQUARTERS,</addrLine>
+<addrLine>BRITISH ARMY IN THE FIELD.</addrLine></address>
+<dateline><date>21 Aug</date></dateline>
+<salute>My pr</salute></opener>
+<p>So sorry to hear you are feeling as I<lb/>
+expected rather dumpy, but perhaps you are the better<lb/>
+for your week end. What have you settled about the<lb/>
+maids? Perhaps my pleading may make it easier to<lb/>
+come to terms. If so, I would suggest you <del>b</del> send<lb/>
+them home on a holiday when you pick up and<lb/>
+that you leave house hunting etc till you have had<lb/>
+your change if you can put it off so long which I<lb/>
+am doubtful about.</p>
+<p>Poor old thing the b w feels rather as you do, &amp;<lb/>
+if <unclear>leave</unclear> is really opened in the <unclear>Ulster</unclear> Div will begin to<lb/>
+<unclear>regret</unclear> his titles etc. I can't open any hopes I'm afraid<lb/>
+but <unclear>britain</unclear> leave may be opened for GHQ <add>late</add> in September<lb/>
+&amp;then I come last which looks like Xmas, so its no less<lb/>
+<unclear>questionable reading</unclear> especially as I may be in division by then.</p>
+        
+    
+
+    
+         
+        <pb n="6486" facs="#L1916_2343_img_6486"/>
+        
+        
+           
+            <p>I saw General Cameron yesterday who strange to me
+<lb/>attributed the lack of <hi rend="superscript">any</hi> permanent success on July 1st to <unclear>line</unclear>
+<lb/>things of which 2 were those which I most strongly advocated 
+<lb/>before the attack.</p>
+<p>I hope to go to the 13th troop this afternoon to get further
+<lb/>news for my dispatch. It is most promising but going back,
+<lb/>but is I think improving except in length. Rex is better
+<lb/>and really plucky. I am glad he has pleasant companions
+<lb/>but wish Bull was less yackety now. I heard Leader had
+<lb/>got into trouble &amp; gone home. I find he is kown
+<lb/>here and as expelled from Japan (?)</p>
+<p>There is an early post today so I will
+<lb/>close but don't expect to write again later!</p>
+<closer><salute>Your bw</salute>
+<signed>WB spender</signed></closer>
+<note>PS. I wish you could let Belfast manage the 
+<lb/>Pot War. Your dream is entirely <unclear>amiss</unclear>. It's just
+<lb/>what might have happened!</note>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

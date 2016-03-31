@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2376">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Sir Wilfrid Spender to his wife Lady Lillian Spender, 18 December 1915</title>
+                
+                <author>Wilfrid Spender</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="SKerr">SKerr</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tnoonan1111">Tnoonan11 11</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2376</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>Letter from sir Wilfrid Bliss Spender (1876-1960) to his wife, Lady Lillian Spender, née Dean, (1880-1968). In this letter, Spender notes the terrible weather and expresses guilty relief that he is not in the trenches, as conditions there are "really awful". He recounts  a recent ride he undertook upon his horse, Fanny, and praises her fortitude in the weather, deeming her "a true British lady". Spender mentions the writing of Christmas letters, the probable imminence of his holiday leave, and a batch of correspondence he has recently received relating to the Irish question. He refers to Lillian's house and servants, makes recommendations for the allocation of the Ulster Division Comforts Fund, and complains that Lillian's letters invariably arrive late.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Sir Wilfrid Spender was a member of the British Army until 1913 when controversy surrounding his signature of the Ulster Solemn League and Covenant resulted in his resignation. Spender was called up for military service in 1914 and from 1915 served in the 36th (Ulster) Division. Throughout the war, Spender wrote a collection of letters to his wife Lady Lillian Spender. The letters date mainly from 1915 to 1918, when Sir Wilfrid was serving in France. The letters concern politics, the Irish question, personal life, and Wilfrid's experience of the Great War.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Lady Spender&#39;s Correspondence, D1633/1/1/108
+                             
+                        -->
+                            
+                                <collection type='public'>Lady Spender's Correspondence</collection>
+                            
+                            
+                        <idno>D1633/1/1/108</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Lillian Spender -->
+                        
+                        <persName ref="#Spender_L">Lillian Spender</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Wilfrid Spender -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF RECIPIENT IS CORRECT --></VERIFY>
+                        
+                        <persName ref="#Spender_W_B">Wilfrid Bliss Spender</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    France 
+                    France
+                    France
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#France">France</placeName>
+                    
+                
+                    
+                    <date when="1915-12-18">18 December 1915</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1960</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-21T13:17:18" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-21T13:17:18" who="#Tbrosnan">
+                
+                    Page 6261 modified:
+                    <!-- 
+<add>D633/1/1/108</add>
+<date>Dec,18</date>
+
+<salute>My pv.</salute>
+<p>Going to turn in in a few minutes but will begin a few lines<lb/>to you first. Very wet all day &amp;the trenches must, I know be<lb/>really awful so that we are lucky to have escaped them for so long<lb/>&amp; I hope the <add>worst</add> weather may be over before we take our over someday, <lb/> tho' this sounds shirking. </p><p>Today I sent on with my Village defence scheme Fanny <lb/> taking me out. She really is a ame old beast for she dislikes<lb/>the rain intensely but when we had gone 200 yards &amp; she had<lb/>shown <add>clearly</add>that jshe did not approve, she just scampered all the way<lb/>&amp; I have never to use a single whip or spur to her; it is<lb/>all will - a true British lady. -  </p><p>I am afraid I shall shirk my usual Xmas letters except<lb/> just the family. </p><p><date>18.<hi rend="superscript">th</hi></date> My birthday from all your family turned up today<lb/>   &amp; were by no means the less welcome for bign so early, tho'<lb/>    Why did you say they must be posted on the 16<hi rend="superscript">th</hi>  to reach <lb/>          </p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-21T13:20:42" who="#Tbrosnan">
+                
+                    Page 6261 modified:
+                    <!-- 
+<add>D633/1/1/108</add>
+<date>Dec,18</date>
+
+<salute>My pv.</salute>
+<p>Going to turn in in a few minutes but will begin a few lines<lb/>to you first. Very wet all day &amp;the trenches must, I know be<lb/>really awful so that we are lucky to have escaped them for so long<lb/>&amp; I hope the <add>worst</add> weather may be over before we take our over someday, <lb/> tho' this sounds shirking. </p><p>Today I sent on with my Village defence scheme Fanny <lb/> taking me out. She really is a ame old beast for she dislikes<lb/>the rain intensely but when we had gone 200 yards &amp; she had<lb/>shown <add>clearly</add>that jshe did not approve, she just scampered all the way<lb/>&amp; I have never to use a single whip or spur to her; it is<lb/>all will - a true British lady. -  </p><p>I am afraid I shall shirk my usual Xmas letters except<lb/> just the family. </p><p><date>18.<hi rend="superscript">th</hi></date> My birthday from all your family turned up today<lb/>   &amp; were by no means the less welcome for bign so early, tho'<lb/>    Why did you say they must be posted on the 16<hi rend="superscript">th</hi>  to reach <lb/>me in time, &amp; why is that case did you not write them <lb/> yourself ?  </p><p> I hear the General intends coming on the 31<hi rend="superscript">st</hi>   &amp; it is <lb/> barely possible that I may come over that night too !!! I feel sure something will turn up and knock the whole leave on the <lb/>head. Meanwhile Richardson expects to get of on 22<hi rend="superscript">nd</hi> &amp; will<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-21T13:20:57" who="#Tbrosnan">
+                
+                    Page 6261 modified:
+                    <!-- 
+<add>D633/1/1/108</add>
+<date>Dec,18</date>
+
+<salute>My pv.</salute>
+<p>Going to turn in in a few minutes but will begin a few lines<lb/>to you first. Very wet all day &amp;the trenches must, I know be<lb/>really awful so that we are lucky to have escaped them for so long<lb/>&amp; I hope the <add>worst</add> weather may be over before we take our over someday, <lb/> tho' this sounds shirking. </p><p>Today I sent on with my Village defence scheme Fanny <lb/> taking me out. She really is a ame old beast for she dislikes<lb/>the rain intensely but when we had gone 200 yards &amp; she had<lb/>shown <add>clearly</add>that jshe did not approve, she just scampered all the way<lb/>&amp; I have never to use a single whip or spur to her; it is<lb/>all will - a true British lady. -  </p><p>I am afraid I shall shirk my usual Xmas letters except<lb/> just the family. </p><p><date>18.<hi rend="superscript">th</hi></date> My birthday from all your family turned up today<lb/>   &amp; were by no means the less welcome for being so early, tho'<lb/>    Why did you say they must be posted on the 16<hi rend="superscript">th</hi>  to reach <lb/>me in time, &amp; why is that case did you not write them <lb/> yourself ?  </p><p> I hear the General intends coming on the 31<hi rend="superscript">st</hi>   &amp; it is <lb/> barely possible that I may come over that night too !!! I feel sure something will turn up and knock the whole leave on the <lb/>head. Meanwhile Richardson expects to get of on 22<hi rend="superscript">nd</hi> &amp; will<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-21T13:21:19" who="#Tbrosnan">
+                
+                    Page 6261 modified:
+                    <!-- 
+<add>D633/1/1/108</add>
+<date>Dec,18</date>
+
+<salute>My pv.</salute>
+<p>Going to turn in in a few minutes but will begin a few lines<lb/>to you first. Very wet all day &amp;the trenches must, I know be<lb/>really awful so that we are lucky to have escaped them for so long<lb/>&amp; I hope the <add>worst</add> weather may be over before we take our over someday, <lb/> tho' this sounds shirking. </p><p>Today I sent on with my Village defence scheme Fanny <lb/> taking me out. She really is a game old beast for she dislikes<lb/>the rain intensely but when we had gone 200 yards &amp; she had<lb/>shown <add>clearly</add>that jshe did not approve, she just scampered all the way<lb/>&amp; I have never to use a single whip or spur to her; it is<lb/>all will - a true British lady. -  </p><p>I am afraid I shall shirk my usual Xmas letters except<lb/> just the family. </p><p><date>18.<hi rend="superscript">th</hi></date> My birthday from all your family turned up today<lb/>   &amp; were by no means the less welcome for being so early, tho'<lb/>    Why did you say they must be posted on the 16<hi rend="superscript">th</hi>  to reach <lb/>me in time, &amp; why is that case did you not write them <lb/> yourself ?  </p><p> I hear the General intends coming on the 31<hi rend="superscript">st</hi>   &amp; it is <lb/> barely possible that I may come over that night too !!! I feel sure something will turn up and knock the whole leave on the <lb/>head. Meanwhile Richardson expects to get of on 22<hi rend="superscript">nd</hi> &amp; will<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-21T13:21:25" who="#Tbrosnan">
+                
+                    Page 6261 modified:
+                    <!-- 
+<add>D633/1/1/108</add>
+<date>Dec,18</date>
+
+<salute>My pv.</salute>
+<p>Going to turn in in a few minutes but will begin a few lines<lb/>to you first. Very wet all day &amp;the trenches must, I know be<lb/>really awful so that we are lucky to have escaped them for so long<lb/>&amp; I hope the <add>worst</add> weather may be over before we take our over someday, <lb/> tho' this sounds shirking. </p><p>Today I sent on with my Village defence scheme Fanny <lb/> taking me out. She really is a game old beast for she dislikes<lb/>the rain intensely but when we had gone 200 yards &amp; she had<lb/>shown <add>clearly</add>that she did not approve, she just scampered all the way<lb/>&amp; I have never to use a single whip or spur to her; it is<lb/>all will - a true British lady. -  </p><p>I am afraid I shall shirk my usual Xmas letters except<lb/> just the family. </p><p><date>18.<hi rend="superscript">th</hi></date> My birthday from all your family turned up today<lb/>   &amp; were by no means the less welcome for being so early, tho'<lb/>    Why did you say they must be posted on the 16<hi rend="superscript">th</hi>  to reach <lb/>me in time, &amp; why is that case did you not write them <lb/> yourself ?  </p><p> I hear the General intends coming on the 31<hi rend="superscript">st</hi>   &amp; it is <lb/> barely possible that I may come over that night too !!! I feel sure something will turn up and knock the whole leave on the <lb/>head. Meanwhile Richardson expects to get of on 22<hi rend="superscript">nd</hi> &amp; will<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-21T13:21:37" who="#Tbrosnan">
+                
+                    Page 6261 modified:
+                    <!-- 
+<add>D633/1/1/108</add>
+<date>Dec,18</date>
+
+<salute>My pv.</salute>
+<p>Going to turn in in a few minutes but will begin a few lines<lb/>to you first. Very wet all day &amp; the trenches must, I know be<lb/>really awful so that we are lucky to have escaped them for so long<lb/>&amp; I hope the <add>worst</add> weather may be over before we take our over someday, <lb/> tho' this sounds shirking. </p><p>Today I sent on with my Village defence scheme Fanny <lb/> taking me out. She really is a game old beast for she dislikes<lb/>the rain intensely but when we had gone 200 yards &amp; she had<lb/>shown <add>clearly</add>that she did not approve, she just scampered all the way<lb/>&amp; I have never to use a single whip or spur to her; it is<lb/>all will - a true British lady. -  </p><p>I am afraid I shall shirk my usual Xmas letters except<lb/> just the family. </p><p><date>18.<hi rend="superscript">th</hi></date> My birthday from all your family turned up today<lb/>   &amp; were by no means the less welcome for being so early, tho'<lb/>    Why did you say they must be posted on the 16<hi rend="superscript">th</hi>  to reach <lb/>me in time, &amp; why is that case did you not write them <lb/> yourself ?  </p><p> I hear the General intends coming on the 31<hi rend="superscript">st</hi>   &amp; it is <lb/> barely possible that I may come over that night too !!! I feel sure something will turn up and knock the whole leave on the <lb/>head. Meanwhile Richardson expects to get of on 22<hi rend="superscript">nd</hi> &amp; will<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-21T13:41:35" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-21T13:41:35" who="#Tbrosnan">
+                
+                    Page 6262 modified:
+                    <!-- 
+look you up, so warn the family.</p><p>A huge maid today with letters from Sir George &amp;  Craig<lb/>the latter reads rather like an old man's. The former says that HP has<lb/> got command of the Reserve Brigade. I wonder if Gen' Powell put in<lb/> for it ; if so it is too bad. If not he has himself to blame for not<lb/>taking my advice. Sir G says I think the Gen' has a special<lb/> down on 3 of us himself Mc <unclear>Cammon</unclear> &amp; me. I wonder?? If so it<lb/> really shows extraordinary penetration on their part, tho'  I says it <lb/> but not for repetition. </p><p> I hope to write to the family for Xmas but meanwhile give<lb/>  them my best thanks.  </p><p> I am so sorry about the house. I'm afraid there is no chance of<lb/> its being <unclear>refused</unclear> to meet your wishes. I don't know how you stand<lb/> in regard to dates nor when you expect Maggie &amp; Sarah to return to you. </p><p>Poor thin little FA as the WR calls you. I think I know <lb/>what <add>FA</add> means, in fact I'm sure , but it ought to be Funny Apology<lb/>for an anima (FA) <hi rend="superscript">2</hi>  in fact in algebra, but the WR may not agree.  </p><p>Most certainly NO grants for Xmas dinners from your friends. It<lb/>  is a most outrageous demand. Please let your committee understand that<lb/>there will be countless <hi rend="underline">real</hi>  demands upon all their funds later, when <lb/>wounded &amp;  others get back. I should be furious to think that our<lb/>gift was frivolled away on Xmas dinners for which the Canteen funds<lb/> can pay without difficulty. You can let the Committee know my<lb/>views which I am aware the General fully agrees He is<lb/>is all for accumulating funds for future requirement. </p><p>Richardson &amp; I were out with him this morning. Off to a <lb/>lecture of Boylan Smiths.  All <hi rend="underline">your</hi>  letters arrive a day late. The<lb/> Family's letter posted the day after yours  arrived on time. Can you explain<lb/> Perhaps you ought to put in post earlier? </p>
+<salute>Your BW</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-21T13:41:41" who="#Tbrosnan">
+                
+                    Page 6262 modified:
+                    <!-- 
+look you up, so warn the family.</p><p>A huge maid today with letters from Sir George &amp;  Craig<lb/>the latter reads rather like an old man's. The former says that HP has<lb/> got command of the Reserve Brigade. I wonder if Gen' Powell put in<lb/> for it ; if so it is too bad. If not he has himself to blame for not<lb/>taking my advice. Sir G says I think the Gen' has a special<lb/> down on 3 of us himself Mc <unclear>Cammon</unclear> &amp; me. I wonder?? If so it<lb/> really shows extraordinary penetration on their part, tho'  I says it <lb/> but not for repetition. </p><p> I hope to write to the family for Xmas but meanwhile give<lb/>  them my best thanks.  </p><p> I am so sorry about the house. I'm afraid there is no chance of<lb/> its being <unclear>refused</unclear> to meet your wishes. I don't know how you stand<lb/> in regard to dates nor when you expect Maggie &amp; Sarah to return to you. </p><p>Poor thin little FA as the WR calls you. I think I know <lb/>what <add>FA</add> means, in fact I'm sure , but it ought to be Funny Apology<lb/>for an anima (FA) <hi rend="superscript">2</hi>  in fact in algebra, but the WR may not agree.  </p><p>Most certainly NO grants for Xmas dinners from your friends. It<lb/>  is a most outrageous demand. Please let your committee understand that<lb/>there will be countless <hi rend="underline">real</hi>  demands upon all their funds later, when <lb/>wounded &amp;  others get back. I should be furious to think that our<lb/>gift was frivolled away on Xmas dinners for which the Canteen funds<lb/> can pay without difficulty. You can let the Committee know my<lb/>views which I am aware the General fully agrees He is<lb/>is all for accumulating funds for future requirement. </p><p>Richardson &amp; I were out with him this morning. Off to a <lb/>lecture of Boylan Smiths.  All <hi rend="underline">your</hi>  letters arrive a day late. The<lb/> Family's letter posted the day after yours  arrived on time. Can you explain<lb/> Perhaps you ought to put in post earlier? </p>
+
+<salute>Your BW</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-29T09:29:00" who="#Tbrosnan">
+                
+                    Page 6261 modified:
+                    <!-- 
+<add>D633/1/1/108</add>
+<date>Dec,18</date>
+
+<salute>My pr.</salute>
+<p>Going to turn in in a few minutes but will begin a few lines<lb/>to you first. Very wet all day &amp; the trenches must, I know be<lb/>really awful so that we are lucky to have escaped them for so long<lb/>&amp; I hope the <add>worst</add> weather may be over before we take our over someday, <lb/> tho' this sounds shirking. </p><p>Today I sent on with my Village defence scheme Fanny <lb/> taking me out. She really is a game old beast for she dislikes<lb/>the rain intensely but when we had gone 200 yards &amp; she had<lb/>shown <add>clearly</add>that she did not approve, she just scampered all the way<lb/>&amp; I have never to use a single whip or spur to her; it is<lb/>all will - a true British lady. -  </p><p>I am afraid I shall shirk my usual Xmas letters except<lb/> just the family. </p><p><date>18.<hi rend="superscript">th</hi></date> My birthday from all your family turned up today<lb/>   &amp; were by no means the less welcome for being so early, tho'<lb/>    Why did you say they must be posted on the 16<hi rend="superscript">th</hi>  to reach <lb/>me in time, &amp; why is that case did you not write them <lb/> yourself ?  </p><p> I hear the General intends coming on the 31<hi rend="superscript">st</hi>   &amp; it is <lb/> barely possible that I may come over that night too !!! I feel sure something will turn up and knock the whole leave on the <lb/>head. Meanwhile Richardson expects to get of on 22<hi rend="superscript">nd</hi> &amp; will<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-29T09:30:23" who="#Tbrosnan">
+                
+                    Page 6262 modified:
+                    <!-- 
+look you up, so warn the family.</p><p>A huge maid today with letters from Sir George &amp;  Craig<lb/>the latter reads rather like an old man's. The former says that HP has<lb/> got command of the Reserve Brigade. I wonder if Gen' Powell put in<lb/> for it ; if so it is too bad. If not he has himself to blame for not<lb/>taking my advice. Sir G says I think the Gen' has a special<lb/> down on 3 of us himself Mc <unclear>Cammon</unclear> &amp; me. I wonder?? If so it<lb/> really shows extraordinary penetration on their part, tho'  I says it <lb/> but not for repetition. </p><p> I hope to write to the family for Xmas but meanwhile give<lb/>  them my best thanks.  </p><p> I am so sorry about the house. I'm afraid there is no chance of<lb/> its being <unclear>refused</unclear> to meet your wishes. I don't know how you stand<lb/> in regard to dates nor when you expect Maggie &amp; Sarah to return to you. </p><p>Poor thin little FA as the WR calls you. I think I know <lb/>what <add>FA</add> means, in fact I'm sure , but it ought to be Funny Apology<lb/>for an animal (FA) <hi rend="superscript">2</hi>  in fact in algebra, but the WR may not agree.  </p><p>Most certainly NO grants for Xmas dinners from your friends. It<lb/>  is a most outrageous demand. Please let your committee understand that<lb/>there will be countless <hi rend="underline">real</hi>  demands upon all their funds later, when <lb/>wounded &amp;  others get back. I should be furious to think that our<lb/>gift was frivolled away on Xmas dinners for which the Canteen funds<lb/> can pay without difficulty. You can let the Committee know my<lb/>views which I am aware the General fully agrees He is<lb/>is all for accumulating funds for future requirement. </p><p>Richardson &amp; I were out with him this morning. Off to a <lb/>lecture of Boylan Smiths.  All <hi rend="underline">your</hi>  letters arrive a day late. The<lb/> Family's letter posted the day after yours  arrived on time. Can you explain<lb/> Perhaps you ought to put in post earlier? </p>
+
+<salute>Your BW</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T10:38:33" who="#SKerr">
+                
+                    Page 6261 modified:
+                    <!-- 
+<!~~ D633/1/1/108 ~~>
+<date>Dec,18</date>
+
+<salute>My pr.</salute>
+<p>Going to turn in in a few minutes but will begin a few lines
+<lb/>to you first. Very wet all day &amp; the trenches must, I know be
+<lb/>really awful so that we are lucky to have escaped them for so long
+<lb/>&amp; I hope the <add>worst</add> weather may be over before we take our over some-
+<lb/>day, tho' this sounds shirking. </p>
+<p>Today I went on with my Village defence scheme, Fanny 
+<lb/> taking me out. She really is a game old beast for she dislikes
+<lb/>the rain intensely but when we had gone 200 yards &amp; she had
+<lb/>shown <add>clearly</add>that she did not approve, she just scampered all the way
+<lb/>&amp; I have never to use a single whip or spur to her; it is
+<lb/>all will &#x2014; a true British lady. &#x2014;</p>
+<p>I am afraid I shall shirk my usual Xmas letters except
+<lb/> just the family. </p>
+<p>18.<hi rend="superscript">th</hi> My birthday letters from all your family turned up today
+<lb/>  &amp; were by no means the less welcome for being so early, tho'
+<lb/> Why did you say they must be posted on the 16<hi rend="superscript">th</hi>  to reach 
+<lb/>me in time, &amp; why in that case did you not write them 
+<lb/> yourself ?  </p>
+<p> I hear the General intends coming on the 31<hi rend="superscript">st</hi>   &amp; it is 
+<lb/> barely possible that I may come over that night too !!! I feel
+<lb/> sure something will turn up and knock the whole leave on the 
+<lb/>head. Meanwhile Richardson expects to get off on 22<hi rend="superscript">nd</hi> &amp; will<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T10:49:56" who="#SKerr">
+                
+                    Page 6262 modified:
+                    <!-- 
+look you up, so warn the family.</p>
+<p>A huge mail today with letters from Sir George &amp;  Craig
+<lb/>the latter reads rather like an old man's. The former says that HP has
+<lb/> got command of the Reserve Brigade. I wonder if Gen' Powell put in
+<lb/> for it; if so it is too bad. If not he has himself to blame for not
+<lb/>taking my advice. Sir G says I think the Gen' has a special
+<lb/> down on 3 of us himself Mc <unclear>Cammon</unclear> &amp; me. I wonder?? If so it
+<lb/> really shows extraordinary penetration on their part, tho'  I says it 
+<lb/> but not for repetition. </p>
+<p> I hope to write to the family for Xmas but meanwhile give
+<lb/>  them my best thanks.  </p>
+<p> I am so sorry about the house. I'm afraid there is no chance of
+<lb/> its being reduced to meet your wishes. I don't know how you stand
+<lb/> in regard to dates nor when you expect Maggie &amp; Sarah to return to you. </p>
+<p>Poor thin little FA as the WR calls you. I think I know 
+<lb/>what <del>it</del> <add>FA</add> means, in fact I'm sure , but it ought to be Funny Apology
+<lb/>for an animal (FA) <hi rend="superscript">2</hi>  in fact in algebra, but then WR may not agree.  </p>
+<p>Most certainly NO grants for Xmas dinners from your funds. It
+<lb/>  is a most outrageous demand. Please let your committee understand that
+<lb/>there will be countless <hi rend="underline">real</hi>  demands upon all their funds later, when 
+<lb/>wounded &amp;  others get back. I should be furious to think that our
+<lb/>gift was frivolled away on Xmas dinners for which the Canteen funds
+<lb/> can pay without difficulty. You can let the Committee know my
+<lb/>views with which I am aware the General fully agrees He is
+<lb/>is all for accumulating funds for future requirement. </p>
+<p>Richardson &amp; I were out with him this morning. Off to a 
+<lb/>lecture of Boylan Smiths.  All <hi rend="underline">your</hi>  letters arrive a day late. The
+<lb/> Family's letter posted the day after yours arrived to time. Can you explain
+<lb/> Perhaps you ought to put <unclear>on</unclear> post earlier? </p>
+
+<salute>Your</salute> BW 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T15:08:50" who="#NR">
+                
+                    Page 6261 modified:
+                    <!-- 
+<!~~ D633/1/1/108 ~~>
+<date>Dec,18</date>
+
+<salute>My pr.</salute>
+<p>Going to turn in in a few minutes but will begin a few lines
+<lb/>to you first. Very wet all day &amp; the trenches must, I know be
+<lb/>really awful so that we are lucky to have escaped them for so long
+<lb/>&amp; I hope the <add>worst</add> weather may be over before we take our over some-
+<lb/>day, tho' this sounds shirking. </p>
+<p>Today I went on with my Village defence scheme, Fanny 
+<lb/> taking me out. She really is a game old beast for she dislikes
+<lb/>the rain intensely but when we had gone 200 yards &amp; she had
+<lb/>shown <add>clearly</add>that she did not approve, she just scampered all the way
+<lb/>&amp; I have never to use a single whip or spur to her; it is
+<lb/>all will &#x2014; a true British lady. &#x2014;</p>
+<p>I am afraid I shall shirk my usual Xmas letters except
+<lb/> just the family. </p>
+<p>18.<hi rend="superscript">th</hi> My birthday letters from all your family turned up today
+<lb/>  &amp; were by no means the less welcome for being so early, tho'
+<lb/> Why did you say they must be posted on the 16<hi rend="superscript">th</hi>  to reach 
+<lb/>me in time, &amp; why in that case did you not write them 
+<lb/> yourself ?  </p>
+<p> I hear the General intends coming on the 31<hi rend="superscript">st</hi>   &amp; it is 
+<lb/> barely possible that I may come over that night too !!! I feel
+<lb/> sure something will turn up and knock the whole leave on the 
+<lb/>head. Meanwhile Richardson expects to get off on 22<hi rend="superscript">nd</hi> &amp; will 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T15:10:19" who="#NR">
+                
+                    Page 6262 modified:
+                    <!-- 
+<lb/>look you up, so warn the family.</p>
+<p>A huge mail today with letters from Sir George &amp;  Craig
+<lb/>the latter reads rather like an old man's. The former says that HP has
+<lb/> got command of the Reserve Brigade. I wonder if Gen' Powell put in
+<lb/> for it; if so it is too bad. If not he has himself to blame for not
+<lb/>taking my advice. Sir G says I think the Gen' has a special
+<lb/> down on 3 of us himself Mc <unclear>Cammon</unclear> &amp; me. I wonder?? If so it
+<lb/> really shows extraordinary penetration on their part, tho'  I says it 
+<lb/> but not for repetition. </p>
+<p> I hope to write to the family for Xmas but meanwhile give
+<lb/>  them my best thanks.  </p>
+<p> I am so sorry about the house. I'm afraid there is no chance of
+<lb/> its being reduced to meet your wishes. I don't know how you stand
+<lb/> in regard to dates nor when you expect Maggie &amp; Sarah to return to you. </p>
+<p>Poor thin little FA as the WR calls you. I think I know 
+<lb/>what <del>it</del> <add>FA</add> means, in fact I'm sure , but it ought to be Funny Apology
+<lb/>for an animal (FA) <hi rend="superscript">2</hi>  in fact in algebra, but then WR may not agree.  </p>
+<p>Most certainly NO grants for Xmas dinners from your funds. It
+<lb/>  is a most outrageous demand. Please let your committee understand that
+<lb/>there will be countless <hi rend="underline">real</hi>  demands upon all their funds later, when 
+<lb/>wounded &amp;  others get back. I should be furious to think that our
+<lb/>gift was frivolled away on Xmas dinners for which the Canteen funds
+<lb/> can pay without difficulty. You can let the Committee know my
+<lb/>views with which I am aware the General fully agrees He is
+<lb/>is all for accumulating funds for future requirement. </p>
+<p>Richardson &amp; I were out with him this morning. Off to a 
+<lb/>lecture of Boylan Smiths.  All <hi rend="underline">your</hi>  letters arrive a day late. The
+<lb/> Family's letter posted the day after yours arrived to time. Can you explain
+<lb/> Perhaps you ought to put <unclear>on</unclear> post earlier? </p>
+
+<salute>Your</salute> BW 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6261 created using version from <date when="2015-08-21T13:17:18"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6261 removed (version from <date when="2015-08-21T13:17:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6261 removed (version from <date when="2015-08-21T13:20:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6261 removed (version from <date when="2015-08-21T13:20:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6261 removed (version from <date when="2015-08-21T13:21:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6261 removed (version from <date when="2015-08-21T13:21:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6261 removed (version from <date when="2015-08-21T13:21:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6261 removed (version from <date when="2015-08-29T09:29:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6261 removed (version from <date when="2016-01-19T10:38:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6261 removed (version from <date when="2016-01-21T15:08:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6262 created using version from <date when="2015-08-21T13:41:35"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6262 removed (version from <date when="2015-08-21T13:41:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6262 removed (version from <date when="2015-08-21T13:41:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6262 removed (version from <date when="2015-08-29T09:30:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6262 removed (version from <date when="2016-01-19T10:49:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6262 removed (version from <date when="2016-01-21T15:10:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 6261 (version from <date when="2016-01-21T15:08:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6262 added to letter (version from <date when="2016-01-21T15:10:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                    Clean tags: Page 6261 cleaned of 10 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                    Clean tags: Page 6262 cleaned of 5 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:31" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:38" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:39" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:47" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2376_img_6261" url="f11f1f7721190333d2f722e8c921cb09.jpg"/> 
+    
+    <graphic xml:id="L1916_2376_img_6262" url="6c88c7239e6be45713c4950d4cf91e02.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="6261" facs="#L1916_2376_img_6261"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<!-- D633/1/1/108 -->
+<opener><dateline><date>Dec,18</date></dateline>
+
+<salute>My pr.</salute></opener>
+<p>Going to turn in in a few minutes but will begin a few lines
+<lb/>to you first. Very wet all day &amp; the trenches must, I know be
+<lb/>really awful so that we are lucky to have escaped them for so long
+<lb/>&amp; I hope the <add>worst</add> weather may be over before we take our over some-
+<lb/>day, tho' this sounds shirking. </p>
+<p>Today I went on with my Village defence scheme, Fanny 
+<lb/> taking me out. She really is a game old beast for she dislikes
+<lb/>the rain intensely but when we had gone 200 yards &amp; she had
+<lb/>shown <add>clearly</add>that she did not approve, she just scampered all the way
+<lb/>&amp; I have never to use a single whip or spur to her; it is
+<lb/>all will &#x2014; a true British lady. &#x2014;</p>
+<p>I am afraid I shall shirk my usual Xmas letters except
+<lb/> just the family. </p>
+<p>18.<hi rend="superscript">th</hi> My birthday letters from all your family turned up today
+<lb/>  &amp; were by no means the less welcome for being so early, tho'
+<lb/> Why did you say they must be posted on the 16<hi rend="superscript">th</hi>  to reach 
+<lb/>me in time, &amp; why in that case did you not write them 
+<lb/> yourself ?  </p>
+<p> I hear the General intends coming on the 31<hi rend="superscript">st</hi>   &amp; it is 
+<lb/> barely possible that I may come over that night too !!! I feel
+<lb/> sure something will turn up and knock the whole leave on the 
+<lb/>head. Meanwhile Richardson expects to get off on 22<hi rend="superscript">nd</hi> &amp; will
+        
+    
+
+    
+         
+        <pb n="6262" facs="#L1916_2376_img_6262"/>
+        
+        
+           
+            <lb/>look you up, so warn the family.</p>
+<p>A huge mail today with letters from Sir George &amp;  Craig
+<lb/>the latter reads rather like an old man's. The former says that HP has
+<lb/> got command of the Reserve Brigade. I wonder if Gen' Powell put in
+<lb/> for it; if so it is too bad. If not he has himself to blame for not
+<lb/>taking my advice. Sir G says I think the Gen' has a special
+<lb/> down on 3 of us himself Mc <unclear>Cammon</unclear> &amp; me. I wonder?? If so it
+<lb/> really shows extraordinary penetration on their part, tho'  I says it 
+<lb/> but not for repetition. </p>
+<p> I hope to write to the family for Xmas but meanwhile give
+<lb/>  them my best thanks.  </p>
+<p> I am so sorry about the house. I'm afraid there is no chance of
+<lb/> its being reduced to meet your wishes. I don't know how you stand
+<lb/> in regard to dates nor when you expect Maggie &amp; Sarah to return to you. </p>
+<p>Poor thin little FA as the WR calls you. I think I know 
+<lb/>what <del>it</del> <add>FA</add> means, in fact I'm sure , but it ought to be Funny Apology
+<lb/>for an animal (FA) <hi rend="superscript">2</hi>  in fact in algebra, but then WR may not agree.  </p>
+<p>Most certainly NO grants for Xmas dinners from your funds. It
+<lb/>  is a most outrageous demand. Please let your committee understand that
+<lb/>there will be countless <hi rend="underline">real</hi>  demands upon all their funds later, when 
+<lb/>wounded &amp;  others get back. I should be furious to think that our
+<lb/>gift was frivolled away on Xmas dinners for which the Canteen funds
+<lb/> can pay without difficulty. You can let the Committee know my
+<lb/>views with which I am aware the General fully agrees He is
+<lb/>is all for accumulating funds for future requirement. </p>
+<p>Richardson &amp; I were out with him this morning. Off to a 
+<lb/>lecture of Boylan Smiths.  All <hi rend="underline">your</hi>  letters arrive a day late. The
+<lb/> Family's letter posted the day after yours arrived to time. Can you explain
+<lb/> Perhaps you ought to put <unclear>on</unclear> post earlier? </p>
+
+<closer><salute>Your</salute></closer> BW
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

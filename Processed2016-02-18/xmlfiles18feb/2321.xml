@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2321">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Sir Wilfrid Spender to his wife Lady Lillian Spender, 6 August 1916</title>
+                
+                <author>Wilfrid Spender</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="RichardBreen">RichardBreen</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tnoonan1111">Tnoonan11 11</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2321</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from sir Wilfrid Bliss Spender (1876-1960) to his wife, Lady Lillian Spender, née Dean, (1880-1968). In this letter, Spender writes that he is 'very fat' after receiving three letters ('big meals') from Lillian that morning. He expresses anxiety that Lillian is not getting enough rest, and advises her to take time off in September when her workload is likely to have lightened. He writes of his embarrassment after accidentally sleeping in following an exhausting late night. He briefly discusses work colleagues and mutual acquaintances, and points out the irony that he is writing dispatches in which his own name is not mentioned due to some unspecified past indiscretion.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Sir Wilfrid Spender was a member of the British Army until 1913 when controversy surrounding his signature of the Ulster Solemn League and Covenant resulted in his resignation. Spender was called up for military service in 1914 and from 1915 served in the 36th (Ulster) Division. Throughout the war, Spender wrote a collection of letters to his wife Lady Lillian Spender. The letters date mainly from 1915 to 1918, when Sir Wilfrid was serving in France. The letters concern politics, the Irish question, personal life, and Wilfrid's experience of the Great War. Lady Lillian served in the Ulster Volunteer Nursing Corps during the war, and was an organiser of the Ulster Division Comforts Fund.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Lady Spender&#39;s Correspondence, D1633/1/1/376
+                             
+                        -->
+                            
+                                <collection type='public'>Lady Spender's Correspondence</collection>
+                            
+                            
+                        <idno>D1633/1/1/376</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Lillian Spender -->
+                        
+                        <persName ref="#Spender_L">Lillian Spender</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Wilfrid Spender -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF RECIPIENT IS CORRECT --></VERIFY>
+                        
+                        <persName ref="#Spender_W_B">Wilfrid Bliss Spender</persName>
+                    
+                
+                
+                
+                    
+                    <date when="1916-08-06">6 August 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1960</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                            <item n="tag">politics</item>
+                            
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2016-01-21T17:00:15" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T17:00:15" who="#RichardBreen">
+                
+                    Page 6453 modified:
+                    <!-- 
+<date>6 Aug</date>
+<salute>My pr</salute>
+<p>A BW very fat B with 3
+<lb/>big meals today 2 dated the 31<hi rend="superscript">st</hi> and one
+<lb/><unclear>direct</unclear> dated the 3rd, also rather a rather
+<lb/>swollen W with pr's compliments. I am glad
+<lb/>you have picked up another real friend
+<lb/>in Mrs Henry, but pr's always do
+<lb/>when the bw is away &amp; can't scare
+<lb/>them off. My letters come by King's
+<lb/>messengers now about at least so I
+<lb/>believe or perhaps only the papers do</p>
+<p>Lavender very nice to smell tho' it 
+<lb/>has been nearly a week getting here.</p>
+<p>Rather anxious about you. I
+<lb/>think you will have to go away in
+
+</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T17:27:24" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T17:27:24" who="#RichardBreen">
+                
+                    Page 6452 modified:
+                    <!-- 
+September if not before and someone 
+<lb/>do in the committee ought to be able 
+<lb/>to manage by them as the work
+<lb/>should be less. Then an other splendid 
+<lb/>woman about even if no other
+<lb/>pr ! !</p>
+<p>I was up til 12 30 on
+<lb/>one report and had told Douglas to 
+<lb/>call me for 7 30 sevice but thought
+<lb/>no such <unclear>warn</unclear> of it that I slept on
+<lb/>till 8 20 ! ! and was too ashamed to
+<lb/>have breakfast so had chocolate in my
+<lb/>room &amp; thus got in with the first
+<lb/>flight at 8.40. I ate extra good
+<lb/>lunch and must get exercise today as
+<lb/>yesterday I got none tho' 
+<lb/>yesterday I got none tho' I bustled about 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T17:46:33" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T17:46:33" who="#RichardBreen">
+                
+                    Page 6442 modified:
+                    <!-- 
+rather <sic>hecticly</sic> in a car visiting the 
+<lb/>Reserve army HQ when I was known
+<lb/>by someone whom I don't recognise now.
+<lb/>At the 4<hi rend="superscript">th</hi> Army <unclear>Barge</unclear> is a good friend of useful
+<lb/>information &#x2014; just a little jealous of a Col but
+<lb/>very nice. Sammy Wilson gave me
+<lb/>a look in the other day and has made
+<lb/>me promise to visit him at the first opportunity at the First army so at
+<lb/>nearly all the Armies I have a pal at 
+<lb/>HQ.</p>
+<p>Do you remember a man at 
+<lb/>Chatham in our <unclear>House</unclear> called <unclear>Mathison</unclear>
+<lb/>now a Lt Col. A rather quiet shy
+<lb/>elderly sapper. He turned up today, which
+<lb/>various MP people are about.</p>
+<p>I forget when your ban is up, but 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T17:58:53" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T17:58:53" who="#RichardBreen">
+                
+                    Page 6443 modified:
+                    <!-- 
+if in Dept why not take a holiday then
+<lb/>before getting into a new abode. poor pr.</p>
+<p>Yes I think then an other Capt <unclear>GS010</unclear>
+<lb/>but any how I am by no means a chicken as
+<lb/>GSO in <unclear>know ways</unclear> It is rather funny
+<lb/>that I should be writing the dispatch in which
+<lb/>my name is not even to be mentioned
+<lb/>only to "the" letter.</p>
+<p>I must stop prattling</p>
+<salute>still your bw (in spite
+<lb/>of Fanny's distinct charms)</salute>
+<signed> WB Spender </signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T09:28:28" who="#NR">
+                
+                    Page 6453 modified:
+                    <!-- 
+<date>6 Aug</date>
+<salute>My pr</salute>
+<p>A BW very fat B with 3
+<lb/>big meals today 2 dated the 31<hi rend="superscript">st</hi> and one
+<lb/><unclear>direct</unclear> dated the 3rd, also rather a rather
+<lb/>swollen W with pr's compliments. I am glad
+<lb/>you have picked up another real friend
+<lb/>in Mrs Henry, but pr's always do
+<lb/>when the bw is away &amp; can't scare
+<lb/>them off. My letters come by King's
+<lb/>messengers now about at least so I
+<lb/>believe or perhaps only the papers do</p>
+<p>Lavender very nice to smell tho' it 
+<lb/>has been nearly a week getting here.</p>
+<p>Rather anxious about you. I
+<lb/>think you will have to go away in 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T09:29:05" who="#NR">
+                
+                    Page 6452 modified:
+                    <!-- 
+<lb/>September if not before and someone 
+<lb/>do in the committee ought to be able 
+<lb/>to manage by them as the work
+<lb/>should be less. Then an other splendid 
+<lb/>woman about even if no other
+<lb/>pr ! !</p>
+<p>I was up til 12 30 on
+<lb/>one report and had told Douglas to 
+<lb/>call me for 7 30 sevice but thought
+<lb/>no such <unclear>warn</unclear> of it that I slept on
+<lb/>till 8 20 ! ! and was too ashamed to
+<lb/>have breakfast so had chocolate in my
+<lb/>room &amp; thus got in with the first
+<lb/>flight at 8.40. I ate extra good
+<lb/>lunch and must get exercise today as
+<lb/>yesterday I got none tho' 
+<lb/>yesterday I got none tho' I bustled about 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T09:29:06" who="#NR">
+                
+                    Page 6452 modified:
+                    <!-- 
+<lb/>September if not before and someone 
+<lb/>do in the committee ought to be able 
+<lb/>to manage by them as the work
+<lb/>should be less. Then an other splendid 
+<lb/>woman about even if no other
+<lb/>pr ! !</p>
+<p>I was up til 12 30 on
+<lb/>one report and had told Douglas to 
+<lb/>call me for 7 30 sevice but thought
+<lb/>no such <unclear>warn</unclear> of it that I slept on
+<lb/>till 8 20 ! ! and was too ashamed to
+<lb/>have breakfast so had chocolate in my
+<lb/>room &amp; thus got in with the first
+<lb/>flight at 8.40. I ate extra good
+<lb/>lunch and must get exercise today as
+<lb/>yesterday I got none tho' 
+<lb/>yesterday I got none tho' I bustled about 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T09:29:27" who="#NR">
+                
+                    Page 6452 modified:
+                    <!-- 
+<lb/>September if not before and someone 
+<lb/>do in the committee ought to be able 
+<lb/>to manage by them as the work
+<lb/>should be less. Then an other splendid 
+<lb/>woman about even if no other
+<lb/>pr ! !</p>
+<p>I was up til 12 30 on
+<lb/>one report and had told Douglas to 
+<lb/>call me for 7 30 sevice but thought
+<lb/>no such <unclear>warn</unclear> of it that I slept on
+<lb/>till 8 20 ! ! and was too ashamed to
+<lb/>have breakfast so had chocolate in my
+<lb/>room &amp; thus got in with the first
+<lb/>flight at 8.40. I ate extra good
+<lb/>lunch and must get exercise today as
+<lb/>yesterday I got none tho' 
+<lb/>yesterday I got none tho' I bustled about 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T09:29:43" who="#NR">
+                
+                    Page 6452 modified:
+                    <!-- 
+<lb/>September if not before and someone 
+<lb/>do in the committee ought to be able 
+<lb/>to manage by them as the work
+<lb/>should be less. Then an other splendid 
+<lb/>woman about even if no other
+<lb/>pr ! !</p>
+<p>I was up til 12 30 on
+<lb/>one report and had told Douglas to 
+<lb/>call me for 7 30 sevice but thought
+<lb/>no such <unclear>warn</unclear> of it that I slept on
+<lb/>till 8 20 ! ! and was too ashamed to
+<lb/>have breakfast so had chocolate in my
+<lb/>room &amp; thus got in with the first
+<lb/>flight at 8.40. I ate extra good
+<lb/>lunch and must get exercise today as
+<lb/>yesterday I got none tho' I bustled about 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T09:30:33" who="#NR">
+                
+                    Page 6442 modified:
+                    <!-- 
+<lb/>rather <sic>hecticly</sic> in a car visiting the 
+<lb/>Reserve army HQ when I was known
+<lb/>by someone whom I don't recognise now.
+<lb/>At the 4<hi rend="superscript">th</hi> Army <unclear>Barge</unclear> is a good friend of useful
+<lb/>information &#x2014; just a little jealous of a Col but
+<lb/>very nice. Sammy Wilson gave me
+<lb/>a look in the other day and has made
+<lb/>me promise to visit him at the first
+<lb/> opportunity at the First army so at
+<lb/>nearly all the Armies I have a pal at 
+<lb/>HQ.</p>
+<p>Do you remember a man at 
+<lb/>Chatham in our <unclear>House</unclear> called <unclear>Mathison</unclear>
+<lb/>now a Lt Col. A rather quiet shy
+<lb/>elderly sapper. He turned up today, which
+<lb/>various MP people are about.</p>
+<p>I forget when your ban is up, but 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T09:31:00" who="#NR">
+                
+                    Page 6443 modified:
+                    <!-- 
+<lb/>if in Dept why not take a holiday then
+<lb/>before getting into a new abode. poor pr.</p>
+<p>Yes I think then an other Capt <unclear>GS010</unclear>
+<lb/>but any how I am by no means a chicken as
+<lb/>GSO in <unclear>know ways</unclear> It is rather funny
+<lb/>that I should be writing the dispatch in which
+<lb/>my name is not even to be mentioned
+<lb/>only to "the" letter.</p>
+<p>I must stop prattling</p>
+<salute>still your bw (in spite
+<lb/>of Fanny's distinct charms)</salute>
+<signed> WB Spender </signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6442 created using version from <date when="2016-01-21T17:46:33"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6442 removed (version from <date when="2016-01-21T17:46:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6442 removed (version from <date when="2016-01-22T09:30:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6452 created using version from <date when="2016-01-21T17:27:24"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6452 removed (version from <date when="2016-01-21T17:27:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6452 removed (version from <date when="2016-01-22T09:29:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6452 removed (version from <date when="2016-01-22T09:29:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6452 removed (version from <date when="2016-01-22T09:29:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6452 removed (version from <date when="2016-01-22T09:29:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6443 created using version from <date when="2016-01-21T17:58:53"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6443 removed (version from <date when="2016-01-21T17:58:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6443 removed (version from <date when="2016-01-22T09:31:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6453 created using version from <date when="2016-01-21T17:00:15"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6453 removed (version from <date when="2016-01-21T17:00:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6453 removed (version from <date when="2016-01-22T09:28:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 6442 (version from <date when="2016-01-22T09:30:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6452 added to letter (version from <date when="2016-01-22T09:29:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6443 added to letter (version from <date when="2016-01-22T09:31:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6453 added to letter (version from <date when="2016-01-22T09:28:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 6442 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 6443 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 6452 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 6453 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:28" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:32" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:42" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:43" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2321_img_6442" url="4392990952b9ed05a6c9198d859f23f3.jpg"/> 
+    
+    <graphic xml:id="L1916_2321_img_6443" url="aaa7b00b15da77a77173446ee77a023d.jpg"/> 
+    
+    <graphic xml:id="L1916_2321_img_6452" url="41096835da8639f558d1dfb41a3ef3c7.jpg"/> 
+    
+    <graphic xml:id="L1916_2321_img_6453" url="6dd4aed97dc2953c31581186404f5bb9.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="6442" facs="#L1916_2321_img_6442"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<lb/>rather <sic>hecticly</sic> in a car visiting the 
+<lb/>Reserve army HQ when I was known
+<lb/>by someone whom I don't recognise now.
+<lb/>At the 4<hi rend="superscript">th</hi> Army <unclear>Barge</unclear> is a good friend of useful
+<lb/>information &#x2014; just a little jealous of a Col but
+<lb/>very nice. Sammy Wilson gave me
+<lb/>a look in the other day and has made
+<lb/>me promise to visit him at the first
+<lb/> opportunity at the First army so at
+<lb/>nearly all the Armies I have a pal at 
+<lb/>HQ.</p>
+<p>Do you remember a man at 
+<lb/>Chatham in our <unclear>House</unclear> called <unclear>Mathison</unclear>
+<lb/>now a Lt Col. A rather quiet shy
+<lb/>elderly sapper. He turned up today, which
+<lb/>various MP people are about.</p>
+<p>I forget when your ban is up, but
+        
+    
+
+    
+         
+        <pb n="6443" facs="#L1916_2321_img_6443"/>
+        
+        
+           
+            <lb/>if in Dept why not take a holiday then
+<lb/>before getting into a new abode. poor pr.</p>
+<p>Yes I think then an other Capt <unclear>GS010</unclear>
+<lb/>but any how I am by no means a chicken as
+<lb/>GSO in <unclear>know ways</unclear> It is rather funny
+<lb/>that I should be writing the dispatch in which
+<lb/>my name is not even to be mentioned
+<lb/>only to "the" letter.</p>
+<p>I must stop prattling</p>
+<salute>still your bw (in spite
+<lb/>of Fanny's distinct charms)</salute>
+<opener><signed> WB Spender </signed></opener>
+        
+    
+         
+        <pb n="6452" facs="#L1916_2321_img_6452"/>
+        
+        
+           
+            <lb/>September if not before and someone 
+<lb/>do in the committee ought to be able 
+<lb/>to manage by them as the work
+<lb/>should be less. Then an other splendid 
+<lb/>woman about even if no other
+<lb/>pr ! !</p>
+<p>I was up til 12 30 on
+<lb/>one report and had told Douglas to 
+<lb/>call me for 7 30 sevice but thought
+<lb/>no such <unclear>warn</unclear> of it that I slept on
+<lb/>till 8 20 ! ! and was too ashamed to
+<lb/>have breakfast so had chocolate in my
+<lb/>room &amp; thus got in with the first
+<lb/>flight at 8.40. I ate extra good
+<lb/>lunch and must get exercise today as
+<lb/>yesterday I got none tho' I bustled about
+        
+    
+         
+        <pb n="6453" facs="#L1916_2321_img_6453"/>
+        
+        
+           
+            <closer><date>6 Aug</date>
+<salute>My pr</salute></closer>
+<p>A BW very fat B with 3
+<lb/>big meals today 2 dated the 31<hi rend="superscript">st</hi> and one
+<lb/><unclear>direct</unclear> dated the 3rd, also rather a rather
+<lb/>swollen W with pr's compliments. I am glad
+<lb/>you have picked up another real friend
+<lb/>in Mrs Henry, but pr's always do
+<lb/>when the bw is away &amp; can't scare
+<lb/>them off. My letters come by King's
+<lb/>messengers now about at least so I
+<lb/>believe or perhaps only the papers do</p>
+<p>Lavender very nice to smell tho' it 
+<lb/>has been nearly a week getting here.</p>
+<p>Rather anxious about you. I
+<lb/>think you will have to go away in
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

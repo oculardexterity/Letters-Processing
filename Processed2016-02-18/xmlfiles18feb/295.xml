@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_295">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter to Eileen Corrigan from Lucy, 11 May 1916</title>
+                
+                <author>Lucy</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="EC">Emma Clarke</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="JennyMck">JennyMck</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Margaret">Margaret</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="HelenR">HelenR</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BarneyDoherty">Barney Doherty</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_295</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter to Eileen Corrigan (d.1993) from a friend, Lucy, referring to the events of 1916. Lucy writes of the limited food supply to the University, the bravery of Eileen and the three other women who made it to Trinity on Easter Monday and of the rescheduling of the exams for those who couldn't make it on account of the military cordon.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Eileen Corrigan had arrived in Dublin on 24 April 1916, the first day of the Easter Rising, from Belfast to sit her exams in the Trinity College. Eileen was one of just four female students who sat their exams as rebellion and counter attack swirled about outside Trinity’s walls. They were rewarded with lunch in Provost Mahafy’s house hosted by his wife, Frances Letitia.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Trinity College Dublin -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF INSTITUTION REF IS CORRECT --></VERIFY>
+                        
+                        <repository ref="#TCD">Trinity College, Dublin</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: TCD MS 3987a
+                             
+                        -->
+                            
+                                <collection type='public'>TCD MS 3987a</collection>
+                            
+                            
+                        <idno>TCD MS 3987a</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Eileen Corrigan -->
+                        
+                        <persName ref="#Corrigan_E">Eileen Corrigan</persName>
+                    
+                
+                
+                
+                    
+                    <!-- Normalised Place Found: 
+                    Dublin 
+                    Dublin
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName  ref="#Dublin">Dublin, Ireland</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">Lucy</persName>
+                    
+                
+                
+                
+                    
+                    <date when="1916-05-11">11 May 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Female</item>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2013-12-13T21:41:24" who="#EC">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-12-13T21:41:24" who="#HelenR">
+                
+                    Page 782 modified:
+                    <!-- 
+11 May 1916.
+
+5 Trinity College Dublin.
+
+My Dear Eileen,
+
+Thank you so much for your letter. It interested and amused me at the safe distance of a past event but I confess I was in consternation...
+(on side of card) ...in (?) Road all through the rising. Food supply was difficult, (?) and fresh eggs. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-12-13T21:44:50" who="#EC">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-12-13T21:44:50" who="#HelenR">
+                
+                    Page 783 modified:
+                    <!-- 
+...when I heard of the exploit at the (?) of the risk you face gives (?) is coming in, especially the 2nd day. However it will be something to look back on for the rest of your life. I am so hoping to see you next autumn, A very timely,
+Lucy... 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-03-15T18:26:19" who="#EC">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-03-15T18:26:19" who="#Margaret">
+                
+                    Page 784 modified:
+                    <!-- 
+Glad ye all got through .Two men failed hopelessly and several others did not come the second day. The -  -  - repeated next Monday for the absentees. Miss K Price. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-03-15T18:41:18" who="#EC">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-03-15T18:41:18" who="#Margaret">
+                
+                    Page 785 modified:
+                    <!-- 
+was coming up on Monday and got stuck at Howth for a week much to the anxiety of her people. Miss Sandford had her degree conferred on the Wednesday before Easter she befriended me the following week as  I was with Mrs E ~~-    and her 5 children 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-04-28T14:59:24" who="#JennyMck">
+                
+                    Page 782 modified:
+                    <!-- 
+<add>3987<gap/></add>
+<add>3</add>
+<address>5 TRINITY COLLEGE<lb/> DUBLIN.</address>
+<hi rend="underline"><date>11 May 1916.</date></hi>
+
+<salute>My Dear Eileen,</salute>
+Thank you so much for <gap/> letter<lb/> it interested &amp;<lb/> amused me at<lb/> the safe distance<lb/> of a past event<lb/> but I confess I<lb/> was in consternation<lb/><pb/>
+(on side of card) ...in <gap/> Road all through the rising. Food supply was difficult, <gap/><gap/><gap/><gap/><gap/> and fresh eggs. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T14:33:51" who="#BarneyDoherty">
+                
+                    Page 782 modified:
+                    <!-- 
+<add>3987<gap/></add>
+<add>3</add>
+<address>5 TRINITY COLLEGE
+<lb/> DUBLIN.</address>
+<hi rend="underline"><date>11 May 1916.</date></hi>
+
+<salute>My Dear Eileen,</salute>
+<p>Thank you so 
+<lb/>much for your letter
+<lb/> it interested &amp;
+<lb/> amused me at
+<lb/> the safe distance
+<lb/> of a past event
+<lb/> but I confess I
+<lb/> was in consternation
+<note>in <gap/> Road all through the rising. 
+<lb/>Food 
+<lb/>supply 
+<lb/>was a 
+<lb/>difficulty,
+<lb/><gap/> 
+<lb/><gap/> the 
+<lb/>fresh eggs.</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T15:00:13" who="#BarneyDoherty">
+                
+                    Page 783 modified:
+                    <!-- 
+<pb/>when I heard of the exploit
+<lb/> at the thought of
+<lb/> the risk you <gap/>
+<lb/> girls ran in
+<lb/> coming in, especially
+<lb/> the 2<hi rend="superscript">nd</hi> day &#x2014;
+<lb/> However it will
+<lb/> be something to
+<lb/> look back on for
+<lb/> the rest of your
+<lb/> life. I am so
+<note><lb/> hoping to see you next autumn,
+<lb/> Yours very truely,
+<salute><hi rend="underline">Lucy <gap/></hi></salute></note>
+<note>and a load of head one day!</note>
+<!~~ Text is written along edge of letter. sides and top ~~> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T15:02:05" who="#BarneyDoherty">
+                
+                    Page 784 modified:
+                    <!-- 
+<lb/>Glad you <add>all</add> got through.
+<lb/>Two men failed
+<lb/> hopelessly and
+<lb/> several others
+<lb/> did not come
+<lb/> the 2<hi rend="superscript">nd</hi> day.
+<lb/> The exam is
+<lb/> repeated next Monday
+<lb/> for the absentees.
+<lb/> Miss K Price.
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T15:05:38" who="#BarneyDoherty">
+                
+                    Page 785 modified:
+                    <!-- 
+<lb/>was coming up on
+<lb/> Monday &amp; got
+<lb/> stuck at Howth
+<lb/> for a week much
+<lb/> to the anxiety of 
+<lb/> her people.
+<lb/> Miss Sandford 
+<lb/> had her degree
+<lb/> conferred on the
+<lb/> Wednesday before Easter
+<lb/> she befriended me
+<lb/> the following week
+<lb/> as I was with Mrs E.
+<lb/> Gwyun &amp; her 5 children<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T15:07:36" who="#BarneyDoherty">
+                
+                    Page 783 modified:
+                    <!-- 
+<pb/>when I heard of the exploit
+<lb/> at the thought of
+<lb/> the risk you <gap/>
+<lb/> girls ran in
+<lb/> coming in, especially
+<lb/> the 2<hi rend="superscript">nd</hi> day &#x2014;
+<lb/> However it will
+<lb/> be something to
+<lb/> look back on for
+<lb/> the rest of your
+<lb/> life. I am so
+<note><lb/> hoping to see you next autumn,
+<lb/> Yours very truly,
+<salute><hi rend="underline">Lucy Gwyun</hi></salute></note>
+<note>and a load of head one day!</note>
+<!~~ Text is written along edge of letter. sides and top ~~> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T15:07:51" who="#BarneyDoherty">
+                
+                    Page 785 modified:
+                    <!-- 
+<lb/> was coming up on
+<lb/> Monday &amp; got
+<lb/> stuck at Howth
+<lb/> for a week much
+<lb/> to the anxiety of 
+<lb/> her people.
+<lb/> Miss Sandford 
+<lb/> had her degree
+<lb/> conferred on the
+<lb/> Wednesday before Easter
+<lb/> she befriended me
+<lb/> the following week
+<lb/> as I was with Mrs E.
+<lb/> Gwyun &amp; her 5 children<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-14T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-14T11:17:11" who="#NR">
+                
+                    Page 782 modified:
+                    <!-- 
+<add>3987<gap/></add>
+<add>3</add>
+<address>5 TRINITY COLLEGE
+<lb/> DUBLIN.</address>
+<hi rend="underline"><date>11 May 1916.</date></hi>
+
+<salute>My Dear Eileen,</salute>
+<p>Thank you so 
+<lb/>much for your letter
+<lb/> it interested &amp;
+<lb/> amused me at
+<lb/> the safe distance
+<lb/> of a past event
+<lb/> but I confess I
+<lb/> was in consternation
+<note>in <unclear>Path</unclear> Road all through the rising. 
+<lb/>Food 
+<lb/>supply 
+<lb/>was a 
+<lb/>difficulty,
+<lb/><gap/> 
+<lb/><gap/> the 
+<lb/>fresh eggs.</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-14T11:17:43" who="#NR">
+                
+                    Page 783 modified:
+                    <!-- 
+<lb/>when I heard of the exploit
+<lb/> at the thought of
+<lb/> the risk you <unclear>four</unclear>
+<lb/> girls ran in
+<lb/> coming in, especially
+<lb/> the 2<hi rend="superscript">nd</hi> day &#x2014;
+<lb/> However it will
+<lb/> be something to
+<lb/> look back on for
+<lb/> the rest of your
+<lb/> life. I am so
+<note><lb/> hoping to see you next autumn,
+<lb/> Yours very truly,
+<salute><hi rend="underline">Lucy Gwyun</hi></salute></note>
+<note>and a load of head one day!</note>
+<!~~ Text is written along edge of letter. sides and top ~~> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-14T11:20:25" who="#NR">
+                
+                    Page 784 modified:
+                    <!-- 
+<lb/>Glad you <add>all</add> got through.
+<lb/>Two men failed
+<lb/> hopelessly and
+<lb/> several others
+<lb/> did not come
+<lb/> the 2<hi rend="superscript">nd</hi> day.
+<lb/> The exam is
+<lb/> repeated next Monday
+<lb/> for the absentees.
+<lb/> Miss K Price. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-14T11:24:44" who="#NR">
+                
+                    Page 785 modified:
+                    <!-- 
+<lb/> was coming up on
+<lb/> Monday &amp; got
+<lb/> stuck at Howth
+<lb/> for a week much
+<lb/> to the anxiety of 
+<lb/> her people.
+<lb/> Miss Sandford 
+<lb/> had her degree
+<lb/> conferred on the
+<lb/> Wednesday before Easter
+<lb/> she befriended me
+<lb/> the following week
+<lb/> as I was with Mrs E.
+<lb/> Gwyun &amp; her 5 children<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-14T11:24:50" who="#NR">
+                
+                    Page 785 modified:
+                    <!-- 
+<lb/> was coming up on
+<lb/> Monday &amp; got
+<lb/> stuck at Howth
+<lb/> for a week much
+<lb/> to the anxiety of 
+<lb/> her people.
+<lb/> Miss Sandford 
+<lb/> had her degree
+<lb/> conferred on the
+<lb/> Wednesday before Easter
+<lb/> she befriended me
+<lb/> the following week
+<lb/> as I was with Mrs E.
+<lb/> Gwyun &amp; her 5 children<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-14T11:24:58" who="#NR">
+                
+                    Page 785 modified:
+                    <!-- 
+<lb/> was coming up on
+<lb/> Monday &amp; got
+<lb/> stuck at Howth
+<lb/> for a week much
+<lb/> to the anxiety of 
+<lb/> her people.
+<lb/> Miss Sandford 
+<lb/> had her degree
+<lb/> conferred on the
+<lb/> Wednesday before Easter
+<lb/> she befriended me
+<lb/> the following week
+<lb/> as I was with Mrs E.
+<lb/> Gwyun &amp; her 5 children 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 784 created using version from <date when="2014-03-15T18:26:19"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 784 removed (version from <date when="2014-03-15T18:26:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 784 removed (version from <date when="2016-01-08T15:02:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 784 removed (version from <date when="2016-01-14T11:20:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 785 created using version from <date when="2014-03-15T18:41:18"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 785 removed (version from <date when="2014-03-15T18:41:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 785 removed (version from <date when="2016-01-08T15:05:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 785 removed (version from <date when="2016-01-08T15:07:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 785 removed (version from <date when="2016-01-14T11:24:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 785 removed (version from <date when="2016-01-14T11:24:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 785 removed (version from <date when="2016-01-14T11:24:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 782 created using version from <date when="2013-12-13T21:41:24"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 782 removed (version from <date when="2013-12-13T21:41:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 782 removed (version from <date when="2015-04-28T14:59:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 782 removed (version from <date when="2016-01-08T14:33:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 782 removed (version from <date when="2016-01-14T11:17:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 783 created using version from <date when="2013-12-13T21:44:50"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 783 removed (version from <date when="2013-12-13T21:44:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 783 removed (version from <date when="2016-01-08T15:00:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 783 removed (version from <date when="2016-01-08T15:07:36"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 783 removed (version from <date when="2016-01-14T11:17:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 784 (version from <date when="2016-01-14T11:20:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 785 added to letter (version from <date when="2016-01-14T11:24:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 782 added to letter (version from <date when="2016-01-14T11:17:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 783 added to letter (version from <date when="2016-01-14T11:17:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 784 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 785 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 782 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 783 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:28" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:32" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:46" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:46" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_295_img_782" url="23008aa435298842385b95f05fd853ba.jpg"/> 
+    
+    <graphic xml:id="L1916_295_img_783" url="1b8b154e5e85cc504a31bafdacab16cd.jpg"/> 
+    
+    <graphic xml:id="L1916_295_img_784" url="7ff3a236036b8023e037b21864a45eae.jpg"/> 
+    
+    <graphic xml:id="L1916_295_img_785" url="37e7cefee1500713f77e4c943187cb38.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="782" facs="#L1916_295_img_782"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<add>3987<gap/></add>
+<add>3</add>
+<opener><address><addrLine>5 TRINITY COLLEGE</addrLine>
+<addrLine>DUBLIN.</addrLine></address>
+<hi rend="underline"><dateline><date>11 May 1916.</date></dateline></hi>
+
+<salute>My Dear Eileen,</salute></opener>
+<p>Thank you so 
+<lb/>much for your letter
+<lb/> it interested &amp;
+<lb/> amused me at
+<lb/> the safe distance
+<lb/> of a past event
+<lb/> but I confess I
+<lb/> was in consternation
+<note>in <unclear>Path</unclear> Road all through the rising. 
+<lb/>Food 
+<lb/>supply 
+<lb/>was a 
+<lb/>difficulty,
+<lb/><gap/> 
+<lb/><gap/> the 
+<lb/>fresh eggs.</note>
+        
+    
+
+    
+         
+        <pb n="783" facs="#L1916_295_img_783"/>
+        
+        
+           
+            <lb/>when I heard of the exploit
+<lb/> at the thought of
+<lb/> the risk you <unclear>four</unclear>
+<lb/> girls ran in
+<lb/> coming in, especially
+<lb/> the 2<hi rend="superscript">nd</hi> day &#x2014;
+<lb/> However it will
+<lb/> be something to
+<lb/> look back on for
+<lb/> the rest of your
+<lb/> life. I am so
+<note><lb/> hoping to see you next autumn,
+<lb/> Yours very truly,
+<salute><hi rend="underline">Lucy Gwyun</hi></salute></note>
+<note>and a load of head one day!</note>
+<!-- Text is written along edge of letter. sides and top -->
+        
+    
+         
+        <pb n="784" facs="#L1916_295_img_784"/>
+        
+        
+           
+            <lb/>Glad you <add>all</add> got through.
+<lb/>Two men failed
+<lb/> hopelessly and
+<lb/> several others
+<lb/> did not come
+<lb/> the 2<hi rend="superscript">nd</hi> day.
+<lb/> The exam is
+<lb/> repeated next Monday
+<lb/> for the absentees.
+<lb/> Miss K Price.
+        
+    
+         
+        <pb n="785" facs="#L1916_295_img_785"/>
+        
+        
+           
+            <lb/> was coming up on
+<lb/> Monday &amp; got
+<lb/> stuck at Howth
+<lb/> for a week much
+<lb/> to the anxiety of 
+<lb/> her people.
+<lb/> Miss Sandford 
+<lb/> had her degree
+<lb/> conferred on the
+<lb/> Wednesday before Easter
+<lb/> she befriended me
+<lb/> the following week
+<lb/> as I was with Mrs E.
+<lb/> Gwyun &amp; her 5 children
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

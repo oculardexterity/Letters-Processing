@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2508">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Peter Mooney to his sister Katie Mooney, 16 January 1916</title>
+                
+                <author>Peter Mooney</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="RichardBreen">RichardBreen</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="APF">APF</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="CaraBurke">CaraBurke</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2508</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from Peter Mooney (b.1886) to his sister, Katie (b.1884). Peter thanks Katie for the various items she sent to him, concluding that she is minding him very well. Peter writes the weather is beautiful, he could happily live in such conditions. He believes that he will be granted leave on the 23 of January and warns that when he comes back, he'll eat a 'terrible feed of eggs and rashers.'</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Orphaned at age 7, Peter and his sister Katie were raised by their uncle William and his wife Mary in Caulstown. While there are no surviving enlistment papers for Peter, his War Badge Index Record shows his enlistment date as 18 October 1915. He served with the Royal Artillery and later transferred to the Royal Engineers where he was promoted to the rank of Sergeant. He served in several places at the Western Front, including Ypres, St. Omer and Passchendael. Peter and Kate were avid correspondents. This letter part of a collection of over ninety surviving letters.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Mooney Family Papers -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF INSTITUTION REF IS CORRECT --></VERIFY>
+                        
+                        <repository ref="#MISSING">MISSING</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Mooney Family Papers
+                             
+                        -->
+                            
+                                <collection type='public'>Mooney Family Papers</collection>
+                            
+                            
+                        <idno>Mooney Family Papers</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Katie Mooney -->
+                        
+                        <persName ref="#Mooney_K">Katie Mooney</persName>
+                    
+                
+                
+                
+                    
+                    <placeName  ref="MISSING">Caulstown, Dunboyne, Co. Meath</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Peter Mooney -->
+                        
+                        <persName ref="#Mooney_P">Peter Mooney</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    Ballinacurra 
+                    Cork
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#Ballinacurra">Ballincollig, Co. Cork</placeName>
+                    
+                
+                    
+                    <date when="1916-01-16">16 January 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1970</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-12-31T00:13:06" who="#CaraBurke">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-12-31T00:13:06" who="#APF">
+                
+                    Page 6734 modified:
+                    <!-- 
+Dear Katie,
+I received all the things you sent me alright you are certainly minding me very well. I think we get leave on the 23ed of the month. The weather here is glorious it is lovely out in the mornings with all the birds singing in the trees I could live here for a lifetime 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-31T00:16:53" who="#CaraBurke">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-12-31T00:16:53" who="#APF">
+                
+                    Page 6736 modified:
+                    <!-- 
+we were out with the teams every day this week. I am doing well at the business and enjoy it well. I am sure Billy and the Cockey horse would cause some row if they were put in the teams. I am very glad to see you gave poor Charley the pound he deserves it. I will eat a terrible feed of eggs and rashers when I get home. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-31T00:19:55" who="#CaraBurke">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-12-31T00:19:55" who="#APF">
+                
+                    Page 6738 modified:
+                    <!-- 
+I had not a letter from the Paddock this long time. I hope they are all well. I wrote to them last Sunday but I got no reply yet. I will keep out of old Dunnes way when I get home he might hit me with the meat chopper. Tell Paddy I was asking for him. The days are getting grand and long now. I have no more to say at present so Good-Bye and May God Bless you all. P. Mooney 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-31T00:20:43" who="#CaraBurke">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-12-31T00:20:43" who="#APF">
+                
+                    Page 6732 modified:
+                    <!-- 
+Miss K. Mooney
+Caulstown
+Dunboyne
+Co. Meath 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-16T12:41:58" who="#Comber">
+                
+                    Page 6734 modified:
+                    <!-- 
+<date>Jan 16 1916</date>
+<salute>Dear Katie,</salute>
+<p>I received all the<lb/>
+ things you sent me alright<lb/>
+ you are certainly minding<lb/>
+ me very well. I think<lb/>
+ we get leave on the 23<hi rend="superscript">rd</hi><lb/>
+ of the month. The weather<lb/>
+ here is glorious it is<lb/>
+ lovely out in the mornings<lb/>
+ with all the birds<lb/>
+ singing in the trees I<lb/> could live here for a lifetime</p><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-16T12:45:59" who="#Comber">
+                
+                    Page 6736 modified:
+                    <!-- 
+<!~~ Written in right hand of page ~~>
+<p>we were out with the<lb/>
+ teams every day this<lb/>
+ week. I am doing well<lb/>
+ at the business and<lb/>
+ enjoy it well. I am<lb/>
+ sure Billy &amp; the Cockey<lb/>
+ horse would cause<lb/>
+ some row if they were<lb/>
+ put in the teams.<lb/> 
+I am very glad to see<lb/>
+ you gave poor Charley<lb/>
+ the pound he deserves<lb/>
+ it. I will eat a terrible<lb/>
+ feed of eggs &amp; rashers<lb/>
+ when I get home.</p><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-16T12:48:54" who="#Comber">
+                
+                    Page 6738 modified:
+                    <!-- 
+I had not a letter from<lb/>
+ the Paddock this long<lb/>
+ time. I hope they are all<lb/>
+ well. I wrote to them<lb/>
+ last Sunday but I got no<lb/>
+ reply yet. I will keep<lb/>
+ out of old Dunnes way<lb/>
+ when I get home he might<lb/>
+ hit me with the meat<lb/>
+ chopper. Tell Paddy I<lb/>
+ was asking for him. The<lb/>
+ days are getting grand &amp;<lb/>
+ long now. I have no more<lb/>
+ to say at present so Good&#x2014;Bye<lb/>
+ &amp; May God Bless you<lb/>
+ all. P. Mooney 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-16T12:50:02" who="#Comber">
+                
+                    Page 6732 modified:
+                    <!-- 
+<!~~ Envelope ~~>
+Miss K. Mooney<lb/>
+Caulstown<lb/>
+Dunboyne<lb/>
+Co. Meath<lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T11:25:18" who="#RichardBreen">
+                
+                    Page 6734 modified:
+                    <!-- 
+<date>Jan 16 1916</date>
+<salute>Dear Katie,</salute>
+<p>I received all the<lb/>
+ things you sent me alright<lb/>
+ you are certainly minding<lb/>
+ me very well. I think<lb/>
+ we get leave on the 23<hi rend="superscript">rd</hi><lb/>
+ of the month. The weather<lb/>
+ here is glorious it is<lb/>
+ lovely out in the mornings<lb/>
+ with all the birds<lb/>
+ singing in the trees I<lb/> could live here for a lifetime</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T11:26:54" who="#RichardBreen">
+                
+                    Page 6736 modified:
+                    <!-- 
+<p>we were out with the<lb/>
+ teams every day this<lb/>
+ week. I am doing well<lb/>
+ at the business and<lb/>
+ enjoy it well. I am<lb/>
+ sure Billy &amp; the <unclear>Cockey</unclear><lb/>
+ horse would cause<lb/>
+ some row if they were<lb/>
+ put in the teams.<lb/> 
+I am very glad to see<lb/>
+ you gave poor Charley<lb/>
+ the pound he deserves<lb/>
+ it. I will eat a terrible<lb/>
+ feed of eggs &amp; rashers<lb/>
+ when I get home.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T11:28:23" who="#RichardBreen">
+                
+                    Page 6738 modified:
+                    <!-- 
+<p>I had not a letter from<lb/>
+ the Paddock this long<lb/>
+ time. I hope they are all<lb/>
+ well. I wrote to them<lb/>
+ last Sunday but I got no<lb/>
+ reply yet. I will keep<lb/>
+ out of old Dunnes way<lb/>
+ when I get home he might<lb/>
+ hit me with the meat<lb/>
+ chopper. Tell Paddy I<lb/>
+ was asking for him. The<lb/>
+ days are getting grand &amp;<lb/>
+ long now. I have no more<lb/>
+ to say at present so Good&#x2014;Bye<lb/>
+ &amp; May God Bless you<lb/>
+ all.</p>
+ <signed>P. Mooney</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T11:28:39" who="#RichardBreen">
+                
+                    Page 6732 modified:
+                    <!-- 
+<address>
+Miss K. Mooney<lb/>
+Caulstown<lb/>
+Dunboyne<lb/>
+Co. Meath<lb/></address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T11:57:57" who="#NR">
+                
+                    Page 6734 modified:
+                    <!-- 
+<date>Jan 16 1916</date>
+<salute>Dear Katie,</salute>
+<p>I received all the<lb/>
+ things you sent me alright<lb/>
+ you are certainly minding<lb/>
+ me very well. I think<lb/>
+ we get leave on the 23<hi rend="superscript">rd</hi><lb/>
+ of the month. The weather<lb/>
+ here is glorious it is<lb/>
+ lovely out in the mornings<lb/>
+ with all the birds<lb/>
+ singing in the trees I<lb/>
+ could live here for a lifetime</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T12:01:38" who="#NR">
+                
+                    Page 6732 modified:
+                    <!-- 
+<address>Miss K. Mooney<lb/>
+Caulstown<lb/>
+Dunboyne<lb/>
+Co. Meath</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6734 created using version from <date when="2015-12-31T00:13:06"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6734 removed (version from <date when="2015-12-31T00:13:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6734 removed (version from <date when="2016-01-16T12:41:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6734 removed (version from <date when="2016-01-19T11:25:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6734 removed (version from <date when="2016-01-21T11:57:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6738 created using version from <date when="2015-12-31T00:19:55"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6738 removed (version from <date when="2015-12-31T00:19:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6738 removed (version from <date when="2016-01-16T12:48:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6738 removed (version from <date when="2016-01-19T11:28:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6732 created using version from <date when="2015-12-31T00:20:43"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6732 removed (version from <date when="2015-12-31T00:20:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6732 removed (version from <date when="2016-01-16T12:50:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6732 removed (version from <date when="2016-01-19T11:28:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6732 removed (version from <date when="2016-01-21T12:01:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6736 created using version from <date when="2015-12-31T00:16:53"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6736 removed (version from <date when="2015-12-31T00:16:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6736 removed (version from <date when="2016-01-16T12:45:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:05" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6736 removed (version from <date when="2016-01-19T11:26:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 6734 (version from <date when="2016-01-21T11:57:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6738 added to letter (version from <date when="2016-01-21T12:00:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6732 added to letter (version from <date when="2016-01-21T12:01:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6736 added to letter (version from <date when="2016-01-21T12:00:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:21" who="#PythonScript">
+                
+                    Clean tags: Page 6736 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:21" who="#PythonScript">
+                
+                    Clean tags: Page 6738 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:21" who="#PythonScript">
+                
+                    Clean tags: Page 6732 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:21" who="#PythonScript">
+                
+                    Clean tags: Page 6734 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:25" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:30" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:37" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:26" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:29" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2508_img_6732" url="8271cd3af1b0de1c4011b39d3728f6e3.jpg"/> 
+    
+    <graphic xml:id="L1916_2508_img_6734" url="ad639f04d2789c9d14ded0c3a1e9663d.jpg"/> 
+    
+    <graphic xml:id="L1916_2508_img_6736" url="32e41d731b76568e0ba36f999be41289.jpg"/> 
+    
+    <graphic xml:id="L1916_2508_img_6738" url="136e9ca4472d944a1d2328e49552a2af.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+    
+
+    
+         
+        <pb n="6734" facs="#L1916_2508_img_6734"/>
+        
+        
+            <text type="letter" decls="#corresp1">
+                <body>
+        
+           
+            <p>we were out with the<lb/>
+ teams every day this<lb/>
+ week. I am doing well<lb/>
+ at the business and<lb/>
+ enjoy it well. I am<lb/>
+ sure Billy &amp; the <unclear>Cockey</unclear><lb/>
+ horse would cause<lb/>
+ some row if they were<lb/>
+ put in the teams.<lb/> 
+I am very glad to see<lb/>
+ you gave poor Charley<lb/>
+ the pound he deserves<lb/>
+ it. I will eat a terrible<lb/>
+ feed of eggs &amp; rashers<lb/>
+ when I get home.</p>
+        
+    
+         
+        <pb n="6736" facs="#L1916_2508_img_6736"/>
+        
+        
+            <text type="letter" decls="#corresp1">
+                <body>
+        
+           
+            <p>I had not a letter from<lb/>
+ the Paddock this long<lb/>
+ time. I hope they are all<lb/>
+ well. I wrote to them<lb/>
+ last Sunday but I got no<lb/>
+ reply yet. I will keep<lb/>
+ out of old Dunnes way<lb/>
+ when I get home he might<lb/>
+ hit me with the meat<lb/>
+ chopper. Tell Paddy I<lb/>
+ was asking for him. The<lb/>
+ days are getting grand &amp;<lb/>
+ long now. I have no more<lb/>
+ to say at present so Good&#x2014;Bye<lb/>
+ &amp; May God Bless you<lb/>
+ all.</p>
+ <signed>P. Mooney</signed>
+        
+    
+         
+        <pb n="6738" facs="#L1916_2508_img_6738"/>
+        
+        
+            <text type="letter" decls="#corresp1">
+                <body>
+        
+           
+            <p>I had not a letter from<lb/>
+ the Paddock this long<lb/>
+ time. I hope they are all<lb/>
+ well. I wrote to them<lb/>
+ last Sunday but I got no<lb/>
+ reply yet. I will keep<lb/>
+ out of old Dunnes way<lb/>
+ when I get home he might<lb/>
+ hit me with the meat<lb/>
+ chopper. Tell Paddy I<lb/>
+ was asking for him. The<lb/>
+ days are getting grand &amp;<lb/>
+ long now. I have no more<lb/>
+ to say at present so Good&#x2014;Bye<lb/>
+ &amp; May God Bless you<lb/>
+ all.</p>
+ <signed>P. Mooney</signed>
+        
+    
+                </body>
+            </text>
+
+        
+            
+            <pb n="6732" facs="#L1916_2508_img_6732"/>
+            <text type="envelope" decls="#corresp1">
+                <body> 
+                    <ab>
+                        
+
+<opener><dateline><date>Jan 16 1916</date></dateline>
+<salute>Dear Katie,</salute></opener>
+<p>I received all the<lb/>
+ things you sent me alright<lb/>
+ you are certainly minding<lb/>
+ me very well. I think<lb/>
+ we get leave on the 23<hi rend="superscript">rd</hi><lb/>
+ of the month. The weather<lb/>
+ here is glorious it is<lb/>
+ lovely out in the mornings<lb/>
+ with all the birds<lb/>
+ singing in the trees I<lb/>
+ could live here for a lifetime</p>
+                    </ab>
+                </body>
+            </text>
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

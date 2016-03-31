@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_711">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Laurence Ginnell to Mabel FitzGerald, 26 May 1916</title>
+                
+                <author>Laurence Ginnell</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Stevenandy">Stevenandy</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_711</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>The letter is from land agitator and politician Laurence Ginnell (1852-1953) to Mabel FitzGerald (née Washington McConnell) (1884-1958), wife of politician and intellectual Desmond FitzGerald (1888-1947). Ginnell writes to ensure Mabel that while the executions of the leaders are occupying peoples' minds at present, those who are imprisoned would not be forgotten and a general amnesty would be called for soon. He states that he would not forget someone whom The O'Rahilly held in the highest esteem. Michael Joseph O'Rahilly (1875-1916) and Fitzgerald had both originally been in support of attempts to stop the Rising taking place but both joined in once it had started. O'Rahilly was killed in Moore Lane on Thursday of Easter week and Ginnell writes that he is 'heartbroken' about his death.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Laurence Ginnell was an Irish nationalist politician, lawyer, and member of parliament. He initially ran as a member of the Irish Parliamentary Party, but, from 1910 onward he ran as an Independent Nationalist. Mabel Fitzgerald was a former governess in London. She later vigorously canvassed her former acquaintances in London's liberal circles for support for Francis Sheehy Skeffington (1878 -1916) during his hunger strike in 1915. Both Mabel and Desmond would serve in the GPO garrison during Easter Week.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: University College Dublin Archives -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF INSTITUTION REF IS CORRECT --></VERIFY>
+                        
+                        <repository ref="#UCD">University College Dublin, Archives</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Desmond FitzGerald Papers, P80/1588/1
+                             
+                        -->
+                            
+                                <collection type='public'>Desmond FitzGerald Papers</collection>
+                            
+                            
+                        <idno>P80/1588/1</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Mabel FitzGerald -->
+                        
+                        <persName ref="#FitzGerald_M">Mabel FitzGerald</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Laurence Ginnell -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF RECIPIENT IS CORRECT --></VERIFY>
+                        
+                        <persName ref="#Ginnell_L_J">Laurence J. Ginnell</persName>
+                    
+                
+                
+                
+                    
+                    <date when="1916-05-26">26 May 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1923</item>
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-02-11T11:04:01" who="#Stevenandy">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-02-11T11:04:01" who="#Comber">
+                
+                    Page 1745 modified:
+                    <!-- 
+P80/1588
+<address>House of Commons</address> (Crest)
+26<hi rend="superscript">th</hi> May, 1916
+
+<salute>My Dear Mrs Fitzgerald,</salute>
+<p>Needless to say you have my deepest<lb/> sympathy.  It is only extreme pressure of work<lb/> that has prevented my writing to you before now.<lb/</p>>
+<p>But do not think for a moment<lb/> that Mr Fitzgerald is going to be forgotten.<lb/> Oh no.  We are not that bad.  As you say,<lb/> the executions fill people's minds for the time.<lb/>  But of course we will demand a general<lb/> amnesty very soon.  I at all events am<lb/> not going to forget one of whom  The O'Rahilly<lb/> entertained the highest admiration.  I loved<lb/> The O'Rahilly, am heartbroken that he is no more,<lb/> and will certainly leave no stone unturned to<lb/> get his friend Desmond Fitzgerald released.<lb/>  So please have good courage.<lb/></p>
+<p>I was speaking to your husband's brother last<lb/> Saturday evening.  In haste.<lb/></p>
+<salute>Sincerely yours
+L. Ginnel</salute>l 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-11T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-11T14:49:53" who="#NR">
+                
+                    Page 1745 modified:
+                    <!-- 
+<address>House of Commons</address> 
+26<hi rend="superscript">th</hi> May, 1916
+
+<salute>My Dear Mrs Fitzgerald,</salute>
+<p>Needless to say you have my deepest
+<lb/> sympathy.  It is only extreme pressure of work
+<lb/> that has prevented my writing to you before now.</p>
+<p>But do not think for a moment
+<lb/> that Mr Fitzgerald is going to be forgotten.
+<lb/> Oh no.  We are not that bad.  As you say,
+<lb/> the executions fill people's minds for the time.
+<lb/>  But of course we will demand a general
+<lb/> amnesty very soon.  I at all events am
+<lb/> not going to forget one of whom  The O'Rahilly
+<lb/> entertained the highest admiration.  I loved
+<lb/> The O'Rahilly, am heartbroken that he is no more,
+<lb/> and will certainly leave no stone unturned to
+<lb/> get his friend Desmond Fitzgerald released.
+<lb/>  So please have good courage.</p>
+<p>I was speaking to your husband's brother last
+<lb/> Saturday evening.  In haste.</p>
+<salute>Sincerely yours</salute>
+<signed>L. Ginnel</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1745 created using version from <date when="2015-02-11T11:04:01"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1745 removed (version from <date when="2015-02-11T11:04:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:44" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1745 removed (version from <date when="2016-01-11T14:49:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 1745 (version from <date when="2016-01-11T14:49:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 1745 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:31" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:40" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:41" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_711_img_1745" url="057a30b049b7001d9d6bfc81e13f66b8.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="1745" facs="#L1916_711_img_1745"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>House of Commons</addrLine></address> 
+26<hi rend="superscript">th</hi> May, 1916
+
+<salute>My Dear Mrs Fitzgerald,</salute></opener>
+<p>Needless to say you have my deepest
+<lb/> sympathy.  It is only extreme pressure of work
+<lb/> that has prevented my writing to you before now.</p>
+<p>But do not think for a moment
+<lb/> that Mr Fitzgerald is going to be forgotten.
+<lb/> Oh no.  We are not that bad.  As you say,
+<lb/> the executions fill people's minds for the time.
+<lb/>  But of course we will demand a general
+<lb/> amnesty very soon.  I at all events am
+<lb/> not going to forget one of whom  The O'Rahilly
+<lb/> entertained the highest admiration.  I loved
+<lb/> The O'Rahilly, am heartbroken that he is no more,
+<lb/> and will certainly leave no stone unturned to
+<lb/> get his friend Desmond Fitzgerald released.
+<lb/>  So please have good courage.</p>
+<p>I was speaking to your husband's brother last
+<lb/> Saturday evening.  In haste.</p>
+<closer><salute>Sincerely yours</salute>
+<signed>L. Ginnel</signed></closer>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

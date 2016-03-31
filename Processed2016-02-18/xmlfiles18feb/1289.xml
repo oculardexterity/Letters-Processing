@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1289">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Patrick Hayes to Anna O&#39;Rahilly, 13 May 1916</title>
+                
+                <author>Patrick Canon Hayes</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="RichardBreen">RichardBreen</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="AaronHoey">AaronHoey</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Rosie17">Rosie17</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1289</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A Letter from Patrick C. Hayes (b.1856) to Anna O'Rahilly, the sister of Michael Joseph O'Rahilly (1875-1916). The letter concerns the death of Michael, offering condolences to Anne and her sister Mary Ellen 'Nell' O'Rahilly, or Humphreys by marriage.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Michael Joseph O'Rahilly, self-described as 'The' O'Rahilly, was involved in the procurement of arms in the lead-up to the Rising and was involved in the Howth gun-running incident. He fought in the G.P.O. During the Rising and was shot in Parnell/Moore Street on 28 April 1916 and died some time later.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: University College Dublin  -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF INSTITUTION REF IS CORRECT --></VERIFY>
+                        
+                        <repository ref="#UCD">University College Dublin, Archives</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Humphreys Papers, P106/171/12
+                             
+                        -->
+                            
+                                <collection type='public'>Humphreys Papers</collection>
+                            
+                            
+                        <idno>P106/171/12</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Anna O&#39;Rahilly -->
+                        
+                        <persName ref="#ORahilly_A">Anna O'Rahilly</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">Patrick Canon Hayes</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    Ballylongford 
+                    Kerry
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#Ballylongford">Ballylongford, County Kerry, Ireland</placeName>
+                    
+                
+                    
+                    <date when="1916-05-13">13 May 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-11-04T20:07:04" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-04T20:07:04" who="#Philcostel">
+                
+                    Page 3401 modified:
+                    <!-- 
+The Presbytery,
+Ballylongford,
+Co. Kerry.
+May 13, 1916.
+My dear Miss O'Rahilly,
+I heard with much regret of the death of your brother and offer you, Mrs. O'Rahilly and family, and Mrs. Humphreys my very sincere condolence. I 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-11-04T20:12:15" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-11-04T20:12:15" who="#Philcostel">
+                
+                    Page 3402 modified:
+                    <!-- 
+shall ask the prayers of the congregation for the repose of his soul tomorrow and say Mass for him myself. When the funeral to Lisloughtin takes place I will give you every assistance here. With renewed sympathy & best wishes
+Yours Sincerely
+P. Canon Hayes, P.P.
+Miss Anna O'Rahilly. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-29T08:00:29" who="#Rosie17">
+                
+                    Page 3401 modified:
+                    <!-- 
+<address>The Presbytery,<lb/>
+Ballylongford,<lb/>
+Co. Kerry.<lb/></address>
+<date>May 13 1916<lb/></date>
+<salute>My dear Miss O'Rahilly,</salute>
+I heard with<lb/> much regret of the<lb/> death of your brother and offer you, M<hi rend="superscript">rs</hi><lb/> O'Rahilly and family,<lb/> and M<hi rend="superscript">rs</hi>. Humphreys<lb/> my very sincere condolence. I<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-29T08:01:54" who="#Rosie17">
+                
+                    Page 3402 modified:
+                    <!-- 
+shall ask the prayers<lb/> of the congregation<lb/> for the repose of <lb/>his soul tomorrow and say Mass for <lb/>him myself. When<lb/> the funeral to Lisloughtin<lb/> takes place<lb/> I will give you<lb/> every assistance here. With renewed <lb/>sympathy &amp; best wishes<p>paragraph</p>
+<salute>Yours Sincerely<lb/>
+P. Canon Hayes, P.P.</salute>
+Miss Anna O'Rahilly. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T14:31:13" who="#RichardBreen">
+                
+                    Page 3401 modified:
+                    <!-- 
+<address>The Presbytery,
+<lb/>Ballylongford,
+<lb/>Co. Kerry.</address>
+
+<date>May 13 1916</date>
+
+<salute>My dear Miss O'Rahilly,</salute>
+<p>I heard with
+<lb/> much regret of the
+<lb/> death of your brother and offer you, Mrs
+<lb/> O'Rahilly and family,
+<lb/> and Mrs. Humphreys
+<lb/> my very sincere
+<lb/> condolence. I 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T14:34:05" who="#RichardBreen">
+                
+                    Page 3402 modified:
+                    <!-- 
+shall ask the prayers
+<lb/> of the congregation
+<lb/> for the repose of 
+<lb/>his soul tomorrow 
+<lb/>and say Mass for 
+<lb/>him myself. When
+<lb/> the funeral to Lis.
+<lb/>loughtin takes place
+<lb/>. I will give you
+<lb/> every assistance
+<lb/> here. With renewed 
+<lb/>sympathy &amp; best wishes</p>
+<salute>Yours Sincerely</salute>
+<signed>P. Canon Hayes, P.P.</signed>
+<address>Miss Anna O'Rahilly.</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T15:30:11" who="#NR">
+                
+                    Page 3402 modified:
+                    <!-- 
+<lb/>shall ask the prayers
+<lb/> of the congregation
+<lb/> for the repose of 
+<lb/>his soul tomorrow 
+<lb/>and say Mass for 
+<lb/>him myself. When
+<lb/> the funeral to Lis.
+<lb/>loughtin takes place
+<lb/>. I will give you
+<lb/> every assistance
+<lb/> here. With renewed 
+<lb/>sympathy &amp; best wishes</p>
+<salute>Yours Sincerely</salute>
+<signed>P. Canon Hayes, P.P.</signed>
+<address>Miss Anna O'Rahilly.</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:50" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3401 created using version from <date when="2014-11-04T20:07:04"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:50" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3401 removed (version from <date when="2014-11-04T20:07:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:50" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3401 removed (version from <date when="2015-06-29T08:00:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:50" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3401 removed (version from <date when="2016-01-15T14:31:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:50" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3402 created using version from <date when="2014-11-04T20:12:15"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:50" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3402 removed (version from <date when="2014-11-04T20:12:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:50" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3402 removed (version from <date when="2015-06-29T08:01:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:50" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3402 removed (version from <date when="2016-01-15T14:34:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:50" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3402 removed (version from <date when="2016-01-15T15:30:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3401 (version from <date when="2016-01-15T15:28:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 3402 added to letter (version from <date when="2016-01-15T15:30:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:18" who="#PythonScript">
+                
+                    Clean tags: Page 3401 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:18" who="#PythonScript">
+                
+                    Clean tags: Page 3402 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:29" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:35" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:10" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:10" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1289_img_3401" url="3b48b340a8e0f48286fa1513ef946247.jpg"/> 
+    
+    <graphic xml:id="L1916_1289_img_3402" url="70597cf75fe1b141dc9461d2855615a7.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3401" facs="#L1916_1289_img_3401"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>The Presbytery,</addrLine>
+<addrLine>Ballylongford,</addrLine>
+<addrLine>Co. Kerry.</addrLine></address>
+
+<dateline><date>May 13 1916</date></dateline>
+
+<salute>My dear Miss O'Rahilly,</salute></opener>
+<p>I heard with
+<lb/> much regret of the
+<lb/> death of your brother and offer you, Mrs
+<lb/> O'Rahilly and family,
+<lb/> and Mrs. Humphreys
+<lb/> my very sincere
+<lb/> condolence. I
+        
+    
+
+    
+         
+        <pb n="3402" facs="#L1916_1289_img_3402"/>
+        
+        
+           
+            <lb/>shall ask the prayers
+<lb/> of the congregation
+<lb/> for the repose of 
+<lb/>his soul tomorrow 
+<lb/>and say Mass for 
+<lb/>him myself. When
+<lb/> the funeral to Lis.
+<lb/>loughtin takes place
+<lb/>. I will give you
+<lb/> every assistance
+<lb/> here. With renewed 
+<lb/>sympathy &amp; best wishes</p>
+<closer><salute>Yours Sincerely</salute>
+<signed>P. Canon Hayes, P.P.</signed>
+<address><addrLine>Miss Anna O'Rahilly.</addrLine></address></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

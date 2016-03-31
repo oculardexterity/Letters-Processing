@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_454">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Sir Roger Casement, 26 March 1916</title>
+                
+                <author>Roger Casement</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="BH">Brian Hughes</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BarneyDoherty">Barney Doherty</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_454</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>The letter is a facsimile copy of a letter written by Sir Roger Casement (1864-1916). By the time this letter was written, Casement had been marginalized by the Rising's planners and his relations with the Germans had become strained as he felt they were not willing to offer enough assistance. In the letter, he complains that he is in a 'dreadful situation'. If he goes (presumably to Ireland) he would end up as a convict, a fate worse than death', but if he stays he would be considered a coward. By the end of the letter, he suggests that the only way out is 'death', reflected of his often depressed state at this time.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>He spent eighteen months in Germany, arriving first as an envoy of Irish-American leaders, attempting to encourage Germany to support Irish separatist aspirations by providing arms. Casement succeeded in securing limited German support but his attempt to form a brigade of Irish soldiers in German prisoner of war camps to fight against Britain was largely unsuccessful. Casement had returned to Ireland with the hope of preventing the Rising but was arrested after he landed in Kerry on the eve of the Easter Rising. He was hanged in London in August 1916.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Military Archives of Ireland -->
+                        
+                        <repository ref="#MAI">Military Archives of Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Bureau of Military History Contemporary Documents, Mrs Erskine Childers Collection; CD 6/2/14
+                             
+                        -->
+                            
+                                <collection type='public'>Bureau of Military History Contemporary Documents, Mrs Erskine Childers Collection</collection>
+                            
+                            
+                        <idno>CD 6/2/14</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="MISSING">MISSING</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Roger Casement -->
+                        
+                        <persName ref="#Casement_R">Roger Casement</persName>
+                    
+                
+                
+                 
+                    
+                    <placeName  ref="MISSING">Munich, Germany</placeName>
+                    
+                
+                    
+                    <date when="1916-03-26">26 March 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1916</item>
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                            <item n="tag">politics</item>
+                            
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-01-03T21:07:37" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-01-03T21:07:37" who="#Philcostel">
+                
+                    Page 1251 modified:
+                    <!-- 
+1)
+Munich,
+26 March 1916
+<note>Sunday morning with the Dorm bells ringing!</note>
+It is the most hopeless position a man was ever in - I cannot conceive a more dreadful situation. TGo go I go to far worse than death - death with the cause of Ireland to sustain me wd. be a joyful ending - but I go to a sham trial to be wounded in my honour - to be defamed & degraded with no chance of defence probably & then to a term of convict imprisonment that will send my 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-01-03T21:09:41" who="#Philcostel">
+                
+                    Page 1251 modified:
+                    <!-- 
+1)
+Munich,
+26 March 1916
+<note>Sunday morning with the Dorm bells ringing!</note>
+It is the most hopeless position a man was ever in - I cannot conceive a more dreadful situation. To go I go to far worse than death - death with the cause of Ireland to sustain me wd. be a joyful ending - but I go to a sham trial to be wounded in my honour - to be defamed & degraded with no chance of defence probably & then to a term of convict imprisonment that will ?send? my 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-01-03T21:18:01" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-01-03T21:18:01" who="#Philcostel">
+                
+                    Page 1252 modified:
+                    <!-- 
+days in jail - a convict. For I should not long support the indignities & miseries I should be exposed to.
+If I do not go - & I should be amply justified in stamping on the whole thing - I shall be charged with wrecking the hopes of my people in Ireland, just when they needed help - or if I send the guns & the handful of men to .. ... ... . .... & stay here in safety - then I incur the contempt of all men as a coward 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-01-05T15:35:37" who="#Philcostel">
+                
+                    Page 1252 modified:
+                    <!-- 
+days in jail - a convict. For I should not long support the indignities & miseries I should be exposed to.
+If I do not go - & I should be amply justified in stamping on the whole thing - I shall be charged with wrecking the hopes of my people in Ireland, just when they needed help - or if I send the guns & the handful of men to .. ... ... . .... & stay here in safety - then I incur the contempt of all men as a coward who <gap/>?marched? others to their doom & skulked in safety.
+It is the most dreadful fate to overtake a man I suppose there is possible to conceive.
+The only possible <gap/> with any hope at all is <gap/>?death?.
+To be killed at once - to perish in the attempt.
+R.C. 26 Mch 1916. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-31T10:17:22" who="#Comber">
+                
+                    Page 1251 modified:
+                    <!-- 
+1)
+<address>Munich,</address>
+<date>26 March 1916</date>
+<note>Sunday morning with the Dorm bells ringing!</note>
+It is the most hopeless position a<lb/> man was ever in - I cannot conceive a more dreadful situation. To go I go to far worse than death - death with the cause of Ireland to sustain me wd. be a joyful ending - but I go to a sham trial to be wounded in my honour - to be defamed & degraded with no chance of defence probably & then to a term of convict imprisonment that will ?send? my 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-31T10:20:31" who="#Comber">
+                
+                    Page 1251 modified:
+                    <!-- 
+1)
+<address>Munich,</address>
+<date>26 March 1916</date>
+<note>Sunday morning with the Dorm bells ringing!</note>
+It is the most hopeless position a<lb/> man was ever in - I cannot conceive a<lb/> more dreadful situation. To go I go<lb/> to far worse than death - death with<lb/> the cause of Ireland to sustain me<gap/><gap/> a joyful ending - but I go to a<lb/> sham trial to be wounded in my<lb/> honour - to be defamed &amp; degraded<lb/> with no chance of defence probably<lb/> &amp; then to a term of convict<lb/> imprisonment that will send my<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-31T10:21:10" who="#Comber">
+                
+                    Page 1251 modified:
+                    <!-- 
+1)
+<address>Munich,</address>
+<date>26 March 1916</date>
+<note>Sunday morning with the Dorm bells ringing!</note>
+It is the most hopeless position a<lb/> man was ever in - I cannot conceive a<lb/> more dreadful situation. To go I go<lb/> to far worse than death - death with<lb/> the cause of Ireland to sustain me<gap/><gap/> a joyful ending - but I go to a<lb/> sham trial to be wounded in my<lb/> honour - to be defamed &amp; degraded<lb/> with no chance of defence probably<lb/> &amp; then to a term of convict<lb/> imprisonment that will end my<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-31T10:26:47" who="#Comber">
+                
+                    Page 1252 modified:
+                    <!-- 
+<pb/>days in jail - a convict. For I<lb/> should not long support the indignities &amp;<lb/> miseries I should be exposed to.<lb/>
+I<p>f I do not go - &amp; I should be amply<lb/> justified in stamping on the whole thing -&#x2014;<lb/>I shall be charged with wrecking the hopes of my<lb/> people in Ireland, just when they needed help<lb/> - or if I send the guns &amp; the handful of men to<lb/> .. ... ... . .... &amp; stay here in safety - then I incur<lb/> the contempt of all men as a coward who <gap/> others to their doom &amp; skulked in safety.<lb/></p>
+It is the most dreadful fate to overtake a man<lb/> I suppose there is possibly to conceive.<lb/>
+The only possible <gap/> with any hope at all is <gap/>.
+To be killed at once - to perish in the attempt.<lb/>
+R.C. 26 <date>Mch 1916.</date><lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T17:09:22" who="#BarneyDoherty">
+                
+                    Page 1251 modified:
+                    <!-- 
+<add>1)</add>
+<address>Munich,</address>
+<date><hi rend="underline">26 March 1916</hi></date>
+<note>Sunday morning 
+<lb/>with the Dorm 
+<lb/><hi rend="underline">bells ringing!</hi></note>
+<lb/>It is the most hopeless position a
+<lb/> man was ever in &#x2014; I cannot conceive a
+<lb/> more dreadful situation. To go I go
+<lb/> to far worse than death &#x2014; death with
+<lb/> the cause of Ireland to sustain me<gap/><gap/> 
+<lb/>a joyful ending &#x2014; but I go to a
+<lb/> sham trial to be wounded in my
+<lb/> honour &#x2014; to be defamed &amp; degraded
+<lb/> with no chance of defence probably
+<lb/> &amp; then to a term of convict
+<lb/> imprisonment that will end my<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T17:14:13" who="#BarneyDoherty">
+                
+                    Page 1252 modified:
+                    <!-- 
+<lb/>days in jail &#x2014; a convict. For I
+<lb/> should not long support the indignities &amp;
+<lb/> miseries I should be exposed to.</p>
+<p>If I do not go &#x2014; &amp; I should be amply
+<lb/> justified in stamping on the whole thing &#x2014;
+<lb/>I shall be charged with wrecking the hopes of my
+<lb/> people in Ireland, just when they needed help
+<lb/> &#x2014; or if I send the guns &amp; the handful of men to
+<lb/> .. ... ... . .... &amp; stay here in safety &#x2014; then I incur
+<lb/> the contempt of all men as a coward who 
+<lb/> <gap/> others to their doom &amp; skulked in safety.</p>
+<p>It is the most dreadful fate to overtake a man
+<lb/> I suppose there is possibly to conceive.</p>
+<p>The only possible <gap/> with any hope at all is <gap/>.
+To be killed at once &#x2014; to perish in the attempt.</p>
+<signed>R.C.</signed> <date>26. Mch 1916.</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-14T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-14T17:09:00" who="#NR">
+                
+                    Page 1251 modified:
+                    <!-- 
+<add>1)</add>
+<address>Munich,</address>
+<date><hi rend="underline">26 March 1916</hi></date>
+<note>Sunday morning 
+<lb/>with the Dorm 
+<lb/><hi rend="underline">bells ringing!</hi></note>
+<lb/>It is the most hopeless position a
+<lb/> man was ever in &#x2014; I cannot conceive a
+<lb/> more dreadful situation. To go I go
+<lb/> to far worse than death &#x2014; death with
+<lb/> the cause of Ireland to sustain me<gap/><gap/> 
+<lb/>a joyful ending &#x2014; but I go to a
+<lb/> sham trial to be wounded in my
+<lb/> honour &#x2014; to be defamed &amp; degraded
+<lb/> with no chance of defence probably
+<lb/> &amp; then to a term of convict
+<lb/> imprisonment that will end my 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1252 created using version from <date when="2014-01-03T21:18:01"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1252 removed (version from <date when="2014-01-03T21:18:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1252 removed (version from <date when="2014-01-05T15:35:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1252 removed (version from <date when="2015-01-31T10:26:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1252 removed (version from <date when="2016-01-08T17:14:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1251 created using version from <date when="2014-01-03T21:07:37"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1251 removed (version from <date when="2014-01-03T21:07:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1251 removed (version from <date when="2014-01-03T21:09:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1251 removed (version from <date when="2015-01-31T10:17:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1251 removed (version from <date when="2015-01-31T10:20:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1251 removed (version from <date when="2015-01-31T10:21:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1251 removed (version from <date when="2016-01-08T17:09:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1251 removed (version from <date when="2016-01-14T17:09:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 1252 (version from <date when="2016-01-14T17:09:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 1251 added to letter (version from <date when="2016-01-14T17:09:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 1251 cleaned of 6 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 1252 cleaned of 10 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:28" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:32" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:48" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:49" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_454_img_1251" url="e7951337fd1522fc71a6a4bbc198241b.jpg"/> 
+    
+    <graphic xml:id="L1916_454_img_1252" url="d7399a27fd7ac77bccd7fce7c83c9af2.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="1251" facs="#L1916_454_img_1251"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<add>1)</add>
+<opener><address><addrLine>Munich,</addrLine></address>
+<dateline><date><hi rend="underline">26 March 1916</hi></date></dateline></opener>
+<note>Sunday morning 
+<lb/>with the Dorm 
+<lb/><hi rend="underline">bells ringing!</hi></note>
+<lb/>It is the most hopeless position a
+<lb/> man was ever in &#x2014; I cannot conceive a
+<lb/> more dreadful situation. To go I go
+<lb/> to far worse than death &#x2014; death with
+<lb/> the cause of Ireland to sustain me<gap/><gap/> 
+<lb/>a joyful ending &#x2014; but I go to a
+<lb/> sham trial to be wounded in my
+<lb/> honour &#x2014; to be defamed &amp; degraded
+<lb/> with no chance of defence probably
+<lb/> &amp; then to a term of convict
+<lb/> imprisonment that will end my
+        
+    
+
+    
+         
+        <pb n="1252" facs="#L1916_454_img_1252"/>
+        
+        
+           
+            <lb/>days in jail &#x2014; a convict. For I
+<lb/> should not long support the indignities &amp;
+<lb/> miseries I should be exposed to.</p>
+<p>If I do not go &#x2014; &amp; I should be amply
+<lb/> justified in stamping on the whole thing &#x2014;
+<lb/>I shall be charged with wrecking the hopes of my
+<lb/> people in Ireland, just when they needed help
+<lb/> &#x2014; or if I send the guns &amp; the handful of men to
+<lb/> .. ... ... . .... &amp; stay here in safety &#x2014; then I incur
+<lb/> the contempt of all men as a coward who 
+<lb/> <gap/> others to their doom &amp; skulked in safety.</p>
+<p>It is the most dreadful fate to overtake a man
+<lb/> I suppose there is possibly to conceive.</p>
+<p>The only possible <gap/> with any hope at all is <gap/>.
+To be killed at once &#x2014; to perish in the attempt.</p>
+<signed>R.C.</signed> <date>26. Mch 1916.</date>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

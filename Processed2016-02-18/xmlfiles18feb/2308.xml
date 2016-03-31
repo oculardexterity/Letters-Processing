@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2308">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Sir Wilfrid Spender to Lady Lillian Spender, 24 July 1916</title>
+                
+                <author>Wilfrid Spender</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Dommo">Dommo</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tnoonan1111">Tnoonan11 11</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Brendamcg1967">Brendamcg1967</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="RichardBreen">RichardBreen</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Monastack">Monastack</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2308</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>Letter from sir Wilfrid Bliss Spender (1876-1960) is writing to his wife, Lady Lillian Spender, née Dean, (1880-1968). In this letter, Spender gives a brief account of his arrival at the Corps Headquarters, of his longing for more letters, and of his guilt over abandoning his brother Rex.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Sir Wilfrid Spender (1876 - 1960) was a member of the British Army until 1913 when controversy surrounding his signature of the Ulster Solemn League and Covenant resulted in his resignation. Spender was called up for military service in 1914 and from 1915 served in the 36th (Ulster) Division. Throughout the war, Spender wrote a collection of letters to his wife Lady Lillian Spender. The letters date mainly from 1915 to 1918, when Sir Wilfrid was serving in France. The letters concern politics, the Irish question, personal life, and Wilfrid's experience of the Great War. Lady Lillian served in the Ulster Volunteer Nursing Corps during the war, and was an organiser of the Ulster Division Comforts Fund.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Lady Spender&#39;s Correspondence, D1633/1/1/359
+                             
+                        -->
+                            
+                                <collection type='public'>Lady Spender's Correspondence</collection>
+                            
+                            
+                        <idno>D1633/1/1/359</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Lillian Spender -->
+                        
+                        <persName ref="#Spender_L">Lillian Spender</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Wilfrid Spender -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF RECIPIENT IS CORRECT --></VERIFY>
+                        
+                        <persName ref="#Spender_W_B">Wilfrid Bliss Spender</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    France 
+                    France
+                    France
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#France">France</placeName>
+                    
+                
+                    
+                    <date when="1916-07-24">24 July 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1960</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                            
+                            <item n="tag">Family life</item>
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-25T15:30:14" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-25T15:30:14" who="#Brendamcg1967">
+                
+                    Page 6417 modified:
+                    <!-- 
+I have arrived early yesterday morning - at the Corps HQ but am only now getting into the work at all properly. Some people have this gift of handing over, others with the best will in the world have not.This corps has been the most successful hitherto, therefore its work should be on sound lines, and it is interesting seeing a new formation at work tho' it lacks the excitement of a Divisional office.
+
+I believe now that my message to ( Edward ?) was not correct, tho' true of the actual situation. There appears to be the greatest difficulty in getting the staff out tho' we are assured there is plenty at home.
+Ones facilities for writing letters are worse than ever before as 2 of us sit at the same table - not always the same 2 tho' now i have more or less settle my own place. This & having no letters to inspire me will make this a very dull letter.
+My work seems likely to be mainly in the office but i hope to get some exercise daily.
+I did not say good by to  G N as he was out and declined to say goodby on the previous day. I am not sure that this was not deliberate on his part. I n any case I really cannot say i am sorry to leave him. He is I think the most naturally selfish man I have ever been brought into close touch with and really this alleviates my regret to some extent, tho' I still feel as if I had deserted RN in his hour of need. It is, I am told absolutely certain that the only excuse for refusing any appointment is lack of qualification and tho' it is quite likely i may show myself  (unfit??) after trial I am not going to admit it before. No time for more as I am off to visit the "German" lines in a motor ! Address Lt COl GS attached HQ 15 Corps
+Yours f w
+WB Spender 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-25T15:33:14" who="#Tbrosnan">
+                
+                    Page 6417 modified:
+                    <!-- 
+<add>D1633/1/1/359</add>
+<salute>My Pv</salute>
+<p>I have arrived - early yesterday morning - at the Corps HQ, but am<lb/>only now getting into the work at all  properly. Some people have the<lb/>gift of hand over, others with the best will in the world have not.<lb/> This corps has been the most successful hitherto, &amp;  therefore its work <lb/>should be on sound lines &amp; it is interesting seeing a new formation at <lb/>work tho' it lacks the excitement of a Divisional office. </p><p>I believe now that my message to <unclear>Sredward</unclear> was not correct, tho<lb/>true of the actual situation. There appears to be the greatest difficulty <lb/> in getting the stuff out tho' we all assume there is plenty at home. </p><p>One's facilities for writing letters are worse than ever before as 2<lb/>of us sit at the same table - not always the same 2 tho' now I have more <lb/>or less settled my own place. This &amp; having no <del>one</del>  letters to inspire me will<lb/>make this a very dull letter. </p><p> My work seems likely to be mainly in the office but I hope to <lb/>get some exercise daily.<gap/> </p><p>I did not say goodbye to GN as he was out &amp; declined to<lb/>say goodbye on the previous day. I am not sure that this was not<lb/>deliberate on his part. In any case I really cannot say I am sorry<lb/>to leave him. He is I think the most naturally selfish man I have ever<lb/>been brought into close touch with, &amp; really this alleviate my regret<lb/>to some extent, tho' I still feel as if I had deserted Rex in his hour of need<lb/>It is , I am told absolutely certain that the only excuse for refusing any<lb/>appointment is lack of qualification &amp; tho' it is quite likely I may show<lb/>myself unfitted after trial I am not going to admit it before. </p><p>No time for more as I am off to visit the "German" <lb/>lines in a motor ! Address Lt Col GS <unclear>Attached</unclear> HQ 15 Corps</p>
+<salute>Your b w</salute> WB Spender 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-25T15:36:41" who="#Tbrosnan">
+                
+                    Page 6417 modified:
+                    <!-- 
+<add>D1633/1/1/359</add>
+<salute>My Pv</salute>
+<p>I have arrived - early yesterday morning - at the Corps HQ, but am<lb/>only now getting into the work at all  properly. Some people have the<lb/>gift of hand over, others with the best will in the world have not.<lb/> This corps has been the most successful hitherto, &amp;  therefore its work <lb/>should be on sound lines &amp; it is interesting seeing a new formation at <lb/>work tho' it lacks the excitement of a Divisional office. </p><p>I believe now that my message to <unclear>Sredward</unclear> was not correct, tho<lb/>true of the actual situation. There appears to be the greatest difficulty <lb/> in getting the stuff out tho' we all assume there is plenty at home. </p><p>One's facilities for writing letters are worse than ever before as 2<lb/>of us sit at the same table - not always the same 2 tho' now I have more <lb/>or less settled my own place. This &amp; having no <del>one</del>  letters to inspire me will<lb/>make this a very dull letter. </p><p> My work seems likely to be mainly in the office but I hope to <lb/>get some exercise daily.<gap/> </p><p>I did not say goodbye to GN as he was out &amp; declined to<lb/>say goodbye on the previous day. I am not sure that this was not<lb/>deliberate on his part. In any case I really cannot say I am sorry<lb/>to leave him. He is I think the most naturally selfish man I have ever<lb/>been brought into close touch with, &amp; really this alleviate my regret<lb/>to some extent, tho' I still feel as if I had deserted Rex in his hour of need<lb/>It is , I am told absolutely certain that the only excuse for refusing any<lb/>appointment is lack of qualification &amp; tho' it is quite likely I may show<lb/>myself unfitted after trial I am not going to admit it before. </p><p>No time for more as I am off to visit the "German" <lb/>lines in a motor ! Address Lt Col GS <unclear>Attached</unclear> HQ 15 Corps</p>
+<salute>Your b w</salute> WB Spender<lb/>PS: Some folks put RA &amp; omit GS on my letters which<lb/>may lead to my not getting them now.<lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-25T15:41:52" who="#Tbrosnan">
+                
+                    Page 6417 modified:
+                    <!-- 
+<add>D1633/1/1/359</add>
+<salute>My Pv</salute>
+<p>I have arrived - early yesterday morning - at the Corps HQ, but am<lb/>only now getting into the work at all  properly. Some people have the<lb/>gift of hand over, others with the best will in the world have not.<lb/> This corps has been the most successful hitherto, &amp;  therefore its work <lb/>should be on sound lines &amp; it is interesting seeing a new formation at <lb/>work tho' it lacks the excitement of a Divisional office. </p><p>I believe now that my message to <unclear>Sredward</unclear> was not correct, tho<lb/>true of the actual situation. There appears to be the greatest difficulty <lb/> in getting the stuff out tho' we are assured there is plenty at home. </p><p>One's facilities for writing letters are worse than ever before as 2<lb/>of us sit at the same table - not always the same 2 tho' now I have more <lb/>or less settled my own place. This &amp; having no <del>one</del>  letters to inspire me will<lb/>make this a very dull letter. </p><p> My work seems likely to be mainly in the office but I hope to <lb/>get some exercise daily.<gap/> </p><p>I did not say goodbye to GN as he was out &amp; declined to<lb/>say goodbye on the previous day. I am not sure that this was not<lb/>deliberate on his part. In any case I really cannot say I am sorry<lb/>to leave him. He is I think the most naturally selfish man I have ever<lb/>been brought into close touch with, &amp; really this alleviate my regret<lb/>to some extent, tho' I still feel as if I had deserted Rex in his hour of need<lb/>It is , I am told absolutely certain that the only excuse for refusing any<lb/>appointment is lack of qualification &amp; tho' it is quite likely I may show<lb/>myself unfitted after trial I am not going to admit it before. </p><p>No time for more as I am off to visit the "German" <lb/>lines in a motor ! Address Lt Col GS <unclear>Attached</unclear> HQ 15 Corps</p>
+<salute>Your b w</salute> WB Spender<lb/>PS: Some folks put RA &amp; omit GS on my letters which<lb/>may lead to my not getting them now.<lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-27T07:46:48" who="#Monastack">
+                
+                    Page 6417 modified:
+                    <!-- 
+D1633/1/1/359
+24 July
+My Pv
+I have arrived - early yesterday morning - at the Corps HQ, but am only now getting into the work at all  properly. Some people have the gift of handing over, others with the best will in the world have not. This corps has been the most successful hitherto, & therefore its work should be on sound lines, & it is interesting seeing a new formation at work tho' it lacks the excitement of a Divisional office. 
+I believe now that my message to Sredurand was not correct, tho true of the actual situation. This appears to be the greatest difficulty in getting the stuff out tho' we are assured there is plenty at home. One's facilities for writing letters are worse than ever before as 2 of us sit at the same table - not always the same 2 tho' now I have more or less settled my own place. This & having no  letters to inspire me will make this a very dull letter. 
+ My work seems likely to be mainly in the office but I hope to get some exercise daily.
+I did not say goodbye to GN as he was out & declined to say goodbye on the previous day. I am not sure that this was not deliberate on his part. In any case I really cannot say I am sorry to leave him. He is I think the most naturally selfish man I have ever been brought into close touch with, & really this alleviates my regret to some extent, tho' I still feel as if I had deserted Rex in his hour of need, It is , I am told absolutely certain that the only excuse for refusing any appointment is lack of qualification & tho' it is quite likely I may show myself unfitted after trial I am not going to admit it before. 
+No time for more as I am off to visit the "German" lines in a motor ! 
+Address Lt Col GS  attached  HQ 15 Corps
+Your b w 
+WB Spender
+PS: Some folks put RA &; omit GS on my letters which may lead to my not getting them now. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-29T09:46:23" who="#Tbrosnan">
+                
+                    Page 6417 modified:
+                    <!-- 
+D1633/1/1/359<lb/>
+<date>24 July</date>
+<p><salute>My Pr</salute><lb/>I have arrived - early yesterday morning - at the Corps HQ, but am <lb/> only now getting into the work at all  properly. Some people have the <lb/>gift of handing over, others with the best will in the world have not.<lb/> This corps has been the most successful hitherto, &amp; therefore its work<lb/> should be on sound lines, &amp; it is interesting seeing a new formation at <lb/>work tho' it lacks the excitement of a Divisional office.</p> 
+<p>I believe now that my message to <unclear>Sredward</unclear> <!~~ maybe Sr Edward ~~> was not correct, tho<lb/> true of the actual situation. There appears to be the greatest difficulty<lb/> in getting the stuff out tho' we are assured there is plenty at home.</p> <p>One's facilities for writing letters are worse than ever before as 2<lb/> of us sit at the same table - not always the same 2 tho' now I have more<lb/> or less settled my own place. This &amp; having no letters to inspire me will<lb/> make this a very dull letter.</p> <p>My work seems likely to be mainly in the office but I hope to get some exercise daily.</p><p>I did not say goodbye to GN as he was out &amp; declined to<lb/> say goodbye on the previous day. I am not sure that this was not<lb/> deliberate on his part. In any case I really cannot say I am sorry<lb/> to leave him. He is I think the most naturally selfish man I have ever<lb/> been brought into close touch with, &amp; really this alleviates my regret<lb/> to some extent, tho' I still feel as if I had deserted Rex in his hour of need<lb/> It is, I am told absolutely certain that the only excuse for refusing any<lb/> appointment is lack of qualification &amp; tho' it is quite likely I may show<lb/> myself unfitted after trial I am not going to admit it before.</p> No time for more as I am off to visit the "German" lines in a motor ! Address Lt Col GS  attached HQ 15 Corps. <lb/><salute>Your b w<lb/> WB Spender<lb/></salute> PS: Some folks put RA &amp; omit GS on my letters which<lb/> may lead to my not getting them now.<lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-22T11:06:34" who="#Dommo">
+                
+                    Page 6417 modified:
+                    <!-- 
+D1633/1/1/359<lb/>
+<date>24 July</date>
+<p><salute>My Pr</salute><lb/>I have arrived - early yesterday morning - at the Corps HQ, but am <lb/> only now getting into the work at all  properly. Some people have the <lb/>gift of handing over, others with the best will in the world have not.<lb/> This corps has been the most successful hitherto, &amp; therefore its work<lb/> should be on sound lines, &amp; it is interesting seeing a new formation at <lb/>work tho' it lacks the excitement of a Divisional office.</p> 
+<p>I believe now that my message to <unclear>Sredward</unclear> <!~~ maybe Sr Edward ~~> was not correct, tho<lb/> true of the actual situation. There appears to be the greatest difficulty<lb/> in getting the stuff out tho' we are assured there is plenty at home.</p> <p>One's facilities for writing letters are worse than ever before as 2<lb/> of us sit at the same table - not always the same 2 tho' now I have more<lb/> or less settled my own place. This &amp; having no letters to inspire me will<lb/> make this a very dull letter.</p> <p>My work seems likely to be mainly in the office but I hope to get some exercise daily.</p><p>I did not say goodbye to GN as he was out &amp; declined to<lb/> say goodbye on the previous day. I am not sure that this was not<lb/> deliberate on his part. In any case I really cannot say I am sorry<lb/> to leave him. He is I think the most naturally selfish man I have ever<lb/> been brought into close touch with, &amp; really this alleviates my regret<lb/> to some extent, tho' I still feel as if I had deserted Rex in his hour of need<lb/> It is, I am told absolutely certain that the only excuse for refusing any<lb/> appointment is lack of qualification &amp; tho' it is quite likely I may show<lb/> myself unfitted after trial I am not going to admit it before.</p> No time for more as I am off to visit the "German" lines in a motor ! Address Lt Col GS.  attached HQ 15 Corps. <lb/><salute>Your b w<lb/> WB Spender<lb/></salute> PS: Some folks put RA &amp; omit GS on my letters which<lb/> may lead to my not getting them now.<lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T11:56:26" who="#RichardBreen">
+                
+                    Page 6417 modified:
+                    <!-- 
+<date>24 July</date>
+<salute>My Pr</salute>
+<p>I have arrived - early yesterday morning - at the Corps HQ, but am <lb/> only now getting into the work at all  properly. Some people have the <lb/>gift of handing over, others with the best will in the world have not.<lb/> This corps has been the most successful hitherto, &amp; therefore its work<lb/> should be on sound lines, &amp; it is interesting seeing a new formation at <lb/>work tho' it lacks the excitement of a Divisional office.</p> 
+
+<p>I believe now that my message to <unclear>Sredward</unclear>  was not correct, tho
+<lb/> true of the actual situation. There appears to be the greatest difficulty
+<lb/> in getting the stuff out tho' we are assured there is plenty at home.</p> 
+<p>One's facilities for writing letters are worse than ever before as 2
+<lb/> of us sit at the same table - not always the same 2 tho' now I have more
+<lb/> or less settled my own place. This &amp; having no <del>one</del> letters to inspire me will
+<lb/> make this a very dull letter.</p> 
+<p>My work seems likely to be mainly in the office but I hope to get some exercise daily.</p>
+<p>I did not say goodbye to GN as he was out &amp; declined to
+<lb/> say goodbye on the previous day. I am not sure that this was not
+<lb/> deliberate on his part. In any case I really cannot say I am sorry
+<lb/> to leave him. He is I think the most naturally selfish man I have ever
+<lb/> been brought into close touch with, &amp; really this alleviates my regret
+<lb/> to some extent, tho' I still feel as if I had deserted Rex in his hour of need
+<lb/> It is, I am told absolutely certain that the only excuse for refusing any
+<lb/> appointment is lack of qualification &amp; tho' it is quite likely I may show
+<lb/> myself unfitted after trial I am not going to admit it before.</p>
+ <p>No time for more as I am off to visit the "German"
+<lb/> lines in a motor ! Address Lt Col GS.  attached HQ 15 Corps.</p> 
+
+<salute>Your b w</salute>  
+<signed>WB Spender </signed>
+
+ <p>PS: Some folks put RA &amp; omit GS on my letters which
+<lb/> may lead to my not getting them now.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T14:32:08" who="#NR">
+                
+                    Page 6417 modified:
+                    <!-- 
+<date>24 July</date>
+<salute>My Pr</salute>
+<p>I have arrived - early yesterday morning - at the Corps HQ, but am 
+<lb/> only now getting into the work at all  properly. Some people have the 
+<lb/>gift of handing over, others with the best will in the world have not.
+<lb/> This corps has been the most successful hitherto, &amp; therefore its work
+<lb/> should be on sound lines, &amp; it is interesting seeing a new formation at 
+<lb/>work tho' it lacks the excitement of a Divisional office.</p> 
+
+<p>I believe now that my message to <unclear>Sr edward</unclear>  was not correct, tho
+<lb/> true of the actual situation. There appears to be the greatest difficulty
+<lb/> in getting the stuff out tho' we are assured there is plenty at home.</p> 
+<p>One's facilities for writing letters are worse than ever before as 2
+<lb/> of us sit at the same table - not always the same 2 tho' now I have more
+<lb/> or less settled my own place. This &amp; having no <del>one</del> letters to inspire me will
+<lb/> make this a very dull letter.</p> 
+<p>My work seems likely to be mainly in the office but I hope to get some exercise daily.</p>
+<p>I did not say goodbye to GN as he was out &amp; declined to
+<lb/> say goodbye on the previous day. I am not sure that this was not
+<lb/> deliberate on his part. In any case I really cannot say I am sorry
+<lb/> to leave him. He is I think the most naturally selfish man I have ever
+<lb/> been brought into close touch with, &amp; really this alleviates my regret
+<lb/> to some extent, tho' I still feel as if I had deserted Rex in his hour of need
+<lb/> It is, I am told absolutely certain that the only excuse for refusing any
+<lb/> appointment is lack of qualification &amp; tho' it is quite likely I may show
+<lb/> myself unfitted after trial I am not going to admit it before.</p>
+ <p>No time for more as I am off to visit the "German"
+<lb/> lines in a motor ! Address Lt Col GS.  attached HQ 15 Corps.</p> 
+
+<salute>Your b w</salute>  
+<signed>WB Spender </signed>
+
+ <p>PS: Some folks put RA &amp; omit GS on my letters which
+<lb/> may lead to my not getting them now.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6417 created using version from <date when="2015-08-25T15:30:14"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6417 removed (version from <date when="2015-08-25T15:30:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6417 removed (version from <date when="2015-08-25T15:33:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6417 removed (version from <date when="2015-08-25T15:36:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6417 removed (version from <date when="2015-08-25T15:41:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6417 removed (version from <date when="2015-08-27T07:46:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6417 removed (version from <date when="2015-08-29T09:46:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6417 removed (version from <date when="2015-09-22T11:06:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6417 removed (version from <date when="2016-01-20T11:56:26"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6417 removed (version from <date when="2016-01-22T14:32:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 6417 (version from <date when="2016-01-22T14:32:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:21" who="#PythonScript">
+                
+                    Clean tags: Page 6417 cleaned of 7 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:25" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:30" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:36" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:25" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:28" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2308_img_6417" url="cc8b1569c2cc2f2c12d4f6005da448ab.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="6417" facs="#L1916_2308_img_6417"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><dateline><date>24 July</date></dateline>
+<salute>My Pr</salute></opener>
+<p>I have arrived - early yesterday morning - at the Corps HQ, but am 
+<lb/> only now getting into the work at all  properly. Some people have the 
+<lb/>gift of handing over, others with the best will in the world have not.
+<lb/> This corps has been the most successful hitherto, &amp; therefore its work
+<lb/> should be on sound lines, &amp; it is interesting seeing a new formation at 
+<lb/>work tho' it lacks the excitement of a Divisional office.</p> 
+
+<p>I believe now that my message to <unclear>Sr edward</unclear>  was not correct, tho
+<lb/> true of the actual situation. There appears to be the greatest difficulty
+<lb/> in getting the stuff out tho' we are assured there is plenty at home.</p> 
+<p>One's facilities for writing letters are worse than ever before as 2
+<lb/> of us sit at the same table - not always the same 2 tho' now I have more
+<lb/> or less settled my own place. This &amp; having no <del>one</del> letters to inspire me will
+<lb/> make this a very dull letter.</p> 
+<p>My work seems likely to be mainly in the office but I hope to get some exercise daily.</p>
+<p>I did not say goodbye to GN as he was out &amp; declined to
+<lb/> say goodbye on the previous day. I am not sure that this was not
+<lb/> deliberate on his part. In any case I really cannot say I am sorry
+<lb/> to leave him. He is I think the most naturally selfish man I have ever
+<lb/> been brought into close touch with, &amp; really this alleviates my regret
+<lb/> to some extent, tho' I still feel as if I had deserted Rex in his hour of need
+<lb/> It is, I am told absolutely certain that the only excuse for refusing any
+<lb/> appointment is lack of qualification &amp; tho' it is quite likely I may show
+<lb/> myself unfitted after trial I am not going to admit it before.</p>
+ <p>No time for more as I am off to visit the "German"
+<lb/> lines in a motor ! Address Lt Col GS.  attached HQ 15 Corps.</p> 
+
+<closer><salute>Your b w</salute>  
+<signed>WB Spender </signed></closer>
+
+ <p>PS: Some folks put RA &amp; omit GS on my letters which
+<lb/> may lead to my not getting them now.</p>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

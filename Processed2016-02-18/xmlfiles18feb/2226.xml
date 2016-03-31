@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2226">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Lady Anne Lambton to Lady Londondery, 8 November 1915</title>
+                
+                <author>Anne Lambton</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="MF">Mel Farrell</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Johnchambers81">Johnchambers81</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2226</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from Lady Anne Lambton (1870 - 1922) to Lady Londonderry (1856 - 1919). This letter concerns a meeting that took place in Durham with Lady Lambton remarking that she was glad Lady Londonderry had not attended due to the presence of unpleasant individuals from London. </p>
+                            
+                        
+                            
+                        
+                            
+                            <p>This letter is part of a series of correspondence belonging to Lady Londonderry, the wife of Charles Stewart Vane-Tempest-Stewart (1852-1915), sixth marquess of Londonderry. Lady Londonderry was appointed colonel-in-chief of the Women's Volunteer Reserve also an active figure in British politics. Her correspondence includes many important figures in literature, the arts, the military, law and the church.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Records Office of Northern Ireland -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF INSTITUTION REF IS CORRECT --></VERIFY>
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Lady Londonderry Papers, D2846/2/21/52
+                             
+                        -->
+                            
+                                <collection type='public'>Lady Londonderry Papers</collection>
+                            
+                            
+                        <idno>D2846/2/21/52</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <persName ref="MISSING">Theresa Vane-Tempest Stewart</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">Anne Lambton</persName>
+                    
+                
+                
+                 
+                    
+                    <placeName  ref="MISSING">Lambton Castle, Fence Houses,  County Durham, England.</placeName>
+                    
+                
+                    
+                    <date when="1915-11-08">8 November 1915</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Female</item>
+                      
+                    
+                        <item n="death">1922</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-09-02T08:43:04" who="#MF">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-09-02T08:43:04" who="#Tbrosnan">
+                
+                    Page 5827 modified:
+                    <!-- 
+<add>D2846/2/21/52</add><lb/><address>Lambton Castle,<lb/>Fence Houses.<lb/></address><date>8 Nov 1915</date><lb/>
+<salute>Dear Lady Londonderry</salute><p>Thank you<lb/>immensely for sending me<lb/>in to Durham, it was truly<lb/>kind of you &amp; has saved<lb/>me a lot of discomfort. I am very glad you were <lb/>not at the meeting, <lb/>two ghastly freaks turned<lb/>up from London, both in  <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-02T08:46:06" who="#MF">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-09-02T08:46:06" who="#Tbrosnan">
+                
+                    Page 5828 modified:
+                    <!-- 
+uniform with short hair<lb/>they made me feel quite <lb/>sick.</p><p>I am enjoying Joan &amp; Peter. I will bring it back one<lb/>day next week as soon as <lb/>I can find time.</p><p>Thank you again so much</p><salute>Yours <unclear>office.</unclear></salute>Anne Lambton 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T13:42:26" who="#Johnchambers81">
+                
+                    Page 5827 modified:
+                    <!-- 
+<add>D2846/2/21/52</add>
+
+<address>Lambton Castle,
+<lb/>Fence Houses.
+<lb/></address>
+<lb/><date>8 Nov 1915</date>
+<salute>Dear Lady Londonderry</salute>
+<p>Thank you
+<lb/>immensely for sending me
+<lb/>in to Durham, it was truly
+<lb/>kind of you &amp; has saved
+<lb/>me a lot of discomfort. I am very glad you were 
+<lb/>not at the meeting, 
+<lb/>two ghastly freaks turned
+<lb/>up from London, both in 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T13:44:28" who="#Johnchambers81">
+                
+                    Page 5828 modified:
+                    <!-- 
+uniform with short hair
+<lb/>they made me feel quite 
+<lb/>sick.</p>
+
+<p>I am enjoying Joan &amp; Peter. I will bring it back one
+<lb/>day next week as soon as 
+<lb/>I can find time.</p>
+<p>Thank you again so much</p>
+<salute>Yours <unclear>affec..</unclear></salute>
+<signed>Anne Lambton</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T15:45:58" who="#NR">
+                
+                    Page 5827 modified:
+                    <!-- 
+<address>Lambton Castle,
+<lb/>Fence Houses.
+<lb/></address>
+<date>8 Nov 1915</date>
+<salute>Dear Lady Londonderry</salute>
+<p>Thank you
+<lb/>immensely for sending me
+<lb/>in to Durham, it was truly
+<lb/>kind of you &amp; has saved
+<lb/>me a lot of discomfort. I am very glad you were 
+<lb/>not at the meeting, 
+<lb/>two ghastly freaks turned
+<lb/>up from London, both in 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T15:46:34" who="#NR">
+                
+                    Page 5828 modified:
+                    <!-- 
+<lb/>uniform with short hair
+<lb/>they made me feel quite 
+<lb/>sick.</p>
+
+<p>I am enjoying Joan &amp; Peter. I will bring it back one
+<lb/>day next week as soon as 
+<lb/>I can find time.</p>
+<p>Thank you again so much</p>
+<salute>Yours <unclear>affec..</unclear></salute>
+<signed>Anne Lambton</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5827 created using version from <date when="2015-09-02T08:43:04"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5827 removed (version from <date when="2015-09-02T08:43:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5827 removed (version from <date when="2016-01-22T13:42:26"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5827 removed (version from <date when="2016-01-28T15:45:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5828 created using version from <date when="2015-09-02T08:46:06"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5828 removed (version from <date when="2015-09-02T08:46:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5828 removed (version from <date when="2016-01-22T13:44:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5828 removed (version from <date when="2016-01-28T15:46:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 5827 (version from <date when="2016-01-28T15:45:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5828 added to letter (version from <date when="2016-01-28T15:46:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:16" who="#PythonScript">
+                
+                    Clean tags: Page 5827 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:16" who="#PythonScript">
+                
+                    Clean tags: Page 5828 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:28" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:33" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:55" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:55" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2226_img_5827" url="72527226887884d1c3d35af2a12dbf4d.jpg"/> 
+    
+    <graphic xml:id="L1916_2226_img_5828" url="ce6288834b6c51b588c169dcb88f46b9.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="5827" facs="#L1916_2226_img_5827"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>Lambton Castle,</addrLine>
+<addrLine>Fence Houses.</addrLine>
+<addrLine></addrLine></address>
+<dateline><date>8 Nov 1915</date></dateline>
+<salute>Dear Lady Londonderry</salute></opener>
+<p>Thank you
+<lb/>immensely for sending me
+<lb/>in to Durham, it was truly
+<lb/>kind of you &amp; has saved
+<lb/>me a lot of discomfort. I am very glad you were 
+<lb/>not at the meeting, 
+<lb/>two ghastly freaks turned
+<lb/>up from London, both in
+        
+    
+
+    
+         
+        <pb n="5828" facs="#L1916_2226_img_5828"/>
+        
+        
+           
+            <lb/>uniform with short hair
+<lb/>they made me feel quite 
+<lb/>sick.</p>
+
+<p>I am enjoying Joan &amp; Peter. I will bring it back one
+<lb/>day next week as soon as 
+<lb/>I can find time.</p>
+<p>Thank you again so much</p>
+<closer><salute>Yours <unclear>affec..</unclear></salute>
+<signed>Anne Lambton</signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

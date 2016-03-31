@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_85">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Corporal W Bowes to Lady Clonbrock,  18 October 1916</title>
+                
+                <author>Unknown</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Roger">Roger</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BarneyDoherty">Barney Doherty</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_85</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>Letter from prisoner of war, Cpl W Bowes, Connaught Rangers, to Lady Clonbrock (1839-1928). Bowes thanks Lady Clonbrock for the bread she had sent him and assures her that he is in 'good order.'</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Augusta Caroline Dillon (née Crofton) was the wife of Luke Gerald Dillon (1834-1917), the 4th Baron of Clonbrock, Co. Galway and the daughter of Lord Crofton of Mote Park (Edward Henry Churchill Crofton, 3rd Baron), Co. Roscommon. Aged 75 at the outbreak of war, Lady Clonbrock, worked closely with the Irish Women's Association to send basic necessities to Irish POWs. Many of her care packages went to members of the Connaught Rangers imprisoned in Limburg near Cologne.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: National Library of Ireland -->
+                        
+                        <repository ref="#NLI">National Library of Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Collection List No 54, Ms 35796/14
+                             
+                        -->
+                            
+                                <collection type='public'>Collection List No 54</collection>
+                            
+                            
+                        <idno>Ms 35796/14</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Lady Clonbrock -->
+                        
+                        <persName ref="#Dillon_A_C">Lady Clonbrock</persName>
+                    
+                
+                
+                
+                    
+                    <!-- Normalised Place Found: 
+                    Ahascragh 
+                    Galway
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName  ref="#Ahascragh">Ahascragh, Galway</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">Unknown</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    Germany 
+                    Germany
+                    Germany
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#Germany">Germany</placeName>
+                    
+                
+                    
+                    <date when="1916-10-18">18 October 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-01-08T05:14:17" who="#NULL">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-01-08T05:14:17" who="#Roger">
+                
+                    Page 164 modified:
+                    <!-- 
+<add><salute>With Compliments</salute></add><lb/><address><foreign>Bureau de secours aux prisommiers de guerre SECTION ANGLAISE BERNE</foreign></address><add>The Bureau has not replied to Prisoner, G Mh, Room 9.</add><p>I am very pleased to Acknowledge that I<lb/>received one Parcel of Bread<lb/>in very Good Order on<lb/><date>October 16th 1916</date> - <hi rend="underline">I feel<lb/>very thankful to the Sender<lb/></hi><salute>Yours Respectfully</salute><lb/></p><add><date>29 SEPT <unclear>1916</unclear></date></add><p>Please always give your Regiment and<lb/>regimental No. and notify us at once any<lb/>change in your address.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-08T05:50:21" who="#NULL">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-01-08T05:50:21" who="#Roger">
+                
+                    Page 165 modified:
+                    <!-- 
+<p><date>October <unclear>18<hi rend="superscript">th</hi></unclear>1916</date><lb/> <address>8828 Cpl W Bowes Connaught Rangers, <foreign>Gustrow In Mecklinburg,</foreign> Germany</address></p>
+<note>Lady Clonbrock</note><foreign><hi rend="underline">KRIEGSGEFANGENEN-SEND</hi></foreign><lb/><address><del>Bureau de Secours aux Prisonniers de Guerre Section Anglaise Thunstrasse 50 <hi rend="underline">BERNE</hi> (Suisse)</del></address><add><address>The Lady Clonbrock, Clonbrock, Ahascragh, Ireland. <foreign>(Irlande)</foreign> </address></add><add><date>7 NOV. 1916</date></add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T17:01:33" who="#BarneyDoherty">
+                
+                    Page 164 modified:
+                    <!-- 
+<add>With Compliments</add>
+<lb/><address><foreign>Bureau de secours 
+<lb/>aux 
+<lb/>prisonniers de guerre 
+<lb/>SECTION ANGLAISE 
+<lb/>BERNE</foreign></address>
+<add>The Bureau has not 
+<lb/>replied to Prisoner, 
+<lb/>G Mh, Room 9.</add>
+<p>I am very pleased 
+<lb/>to Acknowledge that I
+<lb/>received one Parcel of Bread
+<lb/>in very Good Order on
+<lb/>October 16th 1916 &#x2014; <hi rend="underline">I feel
+<lb/>very thankful to the Sender</hi></p>
+<salute>Yours Respectfully</salute>
+<lb/><add><date>29 SEPT 1916</date></add>
+<p>Please always give your Regiment and
+<lb/>regimental No. and notify us at once any
+<lb/>change in your address.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T17:06:02" who="#BarneyDoherty">
+                
+                    Page 165 modified:
+                    <!-- 
+<date>October <unclear>18<hi rend="superscript">th</hi></unclear>1916</date>
+<lb/> <address>8828 Cpl W Bowes 
+<lb/>Connaught Rangers, 
+<lb/><foreign>Gustrow In Mecklinburg,</foreign> Germany</address>
+<pb/>
+<note>Lady Clonbrock</note>
+<del><foreign><hi rend="underline">KRIEGSGEFANGENEN-SENDUNG</hi></foreign>
+<lb/><address>Bureau de Secours 
+<lb/>aux Prisonniers de Guerre 
+<lb/>Section Anglaise 
+<lb/>Thunstrasse 50 
+<lb/><hi rend="underline">BERNE</hi> 
+<lb/>(Suisse)</del></address>
+<add><address>The 
+<lb/>Lady Clonbrock, 
+<lb/>Clonbrock, 
+<lb/>Ahascragh, 
+<lb/>Ireland. 
+<foreign>(Irlande)</foreign> </address></add>
+<add><date>7 NOV. 1916</date></add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T13:00:45" who="#BarneyDoherty">
+                
+                    Page 165 modified:
+                    <!-- 
+<date>October <unclear>18<hi rend="superscript">th</hi></unclear>1916</date>
+<lb/> <address>8828 Cpl W Bowes 
+<lb/>Connaught Rangers, 
+<lb/><foreign>Gustrow In Mecklinburg,</foreign> Germany</address>
+<!~~ Right side ~~>
+<note>Lady Clonbrock</note>
+<del><foreign><hi rend="underline">KRIEGSGEFANGENEN-SENDUNG</hi></foreign>
+<lb/><address>Bureau de Secours 
+<lb/>aux Prisonniers de Guerre 
+<lb/>Section Anglaise 
+<lb/>Thunstrasse 50 
+<lb/><hi rend="underline">BERNE</hi> 
+<lb/>(Suisse)</del></address>
+<add><address>The 
+<lb/>Lady Clonbrock, 
+<lb/>Clonbrock, 
+<lb/>Ahascragh, 
+<lb/>Ireland. 
+<foreign>(Irlande)</foreign> </address></add>
+<add><date>7 NOV. 1916</date></add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-11T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 164 created using version from <date when="2015-01-08T05:14:17"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 164 removed (version from <date when="2015-01-08T05:14:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 164 removed (version from <date when="2016-01-21T17:01:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 165 created using version from <date when="2015-01-08T05:50:21"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 165 removed (version from <date when="2015-01-08T05:50:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 165 removed (version from <date when="2016-01-21T17:06:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 165 removed (version from <date when="2016-01-22T13:00:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 164 (version from <date when="2016-02-11T12:14:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 165 added to letter (version from <date when="2016-02-11T12:15:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:20" who="#PythonScript">
+                
+                    Clean tags: Page 164 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:20" who="#PythonScript">
+                
+                    Clean tags: Page 165 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:25" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:30" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:36" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:19" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:18" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_85_img_164" url="1dab155b672c0069c1ba80a7d49234de.jpg"/> 
+    
+    <graphic xml:id="L1916_85_img_165" url="c9afb9e72dc5da0a4abc5d4823015c70.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="164" facs="#L1916_85_img_164"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<add>With Compliments</add>
+<lb/><address><foreign>Bureau de secours 
+<lb/>aux 
+<lb/>prisonniers de guerre 
+<lb/>SECTION ANGLAISE 
+<lb/>BERNE</foreign></address>
+<add>The Bureau has not 
+<lb/>replied to Prisoner, 
+<lb/>G Mh, Room 9.</add>
+<p>I am very pleased 
+<lb/>to Acknowledge that I
+<lb/>received one Parcel of Bread
+<lb/>in very Good Order on
+<lb/>October 16th 1916 &#x2014; <hi rend="underline">I feel
+<lb/>very thankful to the Sender</hi></p>
+<opener><salute>Yours Respectfully</salute></opener>
+<lb/><add><date>29 SEPT 1916</date></add>
+<p>Please always give your Regiment and
+<lb/>regimental No. and notify us at once any
+<lb/>change in your address.</p>
+        
+    
+
+    
+         
+        <pb n="165" facs="#L1916_85_img_165"/>
+        
+        
+           
+            <date>October <unclear>18<hi rend="superscript">th</hi></unclear>1916</date>
+<lb/> <address>8828 Cpl W Bowes 
+<lb/>Connaught Rangers, 
+<lb/><foreign>Gustrow In Mecklinburg,</foreign> Germany</address>
+<!-- Right side -->
+<note>Lady Clonbrock</note>
+<del><foreign><hi rend="underline">KRIEGSGEFANGENEN-SENDUNG</hi></foreign>
+<lb/><address>Bureau de Secours 
+<lb/>aux Prisonniers de Guerre 
+<lb/>Section Anglaise 
+<lb/>Thunstrasse 50 
+<lb/><hi rend="underline">BERNE</hi> 
+<lb/>(Suisse)</del></address>
+<add><address>The 
+<lb/>Lady Clonbrock, 
+<lb/>Clonbrock, 
+<lb/>Ahascragh, 
+<lb/>Ireland. 
+<foreign>(Irlande)</foreign> </address></add>
+<add><date>7 NOV. 1916</date></add>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

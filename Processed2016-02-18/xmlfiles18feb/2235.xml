@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2235">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter to George Hackney, 21 September 1916</title>
+                
+                <author>MISSING</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Johnchambers81">Johnchambers81</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Dommo">Dommo</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tnoonan1111">Tnoonan11 11</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Scribe500">Scribe500</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Wmcg">Wmcg</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2235</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A card addressed to George Hackney (1889-1977). The card was addressed to George's battalion in France, but the card has been redirected to the Sheffield hospital in which George was recuperating. The writer inquires after George's location and well-being, and refers briefly to life at home and to a promised present from George.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>This letter is from the papers of George Naphthali Hackney, a  Lance Corporal from Clifton, Belfast. Before his time in the army, he worked as a book-keeper for a florist. He was the youngest in a Presbyterian family of six, with three older sisters. In 2014, his collection of photographs taken in the trenches were made available to the public in an Ulster Museum exhibition, and his life and photography became the subject of a BBC documentary, 'The Man who Shot the Great War'.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Papers of George Hackney, Belfast; D3503/5/1-6-3
+                             
+                        -->
+                            
+                                <collection type='public'>Papers of George Hackney, Belfast</collection>
+                            
+                            
+                        <idno>D3503/5/1-6-3</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: George Hackney -->
+                        
+                        <persName ref="#Hackney_G">George Hackney</persName>
+                    
+                
+                
+                
+                    
+                    <placeName  ref="MISSING">31 Ward, &#39;D&#39; Block, Wharncliffe War Hospital, Sheffield, England</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    <persName ref="MISSING">MISSING</persName>
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    Farnham 
+                    Surrey
+                    United Kingdom
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#Farnham">Parkside, Upper Hale, Farnham, Surrey, England</placeName>
+                    
+                
+                    
+                    <date when="1916-09-21">21 September 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-25T16:02:06" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-25T16:02:06" who="#Wmcg">
+                
+                    Page 5852 modified:
+                    <!-- 
+<date>21<hi rend="superscript">st</hi>Sept 16</date><lb/><address>Parkside<lb/>Upper Hale<lb/>Farnham</address><lb/>
+Your card dated 10<hi rend="superscript">th</hi>list <lb/>duty need &amp; I have been<lb/>expecting to get your<lb/>present add ever since<lb/>however i shall risk this<lb/>card to your reg<hi rend="superscript">t</hi>. We had one<lb/>of theY. C. V.8 from Belfast ( Carson<lb/> by name, here last week, he was in a V.A.D. near<gap/> on<lb/> the 14<hi rend="superscript">th</hi>. I think he has got leave<lb/>now. let me know where you are &amp; how you are getting on.<lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-25T16:04:34" who="#Wmcg">
+                
+                    Page 5852 modified:
+                    <!-- 
+<date>21<hi rend="superscript">st</hi>Sept 16</date><lb/><address>Parkside<lb/>Upper Hale<lb/>Farnham</address><lb/>
+Your card dated 10<hi rend="superscript">th</hi>list <lb/>duty need &amp; I have been<lb/>expecting to get your<lb/>present add ever since<lb/>however i shall risk this<lb/>card to your reg<hi rend="superscript">t</hi>. We had one<lb/>of theY. C. V.8 from Belfast ( Carson<lb/> by name, here last week, he was in a V.A.D. near<gap/> on<lb/> the 14<hi rend="superscript">th</hi>. I think he has got leave<lb/>now. let me know where you are &amp; how you are getting on.<lb/> No word from <gap/> lately.<lb/> Arthur expects soon to be on the<lb/>way out again. Oh I do wish I<lb/>could have seen our lovely old 'Tanks' take the field. <salute>yrs. N. McG.</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-25T16:15:10" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-25T16:15:10" who="#Wmcg">
+                
+                    Page 5853 modified:
+                    <!-- 
+<add>31 Ward<lb/>A. Block<lb/>Wharncliffe War Hosp<lb/><hi rend="underline">Sheffield</hi><lb/></add>
+<add>Field post Office 88<lb/> B<lb/> 26 SP<lb/> 16</add>
+<add>Aldershot 5<lb/>5 pm<lb/>21 SP<lb/>16</add>
+Lce Corp George Hackney<lb/><del><address>B boy,<lb/><hi rend="underline">Fourteenth</hi> (8) Batt. R.I.Rfls.<lb/>B <gap/>Foree<lb/>France</address></del> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-28T21:29:31" who="#Scribe500">
+                
+                    Page 5852 modified:
+                    <!-- 
+at <address> Parkside, Upper Hale, Tarnham</address> <date>21<hi rend="superscript">st Sept. '16</hi></date>
+
+Your card dated 10<hi rend="superscript">th</hi> inst.<lb/>duly recd. &amp; I have been<lb/> expecting to get your<lb/>present add. ever since<lb/>however I shall risk this<lb/>card to your regt. We had one<lb/>of the Y.C.V's from Belfast (Carson<lb/>by name, here last week, he was<lb/>in a V.A.D: near, got wounded on<lb/>the 14<hi rend="superscript">th.</hi>I think he has got leave<lb/>now.  Let me know where you<lb/> are &amp;how you are getting on.<lb/>No word from Tring lately.<lb/>Arthur expects soon to be on the<lb/>way out again.  Oh I do wish I<lb/> could have seen our lovely old 'Tanks'<lb/>take the field.<lb/> <salute>Yrs. <unclear>J. Jn. C</unclear>. </salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-22T10:16:18" who="#Dommo">
+                
+                    Page 5853 modified:
+                    <!-- 
+<add>31 Ward<lb/>A. Block<lb/>Wharncliffe War Hosp<lb/><hi rend="underline">Sheffield</hi><lb/></add>
+<add>Field post Office 88<lb/> B<lb/> 26 SP<lb/> 16</add>
+<add>Aldershot 5<lb/>5 pm<lb/>21 SP<lb/>16</add>
+Lce. Corp. George Hackney.<lb/><del><address>B boy,<lb/><hi rend="underline">Fourteenth</hi> (8) Batt. R.I.Rfles.<lb/>B <gap/>Ex Force<lb/>France</address></del> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T12:39:52" who="#Johnchambers81">
+                
+                    Page 5852 modified:
+                    <!-- 
+at <address> Parkside, Upper Hale, Farnham</address> 
+<date>21<hi rend="superscript">st Sept. '16</hi></date>
+
+Your card dated 10<hi rend="superscript">th</hi> inst.
+<lb/>duly recd. &amp; I have been
+<lb/> expecting to get your
+<lb/>present add. ever since
+<lb/>however I shall risk this
+<lb/>card to your regt. We had one
+<lb/>of the Y.C.V's from Belfast (Carson
+<lb/>by name, here last week, he was
+<lb/>in a V.A.D: near, got wounded on
+<lb/>the 14<hi rend="superscript">th.</hi>I think he has got leave
+<lb/>now.  Let me know where you
+<lb/> are &amp;how you are getting on.
+<lb/>No word from Tring lately.
+<lb/>Arthur expects soon to be on the
+<lb/>way out again.  Oh I do wish I
+<lb/> could have seen our lovely old 'Tanks'
+<lb/>take the field.
+<lb/> <salute>Yrs. <unclear>J. Jn. C</unclear>. </salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T12:40:18" who="#Johnchambers81">
+                
+                    Page 5852 modified:
+                    <!-- 
+at <address> Parkside, Upper Hale, Farnham</address> 
+<date>21<hi rend="superscript">st Sept. '16</hi></date>
+
+Your card dated 10<hi rend="superscript">th</hi> inst.
+<lb/>duly recd. &amp; I have been
+<lb/> expecting to get your
+<lb/>present add. ever since
+<lb/>however I shall risk this
+<lb/>card to your regt. We had one
+<lb/>of the Y.C.V's from Belfast (Carson
+<lb/>by name, here last week, he was
+<lb/>in a V.A.D: near, got wounded on
+<lb/>the 14<hi rend="superscript">th.</hi>I think he has got leave
+<lb/>now.  Let me know where you
+<lb/> are &amp;how you are getting on.
+<lb/>No word from Tring lately.
+<lb/>Arthur expects soon to be on the
+<lb/>way out again.  Oh I do wish I
+<lb/> could have seen our lovely old 'Tanks'
+<lb/>take the field.
+<lb/> <salute>Yrs. </salute>
+<signed><unclear>J. Jn. C</unclear></signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T12:42:59" who="#Johnchambers81">
+                
+                    Page 5853 modified:
+                    <!-- 
+<address>31 Ward
+<lb/>A. Block<lb/>Wharncliffe War Hosp
+<lb/><hi rend="underline">Sheffield</hi></address>
+
+Lce. Corp. George Hackney.
+<lb/><del>B boy,
+<lb/><hi rend="underline">Fourteenth</hi> (8) Batt. R.I.Rfles.
+<lb/>B <gap/>Ex Force
+<lb/>France</del> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T13:59:11" who="#NR">
+                
+                    Page 5852 modified:
+                    <!-- 
+<address> at Parkside, Upper Hale, Farnham</address> 
+<date>21<hi rend="superscript">st Sept. '16</hi></date>
+
+<p>Your card dated 10<hi rend="superscript">th</hi> inst.
+<lb/>duly recd. &amp; I have been
+<lb/> expecting to get your
+<lb/>present add. ever since
+<lb/>however I shall risk this
+<lb/>card to your regt. We had one
+<lb/>of the Y.C.V's from Belfast (Carson
+<lb/>by name, here last week, he was
+<lb/>in a V.A.D: near, got wounded on
+<lb/>the 14<hi rend="superscript">th.</hi>I think he has got leave
+<lb/>now.  Let me know where you
+<lb/> are &amp;how you are getting on.
+<lb/>No word from Tring lately.
+<lb/>Arthur expects soon to be on the
+<lb/>way out again.  Oh I do wish I
+<lb/> could have seen our lovely old 'Tanks'
+<lb/>take the field.
+<lb/> <salute>Yrs. </salute>
+<signed><unclear>J. Jn. C</unclear></signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T14:01:28" who="#NR">
+                
+                    Page 5853 modified:
+                    <!-- 
+<address>31 Ward
+<lb/>A. Block<lb/>Wharncliffe War Hosp
+<lb/><hi rend="underline">Sheffield</hi></address>
+
+<address>Lce. Corp. George Hackney.
+<lb/><del>B boy,
+<lb/><hi rend="underline">Fourteenth</hi> (8) Batt. R.I.Rfles.
+<lb/>B <gap/>Ex Force
+<lb/>France</del></address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T14:01:29" who="#NR">
+                
+                    Page 5853 modified:
+                    <!-- 
+<address>31 Ward
+<lb/>A. Block<lb/>Wharncliffe War Hosp
+<lb/><hi rend="underline">Sheffield</hi></address>
+
+<address>Lce. Corp. George Hackney.
+<lb/><del>B boy,
+<lb/><hi rend="underline">Fourteenth</hi> (8) Batt. R.I.Rfles.
+<lb/>B <gap/>Ex Force
+<lb/>France</del></address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T14:01:52" who="#NR">
+                
+                    Page 5853 modified:
+                    <!-- 
+<address>31 Ward
+<lb/>A. Block<lb/>Wharncliffe War Hosp
+<lb/><hi rend="underline">Sheffield</hi></address>
+
+<address>Lce. Corp. George Hackney.
+<lb/><del>B boy,
+<lb/><hi rend="underline">Fourteenth</hi> (8) Batt. R.I.Rfles.
+<lb/>B <gap/>Ex Force
+<lb/>France</del></address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T14:03:37" who="#NR">
+                
+                    Page 5853 modified:
+                    <!-- 
+<address>31 Ward
+<lb/>A. Block<lb/>Wharncliffe War Hosp
+<lb/><hi rend="underline">Sheffield</hi></address>
+
+<address>Lce. Corp. George Hackney.
+<lb/><del>B boy,</del>
+<lb/><hi rend="underline"><del>Fourteenth</del></hi> <del>(8) Batt. R.I.Rfles.</del>
+<lb/><del>B.Ex Force,</del>
+<lb/><del>France</del></address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5853 created using version from <date when="2015-08-25T16:15:10"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5853 removed (version from <date when="2015-08-25T16:15:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5853 removed (version from <date when="2015-09-22T10:16:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5853 removed (version from <date when="2016-01-22T12:42:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5853 removed (version from <date when="2016-01-28T14:01:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5853 removed (version from <date when="2016-01-28T14:01:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5853 removed (version from <date when="2016-01-28T14:01:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5853 removed (version from <date when="2016-01-28T14:03:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5852 created using version from <date when="2015-08-25T16:02:06"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5852 removed (version from <date when="2015-08-25T16:02:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5852 removed (version from <date when="2015-08-25T16:04:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5852 removed (version from <date when="2015-08-28T21:29:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5852 removed (version from <date when="2016-01-22T12:39:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5852 removed (version from <date when="2016-01-22T12:40:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5852 removed (version from <date when="2016-01-28T13:59:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 5853 (version from <date when="2016-01-28T14:03:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5852 added to letter (version from <date when="2016-01-28T13:59:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:16" who="#PythonScript">
+                
+                    Clean tags: Page 5852 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:16" who="#PythonScript">
+                
+                    Clean tags: Page 5853 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:28" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:33" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:59" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:59" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2235_img_5852" url="3ad7b63f7c5fbef17b8ad8c68735ac06.jpg"/> 
+    
+    <graphic xml:id="L1916_2235_img_5853" url="406d24b33c2ab5f4026fd36c9cdbcd01.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="5852" facs="#L1916_2235_img_5852"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>at Parkside, Upper Hale, Farnham</addrLine></address> 
+<dateline><date>21<hi rend="superscript">st Sept. '16</hi></date></dateline></opener>
+
+<p>Your card dated 10<hi rend="superscript">th</hi> inst.
+<lb/>duly recd. &amp; I have been
+<lb/> expecting to get your
+<lb/>present add. ever since
+<lb/>however I shall risk this
+<lb/>card to your regt. We had one
+<lb/>of the Y.C.V's from Belfast (Carson
+<lb/>by name, here last week, he was
+<lb/>in a V.A.D: near, got wounded on
+<lb/>the 14<hi rend="superscript">th.</hi>I think he has got leave
+<lb/>now.  Let me know where you
+<lb/> are &amp;how you are getting on.
+<lb/>No word from Tring lately.
+<lb/>Arthur expects soon to be on the
+<lb/>way out again.  Oh I do wish I
+<lb/> could have seen our lovely old 'Tanks'
+<lb/>take the field.
+<lb/> <closer><salute>Yrs. </salute>
+<signed><unclear>J. Jn. C</unclear></signed>
+        
+    
+
+    
+         
+        <pb n="5853" facs="#L1916_2235_img_5853"/>
+        
+        
+           
+            <address><addrLine>31 Ward</addrLine>
+<addrLine>A. Block</addrLine>
+<addrLine>Wharncliffe War Hosp</addrLine>
+<addrLine><hi rend="underline">Sheffield</hi></addrLine></address></closer>
+
+<address>Lce. Corp. George Hackney.
+<lb/><del>B boy,</del>
+<lb/><hi rend="underline"><del>Fourteenth</del></hi> <del>(8) Batt. R.I.Rfles.</del>
+<lb/><del>B.Ex Force,</del>
+<lb/><del>France</del></address>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    
