@@ -34,7 +34,7 @@ def abstract_split(abstract):
 	else:
 		return [abstract]
 
-def run_templater(inputFile, outputDir):#, templateFolder):
+def run_templater(inputFile, outputDir, templateFile):#, templateFolder):
 	editors = []
 	contributors = []
 	wf = 0
@@ -97,7 +97,7 @@ def run_templater(inputFile, outputDir):#, templateFolder):
 
 		
 
-		templateFile = open('newTemplate.xml').read()
+		templateFile = open(templateFile).read()
 
 		env = jinja2.Environment()
 		env.globals.update(sorted=sorted, to_snake=to_snake_case,replace_contribs=replace_contrib_names,
@@ -148,7 +148,7 @@ if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description=message)
 	parser.add_argument('--inputFilePath', '-i', help="Specify the path of an input file.")
 	parser.add_argument('--outputDir', '-d', help="Specify the directory to output XML files")
-	#parser.add_argument('--templateFolder', '-t', help="Specify a template folder")
+	parser.add_argument('--templateFile', '-t', help="Specify a template file path")
 
 	inputFilePath = parser.parse_args().inputFilePath
 	outputDir = parser.parse_args().outputDir
@@ -157,5 +157,5 @@ if __name__ == '__main__':
 	if not (inputFilePath and outputDir): #and templateFolder):
 		raise ValueError('You are missing necessary arguments. Run --help for more information.')
 	
-	run_templater(inputFilePath, outputDir)#, templateFolder)
+	run_templater(inputFilePath, outputDir, templateFile)
 
