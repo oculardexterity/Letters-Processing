@@ -15,7 +15,7 @@ def to_snake_case(text):
 	return text.replace(' ', '_').replace("'","")
 
 def replace_contrib_names(name):
-	with shelve.open('editorList.shelve') as editor_list:
+	with shelve.open('Data/editorList.shelve') as editor_list:
 		if name in editor_list:
 			return editor_list[name][1]
 		elif name and name[0] in [str(i) for i in range(10)]:
