@@ -1,3 +1,0 @@
-{% for key, page in sorted(Pages.items()) %}
-    <page facs="L1916_{{Letter}}_img_{{key}}" url="{{page.Archive_Filename}}" pageNo="{{key}}"/>
-{% endfor %} 
