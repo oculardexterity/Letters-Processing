@@ -14,6 +14,7 @@ testfiles
 Headers*
 Letters *
 Processed *
+Regenerate/*
 
 xmlfiles/*.xml
 temp_xmlFiles/*.xml
