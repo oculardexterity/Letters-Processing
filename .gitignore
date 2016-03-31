@@ -4,6 +4,8 @@
 testfiles
 test/test-extractor/test-tmp
 spreadsheets
+Spreadsheets/*
+!Spreadsheets/info.txt
 __pycache__
 
 shelve_files
