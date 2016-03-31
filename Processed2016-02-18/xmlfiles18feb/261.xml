@@ -1,0 +1,1221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_261">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Alice Katherine Wynne to Sophia (Sophy) Sarah Wynne, 15 October 1916</title>
+                
+                <author>Alice Katherine Wynne</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Annie">Annie</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BarneyDoherty">Barney Doherty</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Freyaclaresmith">Freyaclaresmith</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_261</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>Letter from Alice Katherine Wynne (1833-1928) to her cousin Sophia (Sophy) Sarah Wynne in which she references the health of her husband (Albert Augustus Wynne). She also goes into great detail about the contents of a letter received from her son Charlie (1895-1917) describing his lack of food, lack of sleep due to night watch duties in the trenches and of minor injuries hospitalised him for a short while.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Alice Katherine Wynne was born to Reverend John George Wynne and Emily Goold. She was married to Albert Augustus Wynne and was the mother of five children, among them Charles Wyndham Wynne. Charles served as a captain in the Royal Garrison Artillery in the First World War. He died of wounds received at Armentieres, June 1917.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Trinity College Dublin -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF INSTITUTION REF IS CORRECT --></VERIFY>
+                        
+                        <repository ref="#TCD">Trinity College, Dublin</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: TCD MS 10247/1/510
+                             
+                        -->
+                            
+                                <collection type='public'>TCD MS 10247/1/510</collection>
+                            
+                            
+                        <idno>TCD MS 10247/1/510</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <persName ref="MISSING">Sophia (Sophy) Sarah Wynne</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Alice Katherine Wynne -->
+                        
+                        <persName ref="#Wynne_A_K">Alice Katherine Wynne</persName>
+                    
+                
+                
+                 
+                    
+                    <placeName  ref="MISSING">The Cottage, Ireland</placeName>
+                    
+                
+                    
+                    <date when="1916-10-15">15 October 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Female</item>
+                      
+                    
+                        <item n="death">1928</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                            <item n="tag">Children</item>
+                            
+                        
+                            
+                        
+                            
+                            <item n="tag">Family life</item>
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2013-09-25T22:42:49" who="#Freyaclaresmith">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-09-25T22:42:49" who="#Freyaclaresmith">
+                
+                    Page 681 modified:
+                    <!-- 
+My dearest Sophy,
+This is a day of quiet so I 
+must take advantage of it to write
+to you. I am afraid that you 
+will feel the sudden change to 
+cold that we had last night.
+Albert is I think, better, he
+has more intervals of comfort
+but cannot get to bed before
+about 2 o'clock! Last night at that
+hour he had a wretchedly bad
+attack & was induced to inhale 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-30T17:09:23" who="#Freyaclaresmith">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-01-30T17:09:23" who="#Annie">
+                
+                    Page 682 modified:
+                    <!-- 
+2. <lb/> all day & dead tired & sleepy <lb/> at 9 so he went to bed, there <lb/> was  call up at 10. to <gap/> <lb/> night duty at the  battery every <lb/> time he sat down he felt he <lb/> was dropping off to sleep so <lb/> walked about till 9 o'clock the <lb/> next morning ( I forgot to say that <lb/> the day before he did the <lb/> 30 miles tramp through trenches <lb/> half had no supper the evening <lb/> before & no breakfast that <lb/> morning ! ) Then the Captain <lb/> came up and while C. was waiting <lb/> to be relieved he was talking <lb/> to him when suddenly every <lb/> thing went round. & the next <lb/> thing he knew he was on <lb/> a stretcher he has no idea <lb/> how he fainted, They <lb/> took him off for a long way <lb/> in a Med X van to hospital <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-30T19:35:27" who="#Freyaclaresmith">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-01-30T19:35:27" who="#Annie">
+                
+                    Page 683 modified:
+                    <!-- 
+3. <lb/> He was so dead tired he <lb/> slept all the way & is very <lb/> indignant with the Captain for <lb/> sending him to hospital but <lb/> I think it was the one sensible <lb/> thing in the whole show <lb/> it really is irrational to use <lb/> up men in such a way ~~- <lb/> On one day I was left in <lb/> charge of a live battery <lb/> ( he had never seen the guns <lb/> before) & orders came to fire <lb/>  on an enemy <gap/><lb/> but after 5 rounds the<gap/>   <lb/> came down so that the observer                                                                                                     bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3 <lb/> he was so dead tired he<lb/> slept all the way and is very <lb/> indignant with the Captain for <lb/> sending him to hospital but <lb/> I think it was the one sensible <lb/> thing in the whole show <lb/> it really is irrational to use up men in such a way ~~ <lb/> on one day C. was left in <lb/> charge of an alive battery <lb/> ( he had never seen the guns <lb/> before ) & orders came to fire <lb/> on an enemy <gap/> <lb/> but after 5 rounds the <gap/> <lb/> came down so that the ob- <lb/> server could not see & they had <lb/> to stop to C's great sorrow <lb/> They seem to have been <lb/> moved backwards & for- <lb/> wards in the apparently <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-31T20:42:51" who="#Freyaclaresmith">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-01-31T20:42:51" who="#Annie">
+                
+                    Page 684 modified:
+                    <!-- 
+<gap/> way that they are <lb/> walked about & as C expresses <lb/> it they "scavenged" 3 <gap/> <lb/> for their battery & were <lb/> not allowed to occupy any <lb/> of them. I am sure the <lb/> work was very arduous <lb/> & the whole thing an <lb/>  enacting experience to the <lb/> boy W - no doubt added to <lb/> the complete exhaustion <lb/> helped to finish him, he <lb/> wrote from hospital. up <lb/> & dressed on the 9th the day <lb/>after he was brought there <lb/><lb/> & was very comfortable <lb/> & they were going to have <lb/> a concert that evening <lb/> & he said he was "right <lb/> as rain " & hoped to be sent <pb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-31T21:29:54" who="#Freyaclaresmith">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-01-31T21:29:54" who="#Annie">
+                
+                    Page 685 modified:
+                    <!-- 
+<lb/>back next day he was only <lb/> concerned at being taken away <lb/> from his battery. He <lb/> ha s been laying his telephone <lb/> lines. He says their present <lb/> position is quite a good one <lb/> & they have billets in the one <lb/> house left standing & there <lb/>  is a <gap/> = sleep, they <lb/>are making a splendid <lb/> observation park and he hopes they <lb/> may be left there to use it <lb/> but it is doubtful whether <lb/> they will not be moved on <lb/> I know you like to hear <lb/>of him, so have sent you <lb/><lb/>all the particulars. poor <lb/> <gap/> Baird is weather bound <lb/> here by these awful gales <lb/> She is dangerously seasick <lb/> & is sad if she is to lose the <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-31T22:49:17" who="#Freyaclaresmith">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-01-31T22:49:17" who="#Annie">
+                
+                    Page 686 modified:
+                    <!-- 
+good of her holiday by a bad <lb/> crossing we have quite lost <lb/> our hearts to her. I think she <lb/> I think she <lb/> is really happy at finding her <lb/> self in a home once more <lb/> She has been over here for five <lb/> years away from her family <lb/> & is often homesick ~~- There <lb/> was a wire from Mag this <lb/> morning to say that <gap/> <lb/> had arrived yesterday, & they <lb/> mjght perhaps read this <lb/>  tomorrow afternoon. Will <lb/> you dear S. send this on to <lb/> Corris as it takes a long time <lb/> to give Charlie's news & it will <lb/> save me writing it out again <lb/> We are much looking forward <lb/> to having Jack and Mag with <lb/> us for a bit. The wind has been <lb/> so wild that the trees are nearly <lb/> leafless before they have burned <lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T13:17:19" who="#BarneyDoherty">
+                
+                    Page 681 modified:
+                    <!-- 
+<salute>My dearest Sophy,</salute>
+<p>This is a day of quiet so I 
+<lb/>must take advantage of it to write
+<lb/>to you. I am afraid that you 
+<lb/>will feel the sudden change to 
+<lb/>cold that we had last night.</p>
+<p>Albert is I think, better, he
+<lb/>has more intervals of comfort
+<lb/>but cannot get to bed before
+<lb/>about 2 o'clock. Last night at that
+<lb/>hour he had a wretchedly bad
+<lb/>attack &amp; was induced to inhale
+<lb/>an "<unclear>arugl</unclear>" capsule which he likes 
+<lb/>to keep as a refuge when he is
+<lb/>really bad. It relieved him won&#x2014;
+<lb/>derfully &amp; he had the best 
+<lb/>night he has had for some 
+<lb/>weeks. a "delightful sleep". We
+<lb/>had a long letter from Charlie
+<lb/>yesterday as far as we can make 
+<lb/>out he had one nights sleep in
+<lb/>a weeks. Then he was tramping 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T13:24:43" who="#BarneyDoherty">
+                
+                    Page 682 modified:
+                    <!-- 
+<lb/>2. 
+<lb/> all day &amp; dead tired &amp; sleepy 
+<lb/> at 9 so he went to bed, there 
+<lb/> was  call up at 10. to <unclear>waken</unclear> 
+<lb/> night duty at the  battery every 
+<lb/> time he sat down he felt he 
+<lb/> was dropping off to sleep so 
+<lb/> walked about till 9 o'clock the 
+<lb/> next morning ( I forgot to say that 
+<lb/> the day before he did the 
+<lb/> 30 miles tramp through trenches 
+<lb/> half had no supper the evening 
+<lb/> before &amp; no breakfast that 
+<lb/> morning!) Then the Captain 
+<lb/> came up &amp; while C. was waiting 
+<lb/> to be relieved he was talking 
+<lb/> to him when suddenly every &#x2014;
+<lb/> thing went round. &amp; the next 
+<lb/> thing he knew he was on 
+<lb/> a stretcher he has no idea 
+<lb/> how he fainted, They 
+<lb/> took him off for a long way 
+<lb/> in a Med X van to hospital 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T13:29:50" who="#BarneyDoherty">
+                
+                    Page 683 modified:
+                    <!-- 
+<lb/>3. 
+<lb/> he was so dead tired he 
+<lb/> slept all the way &amp; is very 
+<lb/> indignant with the Capt for 
+<lb/> sending him to hospital but 
+<lb/> I think it was the one sensible 
+<lb/> thing in the whole show 
+<lb/> it really is irrational to use 
+<lb/> up men in such a way &#x2014;</p> 
+<p>On one day I was left in 
+<lb/> charge of a live battery 
+<lb/> ( he had never seen the guns 
+<lb/> before) &amp; orders came to fire 
+<lb/> on an enemy tramway
+<lb/> but after 5 rounds the mist 
+<lb/> came down so that the ob&#x2014;
+<lb/>server could not see &amp; they had 
+<lb/> to stop to C's great sorrow 
+<lb/> They seem to have been 
+<lb/> moved backwards &amp; for&#x2014; 
+<lb/> wards in the apparently 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T13:34:21" who="#BarneyDoherty">
+                
+                    Page 684 modified:
+                    <!-- 
+<lb/>4
+<lb/>aimless way that they are 
+<lb/> walked about &amp; as C expresses 
+<lb/> it they "scavenged" 3 positions 
+<lb/> for their battery &amp; were 
+<lb/> not allowed to occupy any 
+<lb/> of them. I am sure the 
+<lb/> work was very arduous 
+<lb/> &amp; the whole thing an en&#x2014; 
+<lb/> acting experience to the 
+<lb/> boy which no doubt added to 
+<lb/> the complete exhaustion 
+<lb/> helped to finish him, he 
+<lb/> wrote from hospital. up 
+<lb/> &amp; dressed on the 9<hi rend="superscript">th</hi> the day 
+<lb/>after he was brought there 
+<lb/> &amp; was very comfortable 
+<lb/> &amp; they were going to have 
+<lb/> a concert that evening 
+<lb/> &amp; he said he was "right 
+<lb/> as rain " &amp; hoped to be sent 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T13:40:43" who="#BarneyDoherty">
+                
+                    Page 685 modified:
+                    <!-- 
+<lb/>5 
+<lb/>back next day he was only 
+<lb/> concerned at being taken a&#x2014; 
+<lb/> way from his battery. He 
+<lb/> has been laying his telephone 
+<lb/> lines. He says their present 
+<lb/> position is quite a good one 
+<lb/> &amp; they have billets in the one 
+<lb/> house left standing &amp; there 
+<lb/>  is a grand work = sleep, they 
+<lb/>are making a splendid "ob&#x2014;
+<lb/> servation park" &amp; he hopes they 
+<lb/> may be left there to use it 
+<lb/> but it is doubtful whether 
+<lb/> they will not be moved on 
+<lb/> I know you like to hear 
+<lb/>of him, so have sent you 
+<lb/>all the particulars. poor 
+<lb/> <unclear>miss</unclear> Baird is weather bound 
+<lb/> here by these awful gales 
+<lb/> She is dangerously seasick 
+<lb/> &amp; it is sad if she is to lose the 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T13:47:09" who="#BarneyDoherty">
+                
+                    Page 686 modified:
+                    <!-- 
+<lb/>6
+<lb/>good of her holiday by a bad 
+<lb/> crossing we have quite lost 
+<lb/> our hearts to her. I think she 
+<lb/> is really happy at finding her&#x2014;
+<lb/> self in a home once more 
+<lb/> She has been over here for five 
+<lb/> years away from her family 
+<lb/> &amp; is often homesick &#x2014; There 
+<lb/> was a wire from May this 
+<lb/> morning to say that Jack
+<lb/> had arrived yesterday, &amp; they 
+<lb/> might perhaps read this 
+<lb/>  tomorrow afternoon. Will 
+<lb/> you dear S. send this on to 
+<lb/> Corris as it takes a long time 
+<lb/> to give Charlie's news &amp; it will 
+<lb/> save me writing it out again 
+<lb/> We are much looking forward 
+<lb/> to having Jack &amp; May with 
+<lb/> us for a bit. The wind has been 
+<lb/> so wild that the trees are nearly 
+<lb/> leafless before they have burned 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T13:47:25" who="#BarneyDoherty">
+                
+                    Page 686 modified:
+                    <!-- 
+<lb/>6
+<lb/>good of her holiday by a bad 
+<lb/> crossing we have quite lost 
+<lb/> our hearts to her. I think she 
+<lb/> is really happy at finding her&#x2014;
+<lb/> self in a home once more 
+<lb/> She has been over here for five 
+<lb/> years away from her family 
+<lb/> &amp; is often homesick &#x2014; There 
+<lb/> was a wire from May this 
+<lb/> morning to say that Jack
+<lb/> had arrived yesterday, &amp; they 
+<lb/> might perhaps read this 
+<lb/>  tomorrow afternoon. Will 
+<lb/> you dear S. send this on to 
+<lb/> Corris as it takes a long time 
+<lb/> to give Charlie's news &amp; it will 
+<lb/> save me writing it out again 
+<lb/> We are much looking forward 
+<lb/> to having Jack &amp; May with 
+<lb/> us for a bit. The wind has been 
+<lb/> so wild that the trees are nearly 
+<lb/> leafless before they have turned 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T13:51:53" who="#BarneyDoherty">
+                
+                    Page 686 modified:
+                    <!-- 
+<lb/>6
+<lb/>good of her holiday by a bad 
+<lb/> crossing we have quite lost 
+<lb/> our hearts to her. I think she 
+<lb/> is really happy at finding her&#x2014;
+<lb/> self in a home once more 
+<lb/> She has been over here for five 
+<lb/> years away from her family 
+<lb/> &amp; is often homesick &#x2014; There 
+<lb/> was a wire from May this 
+<lb/> morning to say that Jack
+<lb/> had arrived yesterday, &amp; they 
+<lb/> might perhaps read this 
+<lb/>  tomorrow afternoon. Will 
+<lb/> you dear S. send this on to 
+<lb/> Corris as it takes a long time 
+<lb/> to give Charlie's news &amp; it will 
+<lb/> save me writing it out again 
+<lb/> We are much looking forward 
+<lb/> to having Jack &amp; May with 
+<lb/> us for a bit. The wind has been 
+<lb/> so wild that the trees are nearly 
+<lb/> leafless before they have turned</p>
+<!~~ Following is from the first page ~~>
+<salute>ever your very
+<lb/>loving</salute>
+<signed>Alice <hi rend="underline">K. Wynne</hi></signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-12T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 682 created using version from <date when="2015-01-30T17:09:23"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 682 removed (version from <date when="2015-01-30T17:09:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 682 removed (version from <date when="2016-01-28T13:24:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 683 created using version from <date when="2015-01-30T19:35:27"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 683 removed (version from <date when="2015-01-30T19:35:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 683 removed (version from <date when="2016-01-28T13:29:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 684 created using version from <date when="2015-01-31T20:42:51"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 684 removed (version from <date when="2015-01-31T20:42:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 684 removed (version from <date when="2016-01-28T13:34:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 685 created using version from <date when="2015-01-31T21:29:54"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 685 removed (version from <date when="2015-01-31T21:29:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 685 removed (version from <date when="2016-01-28T13:40:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 686 created using version from <date when="2015-01-31T22:49:17"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 686 removed (version from <date when="2015-01-31T22:49:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 686 removed (version from <date when="2016-01-28T13:47:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 686 removed (version from <date when="2016-01-28T13:47:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 686 removed (version from <date when="2016-01-28T13:51:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 681 created using version from <date when="2013-09-25T22:42:49"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 681 removed (version from <date when="2013-09-25T22:42:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 681 removed (version from <date when="2016-01-28T13:17:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 682 (version from <date when="2016-02-12T11:33:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 683 added to letter (version from <date when="2016-02-12T11:33:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 684 added to letter (version from <date when="2016-02-12T11:33:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 685 added to letter (version from <date when="2016-02-12T11:34:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 686 added to letter (version from <date when="2016-02-12T11:34:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 681 added to letter (version from <date when="2016-02-12T11:32:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                    Clean tags: Page 681 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                    Clean tags: Page 682 cleaned of 6 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                    Clean tags: Page 683 cleaned of 7 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                    Clean tags: Page 684 cleaned of 9 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                    Clean tags: Page 685 cleaned of 6 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                    Clean tags: Page 686 cleaned of 6 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:31" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:38" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:38" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:47" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_261_img_681" url="4b7d6d952034e610f37c4a3ec39dd799.jpg"/> 
+    
+    <graphic xml:id="L1916_261_img_682" url="bfcb6c348829068df718002ee4758a24.jpg"/> 
+    
+    <graphic xml:id="L1916_261_img_683" url="74efc99ced9d714bb4f5bdc9541ed6b2.jpg"/> 
+    
+    <graphic xml:id="L1916_261_img_684" url="ea2e0f10830d16499a35192d4ad81798.jpg"/> 
+    
+    <graphic xml:id="L1916_261_img_685" url="8da71585482b55c962b5ba2289efbe23.jpg"/> 
+    
+    <graphic xml:id="L1916_261_img_686" url="88537298326f1cc78e999e72fc8e2c34.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="681" facs="#L1916_261_img_681"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><salute>My dearest Sophy,</salute></opener>
+<p>This is a day of quiet so I 
+<lb/>must take advantage of it to write
+<lb/>to you. I am afraid that you 
+<lb/>will feel the sudden change to 
+<lb/>cold that we had last night.</p>
+<p>Albert is I think, better, he
+<lb/>has more intervals of comfort
+<lb/>but cannot get to bed before
+<lb/>about 2 o'clock. Last night at that
+<lb/>hour he had a wretchedly bad
+<lb/>attack &amp; was induced to inhale
+<lb/>an "<unclear>arugl</unclear>" capsule which he likes 
+<lb/>to keep as a refuge when he is
+<lb/>really bad. It relieved him won&#x2014;
+<lb/>derfully &amp; he had the best 
+<lb/>night he has had for some 
+<lb/>weeks. a "delightful sleep". We
+<lb/>had a long letter from Charlie
+<lb/>yesterday as far as we can make 
+<lb/>out he had one nights sleep in
+<lb/>a weeks. Then he was tramping
+        
+    
+
+    
+         
+        <pb n="682" facs="#L1916_261_img_682"/>
+        
+        
+           
+            <lb/>2. 
+<lb/> all day &amp; dead tired &amp; sleepy 
+<lb/> at 9 so he went to bed, there 
+<lb/> was  call up at 10. to <unclear>waken</unclear> 
+<lb/> night duty at the  battery every 
+<lb/> time he sat down he felt he 
+<lb/> was dropping off to sleep so 
+<lb/> walked about till 9 o'clock the 
+<lb/> next morning ( I forgot to say that 
+<lb/> the day before he did the 
+<lb/> 30 miles tramp through trenches 
+<lb/> half had no supper the evening 
+<lb/> before &amp; no breakfast that 
+<lb/> morning!) Then the Captain 
+<lb/> came up &amp; while C. was waiting 
+<lb/> to be relieved he was talking 
+<lb/> to him when suddenly every &#x2014;
+<lb/> thing went round. &amp; the next 
+<lb/> thing he knew he was on 
+<lb/> a stretcher he has no idea 
+<lb/> how he fainted, They 
+<lb/> took him off for a long way 
+<lb/> in a Med X van to hospital
+        
+    
+         
+        <pb n="683" facs="#L1916_261_img_683"/>
+        
+        
+           
+            <lb/>3. 
+<lb/> he was so dead tired he 
+<lb/> slept all the way &amp; is very 
+<lb/> indignant with the Capt for 
+<lb/> sending him to hospital but 
+<lb/> I think it was the one sensible 
+<lb/> thing in the whole show 
+<lb/> it really is irrational to use 
+<lb/> up men in such a way &#x2014;</p> 
+<p>On one day I was left in 
+<lb/> charge of a live battery 
+<lb/> ( he had never seen the guns 
+<lb/> before) &amp; orders came to fire 
+<lb/> on an enemy tramway
+<lb/> but after 5 rounds the mist 
+<lb/> came down so that the ob&#x2014;
+<lb/>server could not see &amp; they had 
+<lb/> to stop to C's great sorrow 
+<lb/> They seem to have been 
+<lb/> moved backwards &amp; for&#x2014; 
+<lb/> wards in the apparently
+        
+    
+         
+        <pb n="684" facs="#L1916_261_img_684"/>
+        
+        
+           
+            <lb/>4
+<lb/>aimless way that they are 
+<lb/> walked about &amp; as C expresses 
+<lb/> it they "scavenged" 3 positions 
+<lb/> for their battery &amp; were 
+<lb/> not allowed to occupy any 
+<lb/> of them. I am sure the 
+<lb/> work was very arduous 
+<lb/> &amp; the whole thing an en&#x2014; 
+<lb/> acting experience to the 
+<lb/> boy which no doubt added to 
+<lb/> the complete exhaustion 
+<lb/> helped to finish him, he 
+<lb/> wrote from hospital. up 
+<lb/> &amp; dressed on the 9<hi rend="superscript">th</hi> the day 
+<lb/>after he was brought there 
+<lb/> &amp; was very comfortable 
+<lb/> &amp; they were going to have 
+<lb/> a concert that evening 
+<lb/> &amp; he said he was "right 
+<lb/> as rain " &amp; hoped to be sent
+        
+    
+         
+        <pb n="685" facs="#L1916_261_img_685"/>
+        
+        
+           
+            <lb/>5 
+<lb/>back next day he was only 
+<lb/> concerned at being taken a&#x2014; 
+<lb/> way from his battery. He 
+<lb/> has been laying his telephone 
+<lb/> lines. He says their present 
+<lb/> position is quite a good one 
+<lb/> &amp; they have billets in the one 
+<lb/> house left standing &amp; there 
+<lb/>  is a grand work = sleep, they 
+<lb/>are making a splendid "ob&#x2014;
+<lb/> servation park" &amp; he hopes they 
+<lb/> may be left there to use it 
+<lb/> but it is doubtful whether 
+<lb/> they will not be moved on 
+<lb/> I know you like to hear 
+<lb/>of him, so have sent you 
+<lb/>all the particulars. poor 
+<lb/> <unclear>miss</unclear> Baird is weather bound 
+<lb/> here by these awful gales 
+<lb/> She is dangerously seasick 
+<lb/> &amp; it is sad if she is to lose the
+        
+    
+         
+        <pb n="686" facs="#L1916_261_img_686"/>
+        
+        
+           
+            <lb/>6
+<lb/>good of her holiday by a bad 
+<lb/> crossing we have quite lost 
+<lb/> our hearts to her. I think she 
+<lb/> is really happy at finding her&#x2014;
+<lb/> self in a home once more 
+<lb/> She has been over here for five 
+<lb/> years away from her family 
+<lb/> &amp; is often homesick &#x2014; There 
+<lb/> was a wire from May this 
+<lb/> morning to say that Jack
+<lb/> had arrived yesterday, &amp; they 
+<lb/> might perhaps read this 
+<lb/>  tomorrow afternoon. Will 
+<lb/> you dear S. send this on to 
+<lb/> Corris as it takes a long time 
+<lb/> to give Charlie's news &amp; it will 
+<lb/> save me writing it out again 
+<lb/> We are much looking forward 
+<lb/> to having Jack &amp; May with 
+<lb/> us for a bit. The wind has been 
+<lb/> so wild that the trees are nearly 
+<lb/> leafless before they have turned</p>
+<!-- Following is from the first page -->
+<closer><salute>ever your very
+<lb/>loving</salute>
+<signed>Alice <hi rend="underline">K. Wynne</hi></signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

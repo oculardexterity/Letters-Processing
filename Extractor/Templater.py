@@ -108,8 +108,8 @@ def run_templater(inputFile, outputDir):#, templateFolder):
 
 	
 	
-		print(item["DocCollection"])
-		print(item["Document_Collection"],"~", item["Document_Number"])
+		#print(item["DocCollection"])
+		#print(item["Document_Collection"],"~", item["Document_Number"])
 	
 
 

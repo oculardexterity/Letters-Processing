@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2362">
+    <fileDesc>
+            <titleStmt>
+                <title>Postcard from Lieutenant Kenneth Power to Mr Cyril Power SJ, 9 May 1916</title>
+                
+                <author>Kenneth Power</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="SKerr">SKerr</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Irishjesuitarchives">Irishjesuitarchives</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2362</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>Postcard from Lieutenant Kenneth Power, Prisoner of War at Gütersloh prison camp, Germany to his brother Mr Cyril Power SJ (1890-1980), who was a Jesuit scholastic studying philosophy at Stonyhurst, Lancashire, England.  The Gütersloh prison camp postcard displays  German censor marks. There is a faint boxed "Eingang 9.5.16" cachet, which means the card entered the German censors' office on 9th May 1916 (where it would stay for a period of ten days ‑ to render useless any secret information sent by the prisoner). The second mark, a boxed "F.a." stands for 'Fristgemass abgefertigt', which means 'Dispatched within stipulated time'. The ringed cachet is the official 'Gutersloh Prison Camp' hand-stamp. The postmark (at top right) shows the card entered the postal system on 19th May 1916, which was exactly ten days after it was handed into the camp censors' office. On the reverse, there is a faint 'LONDON PAID' receiving mark in red - dated 30th May 1916. </p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Lieutenant Kenneth Power R.F.A. was taken prisoner by the Germans near Hulluch when he was acting as a observing officer with the infantry while stationed in a quarry. Kenneth and Cyril Power were born in Dublin.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Irish Jesuit Archives -->
+                        
+                        <repository ref="#IJA">Irish Jesuit Archives</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: IE IJA/J26/12
+                             
+                        -->
+                            
+                                <collection type='public'>IE IJA/J26/12</collection>
+                            
+                            
+                        <idno>IE IJA/J26/12</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <persName ref="MISSING">Cyril Power</persName>
+                    
+                
+                
+                
+                    
+                    <placeName  ref="MISSING">Stonyhurst College SJ, Lancashire, England</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">Kenneth Power</persName>
+                    
+                
+                
+                 
+                    
+                    <placeName  ref="MISSING">Gütersloh, Germany</placeName>
+                    
+                
+                    
+                    <date when="1916-05-09">9 May 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1980</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-09-14T10:41:55" who="#Irishjesuitarchives">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-09-14T10:41:55" who="#Tbrosnan">
+                
+                    Page 6232 modified:
+                    <!-- 
+<foreign>Allemagne. Germany.<lb/>Offizier- Kriegsgefangenenlager Gutersloh</foreign> <salute>My Dear Cyril</salute><lb/><p>Many thanks for all your letters. I find lb/>it very hard to write as I have only 4<lb/>postcards a month &amp; have to thank<lb/> people for parcels. I suppose you like<lb/> Ston<del>e</del>yhurst, it seems to me you will<lb/>not go to Cambridge for 3 years yet.<lb/>The time here of course goes <sic>slowley</sic><lb/>but all the same passes which is the <lb/>great thing.</p> <salute>Love Ken</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-14T10:49:32" who="#Irishjesuitarchives">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-09-14T10:49:32" who="#Tbrosnan">
+                
+                    Page 6233 modified:
+                    <!-- 
+<foreign>Gutersloh,</foreign> <date>9 May 1916</date><lb/>Nom de <foreign>l'expediteur:</foreign><lb/>Lt Ken Power<lb/><address>Haus B, 55</address><lb/><foreign><hi rend="underline">Kriegsgefangenensendinig</hi></foreign> <lb/> <address>Rev C J Power, Ston<del>e</del>yhurst College, SJ Stonyhurst Lancs England
+</address><lb/>
+<foreign>Lieu de destination:<</foreign>lb/><foreign>Arrondissement:<</foreign>lb/><foreign>Departement</foreign> <foreign>(France):<</foreign>lb/><foreign>Province</foreign> <foreign>(Belgique</foreign>):<lb/>Pays: 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-14T10:51:43" who="#Tbrosnan">
+                
+                    Page 6233 modified:
+                    <!-- 
+<foreign>Gutersloh,</foreign> <date>9 May 1916</date><lb/>Nom de <foreign>l'expediteur:</foreign><lb/>Lt Ken Power<lb/><address>Haus B, 55</address><lb/>
+<add><!~~ Date Stamped ~~> Gutersloh 19.5.16 7-8N</add><foreign><hi rend="underline">Kriegsgefangenensendinig</hi></foreign> <lb/> <address>Rev C J Power, Ston<del>e</del>yhurst College, SJ Stonyhurst Lancs England
+</address><lb/>
+<foreign>Lieu de destination:<</foreign>lb/><foreign>Arrondissement:<</foreign>lb/><foreign>Departement</foreign> <foreign>(France):<</foreign>lb/><foreign>Province</foreign> <foreign>(Belgique</foreign>):<lb/>Pays: 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-07T10:39:14" who="#Irishjesuitarchives">
+                
+                    Page 6233 modified:
+                    <!-- 
+<foreign>Gutersloh,</foreign> <date>9 May 1916</date><lb/>Nom de <foreign>l'expediteur:</foreign><lb/>Lt Ken Power<lb/><address>Haus B, 55</address><lb/>
+<add><!~~ Date Stamped ~~> Gutersloh 19.5.16 7-8N</add><foreign><hi rend="underline">Kriegsgefangenensendinig</hi></foreign> <lb/> <address>Rev C J Power SJ, Ston<del>e</del>yhurst College, SJ Stonyhurst Lancs England
+</address><lb/>
+<foreign>Lieu de destination:<</foreign>lb/><foreign>Arrondissement:<</foreign>lb/><foreign>Departement</foreign> <foreign>(France):<</foreign>lb/><foreign>Province</foreign> <foreign>(Belgique</foreign>):<lb/>Pays: 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T10:56:11" who="#SKerr">
+                
+                    Page 6232 modified:
+                    <!-- 
+<foreign>Allemagne.</foreign>
+<lb/><foreign>Offizier-Kriegsgefangenenlager Gütersloh.</foreign> 
+<lb/>Germany.
+<salute>My Dear Cyril</salute>
+<p>Many thanks for all your letters. I find 
+<lb/>it very hard to write as I have only 4
+<lb/>postcards a month &amp; have to thank
+<lb/> people for parcels. I suppose you like
+<lb/> Ston<del>e</del>yhurst, it seems to me you will
+<lb/>not go to Cambridge for 3 years yet.
+<lb/>The time here of course goes <sic>slowley</sic>
+<lb/>but all the same passes which is the 
+<lb/>great thing.</p> 
+<salute>Love Ken</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T11:03:12" who="#SKerr">
+                
+                    Page 6233 modified:
+                    <!-- 
+<foreign>Gutersloh,</foreign> <date>9 May 1916</date>
+<lb/><foreign>Nom de l'expediteur:</foreign>
+<lb/>Lt Ken Power
+<lb/><address>Haus B, 55</address>
+<lb/>
+<foreign><hi rend="underline">Kriegsgefangenensendung</hi></foreign> 
+<lb/><address> Rev C J Power SJ,
+Ston<del>e</del>yhurst College, SJ Stonyhurst Lancs England</address>
+
+<foreign>Lieu de destination:</foreign>
+<lb/><foreign>Arrondissement:</foreign>
+<lb/><foreign>Departement (France):</foreign>
+<lb/><foreign>Province(Belgique)</foreign>:
+<lb/><foreign>Pays:</foreign> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T15:35:41" who="#NR">
+                
+                    Page 6232 modified:
+                    <!-- 
+<foreign>Allemagne.</foreign>
+<lb/><foreign>Offizier-Kriegsgefangenenlager Gütersloh.</foreign> 
+<lb/>Germany.
+<salute>My Dear Cyril</salute>
+<p>Many thanks for all your letters. I find 
+<lb/>it very hard to write as I have only 4
+<lb/>postcards a month &amp; have to thank
+<lb/> people for parcels. I suppose you like
+<lb/> Ston<del>e</del>yhurst, it seems to me you will
+<lb/>not go to Cambridge for 3 years yet.
+<lb/>The time here of course goes <sic>slowley</sic>
+<lb/>but all the same passes which is the 
+<lb/>great thing.</p> 
+<salute>Love <signed>Ken</signed></salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T15:36:51" who="#NR">
+                
+                    Page 6233 modified:
+                    <!-- 
+<foreign>Gutersloh,</foreign> <date>9 May 1916</date>
+<lb/><foreign>Nom de l'expediteur:</foreign>
+<lb/>Lt Ken Power
+<lb/><address>Haus B, 55</address>
+<foreign><hi rend="underline">Kriegsgefangenensendung</hi></foreign> 
+<address> Rev C J Power SJ,
+Ston<del>e</del>yhurst College, SJ Stonyhurst Lancs England</address>
+
+<foreign>Lieu de destination:</foreign>
+<lb/><foreign>Arrondissement:</foreign>
+<lb/><foreign>Departement (France):</foreign>
+<lb/><foreign>Province(Belgique)</foreign>:
+<lb/><foreign>Pays:</foreign> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6232 created using version from <date when="2015-09-14T10:41:55"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6232 removed (version from <date when="2015-09-14T10:41:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6232 removed (version from <date when="2016-01-19T10:56:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6232 removed (version from <date when="2016-01-21T15:35:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6233 created using version from <date when="2015-09-14T10:49:32"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6233 removed (version from <date when="2015-09-14T10:49:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6233 removed (version from <date when="2015-09-14T10:51:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6233 removed (version from <date when="2016-01-07T10:39:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6233 removed (version from <date when="2016-01-19T11:03:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6233 removed (version from <date when="2016-01-21T15:36:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 6232 (version from <date when="2016-01-21T15:35:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6233 added to letter (version from <date when="2016-01-21T15:36:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 6232 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 6233 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:28" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:32" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:45" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:45" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2362_img_6232" url="fec9cc5f69cde86b53a42824f56aca7c.jpg"/> 
+    
+    <graphic xml:id="L1916_2362_img_6233" url="9fa4326d6dac13a8878820f87eefb121.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+     
+        <!-- Type is postcard -->
+         
+        <pb n="6232" facs="#L1916_2362_img_6232"/>
+            
+        <text type="postcard" decls="#corresp1">
+            <body>
+                
+                <div type="message">
+                    <foreign>Allemagne.</foreign>
+<lb/><foreign>Offizier-Kriegsgefangenenlager Gütersloh.</foreign> 
+<lb/>Germany.
+<salute>My Dear Cyril</salute>
+<p>Many thanks for all your letters. I find 
+<lb/>it very hard to write as I have only 4
+<lb/>postcards a month &amp; have to thank
+<lb/> people for parcels. I suppose you like
+<lb/> Ston<del>e</del>yhurst, it seems to me you will
+<lb/>not go to Cambridge for 3 years yet.
+<lb/>The time here of course goes <sic>slowley</sic>
+<lb/>but all the same passes which is the 
+<lb/>great thing.</p> 
+<salute>Love <signed>Ken</signed></salute>
+                </div>
+                
+    
+        
+             <pb n="6233" facs="#L1916_2362_img_6233"/>
+                    
+                    <div type="message">
+                        <foreign>Gutersloh,</foreign> <date>9 May 1916</date>
+<lb/><foreign>Nom de l'expediteur:</foreign>
+<lb/>Lt Ken Power
+<lb/><address>Haus B, 55</address>
+<foreign><hi rend="underline">Kriegsgefangenensendung</hi></foreign> 
+<address> Rev C J Power SJ,
+Ston<del>e</del>yhurst College, SJ Stonyhurst Lancs England</address>
+
+<foreign>Lieu de destination:</foreign>
+<lb/><foreign>Arrondissement:</foreign>
+<lb/><foreign>Departement (France):</foreign>
+<lb/><foreign>Province(Belgique)</foreign>:
+<lb/><foreign>Pays:</foreign>
+                    </div>
+                    
+        
+            </body>
+        <text>
+
+    
+        
+    
+        
+    
+
+
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

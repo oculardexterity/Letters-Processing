@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_447">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Thomas J. Cullen, 8 July 1916</title>
+                
+                <author>Thomas J. Cullen</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="BH">Brian Hughes</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="HelenR">HelenR</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BarneyDoherty">Barney Doherty</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_447</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>The letter is from Thomas J. Cullen, honorary secretary of the Irish National Aid Association. The letter refers to the printing of postcards that would be sold to raise funds. It also requests strong envelopes and copies of a photograph of Patrick and William Pearse, executed after the Rising.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>The association was founded after the Rising to provide relief to the dependents of those who were executed, killed in the fighting or had lost their employment. It later merged with the Irish Volunteer Dependents' Fund to form the Irish National Aid and Volunteer Dependents' Fund. </p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Military Archives of Ireland -->
+                        
+                        <repository ref="#MAI">Military Archives of Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Bureau of Military History Contemporary Documents, Joseph Michael Stanley Collection; BMH CD/4/3/6
+                             
+                        -->
+                            
+                                <collection type='public'>Bureau of Military History Contemporary Documents, Joseph Michael Stanley Collection</collection>
+                            
+                            
+                        <idno>BMH CD/4/3/6</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="MISSING">MISSING</persName>
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Thomas J. Cullen -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF RECIPIENT IS CORRECT --></VERIFY>
+                        
+                        <persName ref="#Cullen_T">Thomas J Cullen</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    Upper Rutland Street 
+                    Dublin
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#CentralDublin">Irish National Aid Association Offices, Exchequer Street, Dublin</placeName>
+                    
+                
+                    
+                    <date when="1916-07-08">8 July 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2013-12-14T20:17:04" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-12-14T20:17:04" who="#HelenR">
+                
+                    Page 1231 modified:
+                    <!-- 
+Dear Sirs,
+
+Please print 2000 x [receipt] postcards according to instructions given to your representative here today. Please let me have a hundred or so at least by 5 oc on Monday afternoon. The remainder during the week, on Tuesday if possible.
+
+Also 500 strong envelopes to hold each, 12 copies of the Pearse Brothers photos. 100 of these to be delivered on Monday.
+
+Yours truly,
+Thomas J. Cullen
+Hon. Sec. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-12-30T13:41:54" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-12-30T13:41:54" who="#BH">
+                
+                    Page 1232 modified:
+                    <!-- 
+Letter from Thomas J. Culllen
+Irish National Aid Association
+8th July 1916 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-28T10:36:15" who="#Comber">
+                
+                    Page 1231 modified:
+                    <!-- 
+<foreign><address>COMHLUCHT CONGANTA NA nGAODHAL<lb/></address></foreign>
+<address>IRISH NATIONAL AID ASSOCIATION<lb/></address>
+<address>Offices - GRAND CENTRAL HALLS,<lb/> 10 EXCHEQUER STREET,<lb/> DUBLIN,</address> <date>8 July 1916</date> 
+<salute>Dear Sirs,</salute>
+<p>Please print 2000 x <add>receipt</add> postcards according to instructions<lb/> given to your representative here today. Please let<lb/> me have a hundred or so at <hi rend="underline">least</hi> by 5 <hi rend="superscript">oc</hi> on<lb/> Monday afternoon. The remainder during the week, on Tuesday if possible.<lb/></p>
+<p>Also 500 strong envelopes to hold each, 12 copies<lb/> of the Pearse Brothers photo. 100 of these to be<lb/> delivered on Monday.<lb/>
+</p>
+<salute>Yours truly,
+Thomas J. Cullen
+Hon. Sec</salute>
+<add><gap/> The Gaelic Press<lb/> 30 Liffey St<lb/></add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-01-28T10:37:53" who="#Comber">
+                
+                    Page 1232 modified:
+                    <!-- 
+Letter from Thomas J. Culllen<lb/> Irish National Aid Association. 
+<date>8<hi rend="superscript">th</hi> July 1916</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T17:03:46" who="#BarneyDoherty">
+                
+                    Page 1231 modified:
+                    <!-- 
+<foreign><address>COMHLUCHT CONGANTA NA nGAODHAL</address></foreign>
+<address>IRISH NATIONAL AID ASSOCIATION
+<lb/>Offices &#x2014; GRAND CENTRAL HALLS,
+<lb/> 10 EXCHEQUER STREET,
+<lb/> DUBLIN,</address> 
+<date>8 July 1916</date> 
+<salute>Dear Sirs,</salute>
+<p>Please print 2000 x <add>receipt</add> postcards according to instructions
+<lb/> given to your representative here today. Please let
+<lb/> me have a hundred or so at <hi rend="underline">least</hi> by 5 <hi rend="superscript">oc</hi> on
+<lb/> Monday afternoon. The remainder during the week, on Tuesday if possible.</p>
+<p>Also 500 strong envelopes to hold each, 12 copies
+<lb/> of the Pearse Brothers photo. 100 of these to be
+<lb/> delivered on Monday.</p>
+<salute>Yours truly,</salute>
+</signed>Thomas J. Cullen</signed>
+<lb/>Hon. Sec
+<add><gap/> The Gaelic Press
+<lb/> <hi rend="underline">30 Liffey St</hi></add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-14T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-14T15:51:29" who="#NR">
+                
+                    Page 1231 modified:
+                    <!-- 
+<address><foreign>COMHLUCHT CONGANTA NA nGAODHAL</foreign></address>
+<address>IRISH NATIONAL AID ASSOCIATION
+<lb/>Offices &#x2014; GRAND CENTRAL HALLS,
+<lb/> 10 EXCHEQUER STREET,
+<lb/> DUBLIN,</address> 
+<date>8 July 1916</date> 
+<salute>Dear Sirs,</salute>
+<p>Please print 2000 x <add>receipt</add> postcards according to instructions
+<lb/> given to your representative here today. Please let
+<lb/> me have a hundred or so at <hi rend="underline">least</hi> by 5 <hi rend="superscript">oc</hi> on
+<lb/> Monday afternoon. The remainder during the week, on Tuesday if possible.</p>
+<p>Also 500 strong envelopes to hold each, 12 copies
+<lb/> of the Pearse Brothers photo. 100 of these to be
+<lb/> delivered on Monday.</p>
+<salute>Yours truly,</salute>
+</signed>Thomas J. Cullen</signed>
+<lb/>Hon. Sec
+<add><gap/> The Gaelic Press
+<lb/> <hi rend="underline">30 Liffey St</hi></add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-14T15:52:14" who="#NR">
+                
+                    Page 1232 modified:
+                    <!-- 
+Letter from Thomas J. Culllen
+<lb/> Irish National Aid Association. 
+<date>8<hi rend="superscript">th</hi> July 1916</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1231 created using version from <date when="2013-12-14T20:17:04"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1231 removed (version from <date when="2013-12-14T20:17:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1231 removed (version from <date when="2015-01-28T10:36:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1231 removed (version from <date when="2016-01-08T17:03:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1231 removed (version from <date when="2016-01-14T15:51:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1232 created using version from <date when="2013-12-30T13:41:54"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1232 removed (version from <date when="2013-12-30T13:41:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1232 removed (version from <date when="2015-01-28T10:37:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:42" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1232 removed (version from <date when="2016-01-14T15:52:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 1231 (version from <date when="2016-01-14T15:51:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 1232 added to letter (version from <date when="2016-01-14T15:52:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 1232 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 1231 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:28" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:32" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:46" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:47" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_447_img_1231" url="b7bd819922f2058eb1b64c5ddbc6af1d.jpg"/> 
+    
+    <graphic xml:id="L1916_447_img_1232" url="390b978d489fec9a0cf9c8d5ccd0f90c.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="1231" facs="#L1916_447_img_1231"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine><foreign>COMHLUCHT CONGANTA NA nGAODHAL</foreign></address>
+<address>IRISH NATIONAL AID ASSOCIATION</addrLine>
+<addrLine>Offices &#x2014; GRAND CENTRAL HALLS,</addrLine>
+<addrLine>10 EXCHEQUER STREET,</addrLine>
+<addrLine>DUBLIN,</addrLine></address> 
+<dateline><date>8 July 1916</date></dateline> 
+<salute>Dear Sirs,</salute></opener>
+<p>Please print 2000 x <add>receipt</add> postcards according to instructions
+<lb/> given to your representative here today. Please let
+<lb/> me have a hundred or so at <hi rend="underline">least</hi> by 5 <hi rend="superscript">oc</hi> on
+<lb/> Monday afternoon. The remainder during the week, on Tuesday if possible.</p>
+<p>Also 500 strong envelopes to hold each, 12 copies
+<lb/> of the Pearse Brothers photo. 100 of these to be
+<lb/> delivered on Monday.</p>
+<salute>Yours truly,</salute>
+</signed>Thomas J. Cullen</signed>
+<lb/>Hon. Sec
+<add><gap/> The Gaelic Press
+<lb/> <hi rend="underline">30 Liffey St</hi></add>
+        
+    
+
+    
+         
+        <pb n="1232" facs="#L1916_447_img_1232"/>
+        
+        
+           
+            Letter from Thomas J. Culllen
+<lb/> Irish National Aid Association. 
+<date>8<hi rend="superscript">th</hi> July 1916</date>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

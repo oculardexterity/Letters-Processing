@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2282">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Sir Wilfrid Spender to his wife Lady Lillian Spender, 30 June 1916</title>
+                
+                <author>Wilfrid Spender</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Delmacarroll">Delmacarroll</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Johnchambers81">Johnchambers81</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tnoonan1111">Tnoonan11 11</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2282</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from sir Wilfrid Bliss Spender (1876-1960) to his wife, Lady Lillian Spender, née Dean, (1880-1968). This letter mainly consists of Wilfrid's declarations of affection for Lillian, as he alludes to the 'pink paw marks' he looks forward to finding on his letters. This refers to Wilfrid's pet-name for Lillian, 'P.R.', which appears to stand for 'Pink Rabbit'. His own pet-name is 'B.W.', or 'Brown Wolf'. Wilfrid also takes pleasure in the idea of the censor reading his words to Lillian. He finishes the letter with the news that Germany is willing to give up Alsace-Lorraine and an indemnity to France as part of a possible peace, but states that he is not optimistic.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Sir Wilfrid Spender (1876 - 1960) was a member of the British Army until 1913 when controversy surrounding his signature of the Ulster Solemn League and Covenant resulted in his resignation. Spender was called up for military service in 1914 and from 1915 served in the 36th (Ulster) Division. Throughout the war, Spender wrote a collection of letters to his wife Lady Lillian Spender. The letters date mainly from 1915 to 1918, when Sir Wilfrid was serving in France. The letters concern politics, the Irish question, personal life, and Wilfrid's experience of the Great War. Lady Lillian served in the Ulster Volunteer Nursing Corps during the war, and was an organiser of the Ulster Division Comforts Fund.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Lady Spender&#39;s Correspondence, D1633/1/1/330
+                             
+                        -->
+                            
+                                <collection type='public'>Lady Spender's Correspondence</collection>
+                            
+                            
+                        <idno>D1633/1/1/330</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Lillian Spender -->
+                        
+                        <persName ref="#Spender_L">Lillian Spender</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Wilfrid Spender -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF RECIPIENT IS CORRECT --></VERIFY>
+                        
+                        <persName ref="#Spender_W_B">Wilfrid Bliss Spender</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    France 
+                    France
+                    France
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#France">France</placeName>
+                    
+                
+                    
+                    <date when="1916-06-30">30 June 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1960</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                            <item n="tag">Love letters</item>
+                            
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-28T13:36:59" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-28T13:36:59" who="#Delmacarroll">
+                
+                    Page 6324 modified:
+                    <!-- 
+D1633/1/1330<lb/>
+
+<date>30 June</date><lb/>
+
+<salute>My P R</salute><lb/>
+
+<p>Only a scrap with my <unclear>folks</unclear> letter <lb/>
+as I am soon bound for my rabbit &#x2014;<lb/>
+protected hole where I intend to pass the <lb/>
+night &amp; to remain part of tomorrow.<lb/></p>
+
+<p>It is uncertain where I shall be tomorrow<lb/>
+evening but I am fairly certain not to<lb/>
+be able to write for a couple of days now<lb/></p>
+
+It was a great joy to get 4 letters<lb/>
+<hi rend="underline">of course</hi> rather a disappointment that<lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-28T13:43:38" who="#Delmacarroll">
+                
+                    Page 6324 modified:
+                    <!-- 
+D1633/1/1330<lb/>
+
+<date>30 June</date><lb/>
+
+<salute>My P R</salute><lb/>
+
+<p>Only a scrap with my <unclear>folks</unclear> letter <lb/>
+as I am soon bound for my rabbit &#x2014;<lb/>
+protected hole where I intend to pass the <lb/>
+night &amp; to remain part of tomorrow.<lb/></p>
+
+<p>It is uncertain where I shall be tomorrow<lb/>
+evening but I am fairly certain not to<lb/>
+be able to write for a couple of days now<lb/></p>
+
+<p>It was a great joy to get 4 letters<lb/>
+<hi rend="underline">of course</hi> rather a disappointment that<lb/>
+<gap/> <gap/> pink paw marks!  I think of you now<lb/>
+poor p r with <gap/> <gap/> &amp; do hope you<lb/>
+won't get a fearful head before you move<lb/>
+nor be tired out by the move.  I agree that<lb/>
+your partner is having a very easy time in<lb/>
+the move.  I hope she doesn't let you the maid<lb/>
+of all work.  Most kind of Uncle Gay give him
+<lb/>
+
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-28T13:46:44" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-28T13:46:44" who="#Delmacarroll">
+                
+                    Page 6325 modified:
+                    <!-- 
+my warm thank. Terrific <gap/> almost<lb/>
+hols for the <gap/> <gap/> !  All the same when<lb/>
+the p r is taking a little relaxation  the b w wishes<lb/>
+her to do it comfortably. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-28T13:51:05" who="#Delmacarroll">
+                
+                    Page 6325 modified:
+                    <!-- 
+my warm thank. Terrific <gap/> almost<lb/>
+hols for the <gap/> <gap/> !  All the same when<lb/>
+the p r is taking a little relaxation  the b w wishes<lb/>
+her to do it comfortably.   Great growls at next<lb/>
+page in this letter.  The p r 's <gap/> imagination<lb/>
+would have pink wolf pawmarks about if it<lb/>
+were possible.  You may well blush at the<lb/>
+censor reading this but I am not responsible<lb/>
+What a pity Mr <unclear>Bain</unclear> dosen't now censor<lb/>
+your letters.<lb/></p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-28T13:53:59" who="#Delmacarroll">
+                
+                    Page 6325 modified:
+                    <!-- 
+my warm thank. Terrific <gap/> almost<lb/>
+hols for the <gap/> <gap/> !  All the same when<lb/>
+the p r is taking a little relaxation  the b w wishes<lb/>
+her to do it comfortably.   Great growls at next<lb/>
+page in this letter.  The p r 's <gap/> imagination<lb/>
+would have pink wolf pawmarks about if it<lb/>
+were possible.  You may well blush at the<lb/>
+censor reading this but I am not responsible<lb/>
+What a pity Mr <unclear>Bain</unclear> dosen't now censor<lb/>
+your letters.<lb/></p>
+
+<p>All kinds of optimistic reports about<lb/>
+including that Germany has offered Alsace
+Lorraine &amp; an indemnity to France!  Next<lb/>
+she will be offering Hamburg to England in a 
+few days or something equally wild <hi rend="underline">if</hi> we<lb/>
+have any success at all.  I don't like optimistism<lb/>
+now.<lb/></p>
+
+<salute>Your b w</salute> <lb/>
+W B Spender<lb/>
+
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T15:57:57" who="#Johnchambers81">
+                
+                    Page 6324 modified:
+                    <!-- 
+<date>30 June</date>
+
+<salute>My P R</salute>
+
+<p>Only a scrap with my <unclear>folks</unclear> letter
+<lb/>as I am soon bound for my rabbit &#x2014;
+<lb/>protected hole where I intend to pass the 
+<lb/>night &amp; to remain part of tomorrow.</p>
+
+<p>It is uncertain where I shall be tomorrow
+<lb/>evening but I am fairly certain not to
+<lb/>be able to write for a couple of days now</p>
+
+<p>It was a great joy to get 4 letters
+<lb/><hi rend="underline">of course</hi> rather a disappointment that
+<lb/><gap/> <gap/> pink paw marks!  I think of you now
+<lb/>poor p r with <gap/> <gap/> &amp; do hope you
+<lb/>won't get a fearful head before you move
+<lb/>nor be tired out by the move.  I agree that
+<lb/>your partner is having a very easy time in
+<lb/>the move.  I hope she doesn't let you be the maid
+<lb/>of all work.  Most kind of Uncle Gay give him 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T16:13:54" who="#Johnchambers81">
+                
+                    Page 6324 modified:
+                    <!-- 
+<date>30 June</date>
+
+<salute>My P R</salute>
+
+<p>Only a scrap with my <unclear>folks</unclear> letter
+<lb/>as I am soon bound for my rabbit &#x2014;
+<lb/>protected hole where I intend to pass the 
+<lb/>night &amp; to remain part of tomorrow.</p>
+
+<p>It is uncertain where I shall be tomorrow
+<lb/>evening but I am fairly certain not to
+<lb/>be able to write for a couple of days now</p>
+
+<p>It was a great joy to get 4 letters
+<lb/><hi rend="underline">of course</hi> rather a disappointment that
+<lb/>there were pink paw marks!  I think of you now
+<lb/>poor p r with <gap/> <gap/> &amp; do hope you
+<lb/>won't get a fearful head before you move
+<lb/>nor be tired out by the move.  I agree that
+<lb/>your partner is having a very easy time in
+<lb/>the move.  I hope she doesn't let you be the maid
+<lb/>of all work.  Most kind of Uncle Gay give him 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T16:19:50" who="#Johnchambers81">
+                
+                    Page 6324 modified:
+                    <!-- 
+<date>30 June</date>
+
+<salute>My P R</salute>
+
+<p>Only a scrap with my <unclear>folks</unclear> letter
+<lb/>as I am soon bound for my rabbit &#x2014;
+<lb/>protected hole where I intend to pass the 
+<lb/>night &amp; to remain part of tomorrow.</p>
+
+<p>It is uncertain where I shall be tomorrow
+<lb/>evening but I am fairly certain not to
+<lb/>be able to write for a couple of days now</p>
+
+<p>It was a great joy to get 4 letters
+<lb/><hi rend="underline">of course</hi> rather a disappointment that
+<lb/>there were pink paw marks!  I think of you now
+<lb/>poor p r with <unclear>Mr V</unclear> &amp; do hope you
+<lb/>won't get a fearful head before you move
+<lb/>nor be tired out by the move.  I agree that
+<lb/>your partner is having a very easy time in
+<lb/>the move.  I hope she doesn't let you be the maid
+<lb/>of all work.  Most kind of Uncle Gay give him 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T16:29:21" who="#Johnchambers81">
+                
+                    Page 6325 modified:
+                    <!-- 
+my warm thank. Terrific <gap/> almost<lb/>
+hols for the <unclear>pit mates</unclear> !  All the same when<lb/>
+the p r is taking a little relaxation  the b w wishes<lb/>
+her to do it comfortably.   Great growls at next<lb/>
+page in this letter.  The p r 's <unclear>white</unclear> imagination<lb/>
+would have pink wolf pawmarks about if it<lb/>
+were possible.  You may well blush at the<lb/>
+censor reading this but I am not responsible<lb/>
+What a pity Mr Bain doesn't now censor<lb/>
+your letters.<lb/></p>
+
+<p>All kinds of optimistic reports about<lb/>
+including that Germany has offered Alsace
+Lorraine &amp; an indemnity to France!  Next<lb/>
+she will be offering Hamburg to England in a 
+few days or something equally wild <hi rend="underline">if</hi> we<lb/>
+have any success at all.  I don't like optimistism<lb/>
+now.<lb/></p>
+
+<salute>Your b w</salute> <lb/>
+<signed>W B Spender</signed>
+
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T16:31:45" who="#Johnchambers81">
+                
+                    Page 6325 modified:
+                    <!-- 
+my warm thanks. Terrific <gap/> almost<lb/>
+hols for the <unclear>pit mates</unclear> !  All the same when<lb/>
+the p r is taking a little relaxation  the b w wishes<lb/>
+her to do it comfortably.   Great growls at next<lb/>
+page in this letter.  The p r 's <unclear>white</unclear> imagination<lb/>
+would have pink wolf pawmarks about if it<lb/>
+were possible.  You may well blush at the<lb/>
+censor reading this but I am not responsible<lb/>
+What a pity Mr Bain doesn't now censor<lb/>
+your letters.<lb/></p>
+
+<p>All kinds of optimistic reports about<lb/>
+including that Germany has offered Alsace
+Lorraine &amp; an indemnity to France!  Next<lb/>
+she will be offering Hamburg to England in a 
+few days or something equally wild <hi rend="underline">if</hi> we<lb/>
+have any success at all.  I don't like optimistism<lb/>
+now.<lb/></p>
+
+<salute>Your b w</salute> <lb/>
+<signed>W B Spender</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T16:32:28" who="#Johnchambers81">
+                
+                    Page 6325 modified:
+                    <!-- 
+my warm thanks. Terrific <unclear>glaring</unclear> almost<lb/>
+hols for the <unclear>pit mates</unclear> !  All the same when<lb/>
+the p r is taking a little relaxation  the b w wishes<lb/>
+her to do it comfortably.   Great growls at next<lb/>
+page in this letter.  The p r 's <unclear>white</unclear> imagination<lb/>
+would have pink wolf pawmarks about if it<lb/>
+were possible.  You may well blush at the<lb/>
+censor reading this but I am not responsible<lb/>
+What a pity Mr Bain doesn't now censor<lb/>
+your letters.<lb/></p>
+
+<p>All kinds of optimistic reports about<lb/>
+including that Germany has offered Alsace
+Lorraine &amp; an indemnity to France!  Next<lb/>
+she will be offering Hamburg to England in a 
+few days or something equally wild <hi rend="underline">if</hi> we<lb/>
+have any success at all.  I don't like optimistism<lb/>
+now.<lb/></p>
+
+<salute>Your b w</salute> <lb/>
+<signed>W B Spender</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T15:58:43" who="#NR">
+                
+                    Page 6325 modified:
+                    <!-- 
+<lb/>my warm thanks. Terrific <unclear>glaring</unclear> almost<lb/>
+hols for the <unclear>pit mates</unclear> !  All the same when<lb/>
+the p r is taking a little relaxation  the b w wishes<lb/>
+her to do it comfortably.   Great growls at next<lb/>
+page in this letter.  The p r 's <unclear>white</unclear> imagination<lb/>
+would have pink wolf pawmarks about if it<lb/>
+were possible.  You may well blush at the<lb/>
+censor reading this but I am not responsible<lb/>
+What a pity Mr Bain doesn't now censor<lb/>
+your letters.</p>
+
+<p>All kinds of optimistic reports about<lb/>
+including that Germany has offered Alsace<lb/>
+Lorraine &amp; an indemnity to France!  Next<lb/>
+she will be offering Hamburg to England in a <lb/>
+few days or something equally wild <hi rend="underline">if</hi> we<lb/>
+have any success at all.  I don't like optimistism<lb/>
+now.</p>
+
+<salute>Your b w</salute> 
+<signed>W B Spender</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6324 created using version from <date when="2015-08-28T13:36:59"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6324 removed (version from <date when="2015-08-28T13:36:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6324 removed (version from <date when="2015-08-28T13:43:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6324 removed (version from <date when="2016-01-21T15:57:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6324 removed (version from <date when="2016-01-21T16:13:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6324 removed (version from <date when="2016-01-21T16:19:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6325 created using version from <date when="2015-08-28T13:46:44"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6325 removed (version from <date when="2015-08-28T13:46:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6325 removed (version from <date when="2015-08-28T13:51:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6325 removed (version from <date when="2015-08-28T13:53:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6325 removed (version from <date when="2016-01-21T16:29:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6325 removed (version from <date when="2016-01-21T16:31:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6325 removed (version from <date when="2016-01-21T16:32:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6325 removed (version from <date when="2016-01-22T15:58:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 6324 (version from <date when="2016-01-22T15:57:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6325 added to letter (version from <date when="2016-01-22T15:58:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 6324 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 6325 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:28" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:32" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:52" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:52" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2282_img_6324" url="6ca03781770d5e81f9efa7cab5c0ea64.jpg"/> 
+    
+    <graphic xml:id="L1916_2282_img_6325" url="707358cb6439edb71b3d28de75b668ce.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="6324" facs="#L1916_2282_img_6324"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><dateline><date>30 June</date></dateline>
+
+<salute>My P R</salute></opener>
+
+<p>Only a scrap with my <unclear>folks</unclear> letter
+<lb/>as I am soon bound for my rabbit &#x2014;
+<lb/>protected hole where I intend to pass the 
+<lb/>night &amp; to remain part of tomorrow.</p>
+
+<p>It is uncertain where I shall be tomorrow
+<lb/>evening but I am fairly certain not to
+<lb/>be able to write for a couple of days now</p>
+
+<p>It was a great joy to get 4 letters
+<lb/><hi rend="underline">of course</hi> rather a disappointment that
+<lb/>there were pink paw marks!  I think of you now
+<lb/>poor p r with <unclear>Mr V</unclear> &amp; do hope you
+<lb/>won't get a fearful head before you move
+<lb/>nor be tired out by the move.  I agree that
+<lb/>your partner is having a very easy time in
+<lb/>the move.  I hope she doesn't let you be the maid
+<lb/>of all work.  Most kind of Uncle Gay give him
+        
+    
+
+    
+         
+        <pb n="6325" facs="#L1916_2282_img_6325"/>
+        
+        
+           
+            <lb/>my warm thanks. Terrific <unclear>glaring</unclear> almost<lb/>
+hols for the <unclear>pit mates</unclear> !  All the same when<lb/>
+the p r is taking a little relaxation  the b w wishes<lb/>
+her to do it comfortably.   Great growls at next<lb/>
+page in this letter.  The p r 's <unclear>white</unclear> imagination<lb/>
+would have pink wolf pawmarks about if it<lb/>
+were possible.  You may well blush at the<lb/>
+censor reading this but I am not responsible<lb/>
+What a pity Mr Bain doesn't now censor<lb/>
+your letters.</p>
+
+<p>All kinds of optimistic reports about<lb/>
+including that Germany has offered Alsace<lb/>
+Lorraine &amp; an indemnity to France!  Next<lb/>
+she will be offering Hamburg to England in a <lb/>
+few days or something equally wild <hi rend="underline">if</hi> we<lb/>
+have any success at all.  I don't like optimistism<lb/>
+now.</p>
+
+<closer><salute>Your b w</salute> 
+<signed>W B Spender</signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

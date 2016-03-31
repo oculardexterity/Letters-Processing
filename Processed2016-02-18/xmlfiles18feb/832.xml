@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_832">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Mabel FitzGerald to Brigadier General, Richmond Barracks, 22 May 1916</title>
+                
+                <author>Mabel FitzGerald</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_832</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>Letter from Mabel FitzGerald (1884-1957) to the Brigadier General, Richmond Barracks. Mabel writes to query the sentence imposed on her husband, Desmond FitzGerald, (1888-1947), politician, poet, and revolutionary. He was sentenced at Court-Martial to 20 years Penal Servitude, later reduced to 10 years. Mrs FitzGerald protests as, she claims, while her husband was present in the G.P.O. during the fighting, he was a non-combatant. Furthermore, she writes, he wasn't involved in the planning of the Rising.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p> Mabel was a former governess in London. She later vigorously canvassed her former acquaintances in London's liberal circles for support for Francis Sheehy Skeffington (1878 -1916) during his hunger strike in 1915. Both Mabel and Desmond would serve in the GPO garrison during Easter Week.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: University College Dublin Archives -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF INSTITUTION REF IS CORRECT --></VERIFY>
+                        
+                        <repository ref="#UCD">University College Dublin, Archives</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: FitzGerald Papers. P80/1577/1
+                             
+                        -->
+                            
+                                <collection type='public'>FitzGerald Papers. P80/1577/1</collection>
+                            
+                            
+                        <idno>FitzGerald Papers. P80/1577/1</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <persName ref="MISSING">The Brigadier General, Richmond Barracks</persName>
+                    
+                
+                
+                
+                    
+                    <!-- Normalised Place Found: 
+                    Dublin 
+                    Dublin
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName  ref="#Dublin">Dublin, Ireland</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Mabel FitzGerald -->
+                        
+                        <persName ref="#FitzGerald_M">Mabel FitzGerald</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    Bray 
+                    Wicklow
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#Bray">Bray, Co.Wicklow</placeName>
+                    
+                
+                    
+                    <date when="1916-05-22">22 May 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Female</item>
+                      
+                    
+                        <item n="death">1957</item>
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-02-28T13:45:16" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-02-28T13:45:16" who="#Philcostel">
+                
+                    Page 2128 modified:
+                    <!-- 
+2 Loretto Villas, Bray.
+22.5.1916
+
+The Brigadier General, Richmond Barracks, Dublin.
+Sir,
+In reply to yours of 20th inst 109/A. as my husband was non-combatant and held no rank whatsoever in the Volunteers and as I understand from him that Lieut.King who was a prisoner in the G.P.O. made a deposition that he was a non combatant, I think some grave blunder has been made in sentencing him to <del>two</del>twenty years Penal Servitude, a blunder which is not by any <del>men</del>means rectified by the remittance of ten years.
+I understand from my husband that the only evidence against him was his own statement, in which he voluntarily admitted his presence in the G.P.O. and stated the part which he took in non-combatant work, and that he was neither trained or equipped to fight. Had he been, he would not have been told <del>of</del>off to take women and <del>children</del>wounded to a place of safety when the <del>G.</del>G.P.O. was on fire.
+It is obvious that when he was in Mountjoy Prison <sic>fr</sic>for a Speech from last October till within three weeks of the Rebellion he had no share in planning it. As, therefore, he was neither responsible for it, nor did he take a prominent or even a belligerent part in it, the sentence of 20 years can only have been passed by error, and that it was confirmed with remittance of only 10 years is evidence that the full facts of the case could not have been familiar t the General Officer Commanding in Chief.
+I am,
+Yours faithfully
+Mabel W.Fitzgerald 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-16T15:11:17" who="#Comber">
+                
+                    Page 2128 modified:
+                    <!-- 
+<address>2 Loretto Villas, Bray.</address>
+<date>22.5.1916</date>
+
+<address>The Brigadier General, Richmond Barracks, Dublin.</address>
+<salute>Sir,</salute>
+<p>In reply to yours of 20<hi rend="superscript">th</hi> inst 109/A.<!~~ brackets added ~~> as my husban<add>d</add><lb/> was a non-combatant and held no rank whatsoever in the Volunteers<lb/> and as I understand from him that Lieut..King who was a prisoner<lb/> in the G.P.O. made a deposition that he was a non combatant, I<lb/> think some grave blunder has been made in sentencing him to <del>two</del><lb/>twenty years Penal Servitude, a blunder which is not by any <del>men</del><lb/> means rectified by the remittance of ten years.<lb/></p>
+<p>I understand from my husband that the only evidence<lb/> against him was his own statement, in which he voluntarily admitted<lb/> his presence in the G.P.O. and stated the part which he<lb/> took in non-combatant work, and that he was neither trained nor<lb/> equipped to fight. Had he been, he would not have been told <del>of</del><lb/> off to take women and <del>children</del><add>wounded</add> to a place of safety when the <del>G.</del><lb/>G.P.O. was on fire.<lb/></p>
+<p>It is obvious that when he was in Mountjoy Prison <sic>fr</sic><lb/>for a Speech from last October till within three weeks of the<lb/> Rebellion he had no share in planning it. As, therefore, he<lb/> was neither responsible for it, nor did he take a prominent or <sic>e</sic><lb/> even a belligerent part in it, the sentence of 20 years can on<add>ly</add><lb/> only have been passed by error, and that it was confirmed with<lb/> remittance of only 10 years is evidence that the full facts of<lb/> the case could not have been familiar to the General Officer<lb/> Commanding in Chief.<lb/></p>
+<salute>I am,
+Yours faithfully
+Mabel W.Fitzgerald</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T11:59:35" who="#NR">
+                
+                    Page 2128 modified:
+                    <!-- 
+<address>2 Loretto Villas,
+<lb/> Bray.</address>
+<date>22.5.1916</date>
+
+<address>The Brigadier General, 
+<lb/>Richmond Barracks,
+<lb/> Dublin.</address>
+<salute>Sir,</salute>
+<p>In reply to yours of 20<hi rend="superscript">th</hi> (inst 109/A.) as my husban<add>d</add>
+<lb/> was a non-combatant and held no rank whatsoever in the Volunteers
+<lb/> and as I understand from him that Lieut. King who was a prisoner
+<lb/> in the G.P.O. made a deposition that he was a non combatant, I
+<lb/> think some grave blunder has been made in sentencing him to <del>two</del>
+<lb/>twenty years Penal Servitude, a blunder which is not by any <del>men</del>
+<lb/> means rectified by the remittance of ten years.</p>
+<p>I understand from my husband that the only evidence
+<lb/> against him was his own statement, in which he voluntarily admitted
+<lb/> his presence in the G.P.O. and stated the part which he
+<lb/> took in non-combatant work, and that he was neither trained nor
+<lb/> equipped to fight. Had he been, he would not have been told <del>of</del>
+<lb/> off to take women and <del>children</del><add>wounded</add> to a place of safety when the <del>G.</del>
+<lb/>G.P.O. was on fire.</p>
+<p>It is obvious that when he was in Mountjoy Prison <sic>fr</sic>
+<lb/>for a Speech from last October till within three weeks of the
+<lb/> Rebellion he had no share in planning it. As, therefore, he
+<lb/> was neither responsible for it, nor did he take a prominent or <sic>e</sic>
+<lb/> even a belligerent part in it, the sentence of 20 years can on<add>ly</add>
+<lb/> only have been passed by error, and that it was confirmed with
+<lb/> remittance of only 10 years is evidence that the full facts of
+<lb/> the case could not have been familiar to the General Officer
+<lb/> Commanding in Chief.</p>
+<salute>I am,
+<lb/>Yours faithfully</salute>
+<signed>Mabel W.Fitzgerald</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2128 created using version from <date when="2014-02-28T13:45:16"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2128 removed (version from <date when="2014-02-28T13:45:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2128 removed (version from <date when="2015-02-16T15:11:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:45" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2128 removed (version from <date when="2016-01-08T11:59:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2128 (version from <date when="2016-01-08T11:59:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                    Clean tags: Page 2128 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:31" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:38" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:40" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:49" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_832_img_2128" url="9f7674e8aade394a21853016a9d6bb00.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2128" facs="#L1916_832_img_2128"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>2 Loretto Villas,</addrLine>
+<addrLine>Bray.</address>
+<dateline><date>22.5.1916</date></dateline>
+
+<address>The Brigadier General,</addrLine>
+<addrLine>Richmond Barracks,</addrLine>
+<addrLine>Dublin.</addrLine></address>
+<salute>Sir,</salute></opener>
+<p>In reply to yours of 20<hi rend="superscript">th</hi> (inst 109/A.) as my husban<add>d</add>
+<lb/> was a non-combatant and held no rank whatsoever in the Volunteers
+<lb/> and as I understand from him that Lieut. King who was a prisoner
+<lb/> in the G.P.O. made a deposition that he was a non combatant, I
+<lb/> think some grave blunder has been made in sentencing him to <del>two</del>
+<lb/>twenty years Penal Servitude, a blunder which is not by any <del>men</del>
+<lb/> means rectified by the remittance of ten years.</p>
+<p>I understand from my husband that the only evidence
+<lb/> against him was his own statement, in which he voluntarily admitted
+<lb/> his presence in the G.P.O. and stated the part which he
+<lb/> took in non-combatant work, and that he was neither trained nor
+<lb/> equipped to fight. Had he been, he would not have been told <del>of</del>
+<lb/> off to take women and <del>children</del><add>wounded</add> to a place of safety when the <del>G.</del>
+<lb/>G.P.O. was on fire.</p>
+<p>It is obvious that when he was in Mountjoy Prison <sic>fr</sic>
+<lb/>for a Speech from last October till within three weeks of the
+<lb/> Rebellion he had no share in planning it. As, therefore, he
+<lb/> was neither responsible for it, nor did he take a prominent or <sic>e</sic>
+<lb/> even a belligerent part in it, the sentence of 20 years can on<add>ly</add>
+<lb/> only have been passed by error, and that it was confirmed with
+<lb/> remittance of only 10 years is evidence that the full facts of
+<lb/> the case could not have been familiar to the General Officer
+<lb/> Commanding in Chief.</p>
+<closer><salute>I am,
+<lb/>Yours faithfully</salute>
+<signed>Mabel W.Fitzgerald</signed></closer>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

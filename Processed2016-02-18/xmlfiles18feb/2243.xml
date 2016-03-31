@@ -1,0 +1,1121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2243">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from John S. Campbell to George Hackney, 20 September 1916</title>
+                
+                <author>John S. Campbell</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Johnchambers81">Johnchambers81</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tnoonan1111">Tnoonan11 11</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Scribe500">Scribe500</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Rosie17">Rosie17</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2243</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>Letter from John S. Campbell to George Hackney (1889-1977). Campbell thanks George for sending him information about his son Jack in a previous letter. He has written thrice to Jack asking about the nature of his injury but received no reply, and thus assumes 'it is in the privates'. John asks if soldiers have any opportunity to spend money while in hospital, and if there is any point in sending Jack some. He writes several questions about how Jack is getting on and implores George to 'tell me all'. He invites George to visit if ever he returns to Belfast.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>This letter is from the papers of George Naphthali Hackney, a  Lance Corporal from Clifton, Belfast. Before his time in the army, he worked as a book-keeper for a florist. He was the youngest in a Presbyterian family of six, with three older sisters. In 2014, his collection of photographs taken in the trenches were made available to the public in an Ulster Museum exhibition, and his life and photography became the subject of a BBC documentary, 'The Man who Shot the Great War'. In 1916 he was injured and spent some time in Wharncliffe War Hospital, Sheffield.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Papers of George Hackney, Belfast; D3503/5/1-6-7
+                             
+                        -->
+                            
+                                <collection type='public'>Papers of George Hackney, Belfast</collection>
+                            
+                            
+                        <idno>D3503/5/1-6-7</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: George Hackney -->
+                        
+                        <persName ref="#Hackney_G">George Hackney</persName>
+                    
+                
+                
+                
+                    
+                    <placeName  ref="MISSING">31 Ward, &#39;D&#39; Block, Wharncliffe War Hospital, Sheffield, England</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">John S. Campbell</persName>
+                    
+                
+                
+                 
+                    
+                    <placeName  ref="MISSING">Avondale Villas, Cyprus Avenue, Bloomfield, Belfast</placeName>
+                    
+                
+                    
+                    <date when="1916-09-20">20 September 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                            
+                            <item n="tag">Family life</item>
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-07-21T16:29:18" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-07-21T16:29:18" who="#Rosie17">
+                
+                    Page 5892 modified:
+                    <!-- 
+<address>Cyprus Avenue<lb/>,
+Bloomfield,<lb/>
+Belfast.<lb/></address>
+<date>Sept 29<hi rend="superscript">th</hi> 1916</date><lb/>
+Corpal George Hackney<lb/>
+
+<salute>Dear Sir</salute>
+
+Your very welcome letter to hand for which I am indeed exceedingly<lb/> obliged I am indeed anxious about my Son <unclear>questionable reading</unclear>I wrote him asking him to let me<lb/> know the nature of the <unclear>questionable reading</unclear><lb/>I am only guessing it is in<lb/> the privates &amp; I would like<lb/> to know, I also want to know <lb/>if money would be of any use<lb/> to him I cant get any information<lb/> from him as you say his letters<lb/> are all censored. I understand<lb/> that when you soldiers go into Hospital <lb/>your money stops now would you<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-15T13:19:43" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-09-15T13:19:43" who="#Tbrosnan">
+                
+                    Page 5893 modified:
+                    <!-- 
+tell me if I could send him <lb/>say a few shillings for his<lb/>pocket. Could or would it be<lb/>any use to him. Can he get out to spend it or buy anything<lb/>he wants of course we send him cigarettes &amp; parcel every<lb/>week to hospital. I am glad<lb/>he came through the 1<hi rend="superscript">st</hi> of July<lb/>free from wounds. How did<lb/>he <gap/>the war is he <lb/>very nervous. You say he is <lb/>looking in the pink at present. <lb/>Is there any chance of him<lb/>getting home to Belfast as<lb/>he was not home since he left <lb/>for France. I would like to<lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-15T13:20:49" who="#Tbrosnan">
+                
+                    Page 5893 modified:
+                    <!-- 
+tell me if I could send him <lb/>say a few shillings for his<lb/>pocket. Could or would it be<lb/>any use to him. Can he get out to spend it or buy anything<lb/>he wants of course we send him cigarettes &amp; parcel every<lb/>week to hospital. I am glad<lb/>he came through the 1<hi rend="superscript">st</hi> of July<lb/>free from wounds. How did<lb/>he <gap/>the war is he <lb/>very nervous. You say he is <lb/>looking in the pink at present. <lb/>Is there any chance of him<lb/>getting home to Belfast as<lb/>he was not home since he left <lb/>for France. I would like to<lb/>see him &amp; so would his<lb/>mother. How was he getting<lb/>along in the Army I know<lb/> you will tell me all<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-15T13:23:32" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-09-15T13:23:32" who="#Tbrosnan">
+                
+                    Page 5894 modified:
+                    <!-- 
+If ever you are in Belfast<lb/>you might call at the<lb/>enclosed address.</p><p>Thanking you very much<lb/>for your kind letter<lb/>&amp; waiting your reply.</p><salute>I am yours Sincerely</salute>John S Campbell<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-15T13:26:02" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-09-15T13:26:02" who="#Tbrosnan">
+                
+                    Page 5895 modified:
+                    <!-- 
+L/Cpl George Hackney "14815"<lb/><address>14<hi rend="superscript">th</hi> R.I.R Y.C.V.<lb/>31 Ward D Block<lb/>Wharncliffe War Hospital<lb/>Sheffield<lb/>England</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-25T22:21:59" who="#Scribe500">
+                
+                    Page 5892 modified:
+                    <!-- 
+<address>Avondale Villas,<lb/>Cyprus Avenue<lb/>,Bloomfield,<lb/>Belfast.<lb/></address>
+<date>Sept 20<hi rend="superscript">th</hi> 1916</date><lb/><sic>Corpal.</sic> George Hackney<lb/><salute>Dear Sir</salute><lb/>
+Your very welcome letter to hand<lb/> for which I am indeed exceedingly<lb/> obliged. I am indeed anxious<lb/> about my Son Jack. I wrote him asking him to let me<lb/> know the nature of the kick.<pb/><lb/>I am only guessing it is in<lb/> the privates &amp; I would like<lb/> to know, I also want to know <lb/>if money would be of any use<lb/> to him. I can't get any information<lb/> from him as you say his letters<lb/> are all censored. I understand<lb/> that when you Soldiers go into Hospital <lb/>your money stops. Now would you<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-25T22:29:13" who="#Scribe500">
+                
+                    Page 5893 modified:
+                    <!-- 
+tell me if I could send him <lb/>say a few shillings for his<lb/>pocket. Could or would it be<lb/>any use to him. Can he get<lb/> out to spend it or buy anything<lb/>he wants. Of course we send him cigarettes &amp; parcel every<lb/>week to hospital. I am glad<lb/>he came through the 1<hi rend="superscript">st</hi> of July<lb/>free from wounds. How did<lb/>he stand the war. Is he <lb/>very nervous. You say he is <lb/>looking in the pink at present.<lb/>Is there any chance of him<lb/>getting home to Belfast as<lb/>he was not home since he left <lb/>for France. I would like to<lb/>see him &amp; so would his<lb/>mother. How was he getting<lb/>along in the Army. I know<lb/> you will tell me all<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-25T22:32:28" who="#Scribe500">
+                
+                    Page 5894 modified:
+                    <!-- 
+If ever you are in Belfast<lb/>you might call at the<lb/>enclosed address.</p>Thanking you very much<lb/>for your kind letter<lb/>&amp; waiting your reply.</p> <salute>I am Yours Sincerely<lb/>John S Campbell</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-25T22:35:36" who="#Scribe500">
+                
+                    Page 5895 modified:
+                    <!-- 
+<sic>L/Cpl</sic> George Hackney "14815"<lb/><address>14<hi rend="superscript">th</hi> R.I.R.  Y.C.V.<lb/>31 Ward D Block<lb/> Wharncliffe War Hospital<lb/>Sheffield<lb/>England</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-25T22:38:04" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-09-25T22:38:04" who="#Scribe500">
+                
+                    Page 5896 modified:
+                    <!-- 
+<!~~ Blank back of envelope ~~> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T11:33:14" who="#Johnchambers81">
+                
+                    Page 5892 modified:
+                    <!-- 
+<address>Avondale Villas,<lb/>Cyprus Avenue<lb/>,Bloomfield,<lb/>Belfast.<lb/></address>
+<date>Sept 20<hi rend="superscript">th</hi> 1916</date>
+<lb/><sic>Corpal.</sic> George Hackney
+<salute>Dear Sir</salute>
+
+Your very welcome letter to hand
+<lb/> for which I am indeed exceedingly
+<lb/> obliged. I am indeed anxious
+<lb/> about my Son Jack. I wrote him asking him to let me
+<lb/> know the nature of the kick.
+<lb/>I am only guessing it is in
+<lb/> the privates &amp; I would like
+<lb/> to know, I also want to know 
+<lb/>if money would be of any use
+<lb/> to him. I can't get any information
+<lb/> from him as you say his letters
+<lb/> are all censored. I understand
+<lb/> that when you Soldiers go into Hospital 
+<lb/>your money stops. Now would you 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T11:36:41" who="#Johnchambers81">
+                
+                    Page 5893 modified:
+                    <!-- 
+notorious<pb/>
+tell me if I could send him 
+<lb/>say a few shillings for his
+<lb/>pocket. Could or would it be
+<lb/>any use to him. Can he get
+<lb/> out to spend it or buy anything
+<lb/>he wants. Of course we send him cigarettes &amp; parcel every
+<lb/>week to hospital. I am glad
+<lb/>he came through the 1<hi rend="superscript">st</hi> of July
+<lb/>free from wounds. How did
+<lb/>he stand the war. Is he 
+<lb/>very nervous. You say he is 
+<lb/>looking in the pink at present.
+<lb/>Is there any chance of him
+<lb/>getting home to Belfast as
+<lb/>he was not home since he left 
+<lb/>for France. I would like to
+<lb/>see him &amp; so would his
+<lb/>mother. How was he getting
+<lb/>along in the Army. I know
+<lb/> you will tell me all 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T11:51:35" who="#Johnchambers81">
+                
+                    Page 5894 modified:
+                    <!-- 
+If ever you are in Belfast
+<lb/>you might call at the
+<lb/>enclosed address.</p>
+<p>Thanking you very much
+<lb/>for your kind letter
+<lb/>&amp; waiting your reply.</p> 
+<salute>I am Yours Sincerely</salute>
+<lb/><signed>John S Campbell</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T11:54:46" who="#Johnchambers81">
+                
+                    Page 5895 modified:
+                    <!-- 
+<sic>L/Cpl</sic> George Hackney "14815"
+<address>14<hi rend="superscript">th</hi> R.I.R.  Y.C.V.
+<lb/>31 Ward D Block
+<lb/> Wharncliffe War Hospital
+<lb/>Sheffield<lb/>England</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T12:08:53" who="#NR">
+                
+                    Page 5892 modified:
+                    <!-- 
+<address>Avondale Villas,
+<lb/>Cyprus Avenue
+<lb/>,Bloomfield,
+<lb/>Belfast.
+<lb/></address>
+<date>Sept 20<hi rend="superscript">th</hi> 1916</date>
+<lb/><sic>Corpal.</sic> George Hackney
+<salute>Dear Sir</salute>
+
+<p>Your very welcome letter to hand
+<lb/> for which I am indeed exceedingly
+<lb/> obliged. I am indeed anxious
+<lb/> about my Son Jack. I wrote him asking him to let me
+<lb/> know the nature of the kick.
+<lb/>I am only guessing it is in
+<lb/> the privates &amp; I would like
+<lb/> to know, I also want to know 
+<lb/>if money would be of any use
+<lb/> to him. I can't get any information
+<lb/> from him as you say his letters
+<lb/> are all censored. I understand
+<lb/> that when you Soldiers go into Hospital 
+<lb/>your money stops. Now would you 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T12:09:14" who="#NR">
+                
+                    Page 5893 modified:
+                    <!-- 
+<lb/>notorious<pb/>
+<lb/>tell me if I could send him 
+<lb/>say a few shillings for his
+<lb/>pocket. Could or would it be
+<lb/>any use to him. Can he get
+<lb/> out to spend it or buy anything
+<lb/>he wants. Of course we send him cigarettes &amp; parcel every
+<lb/>week to hospital. I am glad
+<lb/>he came through the 1<hi rend="superscript">st</hi> of July
+<lb/>free from wounds. How did
+<lb/>he stand the war. Is he 
+<lb/>very nervous. You say he is 
+<lb/>looking in the pink at present.
+<lb/>Is there any chance of him
+<lb/>getting home to Belfast as
+<lb/>he was not home since he left 
+<lb/>for France. I would like to
+<lb/>see him &amp; so would his
+<lb/>mother. How was he getting
+<lb/>along in the Army. I know
+<lb/> you will tell me all 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T12:09:34" who="#NR">
+                
+                    Page 5894 modified:
+                    <!-- 
+<p>If ever you are in Belfast
+<lb/>you might call at the
+<lb/>enclosed address.</p>
+<p>Thanking you very much
+<lb/>for your kind letter
+<lb/>&amp; waiting your reply.</p> 
+<salute>I am Yours Sincerely</salute>
+<signed>John S Campbell</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T12:11:56" who="#NR">
+                
+                    Page 5895 modified:
+                    <!-- 
+<sic>L/Cpl</sic> George Hackney "14815"
+<address>14<hi rend="superscript">th</hi> R.I.R.  Y.C.V.
+<lb/>31 Ward D Block
+<lb/> Wharncliffe War Hospital
+<lb/>Sheffield
+<lb/>England</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T12:12:04" who="#NR">
+                
+                    Page 5895 modified:
+                    <!-- 
+<address><sic>L/Cpl</sic> George Hackney "14815"
+<lb/>14<hi rend="superscript">th</hi> R.I.R.  Y.C.V.
+<lb/>31 Ward D Block
+<lb/> Wharncliffe War Hospital
+<lb/>Sheffield
+<lb/>England</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5894 created using version from <date when="2015-09-15T13:23:32"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5894 removed (version from <date when="2015-09-15T13:23:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5894 removed (version from <date when="2015-09-25T22:32:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5894 removed (version from <date when="2016-01-22T11:51:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5894 removed (version from <date when="2016-01-28T12:09:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5895 created using version from <date when="2015-09-15T13:26:02"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5895 removed (version from <date when="2015-09-15T13:26:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5895 removed (version from <date when="2015-09-25T22:35:36"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5895 removed (version from <date when="2016-01-22T11:54:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5895 removed (version from <date when="2016-01-28T12:11:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5895 removed (version from <date when="2016-01-28T12:12:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5892 created using version from <date when="2015-07-21T16:29:18"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5892 removed (version from <date when="2015-07-21T16:29:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5892 removed (version from <date when="2015-09-25T22:21:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5892 removed (version from <date when="2016-01-22T11:33:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5892 removed (version from <date when="2016-01-28T12:08:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5896 created using version from <date when="2015-09-25T22:38:04"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5896 removed (version from <date when="2015-09-25T22:38:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5893 created using version from <date when="2015-09-15T13:19:43"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5893 removed (version from <date when="2015-09-15T13:19:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5893 removed (version from <date when="2015-09-15T13:20:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5893 removed (version from <date when="2015-09-25T22:29:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5893 removed (version from <date when="2016-01-22T11:36:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5893 removed (version from <date when="2016-01-28T12:09:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 5894 (version from <date when="2016-01-28T12:09:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5895 added to letter (version from <date when="2016-01-28T12:12:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5892 added to letter (version from <date when="2016-01-28T12:08:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5896 added to letter (version from <date when="2016-01-28T12:13:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5893 added to letter (version from <date when="2016-01-28T12:09:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:21" who="#PythonScript">
+                
+                    Clean tags: Page 5896 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:21" who="#PythonScript">
+                
+                    Clean tags: Page 5892 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:21" who="#PythonScript">
+                
+                    Clean tags: Page 5893 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:21" who="#PythonScript">
+                
+                    Clean tags: Page 5894 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:21" who="#PythonScript">
+                
+                    Clean tags: Page 5895 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:25" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:30" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:36" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:25" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:27" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2243_img_5892" url="833425932741d88e461591c0c4b3f3c0.jpg"/> 
+    
+    <graphic xml:id="L1916_2243_img_5893" url="42b461ce48e7e54bda0e4dfa30e562b7.jpg"/> 
+    
+    <graphic xml:id="L1916_2243_img_5894" url="530bab01c741c5b0d6438537fdd9ee0a.jpg"/> 
+    
+    <graphic xml:id="L1916_2243_img_5895" url="f526fb47e3139c2b72f7f75616ec3b65.jpg"/> 
+    
+    <graphic xml:id="L1916_2243_img_5896" url="9b33ffdb85189accd58039884212a0da.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="5892" facs="#L1916_2243_img_5892"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>Avondale Villas,</addrLine>
+<addrLine>Cyprus Avenue</addrLine>
+<addrLine>,Bloomfield,</addrLine>
+<addrLine>Belfast.</addrLine>
+<addrLine></addrLine></address>
+<dateline><date>Sept 20<hi rend="superscript">th</hi> 1916</date></dateline>
+<sic>Corpal.</sic> George Hackney
+<salute>Dear Sir</salute></opener>
+
+<p>Your very welcome letter to hand
+<lb/> for which I am indeed exceedingly
+<lb/> obliged. I am indeed anxious
+<lb/> about my Son Jack. I wrote him asking him to let me
+<lb/> know the nature of the kick.
+<lb/>I am only guessing it is in
+<lb/> the privates &amp; I would like
+<lb/> to know, I also want to know 
+<lb/>if money would be of any use
+<lb/> to him. I can't get any information
+<lb/> from him as you say his letters
+<lb/> are all censored. I understand
+<lb/> that when you Soldiers go into Hospital 
+<lb/>your money stops. Now would you
+        
+    
+
+    
+         
+        <pb n="5893" facs="#L1916_2243_img_5893"/>
+        
+        
+           
+            <lb/>notorious<pb/>
+<lb/>tell me if I could send him 
+<lb/>say a few shillings for his
+<lb/>pocket. Could or would it be
+<lb/>any use to him. Can he get
+<lb/> out to spend it or buy anything
+<lb/>he wants. Of course we send him cigarettes &amp; parcel every
+<lb/>week to hospital. I am glad
+<lb/>he came through the 1<hi rend="superscript">st</hi> of July
+<lb/>free from wounds. How did
+<lb/>he stand the war. Is he 
+<lb/>very nervous. You say he is 
+<lb/>looking in the pink at present.
+<lb/>Is there any chance of him
+<lb/>getting home to Belfast as
+<lb/>he was not home since he left 
+<lb/>for France. I would like to
+<lb/>see him &amp; so would his
+<lb/>mother. How was he getting
+<lb/>along in the Army. I know
+<lb/> you will tell me all
+        
+    
+         
+        <pb n="5894" facs="#L1916_2243_img_5894"/>
+        
+        
+           
+            <p>If ever you are in Belfast
+<lb/>you might call at the
+<lb/>enclosed address.</p>
+<p>Thanking you very much
+<lb/>for your kind letter
+<lb/>&amp; waiting your reply.</p> 
+<closer><salute>I am Yours Sincerely</salute>
+<signed>John S Campbell</signed></closer>
+        
+    
+        
+        
+        
+    
+         
+        <pb n="5896" facs="#L1916_2243_img_5896"/>
+        
+        
+           
+            <!-- Blank back of envelope -->
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+            <pb n="5895" facs="#L1916_2243_img_5895"/>
+            <text type="envelope" decls="#corresp1">
+                <body> 
+                    <ab>
+                        <!-- Blank back of envelope -->
+                    </ab>
+                </body>
+            </text>
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

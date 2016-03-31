@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2445">
+    <fileDesc>
+            <titleStmt>
+                <title>A Pass for the Mises Fenlons, 30 April 1916</title>
+                
+                <author>Irish Republican Army</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="KB">Karolina Badzmierowska</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Ollyo">Ollyo</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2445</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A permit to 'pass out of town' for two Misses Fentons (probably sisters) issued by the Irish Republican Army on Sunday 30 April 1916. The pass was written on the back of a Times Braces advertisement. </p>
+                            
+                        
+                            
+                        
+                            
+                            <p>The pass was likely issued on the orders of Seamus Doyle, a lieutenant in the Enniscorthy battalion of the Irish Volunteers and one of the men active in Enniscorthy during the Easter Rising, one of the few places outside Dublin to see any military action.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Wexford County Archive -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF INSTITUTION REF IS CORRECT --></VERIFY>
+                        
+                        <repository ref="#MISSING">MISSING</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Wexford County Archive, WXCA/1916/Gen/168
+                             
+                        -->
+                            
+                                <collection type='public'>Wexford County Archive</collection>
+                            
+                            
+                        <idno>WXCA/1916/Gen/168</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <persName ref="MISSING">Miss Fenlons</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">Irish Republican Army</persName>
+                    
+                
+                
+                
+                    
+                    <date when="1916-04-30">30 April 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-09-28T21:41:34" who="#KB">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-09-28T21:41:34" who="#Ollyo">
+                
+                    Page 6615 modified:
+                    <!-- 
+<p><hi rend="underline">1916 Rebellion</hi></p><lb/><lb/><lb/>
+<p><hi rend="underline">Permi</hi>t</p>
+<p>Two Miss Fenlons <lb/>to pass out of town <lb/>today. </p>
+<salute>OM</salute> <date>30/4/16</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-28T21:45:28" who="#KB">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-09-28T21:45:28" who="#Ollyo">
+                
+                    Page 6616 modified:
+                    <!-- 
+<p>THE</p>
+<p>TIMES</p>
+<p>BRACE.</p><lb/>
+<p>METAL FITTINGS <lb/>AND SECURED WITH <lb/>PATENT EYELETS.</p>
+<lb/><lb/><lb/>
+<p>CM/1916/GEN/168</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T09:53:58" who="#Tbrosnan">
+                
+                    Page 6615 modified:
+                    <!-- 
+<p><hi rend="underline">1916 Rebellion</hi></p><lb/><lb/><lb/>
+<p><hi rend="underline">Permit</hi></p>
+<p>Two Miss Fenlons <lb/>to pass out of town <lb/>today. </p>
+<salute>OM</salute> <date>30/4/16</date><lb/>
+<p> "Pass" "Issued by the Irish Republican Army,"<lb/>on Sunday, April 30th,1916</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T09:55:34" who="#Tbrosnan">
+                
+                    Page 6616 modified:
+                    <!-- 
+THE<lb/>TIMES<lb/>BRACE.<lb/>
+METAL FITTINGS <lb/>AND SECURED WITH <lb/>PATENT EYELETS.<lb/>
+<add>CM/1916/GEN/168</add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-07T11:31:53" who="#Tbrosnan">
+                
+                    Page 6615 modified:
+                    <!-- 
+<lb/> <hi rend="underline">1916 Rebellion</hi>
+<lb/>hi rend="underline">Permit</hi>
+<lb/>Two Miss Fenlons 
+<lb/>to pass out of town 
+<lb/>today.
+<lb/><salute>OM</salute> <date>30/4/16</date>
+<lb/> "Pass" "Issued by the Irish Republican Army,"<lb/>on Sunday, April 30th,1916 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-04T11:36:01" who="#Tbrosnan">
+                
+                    Page 6615 modified:
+                    <!-- 
+<lb/> <hi rend="underline">1916 Rebellion</hi>
+<lb/>hi rend="underline">Permit</hi>
+<lb/>Two Miss Fenlons 
+<lb/>to pass out of town 
+<lb/>today.
+<lb/><salute>OM</salute> <date>30/4/16</date>
+<lb/> "Pass" "Issued by the Irish Republican Army,"
+<lb/>on Sunday, April 30th,1916 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-04T11:36:17" who="#Tbrosnan">
+                
+                    Page 6615 modified:
+                    <!-- 
+<lb/> <hi rend="underline">1916 Rebellion</hi>
+<lb/>hi rend="underline">Permit</hi>
+<lb/>Two Miss Fenlons 
+<lb/>to pass out of town 
+<lb/>today.
+<p><lb/><salute>OM</salute> <date>30/4/16</date>
+<lb/> "Pass" "Issued by the Irish Republican Army,"
+<lb/>on Sunday, April 30th,1916</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-04T11:37:20" who="#Tbrosnan">
+                
+                    Page 6616 modified:
+                    <!-- 
+THE
+<lb/>TIMES
+<lb/>BRACE.
+
+<lb/>METAL FITTINGS
+<lb/>AND SECURED WITH 
+<lb/>PATENT EYELETS.<lb/>
+<add>CM/1916/GEN/168</add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-18T12:16:27" who="#Tbrosnan">
+                
+                    Page 6615 modified:
+                    <!-- 
+<hi rend="underline">1916 Rebellion</hi>
+<lb/>hi rend="underline">Permit</hi>
+<lb/>Two Miss Fenlons 
+<lb/>to pass out of town 
+<lb/>today.
+<salute>OM</salute> <date>30/4/16</date>
+<p> "Pass" "Issued by the Irish Republican Army,"
+<lb/>on Sunday, April 30th,1916</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T13:42:25" who="#NR">
+                
+                    Page 6616 modified:
+                    <!-- 
+<p>THE
+<lb/>TIMES
+<lb/>BRACE</p>.
+
+<p>METAL FITTINGS
+<lb/>AND SECURED WITH 
+<lb/>PATENT EYELETS.</p>
+<add>CM/1916/GEN/168</add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6615 created using version from <date when="2015-09-28T21:41:34"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6615 removed (version from <date when="2015-09-28T21:41:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6615 removed (version from <date when="2015-11-24T09:53:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6615 removed (version from <date when="2015-12-07T11:31:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6615 removed (version from <date when="2016-01-04T11:36:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6615 removed (version from <date when="2016-01-04T11:36:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6615 removed (version from <date when="2016-01-18T12:16:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6616 created using version from <date when="2015-09-28T21:45:28"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6616 removed (version from <date when="2015-09-28T21:45:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6616 removed (version from <date when="2015-11-24T09:55:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6616 removed (version from <date when="2016-01-04T11:37:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6616 removed (version from <date when="2016-01-20T13:42:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 6615 (version from <date when="2016-01-20T13:38:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6616 added to letter (version from <date when="2016-01-20T13:42:26"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 6616 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 6615 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:28" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:32" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:51" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:52" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2445_img_6615" url="9635e1b13ca4ce0769a6e963e928e5ba.jpg"/> 
+    
+    <graphic xml:id="L1916_2445_img_6616" url="1d389c6b3357e4ef85751ab032c91653.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+
+        
+            
+            <pb n="6615" facs="#L1916_2445_img_6615"/>
+                <text type="unknown" decls="#corresp1">
+                    <body>
+                        <hi rend="underline">1916 Rebellion</hi>
+<lb/><hi rend="underline">Permit</hi>
+<lb/>Two Miss Fenlons 
+<lb/>to pass out of town 
+<lb/>today.
+<salute>OM</salute> <date>30/4/16</date>
+<p> "Pass" "Issued by the Irish Republican Army,"
+<lb/>on Sunday, April 30th,1916</p>
+            
+        
+        
+            <pb n="6616" facs="#L1916_2445_img_6616"/>
+            <p>THE
+<lb/>TIMES
+<lb/>BRACE</p>.
+
+<p>METAL FITTINGS
+<lb/>AND SECURED WITH 
+<lb/>PATENT EYELETS.</p>
+<add>CM/1916/GEN/168</add>
+        
+            </body>
+        </text>
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

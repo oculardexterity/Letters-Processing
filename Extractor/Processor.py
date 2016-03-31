@@ -22,6 +22,8 @@ class Filter:
 
 
 	def filter(self):
+
+		print(len(self.inclusionList))
 		with ShelveManager(self.new_shelve_file) as new_shelf:
 			for index, fields in self.stream.stream():
 				#print(str(index)+'.0', str(index)+'.0' in self.inclusionList)

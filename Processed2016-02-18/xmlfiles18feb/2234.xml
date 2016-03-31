@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2234">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from John Lynn to George Hackney, 26 September 1916</title>
+                
+                <author>John Lynn</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Johnchambers81">Johnchambers81</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tnoonan1111">Tnoonan11 11</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2234</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter John Lynn to George Hackney (1889-1977). In the letter, Lynn hopes that George is recovering speedily from the shell-shock he suffered in the trenches. He hopes that George will be able to visit home soon 'for a while', and mentions a recent visit to George by a mutual acquaintance, a Reverend Sam McKenzie. He says that all the staff in the Depot wish George the best. He refers also to the health of George's mother, stating she is 'very much as usual'.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>This letter is from the papers of George Naphthali Hackney , a  Lance Corporal from Clifton, Belfast. Before his time in the army, he worked as a book-keeper for a florist. He was the youngest in a Presbyterian family of six, with three older sisters. In 2014, his collection of photographs taken in the trenches were made available to the public in an Ulster Museum exhibition, and his life and photography became the subject of a BBC documentary, 'The Man who Shot the Great War'. In 1916 he was injured and spent some time in Wharncliffe War Hospital, Sheffield. The author of the letter, John Lynn, was the manager of the Bible and Book Depot of The Sabbath School Society for Ireland, a Presbyterian Sunday School. The Depot was an Agency for Colportage, i.e. the distribution of religious texts.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Papers of George Hackney, Belfast; D3503/5/1-6-2
+                             
+                        -->
+                            
+                                <collection type='public'>Papers of George Hackney, Belfast</collection>
+                            
+                            
+                        <idno>D3503/5/1-6-2</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: George Hackney -->
+                        
+                        <persName ref="#Hackney_G">George Hackney</persName>
+                    
+                
+                
+                
+                    
+                    <placeName  ref="MISSING">Ward 31, &#39;D&#39; Block, Wharncliffe War Hospital, Sheffield, England</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">John Lynn</persName>
+                    
+                
+                
+                 
+                    
+                    <placeName  ref="MISSING">FIsherwick Place, Belfast, Ireland</placeName>
+                    
+                
+                    
+                    <date when="1916-09-26">26 September 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2016-01-22T13:00:49" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T13:00:49" who="#Johnchambers81">
+                
+                    Page 5848 modified:
+                    <!-- 
+<!~~ Telegrams "Sabbath, Belfast"
+<lb/>Telephone:Belfast 1323 ~~>
+
+from <address>The Sabbath School Society for Ireland
+<lb/>BIBLE AND BOOK DEPOT
+<lb/>Fisherwick Place,
+<lb/>BELFAST.<lb/></address>
+
+<!~~ agency for colportage
+J.L.
+J LYNN, MANAGER ~~>
+<date>26<hi rend="superscript">th</hi> September, 1916</date>
+
+<salute>My dear George,</salute>
+
+<p>A few days ago I heard that you had got the length 
+<lb/>of Sheffield, and that you are now in hospital suffering from shell-
+<lb/>shock.</p>
+
+<p>The last communication of yours that I saw was one
+<lb/> you had written to Mr. Russell, and I think you were then in France.</p>
+
+<p>I hope, now that you  have got back to Blighty, your
+<lb/> health is improving, and I don't suppose you have any objections to
+<lb/> being a little nearer your native land.  As a result of your trying 
+<lb/>experiences, I hope you will not be permanently injured.</p>
+
+<p>When you get well enough I suppose you will be allowed
+<lb/> home for a while.  We should all like very much to see you on your
+<lb/> return.</p>
+
+<p>I wrote the Rev. Sam McKenzie when I heard you were in
+<lb/> a Sheffield hospital.  You will, no doubt, remember him.  I think he
+<lb/> was a student when you were here.  He is a native of Bangor.  I had
+<lb/> a post-card from him saying he had called on you.  I suppose a visit
+<lb/> from <del>every</del> anyone whom you know is acceptable at any time.</p>
+
+<p>All the staff here were sorry to know that you were
+<lb/> unwell, but we all hope you will soon be quite fit and able to got about
+<lb/> as usual.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T13:02:55" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T13:02:55" who="#Johnchambers81">
+                
+                    Page 5849 modified:
+                    <!-- 
+2.
+
+<p>I sometimes see your sister, but I have not been 
+<lb/>speaking to her for some time,  The last time I saw her<del>e</del> she
+<lb/> said your mother was very much as usual.  I am sure your home
+<lb/> people will be glad if you get home even for a short time.</p>
+<p>With kindest regards from all the staff,
+<lb/>and trusting your health will soon be fully recovered,</p>
+
+<salute>I am,
+<lb/>Very faithfully yours,</salute>
+<signed>John Lynn</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T13:03:40" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T13:03:40" who="#Johnchambers81">
+                
+                    Page 5850 modified:
+                    <!-- 
+<!~~ POST STAMP   BELFAST
+                        8 <unclear>1</unclear>PM
+                        SEP 2616 ~~>
+
+<address>No. 14815
+
+<lb/>Lcpl. George Hackney,
+<lb/>Ward 31,
+<lb/>Warncliffe War Hospital,
+<lb/>SHEFFIELD</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T13:03:57" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T13:03:57" who="#Johnchambers81">
+                
+                    Page 5851 modified:
+                    <!-- 
+<!~~ RUBBER STAMP
+
+
+BIBLE AND BOOK DEPOT,
+AGENCY FOR COLPORTAGE
+THE SABBATH SCHOOL SOCIETY FOR IRELAND
+BELFAST ~~> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T14:48:41" who="#NR">
+                
+                    Page 5848 modified:
+                    <!-- 
+<!~~ Telegrams "Sabbath, Belfast"
+<lb/>Telephone:Belfast 1323 ~~>
+
+<address> from The Sabbath School Society for Ireland
+<lb/>BIBLE AND BOOK DEPOT
+<lb/>Fisherwick Place,
+<lb/>BELFAST.</address>
+
+<!~~ agency for colportage
+J.L.
+J LYNN, MANAGER ~~>
+<date>26<hi rend="superscript">th</hi> September, 1916</date>
+
+<salute>My dear George,</salute>
+
+<p>A few days ago I heard that you had got the length 
+<lb/>of Sheffield, and that you are now in hospital suffering from shell-
+<lb/>shock.</p>
+
+<p>The last communication of yours that I saw was one
+<lb/> you had written to Mr. Russell, and I think you were then in France.</p>
+
+<p>I hope, now that you  have got back to Blighty, your
+<lb/> health is improving, and I don't suppose you have any objections to
+<lb/> being a little nearer your native land.  As a result of your trying 
+<lb/>experiences, I hope you will not be permanently injured.</p>
+
+<p>When you get well enough I suppose you will be allowed
+<lb/> home for a while.  We should all like very much to see you on your
+<lb/> return.</p>
+
+<p>I wrote the Rev. Sam McKenzie when I heard you were in
+<lb/> a Sheffield hospital.  You will, no doubt, remember him.  I think he
+<lb/> was a student when you were here.  He is a native of Bangor.  I had
+<lb/> a post-card from him saying he had called on you.  I suppose a visit
+<lb/> from <del>every</del> anyone whom you know is acceptable at any time.</p>
+
+<p>All the staff here were sorry to know that you were
+<lb/> unwell, but we all hope you will soon be quite fit and able to got about
+<lb/> as usual.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T14:57:27" who="#NR">
+                
+                    Page 5849 modified:
+                    <!-- 
+2.
+
+<p>I sometimes see your sister, but I have not been 
+<lb/>speaking to her for some time,  The last time I saw her<del>e</del> she
+<lb/> said your mother was very much as usual.  I am sure your home
+<lb/> people will be glad if you get home even for a short time.</p>
+<p>With kindest regards from all the staff,
+<lb/>and trusting your health will soon be fully recovered,</p>
+
+<salute>I am,
+<lb/>Very faithfully yours,</salute>
+<signed>John Lynn</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T14:57:31" who="#NR">
+                
+                    Page 5849 modified:
+                    <!-- 
+2.
+
+<p>I sometimes see your sister, but I have not been 
+<lb/>speaking to her for some time,  The last time I saw her<del>e</del> she
+<lb/> said your mother was very much as usual.  I am sure your home
+<lb/> people will be glad if you get home even for a short time.</p>
+<p>With kindest regards from all the staff,
+<lb/>and trusting your health will soon be fully recovered,</p>
+
+<salute>I am,
+<lb/>Very faithfully yours,</salute>
+<signed>John Lynn</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T14:57:48" who="#NR">
+                
+                    Page 5849 modified:
+                    <!-- 
+2.
+
+<p>I sometimes see your sister, but I have not been 
+<lb/>speaking to her for some time,  The last time I saw her<del>e</del> she
+<lb/> said your mother was very much as usual.  I am sure your home
+<lb/> people will be glad if you get home even for a short time.</p>
+<p>With kindest regards from all the staff,
+<lb/>and trusting your health will soon be fully recovered,</p>
+
+<salute>I am,
+<lb/>Very faithfully yours,</salute>
+<signed><hi rend="underline">John Lynn</hi></signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T14:58:50" who="#NR">
+                
+                    Page 5850 modified:
+                    <!-- 
+<address>No. 14815
+
+<lb/>Lcpl. George Hackney,
+<lb/>Ward 31,
+<lb/>Warncliffe War Hospital,
+<lb/>SHEFFIELD</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T15:01:29" who="#NR">
+                
+                    Page 5851 modified:
+                    <!-- 
+<p>BIBLE 
+<lb/>AND
+<lb/> <hi rend="underline">BOOK DEPOT,</hi>
+<lb/>AGENCY
+<lb/> FOR
+<lb/> COLPORTAGE
+<lb/>THE SABBATH SCHOOL SOCIETY FOR IRELAND
+<lb/>BELFAST</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5850 created using version from <date when="2016-01-22T13:03:40"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5850 removed (version from <date when="2016-01-22T13:03:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5850 removed (version from <date when="2016-01-28T14:58:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5848 created using version from <date when="2016-01-22T13:00:49"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5848 removed (version from <date when="2016-01-22T13:00:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5848 removed (version from <date when="2016-01-28T14:48:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5851 created using version from <date when="2016-01-22T13:03:57"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5851 removed (version from <date when="2016-01-22T13:03:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5851 removed (version from <date when="2016-01-28T15:01:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5849 created using version from <date when="2016-01-22T13:02:55"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5849 removed (version from <date when="2016-01-22T13:02:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5849 removed (version from <date when="2016-01-28T14:57:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5849 removed (version from <date when="2016-01-28T14:57:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5849 removed (version from <date when="2016-01-28T14:57:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 5850 (version from <date when="2016-01-28T14:58:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5848 added to letter (version from <date when="2016-01-28T14:48:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5851 added to letter (version from <date when="2016-01-28T15:01:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5849 added to letter (version from <date when="2016-01-28T14:57:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:20" who="#PythonScript">
+                
+                    Clean tags: Page 5848 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:20" who="#PythonScript">
+                
+                    Clean tags: Page 5849 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:20" who="#PythonScript">
+                
+                    Clean tags: Page 5850 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:20" who="#PythonScript">
+                
+                    Clean tags: Page 5851 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:25" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:30" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:36" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:21" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:22" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2234_img_5848" url="a4729da8be3b0ba1068e02c86ddd039a.jpg"/> 
+    
+    <graphic xml:id="L1916_2234_img_5849" url="d079f4755bc4545c4a48687738db0fe2.jpg"/> 
+    
+    <graphic xml:id="L1916_2234_img_5850" url="1b0e5a5d3963563a3f2f6b6f140e9bdd.jpg"/> 
+    
+    <graphic xml:id="L1916_2234_img_5851" url="9ea301552db0182bd9b998138859070f.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="5848" facs="#L1916_2234_img_5848"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<!-- Telegrams "Sabbath, Belfast"
+<lb/>Telephone:Belfast 1323 -->
+
+<opener><address><addrLine>from The Sabbath School Society for Ireland</addrLine>
+<addrLine>BIBLE AND BOOK DEPOT</addrLine>
+<addrLine>Fisherwick Place,</addrLine>
+<addrLine>BELFAST.</addrLine></address>
+
+<!-- agency for colportage
+J.L.
+J LYNN, MANAGER -->
+<dateline><date>26<hi rend="superscript">th</hi> September, 1916</date></dateline>
+
+<salute>My dear George,</salute></opener>
+
+<p>A few days ago I heard that you had got the length 
+<lb/>of Sheffield, and that you are now in hospital suffering from shell-
+<lb/>shock.</p>
+
+<p>The last communication of yours that I saw was one
+<lb/> you had written to Mr. Russell, and I think you were then in France.</p>
+
+<p>I hope, now that you  have got back to Blighty, your
+<lb/> health is improving, and I don't suppose you have any objections to
+<lb/> being a little nearer your native land.  As a result of your trying 
+<lb/>experiences, I hope you will not be permanently injured.</p>
+
+<p>When you get well enough I suppose you will be allowed
+<lb/> home for a while.  We should all like very much to see you on your
+<lb/> return.</p>
+
+<p>I wrote the Rev. Sam McKenzie when I heard you were in
+<lb/> a Sheffield hospital.  You will, no doubt, remember him.  I think he
+<lb/> was a student when you were here.  He is a native of Bangor.  I had
+<lb/> a post-card from him saying he had called on you.  I suppose a visit
+<lb/> from <del>every</del> anyone whom you know is acceptable at any time.</p>
+
+<p>All the staff here were sorry to know that you were
+<lb/> unwell, but we all hope you will soon be quite fit and able to got about
+<lb/> as usual.</p>
+        
+    
+
+    
+         
+        <pb n="5849" facs="#L1916_2234_img_5849"/>
+        
+        
+           
+            2.
+
+<p>I sometimes see your sister, but I have not been 
+<lb/>speaking to her for some time,  The last time I saw her<del>e</del> she
+<lb/> said your mother was very much as usual.  I am sure your home
+<lb/> people will be glad if you get home even for a short time.</p>
+<p>With kindest regards from all the staff,
+<lb/>and trusting your health will soon be fully recovered,</p>
+
+<closer><salute>I am,
+<lb/>Very faithfully yours,</salute>
+<signed><hi rend="underline">John Lynn</hi></signed></closer>
+        
+    
+        
+        
+        
+    
+         
+        <pb n="5851" facs="#L1916_2234_img_5851"/>
+        
+        
+           
+            <p>BIBLE 
+<lb/>AND
+<lb/> <hi rend="underline">BOOK DEPOT,</hi>
+<lb/>AGENCY
+<lb/> FOR
+<lb/> COLPORTAGE
+<lb/>THE SABBATH SCHOOL SOCIETY FOR IRELAND
+<lb/>BELFAST</p>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+            <pb n="5850" facs="#L1916_2234_img_5850"/>
+            <text type="envelope" decls="#corresp1">
+                <body> 
+                    <ab>
+                        <p>BIBLE 
+<lb/>AND
+<lb/> <hi rend="underline">BOOK DEPOT,</hi>
+<lb/>AGENCY
+<lb/> FOR
+<lb/> COLPORTAGE
+<lb/>THE SABBATH SCHOOL SOCIETY FOR IRELAND
+<lb/>BELFAST</p>
+                    </ab>
+                </body>
+            </text>
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

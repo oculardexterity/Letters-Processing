@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1356">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from James H. Hampton to Robert Chamers, 2 June 1916.</title>
+                
+                <author>James Hampton</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="RichardBreen">RichardBreen</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="AaronHoey">AaronHoey</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BarneyDoherty">Barney Doherty</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1356</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from  James H. Hampton (1858-1931) to Robert Chalmers (1858-1938), the under-secretary for Ireland. In the letter Hampton complains about receiving a Roman Catholic pastoral letter which was forwarded by the Chief Secretary's Office, despite the fact he is a member of the Church of Ireland. He goes on to state that considering the position of the Bishop of Limerick, Edward Thomas O'Dwyer (1842-1917) who openly supported the Rising, the government should not be forwarding such letters, or at least keep them within the Catholic community. He goes on to state that the issue will be brought to the House of Commons if it occurs again.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Sir Robert Chalmers was sent to Ireland as replacement under-secretary for Sir Matthew Nathan, who had resigned along with Augustine Birrell, his chief secretary, following the outbreak of the Easter Rising in 1916.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: National Archives of Ireland -->
+                        
+                        <repository ref="#NAI">National Archives of Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Chief Secretary&#39;s Office Registered Papers; CSO RP/1916/5612/9484
+                             
+                        -->
+                            
+                                <collection type='public'>Chief Secretary's Office Registered Papers</collection>
+                            
+                            
+                        <idno>CSO RP/1916/5612/9484</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Robert Chalmers  -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF RECIPIENT IS CORRECT --></VERIFY>
+                        
+                        <persName ref="#Chalmers_R">Sir Robert Chalmers</persName>
+                    
+                
+                
+                
+                    
+                    <!-- Normalised Place Found: 
+                    Dublin Castle 
+                    Dublin
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName  ref="#Dublin_Castle">Dublin Castle, Dublin, Ireland</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">James Hampton</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    Queenstown 
+                    Cork
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#Queenstown_Cork">Queenstown (Cobh), Cork, Ireland</placeName>
+                    
+                
+                    
+                    <date when="1916-06-02">2 June 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1931</item>
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                            <item n="tag">faith</item>
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-12-04T17:17:52" who="#AaronHoey">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-12-04T17:17:52" who="#BarneyDoherty">
+                
+                    Page 3541 modified:
+                    <!-- 
+<address>2 Merille
+Queenstown,
+</address>
+<date>2<hi rend="superscript">nd</hi> June 1916.</date>
+
+<salute>Sir,</salute>
+<p>
+<lb/>I received today from the Chief Secretary's Office 
+<lb/>a Pastoral letter on Thrift by the Roman Catholic 
+<lb/>Bishop of Meath. I have not read the Pastoral 
+<lb/>nor do I intend to do so. I consider that an 
+<lb/>unwarranted insult has been offered to me, as a 
+<lb/>clergyman of the Church of Ireland, in sending 
+<lb/>me a Pastoral by a Roman Catholic Bishop. 
+<lb/>I am especially since it was forwarded "On His Majesty's Service".
+<lb/>When I consider the attitude taken up by the Roman 
+<lb/>Catholic Bishop of Limerick with reference to the 
+<lb/>Sinn Fein <gap/>ation and the recent rebellion, one would imagine that His Majesty's Government would 
+<lb/>have something better to do than to send Roman Catholic 
+<lb/>Pastorals <gap/> throughout the country, and that 
+<lb/>they would at least confine them to the members of 
+<lb/>their own Communion. If any such literature is forwarded 
+<lb/>to me again, I shall take steps to have the matter raised 
+<lb/>in the House of Commons.
+
+<salute>Yours faithfully,</salute>
+<signed><hi rend="underline">James H. Hampton</hi></signed>
+
+<address>The Under Secretary for Ireland
+<lb/><hi rend="underline">Dublin Castle</hi></address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-07T22:33:46" who="#Tbrosnan">
+                
+                    Page 3541 modified:
+                    <!-- 
+<address>2 Merille
+Queenstown,
+</address>
+<date>2<hi rend="superscript">nd</hi> June 1916.</date>
+
+<salute>Sir,</salute>
+<p>
+<lb/>I received today from the Chief Secretary's Office 
+<lb/>a Pastoral letter on Thrift by the Roman Catholic 
+<lb/>Bishop of Meath. I have not read the Pastoral 
+<lb/>nor do I intend to do so. I consider that an 
+<lb/>unwarranted insult has been offered to me, as a 
+<lb/>clergyman of the Church of Ireland, in sending 
+<lb/>me a Pastoral by a Roman Catholic Bishop. 
+<lb/>I am especially since it was forwarded "On His Majesty's Service".
+<lb/>When I consider the attitude taken up by the Roman 
+<lb/>Catholic Bishop of Limerick with reference to the 
+<lb/>Sinn Fein <gap/>ation and the recent rebellion, one would imagine that His Majesty's Government would 
+<lb/>have something better to do than to send Roman Catholic 
+<lb/>Pastorals <gap/> throughout the country, and that 
+<lb/>they would at least confine them to the members of 
+<lb/>their own Communion. If any such literature is forwarded 
+<lb/>to me again, I shall take steps to have the matter raised 
+<lb/>in the House of Commons.
+
+<lb/><salute>Yours faithfully,</salute>
+<lb/><hi rend="underline">James H. Hampton</hi>
+
+<address>The Under Secretary for Ireland
+<lb/><hi rend="underline">Dublin Castle</hi></address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-07T22:35:31" who="#Tbrosnan">
+                
+                    Page 3541 modified:
+                    <!-- 
+<address>2 Merille
+Queenstown,
+</address>
+<date>2<hi rend="superscript">nd</hi> June 1916.</date>
+
+<salute>Sir,</salute>
+<p>
+<lb/>I received today from the Chief Secretary's Office 
+<lb/>a Pastoral letter on Thrift by the Roman Catholic 
+<lb/>Bishop of Meath. I have not read the Pastoral 
+<lb/>nor do I intend to do so. I consider that an 
+<lb/>unwarranted insult has been offered to me, as a 
+<lb/>clergyman of the Church of Ireland, in sending 
+<lb/>me a Pastoral by a Roman Catholic Bishop. 
+<lb/>I am especially since it was forwarded "On His Majesty's Service".
+<lb/>When I consider the attitude taken up by the Roman 
+<lb/>Catholic Bishop of Limerick with reference to the 
+<lb/>Sinn Fein <gap/>ation and the recent rebellion, one would imagine that His Majesty's Government would 
+<lb/>have something better to do than to send Roman Catholic 
+<lb/>Pastorals <gap/> throughout the country, and that 
+<lb/>they would at least confine them to the members of 
+<lb/>their own Communion. If any such literature is forwarded 
+<lb/>to me again, I shall take steps to have the matter raised 
+<lb/>in the House of Commons.
+
+<lb/><salute>Yours faithfully,</salute>
+<lb/><hi rend="underline">James H. Hampton</hi>
+
+<lb/><address>The Under Secretary for Ireland
+<lb/><hi rend="underline">Dublin Castle</hi></address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-07T22:37:02" who="#Tbrosnan">
+                
+                    Page 3541 modified:
+                    <!-- 
+<lb/><address>2 Merille
+<lb/>Queenstown,</address>
+<lb/><date>2<hi rend="superscript">nd</hi> June 1916.</date>
+
+<lb/><salute>Sir,</salute>
+
+<p>I received today from the Chief Secretary's Office 
+<lb/>a Pastoral letter on Thrift by the Roman Catholic 
+<lb/>Bishop of Meath. I have not read the Pastoral 
+<lb/>nor do I intend to do so. I consider that an 
+<lb/>unwarranted insult has been offered to me, as a 
+<lb/>clergyman of the Church of Ireland, in sending 
+<lb/>me a Pastoral by a Roman Catholic Bishop. 
+<lb/>I am especially since it was forwarded "On His Majesty's Service".
+<lb/>When I consider the attitude taken up by the Roman 
+<lb/>Catholic Bishop of Limerick with reference to the 
+<lb/>Sinn Fein <gap/>ation and the recent rebellion, one would imagine that His Majesty's Government would 
+<lb/>have something better to do than to send Roman Catholic 
+<lb/>Pastorals <gap/> throughout the country, and that 
+<lb/>they would at least confine them to the members of 
+<lb/>their own Communion. If any such literature is forwarded 
+<lb/>to me again, I shall take steps to have the matter raised 
+<lb/>in the House of Commons.</p>
+
+<lb/><salute>Yours faithfully,</salute>
+<lb/><hi rend="underline">James H. Hampton</hi>
+
+<lb/><address>The Under Secretary for Ireland
+<lb/><hi rend="underline">Dublin Castle</hi></address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T11:43:40" who="#RichardBreen">
+                
+                    Page 3541 modified:
+                    <!-- 
+<address>2 Merille
+<lb/>Queenstown,</address>
+<lb/><date>2<hi rend="superscript">nd</hi> June 1916.</date>
+
+<salute>Sir,</salute>
+
+<p>I received today from the Chief Secretary's Office 
+<lb/>a Pastoral letter on Thrift by the Roman Catholic 
+<lb/>Bishop of Meath. I have not read the Pastoral 
+<lb/>nor do I intend to do so. I consider that an 
+<lb/>unwarranted insult has been offered to me, as a 
+<lb/>clergyman of the Church of Ireland, in sending 
+<lb/>me a Pastoral by a Roman Catholic Bishop, 
+<lb/>I am especially since it was forwarded "On His Majesty's Service".
+<lb/>When I consider the attitude taken up by the Roman 
+<lb/>Catholic Bishop of Limerick with reference to the 
+<lb/>Sinn Fein <unclear>inflammation</unclear> and the recent rebellion, one 
+<lb/>would imagine that His Majesty's Government would 
+<lb/>have something better to do than to send Roman Catholic 
+<lb/>Pastorals <gap/> throughout the country, and that 
+<lb/>they would at least confine them to the members of 
+<lb/>their own Communion. If any such literature is forwarded 
+<lb/>to me again, I shall take steps to have the matter raised 
+<lb/>in the House of Commons.</p>
+
+<salute>Yours faithfully,</salute>
+<signed><hi rend="underline">James H. Hampton</hi></signed>
+
+<address>The Under Secretary for Ireland
+<lb/><hi rend="underline">Dublin Castle</hi></address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-18T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:51" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 3541 created using version from <date when="2015-12-04T17:17:52"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:51" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3541 removed (version from <date when="2015-12-04T17:17:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:51" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3541 removed (version from <date when="2015-12-07T22:33:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:51" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3541 removed (version from <date when="2015-12-07T22:35:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:51" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3541 removed (version from <date when="2015-12-07T22:37:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:51" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 3541 removed (version from <date when="2016-01-15T11:43:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 3541 (version from <date when="2016-01-18T13:58:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:22" who="#PythonScript">
+                
+                    Clean tags: Page 3541 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:25" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:31" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:37" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:32" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:39" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1356_img_3541" url="04d324c1521d677093c4ffed3e17e9d1.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="3541" facs="#L1916_1356_img_3541"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>2 Merille</addrLine>
+<addrLine>Queenstown,</addrLine></address>
+<dateline><date>2<hi rend="superscript">nd</hi> June 1916.</date></dateline>
+
+<salute>Sir,</salute></opener>
+
+<p>I received today from the Chief Secretary's Office 
+<lb/>a Pastoral letter on Thrift by the Roman Catholic 
+<lb/>Bishop of Meath. I have not read the Pastoral 
+<lb/>nor do I intend to do so. I consider that an 
+<lb/>unwarranted insult has been offered to me, as a 
+<lb/>clergyman of the Church of Ireland, in sending 
+<lb/>me a Pastoral by a Roman Catholic Bishop, 
+<lb/>I am especially since it was forwarded "On His Majesty's Service".
+<lb/>When I consider the attitude taken up by the Roman 
+<lb/>Catholic Bishop of Limerick with reference to the 
+<lb/>Sinn Fein <unclear>inflammation</unclear> and the recent rebellion, one 
+<lb/>would imagine that His Majesty's Government would 
+<lb/>have something better to do than to send Roman Catholic 
+<lb/>Pastorals <gap/> throughout the country, and that 
+<lb/>they would at least confine them to the members of 
+<lb/>their own Communion. If any such literature is forwarded 
+<lb/>to me again, I shall take steps to have the matter raised 
+<lb/>in the House of Commons.</p>
+
+<closer><salute>Yours faithfully,</salute>
+<signed><hi rend="underline">James H. Hampton</hi></signed>
+
+<address><addrLine>The Under Secretary for Ireland</addrLine>
+<addrLine><hi rend="underline">Dublin Castle</hi></addrLine></address></closer>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

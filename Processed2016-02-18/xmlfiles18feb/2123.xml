@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2123">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Dorothy Duffin to her mother, Maria Duffin, 30 March 1916</title>
+                
+                <author>Dorothy Duffin</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="LS">Linda Spinazzè</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="LisaT">LisaT</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Rosie17">Rosie17</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2123</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>This letter was written by Dorothy DuffIn (b. 1881) to her mother, Maria (1854–1954). In this letter Dorothy hopes that her sister Emma (1883–1979) has reached home. She writes that unless she gets a raise in pay at the Admiralty she will be in a net loss situation. She has been talking to a secretary in the War Office and has learned that pay and conditions there are much better but there aren't any vacancies at the moment. Despite the snow Dorothy hopes her mother will be able to visit in May.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>This letter is part of a rich correspondence between various members of the Duffin family, a large prosperous family that lived in Strandtown, Belfast. Several family members served in the war, including Major Terence Duffin, who was a staff officer with 107 Brigade, and later with Royal Irish Rifles; Major Charles G Duffin MC, Royal Field Artillery; and their sisters Emma, Celia and Dorothy who served as Voluntary Aid Detachments (VADS) in Egypt and France, and with the YMCA.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Duffin Papers, D2109/10/1/C/35
+                             
+                        -->
+                            
+                                <collection type='public'>Duffin Papers</collection>
+                            
+                            
+                        <idno>D2109/10/1/C/35</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <persName ref="MISSING">Maria Duffin</persName>
+                    
+                
+                
+                
+                    
+                    <placeName  ref="MISSING">Dunowen, Belfast, Ireland</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">Dorothy Duffin</persName>
+                    
+                
+                
+                 
+                    
+                    <placeName  ref="MISSING">Ardeevin, Epsom, England</placeName>
+                    
+                
+                    
+                    <date when="1916-03-30">30 March 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Female</item>
+                      
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                            
+                            <item n="tag">Family life</item>
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-05-10T17:20:23" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-10T17:20:23" who="#LisaT">
+                
+                    Page 5383 modified:
+                    <!-- 
+<gap/>
+<date>March 30th</date>
+<salute>Dearest Mamma</salute>
+<p> I do hope poor Emma has returned home! I have been thinking &amp;worrying about her being <gap/> and she <gap/> feel the cold so.
+We had a great meeting <gap/><gap/> 
+but she<gap/><gap/> all <gap/>&amp; but on visit to the Admiralty.I hope I've done the right thing. I don't know. But any way I am not bound to anything. I dread the start.I wish I would have had my visit to <gap/> first. I have found room (for a time anyway) by a strange chance at
+<address>152 Vauxhall Bishope Road London </address> </p>
+<p>I want to enquirwe at Alexandria Cairis Club, it was on St. Abtut 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-21T07:36:16" who="#Rosie17">
+                
+                    Page 5383 modified:
+                    <!-- 
+<gap/>
+<date>March 30th</date>
+<salute>Dearest Mamma</salute>
+<p> I do hope poor Emma has returned home! I have been thinking &amp;worrying about her being <gap/> and she <gap/> feel the cold so.
+We had a great meeting together<lb/> but she will tell you all that<lb/> &amp;<gap/> but on visit to the Admiralty<lb/>.I hope I've done the right thing.<lb/> I don't know. But any way I am not<lb/> bound to anything. I dread the start<lb/>.I wish I would have had my visit<lb/> to <gap/> first.<lb/> I have found rooms (for a time anyway) by a strange chance at
+<address>152 Vauxhall Bishope Road London </address>
+                             London<p>paragraph</p>
+<p>I went to enquire at Alexandria Cairis Club, it was on St. Abtut 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T09:21:38" who="#Tbrosnan">
+                
+                    Page 5383 modified:
+                    <!-- 
+<gap/>
+<date>March 30th</date>
+<salute>Dearest Mamma</salute>
+<p> I do hope poor Emma has returned home! I have been thinking &amp;worrying about her being <gap/> and she <gap/> feel the cold so.
+We had a great meeting together<lb/> but she will tell you all that<lb/> &amp; about our visit to the Admiralty<lb/>.I hope I've done the right thing.<lb/> I don't know. But any way I am not<lb/> bound to anything. I dread the start<lb/>.I wish I could have had my visit<lb/> to Eastbourne &amp; <gap/>first.<lb/> I have found rooms (for a time anyway) by a strange chance at <lb/><address>152 Vauxhall Bishope Road London </address> <p>I went to enquire at Alexandria Ladies Club,Grosvenor St about rooms,<lb/><gap/> a smart place.Not II feel<lb/>sure the place I intended. I saw<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T09:36:02" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T09:36:02" who="#Tbrosnan">
+                
+                    Page 5384 modified:
+                    <!-- 
+the Secretary who was pleasant and<lb/> said she had a friend upstairs who<lb/> might keep me. Down came a Mrs<lb/>R ONeill, widow of a Colonel R ONeill,<lb/>who said she was now living &amp; working<lb/>at the Club bt she had left<lb/>a friend, Miss Holmes at her<lb/>flat &amp; this fried was anxious<lb/>to find paying guests so as not have<lb/>to give it up. Already a girl<lb/> working at the Admiralty is there<lb/>&amp; one or two other ladies. After<lb/>much chat we came to terms ( I<lb/>think I must have looked pathetically<lb/> tired!) She said I will lodge<lb/>at the flat for a guinea a week &amp; have breakfast &amp; dinner there,<lb/> (also lunch on Sundays) bath, light<lb/> and <unclear>attendance.</unclear></p> <p>Her friend (Miss Holmes) was coming<lb/>to tea with her at the Club, <unclear>and</unclear><lb/>she gave me a note to the maid<lb/>&amp; I went off &amp; saw the place. It 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T09:36:09" who="#Tbrosnan">
+                
+                    Page 5384 modified:
+                    <!-- 
+the Secretary who was pleasant and<lb/> said she had a friend upstairs who<lb/> might keep me. Down came a Mrs<lb/>R ONeill, widow of a Colonel R ONeill,<lb/>who said she was now living &amp; working<lb/>at the Club bt she had left<lb/>a friend, Miss Holmes at her<lb/>flat &amp; this fried was anxious<lb/>to find paying guests so as not have<lb/>to give it up. Already a girl<lb/> working at the Admiralty is there<lb/>&amp; one or two other ladies. After<lb/>much chat we came to terms ( I<lb/>think I must have looked pathetically<lb/> tired!) She said I will lodge<lb/>at the flat for a guinea a week &amp; have breakfast &amp; dinner there,<lb/> (also lunch on Sundays) bath, light<lb/> and <unclear>attendance.</unclear></p> <p>Her friend (Miss Holmes) was coming<lb/>to tea with her at the Club, <unclear>and</unclear><lb/>she gave me a note to the maid<lb/>&amp; I went off &amp; saw the place. It<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T09:52:10" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T09:52:10" who="#Tbrosnan">
+                
+                    Page 5385 modified:
+                    <!-- 
+is near  Victoria station &amp; convenient to<lb/> Whitehall - quite a pleasant house,<lb/>with a nice drawing room, flowers<lb/>and bright fire, quite nice bedrooms<lb/> &amp; a cheerful maid.<lb/>Well - I've heard from Miss Holmes,<lb/>&amp; I go there on Saturday. I shall<lb/> lunch with the <unclear>MacLeods</unclear> &amp; probably <lb/>meet Celia in the evenng, &amp; start<lb/>work on Monday. It seems a<lb/> promising venture but I doubt if<lb/>she'll keep me long on those terms.26/- was asked even so with<lb/>washing, lunching out etc, I calculate<lb/> I shall be losing at least 10/- a week! If there is<lb/> no rise I can't stay at the Admiralty<lb/> - however they may <unclear>chuck</unclear> me! </p> <p> I interviewed as Secretary at the new<lb/>War office place - the pay and hours were<lb/>better there but no immediate<lb/>vacancy. The Secretary said I<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T10:03:32" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T10:03:32" who="#Tbrosnan">
+                
+                    Page 5386 modified:
+                    <!-- 
+should do much better </p><p>I'm sure you are delighted to<lb/> have Emma. I feel I did not <lb/>half see her - everything was so<lb/>rushed</p><p>I've been all over London lately -<lb/> between looking for jobs &amp; lodgings.<lb/>Bedford House was quite full<lb/>up.</p><p>Annie <unclear>Hollins</unclear> turned up here last<lb/>night 6 hours late because of <lb/>the snow which make me fear for<lb/>Emma. She has been babbling<lb/>ever since!</p><p>I trust that now you will come over in <lb/>May &amp; see me &amp; Annie F.<lb/>Best love Dear- I won't have<lb/>much time for letters when I start<lb/>work! <salute>Your loving Dussie</salute><lb/>Best love to Papa.<lb/> I hope he keeps well.<lb/>I didn't expect to be away so long when<lb/>I left home! 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-25T10:04:08" who="#Tbrosnan">
+                
+                    Page 5385 modified:
+                    <!-- 
+is near  Victoria station &amp; convenient to<lb/> Whitehall - quite a pleasant house,<lb/>with a nice drawing room, flowers<lb/>and bright fire, quite nice bedrooms<lb/> &amp; a cheerful maid.<lb/>Well - I've heard from Miss Holmes,<lb/>&amp; I go there on Saturday. I shall<lb/> lunch with the <unclear>MacLeods</unclear> &amp; probably <lb/>meet Celia in the evenng, &amp; start<lb/>work on Monday. It seems a<lb/> promising venture but I doubt if<lb/>she'll keep me long on those terms.26/- was asked even so with<lb/>washing, lunching out etc, I calculate<lb/> I shall be losing at least 10/- a week! If there is<lb/> no rise I can't stay at the Admiralty<lb/> - however they may <unclear>chuck</unclear> me! </p> <p> I interviewed a Secretary at the new<lb/>War office place - the pay and hours were<lb/>better there but no immediate<lb/>vacancy. The Secretary said I<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-28T21:20:40" who="#LisaT">
+                
+                    Page 5384 modified:
+                    <!-- 
+the Secretary who was pleasant and<lb/> said she had a friend upstairs who<lb/> might keep me. Down came a Mrs<lb/>R ONeill, widow of a Colonel R ONeill,<lb/>who said she was now living &amp; working<lb/>at the Club bt she had left<lb/>a friend, Miss Holmes at her<lb/>flat &amp; this fried was anxious<lb/>to find paying guests so as not have<lb/>to give it up. Already a girl<lb/> working at the Admiralty is there<lb/>&amp; one or two other ladies. After<lb/>much chat we came to terms ( I<lb/>think I must have looked pathetically<lb/> tired!) She said I will lodge<lb/>at the flat for a guinea a week &amp; have breakfast &amp; dinner there,<lb/> (also lunch on Sundays) bath, light<lb/> and <unclear>attendance.</unclear></p> <p>Her friend (Miss Holmes) was coming<lb/>to tea with her at the Club, <unclear>and</unclear><lb/>she gave me a note to the maid<lb/>&amp; I went off &amp; saw the place. It<pb/>
+<p>The secretary who was pleasant and said had a friend</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-07-16T12:50:51" who="#LS">
+                
+                    Page 5384 modified:
+                    <!-- 
+the Secretary who was pleasant and<lb/> said she had a friend upstairs who<lb/> might keep me. Down came a Mrs<lb/>R ONeill, widow of a Colonel R ONeill,<lb/>who said she was now living &amp; working<lb/>at the Club bt she had left<lb/>a friend, Miss Holmes at her<lb/>flat &amp; this fried was anxious<lb/>to find paying guests so as not have<lb/>to give it up. Already a girl<lb/> working at the Admiralty is there<lb/>&amp; one or two other ladies. After<lb/>much chat we came to terms ( I<lb/>think I must have looked pathetically<lb/> tired!) She said I will lodge<lb/>at the flat for a guinea a week &amp; have breakfast &amp; dinner there,<lb/> (also lunch on Sundays) bath, light<lb/> and <unclear>attendance.</unclear></p> <p>Her friend (Miss Holmes) was coming<lb/>to tea with her at the Club, <unclear>and</unclear><lb/>she gave me a note to the maid<lb/>&amp; I went off &amp; saw the place. It<pb/>
+</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T15:26:20" who="#LS">
+                
+                    Page 5383 modified:
+                    <!-- 
+<address>"Ardeevin"</address>
+<date>March 30th</date>
+<salute>Dearest Mamma</salute>
+<p> I do hope poor Emma<lb/>
+ has returned home! I have been thinking<lb/>
+ &amp; worrying about her being <gap/> <lb/>
+and she would feel the cold so.</p>
+<p>We had a great meeting together<lb/> 
+but she will tell you all that<lb/> 
+&amp; about our visit to the Admiralty<lb/>.</p>
+<p>I hope I've done the right thing.<lb/> 
+I don't know. But any way I am not<lb/> 
+bound to anything. I dread the start.<lb/>
+I wish I could have had my visit<lb/> 
+to Eastbourne &amp; <gap/> first.</p>
+<p>I have found rooms (for a time anyway)<lb/>
+ by a strange chance at <lb/>
+152 Vauxhall Bishope Road London</p> 
+<p>I went to enquire at Alexandria<lb/>
+ Ladies Club, Grosvenor St about rooms,<lb/>
+<gap/> a smart place. Not II feel<lb/>
+sure the place I intended. I saw<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T15:31:06" who="#LS">
+                
+                    Page 5384 modified:
+                    <!-- 
+the Secretary who was pleasant and<lb/>
+ said she had a friend upstairs who<lb/>
+ might keep me. Down came a Mrs<lb/>
+R ONeill, widow of a Colonel R ONeill,<lb/>
+who said she was now living &amp; working<lb/>
+at the Club but she had left<lb/>
+a friend, Miss Holmes at her<lb/>
+flat &amp; this friend was anxious<lb/>
+to find paying guests so as not have<lb/>
+to give it up. Already a girl<lb/> 
+working at the Admiralty is there<lb/>
+&amp; one or two other ladies. After<lb/>
+much chat we came to terms ( I<lb/>
+think I must have looked pathetically<lb/> 
+tired!) She said I will lodge<lb/>
+at the flat for a guinea a week<lb/>
+ &amp; have breakfast &amp; dinner there,<lb/> 
+(also lunch on Sundays) bath, light<lb/>
+ and <unclear>attendance.</unclear></p>
+<p>Her friend (Miss Holmes) was coming<lb/>
+to tea with her at the Club, <unclear>and</unclear><lb/>
+she gave me a note to the maid<lb/>
+&amp; I went off &amp; saw the place. It<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T15:38:27" who="#LS">
+                
+                    Page 5385 modified:
+                    <!-- 
+is near  Victoria station &amp; convenient to<lb/>
+ Whitehall - quite a pleasant house,<lb/>
+with a nice drawing room, flowers<lb/>
+and bright fire, quite nice bedrooms<lb/> 
+&amp; a cheerful maid.<lb/>
+Well &#x2014; I've heard from Miss Holmes,<lb/>
+&amp; I go there on Saturday. I shall<lb/> 
+lunch with the <unclear>MacLeods</unclear> &amp; probably <lb/>
+meet Celia in the evening, &amp; start<lb/>
+work on Monday. It seems a<lb/> 
+promising venture but I doubt if<lb/>
+she'll keep me long on those terms.<lb/>
+26/&#x2014; was asked even so with<lb/>
+washing, lunching out etc, I calculate<lb/> 
+I shall be losing at least 10/&#x2014; a week! If there is<lb/>
+ no rise I can't stay at the Admiralty<lb/> 
+&#x2014; however they may <unclear>chuck</unclear> me! </p> 
+<p> I interviewed a Secretary at the new<lb/>
+War office place &#x2014;
+ the pay and hours were<lb/>
+better there but no immediate<lb/>
+vacancy. The Secretary said I<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T15:44:37" who="#LS">
+                
+                    Page 5386 modified:
+                    <!-- 
+should do much better </p>
+<p>I'm sure you are delighted to<lb/>
+ have Emma. I feel I did not <lb/>
+half see her - everything was so<lb/>rushed</p>
+<p>I've been all over London lately <lb/> 
+between looking for jobs &amp; lodgings.<lb/>
+Bedford House was quite full<lb/>
+up.</p>
+<p>Annie <unclear>Hollins</unclear> turned up here last<lb/>
+night 6 hours late because of <lb/>
+the snow which make me fear for<lb/>
+Emma. She has been babbling<lb/>
+ever since!</p>
+<p>I trust that now you will come over in <lb/>
+May &amp; see me &amp; Annie F.</p>
+<p>Best love Dear- I won't have<lb/>
+much time for letters when I start<lb/>
+work!</p>
+<salute>Your loving Dussie<lb/>Best love to Papa.</salute>
+<note>I hope he keeps well.<lb/>
+I didn't expect to be away so long when<lb/>
+I left home!</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T14:30:14" who="#NR">
+                
+                    Page 5383 modified:
+                    <!-- 
+<address>"Ardeevin"</address>
+<date>March 30th</date>
+<salute>Dearest Mamma</salute>
+<p> I do hope poor Emma<lb/>
+ has returned home! I have been thinking<lb/>
+ &amp; worrying about her being <unclear>showered</unclear> <lb/>
+and she would feel the cold so.</p>
+<p>We had a great meeting together<lb/> 
+but she will tell you all that<lb/> 
+&amp; about our visit to the Admiralty.</p>
+<p>I hope I've done the right thing.<lb/> 
+I don't know. But any way I am not<lb/> 
+bound to anything. I dread the start.<lb/>
+I wish I could have had my visit<lb/> 
+to Eastbourne &amp; <unclear>Winchester</unclear> first.</p>
+<p>I have found rooms (for a time anyway)<lb/>
+ by a strange chance at <lb/>
+152 Vauxhall Bishope Road London</p> 
+<p>I went to enquire at Alexandria<lb/>
+ Ladies Club, Grosvenor St about rooms,<lb/>
+quite a smart place. Not II feel<lb/>
+sure the place I intended. I saw 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T14:30:38" who="#NR">
+                
+                    Page 5384 modified:
+                    <!-- 
+the Secretary who was pleasant and<lb/>
+ said she had a friend upstairs who<lb/>
+ might keep me. Down came a Mrs<lb/>
+R ONeill, widow of a Colonel R ONeill,<lb/>
+who said she was now living &amp; working<lb/>
+at the Club but she had left<lb/>
+a friend, Miss Holmes at her<lb/>
+flat &amp; this friend was anxious<lb/>
+to find paying guests so as not have<lb/>
+to give it up. Already a girl<lb/> 
+working at the Admiralty is there<lb/>
+&amp; one or two other ladies. After<lb/>
+much chat we came to terms ( I<lb/>
+think I must have looked pathetically<lb/> 
+tired!) She said I will lodge<lb/>
+at the flat for a guinea a week<lb/>
+ &amp; have breakfast &amp; dinner there,<lb/> 
+(also lunch on Sundays) bath, light<lb/>
+ and <unclear>attendance.</unclear></p>
+<p>Her friend (Miss Holmes) was coming<lb/>
+to tea with her at the Club, <unclear>and</unclear><lb/>
+she gave me a note to the maid<lb/>
+&amp; I went off &amp; saw the place. It 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T14:33:06" who="#NR">
+                
+                    Page 5386 modified:
+                    <!-- 
+should do much better </p>
+<p>I'm sure you are delighted to<lb/>
+ have Emma. I feel I did not <lb/>
+half see her - everything was so<lb/>rushed</p>
+<p>I've been all over London lately <lb/> 
+between looking for jobs &amp; lodgings.<lb/>
+Bedford House was quite full<lb/>
+up.</p>
+<p>Annie <unclear>Hollins</unclear> turned up here last<lb/>
+night 6 hours late because of <lb/>
+the snow which make me fear for<lb/>
+Emma. She has been babbling<lb/>
+ever since!</p>
+<p>I trust that now you will come over in <lb/>
+May &amp; see me &amp; Annie F.</p>
+<p>Best love Dear- I won't have<lb/>
+much time for letters when I start<lb/>
+work!</p>
+<salute>Your loving</salute>
+<signed> Dussie</signed>
+<note>Best love to Papa.<lb/>
+I hope he keeps well.<lb/>
+I didn't expect to be away so long when<lb/>
+I left home!</note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5385 created using version from <date when="2015-05-25T09:52:10"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5385 removed (version from <date when="2015-05-25T09:52:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5385 removed (version from <date when="2015-05-25T10:04:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5385 removed (version from <date when="2016-01-29T15:38:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5386 created using version from <date when="2015-05-25T10:03:32"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5386 removed (version from <date when="2015-05-25T10:03:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5386 removed (version from <date when="2016-01-29T15:44:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5386 removed (version from <date when="2016-02-03T14:33:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5383 created using version from <date when="2015-05-10T17:20:23"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5383 removed (version from <date when="2015-05-10T17:20:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5383 removed (version from <date when="2015-05-21T07:36:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5383 removed (version from <date when="2015-05-25T09:21:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5383 removed (version from <date when="2016-01-29T15:26:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5383 removed (version from <date when="2016-02-03T14:30:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5384 created using version from <date when="2015-05-25T09:36:02"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5384 removed (version from <date when="2015-05-25T09:36:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5384 removed (version from <date when="2015-05-25T09:36:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5384 removed (version from <date when="2015-05-28T21:20:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5384 removed (version from <date when="2015-07-16T12:50:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5384 removed (version from <date when="2016-01-29T15:31:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:59" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5384 removed (version from <date when="2016-02-03T14:30:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 5385 (version from <date when="2016-02-03T14:31:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5386 added to letter (version from <date when="2016-02-03T14:33:07"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5383 added to letter (version from <date when="2016-02-03T14:30:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5384 added to letter (version from <date when="2016-02-03T14:30:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:19" who="#PythonScript">
+                
+                    Clean tags: Page 5384 cleaned of 7 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:19" who="#PythonScript">
+                
+                    Clean tags: Page 5385 cleaned of 10 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:19" who="#PythonScript">
+                
+                    Clean tags: Page 5386 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:19" who="#PythonScript">
+                
+                    Clean tags: Page 5383 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:25" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:30" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:35" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:16" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:16" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2123_img_5383" url="6ee860200451775fc576848155f321ea.jpg"/> 
+    
+    <graphic xml:id="L1916_2123_img_5384" url="0622142c57916ee8f79cd1c2301528b3.jpg"/> 
+    
+    <graphic xml:id="L1916_2123_img_5385" url="84e182a9a4875da4279491e5b81bbed8.jpg"/> 
+    
+    <graphic xml:id="L1916_2123_img_5386" url="65a07edfaf424962080ed60e21e47120.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="5383" facs="#L1916_2123_img_5383"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>"Ardeevin"</addrLine></address>
+<dateline><date>March 30th</date></dateline>
+<salute>Dearest Mamma</salute></opener>
+<p> I do hope poor Emma<lb/>
+ has returned home! I have been thinking<lb/>
+ &amp; worrying about her being <unclear>showered</unclear> <lb/>
+and she would feel the cold so.</p>
+<p>We had a great meeting together<lb/> 
+but she will tell you all that<lb/> 
+&amp; about our visit to the Admiralty.</p>
+<p>I hope I've done the right thing.<lb/> 
+I don't know. But any way I am not<lb/> 
+bound to anything. I dread the start.<lb/>
+I wish I could have had my visit<lb/> 
+to Eastbourne &amp; <unclear>Winchester</unclear> first.</p>
+<p>I have found rooms (for a time anyway)<lb/>
+ by a strange chance at <lb/>
+152 Vauxhall Bishope Road London</p> 
+<p>I went to enquire at Alexandria<lb/>
+ Ladies Club, Grosvenor St about rooms,<lb/>
+quite a smart place. Not II feel<lb/>
+sure the place I intended. I saw
+        
+    
+
+    
+         
+        <pb n="5384" facs="#L1916_2123_img_5384"/>
+        
+        
+           
+            the Secretary who was pleasant and<lb/>
+ said she had a friend upstairs who<lb/>
+ might keep me. Down came a Mrs<lb/>
+R ONeill, widow of a Colonel R ONeill,<lb/>
+who said she was now living &amp; working<lb/>
+at the Club but she had left<lb/>
+a friend, Miss Holmes at her<lb/>
+flat &amp; this friend was anxious<lb/>
+to find paying guests so as not have<lb/>
+to give it up. Already a girl<lb/> 
+working at the Admiralty is there<lb/>
+&amp; one or two other ladies. After<lb/>
+much chat we came to terms ( I<lb/>
+think I must have looked pathetically<lb/> 
+tired!) She said I will lodge<lb/>
+at the flat for a guinea a week<lb/>
+ &amp; have breakfast &amp; dinner there,<lb/> 
+(also lunch on Sundays) bath, light<lb/>
+ and <unclear>attendance.</unclear></p>
+<p>Her friend (Miss Holmes) was coming<lb/>
+to tea with her at the Club, <unclear>and</unclear><lb/>
+she gave me a note to the maid<lb/>
+&amp; I went off &amp; saw the place. It
+        
+    
+         
+        <pb n="5385" facs="#L1916_2123_img_5385"/>
+        
+        
+           
+            is near  Victoria station &amp; convenient to<lb/>
+ Whitehall - quite a pleasant house,<lb/>
+with a nice drawing room, flowers<lb/>
+and bright fire, quite nice bedrooms<lb/> 
+&amp; a cheerful maid.<lb/>
+Well &#x2014; I've heard from Miss Holmes,<lb/>
+&amp; I go there on Saturday. I shall<lb/> 
+lunch with the <unclear>MacLeods</unclear> &amp; probably <lb/>
+meet Celia in the evening, &amp; start<lb/>
+work on Monday. It seems a<lb/> 
+promising venture but I doubt if<lb/>
+she'll keep me long on those terms.<lb/>
+26/&#x2014; was asked even so with<lb/>
+washing, lunching out etc, I calculate<lb/> 
+I shall be losing at least 10/&#x2014; a week! If there is<lb/>
+ no rise I can't stay at the Admiralty<lb/> 
+&#x2014; however they may <unclear>chuck</unclear> me! </p> 
+<p> I interviewed a Secretary at the new<lb/>
+War office place &#x2014;
+ the pay and hours were<lb/>
+better there but no immediate<lb/>
+vacancy. The Secretary said I<pb/>
+        
+    
+         
+        <pb n="5386" facs="#L1916_2123_img_5386"/>
+        
+        
+           
+            should do much better </p>
+<p>I'm sure you are delighted to<lb/>
+ have Emma. I feel I did not <lb/>
+half see her - everything was so<lb/>rushed</p>
+<p>I've been all over London lately <lb/> 
+between looking for jobs &amp; lodgings.<lb/>
+Bedford House was quite full<lb/>
+up.</p>
+<p>Annie <unclear>Hollins</unclear> turned up here last<lb/>
+night 6 hours late because of <lb/>
+the snow which make me fear for<lb/>
+Emma. She has been babbling<lb/>
+ever since!</p>
+<p>I trust that now you will come over in <lb/>
+May &amp; see me &amp; Annie F.</p>
+<p>Best love Dear- I won't have<lb/>
+much time for letters when I start<lb/>
+work!</p>
+<closer><salute>Your loving</salute>
+<signed> Dussie</signed></closer>
+<note>Best love to Papa.<lb/>
+I hope he keeps well.<lb/>
+I didn't expect to be away so long when<lb/>
+I left home!</note>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

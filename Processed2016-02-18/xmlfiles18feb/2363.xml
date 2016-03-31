@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2363">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter to the Charitable People of America, 22 July 1916</title>
+                
+                <author>MISSING</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="AIHSArchives">AIHS Archives</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2363</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter addressed to the Charitable people of America. The letter pleas for the provision of relief to those who were affected by the Easter Rising. The letter quotes Reverend Richard Bowden, the administrator of the Pro Cathedral, who remained trapped in the cathedral for three days during Easter Week along with some forty refugees. </p>
+                            
+                        
+                            
+                        
+                            
+                            <p>This letter may have been addressed from the Irish Relief Bazaar or the Friends of Irish Freedom, an Irish-American Republican organisation that raised funds for the Easter Rising.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: The American Irish Historical Society -->
+                        
+                        <repository ref="#AIHS">The American Irish Historical Society</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: FOIF0304a
+                             
+                        -->
+                            
+                                <collection type='public'>FOIF0304a</collection>
+                            
+                            
+                        <idno>FOIF0304a</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    <persName ref="MISSING">MISSING</persName>
+                
+                
+                
+                    
+                    <placeName  ref="MISSING">United States</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    <persName ref="MISSING">MISSING</persName>
+                
+                
+                
+                    
+                    <date when="1916-07-22">22 July 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2016-01-18T11:50:57" who="#AIHSArchives">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2016-01-18T11:50:57" who="#Tbrosnan">
+                
+                    Page 6234 modified:
+                    <!-- 
+TO THE CHARITABLE PEOPLE OF AMERICA
+<p>The terrible scourge of war, which has devastated so many countries of Europe, has fallen
+<lb/>with fury upon Ireland, At the present moment the Irish Capitol and other cities and 
+<lb/>towns are largely in ruins. In the language of a Relief Committee, headed by Reverend
+<lb/>Richard Bowden, Administrator of the Dublin Pro-Cathedral,   "300 during the insurrection,
+<lb/>15 were executed b y Courts-martial, 134 have been condemned to penal servitude, 2650
+<lb/>were deported without trial, and 400 await sentence by Courts-martial." </p>
+<p>All these calamities have produced a suspension of industry and reduced to idleness 
+<lb/>practically the entire labouring population of Dublin and other places.</p>
+<p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-18T11:59:48" who="#Tbrosnan">
+                
+                    Page 6234 modified:
+                    <!-- 
+TO THE CHARITABLE PEOPLE OF AMERICA
+<p>The terrible scourge of war, which has devastated so many countries of Europe, has fallen
+<lb/>with fury upon Ireland, At the present moment the Irish Capitol and other cities and 
+<lb/>towns are largely in ruins. In the language of a Relief Committee, headed by Reverend
+<lb/>Richard Bowden, Administrator of the Dublin Pro-Cathedral,   "300 during the insurrection,
+<lb/>15 were executed b y Courts-martial, 134 have been condemned to penal servitude, 2650
+<lb/>were deported without trial, and 400 await sentence by Courts-martial." </p>
+<p>All these calamities have produced a suspension of industry and reduced to idleness 
+<lb/>practically the entire labouring population of Dublin and other places.</p>
+<p> Under any conditions, the families of those who were killed or taken captive would be
+<lb/>reduced to misery. But owning to the cessation of industry those who might be expected to relieve
+<lb/>them are themselves rendered destitute and this distress, growing every hour more acute,
+<lb/>must end, unless some relief be afforded, in total starvation of may and grievous suffering by
+<lb/>all that sorely afflicted populace.</p>
+<p>To relieve the families of those massacred and slain, as well as of those who are actually
+<lb/>starving or in danger of starvation, a fund is being raised, and this Committee appeals to 
+<lb/>the whole body of the American people for contributions to aid this object, which is purely
+<lb/>humanitarian and charitable.</p>
+<p>In the language of the Committee in Ireland, " we make our appeal to all human hearts,
+<lb/>whose noble compassion can reach over every obstacle to redress wrongs and alleviate suffering,
+<lb/>that they may co-operate in this merciful and righteous work, For the sake of our country we
+<lb/>make it, of our Nation's honor, and of our own, so that its high repute for justice shall be
+<lb/>transmitted by our generation unsullied to future and happier times."</p>
+<lb/>New York, July 22, 1916 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-18T12:00:52" who="#Tbrosnan">
+                
+                    Page 6234 modified:
+                    <!-- 
+TO THE CHARITABLE PEOPLE OF AMERICA
+<p>The terrible scourge of war, which has devastated so many countries of Europe, has fallen
+<lb/>with fury upon Ireland, At the present moment the Irish Capitol and other cities and 
+<lb/>towns are largely in ruins. In the language of a Relief Committee, headed by Reverend
+<lb/>Richard Bowden, Administrator of the Dublin Pro-Cathedral,   "300 were slain during the insurrection,
+<lb/>15 were executed by Courts-martial, 134 have been condemned to penal servitude, 2650
+<lb/>were deported without trial, and 400 await sentence by Courts-martial." </p>
+<p>All these calamities have produced a suspension of industry and reduced to idleness 
+<lb/>practically the entire labouring population of Dublin and other places.</p>
+<p> Under any conditions, the families of those who were killed or taken captive would be
+<lb/>reduced to misery. But owning to the cessation of industry those who might be expected to relieve
+<lb/>them are themselves rendered destitute and this distress, growing every hour more acute,
+<lb/>must end, unless some relief be afforded, in total starvation of may and grievous suffering by
+<lb/>all that sorely afflicted populace.</p>
+<p>To relieve the families of those massacred and slain, as well as of those who are actually
+<lb/>starving or in danger of starvation, a fund is being raised, and this Committee appeals to 
+<lb/>the whole body of the American people for contributions to aid this object, which is purely
+<lb/>humanitarian and charitable.</p>
+<p>In the language of the Committee in Ireland, " we make our appeal to all human hearts,
+<lb/>whose noble compassion can reach over every obstacle to redress wrongs and alleviate suffering,
+<lb/>that they may co-operate in this merciful and righteous work, For the sake of our country we
+<lb/>make it, of our Nation's honor, and of our own, so that its high repute for justice shall be
+<lb/>transmitted by our generation unsullied to future and happier times."</p>
+<lb/>New York, July 22, 1916 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T14:25:17" who="#NR">
+                
+                    Page 6234 modified:
+                    <!-- 
+<lb/>TO THE CHARITABLE PEOPLE OF AMERICA
+<p>The terrible scourge of war, which has devastated so many countries of Europe, has fallen
+<lb/>with fury upon Ireland, At the present moment the Irish Capitol and other cities and 
+<lb/>towns are largely in ruins. In the language of a Relief Committee, headed by Reverend
+<lb/>Richard Bowden, Administrator of the Dublin Pro-Cathedral,   "300 were slain during the insurrection,
+<lb/>15 were executed by Courts-martial, 134 have been condemned to penal servitude, 2650
+<lb/>were deported without trial, and 400 await sentence by Courts-martial." </p>
+<p>All these calamities have produced a suspension of industry and reduced to idleness 
+<lb/>practically the entire labouring population of Dublin and other places.</p>
+<p> Under any conditions, the families of those who were killed or taken captive would be
+<lb/>reduced to misery. But owning to the cessation of industry those who might be expected to relieve
+<lb/>them are themselves rendered destitute and this distress, growing every hour more acute,
+<lb/>must end, unless some relief be afforded, in total starvation of may and grievous suffering by
+<lb/>all that sorely afflicted populace.</p>
+<p>To relieve the families of those massacred and slain, as well as of those who are actually
+<lb/>starving or in danger of starvation, a fund is being raised, and this Committee appeals to 
+<lb/>the whole body of the American people for contributions to aid this object, which is purely
+<lb/>humanitarian and charitable.</p>
+<p>In the language of the Committee in Ireland, " we make our appeal to all human hearts,
+<lb/>whose noble compassion can reach over every obstacle to redress wrongs and alleviate suffering,
+<lb/>that they may co-operate in this merciful and righteous work, For the sake of our country we
+<lb/>make it, of our Nation's honor, and of our own, so that its high repute for justice shall be
+<lb/>transmitted by our generation unsullied to future and happier times."</p>
+<lb/>New York, <date>July 22, 1916</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6234 created using version from <date when="2016-01-18T11:50:57"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6234 removed (version from <date when="2016-01-18T11:50:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6234 removed (version from <date when="2016-01-18T11:59:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6234 removed (version from <date when="2016-01-18T12:00:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6234 removed (version from <date when="2016-01-20T14:25:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 6234 (version from <date when="2016-01-20T14:25:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 6234 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:29" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:34" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:04" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:04" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2363_img_6234" url="1d0ef81905a290f0d732cc8f0e9a9d8c.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="6234" facs="#L1916_2363_img_6234"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<lb/>TO THE CHARITABLE PEOPLE OF AMERICA
+<p>The terrible scourge of war, which has devastated so many countries of Europe, has fallen
+<lb/>with fury upon Ireland, At the present moment the Irish Capitol and other cities and 
+<lb/>towns are largely in ruins. In the language of a Relief Committee, headed by Reverend
+<lb/>Richard Bowden, Administrator of the Dublin Pro-Cathedral,   "300 were slain during the insurrection,
+<lb/>15 were executed by Courts-martial, 134 have been condemned to penal servitude, 2650
+<lb/>were deported without trial, and 400 await sentence by Courts-martial." </p>
+<p>All these calamities have produced a suspension of industry and reduced to idleness 
+<lb/>practically the entire labouring population of Dublin and other places.</p>
+<p> Under any conditions, the families of those who were killed or taken captive would be
+<lb/>reduced to misery. But owning to the cessation of industry those who might be expected to relieve
+<lb/>them are themselves rendered destitute and this distress, growing every hour more acute,
+<lb/>must end, unless some relief be afforded, in total starvation of may and grievous suffering by
+<lb/>all that sorely afflicted populace.</p>
+<p>To relieve the families of those massacred and slain, as well as of those who are actually
+<lb/>starving or in danger of starvation, a fund is being raised, and this Committee appeals to 
+<lb/>the whole body of the American people for contributions to aid this object, which is purely
+<lb/>humanitarian and charitable.</p>
+<p>In the language of the Committee in Ireland, " we make our appeal to all human hearts,
+<lb/>whose noble compassion can reach over every obstacle to redress wrongs and alleviate suffering,
+<lb/>that they may co-operate in this merciful and righteous work, For the sake of our country we
+<lb/>make it, of our Nation's honor, and of our own, so that its high repute for justice shall be
+<lb/>transmitted by our generation unsullied to future and happier times."</p>
+<lb/>New York, <opener><dateline><date>July 22, 1916</date></dateline></opener>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

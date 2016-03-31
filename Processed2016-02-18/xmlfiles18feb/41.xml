@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_41">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from John Burns to Lady Clonbrock</title>
+                
+                <author>John Burns</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Smorris">Smorris</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Macgearc">Macgearc</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tammysellner">Tammysellner</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Hiszafer">Hiszafer</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BarneyDoherty">Barney Doherty</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_41</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A postcard from prisoner of war, John Burns, to lady Clonbrock (1839-1928). Burns thanks Lady Clonbrock for parcels regularly sent to him at Limburg (Lahn). </p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Augusta Caroline Dillon (née Crofton) was the wife of Luke Gerald Dillon (1834-1917), the 4th Baron of Clonbrock, Co. Galway and the daughter of Lord Crofton of Mote Park (Edward Henry Churchill Crofton, 3rd Baron), Co. Roscommon. Aged 75 at the outbreak of war, Lady Clonbrock, worked closely with the Irish Women's Association to send basic necessities to Irish POWs. Many of her care packages went to members of the Connaught Rangers imprisoned in Limburg near Cologne.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: National Library of Ireland -->
+                        
+                        <repository ref="#NLI">National Library of Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: NLI Collection List No 54
+                             
+                        -->
+                            
+                                <collection type='public'>NLI Collection List No 54</collection>
+                            
+                            
+                        <idno>NLI Collection List No 54</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Lady Clonbrock -->
+                        
+                        <persName ref="#Dillon_A_C">Lady Clonbrock</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">John Burns</persName>
+                    
+                
+                
+                 
+                    
+                    <placeName  ref="MISSING">Limburg (Lahn), Germany</placeName>
+                    
+                
+                    
+                    <date when="1916-04-30">30 April 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2013-09-28T14:03:58" who="#NULL">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-09-28T14:03:58" who="#Macgearc">
+                
+                    Page 61 modified:
+                    <!-- 
+To say, at present hoping to hear from you soon again in remberance of an old comrade.
+3036- J. Burns 
+2. Battalion 
+The Connaught Rgrs. Limburg Lahn, 
+Germany 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-09-28T14:05:13" who="#Macgearc">
+                
+                    Page 61 modified:
+                    <!-- 
+To say, at present hoping to hear from you soon again in rem[em]berance of an old comrade.
+3036- J. Burns 
+2. Battalion 
+The Connaught Rgrs. Limburg Lahn, 
+Germany 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-11-13T17:41:14" who="#NULL">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-11-13T17:41:14" who="#Tammysellner">
+                
+                    Page 59 modified:
+                    <!-- 
+Prisoner of War Camp
+April 30, 1916
+
+This is my address:
+Prisoner of War
+Name:  30-36-John Burns      Regt. No. 3036
+6        Comp: b 3atl      Gef.  No. 554
+
+Camp of Prisoners of War
+Limburg (Lahn) Germany
+
+The indications mentioned above must be reproduced in the address.
+
+
+Dear Lady
+Just a few lines to let you know that I am quite well at present hoping his Lord Ship is quite well & all your came (?).
+I am receiving the parcels from the Irish Womens Association regular. I have no more 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-07-31T14:50:30" who="#NULL">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-07-31T14:50:30" who="#Smorris">
+                
+                    Page 60 modified:
+                    <!-- 
+Power's Hotel 
+Kildare Street
+Dublin
+
+Left hand side 
+ Kriegsgefangenenlager
+Limburg (Lahm)
+ This is my address:
+Prisoner of war 
+name 3036 John Barry
+6 comp.  2 batt no.554
+camp of prisoners of war 
+Limburg (Lahm) Germany
+The indications mentioned above must be reproduced in the address
+
+Right hand side
+Address crossed out reads 
+M. To Lady Clonbrock
+Ahascragh Clonbrock 
+Balinasloe Galway
+Co.Galway
+Ireland 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-07-31T14:55:09" who="#Smorris">
+                
+                    Page 60 modified:
+                    <!-- 
+<address>Power's Hotel 
+Kildare Street
+Dublin</address>
+
+Left hand side 
+ Kriegsgefangenenlager
+Limburg (Lahm)
+ This is my address:
+<address>Prisoner of war 
+name 3036 John Barry
+6 comp.  2 batt no.554
+camp of prisoners of war 
+Limburg (Lahm) Germany</address>
+The indications mentioned above must be reproduced in the address
+
+Right hand side
+Address crossed out reads 
+<address>M. To Lady Clonbrock
+Ahascragh Clonbrock 
+Balinasloe Galway
+Co.Galway
+Ireland</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-08-01T15:30:08" who="#Smorris">
+                
+                    Page 60 modified:
+                    <!-- 
+<address>Power's Hotel 
+Kildare Street
+Dublin</address>
+
+Left hand side of post card reads
+ <address>Kriegsgefangenenlager
+Limburg (Lahm)</address><lb/>
+ This is my address:
+<address>Prisoner of war 
+name 3036 John Barry
+6 comp.  2 batt no.554
+camp of prisoners of war 
+Limburg (Lahm) Germany</address><lb/>
+
+The indications mentioned above must be reproduced in the address
+
+Right hand side of post card reads
+
+<salute>M. To Lady Clonbrock</salute>
+
+
+ <del><address>Ahascragh Clonbrock 
+Balinasloe Galway
+Co.Galway
+Ireland</address></del> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-08-16T19:49:12" who="#Hiszafer">
+                
+                    Page 59 modified:
+                    <!-- 
+Prisoner of War Camp
+April 30, 1916
+
+This is my address:
+Prisoner of War
+Name:  30-36-John Burns      Regt. No. 3036
+6        Comp: b Batl      Gef.  No. 554
+
+Camp of Prisoners of War
+Limburg (Lahn) Germany
+
+The indications mentioned above must be reproduced in the address.
+
+Dear Lady
+Just a few lines to let you know 
+that I am quite well at present 
+hoping his Lord Ship is 
+quite well & all your care.
+I am receiving the parcels from 
+the Irish Womens Association 
+regular. I have no more 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-19T13:27:54" who="#Tbrosnan">
+                
+                    Page 59 modified:
+                    <!-- 
+<address><foreign>Kriegsgefangenenlager Limburg (Lahn),</foreign></address>    <date>April 30, 1916</date>
+This is my address:<lb/>
+Prisoner of War <lb/>
+Name:  30.36.John Burns      Regt. No. 3036<lb/>
+6    Comp. <unclear>b</unclear> Batl.      Gef.  No. 554<lb/>
+Camp of Prisoners of War
+<foreign>Limburg (Lahn) Germany.</foreign><lb/>
+The indications mentioned above must be reproduced in the address.<lb/>
+
+<salute>Dear Lady</salute>
+Just a few lines to let you know<lb/> that I am quite well at present<lb/> hoping his Lord Ship is<lb/> quite well & all your care.<lb/>I am receiving the parcels from<lb/> the Irish Womens Association<lb/> regular. I have no more<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-19T13:30:41" who="#Tbrosnan">
+                
+                    Page 61 modified:
+                    <!-- 
+to say, at present hoping to<lb/> hear from you soon<lb/> again in <sic>remberance</sic><lb/> of an old comrade.
+<salute>3036- J. Burns</salute> 
+<address>2. Battalion 
+The Connaught Rgrs. Limburg Lahn, 
+Germany</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-19T13:32:24" who="#Tbrosnan">
+                
+                    Page 60 modified:
+                    <!-- 
+<address>Power's Hotel 
+Kildare Street
+Dublin</address>
+
+Left hand side of post card reads
+ <address>Kriegsgefangenenlager
+Limburg (Lahm)</address><lb/>
+ This is my address:
+<address>Prisoner of war 
+name 3036 John Barry
+6 comp.  2 batt no.554
+camp of prisoners of war 
+Limburg (Lahm) Germany</address><lb/>
+
+The indications mentioned above must be reproduced in the address
+
+Right hand side of post card reads
+
+<salute>M. To Lady Clonbrock</salute>
+
+
+ <del><address>Ahascragh Clonbrock 
+Balinasloe Galway</del>
+Co.Galway
+Ireland</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T16:18:32" who="#Tbrosnan">
+                
+                    Page 59 modified:
+                    <!-- 
+<address><foreign>Kriegsgefangenenlager Limburg (Lahn),</foreign></address>    <date>April 30, 1916</date>
+This is my address:<lb/>
+Prisoner of War <lb/>
+Name:  30.36.John Burns      Regt. No. 3036<lb/>
+6    Comp. <unclear>b</unclear> Batl.      Gef.  No. 554<lb/>
+<address>Camp of Prisoners of War</address><lb/>
+<foreign>Limburg (Lahn) Germany.</foreign><lb/>
+The indications mentioned above must be reproduced in the address.<lb/>
+
+<salute>Dear Lady</salute>
+Just a few lines to let you know<lb/> that I am quite well at present<lb/> hoping his Lord Ship is<lb/> quite well &amp; all your care.<lb/>I am receiving the parcels from<lb/> the Irish Womens Association<lb/> regular. I have no more<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T16:19:32" who="#Tbrosnan">
+                
+                    Page 61 modified:
+                    <!-- 
+to say, at present hoping to<lb/> hear from you soon<lb/> again in <sic>remberance</sic><lb/> of an old comrade.
+<salute>3036- J. Burns</salute><lb/> 
+<address>2. Battalion <lb/>
+The Connaught Rgrs. Limburg Lahn, 
+Germany</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T10:24:47" who="#BarneyDoherty">
+                
+                    Page 59 modified:
+                    <!-- 
+<address><foreign>Kriegsgefangenenlager 
+<lb/>Limburg (Lahn),</foreign></address> <date>April 30, 1916</date>
+<lb/>This is my address:
+<lb/>Prisoner of War 
+<lb/>Name: 30.36. John Burns Regt. No. 3036
+<lb/>6 Comp. <unclear>3</unclear> Batl. Gef. No. 554
+<address>Camp of Prisoners of War
+<lb/><foreign>Limburg (Lahn) Germany.</foreign></address>
+<lb/>The indications mentioned above must be reproduced in the address.
+
+<salute>Dear Lady</salute>
+<p>Just a few lines to let you know
+<lb/> that I am quite well at present
+<lb/> hoping his Lord Ship is
+<lb/> quite well &amp; all your care.
+<lb/>I am receiving the parcels from
+<lb/> the Irish Womens Association
+<lb/> regular. I have no more<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T10:28:54" who="#BarneyDoherty">
+                
+                    Page 61 modified:
+                    <!-- 
+<lb/>to say, at present hoping to
+<lb/> hear from you soon
+<lb/> again in <sic>remberance</sic>
+<lb/> of an old comrade.</p>
+<lb/>3036. <signed>J. Burns</signed> <address>2. 
+<lb/>Battalion The Connaught 
+<lb/>Rgrs. Limburg Lahn, 
+<lb/>Germany</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T10:33:48" who="#BarneyDoherty">
+                
+                    Page 60 modified:
+                    <!-- 
+<address>Kriegsgefangenenlager
+<lb/>Limburg (Lahm)</address>
+<lb/>This is my address:
+<address>Prisoner of war 
+<lb/>Name: 3036 John Barry
+<lb/>6 Comp.  2 Batl. No.554
+<lb/>Camp of Prisoners of War 
+<lb/>Limburg (Lahm) Germany</address>
+<lb/>The indications mentioned above must be reproduced 
+<lb/>in the address
+<pb/>
+
+<address>Power's Hotel 
+<lb/>Kildare Street
+<lb/>Dublin</address>
+
+<salute>M. To Lady Clonbrock</salute>
+<del><address>Ahascragh Clonbrock 
+<lb/>Balinasloe Galway</del>
+<lb/>Co.Galway
+<lb/>Ireland</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T10:52:02" who="#BarneyDoherty">
+                
+                    Page 60 modified:
+                    <!-- 
+<address>Kriegsgefangenenlager
+<lb/>Limburg (Lahm)</address>
+<lb/>This is my address:
+<address>Prisoner of war 
+<lb/>Name: 3036 John Barry
+<lb/>6 Comp.  2 Batl. No.554
+<lb/>Camp of Prisoners of War 
+<lb/>Limburg (Lahm) Germany</address>
+<lb/>The indications mentioned above must be reproduced 
+<lb/>in the address
+
+<pb/>
+
+<address>Power's Hotel 
+<lb/>Kildare Street
+<lb/>Dublin</address>
+
+<salute>M. To Lady Clonbrock</salute>
+<del><address>Ahascragh Clonbrock 
+<lb/>Balinasloe Galway</del>
+<lb/>Co.Galway
+<lb/>Ireland</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T13:11:49" who="#BarneyDoherty">
+                
+                    Page 60 modified:
+                    <!-- 
+<address>Kriegsgefangenenlager
+<lb/>Limburg (Lahm)</address>
+<lb/>This is my address:
+<address>Prisoner of war 
+<lb/>Name: 3036 John Barry
+<lb/>6 Comp.  2 Batl. No.554
+<lb/>Camp of Prisoners of War 
+<lb/>Limburg (Lahm) Germany</address>
+<lb/>The indications mentioned above must be reproduced 
+<lb/>in the address
+
+<!~~ Right side ~~>
+
+<address>Power's Hotel 
+<lb/>Kildare Street
+<lb/>Dublin</address>
+
+<salute>M. To Lady Clonbrock</salute>
+<del><address>Ahascragh Clonbrock 
+<lb/>Balinasloe Galway</del>
+<lb/>Co.Galway
+<lb/>Ireland</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T16:09:23" who="#NR">
+                
+                    Page 59 modified:
+                    <!-- 
+<address><foreign>Kriegsgefangenenlager 
+<lb/>Limburg (Lahn),</foreign></address> <date>April 30, 1916</date>
+<lb/>This is my address:
+<lb/>Prisoner of War 
+<lb/>Name: 30.36. John Burns Regt. No. 3036
+<lb/>6 Comp. <unclear>3</unclear> Batl. Gef. No. 554
+<address>Camp of Prisoners of War
+<lb/><foreign>Limburg (Lahn) Germany.</foreign></address>
+<lb/>The indications mentioned above must be reproduced in the address.
+
+<salute>Dear Lady</salute>
+<p>Just a few lines to let you know
+<lb/> that I am quite well at present
+<lb/> hoping his Lord Ship is
+<lb/> quite well &amp; all your care.
+<lb/>I am receiving the parcels from
+<lb/> the Irish Womens Association
+<lb/> regular. I have no more<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T16:09:27" who="#NR">
+                
+                    Page 59 modified:
+                    <!-- 
+<address><foreign>Kriegsgefangenenlager 
+<lb/>Limburg (Lahn),</foreign></address> <date>April 30, 1916</date>
+<lb/>This is my address:
+<lb/>Prisoner of War 
+<lb/>Name: 30.36. John Burns Regt. No. 3036
+<lb/>6 Comp. <unclear>3</unclear> Batl. Gef. No. 554
+<address>Camp of Prisoners of War
+<lb/><foreign>Limburg (Lahn) Germany.</foreign></address>
+<lb/>The indications mentioned above must be reproduced in the address.
+
+<salute>Dear Lady</salute>
+<p>Just a few lines to let you know
+<lb/> that I am quite well at present
+<lb/> hoping his Lord Ship is
+<lb/> quite well &amp; all your care.
+<lb/>I am receiving the parcels from
+<lb/> the Irish Womens Association
+<lb/> regular. I have no more<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T16:09:46" who="#NR">
+                
+                    Page 59 modified:
+                    <!-- 
+<address><foreign>Kriegsgefangenenlager 
+<lb/>Limburg (Lahn),</foreign></address> <date>April 30, 1916</date>
+<lb/>This is my address:
+<lb/>Prisoner of War 
+<lb/>Name: 30.36. John Burns Regt. No. 3036
+<lb/>6 Comp. <unclear>3</unclear> Batl. Gef. No. 554
+<address>Camp of Prisoners of War
+<lb/><foreign>Limburg (Lahn) Germany.</foreign></address>
+<lb/>The indications mentioned above must be reproduced in the address.
+
+<salute>Dear Lady</salute>
+<p>Just a few lines to let you know
+<lb/> that I am quite well at present
+<lb/> hoping his Lord Ship is
+<lb/> quite well &amp; all your care.
+<lb/>I am receiving the parcels from
+<lb/> the Irish Womens Association
+<lb/> regular. I have no more 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T16:12:11" who="#NR">
+                
+                    Page 60 modified:
+                    <!-- 
+<address>Kriegsgefangenenlager
+<lb/>Limburg (Lahm)</address>
+<lb/>This is my address:
+<address>Prisoner of war 
+<lb/>Name: 3036 John Barry
+<lb/>6 Comp.  2 Batl. No.554
+<lb/>Camp of Prisoners of War 
+<lb/>Limburg (Lahm) Germany</address>
+<lb/>The indications mentioned above must be reproduced 
+<lb/>in the address
+
+<!~~ Right side ~~>
+
+<address>Power's Hotel 
+<lb/>Kildare Street
+<lb/>Dublin</address>
+
+<salute>M. To Lady Clonbrock</salute>
+<address><del>Ahascragh Clonbrock 
+<lb/>Balinasloe Galway</del>
+<lb/>Co.Galway
+<lb/>Ireland</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 60 created using version from <date when="2014-07-31T14:50:30"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 60 removed (version from <date when="2014-07-31T14:50:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 60 removed (version from <date when="2014-07-31T14:55:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 60 removed (version from <date when="2014-08-01T15:30:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 60 removed (version from <date when="2015-06-19T13:32:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 60 removed (version from <date when="2016-01-21T10:33:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 60 removed (version from <date when="2016-01-21T10:52:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 60 removed (version from <date when="2016-01-22T13:11:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 60 removed (version from <date when="2016-02-03T16:12:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 61 created using version from <date when="2013-09-28T14:03:58"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 61 removed (version from <date when="2013-09-28T14:03:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 61 removed (version from <date when="2013-09-28T14:05:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 61 removed (version from <date when="2015-06-19T13:30:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 61 removed (version from <date when="2015-11-24T16:19:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 61 removed (version from <date when="2016-01-21T10:28:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 59 created using version from <date when="2013-11-13T17:41:14"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 59 removed (version from <date when="2013-11-13T17:41:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 59 removed (version from <date when="2014-08-16T19:49:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 59 removed (version from <date when="2015-06-19T13:27:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 59 removed (version from <date when="2015-11-24T16:18:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 59 removed (version from <date when="2016-01-21T10:24:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 59 removed (version from <date when="2016-02-03T16:09:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 59 removed (version from <date when="2016-02-03T16:09:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 59 removed (version from <date when="2016-02-03T16:09:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 60 (version from <date when="2016-02-03T16:12:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 61 added to letter (version from <date when="2016-02-03T16:10:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 59 added to letter (version from <date when="2016-02-03T16:09:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:21" who="#PythonScript">
+                
+                    Clean tags: Page 59 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:21" who="#PythonScript">
+                
+                    Clean tags: Page 60 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:21" who="#PythonScript">
+                
+                    Clean tags: Page 61 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:25" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:30" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:37" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:28" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:33" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_41_img_59" url="ae420aa746ff3d67cd458794da5739a4.jpg"/> 
+    
+    <graphic xml:id="L1916_41_img_60" url="79b2710338748b59ff765d58fa232afe.jpg"/> 
+    
+    <graphic xml:id="L1916_41_img_61" url="30aa1bd2a9ba15cdefc3b804aa5492cd.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="59" facs="#L1916_41_img_59"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<address><foreign>Kriegsgefangenenlager 
+<lb/>Limburg (Lahn),</foreign></address> <opener><dateline><date>April 30, 1916</date></dateline></opener>
+<lb/>This is my address:
+<lb/>Prisoner of War 
+<lb/>Name: 30.36. John Burns Regt. No. 3036
+<lb/>6 Comp. <unclear>3</unclear> Batl. Gef. No. 554
+<address>Camp of Prisoners of War
+<lb/><foreign>Limburg (Lahn) Germany.</foreign></address>
+<lb/>The indications mentioned above must be reproduced in the address.
+
+<salute>Dear Lady</salute>
+<p>Just a few lines to let you know
+<lb/> that I am quite well at present
+<lb/> hoping his Lord Ship is
+<lb/> quite well &amp; all your care.
+<lb/>I am receiving the parcels from
+<lb/> the Irish Womens Association
+<lb/> regular. I have no more
+        
+    
+
+    
+         
+        <pb n="60" facs="#L1916_41_img_60"/>
+        
+        
+           
+            <address>Kriegsgefangenenlager
+<lb/>Limburg (Lahm)</address>
+<lb/>This is my address:
+<address>Prisoner of war 
+<lb/>Name: 3036 John Barry
+<lb/>6 Comp.  2 Batl. No.554
+<lb/>Camp of Prisoners of War 
+<lb/>Limburg (Lahm) Germany</address>
+<lb/>The indications mentioned above must be reproduced 
+<lb/>in the address
+
+<!-- Right side -->
+
+<address>Power's Hotel 
+<lb/>Kildare Street
+<lb/>Dublin</address>
+
+<salute>M. To Lady Clonbrock</salute>
+<address><del>Ahascragh Clonbrock 
+<lb/>Balinasloe Galway</del>
+<lb/>Co.Galway
+<lb/>Ireland</address>
+        
+    
+         
+        <pb n="61" facs="#L1916_41_img_61"/>
+        
+        
+           
+            <lb/>to say, at present hoping to
+<lb/> hear from you soon
+<lb/> again in <sic>remberance</sic>
+<lb/> of an old comrade.</p>
+<lb/>3036. <signed>J. Burns</signed> <address>2. 
+<lb/>Battalion The Connaught 
+<lb/>Rgrs. Limburg Lahn, 
+<lb/>Germany</address>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

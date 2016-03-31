@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2225">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from John George Lambton to Lady Londonderry, 20 April 1916</title>
+                
+                <author>John Lambton</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Johnchambers81">Johnchambers81</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Dommo">Dommo</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tnoonan1111">Tnoonan11 11</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Scribe500">Scribe500</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Smtm">Smtm</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Open2ICT">Open2ICT</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2225</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from John Lambton (1855-1928) to Lady Londonderry (1878-1959). In this particular letter, Durham emotionally thanks Londonderry for previous letter, and discusses their joint efforts to raise money for the territorial battalions.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>This letter is part of a series of correspondence belonging to Lady Londonderry, the wife of Charles Stewart Vane-Tempest-Stewart (1852-1915), sixth marquess of Londonderry. Lady Londonderry was appointed colonel-in-chief of the Women's Volunteer Reserve also an active figure in British politics. Her correspondence includes many important figures in literature, the arts, the military, law and the church. John Lambton served as the 3rd Earl of Durham and Lord Lieutenant of that county from 1884 until a few months before his death in 1928.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: PRONI-D2846-2-21-13 [The Theresa, Lady Londonderry Papers]
+                             
+                        -->
+                            
+                                <collection type='public'>PRONI-D2846-2-21-13 [The Theresa</collection>
+                            
+                            
+                        <idno>Lady Londonderry Papers]</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <persName ref="MISSING">Theresa Talbot</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">John Lambton</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    Lambton Castle 
+                    Durham
+                    United Kingdom
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#Lambton_Castle">Lambton Castle, County Durham, England</placeName>
+                    
+                
+                    
+                    <date when="1916-04-20">20 April 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1928</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                            <item n="tag">business</item>
+                            
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-25T15:26:14" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-25T15:26:14" who="#Smtm">
+                
+                    Page 5824 modified:
+                    <!-- 
+<address>Lambton Castle<lb/>Fence House</address>
+<date>20 April 1916</date>
+My dear Lady Londonderry,<lb/>
+<p>You have written me<lb/>
+a very kind letter; and<lb/>
+so has Dirdie- as I have<lb/>
+told her, my one wish was<lb/>
+to show what respect I <lb/>
+could for my old friend<lb/>
+and that I am content</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-25T15:34:57" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-25T15:34:57" who="#Smtm">
+                
+                    Page 5825 modified:
+                    <!-- 
+If you approved of my<lb/>
+effort. I felt more than<lb/>
+I showed. I hope, and was <lb/>
+terrified of breaking down.<lb/>
+<hi rend="underline">Drums</hi>
+We raised a private fund,<lb/>
+to which your Charlie<lb/>
+among others subscribed,<lb/>
+to give bands to our<lb/>
+Territorial Batt<hi rend="superscript">ons</hi> - I hope<lb/>
+to see Frank Brown, our<lb/>
+Treasurer, on Saturday and<lb/>
+will find out what money <lb/>
+is left. I <hi rend="underline">thought</hi> I had<lb/>
+sent a <hi rend="underline">personal</hi> cheque<lb/>
+to the 13<hi rend="superscript">th</hi> months ago<lb/>
+for band purposes.<lb/>
+However, I will write to<lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-25T15:54:48" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-25T15:54:48" who="#Smtm">
+                
+                    Page 5826 modified:
+                    <!-- 
+you again on Sunday.<lb/>
+I did not know <unclear>Jafe Koft</unclear>
+was a real soldier-<lb/>
+What weather!<lb/>
+Your Friend,<lb/>
+Durham 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-25T16:19:22" who="#Open2ICT">
+                
+                    Page 5824 modified:
+                    <!-- 
+<address>Lambton Castle<lb/>Fence Houses.</address>
+<date>20 April 1916</date>
+My dear Lady Londonderry,<lb/>
+<p>You have written me<lb/>
+a very kind letter; and<lb/>
+so has Dirdie _ as I have<lb/>
+told her, my one wish was<lb/>
+to show what respect I <lb/>
+could for my old friend<lb/>
+and that I am content</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-25T16:27:53" who="#Open2ICT">
+                
+                    Page 5825 modified:
+                    <!-- 
+If you approved of my<lb/>
+effort. I felt more than<lb/>
+I showed, I hope, and was <lb/>
+terrified of breaking down.<lb/>
+<hi rend="underline">Drums</hi>
+We raised a private fund,<lb/>
+to which your Charlie<lb/>
+among others subscribed,<lb/>
+to give bands to our<lb/>
+Territorial Batt<hi rend="superscript">ons</hi> _ I hope<lb/>
+to see Frank Brown, our<lb/>
+Treasurer, on Saturday and<lb/>
+will find out what money <lb/>
+is left. I <hi rend="underline">thought</hi> I had<lb/>
+sent a <hi rend="underline">personal</hi> cheque<lb/>
+to the 13<hi rend="superscript">th</hi> months ago<lb/>
+for band purposes.<lb/>
+However, I will write to<lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-28T21:36:49" who="#Scribe500">
+                
+                    Page 5824 modified:
+                    <!-- 
+<add>D.2846/2/21/13</add><address>Lambton Castle<lb/>Fence Houses.</address><date>20 April 1916</date>My dear Lady Londonderry,<lb/><p>You have written me<lb/>a very kind letter; and<lb/>so has Birdie.  As I have<lb/>told her, my one wish was<lb/>to show what respect I <lb/>could for my old friend<lb/>and that I am content<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-28T21:46:01" who="#Scribe500">
+                
+                    Page 5825 modified:
+                    <!-- 
+If you approved of my<lb/>effort. I felt more than<lb/>I showed, I hope, and was <lb/>terrified of breaking down. <lb/> <hi rend="underline">Drums</hi><lb/>We raised a private fund,<lb/>to which your Charlie<lb/>among others subscribed,<lb/>to give bands to our<lb/><pb/>Territorial Batt<hi rend="superscript">ons</hi>.  I hope<lb/>to see Frank Brown, Hon<lb/>Treasurer, on Saturday and<lb/>
+will find out what money <lb/>is left. I <hi rend="underline">thought</hi> I had<lb/>sent a <hi rend="underline">personal</hi> cheque<lb/>
+to the 13<hi rend="superscript">th</hi>, months ago<lb/>for band purposes.<lb/>However, I will write to<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-28T21:50:49" who="#Scribe500">
+                
+                    Page 5826 modified:
+                    <!-- 
+you again on Sunday.<lb/>I did not know <unclear>Jake Croft</unclear><lb/>was a real soldier - <lb/>What weather!<lb/>
+<salute>Ever Friend,<lb/>
+Durham.</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-22T09:52:17" who="#Dommo">
+                
+                    Page 5824 modified:
+                    <!-- 
+<add>D.2846/2/21/13</add><address>Lambton Castle,<lb/>Fence Houses.</address><date>20 April 1916.</date>My dear Lady Londonderry,<lb/><p>You have written me<lb/>a very kind letter; and<lb/>so has Birdie.  As I have<lb/>told her, my one wish was<lb/>to show what respect I <lb/>could for my old friend<lb/>and that I am content<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T13:47:06" who="#Johnchambers81">
+                
+                    Page 5824 modified:
+                    <!-- 
+<address>Lambton Castle,
+<lb/>Fence Houses.</address>
+<date>20 April 1916.</date>
+<salute>My dear Lady Londonderry,</salute>
+<p>You have written me
+<lb/>a very kind letter; and
+<lb/>so has Birdie.  As I have
+<lb/>told her, my one wish was
+<lb/>to show what respect I 
+<lb/>could for my old friend
+<lb/>and that I am content 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T13:51:35" who="#Johnchambers81">
+                
+                    Page 5825 modified:
+                    <!-- 
+If you approved of my
+<lb/>effort. I felt more than
+<lb/>I showed, I hope, and was 
+<lb/>terrified of breaking down.</p>
+ <lb/> <hi rend="underline">Drums</hi>
+<p>We raised a private fund,
+<lb/>to which your Charlie
+<lb/>among others subscribed,
+<lb/>to give bands to our<pb/>
+
+Territorial Batt<hi rend="superscript">ons</hi>.  I hope
+<lb/>to see Frank Brown, Hon
+<lb/>Treasurer, on Saturday and
+<lb/>will find out what money 
+<lb/>is left. I <hi rend="underline">thought</hi> I had
+<lb/>sent a <hi rend="underline">personal</hi> cheque
+<lb/>to the 13<hi rend="superscript">th</hi>, months ago
+<lb/>for band purposes.
+<lb/>However, I will write to 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T13:53:09" who="#Johnchambers81">
+                
+                    Page 5826 modified:
+                    <!-- 
+you again on Sunday.
+<lb/>I did not know <unclear>Jake Croft</unclear>
+<lb/>was a real soldier - </p>
+<lb/>What weather!
+<salute>Ever Friend, </salute>
+<lb/><signed>Durham.</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T15:51:08" who="#NR">
+                
+                    Page 5825 modified:
+                    <!-- 
+<p>If you approved of my
+<lb/>effort. I felt more than
+<lb/>I showed, I hope, and was 
+<lb/>terrified of breaking down.</p>
+ <lb/> <hi rend="underline">Drums</hi>
+<p>We raised a private fund,
+<lb/>to which your Charlie
+<lb/>among others subscribed,
+<lb/>to give bands to our<pb/>
+
+<lb/>Territorial Batt<hi rend="superscript">ons</hi>.  I hope
+<lb/>to see Frank Brown, Hon
+<lb/>Treasurer, on Saturday and
+<lb/>will find out what money 
+<lb/>is left. I <hi rend="underline">thought</hi> I had
+<lb/>sent a <hi rend="underline">personal</hi> cheque
+<lb/>to the 13<hi rend="superscript">th</hi>, months ago
+<lb/>for band purposes.
+<lb/>However, I will write to 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T15:51:56" who="#NR">
+                
+                    Page 5826 modified:
+                    <!-- 
+<lb/>you again on Sunday.
+<lb/>I did not know <unclear>Jake Croft</unclear>
+<lb/>was a real soldier - 
+<lb/>What weather!</p>
+<salute>Ever yours,</salute>
+<signed>Durham.</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5825 created using version from <date when="2015-08-25T15:34:57"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5825 removed (version from <date when="2015-08-25T15:34:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5825 removed (version from <date when="2015-08-25T16:27:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5825 removed (version from <date when="2015-08-28T21:46:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5825 removed (version from <date when="2016-01-22T13:51:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5825 removed (version from <date when="2016-01-28T15:51:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5826 created using version from <date when="2015-08-25T15:54:48"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5826 removed (version from <date when="2015-08-25T15:54:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5826 removed (version from <date when="2015-08-28T21:50:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5826 removed (version from <date when="2016-01-22T13:53:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5826 removed (version from <date when="2016-01-28T15:51:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5824 created using version from <date when="2015-08-25T15:26:14"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5824 removed (version from <date when="2015-08-25T15:26:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5824 removed (version from <date when="2015-08-25T16:19:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5824 removed (version from <date when="2015-08-28T21:36:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5824 removed (version from <date when="2015-09-22T09:52:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5824 removed (version from <date when="2016-01-22T13:47:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 5825 (version from <date when="2016-01-28T15:51:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5826 added to letter (version from <date when="2016-01-28T15:51:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5824 added to letter (version from <date when="2016-01-28T15:50:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:20" who="#PythonScript">
+                
+                    Clean tags: Page 5824 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:20" who="#PythonScript">
+                
+                    Clean tags: Page 5825 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:20" who="#PythonScript">
+                
+                    Clean tags: Page 5826 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:25" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:30" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:36" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:19" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:19" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2225_img_5824" url="49da683fb38ea4a16bc98c69892a9b85.jpg"/> 
+    
+    <graphic xml:id="L1916_2225_img_5825" url="e578b3e4bbe8c40b5c2ee7a65841cd2f.jpg"/> 
+    
+    <graphic xml:id="L1916_2225_img_5826" url="d851769fa8191c5c7af9d0436ea372a4.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="5824" facs="#L1916_2225_img_5824"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>Lambton Castle,</addrLine>
+<addrLine>Fence Houses.</addrLine></address>
+<dateline><date>20 April 1916.</date></dateline>
+<salute>My dear Lady Londonderry,</salute></opener>
+<p>You have written me
+<lb/>a very kind letter; and
+<lb/>so has Birdie.  As I have
+<lb/>told her, my one wish was
+<lb/>to show what respect I 
+<lb/>could for my old friend
+<lb/>and that I am content
+        
+    
+
+    
+         
+        <pb n="5825" facs="#L1916_2225_img_5825"/>
+        
+        
+           
+            <p>If you approved of my
+<lb/>effort. I felt more than
+<lb/>I showed, I hope, and was 
+<lb/>terrified of breaking down.</p>
+ <lb/> <hi rend="underline">Drums</hi>
+<p>We raised a private fund,
+<lb/>to which your Charlie
+<lb/>among others subscribed,
+<lb/>to give bands to our<pb/>
+
+<lb/>Territorial Batt<hi rend="superscript">ons</hi>.  I hope
+<lb/>to see Frank Brown, Hon
+<lb/>Treasurer, on Saturday and
+<lb/>will find out what money 
+<lb/>is left. I <hi rend="underline">thought</hi> I had
+<lb/>sent a <hi rend="underline">personal</hi> cheque
+<lb/>to the 13<hi rend="superscript">th</hi>, months ago
+<lb/>for band purposes.
+<lb/>However, I will write to
+        
+    
+         
+        <pb n="5826" facs="#L1916_2225_img_5826"/>
+        
+        
+           
+            <lb/>you again on Sunday.
+<lb/>I did not know <unclear>Jake Croft</unclear>
+<lb/>was a real soldier - 
+<lb/>What weather!</p>
+<closer><salute>Ever yours,</salute>
+<signed>Durham.</signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

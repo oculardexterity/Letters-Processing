@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2271">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Sir Wilfrid Spender to his wife Lady Lillian Spender, 17 June 1916</title>
+                
+                <author>Wilfrid Spencer</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="RichardBreen">RichardBreen</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tnoonan1111">Tnoonan11 11</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2271</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>This letter is part of a series of correspondence from Sir Wilfrid Bliss Spender to his wife Lady Lillian Spender. The letters date mainly from 1915 to 1918, when Sir Wilfrid was serving in France. The letters concern politics, the Irish question, personal life, and Wilfrid's experience of  the Great War.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>In this letter Spender is writing to his wife, Lady Lillian Spender, née Dean, (1880-1968). Sir Wilfrid Spender (1876 - 1960) was a member of the British Army until 1913 when controversy surrounding his signature of the Ulster Solemn League and Covenant resulted in his resignation. Spender was called up for military service in 1914 and from 1915 served  in the 36th (Ulster) Division. Throughout the war, Spender remained in contact with the Ulster Unionist leadership, and consistently opposed Home Rule and the six-county solution.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>In this letter, Spender suggests that Lillian send him chocolate and advises her on financial matters.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Lady Spender&#39;s Correspondence, D1633/1/1/316
+                             
+                        -->
+                            
+                                <collection type='public'>Lady Spender's Correspondence</collection>
+                            
+                            
+                        <idno>D1633/1/1/316</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Lillian Spender -->
+                        
+                        <persName ref="#Spender_L">Lillian Spender</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">Wilfrid Spencer</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    France 
+                    France
+                    France
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#France">France</placeName>
+                    
+                
+                    
+                    <date when="1916-06-17">17 June 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1960</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                            <item n="tag">business</item>
+                            
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-20T09:41:11" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-20T09:41:11" who="#Tbrosnan">
+                
+                    Page 6293 modified:
+                    <!-- 
+<add>D1633/1/1/316</add>
+<date>June 17</date><p>Quite forgot the 16<hi rend="superscript">th</hi><lb/>Really not an important<lb/>day at all as the whole<lb/>matter was settle long<lb/>before it &amp; tho B.W. knew<lb/>this quite well no matter<lb/>what the pv may say.<lb/> She had no more idea<lb/>of saying no really than<lb/>she has of refusing chocolate.</p><p> A chocolate wolf would be<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-20T09:45:37" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-20T09:45:37" who="#Tbrosnan">
+                
+                    Page 6294 modified:
+                    <!-- 
+quite irresistible. </p><p>What I am not quite<lb/>clear about is what interest<lb/> <add><date>16.6.15</date></add>  you got on your bond meanwhile.<lb/> Does it<lb/> only cost <lb/> £900 or is it not £1000 in<lb/>which case your will want to <lb/>put in another £424 </p>
+<salute>Your bw</salute>
+WB Spender 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T15:43:36" who="#RichardBreen">
+                
+                    Page 6293 modified:
+                    <!-- 
+<date>June 17</date>
+<p>Quite forgot the 16<hi rend="superscript">th</hi>
+<lb/>Really not an important
+<lb/>day at all as the whole
+<lb/>matter was settled long
+<lb/>before it &amp; tho B.W. knew
+<lb/>this quite well no matter
+<lb/>what the pr may say.
+<lb/> She had no more idea
+<lb/>of saying no really than
+<lb/>she has of refusing chocolate.</p>
+<p> A chocolate wolf would be 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T15:45:32" who="#RichardBreen">
+                
+                    Page 6294 modified:
+                    <!-- 
+quite irresistible. </p><p>What I am not quite<lb/>clear about is what interest<lb/> <add><date>16.6.15</date></add>  you got on your bond meanwhile.<lb/> Does it<lb/> only cost <lb/> £900 or is it not £1000 in<lb/>which case your will want to <lb/>put in another £424 </p>
+<salute>Your bw</salute>
+<signed>WB Spender </signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-25T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-25T09:47:39" who="#NR">
+                
+                    Page 6293 modified:
+                    <!-- 
+<date>June 17</date>
+<p>Quite forgot the 16<hi rend="superscript">th</hi>
+<lb/>Really not an important
+<lb/>day at all as the whole
+<lb/>matter was settled long
+<lb/>before it &amp; tho B.W. knew
+<lb/>this quite well no matter
+<lb/>what the pr may say.
+<lb/> She had no more idea
+<lb/>of saying no really than
+<lb/>she has of refusing chocolate.</p>
+<p> A chocolate wolf would be 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-25T09:49:17" who="#NR">
+                
+                    Page 6294 modified:
+                    <!-- 
+<lb/>quite irresistible. </p>
+<p>What I am not quite
+<lb/>clear about is what interest
+<lb/> <add>16.6.15</add>  you got on your bond mean-
+<lb/>while. Does it only cost 
+<lb/> £900 or is it not £1000 in
+<lb/>which case your will want to 
+<lb/>put in another £424 </p>
+<salute>Your bw</salute>
+<signed>WB Spender </signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6294 created using version from <date when="2015-08-20T09:45:37"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6294 removed (version from <date when="2015-08-20T09:45:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6294 removed (version from <date when="2016-01-21T15:45:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6294 removed (version from <date when="2016-01-25T09:49:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6293 created using version from <date when="2015-08-20T09:41:11"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6293 removed (version from <date when="2015-08-20T09:41:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6293 removed (version from <date when="2016-01-21T15:43:36"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6293 removed (version from <date when="2016-01-25T09:47:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 6294 (version from <date when="2016-01-25T09:49:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6293 added to letter (version from <date when="2016-01-25T09:47:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:21" who="#PythonScript">
+                
+                    Clean tags: Page 6293 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:21" who="#PythonScript">
+                
+                    Clean tags: Page 6294 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:25" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:30" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:36" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:24" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:25" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2271_img_6293" url="9a61d0fb5b5813ff1ef7027e09fd55c1.jpg"/> 
+    
+    <graphic xml:id="L1916_2271_img_6294" url="2c4558d6ff48ba78e8abe6119107a7f7.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="6293" facs="#L1916_2271_img_6293"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><dateline><date>June 17</date></dateline></opener>
+<p>Quite forgot the 16<hi rend="superscript">th</hi>
+<lb/>Really not an important
+<lb/>day at all as the whole
+<lb/>matter was settled long
+<lb/>before it &amp; tho B.W. knew
+<lb/>this quite well no matter
+<lb/>what the pr may say.
+<lb/> She had no more idea
+<lb/>of saying no really than
+<lb/>she has of refusing chocolate.</p>
+<p> A chocolate wolf would be
+        
+    
+
+    
+         
+        <pb n="6294" facs="#L1916_2271_img_6294"/>
+        
+        
+           
+            <lb/>quite irresistible. </p>
+<p>What I am not quite
+<lb/>clear about is what interest
+<lb/> <add>16.6.15</add>  you got on your bond mean-
+<lb/>while. Does it only cost 
+<lb/> £900 or is it not £1000 in
+<lb/>which case your will want to 
+<lb/>put in another £424 </p>
+<closer><salute>Your bw</salute>
+<signed>WB Spender </signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

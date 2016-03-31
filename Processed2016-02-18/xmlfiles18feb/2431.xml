@@ -1,0 +1,1177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2431">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Andrew Philip Magill to Sir Robert Chalmers, 14 July 1916</title>
+                
+                <author>Andrew Philip Magill</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="HH">Hannah Healy</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Delmacarroll">Delmacarroll</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="SJKerr">SJKerr</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2431</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>Letter from Andrew Philip Magill (1871-1941) to Sir Robert Chalmers (1858-1938). The letter concerns minutes sent by the Home Secretary's office concerning the reinstatement of certain employees and how a man may be released by the military but be seen as unfit for service of the crown due to association or sympathy with Sinn Féiners.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Andrew Philip Magill had a varied career in the Irish civil service; he moved to the Ministry of Home Affairs in Northern Ireland before resigning prematurely in 1925. As private secretary to Augustine Birrell, the Chief Secretary whose resignation was prompted by the 1916 Rising, Magill was well placed to observe the often bizarre workings of the pre-revolutionary Irish administration. His subsequent postings in Dublin and Belfast likewise made him an invaluable witness of conflicts associated with revolution and partition. Chalmers was sent to Ireland as under-secretary, replacing Sir Matthew Nathan who had resigned along with Augustine Birrell, his chief secretary following the Easter Rising in 1916.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: National Archives of Ireland -->
+                        
+                        <repository ref="#NAI">National Archives of Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Chief Secretary&#39;s Office Registered Papers; CSO RP/1916/5618/12149/5
+                             
+                        -->
+                            
+                                <collection type='public'>Chief Secretary's Office Registered Papers</collection>
+                            
+                            
+                        <idno>CSO RP/1916/5618/12149/5</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Robert Chalmers -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF RECIPIENT IS CORRECT --></VERIFY>
+                        
+                        <persName ref="#Chalmers_R">Sir Robert Chalmers</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Andrew Philip Magill -->
+                        
+                        <persName ref="#Magill_A_P">Andrew Philip Magill</persName>
+                    
+                
+                
+                
+                    
+                    <date when="1916-07-14">14 July 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1941</item>
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                            <item n="tag">Official documents</item>
+                            
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-09-28T15:43:41" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-09-28T15:43:41" who="#SJKerr">
+                
+                    Page 6586 modified:
+                    <!-- 
+<p>reinstatement of these<lb/>
+men than they have done.<lb/>
+A man may be released<lb/>
+by the military &amp;and yet be<lb/>
+quite unfit from his<lb/>
+association or sympathy<lb/>
+with Sinn Feiners to<lb/>
+be a servant of the<lb/>
+crown.<lb/>
+<salute>Yrs Sincerely</salute>
+<hi rend="underline">A.P. Magill .</hi><pb/>
+<date>14/7.</date>
+<salute>Dear Sir Robert,</salute>
+<p>Please see<lb/>
+the Home Secretary's<lb/>
+<gap/> on enclosed<lb/>
+file. I shall be much<lb/>
+obliged if you can<lb/>
+return the papers with<lb/>
+the information for<lb/>
+which he asks and any<lb/>
+suggestions which <del>you</del><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-28T15:44:46" who="#SJKerr">
+                
+                    Page 6586 modified:
+                    <!-- 
+<p>reinstatement of these<lb/>
+men than they have done.<lb/>
+A man may be released<lb/>
+by the military &amp;and yet be<lb/>
+quite unfit from his<lb/>
+association or sympathy<lb/>
+with Sinn Feiners to<lb/>
+be a servant of the<lb/>
+crown.<lb/>
+<salute>Yrs Sincerely</salute>
+<hi rend="underline">A.P. Magill .</hi><pb/>
+<date>14/7.</date>
+<salute>Dear Sir Robert,</salute>
+<p>Please see<lb/>
+the Home Secretary's<lb/>
+<unclear>minute</unclear> on enclosed<lb/>
+file. I shall be much<lb/>
+obliged if you can<lb/>
+return the papers with<lb/>
+the information for<lb/>
+which he asks and any<lb/>
+suggestions which <del>you</del><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-28T15:53:14" who="#HH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-09-28T15:53:14" who="#SJKerr">
+                
+                    Page 6587 modified:
+                    <!-- 
+<p>may occur to you<lb/>
+tomorrow evening so<lb/>
+that we may have<lb/>
+them on Sunday.</p>
+<p>Lord Lansdowne<lb/>
+has asked to see the<lb/>
+reports in these cases<lb/>
+so they are attracting<lb/>
+rather too much<lb/>
+attention, &amp; I think<lb/>
+the <unclear>Law</unclear> Commission<lb/>
+will have to put up a<lb/>
+better defence for <unclear>the</unclear></p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T10:01:06" who="#Tbrosnan">
+                
+                    Page 6586 modified:
+                    <!-- 
+reinstatement of these<lb/>
+men than they have done.<lb/>
+A man may be released<lb/>
+by the military &amp;and yet be<lb/>
+quite unfit from his<lb/>
+association or sympathy<lb/>
+with Sinn Feiners to<lb/>
+be a servant of the<lb/>
+crown.<lb/>
+<salute>Yrs Sincerely</salute>
+<hi rend="underline">A.P. Magill .</hi><pb/>
+<date>14/7.</date>
+<salute>Dear Sir Robert,</salute>
+<p>Please see<lb/>
+the Home Secretary's<lb/>
+<unclear>minute</unclear> on enclosed<lb/>
+file. I shall be much<lb/>
+obliged if you can<lb/>
+return the papers with<lb/>
+the information for<lb/>
+which he asks and any<lb/>
+suggestions which <del>you</del><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T10:02:58" who="#Tbrosnan">
+                
+                    Page 6587 modified:
+                    <!-- 
+may occur to you<lb/>
+tomorrow evening so<lb/>
+that we may have<lb/>
+them on Sunday.</p>
+<p>Lord Lansdowne<lb/>
+has asked to see the<lb/>
+reports in these cases<lb/>
+so they are attracting<lb/>
+rather too much<lb/>
+attention, &amp; I think<lb/>
+the Land Commission<lb/>
+will have to put up a<lb/>
+better defence for the<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-17T18:22:14" who="#Tbrosnan">
+                
+                    Page 6586 modified:
+                    <!-- 
+<lb/><date>14/7.</date>
+<lb/><salute>Dear Sir Robert,</salute>
+<p>Please see
+<lb/>the Home Secretary's
+<lb/>minutes on enclosed
+<lb/>file. I shall be much
+<lb/>obliged if you can
+<lb/>return the papers with
+<lb/>the information for
+<lb/>which he asks and any
+<lb/>suggestions which <del>you</del><pb/>
+<lb/>reinstatement of these
+<lb/>men than they have done.
+<lb/>A man may be released
+<lb/>by the military &amp; and yet be
+<lb/>quite unfit from his
+<lb/>association or sympathy
+<lb/>with Sinn Feiners to
+<lb/>be a servant of the
+<lb/>crown.
+<lb/><salute>Yrs Sincerely</salute>
+<hi rend="underline">A.P. Magill .</hi><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-17T18:23:33" who="#Tbrosnan">
+                
+                    Page 6586 modified:
+                    <!-- 
+1
+<lb/><date>14/7.</date>
+<lb/><salute>Dear Sir Robert,</salute>
+<p>Please see
+<lb/>the Home Secretary's
+<lb/>minutes on enclosed
+<lb/>file. I shall be much
+<lb/>obliged if you can
+<lb/>return the papers with
+<lb/>the information for
+<lb/>which he asks and any
+<lb/>suggestions which <del>you</del><pb/>
+
+3
+<lb/>reinstatement of these
+<lb/>men than they have done.
+<lb/>A man may be released
+<lb/>by the military &amp; and yet be
+<lb/>quite unfit from his
+<lb/>association or sympathy
+<lb/>with Sinn Feiners to
+<lb/>be a servant of the
+<lb/>crown.
+<lb/><salute>Yrs Sincerely</salute>
+<hi rend="underline">A.P. Magill .</hi><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-17T18:25:41" who="#Tbrosnan">
+                
+                    Page 6587 modified:
+                    <!-- 
+may occur to you
+<lb/>tomorrow evening so
+<lb/>that we may have
+<lb/>them on Sunday.</p>
+<p>Lord Lansdowne
+<lb/>has asked to see the
+<lb/>reports in these cases
+<lb/>so they are attracting
+<lb/>rather too much
+<lb/>attention, &amp; I think
+<lb/>the Land Commission
+<lb/>will have to put up a
+<lb/>better defence for the<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-17T18:26:33" who="#Tbrosnan">
+                
+                    Page 6587 modified:
+                    <!-- 
+<!~~ page 2 ~~>
+<lb/>may occur to you
+<lb/>tomorrow evening so
+<lb/>that we may have
+<lb/>them on Sunday.</p>
+<p>Lord Lansdowne
+<lb/>has asked to see the
+<lb/>reports in these cases
+<lb/>so they are attracting
+<lb/>rather too much
+<lb/>attention, &amp; I think
+<lb/>the Land Commission
+<lb/>will have to put up a
+<lb/>better defence for the<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-17T18:27:12" who="#Tbrosnan">
+                
+                    Page 6586 modified:
+                    <!-- 
+<!~~ Page 1 ~~>
+<lb/><date>14/7.</date>
+<lb/><salute>Dear Sir Robert,</salute>
+<p>Please see
+<lb/>the Home Secretary's
+<lb/>minutes on enclosed
+<lb/>file. I shall be much
+<lb/>obliged if you can
+<lb/>return the papers with
+<lb/>the information for
+<lb/>which he asks and any
+<lb/>suggestions which <del>you</del><pb/>
+
+<!~~ Page 3 ~~>
+<lb/>reinstatement of these
+<lb/>men than they have done.
+<lb/>A man may be released
+<lb/>by the military &amp; and yet be
+<lb/>quite unfit from his
+<lb/>association or sympathy
+<lb/>with Sinn Feiners to
+<lb/>be a servant of the
+<lb/>crown.
+<lb/><salute>Yrs Sincerely</salute>
+<hi rend="underline">A.P. Magill .</hi><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-20T21:47:40" who="#Delmacarroll">
+                
+                    Page 6586 modified:
+                    <!-- 
+<!~~ Page 1 ~~>
+<lb/><date>14/7.</date>
+<lb/><salute>Dear Sir Robert,</salute>
+<p>Please see
+<lb/>the Home Secretary's
+<lb/>minutes on enclosed
+<lb/>file. I shall be much
+<lb/>obliged if you can
+<lb/>return the papers with
+<lb/>the information for
+<lb/>which he asks and any
+<lb/>suggestions which <del>you</del><pb/>
+
+<!~~ Page 3 ~~>
+<lb/>reinstatement of these
+<lb/>men than they have done.
+<lb/>A man may be released
+<lb/>by the military &amp;  yet be
+<lb/>quite unfit from his
+<lb/>association or sympathy
+<lb/>with Sinn Feiners to
+<lb/>be a servant of the
+<lb/>crown.
+<lb/><salute>Yrs Sincerely</salute>
+<hi rend="underline">A.P. Magill .</hi><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-18T12:22:42" who="#Tbrosnan">
+                
+                    Page 6586 modified:
+                    <!-- 
+<!~~ Page 1 ~~>
+<date>14/7.</date>
+<salute>Dear Sir Robert,</salute>
+<p>Please see
+<lb/>the Home Secretary's
+<lb/>minutes on enclosed
+<lb/>file. I shall be much
+<lb/>obliged if you can
+<lb/>return the papers with
+<lb/>the information for
+<lb/>which he asks and any
+<lb/>suggestions which <del>you</del><pb/>
+
+<!~~ Page 3 ~~>
+<lb/>reinstatement of these
+<lb/>men than they have done.
+<lb/>A man may be released
+<lb/>by the military &amp;  yet be
+<lb/>quite unfit from his
+<lb/>association or sympathy
+<lb/>with Sinn Feiners to
+<lb/>be a servant of the
+<lb/>crown.
+<salute>Yrs Sincerely</salute>
+<hi rend="underline">A.P. Magill .</hi><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T13:59:00" who="#NR">
+                
+                    Page 6586 modified:
+                    <!-- 
+<date>14/7.</date>
+<salute>Dear Sir Robert,</salute>
+<p>Please see
+<lb/>the Home Secretary's
+<lb/>minutes on enclosed
+<lb/>file. I shall be much
+<lb/>obliged if you can
+<lb/>return the papers with
+<lb/>the information for
+<lb/>which he asks and any
+<lb/>suggestions which <del>you</del><pb/>
+
+<!~~ Page 3 ~~>
+<lb/>reinstatement of these
+<lb/>men than they have done.
+<lb/>A man may be released
+<lb/>by the military &amp;  yet be
+<lb/>quite unfit from his
+<lb/>association or sympathy
+<lb/>with Sinn Feiners to
+<lb/>be a servant of the
+<lb/>crown.
+<salute>Yrs Sincerely</salute>
+<hi rend="underline">A.P. Magill .</hi><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T13:59:04" who="#NR">
+                
+                    Page 6586 modified:
+                    <!-- 
+<date>14/7.</date>
+<salute>Dear Sir Robert,</salute>
+<p>Please see
+<lb/>the Home Secretary's
+<lb/>minutes on enclosed
+<lb/>file. I shall be much
+<lb/>obliged if you can
+<lb/>return the papers with
+<lb/>the information for
+<lb/>which he asks and any
+<lb/>suggestions which <del>you</del><pb/>
+
+<!~~ Page 3 ~~>
+<lb/>reinstatement of these
+<lb/>men than they have done.
+<lb/>A man may be released
+<lb/>by the military &amp;  yet be
+<lb/>quite unfit from his
+<lb/>association or sympathy
+<lb/>with Sinn Feiners to
+<lb/>be a servant of the
+<lb/>crown.
+<salute>Yrs Sincerely</salute>
+<hi rend="underline">A.P. Magill .</hi> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T13:59:04" who="#NR">
+                
+                    Page 6586 modified:
+                    <!-- 
+<date>14/7.</date>
+<salute>Dear Sir Robert,</salute>
+<p>Please see
+<lb/>the Home Secretary's
+<lb/>minutes on enclosed
+<lb/>file. I shall be much
+<lb/>obliged if you can
+<lb/>return the papers with
+<lb/>the information for
+<lb/>which he asks and any
+<lb/>suggestions which <del>you</del><pb/>
+
+<!~~ Page 3 ~~>
+<lb/>reinstatement of these
+<lb/>men than they have done.
+<lb/>A man may be released
+<lb/>by the military &amp;  yet be
+<lb/>quite unfit from his
+<lb/>association or sympathy
+<lb/>with Sinn Feiners to
+<lb/>be a servant of the
+<lb/>crown.
+<salute>Yrs Sincerely</salute>
+<hi rend="underline">A.P. Magill .</hi> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T14:00:41" who="#NR">
+                
+                    Page 6587 modified:
+                    <!-- 
+<!~~ page 2 ~~>
+<lb/>may occur to you
+<lb/>tomorrow evening so
+<lb/>that we may have
+<lb/>them on Sunday.</p>
+<p>Lord Lansdowne
+<lb/>has asked to see the
+<lb/>reports in these cases
+<lb/>so they are attracting
+<lb/>rather too much
+<lb/>attention, &amp; I think
+<lb/>the Land Commission
+<lb/>will have to put up a
+<lb/>better defence for the 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T14:00:53" who="#NR">
+                
+                    Page 6586 modified:
+                    <!-- 
+<date>14/7.</date>
+<salute>Dear Sir Robert,</salute>
+<p>Please see
+<lb/>the Home Secretary's
+<lb/>minutes on enclosed
+<lb/>file. I shall be much
+<lb/>obliged if you can
+<lb/>return the papers with
+<lb/>the information for
+<lb/>which he asks and any
+<lb/>suggestions which <del>you</del><pb/>
+
+<!~~ Page 3 ~~>
+<lb/>reinstatement of these
+<lb/>men than they have done.
+<lb/>A man may be released
+<lb/>by the military &amp;  yet be
+<lb/>quite unfit from his
+<lb/>association or sympathy
+<lb/>with Sinn Feiners to
+<lb/>be a servant of the
+<lb/>crown.
+<salute>Yrs Sincerely</salute>
+<hi rend="underline">A.P. Magill .</hi> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T14:01:28" who="#NR">
+                
+                    Page 6586 modified:
+                    <!-- 
+<date>14/7.</date>
+<salute>Dear Sir Robert,</salute>
+<p>Please see
+<lb/>the Home Secretary's
+<lb/>minutes on enclosed
+<lb/>file. I shall be much
+<lb/>obliged if you can
+<lb/>return the papers with
+<lb/>the information for
+<lb/>which he asks and any
+<lb/>suggestions which <del>you</del><pb/>
+
+<!~~ Page 3 ~~>
+<lb/>reinstatement of these
+<lb/>men than they have done.
+<lb/>A man may be released
+<lb/>by the military &amp;  yet be
+<lb/>quite unfit from his
+<lb/>association or sympathy
+<lb/>with Sinn Feiners to
+<lb/>be a servant of the
+<lb/>crown.
+<salute>Yrs Sincerely</salute>
+<signed><hi rend="underline">A.P. Magill .</hi></signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6587 created using version from <date when="2015-09-28T15:53:14"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6587 removed (version from <date when="2015-09-28T15:53:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6587 removed (version from <date when="2015-11-24T10:02:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6587 removed (version from <date when="2015-12-17T18:25:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6587 removed (version from <date when="2015-12-17T18:26:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6587 removed (version from <date when="2016-01-20T14:00:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6586 created using version from <date when="2015-09-28T15:43:41"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6586 removed (version from <date when="2015-09-28T15:43:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6586 removed (version from <date when="2015-09-28T15:44:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6586 removed (version from <date when="2015-11-24T10:01:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6586 removed (version from <date when="2015-12-17T18:22:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6586 removed (version from <date when="2015-12-17T18:23:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6586 removed (version from <date when="2015-12-17T18:27:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6586 removed (version from <date when="2015-12-20T21:47:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6586 removed (version from <date when="2016-01-18T12:22:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6586 removed (version from <date when="2016-01-20T13:59:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6586 removed (version from <date when="2016-01-20T13:59:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6586 removed (version from <date when="2016-01-20T13:59:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6586 removed (version from <date when="2016-01-20T14:00:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6586 removed (version from <date when="2016-01-20T14:01:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 6587 (version from <date when="2016-01-20T14:00:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6586 added to letter (version from <date when="2016-01-20T14:01:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:18" who="#PythonScript">
+                
+                    Clean tags: Page 6586 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:18" who="#PythonScript">
+                
+                    Clean tags: Page 6587 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:29" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:35" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:10" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:10" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2431_img_6586" url="a60195635835351a5ebd9218af956901.jpg"/> 
+    
+    <graphic xml:id="L1916_2431_img_6587" url="21eb46e1d3c79b73e170251855fed1fa.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="6586" facs="#L1916_2431_img_6586"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><dateline><date>14/7.</date></dateline>
+<salute>Dear Sir Robert,</salute></opener>
+<p>Please see
+<lb/>the Home Secretary's
+<lb/>minutes on enclosed
+<lb/>file. I shall be much
+<lb/>obliged if you can
+<lb/>return the papers with
+<lb/>the information for
+<lb/>which he asks and any
+<lb/>suggestions which <del>you</del><pb/>
+
+<!-- Page 3 -->
+<lb/>reinstatement of these
+<lb/>men than they have done.
+<lb/>A man may be released
+<lb/>by the military &amp;  yet be
+<lb/>quite unfit from his
+<lb/>association or sympathy
+<lb/>with Sinn Feiners to
+<lb/>be a servant of the
+<lb/>crown.
+<salute>Yrs Sincerely</salute>
+<signed><hi rend="underline">A.P. Magill .</hi></signed>
+        
+    
+
+    
+         
+        <pb n="6587" facs="#L1916_2431_img_6587"/>
+        
+        
+           
+            <!-- page 2 -->
+<lb/>may occur to you
+<lb/>tomorrow evening so
+<lb/>that we may have
+<lb/>them on Sunday.</p>
+<p>Lord Lansdowne
+<lb/>has asked to see the
+<lb/>reports in these cases
+<lb/>so they are attracting
+<lb/>rather too much
+<lb/>attention, &amp; I think
+<lb/>the Land Commission
+<lb/>will have to put up a
+<lb/>better defence for the
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

@@ -1,0 +1,1270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2188">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from M. Cotter to Seamus Fitzgerald, 13 June 1916</title>
+                
+                <author>M. Cotter</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="EC">Emma Clarke</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="MaryMcCarron">Mary McCarron</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Ruby">Ruby</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2188</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from M. Cotter to Séamus Fitzgerald (1896–1972) . Cotter passes on the best wishes of Lilly Twomey and Dan Collins and asks that Fitzgerald passes on his regards to fellow prisoners (Mick Leahy and Willie O'Brien). </p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Séamus Fitzgerald was an Irish business man and politician. Apprenticing at a dock yard, Fitzgerald joined the Irish Volunteers and Sinn Féin after Easter week and was subsequently arrested and interned in Frongoch camp. He would enter politics upon his release.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Cork City and County Archives -->
+                        
+                        <repository ref="#CCCA">Cork City and County Archives</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: PR/6/1
+                             
+                        -->
+                            
+                                <collection type='public'>PR/6/1</collection>
+                            
+                            
+                        <idno>PR/6/1</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Seamus Fitzgerald -->
+                        
+                        <persName ref="#Fitzgerald_S">Seamus Fitzgerald</persName>
+                    
+                
+                
+                
+                    
+                    <!-- Normalised Place Found: 
+                    Wakefield Prison 
+                    West Yorkshire
+                    United Kingdom
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName  ref="#Wakefield_Prison">Wakefield Prison Camp, West Yorkshire, England</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">M. Cotter</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    Queenstown 
+                    Cork
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#Queenstown_Cork">7 Albert Terrace, Queenstown, Co. Cork, Ireland</placeName>
+                    
+                
+                    
+                    <date when="1916-06-13">13 June 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-05-21T20:58:16" who="#EC">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-21T20:58:16" who="#MaryMcCarron">
+                
+                    Page 5685 modified:
+                    <!-- 
+<address>7 Albert Ter <lb/>Queenstown<lb/</address>>17th June 1916<lb/>Dear Jim<lb/>Just a few lines to<lb/>know how you area getting on.<lb/>I was just talking to Tom<lb/>one night and I got your address.<lb/>Lily<del>deleted text</del> Towmey was asking<lb/>about you last night 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-21T21:10:55" who="#EC">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-21T21:10:55" who="#MaryMcCarron">
+                
+                    Page 5686 modified:
+                    <!-- 
+<p><pb/>Tell Mick Leahy and Willie<lb/>O Brien that I was asking<lb/> about them.</p>Dan Collins also <del>re</del>told<lb/>me to tell you that <add>he</add><del>I</del>was<lb/>asking about you. Concluding<lb/>now I hope that ye are all well<lb/>Iam<lb/>Your Sincere Friend<lb/>M. Cotter 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-21T21:15:55" who="#EC">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-21T21:15:55" who="#MaryMcCarron">
+                
+                    Page 5687 modified:
+                    <!-- 
+Mr James Fitzgerald<lb/>Irish Prisoner<lb/>Wakefield D. Barracks<lb/>C/o G.P.O.<lb/>London 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-26T13:12:47" who="#Ruby">
+                
+                    Page 5685 modified:
+                    <!-- 
+<address>7 Albert Ter <lb/>Queenstown<lb/</address>>17th June 1916<lb/>Dear Jim Just a few lines to know how you area getting on. I was just talking to Tom one night and I got your address. Lily Towmey was asking about you last night 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-26T13:15:56" who="#EC">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-26T13:15:56" who="#Ruby">
+                
+                    Page 5688 modified:
+                    <!-- 
+OPENED BY CENSOR. 880 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-07-23T15:50:47" who="#SS">
+                
+                    Page 5685 modified:
+                    <!-- 
+<address>7 Albert Ter <lb/>
+Queenstown<lb/></address>
+<date>17th June 1916</date>
+<salute>Dear Jim</salute>
+ <p>Just a few lines to know how you area getting on. I was just talking to Tom one night and I got your address. Lily Towmey was asking about you last night</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-07-23T15:52:33" who="#SS">
+                
+                    Page 5685 modified:
+                    <!-- 
+<address>7 Albert Ter <lb/>
+Queenstown<lb/></address>
+<date>17th June 1916</date>
+PR/6/1
+<salute>Dear Jim</salute>
+ <p>Just a few lines to<lb/>
+ know how you area getting on.<lb/>
+ I was just talking to Tom<lb/>
+ one night and I got your address.<lb/>
+ Lily Towmey was asking<lb/>
+ about you last night</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-07-23T15:52:34" who="#SS">
+                
+                    Page 5685 modified:
+                    <!-- 
+<address>7 Albert Ter <lb/>
+Queenstown<lb/></address>
+<date>17th June 1916</date>
+PR/6/1
+<salute>Dear Jim</salute>
+ <p>Just a few lines to<lb/>
+ know how you area getting on.<lb/>
+ I was just talking to Tom<lb/>
+ one night and I got your address.<lb/>
+ Lily Towmey was asking<lb/>
+ about you last night</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-07-23T15:53:51" who="#SS">
+                
+                    Page 5685 modified:
+                    <!-- 
+<address>7 Albert Ter <lb/>
+Queenstown<lb/></address>
+<date>17th June 1916</date>
+PR/6/1
+<salute>Dear Jim</salute>
+ <p>Just a few lines to<lb/>
+ know how you area getting on.<lb/>
+ I was just talking to Tom<lb/>
+ one night and I got your address.<lb/>
+ Lily Towmey was asking<lb/>
+ about you last night</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-07-23T15:54:56" who="#SS">
+                
+                    Page 5685 modified:
+                    <!-- 
+<address>7 Albert Ter <lb/>
+Queenstown<lb/></address>
+<date>17th June 1916</date>
+PR/6/1
+<salute>Dear Jim</salute>
+ <p>Just a few lines to<lb/>
+ know how you area getting on.<lb/>
+ I was just talking to Tom<lb/>
+ one night and I got your address.<lb/>
+ Lily Towmey was asking<lb/>
+ about you last night<pb/></p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-07-23T15:55:01" who="#SS">
+                
+                    Page 5685 modified:
+                    <!-- 
+<address>7 Albert Ter <lb/>
+Queenstown<lb/></address>
+<date>17th June 1916</date>
+PR/6/1
+<salute>Dear Jim</salute>
+ <p>Just a few lines to<lb/>
+ know how you area getting on.<lb/>
+ I was just talking to Tom<lb/>
+ one night and I got your address.<lb/>
+ Lily Towmey was asking<lb/>
+ about you last night<pb/></p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-07-23T16:03:42" who="#SS">
+                
+                    Page 5685 modified:
+                    <!-- 
+<address>7 Albert Ter <lb/>
+Queenstown<lb/></address>
+<date>17th June 1916</date>
+PR/6/1
+<salute>Dear Jim</salute>
+ <p>Just a few lines to<lb/>
+ know how you area getting on.<lb/>
+ I was just talking to Tom<lb/>
+ one night and I got your address.<lb/>
+ Lily Towmey was asking<lb/>
+ about you last night<pb/></p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-07-23T16:03:55" who="#SS">
+                
+                    Page 5685 modified:
+                    <!-- 
+<address>7 Albert Ter <lb/>
+Queenstown<lb/></address>
+<date>17th June 1916</date>
+PR/6/1
+<salute>Dear Jim</salute>
+ <p>Just a few lines to<lb/>
+ know how you area getting on.<lb/>
+ I was just talking to Tom<lb/>
+ one night and I got your address.<lb/>
+ Lily Towmey was asking<lb/>
+ about you last night<pb/></p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-07-23T16:05:41" who="#SS">
+                
+                    Page 5685 modified:
+                    <!-- 
+<address>7 Albert Ter <lb/>
+Queenstown<lb/></address>
+<date>17th June 1916</date>
+PR/6/1
+<salute>Dear Jim</salute>
+ <p>Just a few lines to<lb/>
+ know how you area getting on.<lb/>
+ I was just talking to Tom<lb/>
+ one night and I got your address.<lb/>
+ Lily Towmey was asking<lb/>
+ about you last night<pb/></p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-07-23T16:24:11" who="#SS">
+                
+                    Page 5685 modified:
+                    <!-- 
+<address>7 Albert Ter <lb/>
+Queenstown<lb/></address>
+<date>17th June 1916</date>
+PR/6/1
+<salute>Dear Jim</salute>
+ <p>Just a few lines to<lb/>
+ know how you area getting on.<lb/>
+ I was just talking to Tom<lb/>
+ one night and I got your address.<lb/>
+ Lily Towmey was asking<lb/>
+ about you last night</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-04T11:44:33" who="#Tbrosnan">
+                
+                    Page 5686 modified:
+                    <!-- 
+<p>Tell Mick Leahy and Willie
+<lb/>O Brien that I was asking
+<lb/> about them.</p>
+<p>>Dan Collins also <del>re</del>told
+<lb/>me to tell you that <add>he</add><del>I</del>was
+<lb/>asking about you. Concluding
+<lb/>now I hope that ye are all
+<lb/>well
+<lb/><salute>I am
+<lb/>Your Sincere Friend</salute>
+<lb/>M. Cotter 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-04T11:47:30" who="#Tbrosnan">
+                
+                    Page 5687 modified:
+                    <!-- 
+<lb/>C1036
+<lb/><address>Mr James Fitzgerald
+<lb/>Irish Prisoner
+<lb/>Wakefield D. Barracks
+<lb/>C/o G.P.O.<lb/>
+<lb/>London
+</address>
+<add>a 3.32</add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-04T11:48:34" who="#Tbrosnan">
+                
+                    Page 5688 modified:
+                    <!-- 
+<add>OPENED BY
+<lb/> CENSOR.
+<lb/> 880</add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-13T15:02:30" who="#Comber">
+                
+                    Page 5686 modified:
+                    <!-- 
+<p>Tell Mick Leahy and Willie<lb/>
+O Brien that I was asking<lb/>
+ about them.</p>
+<p>Dan Collins also <del>re</del>told<lb/>
+me to tell you that <add>he</add><del>I</del>was<lb/>
+asking about you. Concluding<lb/>
+now I hope that ye are all<lb/>
+well</p>
+<salute>I am<lb/>
+Your Sincere Friend</salute>
+M. Cotter 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-13T15:04:21" who="#Comber">
+                
+                    Page 5687 modified:
+                    <!-- 
+C1036<lb/>
+<address>Mr James Fitzgerald<lb/>
+Irish Prisoner<lb/>
+Wakefield D. Barracks<lb/>
+C/o G.P.O.<lb/>
+London</address>
+<add>a 3.32</add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-13T15:04:58" who="#Comber">
+                
+                    Page 5688 modified:
+                    <!-- 
+<add>OPENED BY<lb/>
+ CENSOR.<lb/>
+ 880</add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-18T18:23:57" who="#Tbrosnan">
+                
+                    Page 5686 modified:
+                    <!-- 
+<p>Tell Mick Leahy and Willie
+<lb/>O Brien that I was asking
+ <lb/>about them.</p>
+<p>Dan Collins also <del>re</del>told
+<lb/>me to tell you that <add>he</add><del>I</del>was
+<lb/>asking about you. Concluding
+<lb/>now I hope that ye are all
+<lb/>well</p>
+<salute>I am
+<lb/>Your Sincere Friend</salute>
+<lb/>M. Cotter 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-18T18:24:43" who="#Tbrosnan">
+                
+                    Page 5687 modified:
+                    <!-- 
+C1036
+<address>Mr James Fitzgerald<lb/>
+<lb/>Irish Prisoner
+<lb/>Wakefield D. Barracks
+<lb/>C/o G.P.O.
+<lb/>London</address>
+<add>a 3.32</add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-18T18:25:12" who="#Tbrosnan">
+                
+                    Page 5688 modified:
+                    <!-- 
+<add>OPENED BY
+<lb/> CENSOR.
+ 880</add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-18T18:25:32" who="#Tbrosnan">
+                
+                    Page 5687 modified:
+                    <!-- 
+C1036
+<address>Mr James Fitzgerald
+<lb/>Irish Prisoner
+<lb/>Wakefield D. Barracks
+<lb/>C/o G.P.O.
+<lb/>London</address>
+<add>a 3.32</add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T15:47:18" who="#NR">
+                
+                    Page 5686 modified:
+                    <!-- 
+<p>Tell Mick Leahy and Willie
+<lb/>O Brien that I was asking
+ <lb/>about them.</p>
+<p>Dan Collins also <del>re</del>told
+<lb/>me to tell you that <add>he</add><del>I</del>was
+<lb/>asking about you. Concluding
+<lb/>now I hope that ye are all
+<lb/>well</p>
+<salute>I am
+<lb/>Your Sincere Friend</salute>
+<signed>M. Cotter</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T15:47:36" who="#NR">
+                
+                    Page 5687 modified:
+                    <!-- 
+<address>C1036
+<lb/>Mr James Fitzgerald
+<lb/>Irish Prisoner
+<lb/>Wakefield D. Barracks
+<lb/>C/o G.P.O.
+<lb/>London</address>
+<add>a 3.32</add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5688 created using version from <date when="2015-05-26T13:15:56"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5688 removed (version from <date when="2015-05-26T13:15:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5688 removed (version from <date when="2016-01-04T11:48:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5688 removed (version from <date when="2016-01-13T15:04:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5688 removed (version from <date when="2016-01-18T18:25:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5685 created using version from <date when="2015-05-21T20:58:16"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5685 removed (version from <date when="2015-05-21T20:58:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5685 removed (version from <date when="2015-05-26T13:12:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5685 removed (version from <date when="2015-07-23T15:50:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5685 removed (version from <date when="2015-07-23T15:52:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5685 removed (version from <date when="2015-07-23T15:52:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5685 removed (version from <date when="2015-07-23T15:53:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5685 removed (version from <date when="2015-07-23T15:54:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5685 removed (version from <date when="2015-07-23T15:55:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5685 removed (version from <date when="2015-07-23T16:03:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5685 removed (version from <date when="2015-07-23T16:03:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5685 removed (version from <date when="2015-07-23T16:05:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5685 removed (version from <date when="2015-07-23T16:24:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5686 created using version from <date when="2015-05-21T21:10:55"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5686 removed (version from <date when="2015-05-21T21:10:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5686 removed (version from <date when="2016-01-04T11:44:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5686 removed (version from <date when="2016-01-13T15:02:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5686 removed (version from <date when="2016-01-18T18:23:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5686 removed (version from <date when="2016-01-20T15:47:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5687 created using version from <date when="2015-05-21T21:15:55"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5687 removed (version from <date when="2015-05-21T21:15:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5687 removed (version from <date when="2016-01-04T11:47:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5687 removed (version from <date when="2016-01-13T15:04:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5687 removed (version from <date when="2016-01-18T18:24:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5687 removed (version from <date when="2016-01-18T18:25:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5687 removed (version from <date when="2016-01-20T15:47:36"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 5688 (version from <date when="2016-01-20T15:47:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5685 added to letter (version from <date when="2015-07-23T16:24:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5686 added to letter (version from <date when="2016-01-20T15:47:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5687 added to letter (version from <date when="2016-01-20T15:47:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:20" who="#PythonScript">
+                
+                    Clean tags: Page 5688 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:20" who="#PythonScript">
+                
+                    Clean tags: Page 5685 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:20" who="#PythonScript">
+                
+                    Clean tags: Page 5686 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:20" who="#PythonScript">
+                
+                    Clean tags: Page 5687 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:25" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:30" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:36" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:20" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:20" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2188_img_5685" url="3e940b5901a4f157a5182040babb82e3.jpg"/> 
+    
+    <graphic xml:id="L1916_2188_img_5686" url="0cb8820e8055db3bd2ec62fbb79776c7.jpg"/> 
+    
+    <graphic xml:id="L1916_2188_img_5687" url="7f3630de280c09968ecb29e93f9653c5.jpg"/> 
+    
+    <graphic xml:id="L1916_2188_img_5688" url="d7f0ddf86e7f1055dc3297c6e20a390b.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="5685" facs="#L1916_2188_img_5685"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>7 Albert Ter</addrLine>
+<addrLine>Queenstown</addrLine>
+<addrLine></addrLine></address>
+<dateline><date>17th June 1916</date></dateline>
+PR/6/1
+<salute>Dear Jim</salute></opener>
+ <p>Just a few lines to<lb/>
+ know how you area getting on.<lb/>
+ I was just talking to Tom<lb/>
+ one night and I got your address.<lb/>
+ Lily Towmey was asking<lb/>
+ about you last night</p>
+        
+    
+
+    
+         
+        <pb n="5686" facs="#L1916_2188_img_5686"/>
+        
+        
+           
+            <p>Tell Mick Leahy and Willie
+<lb/>O Brien that I was asking
+ <lb/>about them.</p>
+<p>Dan Collins also <del>re</del>told
+<lb/>me to tell you that <add>he</add><del>I</del>was
+<lb/>asking about you. Concluding
+<lb/>now I hope that ye are all
+<lb/>well</p>
+<closer><salute>I am
+<lb/>Your Sincere Friend</salute>
+<signed>M. Cotter</signed></closer>
+        
+    
+        
+        
+        
+    
+         
+        <pb n="5688" facs="#L1916_2188_img_5688"/>
+        
+        
+           
+            <add>OPENED BY
+<lb/> CENSOR.
+ 880</add>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+            <pb n="5687" facs="#L1916_2188_img_5687"/>
+            <text type="envelope" decls="#corresp1">
+                <body> 
+                    <ab>
+                        <add>OPENED BY
+<lb/> CENSOR.
+ 880</add>
+                    </ab>
+                </body>
+            </text>
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

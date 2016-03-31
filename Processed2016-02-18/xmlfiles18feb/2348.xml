@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2348">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Fr James Brennan SJ to Fr Thomas V Nolan SJ, 21 August 1916</title>
+                
+                <author>James Brennan</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Delmacarroll">Delmacarroll</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="SKerr">SKerr</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Irishjesuitarchives">Irishjesuitarchives</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2348</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>Letter from Fr James Brennan SJ (1854-1941), Rector of Rathfarnham Castle to his Father Provincial Thomas V Nolan SJ (1867-1941), 21 August 1916. The letter from Fr James Brennan SJ to his provincial concerns the travel plans for Juniors who had completed their academic studies and were to apply for permits to travel to Jersey, to start their philosophical studies. Brennan was worried about their travel plans and commented that ‘eight fine young fellows of military age, travelling together would attract attention in these anxious days…some of the Roehampton Juniors (British Jesuits) were presented with white feathers in London’. During the First World War, in order to shame men into enlisting in the British Army, women presented men not wearing military uniform with a white feather to signify cowardice. As a consequence, the Juniors travelled to Jersey in two groups.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Rathfarnham Castle was bought by the Irish Jesuits in 1913 and used a house of studies for those Jesuits attending university. This decision was made following the change of regulations to the National University requiring students to attend lectures whereas previously they could be prepared for examinations elsewhere. The Jesuit Juniors as they were known would live at the Castle and cycle to lectures at University College Dublin, then located at Earlsfort Terrace in the centre of Dublin.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Irish Jesuit Archives -->
+                        
+                        <repository ref="#IJA">Irish Jesuit Archives</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: IE IJA/FM/RATH/40
+                             
+                        -->
+                            
+                                <collection type='public'>IE IJA/FM/RATH/40</collection>
+                            
+                            
+                        <idno>IE IJA/FM/RATH/40</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Thomas V Nolan -->
+                        
+                        <persName ref="#Nolan_T_V">Thomas V Nolan </persName>
+                    
+                
+                
+                
+                    
+                    <!-- Normalised Place Found: 
+                    Upper Rutland Street 
+                    Dublin
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName  ref="#CentralDublin">St Francis Xavier&#39;s, Upper Gardiner Street, Dublin</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: James Brennan -->
+                        
+                        <persName ref="#Brennan_J">James Brennan</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    Dublin Castle 
+                    Dublin
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#Dublin_Castle">Rathfarnham Castle, Rathfarnham, county Dublin</placeName>
+                    
+                
+                    
+                    <date when="1916-08-21">21 August 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1941</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-07-29T11:38:46" who="#Irishjesuitarchives">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-07-29T11:38:46" who="#Delmacarroll">
+                
+                    Page 6202 modified:
+                    <!-- 
+<address>Rathfarnham Castle<lb/>
+Rathfarnham<lb/>
+Co Dublin<lb/></address>
+
+<date>21 .8.16<lb/></date>
+
+<salute>My dear Fr Provincial<lb/></salute>
+
+In your first letter to me<lb/>
+about the departures for Jersey you said<lb/>
+the Juniors were to go in two batches.  Does<lb/>
+this arrangement still hold good?  It seems<lb/>
+to me to be the best.  Eight fine young fellows<lb/>
+of military age travelling together would attract<lb/>
+attention in these anxious days.  Some of the<lb/>
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-07-29T11:50:24" who="#Irishjesuitarchives">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-07-29T11:50:24" who="#Delmacarroll">
+                
+                    Page 6203 modified:
+                    <!-- 
+Roehampton Juniors were presented with white feathers<lb/>
+in London.  Then again it would be difficult<lb/>
+for the Fathers in Farm St to accommodate so many.<lb/>
+M<hi rend="superscript">r</hi> Neary  <del>was better</del> told me that they will<lb/>
+require permits to travel and that he has<lb/>
+got his own already.  I shall see about<lb/>
+this at once.   If you think well of sending<lb/>
+them in two different sets the first could start<lb/>
+on the 29<hi rend="superscript">th</hi> as you have arranged &amp; the<lb/>
+second on the following day Saturday. M<hi rend="superscript">r</hi> <unclear>Grech</unclear><lb/>
+is at Stonyhurst.  He found a letter from the Rector<lb/>
+of Stonyhurst waiting for him at Liverpool saying that<lb/>
+he could not receive him 'till the 24<hi rend="superscript">th</hi>  But the Rector of Liverpool<lb/>
+told him not to mind &amp; sent him on.  Pardon me for troubling you<lb/>
+during your retreat.<lb/>
+
+<salute>Very sincerely yours in <gap/><lb/></salute>
+J Brennan S J <lb/>
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-07T10:44:05" who="#Irishjesuitarchives">
+                
+                    Page 6202 modified:
+                    <!-- 
+<address>Rathfarnham Castle<lb/>
+Rathfarnham<lb/>
+Co Dublin<lb/></address>
+
+<date>21 .8.16<lb/></date>
+
+<salute>My dear Fr Provincial<lb/>
+P.C.lb/></salute>
+
+In your first letter to me<lb/>
+about the departures for Jersey you said<lb/>
+the Juniors were to go in two batches.  Does<lb/>
+this arrangement still hold good?  It seems<lb/>
+to me to be the best.  Eight fine young fellows<lb/>
+of military age, travelling together would attract<lb/>
+attention in these anxious days.  Some of the<lb/>
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-07T10:47:34" who="#Irishjesuitarchives">
+                
+                    Page 6203 modified:
+                    <!-- 
+Roehampton Juniors were presented with white feathers<lb/>
+in London.  Then again, it would be difficult<lb/>
+for the Fathers in Farm St. to accommodate so many.<lb/>
+M<hi rend="superscript">r</hi> Neary  <del>was better</del> told me that they will<lb/>
+require permits to travel, and that he has<lb/>
+got his own already.  I shall see about<lb/>
+this at once.   If you think well of sending<lb/>
+them in two different sets, the first could start<lb/>
+on the 29<hi rend="superscript">th</hi> as you have arranged &amp; the<lb/>
+second on the following day Saturday. M<hi rend="superscript">r</hi> <unclear>Grech</unclear><lb/>
+is at Stonyhurst.  He found a letter from the Rector<lb/>
+of Stonyhurst waiting for him at Liverpool, saying that<lb/>
+he could not receive him 'till the 24<hi rend="superscript">th</hi>  But the Rector of Liverpool<lb/>
+told him not to mind &amp; sent him on.  Pardon me for troubling you<lb/>
+during your retreat.<lb/>
+
+<salute>Very sincerely yours in Xto<lb/></salute>
+J Brennan S J <lb/>
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T14:54:02" who="#SKerr">
+                
+                    Page 6202 modified:
+                    <!-- 
+<address>Rathfarnham Castle
+Rathfarnham
+Co Dublin</address>
+
+<date>21 .8.16</date>
+
+<salute>My dear Fr. Provincial
+<lb/>P.C.</salute>
+
+<p>In your first letter to me
+<lb/>about the departures for Jersey you said
+<lb/>the Juniors were to go in two batches.  Does
+<lb/>this arrangement still hold good?  It seems
+<lb/>to me to be the best.  Eight fine young fellows,
+<lb/>of military age, travelling together would attract
+<lb/>attention in these anxious days.  Some of the
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T15:00:11" who="#SKerr">
+                
+                    Page 6203 modified:
+                    <!-- 
+Roehampton Juniors were presented with white feathers
+<lb/>in London.  Then again, it would be difficult
+<lb/>for the Fathers in Farm St. to accommodate so many.
+<lb/>M<hi rend="superscript">r</hi> Neary  <del>was better</del> told me that they will
+<lb/>require permits to travel, and that he has
+<lb/>got his own already.  I shall see about
+<lb/>this at once.   If you think well of sending
+<lb/>them in two different sets, the first could start
+<lb/>on the 29<hi rend="superscript">th</hi>, as you have arranged, &amp; the
+<lb/>second on the following Saturday. M<hi rend="superscript">r</hi> <unclear>Grech</unclear>
+<lb/>is at Stonyhurst.  He found a letter from the Rector
+<lb/>of Stonyhurst waiting for him at Liverpool, saying that
+<lb/>he could not receive him 'till the 24<hi rend="superscript">th</hi>  But the Rector of Liverpool
+<lb/>told him not to mind, &amp; sent him on.  Pardon me for troubling you
+<lb/>during your retreat.</p>
+
+<salute>Very sincerely yours in Xto</salute>
+J Brennan S. J. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T16:27:38" who="#NR">
+                
+                    Page 6202 modified:
+                    <!-- 
+<address>Rathfarnham Castle
+<lb/>Rathfarnham
+<lb/>Co Dublin</address>
+
+<date>21 .8.16</date>
+
+<salute>My dear Fr. Provincial
+<lb/>P.C.</salute>
+
+<p>In your first letter to me
+<lb/>about the departures for Jersey you said
+<lb/>the Juniors were to go in two batches.  Does
+<lb/>this arrangement still hold good?  It seems
+<lb/>to me to be the best.  Eight fine young fellows,
+<lb/>of military age, travelling together would attract
+<lb/>attention in these anxious days.  Some of the 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T16:29:09" who="#NR">
+                
+                    Page 6203 modified:
+                    <!-- 
+<lb/>Roehampton Juniors were presented with white feathers
+<lb/>in London.  Then again, it would be difficult
+<lb/>for the Fathers in Farm St. to accommodate so many.
+<lb/>M<hi rend="superscript">r</hi> Neary  <del>was better</del> told me that they will
+<lb/>require permits to travel, and that he has
+<lb/>got his own already.  I shall see about
+<lb/>this at once.   If you think well of sending
+<lb/>them in two different sets, the first could start
+<lb/>on the 29<hi rend="superscript">th</hi>, as you have arranged, &amp; the
+<lb/>second on the following Saturday. M<hi rend="superscript">r</hi> <unclear>Grech</unclear>
+<lb/>is at Stonyhurst.  He found a letter from the Rector
+<lb/>of Stonyhurst waiting for him at Liverpool, saying that
+<lb/>he could not receive him 'till the 24<hi rend="superscript">th</hi>  But the Rector of Liverpool
+<lb/>told him not to mind, &amp; sent him on.  Pardon me for troubling you
+<lb/>during your retreat.</p>
+
+<salute>Very sincerely yours in Xto</salute>
+<signed>J Brennan S. J.</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6202 created using version from <date when="2015-07-29T11:38:46"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6202 removed (version from <date when="2015-07-29T11:38:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6202 removed (version from <date when="2016-01-07T10:44:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6202 removed (version from <date when="2016-01-19T14:54:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6202 removed (version from <date when="2016-01-21T16:27:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6203 created using version from <date when="2015-07-29T11:50:24"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6203 removed (version from <date when="2015-07-29T11:50:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6203 removed (version from <date when="2016-01-07T10:47:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6203 removed (version from <date when="2016-01-19T15:00:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6203 removed (version from <date when="2016-01-21T16:29:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 6202 (version from <date when="2016-01-21T16:27:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6203 added to letter (version from <date when="2016-01-21T16:29:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                    Clean tags: Page 6202 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                    Clean tags: Page 6203 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:31" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:38" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:39" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:48" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2348_img_6202" url="0969248997ba45b81a3ef2c747964892.jpg"/> 
+    
+    <graphic xml:id="L1916_2348_img_6203" url="163f490c85e0e51ac89b0f8c4c1d1416.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="6202" facs="#L1916_2348_img_6202"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>Rathfarnham Castle</addrLine>
+<addrLine>Rathfarnham</addrLine>
+<addrLine>Co Dublin</addrLine></address>
+
+<dateline><date>21 .8.16</date></dateline>
+
+<salute>My dear Fr. Provincial
+P.C.</salute></opener>
+
+<p>In your first letter to me
+<lb/>about the departures for Jersey you said
+<lb/>the Juniors were to go in two batches.  Does
+<lb/>this arrangement still hold good?  It seems
+<lb/>to me to be the best.  Eight fine young fellows,
+<lb/>of military age, travelling together would attract
+<lb/>attention in these anxious days.  Some of the
+        
+    
+
+    
+         
+        <pb n="6203" facs="#L1916_2348_img_6203"/>
+        
+        
+           
+            <lb/>Roehampton Juniors were presented with white feathers
+<lb/>in London.  Then again, it would be difficult
+<lb/>for the Fathers in Farm St. to accommodate so many.
+<lb/>M<hi rend="superscript">r</hi> Neary  <del>was better</del> told me that they will
+<lb/>require permits to travel, and that he has
+<lb/>got his own already.  I shall see about
+<lb/>this at once.   If you think well of sending
+<lb/>them in two different sets, the first could start
+<lb/>on the 29<hi rend="superscript">th</hi>, as you have arranged, &amp; the
+<lb/>second on the following Saturday. M<hi rend="superscript">r</hi> <unclear>Grech</unclear>
+<lb/>is at Stonyhurst.  He found a letter from the Rector
+<lb/>of Stonyhurst waiting for him at Liverpool, saying that
+<lb/>he could not receive him 'till the 24<hi rend="superscript">th</hi>  But the Rector of Liverpool
+<lb/>told him not to mind, &amp; sent him on.  Pardon me for troubling you
+<lb/>during your retreat.</p>
+
+<closer><salute>Very sincerely yours in Xto</salute>
+<signed>J Brennan S. J.</signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

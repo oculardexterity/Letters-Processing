@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2186">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Fr Daniel Roche SJ to his Father Provincial, Thomas V Nolan SJ,, May 1916</title>
+                
+                <author>Daniel Roche</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Delmacarroll">Delmacarroll</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="SKerr">SKerr</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Irishjesuitarchives">Irishjesuitarchives</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2186</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>Letter from Irish Jesuit Chaplain, Fr Daniel Roche SJ (1882-1961) to his Father Provincial, Thomas V Nolan SJ (1867-1941), May 1916. Roche writes an exciting account of surviving through a high explosive bombardment while conducting a burial detail. Roche also writes of his daily routine in the salient he and his men now occupy in the British front line.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Daniel Roche was born in Castleisland, county Kerry in 1882 and died in 1961 in Limerick. He attended the Intermediate School in Tralee, county Kerry and the Jesuit boarding school, Clongowes Wood College. He entered the Jesuits in 1899  and was ordained in 1915. He volunteered as a military chaplain and was accepted in 1916.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Irish Jesuit Archives -->
+                        
+                        <repository ref="#IJA">Irish Jesuit Archives</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: IE IJA/CHP1/53/10
+                             
+                        -->
+                            
+                                <collection type='public'>IE IJA/CHP1/53/10</collection>
+                            
+                            
+                        <idno>IE IJA/CHP1/53/10</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Thomas V Nolan -->
+                        
+                        <persName ref="#Nolan_T_V">Thomas V Nolan </persName>
+                    
+                
+                
+                
+                    
+                    <!-- Normalised Place Found: 
+                    Upper Rutland Street 
+                    Dublin
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName  ref="#CentralDublin">St Francis Xavier&#39;s, Upper Gardiner Street, Dublin</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Daniel Roche -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF RECIPIENT IS CORRECT --></VERIFY>
+                        
+                        <persName ref="#Roche_D">Fr Daniel Roche</persName>
+                    
+                
+                
+                 
+                    
+                    <placeName  ref="MISSING">97th Field Ambulance, British Expeditionary Force, France</placeName>
+                    
+                
+                    
+                    <date when="1916-05">18 May 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1961</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                            <item n="tag">faith</item>
+                            
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-05-07T21:49:48" who="#Irishjesuitarchives">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-07T21:49:48" who="#Delmacarroll">
+                
+                    Page 5680 modified:
+                    <!-- 
+<address>97<hi rend="superscript">th</hi> ( C P ) Field Ambulance B E F France<lb/>
+CHPI/53 ( 10)<lb/></address>
+
+<salute>Dear Fr Provincial</salute><lb/>
+P C<lb/>
+
+<p>When I was changed to this Ambulance I dropped you a card<lb/>
+letting you know and giving the address and presume you got it.<lb/></p>
+
+I am now attached to a Brigade tho attached to the Field<lb/>
+Ambulance for billets &amp; rations.  I find it a much more interesting and<lb/>
+profitable job than my last.  I have come on with and intend to stay<lb/>
+with the advanced dressing station here till we go back for rest.<lb/>
+I do not know if you have yet guessed where I am but it is not<lb/>
+far from Greystones or Killiney.  We occupy a <unclear>pronounced</unclear> salient in the<lb/>
+line and it is a very hot spot.   There is a very good Church here which<lb/>
+is at our disposal &#x2014; the civil population and <gap/> having gone.  I say ' our'<lb/>
+because I have run against Fr Sandford of the English Province here and<lb/>
+we run the district between us.  We have daily mass for a small congregation<lb/>
+of soldiers at 7.00 to 7.30 and May Devotions every night.  Then during the<lb/>
+week we try to do scattered units and on Sundays we <gap/> and get<lb/>
+in quite a large area.   During  the short time we have been up here it<lb/>
+has been bourne in on me that if attached to a Brigade like mine where<lb/>
+the Catholics are in a proportion of about 1 in 10 and some battalions are<lb/>
+in trenches and some ' at rest ' (?) and these latter scattered in various 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-07T22:02:40" who="#Delmacarroll">
+                
+                    Page 5680 modified:
+                    <!-- 
+<address>97<hi rend="superscript">th</hi> ( C P ) Field Ambulance B E F France<lb/>
+CHPI/53 ( 10)<lb/></address>
+
+<salute>Dear Fr Provincial</salute><lb/>
+P C<lb/>
+
+<p>When I was changed to this Ambulance I dropped you a card<lb/>
+letting you know and giving the address and presume you got it.<lb/></p>
+
+I am now attached to a Brigade tho attached to the Field<lb/>
+Ambulance for billets &amp; rations.  I find it a much more interesting and<lb/>
+profitable job than my last.  I have come on with and intend to stay<lb/>
+with the advanced dressing station here till we go back for rest.<lb/>
+I do not know if you have yet guessed where I am but it is not<lb/>
+far from Greystones or Killiney.  We occupy a <unclear>pronounced</unclear> salient in the<lb/>
+line and it is a very hot spot.   There is a very good Church here which<lb/>
+is at our disposal &#x2014; the civil population and <gap/> having gone.  I say ' our'<lb/>
+because I have run against Fr Sandford of the English Province here and<lb/>
+we run the district between us.  We have daily mass for a small congregation<lb/>
+of soldiers at 7.00 to 7.30 and May Devotions every night.  Then during the<lb/>
+week we try to do scattered units and on Sundays we <gap/> and get<lb/>
+in quite a large area.   During  the short time we have been up here it<lb/>
+has been bourne in on me that if attached to a Brigade like mine where<lb/>
+the Catholics are in a proportion of about 1 in 10 and some battalions are<lb/>
+in trenches and some ' at rest ' (?) and these latter scattered in various <gap/><lb/>
+<unclear>parties</unclear> the two things necessary are good physical  staying power and<lb/>
+to know the ropes.   The latter is not so easy.  The work then is a mixture<lb/>
+of druggery and excitement and I have been treated to a little of both.<lb/>
+I just escaped a bombardment by high explosion some days ago by<lb/>
+a 100 yds and 30 secs.  I had been up at the line to conduct a burial<lb/>
+and was talking to an officer for a few minutes when the shells began to<lb/>
+about 100 yds away.  As it was getting dark and I had to make<lb/>
+my way alone back along the tenches I set out for home.  I met<lb/>
+the Colonel on my way ad he told me to wait awhile till the shelling<lb/>
+was over and told me that my trench was the one which was being<lb/>
+shelled!  I had lost all idea of the direction in which I had come<lb/>
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-07T22:16:43" who="#Irishjesuitarchives">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-07T22:16:43" who="#Delmacarroll">
+                
+                    Page 5682 modified:
+                    <!-- 
+and had I not met the Colonel I should <gap/> <gap/><gap/> <gap/><lb/>
+<del>I have</del> The trench was blown in in several places and large  branches of
+trees brought down in it. I  have been very near shell fine on various<lb/>
+occasions but this was my <gap/> escape.  We were roused out of bed<lb/>
+here a few nights ago by a night alarm and spent several hours in<lb/>
+the cellar but only a few shells came into the place and these not<lb/>
+very near.  We are fully prepared for a bad time when anything big<lb/>
+is on and expect this place to get a bit of a pounding.  However we are<lb/>
+in very good not to say excellent form despite it all.<lb/> </p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-07T22:17:20" who="#Delmacarroll">
+                
+                    Page 5680 modified:
+                    <!-- 
+<address>97<hi rend="superscript">th</hi> ( C P ) Field Ambulance B E F France<lb/>
+CHPI/53 ( 10)<lb/></address>
+
+<salute>Dear Fr Provincial</salute><lb/>
+P C<lb/>
+
+<p>When I was changed to this Ambulance I dropped you a card<lb/>
+letting you know and giving the address and presume you got it.<lb/></p>
+
+<p>I am now attached to a Brigade tho attached to the Field<lb/>
+Ambulance for billets &amp; rations.  I find it a much more interesting and<lb/>
+profitable job than my last.  I have come on with and intend to stay<lb/>
+with the advanced dressing station here till we go back for rest.<lb/>
+I do not know if you have yet guessed where I am but it is not<lb/>
+far from Greystones or Killiney.  We occupy a <unclear>pronounced</unclear> salient in the<lb/>
+line and it is a very hot spot.   There is a very good Church here which<lb/>
+is at our disposal &#x2014; the civil population and <gap/> having gone.  I say ' our'<lb/>
+because I have run against Fr Sandford of the English Province here and<lb/>
+we run the district between us.  We have daily mass for a small congregation<lb/>
+of soldiers at 7.00 to 7.30 and May Devotions every night.  Then during the<lb/>
+week we try to do scattered units and on Sundays we <gap/> and get<lb/>
+in quite a large area.   During  the short time we have been up here it<lb/>
+has been bourne in on me that if attached to a Brigade like mine where<lb/>
+the Catholics are in a proportion of about 1 in 10 and some battalions are<lb/>
+in trenches and some ' at rest ' (?) and these latter scattered in various <gap/><lb/>
+<unclear>parties</unclear> the two things necessary are good physical  staying power and<lb/>
+to know the ropes.   The latter is not so easy.  The work then is a mixture<lb/>
+of druggery and excitement and I have been treated to a little of both.<lb/>
+I just escaped a bombardment by high explosion some days ago by<lb/>
+a 100 yds and 30 secs.  I had been up at the line to conduct a burial<lb/>
+and was talking to an officer for a few minutes when the shells began to<lb/>
+about 100 yds away.  As it was getting dark and I had to make<lb/>
+my way alone back along the tenches I set out for home.  I met<lb/>
+the Colonel on my way ad he told me to wait awhile till the shelling<lb/>
+was over and told me that my trench was the one which was being<lb/>
+shelled!  I had lost all idea of the direction in which I had come<lb/>
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-07T22:22:25" who="#Delmacarroll">
+                
+                    Page 5682 modified:
+                    <!-- 
+and had I not met the Colonel I should <gap/> <gap/><gap/> <gap/><lb/>
+<del>I have</del> The trench was blown in in several places and large  branches of
+trees brought down in it. I  have been very near shell fine on various<lb/>
+occasions but this was my <gap/> escape.  We were roused out of bed<lb/>
+here a few nights ago by a night alarm and spent several hours in<lb/>
+the cellar but only a few shells came into the place and these not<lb/>
+very near.  We are fully prepared for a bad time when anything big<lb/>
+is on and expect this place to get a bit of a pounding.  However we are<lb/>
+in very good not to say excellent form despite it all.<lb/> </p>
+
+<p>I am out now more than ten weeks and am commencing<lb/>
+to look forward to my first leave.   Whether I shall get it or not I cannot<lb/>
+say but at any rate I expect to put in for it. If the push comes on<lb/>
+I might have to wait rather too long.<lb/></p>
+
+<p>Hoping you will remember me in your masses &amp;<lb/>
+prayers<lb/></p>
+
+<salute>Yours sincerely in  <gap/><lb/></salute>
+D Roche S J<lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-07T22:22:31" who="#Delmacarroll">
+                
+                    Page 5682 modified:
+                    <!-- 
+and had I not met the Colonel I should <gap/> <gap/><gap/> <gap/><lb/>
+<del>I have</del> The trench was blown in in several places and large  branches of
+trees brought down in it. I  have been very near shell fine on various<lb/>
+occasions but this was my <gap/> escape.  We were roused out of bed<lb/>
+here a few nights ago by a night alarm and spent several hours in<lb/>
+the cellar but only a few shells came into the place and these not<lb/>
+very near.  We are fully prepared for a bad time when anything big<lb/>
+is on and expect this place to get a bit of a pounding.  However we are<lb/>
+in very good not to say excellent form despite it all.<lb/> </p>
+
+<p>I am out now more than ten weeks and am commencing<lb/>
+to look forward to my first leave.   Whether I shall get it or not I cannot<lb/>
+say but at any rate I expect to put in for it. If the push comes on<lb/>
+I might have to wait rather too long.<lb/></p>
+
+<p>Hoping you will remember me in your masses &amp;<lb/>
+prayers<lb/></p>
+
+<salute>Yours sincerely in  <gap/><lb/></salute>
+D Roche S J<lb/>
+
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-07T12:04:21" who="#Irishjesuitarchives">
+                
+                    Page 5680 modified:
+                    <!-- 
+<address>97<hi rend="superscript">th</hi> ( C P ) Field Ambulance B E F France<lb/></address>
+
+<salute>Dear Fr Provincial</salute><lb/>
+P.C.<lb/>
+
+<p>When I was changed to this Ambulance I dropped you a card<lb/>
+letting you know and giving the address and presume you got it.<lb/></p>
+
+<p>I am now attached to a Brigade tho attached to the Field<lb/>
+Ambulance for billets &amp; rations.  I find it a much more interesting and<lb/>
+profitable job than my last.  I have come on with and intend to stay<lb/>
+with the advanced dressing station here till we go back for rest.<lb/>
+I do not know if you have yet guessed where I am but it is not<lb/>
+far from Greystones or Killiney.  We occupy a <unclear>pronounced</unclear> salient in the<lb/>
+line and it is a very hot spot.   There is a very good Church here which<lb/>
+is at our disposal &#x2014; the civil population and <foreign>Cure</foreign>having gone.  I say 'our'<lb/>
+because I have run against Fr Sandford of the English Province here and<lb/>
+we run the district between us.  We have daily mass for a small congregation<lb/>
+of soldiers at 7.00 to 7.30 and May Devotions every night.  Then during the<lb/>
+week we try to do scattered units and on Sundays we <gap/> and get<lb/>
+in quite a large area.   During  the short time we have been up here it<lb/>
+has been bourne in on me that if attached to a Brigade like mine where<lb/>
+the Catholics are in a proportion of about 1 in 10 and some battalions are<lb/>
+in trenches and some ' at rest ' (?) and these latter scattered in various <gap/><lb/>
+<unclear>parties</unclear> the two things necessary are good physical  staying power and<lb/>
+to know the ropes.   The latter is not so easy.  The work, then, is a mixture<lb/>
+of drudgery and excitement and I have been treated to a little of both.<lb/>
+I just escaped a bombardment by high explosion some days ago by<lb/>
+a 100 yds and 30 secs.  I had been up at the line to conduct a burial<lb/>
+and was talking to an officer for a few minutes when the shells began to<lb/>
+fall about 100 yds away.  As it was getting dark and I had to make<lb/>
+my way alone back along the trenches I set out for home.  I met<lb/>
+the Colonel on my way ad he told me to wait awhile till the shelling<lb/>
+was over and told me that my trench was the one which was being<lb/>
+shelled!  I had lost all idea of the direction in which I had come<lb/>
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-07T12:12:33" who="#Irishjesuitarchives">
+                
+                    Page 5682 modified:
+                    <!-- 
+and had I not met the Colonel I should have been into it in my  <gap/><lb/>
+<del>I have</del> The trench was blown in in several places and large  branches of
+trees brought down in it. I  have been very near shell fine on various<lb/>
+occasions but this was my narrowest escape.  We were roused out of bed<lb/>
+here a few nights ago by a night alarm and spent several hours in<lb/>
+the cellar but only a few shells came into the place and these not<lb/>
+very near.  We are fully prepared for a bad time when anything big<lb/>
+is on and expect this place to get a bit of a pounding.  However we are<lb/>
+in very good not to say excellent form despite it all.<lb/> </p>
+
+<p>I am out now more than ten weeks and am commencing<lb/>
+to look forward to my first leave.   Whether I shall get it or not I cannot<lb/>
+say but at any rate I expect to put in for it. If the push comes on<lb/>
+I might have to wait rather too long.<lb/></p>
+
+<p>Hoping you will remember me in your Masses &amp;<lb/>
+prayers<lb/></p>
+
+<salute>Yours sincerely in Xt<lb/></salute>
+D Roche SJ<lb/>
+
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-02T11:07:47" who="#SKerr">
+                
+                    Page 5680 modified:
+                    <!-- 
+<address>97<hi rend="superscript">th</hi> ( C. P. ) Field Ambulance B. E. F. France</address>
+
+<salute>Dear Fr Provincial
+P.C.</salute>
+
+<p>When I was changed to this Ambulance I dropped you a card
+<lb/>letting you know and giving the address and presume you got it.</p>
+<p>I am now attached to a Brigade tho' attached to the Field
+<lb/>Ambulance for billets &amp; rations.  I find it a much more interesting and
+<lb/>profitable job than my last.  I have come on with and intend to stay
+<lb/>with the advanced dressing station here till we go back for rest.
+<lb/>I do not know if you have yet guessed where I am but it is not
+<lb/>far from Greystones or Killiney.  We occupy a <unclear>pronounced</unclear> salient in the
+<lb/>line and it is a very hot spot.   There is a very good Church here which
+<lb/>is at our disposal &#x2014; the civil population and <foreign>Cure</foreign>having gone.  I say "our"
+<lb/>because I have run against Fr Sandford of the English Province here and
+<lb/>we run the district between us.  We have daily mass for a small congregation
+<lb/>of soldiers at 7.00 to 7.30 and Holy Devotions every night.  Then during the
+<lb/>week we try to do scattered units and on Sundays we <gap/> and get
+<lb/>in quite a large area.   During the short time we have been up here it
+<lb/>has been <unclear>bourne</unclear> in on me that, if attached to a Brigade like mine where
+<lb/>the Catholics are in a proportion of about 1 in 10 and some battalions are
+<lb/>in trenches and some "at rest" (?) and these latter scattered in various <gap/>
+<lb/><unclear>parties</unclear>, the two things necessary are good physical  staying power and
+<lb/>to know the ropes.   The latter is not so easy.  The work, then, is a mixture
+<lb/>of drudgery and excitement and I have been treated to a little of both.
+<lb/>I just escaped a bombardment by high explosion some days ago by
+<lb/>a 100 yds and 30 secs.  I had been up at the line to conduct a burial
+<lb/>and was talking to an officer for a few minutes when the shells began to
+<lb/>fall about 100 yds away.  As it was getting dark and I had to make
+<lb/>my way alone back along the trenches I set out for home.  I met
+<lb/>the Colonel on my way and he told me to wait awhile till the shelling
+<lb/>was over and told me that my trench was the one which was being
+<lb/>shelled!  I had lost all idea of the direction in which I had come
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-02T11:12:57" who="#SKerr">
+                
+                    Page 5682 modified:
+                    <!-- 
+and had I not met the Colonel I should have been into it in my ignorance
+<lb/><del>I have</del> The trench was blown in in several places and large  branches
+<lb/> of trees brought down in it. I  have been very near shell fine on various
+<lb/>occasions but this was my narrowest escape.  We were roused out of bed
+<lb/>here a few nights ago by a night alarm and spent several hours in
+<lb/>the cellar but only a few shells came into the place and these not
+<lb/>very near.  We are fully prepared for a bad time when anything big
+<lb/>is on and expect this place to get a bit of a pounding.  However we are<
+lb/>in very good not to say excellent form despite it all.</p>
+<p>I am out now more than ten weeks and am commencing
+<lb/>to look forward to my first leave.   Whether I shall get it or not I cannot
+<lb/>say but at any rate I expect to put in for it. If the push comes on
+<lb/>I might have to wait rather too long.</p>
+
+<salute>Hoping you will remember me in your Masses &amp;
+prayers
+Yours sincerely in Xt</salute>
+D Roche SJ 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T11:33:33" who="#NR">
+                
+                    Page 5682 modified:
+                    <!-- 
+<lb/>and had I not met the Colonel I should have been into it in my ignorance
+<lb/><del>I have</del> The trench was blown in in several places and large  branches
+<lb/> of trees brought down in it. I  have been very near shell fine on various
+<lb/>occasions but this was my narrowest escape.  We were roused out of bed
+<lb/>here a few nights ago by a night alarm and spent several hours in
+<lb/>the cellar but only a few shells came into the place and these not
+<lb/>very near.  We are fully prepared for a bad time when anything big
+<lb/>is on and expect this place to get a bit of a pounding.  However we are
+<lb/>in very good not to say excellent form despite it all.</p>
+<p>I am out now more than ten weeks and am commencing
+<lb/>to look forward to my first leave.   Whether I shall get it or not I cannot
+<lb/>say but at any rate I expect to put in for it. If the push comes on
+<lb/>I might have to wait rather too long.</p>
+
+<salute>Hoping you will remember me in your Masses &amp;
+<lb/>prayers
+<lb/>Yours sincerely in Xt</salute>
+<signed>D Roche SJ</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5682 created using version from <date when="2015-05-07T22:16:43"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5682 removed (version from <date when="2015-05-07T22:16:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5682 removed (version from <date when="2015-05-07T22:22:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5682 removed (version from <date when="2015-05-07T22:22:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5682 removed (version from <date when="2016-01-07T12:12:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5682 removed (version from <date when="2016-02-02T11:12:57"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5682 removed (version from <date when="2016-02-03T11:33:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5680 created using version from <date when="2015-05-07T21:49:48"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5680 removed (version from <date when="2015-05-07T21:49:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5680 removed (version from <date when="2015-05-07T22:02:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5680 removed (version from <date when="2015-05-07T22:17:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5680 removed (version from <date when="2016-01-07T12:04:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5680 removed (version from <date when="2016-02-02T11:07:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 5682 (version from <date when="2016-02-03T11:33:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5680 added to letter (version from <date when="2016-02-03T11:32:36"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:22" who="#PythonScript">
+                
+                    Clean tags: Page 5680 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:22" who="#PythonScript">
+                
+                    Clean tags: Page 5682 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:25" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:30" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:37" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:30" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:36" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2186_img_5680" url="56c0da53024cb86ab40b4b1144ef1521.jpg"/> 
+    
+    <graphic xml:id="L1916_2186_img_5682" url="c0651c44c483d75156dc1b5181ae5bfa.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="5680" facs="#L1916_2186_img_5680"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<address>97<hi rend="superscript">th</hi> ( C. P. ) Field Ambulance B. E. F. France</address>
+
+<opener><salute>Dear Fr Provincial
+P.C.</salute></opener>
+
+<p>When I was changed to this Ambulance I dropped you a card
+<lb/>letting you know and giving the address and presume you got it.</p>
+<p>I am now attached to a Brigade tho' attached to the Field
+<lb/>Ambulance for billets &amp; rations.  I find it a much more interesting and
+<lb/>profitable job than my last.  I have come on with and intend to stay
+<lb/>with the advanced dressing station here till we go back for rest.
+<lb/>I do not know if you have yet guessed where I am but it is not
+<lb/>far from Greystones or Killiney.  We occupy a <unclear>pronounced</unclear> salient in the
+<lb/>line and it is a very hot spot.   There is a very good Church here which
+<lb/>is at our disposal &#x2014; the civil population and <foreign>Cure</foreign>having gone.  I say "our"
+<lb/>because I have run against Fr Sandford of the English Province here and
+<lb/>we run the district between us.  We have daily mass for a small congregation
+<lb/>of soldiers at 7.00 to 7.30 and Holy Devotions every night.  Then during the
+<lb/>week we try to do scattered units and on Sundays we <unclear>climate</unclear> and get
+<lb/>in quite a large area.   During the short time we have been up here it
+<lb/>has been <unclear>bourne</unclear> in on me that, if attached to a Brigade like mine where
+<lb/>the Catholics are in a proportion of about 1 in 10 and some battalions are
+<lb/>in trenches and some "at rest" (?) and these latter scattered in various <unclear>labour</unclear>
+<lb/><unclear>parties</unclear>, the two things necessary are good physical  staying power and
+<lb/>to know the ropes.   The latter is not so easy.  The work, then, is a mixture
+<lb/>of drudgery and excitement and I have been treated to a little of both.
+<lb/>I just escaped a bombardment by high explosion some days ago by
+<lb/>a 100 yds and 30 secs.  I had been up at the line to conduct a burial
+<lb/>and was talking to an officer for a few minutes when the shells began to
+<lb/>fall about 100 yds away.  As it was getting dark and I had to make
+<lb/>my way alone back along the trenches I set out for home.  I met
+<lb/>the Colonel on my way and he told me to wait awhile till the shelling
+<lb/>was over and told me that my trench was the one which was being
+<lb/>shelled!  I had lost all idea of the direction in which I had come
+        
+    
+
+    
+         
+        <pb n="5682" facs="#L1916_2186_img_5682"/>
+        
+        
+           
+            <lb/>and had I not met the Colonel I should have been into it in my ignorance
+<lb/><del>I have</del> The trench was blown in in several places and large  branches
+<lb/> of trees brought down in it. I  have been very near shell fine on various
+<lb/>occasions but this was my narrowest escape.  We were roused out of bed
+<lb/>here a few nights ago by a night alarm and spent several hours in
+<lb/>the cellar but only a few shells came into the place and these not
+<lb/>very near.  We are fully prepared for a bad time when anything big
+<lb/>is on and expect this place to get a bit of a pounding.  However we are
+<lb/>in very good not to say excellent form despite it all.</p>
+<p>I am out now more than ten weeks and am commencing
+<lb/>to look forward to my first leave.   Whether I shall get it or not I cannot
+<lb/>say but at any rate I expect to put in for it. If the push comes on
+<lb/>I might have to wait rather too long.</p>
+
+<closer><salute>Hoping you will remember me in your Masses &amp;
+<lb/>prayers
+<lb/>Yours sincerely in Xt</salute>
+<signed>D Roche SJ</signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

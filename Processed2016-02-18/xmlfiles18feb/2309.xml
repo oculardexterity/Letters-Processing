@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2309">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Sir Wilfrid Spender to Lady Lillian Spender, 27 July 1916</title>
+                
+                <author>Wilfrid Spender</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="RichardBreen">RichardBreen</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tnoonan1111">Tnoonan11 11</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2309</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from sir Wilfrid Bliss Spender (1876-1960) to his wife, Lady Lillian Spender, née Dean, (1880-1968).  In this letter, Spender gives an account of his settling into his new position and his workload. He discusses the local surroundings, the character of the Corps Commander, and his own recent promotion, which he believes will be only temporary.</p>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                            <p>Sir Wilfrid Spender  was a member of the British Army until 1913 when controversy surrounding his signature of the Ulster Solemn League and Covenant resulted in his resignation. Spender was called up for military service in 1914 and from 1915 served in the 36th (Ulster) Division. Throughout the war, Spender wrote a collection of letters to his wife Lady Lillian Spender. The letters date mainly from 1915 to 1918, when Sir Wilfrid was serving in France. The letters concern politics, the Irish question, personal life, and Wilfrid's experience of the Great War. Lady Lillian served in the Ulster Volunteer Nursing Corps during the war, and was an organiser of the Ulster Division Comforts Fund.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Lady Spender&#39;s Correspondence, D1633/1/1/362
+                             
+                        -->
+                            
+                                <collection type='public'>Lady Spender's Correspondence</collection>
+                            
+                            
+                        <idno>D1633/1/1/362</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Lillian Spender -->
+                        
+                        <persName ref="#Spender_L">Lillian Spender</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Wilfrid Spender -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF RECIPIENT IS CORRECT --></VERIFY>
+                        
+                        <persName ref="#Spender_W_B">Wilfrid Bliss Spender</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    France 
+                    France
+                    France
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#France">France</placeName>
+                    
+                
+                    
+                    <date when="1916-07-27">27 July 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1960</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-22T17:52:43" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-22T17:52:43" who="#Tbrosnan">
+                
+                    Page 6421 modified:
+                    <!-- 
+<add>D1633/1/1/362</add><lb/>
+<date>July 27</date><lb/>
+<salute>My Pv,</salute><lb/>
+<p>For some reason I did not<lb/> sleep very well last night &amp; had<lb/> to make a <del>very</del> early rise to drive<lb/> up to the German lines so am not in a <del>pos</del> condition to write much.</p> <p>Gradually I am picking up my<lb/> work but it is still indefinite <lb/>&amp; of course in a new area  and<lb/> feels strange tho' it is not quite<lb/>as  new country as the North<lb/> was. No letter for 3 days<lb/></p> <salute>a very hungry b w</salute> 
+<p>Last night &amp; this morning<lb/> I was up at a Captured  German <lb/>village which has been very<lb/>much in evidence lately, A more<lb/> mournful sight one has  never<lb/>seen debris dust debris dust<lb/>Pompeii was not in it with <lb/>this. <gap/> are relieving <gap/> was <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-22T17:58:07" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-22T17:58:07" who="#Tbrosnan">
+                
+                    Page 6422 modified:
+                    <!-- 
+no man's land where many young<lb/> rather uncommon wildflowers<lb/> had taken the chance of man's<lb/> absence to start a home. Rather<lb/> a mistake I'm afraid as it <lb/> will soon be as dusty &amp; <lb/> full as the rest of the country. </p>  <p>My Corps Commander is Gen<lb/> Horn, who has a big reputation  as a strong man, probably rather silent.       </p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-22T18:02:17" who="#Tbrosnan">
+                
+                    Page 6422 modified:
+                    <!-- 
+no man's land where many young<lb/> rather uncommon wildflowers<lb/> had taken the chance of man's<lb/> absence to start a home. Rather<lb/> a mistake I'm afraid as it <lb/> will soon be as dusty &amp; <lb/> full as the rest of the country. </p>  <p>My Corps Commander is Gen<lb/> Horn, who has a big reputation<lb/> as a strong man, probably<lb/> rather silent. I have seen<lb/> little of him but have been<lb/> moved to the A mess today<lb/> so shall see more presumably.</p><p>I fancy I am more or<lb/>less under trial &amp; may find <lb/>myself being transferred to <lb/> a Division if not found wanting. </p><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-22T18:18:15" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-22T18:18:15" who="#Tbrosnan">
+                
+                    Page 6415 modified:
+                    <!-- 
+<add>D1633/1/1/362</add><lb/>
+<p>I am most anxious not to <lb/>supersede the proper GSO 2  who<lb/>is an excellent chap - a senior<lb/>major. I may not give <lb/>satisfaction here in which case<lb/>I shall drop back to Capt.<lb/>again, like many others- to<lb/>Major - <unclear>Nonewhich</unclear> I do <lb/>my best when people<lb/>call out. Colonel not to show that I think they are addressing<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-22T18:18:34" who="#Tbrosnan">
+                
+                    Page 6415 modified:
+                    <!-- 
+<add>D1633/1/1/362</add><lb/>
+<p>I am most anxious not to <lb/>supersede the proper GSO 2  who<lb/>is an excellent chap - a senior<lb/>major. I may not give <lb/>satisfaction here in which case<lb/>I shall drop back to Capt.<lb/>again, like many others- to<lb/>Major - <unclear>Nonewhich</unclear> I do <lb/>my best when people<lb/>call out. Colonel not to<lb/> show that I think<lb/> they are addressing<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-22T18:22:18" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-22T18:22:18" who="#Tbrosnan">
+                
+                    Page 6416 modified:
+                    <!-- 
+someone else &amp; not to jump when<lb/> Sentries present arms. </p> Must fly back to <lb/>the office.<lb/>
+<salute>Your b w</salute>
+WB Spender 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-22T18:24:47" who="#Tbrosnan">
+                
+                    Page 6421 modified:
+                    <!-- 
+<add>D1633/1/1/362</add><lb/>
+<date>July 27</date><lb/>
+<salute>My Pv,</salute><lb/>
+<p>For some reason I did not<lb/> sleep very well last night &amp; had<lb/> to make a <del>very</del> early rise to drive<lb/> up to the German lines so am not in a <del>pos</del> condition to write much.</p> <p>Gradually I am picking up my<lb/> work but it is still indefinite <lb/>&amp; of course in a new area  and<lb/> feels strange tho' it is not quite<lb/>as  new country as the North<lb/> was. No letter for 3 days<lb/></p> <salute>a very hungry b w</salute> 
+<p>Last night &amp; this morning<lb/> I was up at a Captured  German <lb/>village which has been very<lb/>much in evidence lately, A more<lb/> mournful sight one has  never<lb/>seen debris dust debris dust<lb/>Pompeii was not in it with <lb/>this. <unclear>They</unclear>  are relieving future <unclear>ways</unclear> <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-22T18:25:46" who="#Tbrosnan">
+                
+                    Page 6421 modified:
+                    <!-- 
+<add>D1633/1/1/362</add><lb/>
+<date>July 27</date><lb/>
+<salute>My Pv,</salute><lb/>
+<p>For some reason I did not<lb/> sleep very well last night &amp; had<lb/> to make a <del>very</del> early rise to drive<lb/> up to the German lines so am not in a <del>pos</del> condition to write much.</p> <p>Gradually I am picking up my<lb/> work but it is still indefinite <lb/>&amp; of course in a new area  and<lb/> feels strange tho' it is not quite<lb/>as  new country as the North<lb/> was. No letter for 3 days<lb/></p> <salute>a very hungry b w</salute> 
+<p>Last night &amp; this morning<lb/> I was up at a Captured  German <lb/>village which has been very<lb/>much in evidence lately, A more<lb/> mournful sight one has  never<lb/>seen debris dust debris dust<lb/>Pompeii was not in it with <lb/>this. <unclear>They</unclear>  are relieving future <unclear>wars</unclear> <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-22T19:22:03" who="#Tbrosnan">
+                
+                    Page 6421 modified:
+                    <!-- 
+<add>D1633/1/1/362</add><lb/>
+<date>July 27</date><lb/>
+<salute>My Pv,</salute><lb/>
+<p>For some reason I did not<lb/> sleep very well last night &amp; had<lb/> to make a <del>very</del> early rise to drive<lb/> up to the German lines so am not in a <del>pos</del> condition to write much.</p> <p>Gradually I am picking up my<lb/> work but it is still indefinite <lb/>&amp; of course in a new area  and<lb/> feels strange tho' it is not quite<lb/>as  new country as the North<lb/> was. No letter for 3 days<lb/></p> <salute>a very hungry b w</salute> 
+<p>Last night &amp; this morning<lb/> I was up at a Captured  German <lb/>village which has been very<lb/>much in evidence lately, A more<lb/> mournful sight one has  never<lb/>seen debris dust debris dust<lb/>Pompeii was not in it with <lb/>this. <unclear>They</unclear>  are relieving future <unclear>was</unclear> <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-22T19:24:29" who="#Tbrosnan">
+                
+                    Page 6421 modified:
+                    <!-- 
+<add>D1633/1/1/362</add><lb/>
+<date>July 27</date><lb/>
+<salute>My Pv,</salute><lb/>
+<p>For some reason I did not<lb/> sleep very well last night &amp; had<lb/> to make a <del>very</del> early rise to drive<lb/> up to the German lines so am not in a <del>pos</del> condition to write much.</p> <p>Gradually I am picking up my<lb/> work but it is still indefinite <lb/>&amp; of course in a new area  and<lb/> feels strange tho' it is not quite<lb/>as  new country as the North<lb/> was. No letter for 3 days<lb/></p> <salute>a very hungry b w</salute> 
+<p>Last night &amp; this morning<lb/> I was up at a Captured  German <lb/>village which has been very<lb/>much in evidence lately, A more<lb/> mournful sight one has  never<lb/>seen debris dust debris dust<lb/>Pompeii was not in it with <lb/>this. <unclear>They</unclear>  are relieving <unclear>future</unclear> <unclear>was</unclear> <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-29T09:31:32" who="#Tbrosnan">
+                
+                    Page 6421 modified:
+                    <!-- 
+<add>D1633/1/1/362</add><lb/>
+<date>July 27</date><lb/>
+<salute>My Pr,</salute><lb/>
+<p>For some reason I did not<lb/> sleep very well last night &amp; had<lb/> to make a <del>very</del> early rise to drive<lb/> up to the German lines so am not in a <del>pos</del> condition to write much.</p> <p>Gradually I am picking up my<lb/> work but it is still indefinite <lb/>&amp; of course in a new area  and<lb/> feels strange tho' it is not quite<lb/>as  new country as the North<lb/> was. No letter for 3 days<lb/></p> <salute>a very hungry b w</salute> 
+<p>Last night &amp; this morning<lb/> I was up at a Captured  German <lb/>village which has been very<lb/>much in evidence lately, A more<lb/> mournful sight one has  never<lb/>seen debris dust debris dust<lb/>Pompeii was not in it with <lb/>this. <unclear>They</unclear>  are relieving <unclear>future</unclear> <unclear>was</unclear> <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T11:43:11" who="#RichardBreen">
+                
+                    Page 6421 modified:
+                    <!-- 
+<date>July 27</date>
+<salute>My Pr,</salute>
+<p>For some reason I did not
+<lb/> sleep very well last night &amp; had
+<lb/> to make an <del>very</del> early rise to drive
+<lb/> up to the German lines so am not in a <del>pos</del> <add>con</add>dition to write much.</p>
+ <p>Gradually I am picking up my
+<lb/> work but it is still indefinite 
+<lb/>&amp; of course in a new area  am
+<lb/> feels strange tho' it is not quite
+<lb/>as new country as the North
+<lb/> was. No letter for 3 days
+<lb/>a very hungry b w. </p>
+<p>Last night &amp; this morning
+<lb/> I was up at a Captured  German 
+<lb/>village which has been very
+<lb/>much in evidence lately, A more
+<lb/> mournful sight one has  never
+<lb/>seen debris dust debris dust
+<lb/>Pompeii was not in it with 
+<lb/>this. <unclear>They</unclear>  are relieving <unclear>future</unclear> was 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T11:43:28" who="#RichardBreen">
+                
+                    Page 6421 modified:
+                    <!-- 
+<date>July 27</date>
+<salute>My Pr,</salute>
+<p>For some reason I did not
+<lb/> sleep very well last night &amp; had
+<lb/> to make an <del>very</del> early rise to drive
+<lb/> up to the German lines so am not in a <del>pos</del> <add>con</add>dition to write much.</p>
+ <p>Gradually I am picking up my
+<lb/> work but it is still indefinite 
+<lb/>&amp; of course in a new area  am
+<lb/> feels strange tho' it is not quite
+<lb/>as new country as the North
+<lb/> was. No letter for 3 days
+<lb/>a very hungry b w. </p>
+<p>Last night &amp; this morning
+<lb/> I was up at a Captured  German 
+<lb/>village which has been very
+<lb/>much in evidence lately, A more
+<lb/> mournful sight one has  never
+<lb/>seen debris dust debris dust
+<lb/>Pompeii was not in it with 
+<lb/>this. <unclear>The</unclear>  are relieving <unclear>future</unclear> was 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T11:45:25" who="#RichardBreen">
+                
+                    Page 6422 modified:
+                    <!-- 
+no man's land where many young<lb/> rather uncommon wildflowers<lb/> had taken the chance of man's<lb/> absence to start a home. Rather<lb/> a mistake I'm afraid as it <lb/> will soon be as dusty &amp; <lb/> full as the rest of the country. </p>  
+<p>My Corps Commander is Gen<lb/> Horn, who has a big reputation<lb/> as a strong man, probably<lb/> rather silent. I have seen<lb/> little of him but have been<lb/> moved to the A mess today<lb/> so shall see more presumably.</p><p>I fancy I am more or<lb/>less under trial &amp; may find <lb/>myself being transferred to <lb/> a Division if not found wanting. </p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T11:47:14" who="#RichardBreen">
+                
+                    Page 6415 modified:
+                    <!-- 
+<p>I am most anxious not to <lb/>supersede the proper GSO 2  who<lb/>is an excellent chap - a senior<lb/>major - . I may not give <lb/>satisfaction here in which case<lb/>I shall drop back to Capt.<lb/>again, like many others- to<lb/>major - <unclear>Nonewhich</unclear> I do <lb/>my best when people<lb/>call out. Colonel not to<lb/> show that I think<lb/> they are addressing 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T11:48:20" who="#RichardBreen">
+                
+                    Page 6416 modified:
+                    <!-- 
+someone else, &amp; not to jump when
+<lb/> Sentries present arms. </p> 
+<p>Must fly back to <lb/>the office.</p>
+<salute>Your b w</salute>
+<signed> WB Spender </signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T14:24:47" who="#NR">
+                
+                    Page 6421 modified:
+                    <!-- 
+<date>July 27</date>
+<salute>My Pr,</salute>
+<p>For some reason I did not
+<lb/> sleep very well last night &amp; had
+<lb/> to make an <del>very</del> early rise to drive
+<lb/> up to the German lines so am not in a <del>pos</del> <add>con</add>dition to write much.</p>
+ <p>Gradually I am picking up my
+<lb/> work but it is still indefinite 
+<lb/>&amp; of course in a new area  am
+<lb/> feels strange tho' it is not quite
+<lb/>as new country as the North
+<lb/> was. No letter for 3 days
+<lb/>a very hungry b w. </p>
+<p>Last night &amp; this morning
+<lb/> I was up at a Captured  German 
+<lb/>village which has been very
+<lb/>much in evidence lately, A more
+<lb/> mournful sight one has  never
+<lb/>seen debris dust debris dust
+<lb/>Pompeii was not in it with 
+<lb/>this. <unclear>The</unclear> are relieving <unclear>function</unclear> was 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T14:25:31" who="#NR">
+                
+                    Page 6422 modified:
+                    <!-- 
+<lb/>no man's land where many young
+<lb/> rather uncommon wildflowers
+<lb/> had taken the chance of man's
+<lb/> absence to start a home. Rather
+<lb/> a mistake I'm afraid as it 
+<lb/> will soon be as dusty &amp; 
+<lb/> full as the rest of the country. </p>  
+<p>My Corps Commander is Gen
+<lb/> Horn, who has a big reputation
+<lb/> as a strong man, probably
+<lb/> rather silent. I have seen
+<lb/> little of him but have been
+<lb/> moved to the A mess today
+<lb/> so shall see more presumably.</p>
+<p>I fancy I am more or
+<lb/>less under trial &amp; may find 
+<lb/>myself being transferred to 
+<lb/> a Division if not found wanting. </p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T14:26:17" who="#NR">
+                
+                    Page 6415 modified:
+                    <!-- 
+<p>I am most anxious not to 
+<lb/>supersede the proper GSO 2  who
+<lb/>is an excellent chap - a senior
+<lb/>major - . I may not give 
+<lb/>satisfaction here in which case
+<lb/>I shall drop back to Capt.
+<lb/>again, like many others- to
+<lb/>major - <unclear>Nonewhich</unclear> I do 
+<lb/>my best when people
+<lb/>call out. Colonel not to
+<lb/> show that I think
+<lb/> they are addressing 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T14:26:58" who="#NR">
+                
+                    Page 6416 modified:
+                    <!-- 
+<lb/>someone else, &amp; not to jump when
+<lb/> Sentries present arms. </p> 
+<p>Must fly back to 
+<lb/>the office.</p>
+<salute>Your b w</salute>
+<signed> WB Spender </signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6421 created using version from <date when="2015-08-22T17:52:43"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6421 removed (version from <date when="2015-08-22T17:52:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6421 removed (version from <date when="2015-08-22T18:24:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6421 removed (version from <date when="2015-08-22T18:25:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6421 removed (version from <date when="2015-08-22T19:22:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6421 removed (version from <date when="2015-08-22T19:24:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6421 removed (version from <date when="2015-08-29T09:31:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6421 removed (version from <date when="2016-01-20T11:43:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6421 removed (version from <date when="2016-01-20T11:43:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6421 removed (version from <date when="2016-01-22T14:24:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6415 created using version from <date when="2015-08-22T18:18:15"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6415 removed (version from <date when="2015-08-22T18:18:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6415 removed (version from <date when="2015-08-22T18:18:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6415 removed (version from <date when="2016-01-20T11:47:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6415 removed (version from <date when="2016-01-22T14:26:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6422 created using version from <date when="2015-08-22T17:58:07"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6422 removed (version from <date when="2015-08-22T17:58:07"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6422 removed (version from <date when="2015-08-22T18:02:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6422 removed (version from <date when="2016-01-20T11:45:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6422 removed (version from <date when="2016-01-22T14:25:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6416 created using version from <date when="2015-08-22T18:22:18"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6416 removed (version from <date when="2015-08-22T18:22:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6416 removed (version from <date when="2016-01-20T11:48:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:03" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6416 removed (version from <date when="2016-01-22T14:26:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 6421 (version from <date when="2016-01-22T14:24:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6415 added to letter (version from <date when="2016-01-22T14:26:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6422 added to letter (version from <date when="2016-01-22T14:25:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6416 added to letter (version from <date when="2016-01-22T14:30:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 6416 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 6421 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 6422 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 6415 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:29" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:33" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:01" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:01" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2309_img_6415" url="3ab8aa500bdb3f1b5823fd014ddab1ae.jpg"/> 
+    
+    <graphic xml:id="L1916_2309_img_6416" url="76b510c613450f2f7a5c9fb3b09463ff.jpg"/> 
+    
+    <graphic xml:id="L1916_2309_img_6421" url="a7c3290e2408117cfa3dfdb6e2b3ae5b.jpg"/> 
+    
+    <graphic xml:id="L1916_2309_img_6422" url="3c2b50ddb9f57dbfe9b10f8879533db9.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="6415" facs="#L1916_2309_img_6415"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<p>I am most anxious not to 
+<lb/>supersede the proper GSO 2  who
+<lb/>is an excellent chap - a senior
+<lb/>major - . I may not give 
+<lb/>satisfaction here in which case
+<lb/>I shall drop back to Capt.
+<lb/>again, like many others- to
+<lb/>major - <unclear>Nonewhich</unclear> I do 
+<lb/>my best when people
+<lb/>call out. Colonel not to
+<lb/> show that I think
+<lb/> they are addressing
+        
+    
+
+    
+         
+        <pb n="6416" facs="#L1916_2309_img_6416"/>
+        
+        
+           
+            <lb/>someone else, &amp; not to jump when
+<lb/> Sentries present arms. </p> 
+<p>Must fly back to 
+<lb/>the office.</p>
+<opener><salute>Your b w</salute>
+<signed> WB Spender </signed>
+        
+    
+         
+        <pb n="6421" facs="#L1916_2309_img_6421"/>
+        
+        
+           
+            <dateline><date>July 27</date></dateline>
+<salute>My Pr,</salute></opener>
+<p>For some reason I did not
+<lb/> sleep very well last night &amp; had
+<lb/> to make an <del>very</del> early rise to drive
+<lb/> up to the German lines so am not in a <del>pos</del> <add>con</add>dition to write much.</p>
+ <p>Gradually I am picking up my
+<lb/> work but it is still indefinite 
+<lb/>&amp; of course in a new area  am
+<lb/> feels strange tho' it is not quite
+<lb/>as new country as the North
+<lb/> was. No letter for 3 days
+<lb/>a very hungry b w. </p>
+<p>Last night &amp; this morning
+<lb/> I was up at a Captured  German 
+<lb/>village which has been very
+<lb/>much in evidence lately, A more
+<lb/> mournful sight one has  never
+<lb/>seen debris dust debris dust
+<lb/>Pompeii was not in it with 
+<lb/>this. <unclear>The</unclear> are relieving <unclear>function</unclear> was
+        
+    
+         
+        <pb n="6422" facs="#L1916_2309_img_6422"/>
+        
+        
+           
+            <lb/>no man's land where many young
+<lb/> rather uncommon wildflowers
+<lb/> had taken the chance of man's
+<lb/> absence to start a home. Rather
+<lb/> a mistake I'm afraid as it 
+<lb/> will soon be as dusty &amp; 
+<lb/> full as the rest of the country. </p>  
+<p>My Corps Commander is Gen
+<lb/> Horn, who has a big reputation
+<lb/> as a strong man, probably
+<lb/> rather silent. I have seen
+<lb/> little of him but have been
+<lb/> moved to the A mess today
+<lb/> so shall see more presumably.</p>
+<p>I fancy I am more or
+<lb/>less under trial &amp; may find 
+<lb/>myself being transferred to 
+<lb/> a Division if not found wanting. </p>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

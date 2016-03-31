@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_78">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from B. Ward to Lady Clonbrock, 3 October 1916</title>
+                
+                <author>Pte. B. Ward, Connacht Rangers</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="HelenR">HelenR</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BarneyDoherty">Barney Doherty</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_78</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>Letter from prisoner of war, Private B. Ward, Connaught Rangers, to Lady Clonbrock (1839-1928). Private Ward was then held in a German prisoner of war camp in Limburg, Germany. In the letter, he refers to previous unanswered correspondence, thanks Lady Clonbrock for her fortnightly aid packages and requests new boots and underclothes. </p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Augusta Caroline Dillon (née Crofton) was the wife of Luke Gerald Dillon (1834-1917), the 4th Baron of Clonbrock, Co. Galway and the daughter of Lord Crofton of Mote Park (Edward Henry Churchill Crofton, 3rd Baron), Co. Roscommon. Aged 75 at the outbreak of war, Lady Clonbrock, worked closely with the Irish Women's Association to send basic necessities to Irish POWs. Many of her care packages went to members of the Connaught Rangers imprisoned in Limburg near Cologne.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: National Library of Ireland -->
+                        
+                        <repository ref="#NLI">National Library of Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Clonbrock Estate Papers, Collection List No 54; Ms. 35796 (14)
+                             
+                        -->
+                            
+                                <collection type='public'>Clonbrock Estate Papers, Collection List No 54</collection>
+                            
+                            
+                        <idno>Ms. 35796 (14)</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Lady Clonbrock -->
+                        
+                        <persName ref="#Dillon_A_C">Lady Clonbrock</persName>
+                    
+                
+                
+                
+                    
+                    <!-- Normalised Place Found: 
+                    Ahascragh 
+                    Galway
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName  ref="#Ahascragh">Ahascragh, Ballinasloe, County Galway</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">Pte. B. Ward, Connacht Rangers</persName>
+                    
+                
+                
+                 
+                    
+                    <placeName  ref="MISSING">Limburg, Germany</placeName>
+                    
+                
+                    
+                    <date when="1916-10-03">3 October 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2013-12-12T01:30:26" who="#NULL">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-12-12T01:30:26" who="#HelenR">
+                
+                    Page 153 modified:
+                    <!-- 
+Prisoner of War
+Name: Pte. B. Ward Comm. Rangers
+Regt. No. 10685
+Comp. 6 II Batl. Gef. No. 60774
+Camp of Prisoners of War
+Limburg (Lahn) Germany.
+
+Dear Madam,
+I now take the liberty of writing to you as I have not wrote a letter to you for the past month. Hoping you are in the best of health as I am myself. Very sorry I cannot let you know about Flanagan as I don't... 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-12-12T01:35:37" who="#NULL">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-12-12T01:35:37" who="#HelenR">
+                
+                    Page 154 modified:
+                    <!-- 
+know the man at all, I have written a postcard to you last month and I have had no answer up to the present. I have specially asked you for a pair of light boots and some underclothing as I want them at the present time. I am receiving your fortnightly parcels regularly and in good condition and very thankful to you for your kindness. Dear Madam, I would be very thankful to you if you could see your way of inquiring into the J.W. A. Clothing as I have not received them up to the present. I have wrote to the J. W. A. concerning into the clothes and I had an answer from them stating the date of the month they have sent them but I have not received them up to the present. Dear Madam, I would be very thankful to you if you would let me know... 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-12-12T01:37:48" who="#NULL">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-12-12T01:37:48" who="#HelenR">
+                
+                    Page 155 modified:
+                    <!-- 
+if the Hon. Lady Mahon is still in the J. Women's Association as I have wrote several post cards to her and got no answer. So please let me know if the Lady is still there. 
+Now closing, hoping to hear from you soon again.
+I remain your obedient servt.
+B Ward.
+Fine weather here. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T15:38:58" who="#BarneyDoherty">
+                
+                    Page 153 modified:
+                    <!-- 
+<lb/>This is my address:
+<lb/>Prisoner of War
+<lb/>Name: Pte. B. Ward Comm. Rangers
+<lb/>Regt. No. 10685
+<lb/>Comp. 6 II Batl. Gef. No. 60774
+<address><lb/>Camp of Prisoners of War
+<lb/>Limburg (Lahn) Germany.
+</address>
+<salute>Dear Madam,</salute>
+<p>I now take the liberty of writing 
+<lb/>to you as I have not wrote a 
+<lb/>letter to you for the past month. 
+<lb/>Hoping you are in the best 
+<lb/>of health as I am myself. 
+<lb/>Very sorry I cannot let you 
+<lb/>know about Flanagan as I don't 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T15:42:47" who="#BarneyDoherty">
+                
+                    Page 154 modified:
+                    <!-- 
+<lb/>know the man at all, I have written 
+<lb/>a postcard to you last month 
+<lb/>and I have had no answer up 
+<lb/>to the present. I have specially 
+<lb/>asked you for a pair of light 
+<lb/>boots and some underclothing 
+<lb/>as I want them at the present 
+<lb/>time. I am receiving your fortnightly 
+<lb/>parcels regularly and in good 
+<lb/>condition and very thankful 
+<lb/>to you for your kindness. Dear 
+<lb/>Madam, I would be very thankful 
+<pb/>
+<lb/>to you if you could see your 
+<lb/>way of inquiring into the J.W. A. 
+<lb/>Clothing as I have not received 
+<lb/>them up to the present. I have 
+<lb/>wrote to the J. W. A. concerning into 
+<lb/>the clothes and I had an answer 
+<lb/>from them stating the date of 
+<lb/>the month they have sent them 
+<lb/>but I have not received them 
+<lb/>up to the present. Dear Madam, 
+<lb/>I would be very thankful to 
+<lb/>you if you would let me know 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T15:54:52" who="#BarneyDoherty">
+                
+                    Page 155 modified:
+                    <!-- 
+<lb/>if the Hon. Lady Mahon is still
+<lb/>in the J. Women's Association 
+<lb/>as I have wrote several post 
+<lb/>cards to her and got no answer. 
+<lb/>So please let me know if the 
+<lb/>Lady is still there. 
+<lb/>Now closing, hoping to hear 
+<lb/>from you soon again.</p>
+<salute>I remain your obedient servt.</salute>
+<signed>B Ward.</signed>
+<lb/>Fine weather here. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T16:13:03" who="#NULL">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T16:13:03" who="#BarneyDoherty">
+                
+                    Page 156 modified:
+                    <!-- 
+<foreign>Kriegsgefangenenlager</foreign>
+<address>Limburg (Lahm)</address>
+<lb/>This is may address:
+<lb/>Prisoner of War
+<lb/>Name: Pte B. Ward Conn. Rangers
+<lb/>6 Comp. II Batl. N<hi rend="superscript">o</hi>.6077
+<lb/>Camp of Prisoners of War
+<lb/>Limburg (Lahm) Germany
+<lb/>The indications mentioned above must be reproduced
+<lb/>in the address.
+<pb/>
+<lb/>Kriegsgefangenensendung.
+<lb/>Adresse
+<address>M. Lady Clonbrock
+<lb/>Clonbrock, Ahascragh
+<lb/>Ireland.</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T13:02:38" who="#BarneyDoherty">
+                
+                    Page 156 modified:
+                    <!-- 
+<foreign>Kriegsgefangenenlager</foreign>
+<address>Limburg (Lahm)</address>
+<lb/>This is may address:
+<lb/>Prisoner of War
+<lb/>Name: Pte B. Ward Conn. Rangers
+<lb/>6 Comp. II Batl. N<hi rend="superscript">o</hi>.6077
+<lb/>Camp of Prisoners of War
+<lb/>Limburg (Lahm) Germany
+<lb/>The indications mentioned above must be reproduced
+<lb/>in the address.
+<!~~ Right side ~~>
+<lb/>Kriegsgefangenensendung.
+<lb/>Adresse
+<address>M. Lady Clonbrock
+<lb/>Clonbrock, Ahascragh
+<lb/>Ireland.</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-11T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-02-11T11:36:23" who="#NR">
+                
+                    Page 155 modified:
+                    <!-- 
+<lb/>if the Hon. Lady Mahon is still
+<lb/>in the J. Women's Association 
+<lb/>as I have wrote several post 
+<lb/>cards to her and got no answer. 
+<lb/>So please let me know if the 
+<lb/>Lady is still there. 
+<lb/>Now closing, hoping to hear 
+<lb/>from you soon again.</p>
+<salute>I remain your obedient servt.</salute>
+<signed>B Ward.</signed>
+<add>Fine weather here.</add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 156 created using version from <date when="2016-01-21T16:13:03"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 156 removed (version from <date when="2016-01-21T16:13:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 156 removed (version from <date when="2016-01-22T13:02:38"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 153 created using version from <date when="2013-12-12T01:30:26"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 153 removed (version from <date when="2013-12-12T01:30:26"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 153 removed (version from <date when="2016-01-21T15:38:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 154 created using version from <date when="2013-12-12T01:35:37"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 154 removed (version from <date when="2013-12-12T01:35:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 154 removed (version from <date when="2016-01-21T15:42:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 155 created using version from <date when="2013-12-12T01:37:48"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 155 removed (version from <date when="2013-12-12T01:37:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 155 removed (version from <date when="2016-01-21T15:54:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:36" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 155 removed (version from <date when="2016-02-11T11:36:23"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 156 (version from <date when="2016-02-11T11:37:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 153 added to letter (version from <date when="2016-02-11T11:34:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 154 added to letter (version from <date when="2016-02-11T11:35:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 155 added to letter (version from <date when="2016-02-11T11:36:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:20" who="#PythonScript">
+                
+                    Clean tags: Page 153 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:20" who="#PythonScript">
+                
+                    Clean tags: Page 154 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:20" who="#PythonScript">
+                
+                    Clean tags: Page 155 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:21" who="#PythonScript">
+                
+                    Clean tags: Page 156 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:25" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:30" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:36" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:23" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:24" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_78_img_153" url="cca76a0602f3924c306d0896a32b47c2.jpg"/> 
+    
+    <graphic xml:id="L1916_78_img_154" url="883b26f210f31675ce79371d62b87460.jpg"/> 
+    
+    <graphic xml:id="L1916_78_img_155" url="5c09c35b8b1c597eb6b21b300b8fee9b.jpg"/> 
+    
+    <graphic xml:id="L1916_78_img_156" url="2e2d7e6d80cdcb1a3ddc8c5631d2943d.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="153" facs="#L1916_78_img_153"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<lb/>This is my address:
+<lb/>Prisoner of War
+<lb/>Name: Pte. B. Ward Comm. Rangers
+<lb/>Regt. No. 10685
+<lb/>Comp. 6 II Batl. Gef. No. 60774
+<address><lb/>Camp of Prisoners of War
+<lb/>Limburg (Lahn) Germany.
+</address>
+<opener><salute>Dear Madam,</salute></opener>
+<p>I now take the liberty of writing 
+<lb/>to you as I have not wrote a 
+<lb/>letter to you for the past month. 
+<lb/>Hoping you are in the best 
+<lb/>of health as I am myself. 
+<lb/>Very sorry I cannot let you 
+<lb/>know about Flanagan as I don't
+        
+    
+
+    
+         
+        <pb n="154" facs="#L1916_78_img_154"/>
+        
+        
+           
+            <lb/>know the man at all, I have written 
+<lb/>a postcard to you last month 
+<lb/>and I have had no answer up 
+<lb/>to the present. I have specially 
+<lb/>asked you for a pair of light 
+<lb/>boots and some underclothing 
+<lb/>as I want them at the present 
+<lb/>time. I am receiving your fortnightly 
+<lb/>parcels regularly and in good 
+<lb/>condition and very thankful 
+<lb/>to you for your kindness. Dear 
+<lb/>Madam, I would be very thankful 
+<pb/>
+<lb/>to you if you could see your 
+<lb/>way of inquiring into the J.W. A. 
+<lb/>Clothing as I have not received 
+<lb/>them up to the present. I have 
+<lb/>wrote to the J. W. A. concerning into 
+<lb/>the clothes and I had an answer 
+<lb/>from them stating the date of 
+<lb/>the month they have sent them 
+<lb/>but I have not received them 
+<lb/>up to the present. Dear Madam, 
+<lb/>I would be very thankful to 
+<lb/>you if you would let me know
+        
+    
+         
+        <pb n="155" facs="#L1916_78_img_155"/>
+        
+        
+           
+            <lb/>if the Hon. Lady Mahon is still
+<lb/>in the J. Women's Association 
+<lb/>as I have wrote several post 
+<lb/>cards to her and got no answer. 
+<lb/>So please let me know if the 
+<lb/>Lady is still there. 
+<lb/>Now closing, hoping to hear 
+<lb/>from you soon again.</p>
+<salute>I remain your obedient servt.</salute>
+<signed>B Ward.</signed>
+<add>Fine weather here.</add>
+        
+    
+         
+        <pb n="156" facs="#L1916_78_img_156"/>
+        
+        
+           
+            <foreign>Kriegsgefangenenlager</foreign>
+<address>Limburg (Lahm)</address>
+<lb/>This is may address:
+<lb/>Prisoner of War
+<lb/>Name: Pte B. Ward Conn. Rangers
+<lb/>6 Comp. II Batl. N<hi rend="superscript">o</hi>.6077
+<lb/>Camp of Prisoners of War
+<lb/>Limburg (Lahm) Germany
+<lb/>The indications mentioned above must be reproduced
+<lb/>in the address.
+<!-- Right side -->
+<lb/>Kriegsgefangenensendung.
+<lb/>Adresse
+<address>M. Lady Clonbrock
+<lb/>Clonbrock, Ahascragh
+<lb/>Ireland.</address>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

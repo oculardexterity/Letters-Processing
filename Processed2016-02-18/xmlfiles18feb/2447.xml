@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2447">
+    <fileDesc>
+            <titleStmt>
+                <title>Pass from Seamus Doyle to Thomas Kelly, 27 April 1916</title>
+                
+                <author>Seamus Doyle</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="KB">Karolina Badzmierowska</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Ollyo">Ollyo</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2447</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A pass allowing Dr Thomas Kelly's, a local doctor, to use his motorcar in the aftermath of the Rising. The pass was issued by Seamus Doyle, a Captain with the Irish Volunteers in Enniscorthy, Co Wexford. </p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Seamus Doyle was lieutenant in the Enniscorthy battalion of the Irish Volunteers and one of the men active in Enniscorthy during the Easter Rising, one of the few places outside Dublin to see any military action.</p>
+                            
+                        
+                            
+                        
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Wexford County Archive -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF INSTITUTION REF IS CORRECT --></VERIFY>
+                        
+                        <repository ref="#MISSING">MISSING</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Wexford County Archive, WXCA/1916/GEN/261
+                             
+                        -->
+                            
+                                <collection type='public'>Wexford County Archive</collection>
+                            
+                            
+                        <idno>WXCA/1916/GEN/261</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Thomas Kelly -->
+                        
+                        <persName ref="#Kelly_T">Thomas Kelly</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Seamus Doyle -->
+                        
+                        <persName ref="#Doyle_S">Seamus Doyle</persName>
+                    
+                
+                
+                
+                    
+                    <date when="1916-04-27">27 April 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-09-28T21:36:02" who="#KB">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-09-28T21:36:02" who="#Ollyo">
+                
+                    Page 6619 modified:
+                    <!-- 
+<p>Pass Dr Thos J Kelly with <lb/>motor car <unclear>RI 1572</unclear>.</p> 
+<p>This Pass is permanent &amp; is <lb/>to be kept by bearer</p>
+<salute>Seamus Doyle</salute> 
+<date>27/4/16</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-28T21:37:09" who="#KB">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-09-28T21:37:09" who="#Ollyo">
+                
+                    Page 6620 modified:
+                    <!-- 
+<p>01/1916/GEN/261</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-10-14T13:52:32" who="#Comber">
+                
+                    Page 6619 modified:
+                    <!-- 
+<p>Pass Dr Thos J Kelly with <lb/>
+motor car <unclear>RI 1572</unclear>.</p> 
+<p>This Pass is permanent &amp; is <lb/>
+to be kept by bearer</p>
+<salute>Seamus Doyle</salute> 
+<date>27/4/16</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-11-24T09:57:04" who="#Tbrosnan">
+                
+                    Page 6620 modified:
+                    <!-- 
+<address>01/1916/GEN/261</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-04T11:34:31" who="#Tbrosnan">
+                
+                    Page 6619 modified:
+                    <!-- 
+<p>Pass Dr Thos J Kelly with
+<lb/>motor car <unclear>RI 1572</unclear>.</p> 
+<p>This Pass is permanent &amp; is 
+<lb/>to be kept by bearer</p>
+<lb/><salute>Seamus Doyle</salute> 
+<lb/><date>27/4/16</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-04T11:35:11" who="#Tbrosnan">
+                
+                    Page 6620 modified:
+                    <!-- 
+<lb/><add>01/1916/GEN/261</add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-18T12:20:48" who="#Tbrosnan">
+                
+                    Page 6619 modified:
+                    <!-- 
+<p>Pass Dr Thos J Kelly with
+<lb/>motor car <unclear>RI 1572</unclear>.</p> 
+<p>This Pass is permanent &amp; is 
+<lb/>to be kept by bearer</p>
+<lb/><salute>Seamus Doyle</salute> 
+<date>27/4/16</date><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-18T12:21:05" who="#Tbrosnan">
+                
+                    Page 6620 modified:
+                    <!-- 
+<add>01/1916/GEN/261</add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T12:55:39" who="#NR">
+                
+                    Page 6619 modified:
+                    <!-- 
+<p>Pass Dr Thos J Kelly with
+<lb/>motor car <unclear>RI 1572</unclear>.</p> 
+<p>This Pass is permanent &amp; is 
+<lb/>to be kept by bearer</p>
+<signed><salute>Seamus Doyle</signed> 
+<date>27/4/16</date><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-20T12:55:41" who="#NR">
+                
+                    Page 6619 modified:
+                    <!-- 
+<p>Pass Dr Thos J Kelly with
+<lb/>motor car <unclear>RI 1572</unclear>.</p> 
+<p>This Pass is permanent &amp; is 
+<lb/>to be kept by bearer</p>
+<signed><salute>Seamus Doyle</signed> 
+<date>27/4/16</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6620 created using version from <date when="2015-09-28T21:37:09"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6620 removed (version from <date when="2015-09-28T21:37:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6620 removed (version from <date when="2015-11-24T09:57:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6620 removed (version from <date when="2016-01-04T11:35:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6620 removed (version from <date when="2016-01-18T12:21:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6619 created using version from <date when="2015-09-28T21:36:02"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6619 removed (version from <date when="2015-09-28T21:36:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6619 removed (version from <date when="2015-10-14T13:52:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6619 removed (version from <date when="2016-01-04T11:34:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6619 removed (version from <date when="2016-01-18T12:20:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6619 removed (version from <date when="2016-01-20T12:55:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6619 removed (version from <date when="2016-01-20T12:55:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 6620 (version from <date when="2016-01-20T12:56:26"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6619 added to letter (version from <date when="2016-01-20T12:55:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:21" who="#PythonScript">
+                
+                    Clean tags: Page 6619 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:21" who="#PythonScript">
+                
+                    Clean tags: Page 6620 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:25" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:30" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:37" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:27" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:31" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2447_img_6619" url="a2116d0b8dc153ea531336b653f150c6.jpg"/> 
+    
+    <graphic xml:id="L1916_2447_img_6620" url="6b5929d08c044af31601131911a9ddc2.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+
+        
+            
+            <pb n="6619" facs="#L1916_2447_img_6619"/>
+                <text type="unknown" decls="#corresp1">
+                    <body>
+                        <p>Pass Dr Thos J Kelly with
+<lb/>motor car <unclear>RI 1572</unclear>.</p> 
+<p>This Pass is permanent &amp; is 
+<lb/>to be kept by bearer</p>
+<signed><salute>Seamus Doyle</signed> 
+<date>27/4/16</date>
+            
+        
+        
+            <pb n="6620" facs="#L1916_2447_img_6620"/>
+            <add>01/1916/GEN/261</add>
+        
+            </body>
+        </text>
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

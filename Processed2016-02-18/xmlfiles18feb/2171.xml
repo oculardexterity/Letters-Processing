@@ -1,0 +1,2281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2171">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from William Montgomery to his father, Harford Hugh Montgomery, 19 November, 1916</title>
+                
+                <author>William Alexander Montgomery</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Johnchambers81">Johnchambers81</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Sarabyrne93">Sarabyrne93</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2171</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>Letter from William Montgomery to his father, Harford Hugh (1856-1933). Montgomery thanks his father for food that he sent. This letter provides details of his time as second in command and the prospect of his becoming a lieutenant colonel. He gives a detailed account of his position in the army and his achievements.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>The Montgomery family lived in Malone Park, one of the wealthiest suburbs of Belfast city. This letter is part of a large collection that their son, William, a Captain with the 9th Battalion of the Royal Irish Rifles, wrote to his parents, Harford Hugh and Sara Montgomery, throughout the war. His first letter is dated 3 December 1914. Captain Montgomery was a decorated soldier. He was awarded both the Victoria and the 15 Star medals and was promoted to the rank of Major. His father owned a fire assessor business.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Papers of the Montgomery Family, D2794/1/1/19
+                             
+                        -->
+                            
+                                <collection type='public'>Papers of the Montgomery Family</collection>
+                            
+                            
+                        <idno>D2794/1/1/19</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Harford Hugh Montgomery  -->
+                        
+                        <persName ref="#Montgomery_H_H">Harford Hugh Montgomery</persName>
+                    
+                
+                
+                
+                    
+                    <placeName  ref="MISSING">Messrs Wm Montgomery &amp; son, 2 Wellington House, Belfast, Ireland</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">William Alexander Montgomery</persName>
+                    
+                
+                
+                
+                    
+                    <date when="1916-11-19">19 November 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                            
+                            <item n="tag">Battle of the Somme</item>
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-06-08T20:02:27" who="#Sarabyrne93">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-06-08T20:02:27" who="#Philcostel">
+                
+                    Page 5596 modified:
+                    <!-- 
+<note>Replied <date><hi rend="underline">26 Octr 1916</hi></date></note>
+<address>In the Field</address><lb/><date>19.11.16</date> 
+<address>My Dear Father/</address>
+<p>I have to acknowledge<lb/> your very interesting letter of 11<hi rend="superscript"><hi rend="underline">th</hi></hi> inst<lb/> also to convey my thanks for the<lb/> bread and two pots of lemon cheese<lb/> which <hi rend="underline">did</hi>turn up quite all right.<lb/> A little more stale than you would<lb/>touch at home, but one afternoon<lb/> tea just absolutely finished the<lb/> whole bag of tricks <hi rend="underline">almost</hi> including<lb/> the paper wrappings.</p>
+<p>Yes. I would love that<lb/><lb/> salvage amusement. I fear for a<lb/> year or two after this thing finishes<lb/> I shall miss the movement and<lb/> excitement of it terribly</p>
+<p>No sign of Horace yet. There<lb/> would appear to be some considerable<lb/> delay in the arrival of his relief where<lb/> he is now. We are all at a loss to<lb/> understand what has caused this<lb/> delay as almost a month ago we got<lb/> official <unclear>information</unclear> to the effect that<lb/> he would be with us quite soon.</p>
+<p>Today, like other days, I of<lb/> course expect Horace to arrive &amp; I go<lb/> back to command my Coy. but instead<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-08T20:03:12" who="#Sarabyrne93">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-06-08T20:03:12" who="#Philcostel">
+                
+                    Page 5597 modified:
+                    <!-- 
+2 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-09T19:54:42" who="#Philcostel">
+                
+                    Page 5597 modified:
+                    <!-- 
+2
+I find myself in command of the<lb/> Battalion. About 4oc.p.m. the C.O. got a<lb/> wire telling him to take over command<lb/> of a Brigade. He didn't know where it was,<lb/> who they are, or anything but he left<lb/> here to take them over at <hi rend="underline">5.35</hi>p.m.</p>
+<p>Mother would think it a frightful<lb/> rush. Some career in this war<lb/> he has already had. Captain to<lb/> Temporary Brigadier General in two<lb/> years &amp; a month. He told me before<lb/> he left that he would send for me<lb/> just as soon as he finds a good job<lb/> for me - preferably a staff job.</p>
+<p>Our Adjutant has also had a career<lb/> in this war - Thro' Mons as <hi rend="underline">a Corporal<lb/> in the Grenadier Guards</hi>, also Aisne on<lb/> the Marne wounded, got his Commission<lb/> posted 2<hi rend="superscript">nd</hi> Lieut East Lancs. attached to<lb/> us as <unclear>2/Lt</unclear>. &amp; Adjutant promoted Lieut<lb/> then Captain &amp; Adjutant &amp; now he will<lb/> probably follow the C.O. as brigade<lb/> Major. Before this thing finishes<lb/> there will be some extraordinary<lb/> records of service. For instance, my<lb/> own in its way is odd enough</p>
+<p>I have been wearing a major's crown<lb/> for about a week now, because I<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-09T20:15:52" who="#Sarabyrne93">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-06-09T20:15:52" who="#Philcostel">
+                
+                    Page 5598 modified:
+                    <!-- 
+3.
+have been performing the duties of 2<hi rend="superscript">nd</hi><lb/> in Command of a Batt for upwards of 30<lb/> days. I will also continue to draw pay as<lb/> such until some one senior to me joins<lb/> when I revert to my rank as Captain.<lb/> Again, if by any chance, I am left in<lb/> command of the Batt. for 30 days I will<lb/> be given permission to put up a<lb/> star in addition &amp; become for all<lb/> practical purposes a Lieut. Colonel.<lb/> Extraordinary when one thinks of it?<p>
+<p>The responsibility is, of course, heavy<lb/> but I am glad to say it does not now<lb/> &amp; never has worried me in the very<lb/> slightest. Settling a £50 loss has often<lb/> caused me a lot more worry &amp; I didn't<lb/> do it as well. Some little time ago I was<lb/> officially approached to see if I would<lb/> take a permanent commission, but<lb/> I said most definitely &amp; finally - NO> I<lb/> would hate it in peace time anyway<lb/> apart altogether from all the other<lb/> impossibilities. If by any chance I<lb/> happened to get knocked out whilst I<lb/> wear the crown as Major Montgomery<lb/> (as I just now find myself) <gap/> would<lb/> draw a Major's pension. It is a<lb/> great war &amp; as my old namesake<lb/> foreman used to say "You never know<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-09T20:32:04" who="#Sarabyrne93">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-06-09T20:32:04" who="#Philcostel">
+                
+                    Page 5599 modified:
+                    <!-- 
+4.
+the minute". Please don't address my<lb/> letters as "Major". It is quite correct<lb/> to do so&amp; all that &amp; I sign my name<lb/> as such but I don't care about it<lb/> until such time as it may in the<lb/> future appear in the Gazette.<p>
+<p>The much more gratifying part<lb/> of the business to both you &amp; me is<lb/> undoubtedly the fact that a very<lb/> pukka regular Brigadier is satisfied<lb/> to leave me responsible for a Battalion<lb/> front in the line. It all goes down<lb/> on an official document known as<lb/> my record of service &amp;  I don't lose by<lb/> it in the end, even if I do revert to<lb/> Captain again for a bit. From what<lb/> Brigadier General F.P. Crozier said to me<lb/> just before he left, it won't be for long<lb/> if he can hepl it. I have some good<lb/> friends at court here apart altogether<lb/> from my late C.O. No more Coy.<lb/> cmdg. for me if I can possibly<lb/> avoid it. I have 13 months of it to<lb/> my credit &amp; I like my present<lb/> temporary job - no, my <hi rend="underline">this morning's <lb/>temporary job much better. </hi> I also<lb/> have a great curiosity to do a bit of<lb/> the staff end of the game. In fact<lb/> if it lasts as long as I think it will<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-09T20:52:43" who="#Sarabyrne93">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-06-09T20:52:43" who="#Philcostel">
+                
+                    Page 5600 modified:
+                    <!-- 
+5
+the sooner I start the Staff side the<lb/> better for me. Don't bother about<lb/> a fountain pen nib for me thanks<lb/> I rather fancy a pal of mine in<lb/> town intends to send me a whole <lb/>complete pen.<p>
+<p>This game presents extraordinary<lb/> contrasts conditions &amp; circumstances.<lb/> I was just thinking of this tonight<lb/> at dinner &amp; comparing our present<lb/> circumstances with those which<lb/> prevailed with us last winter. As I<lb/> sit commanding a Batt in the line tonight<lb/> I am not at all certain that I am<lb/> not quite as comfortable as you are.</p>
+<p>Counting a Doctor, a Chaplain &amp; an<lb/> Artillery <sic>Liason</sic> Officer we set down<lb/> 11 to dinner - <hi rend="underline">my</hi> H.Q. mess. We had<lb/> excellent soup. Beautiful Fresh sole,<lb/> very good roast beef &amp; Yorkshire<lb/> pudding, , stewed figs &amp; custard, Coffee.<lb/> <sic>Savories</sic> we cut</p> out some ten<lb/> days ago because we could only<lb/> manage 4 kinds &amp; we are tired<lb/> of those for a bit. To drink we have<lb/> a coice of anyhting one likes.<lb/> The only thing there is any<lb/> difficulty about is liqueurs. I<lb/> Personally drink the best of good<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-10T20:09:15" who="#Sarabyrne93">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-06-10T20:09:15" who="#Philcostel">
+                
+                    Page 5601 modified:
+                    <!-- 
+6.
+Guinness Stout &amp; every now &amp; then<lb/> I get a few of the best cigars, either<lb/> given me or bought by ne when<lb/> I dine out in style. You will<lb/> think it ridiculous, I know, but<lb/> nevertheless the men love their<lb/> officers to have good sticks &amp; whips<lb/> &amp; spurs &amp; 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-15T21:43:19" who="#Philcostel">
+                
+                    Page 5601 modified:
+                    <!-- 
+6.
+Guinness Stout &amp; every now &amp; then<lb/> I get a few of the best cigars, either<lb/> given me or bought by ne when<lb/> I dine out in style. You will<lb/> think it ridiculous, I know, but<lb/> nevertheless the men love their<lb/> officers to have good sticks &amp; whips<lb/> &amp; spurs &amp; <gap/> &amp; to smoke good stuff.<lb/><p>
+<p>Do you remember those spurs you<lb/> were good enough to send me. Well<lb/> the first day I wore them, one of<lb/> my sergeants, accompanied by<lb/> a sergeant of another unit came<lb/> to my temporary home &amp; asked me<lb/> to settle a bet. It appeared he had bet<lb/> the other fellow they were silver. I<lb/> was sorry to disappoint him, but<lb/> that is the point &amp; the spirit. And<lb/> no one can even dimly estimate<lb/> its value when it comes to<lb/> leading &amp; obedience in face of<lb/> the last thing in grim hellishness.</p>
+<p>No one knows just what little<lb/> thing one does or says to a man or<lb/> men which makes them yours in<lb/> all things when the big times come.</p>
+<p>I know of several cases where<lb/> this has undoubtedly been so.</p>
+<p>Our men are also just as<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-15T21:57:59" who="#Sarabyrne93">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-06-15T21:57:59" who="#Philcostel">
+                
+                    Page 5602 modified:
+                    <!-- 
+7
+comfortable as constant thought<lb/> &amp; unremitting labour can make<lb/> them. It is however necessary that<lb/> officers are maintained <hi rend="underline">very</hi> comfortable<lb/> in order that they can be at their<lb/> best to do the best either for their<lb/> men or in the use of them.<p>
+<p>The old "share the hardships of<lb/> their men idea" which is so truly<lb/> British is still with us but<lb/> modified. The Bosch started this<lb/> war so very much more scientifically<lb/> than we did &amp; this was one of his<lb/> great points.</p>
+<p>I dont suppose you get time for<lb/> much reading, but if you do &amp; you<lb/> care to read a really human<lb/> readable history of this war get<lb/> the Strand Magazine. It is<lb/> excellent &amp; your son knows<lb/> almost every little rise &amp; fall of<lb/> ground &amp; line of much of the line<lb/> that is there written of.</p>
+<p>It will give you a faint<lb/> impression of what our original<lb/> Expeditionary Force did &amp; was. No<lb/> one can really know just what<lb/> it was except those who were<lb/> through the first 6 months of it<pb/></p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-15T21:59:05" who="#Philcostel">
+                
+                    Page 5602 modified:
+                    <!-- 
+7
+comfortable as constant thought<lb/> &amp; unremitting labour can make<lb/> them. It is however necessary that<lb/> officers are maintained <hi rend="underline">very</hi> comfortable<lb/> in order that they can be at their<lb/> best to do the best either for their<lb/> men or in the use of them.<p>
+<p>The old "share the hardships of<lb/> their men idea" which is so truly<lb/> British is still with us but<lb/> modified. The Bosch started this<lb/> war so very much more scientifically<lb/> than we did &amp; this was one of his<lb/> great points.</p>
+<p>I dont suppose you get time for<lb/> much reading, but if you do &amp; you<lb/> care to read a really human<lb/> readable history of this war get<lb/> the Strand Magazine. It is<lb/> excellent &amp; your son knows<lb/> almost every little rise &amp; fall of<lb/> ground &amp; line of much of the line<lb/> that is there written of.</p>
+<p>It will give you a faint<lb/> impression of what our original<lb/> Expeditionary Force did &amp; was. No<lb/> one can really know just what<lb/> it was except those who were<lb/> through the first 6 months of it.</p><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-15T22:14:52" who="#Sarabyrne93">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-06-15T22:14:52" who="#Philcostel">
+                
+                    Page 5603 modified:
+                    <!-- 
+8
+<p>But perhaps with your old Puritan<lb/> Blood <add>you</add> wont care about it. Still<lb/> as effort alone it stands as<lb/> colossal. I am convinced now<lb/> that the end is certain &amp; that we<lb/> will be the senior survivors. If<lb/> it is protracted as long as I think<lb/> it will be, the expression 'WIN' will<lb/> not be accurately applicable in its<lb/> popular sense. I forgot in<lb/> describing our mess to mention that<lb/> some of my young officers are<lb/> now playing Ping pong whilst one<lb/> with whom we dined is prowling<lb/> about NO MANS LAND on patrol &amp; others are inspecting the line &amp;<lb/> sentries &amp; guns etc etc etc &amp; so<lb/> it goes on. The really awful part<lb/> of the thing is that this time<lb/> 2 years ago I was junior 2<hi rend="superscript">nd</hi> Lieut<lb/> on a month's probationin the<lb/> Battalion I tonight command &amp; am<lb/> the only officer with it tonight who<lb/> have served in France etc right<lb/>thro' with it. It is one of the<lb/> most decorated if not <hi rend="underline">the</hi>  most<lb/> decorated Battalion in our Corps.<lb/><lb/> It is by far the most decorated<lb/> Batt. in our Division &amp; that is<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-15T22:22:41" who="#Sarabyrne93">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-06-15T22:22:41" who="#Philcostel">
+                
+                    Page 5604 modified:
+                    <!-- 
+9
+a very special honour to begin<lb/> with. The awful pity of it is<lb/> that more of our home birds<lb/> <sic>arnt</sic> coming out to us. I would<lb/> rather have them than any<lb/> others in all the world.<p>
+<p>Well this all seems to be about<lb/> me, but there is so little else I<lb/> am permitted to write about that<lb/> you will please accept this fact<lb/> as my excuse.</p>
+<p>I am well &amp; in the very best of<lb/> form &amp; very much looking<lb/> forward to my next leave<lb/> which I hope to have in the<lb/> forepart of next month.</p>
+<p>All my love to mother</p>
+<salute>Your affectionate son<lb/> Wm</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-06-15T22:28:11" who="#Sarabyrne93">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-06-15T22:28:11" who="#Philcostel">
+                
+                    Page 5605 modified:
+                    <!-- 
+<!~~ Envelope ~~>
+<note><date><hi rend="underline">26 October 1916</hi></date></note>
+<address>Harford H. Montgomery Esq<lb/> c/o Messrs W<hi rend="superscript"><hi rend="underline">m</hi></hi> Montgomery &amp; Son<lb/> 2 Wellington Place<lb/><hi rend="underline">Belfast</hi></address>
+<note>PASSED FIELD CENSOR 2188</note>
+<note><hi rend="underline">WA Montgomery</hi></note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T12:43:41" who="#Johnchambers81">
+                
+                    Page 5596 modified:
+                    <!-- 
+<note>Replied <date><hi rend="underline">26 Octr 1916</hi></date></note>
+<address>In the Field</address>
+<lb/><date>19.11.16</date> 
+<salute>My Dear Father/</salute>
+<p>I have to acknowledge
+<lb/> your very interesting letter of 11<hi rend="superscript"><hi rend="underline">th</hi></hi> inst
+<lb/> also to convey my thanks for the
+<lb/> bread and two pots of lemon cheese
+<lb/> which <hi rend="underline">did</hi>turn up quite all right.
+<lb/> A little more stale than you would
+<lb/>touch at home, but one afternoon
+<lb/> tea just absolutely finished the
+<lb/> whole bag of tricks <hi rend="underline">almost</hi> including
+<lb/> the paper wrappings.</p>
+<p>Yes. I would love that
+<lb/> salvage amusement. I fear for a
+<lb/> year or two after this thing finishes
+<lb/> I shall miss the movement and
+<lb/> excitement of it terribly</p>
+<p>No sign of Horace yet. There
+<lb/> would appear to be some considerable
+<lb/> delay in the arrival of his relief where
+<lb/> he is now. We are all at a loss to
+<lb/> understand what has caused this
+<lb/> delay as almost a month ago we got
+<lb/> official <unclear>information</unclear> to the effect that
+<lb/> he would be with us quite soon.</p>
+<p>Today, like other days, I of
+<lb/> course expect Horace to arrive &amp; I go
+<lb/> back to command my Coy. but instead 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T12:48:29" who="#Johnchambers81">
+                
+                    Page 5597 modified:
+                    <!-- 
+2
+<lb/>I find myself in command of the
+<lb/> Battalion. About 4oc.p.m. the C.O. got a
+<lb/> wire telling him to take over command
+<lb/> of a Brigade. He didn't know where it was,
+<lb/> who they are, or anything but he left
+<lb/> here to take them over at <hi rend="underline">5.35</hi>p.m.</p>
+<p>Mother would think it a frightful
+<lb/> rush. Some career in this war
+<lb/> he has already had. Captain to
+<lb/> Temporary Brigadier General in two
+<lb/> years &amp; a month. He told me before
+<lb/> he left that he would send for me
+<lb/> just as soon as he finds a good job
+<lb/> for me - preferably a staff job.</p>
+<p>Our Adjutant has also had a career
+<lb/> in this war - Thro' Mons as <hi rend="underline">a Corporal
+<lb/> in the Grenadier Guards</hi>, also Aisne on
+<lb/> the Marne wounded, got his Commission
+<lb/> posted 2<hi rend="superscript">nd</hi> Lieut East Lancs. attached to
+<lb/> us as 21<hi rend="superscript">st</hi> &amp; Adjutant promoted Lieut
+<lb/> then Captain &amp; Adjutant &amp; now he will
+<lb/> probably follow the C.O. as brigade
+<lb/> Major. Before this thing finishes
+<lb/> there will be some extraordinary
+<lb/> records of service. For instance, my
+<lb/> own in its way is odd enough</p>
+<p>I have been wearing a major's crown
+<lb/> for about a week now, because I 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T12:50:11" who="#Johnchambers81">
+                
+                    Page 5598 modified:
+                    <!-- 
+3.
+<lb/>have been performing the duties of 2<hi rend="superscript">nd</hi>
+<lb/> in Command of a Batt for upwards of 30
+<lb/> days. I will also continue to draw pay as
+<lb/> such until some one senior to me joins
+<lb/> when I revert to my rank as Captain.
+<lb/> Again, if by any chance, I am left in
+<lb/> command of the Batt. for 30 days I will
+<lb/> be given permission to put up a
+<lb/> star in addition &amp; become for all
+<lb/> practical purposes a Lieut. Colonel.
+<lb/> Extraordinary when one thinks of it?<p>
+<p>The responsibility is, of course, heavy<lb/> but I am glad to say it does not now<lb/> &amp; never has worried me in the very<lb/> slightest. Settling a £50 loss has often<lb/> caused me a lot more worry &amp; I didn't<lb/> do it as well. Some little time ago I was<lb/> officially approached to see if I would<lb/> take a permanent commission, but<lb/> I said most definitely &amp; finally - NO> I<lb/> would hate it in peace time anyway<lb/> apart altogether from all the other<lb/> impossibilities. If by any chance I<lb/> happened to get knocked out whilst I<lb/> wear the crown as Major Montgomery<lb/> (as I just now find myself) <gap/> would<lb/> draw a Major's pension. It is a<lb/> great war &amp; as my old namesake<lb/> foreman used to say "You never know<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T12:53:27" who="#Johnchambers81">
+                
+                    Page 5598 modified:
+                    <!-- 
+3.
+<lb/>have been performing the duties of 2<hi rend="superscript">nd</hi>
+<lb/> in Command of a Batt for upwards of 30
+<lb/> days. I will also continue to draw pay as
+<lb/> such until some one senior to me joins
+<lb/> when I revert to my rank as Captain.
+<lb/> Again, if by any chance, I am left in
+<lb/> command of the Batt. for 30 days I will
+<lb/> be given permission to put up a
+<lb/> star in addition &amp; become for all
+<lb/> practical purposes a Lieut. Colonel.
+<lb/> Extraordinary when one thinks of it?</p>
+<p>The responsibility is, of course, heavy
+<lb/> but I am glad to say it does not now
+<lb/> &amp; never has worried me in the very
+<lb/> slightest. Settling a £50 loss has often
+<lb/> caused me a lot more worry &amp; I didn't
+<lb/> do it as well. Some little time ago I was
+<lb/> officially approached to see if I would
+<lb/> take a permanent commission, but
+<lb/> I said most definitely &amp; finally - NO I
+<lb/> would hate it in peace time anyway
+<lb/> apart altogether from all the other
+<lb/> impossibilities. If by any chance I
+<lb/> happened to get knocked out whilst I
+<lb/> wear the crown as Major Montgomery
+<lb/> (as I just now find myself) Emmie would
+<lb/> draw a Major's pension. It is a
+<lb/> great war &amp; as my old namesake
+<lb/> foreman used to say "You never know 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T13:04:12" who="#Johnchambers81">
+                
+                    Page 5599 modified:
+                    <!-- 
+4.
+<lb/>the minute". Please don't address my
+<lb/> letters as "Major". It is quite correct
+<lb/> to do so&amp; all that &amp; I sign my name
+<lb/> as such but I don't care about it
+<lb/> until such time as it may in the
+<lb/> future appear in the Gazette.</p>
+<p>The much more gratifying part
+<lb/> of the business to both you &amp; me is
+<lb/> undoubtedly the fact that a very
+<lb/> pukka regular Brigadier is satisfied
+<lb/> to leave me responsible for a Battalion
+<lb/> front in the line. It all goes down
+<lb/> on an official document known as
+<lb/> my record of service &amp;  I don't lose by
+<lb/> it in the end, even if I do revert to
+<lb/> Captain again for a bit. From what
+<lb/> Brigadier General F.P. Crozier said to me
+<lb/> just before he left, it won't be for long
+<lb/> if he can help it. I have some good
+<lb/> friends at court here apart altogether
+<lb/> from my late C.O. No more Coy.
+<lb/> cmdg. for me if I can possibly
+<lb/> avoid it. I have 13 months of it to
+<lb/> my credit &amp; I like my present
+<lb/> temporary job - <hi rend="underline">no, my this morning's
+ <lb/>temporary job</hi> much better.  I also
+<lb/> have a great curiosity to do a bit of
+<lb/> the staff end of the game. In fact
+<lb/> if it lasts as long as I think it will 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T13:08:10" who="#Johnchambers81">
+                
+                    Page 5600 modified:
+                    <!-- 
+5
+<lb/>the sooner I start the Staff side the
+<lb/> better for me. Don't bother about
+<lb/> a fountain pen nib for me thanks
+<lb/> I rather fancy a pal of mine in
+<lb/> town intends to send me a whole 
+<lb/>complete pen.</p>
+<p>This game presents extraordinary
+<lb/> contrasts conditions &amp; circumstances.
+<lb/> I was just thinking of this tonight
+<lb/> at dinner &amp; comparing our present
+<lb/> circumstances with those which
+<lb/> prevailed with us last winter. As I
+<lb/> sit commanding a Batt in the line tonight
+<lb/> I am not at all certain that I am
+<lb/> not quite as comfortable as you are.</p>
+<p>Counting a Doctor, a Chaplain &amp; an
+<lb/> Artillery <sic>Liason</sic> Officer we set down
+<lb/> 11 to dinner - <hi rend="underline">my</hi> H.Q. mess. We had
+<lb/> excellent soup. Beautiful Fresh sole,
+<lb/> very good roast beef &amp; Yorkshire
+<lb/> pudding, , stewed figs &amp; custard, Coffee.
+<lb/> <sic>Savories</sic> we cut out some ten
+<lb/> days ago because we could only
+<lb/> manage 4 kinds &amp; we are tired
+<lb/> of those for a bit. To drink we have
+<lb/> a coice of anyhting one likes.
+<lb/> The only thing there is any
+<lb/> difficulty about is liqueurs. I
+<lb/> Personally drink the best of good 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T13:12:00" who="#Johnchambers81">
+                
+                    Page 5601 modified:
+                    <!-- 
+6.
+<lb/>Guinness Stout &amp; every now &amp; then
+<lb/> I get a few of the best cigars, either
+<lb/> given me or bought by me when
+<lb/> I dine out in style. You will
+<lb/> think it ridiculous, I know, but
+<lb/> nevertheless the men love their
+<lb/> officers to have good sticks &amp; whips
+<lb/> &amp; spurs &amp; <gap/> &amp; to smoke good stuff.</p>
+<p>Do you remember those spurs you
+<lb/> were good enough to send me. Wel
+l<lb/> the first day I wore them, one of
+<lb/> my sergeants, accompanied by
+<lb/> a sergeant of another unit came
+<lb/> to my temporary home &amp; asked me
+<lb/> to settle a bet. It appeared he had bet
+<lb/> the other fellow they were silver. I
+<lb/> was sorry to disappoint him, but
+<lb/> that is the point &amp; the spirit. And
+<lb/> no one can even dimly estimate
+<lb/> its value when it comes to
+<lb/> leading &amp; obedience in face of
+<lb/> the last thing in grim hellishness.</p>
+<p>No one knows just what little
+<lb/> thing one does or says to a man or
+<lb/> men which makes them yours in
+<lb/> all things when the big times come.</p>
+<p>I know of several cases where
+<lb/> this has undoubtedly been so.</p>
+<p>Our men are also just as 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T13:23:53" who="#Johnchambers81">
+                
+                    Page 5602 modified:
+                    <!-- 
+7
+<lb/>comfortable as constant thought
+<lb/> &amp; unremitting labour can make
+<lb/> them. It is however necessary that
+<lb/> officers are maintained <hi rend="underline">very</hi> comfortable
+<lb/> in order that they can be at their
+<lb/> best to do the best either for their
+<lb/> men or in the use of them.</p>
+<p>The old "share the hardships of
+<lb/> their men idea" which is so truly
+<lb/> British is still with us but
+<lb/> modified. The Bosch started this
+<lb/> war so very much more scientifically
+<lb/> than we did &amp; this was one of his
+<lb/> great points.</p>
+<p>I dont suppose you get time for
+<lb/> much reading, but if you do &amp; you
+<lb/> care to read a really human
+<lb/> readable history of this war get
+<lb/> the Strand Magazine. It is
+<lb/> excellent &amp; your son knows
+<lb/> almost every little rise &amp; fall of
+<lb/> ground &amp; line of much of the line
+<lb/> that is there written of.</p>
+<p>It will give you a faint
+<lb/> impression of what our original
+<lb/> Expeditionary Force did &amp; was. No
+<lb/> one can really know just what
+<lb/> it was except those who were
+<lb/> through the first 6 months of it.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T13:36:43" who="#Johnchambers81">
+                
+                    Page 5603 modified:
+                    <!-- 
+8
+<p>But perhaps with your old Puritan
+<lb/> Blood <add>you</add> wont care about it. Still
+<lb/> as effort alone it stands as
+<lb/> colossal. I am convinced now
+<lb/> that the end is certain &amp; that we
+<lb/> will be the senior survivors. If
+<lb/> it is protracted as long as I think
+<lb/> it will be, the expression 'WIN' will
+<lb/> not be accurately applicable in its
+<lb/> popular sense. I forgot in
+<lb/> describing our mess to mention that
+<lb/> some of my young officers are
+<lb/> now playing Ping pong whilst one
+<lb/> with whom we dined is prowling
+<lb/> about NO MANS LAND on patrol &amp; others are inspecting the line &amp;
+<lb/> sentries &amp; guns etc etc etc &amp; so
+<lb/> it goes on. The really awful part
+<lb/> of the thing is that this time
+<lb/> 2 years ago I was junior 2<hi rend="superscript">nd</hi> Lieut<lb/> on a month's probationmin the
+<lb/> Battalion I tonight command &amp; am
+<lb/> the only officer with it tonight who
+<lb/> have served in France etc right
+<lb/>thro' with it. It is one of the
+<lb/> most decorated if not <hi rend="underline">the</hi>  most
+<lb/> decorated Battalion in our Corps.
+<lb/>It is by far the most decorated
+<lb/> Batt. in our Division &amp; that is 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T13:39:29" who="#Johnchambers81">
+                
+                    Page 5603 modified:
+                    <!-- 
+8
+<p>But perhaps with your old Puritan
+<lb/> Blood <add>you</add> wont care about it. Still
+<lb/> as effort alone it stands as
+<lb/> colossal. I am convinced now
+<lb/> that the end is certain &amp; that we
+<lb/> will be the senior survivors. If
+<lb/> it is protracted as long as I think
+<lb/> it will be, the expression 'WIN' will
+<lb/> not be accurately applicable in its
+<lb/> popular sense. I forgot in
+<lb/> describing our mess to mention that
+<lb/> some of my young officers are
+<lb/> now playing Ping pong whilst one
+<lb/> with whom we dined is prowling
+<lb/> about NO MANS LAND on patrol &amp; 
+<lb/>others are inspecting the line &amp;
+<lb/> sentries &amp; guns etc etc etc &amp; so
+<lb/> it goes on. The really awful part
+<lb/> of the thing is that this time
+<lb/> 2 years ago I was junior 2<hi rend="superscript">nd</hi> Lieut<lb/> on a month's probation in the
+<lb/> Battalion I tonight command &amp; am
+<lb/> the only officer with it tonight who
+<lb/> have served in France etc right
+<lb/>thro' with it. It is one of the
+<lb/> most decorated if not <hi rend="underline">the</hi>  most
+<lb/> decorated Battalion in our Corps.
+<lb/>It is by far the most decorated
+<lb/> Batt. in our Division &amp; that is 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T13:41:56" who="#Johnchambers81">
+                
+                    Page 5604 modified:
+                    <!-- 
+9
+<lb/>a very special honour to begin
+<lb/> with. The awful pity of it is
+<lb/> that more of our home birds
+<lb/> <sic>arnt</sic> coming out to us. I would
+<lb/> rather have them than any
+<lb/> others in all the world.</p>
+<p>Well this all seems to be about
+<lb/> me, but there is so little else I
+<lb/> am permitted to write about that
+<lb/> you will please accept this fact
+<lb/> as my excuse.</p>
+<p>I am well &amp; in the very best of
+<lb/> form &amp; very much looking
+<lb/> forward to my next leave
+<lb/> which I hope to have in the
+<lb/> forepart of next month.</p>
+<p>All my love to mother</p>
+<salute>Your affectionate son</salute>
+<lb/><signed><hi rend="underline">WM</hi></signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T13:42:30" who="#Johnchambers81">
+                
+                    Page 5605 modified:
+                    <!-- 
+<!~~ Envelope ~~>
+<note><date><hi rend="underline">26 October 1916</hi></date></note>
+<address>Harford H. Montgomery Esq
+<lb/> c/o Messrs W<hi rend="superscript"><hi rend="underline">m</hi></hi> Montgomery &amp; Son
+<lb/> 2 Wellington Place
+<lb/><hi rend="underline">Belfast</hi></address>
+<note>PASSED FIELD CENSOR 2188</note>
+<note><hi rend="underline">WA Montgomery</hi></note> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T12:32:31" who="#NR">
+                
+                    Page 5597 modified:
+                    <!-- 
+<lb/>I find myself in command of the
+<lb/> Battalion. About 4oc.p.m. the C.O. got a
+<lb/> wire telling him to take over command
+<lb/> of a Brigade. He didn't know where it was,
+<lb/> who they are, or anything but he left
+<lb/> here to take them over at <hi rend="underline">5.35</hi>p.m.</p>
+<p>Mother would think it a frightful
+<lb/> rush. Some career in this war
+<lb/> he has already had. Captain to
+<lb/> Temporary Brigadier General in two
+<lb/> years &amp; a month. He told me before
+<lb/> he left that he would send for me
+<lb/> just as soon as he finds a good job
+<lb/> for me - preferably a staff job.</p>
+<p>Our Adjutant has also had a career
+<lb/> in this war - Thro' Mons as <hi rend="underline">a Corporal
+<lb/> in the Grenadier Guards</hi>, also Aisne on
+<lb/> the Marne wounded, got his Commission
+<lb/> posted 2<hi rend="superscript">nd</hi> Lieut East Lancs. attached to
+<lb/> us as 21<hi rend="superscript">st</hi> &amp; Adjutant promoted Lieut
+<lb/> then Captain &amp; Adjutant &amp; now he will
+<lb/> probably follow the C.O. as brigade
+<lb/> Major. Before this thing finishes
+<lb/> there will be some extraordinary
+<lb/> records of service. For instance, my
+<lb/> own in its way is odd enough</p>
+<p>I have been wearing a major's crown
+<lb/> for about a week now, because I 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T12:33:14" who="#NR">
+                
+                    Page 5598 modified:
+                    <!-- 
+<lb/>have been performing the duties of 2<hi rend="superscript">nd</hi>
+<lb/> in Command of a Batt for upwards of 30
+<lb/> days. I will also continue to draw pay as
+<lb/> such until some one senior to me joins
+<lb/> when I revert to my rank as Captain.
+<lb/> Again, if by any chance, I am left in
+<lb/> command of the Batt. for 30 days I will
+<lb/> be given permission to put up a
+<lb/> star in addition &amp; become for all
+<lb/> practical purposes a Lieut. Colonel.
+<lb/> Extraordinary when one thinks of it?</p>
+<p>The responsibility is, of course, heavy
+<lb/> but I am glad to say it does not now
+<lb/> &amp; never has worried me in the very
+<lb/> slightest. Settling a £50 loss has often
+<lb/> caused me a lot more worry &amp; I didn't
+<lb/> do it as well. Some little time ago I was
+<lb/> officially approached to see if I would
+<lb/> take a permanent commission, but
+<lb/> I said most definitely &amp; finally - NO I
+<lb/> would hate it in peace time anyway
+<lb/> apart altogether from all the other
+<lb/> impossibilities. If by any chance I
+<lb/> happened to get knocked out whilst I
+<lb/> wear the crown as Major Montgomery
+<lb/> (as I just now find myself) Emmie would
+<lb/> draw a Major's pension. It is a
+<lb/> great war &amp; as my old namesake
+<lb/> foreman used to say "You never know 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T12:36:08" who="#NR">
+                
+                    Page 5599 modified:
+                    <!-- 
+<lb/>the minute". Please don't address my
+<lb/> letters as "Major". It is quite correct
+<lb/> to do so&amp; all that &amp; I sign my name
+<lb/> as such but I don't care about it
+<lb/> until such time as it may in the
+<lb/> future appear in the Gazette.</p>
+<p>The much more gratifying part
+<lb/> of the business to both you &amp; me is
+<lb/> undoubtedly the fact that a very
+<lb/> pukka regular Brigadier is satisfied
+<lb/> to leave me responsible for a Battalion
+<lb/> front in the line. It all goes down
+<lb/> on an official document known as
+<lb/> my record of service &amp;  I don't lose by
+<lb/> it in the end, even if I do revert to
+<lb/> Captain again for a bit. From what
+<lb/> Brigadier General F.P. Crozier said to me
+<lb/> just before he left, it won't be for long
+<lb/> if he can help it. I have some good
+<lb/> friends at court here apart altogether
+<lb/> from my late C.O. No more Coy.
+<lb/> cmdg. for me if I can possibly
+<lb/> avoid it. I have 13 months of it to
+<lb/> my credit &amp; I like my present
+<lb/> temporary job - <hi rend="underline">no, my this morning's
+ <lb/>temporary job</hi> much better.  I also
+<lb/> have a great curiosity to do a bit of
+<lb/> the staff end of the game. In fact
+<lb/> if it lasts as long as I think it will 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T12:36:35" who="#NR">
+                
+                    Page 5600 modified:
+                    <!-- 
+<lb/>the sooner I start the Staff side the
+<lb/> better for me. Don't bother about
+<lb/> a fountain pen nib for me thanks
+<lb/> I rather fancy a pal of mine in
+<lb/> town intends to send me a whole 
+<lb/>complete pen.</p>
+<p>This game presents extraordinary
+<lb/> contrasts conditions &amp; circumstances.
+<lb/> I was just thinking of this tonight
+<lb/> at dinner &amp; comparing our present
+<lb/> circumstances with those which
+<lb/> prevailed with us last winter. As I
+<lb/> sit commanding a Batt in the line tonight
+<lb/> I am not at all certain that I am
+<lb/> not quite as comfortable as you are.</p>
+<p>Counting a Doctor, a Chaplain &amp; an
+<lb/> Artillery <sic>Liason</sic> Officer we set down
+<lb/> 11 to dinner - <hi rend="underline">my</hi> H.Q. mess. We had
+<lb/> excellent soup. Beautiful Fresh sole,
+<lb/> very good roast beef &amp; Yorkshire
+<lb/> pudding, , stewed figs &amp; custard, Coffee.
+<lb/> <sic>Savories</sic> we cut out some ten
+<lb/> days ago because we could only
+<lb/> manage 4 kinds &amp; we are tired
+<lb/> of those for a bit. To drink we have
+<lb/> a coice of anyhting one likes.
+<lb/> The only thing there is any
+<lb/> difficulty about is liqueurs. I
+<lb/> Personally drink the best of good 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T12:40:09" who="#NR">
+                
+                    Page 5601 modified:
+                    <!-- 
+<lb/>Guinness Stout &amp; every now &amp; then
+<lb/> I get a few of the best cigars, either
+<lb/> given me or bought by me when
+<lb/> I dine out in style. You will
+<lb/> think it ridiculous, I know, but
+<lb/> nevertheless the men love their
+<lb/> officers to have good sticks &amp; whips
+<lb/> &amp; spurs &amp; <unclear>kit</unclear> &amp; to smoke good stuff.</p>
+<p>Do you remember those spurs you
+<lb/> were good enough to send me. Wel
+l<lb/> the first day I wore them, one of
+<lb/> my sergeants, accompanied by
+<lb/> a sergeant of another unit came
+<lb/> to my temporary home &amp; asked me
+<lb/> to settle a bet. It appeared he had bet
+<lb/> the other fellow they were silver. I
+<lb/> was sorry to disappoint him, but
+<lb/> that is the point &amp; the spirit. And
+<lb/> no one can even dimly estimate
+<lb/> its value when it comes to
+<lb/> leading &amp; obedience in face of
+<lb/> the last thing in grim hellishness.</p>
+<p>No one knows just what little
+<lb/> thing one does or says to a man or
+<lb/> men which makes them yours in
+<lb/> all things when the big times come.</p>
+<p>I know of several cases where
+<lb/> this has undoubtedly been so.</p>
+<p>Our men are also just as 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T12:52:15" who="#NR">
+                
+                    Page 5602 modified:
+                    <!-- 
+<lb/>comfortable as constant thought
+<lb/> &amp; unremitting labour can make
+<lb/> them. It is however necessary that
+<lb/> officers are maintained <hi rend="underline">very</hi> comfortable
+<lb/> in order that they can be at their
+<lb/> best to do the best either for their
+<lb/> men or in the use of them.</p>
+<p>The old "share the hardships of
+<lb/> their men idea" which is so truly
+<lb/> British is still with us but
+<lb/> modified. The Bosch started this
+<lb/> war so very much more scientifically
+<lb/> than we did &amp; this was one of his
+<lb/> great points.</p>
+<p>I dont suppose you get time for
+<lb/> much reading, but if you do &amp; you
+<lb/> care to read a really human
+<lb/> readable history of this war get
+<lb/> the Strand Magazine. It is
+<lb/> excellent &amp; your son knows
+<lb/> almost every little rise &amp; fall of
+<lb/> ground &amp; line of much of the line
+<lb/> that is there written of.</p>
+<p>It will give you a faint
+<lb/> impression of what our original
+<lb/> Expeditionary Force did &amp; was. No
+<lb/> one can really know just what
+<lb/> it was except those who were
+<lb/> through the first 6 months of it.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T12:52:35" who="#NR">
+                
+                    Page 5603 modified:
+                    <!-- 
+<p>But perhaps with your old Puritan
+<lb/> Blood <add>you</add> wont care about it. Still
+<lb/> as effort alone it stands as
+<lb/> colossal. I am convinced now
+<lb/> that the end is certain &amp; that we
+<lb/> will be the senior survivors. If
+<lb/> it is protracted as long as I think
+<lb/> it will be, the expression 'WIN' will
+<lb/> not be accurately applicable in its
+<lb/> popular sense. I forgot in
+<lb/> describing our mess to mention that
+<lb/> some of my young officers are
+<lb/> now playing Ping pong whilst one
+<lb/> with whom we dined is prowling
+<lb/> about NO MANS LAND on patrol &amp; 
+<lb/>others are inspecting the line &amp;
+<lb/> sentries &amp; guns etc etc etc &amp; so
+<lb/> it goes on. The really awful part
+<lb/> of the thing is that this time
+<lb/> 2 years ago I was junior 2<hi rend="superscript">nd</hi> Lieut
+<lb/> on a month's probation in the
+<lb/> Battalion I tonight command &amp; am
+<lb/> the only officer with it tonight who
+<lb/> have served in France etc right
+<lb/>thro' with it. It is one of the
+<lb/> most decorated if not <hi rend="underline">the</hi>  most
+<lb/> decorated Battalion in our Corps.
+<lb/>It is by far the most decorated
+<lb/> Batt. in our Division &amp; that is 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T12:52:55" who="#NR">
+                
+                    Page 5604 modified:
+                    <!-- 
+<lb/>a very special honour to begin
+<lb/> with. The awful pity of it is
+<lb/> that more of our home birds
+<lb/> <sic>arnt</sic> coming out to us. I would
+<lb/> rather have them than any
+<lb/> others in all the world.</p>
+<p>Well this all seems to be about
+<lb/> me, but there is so little else I
+<lb/> am permitted to write about that
+<lb/> you will please accept this fact
+<lb/> as my excuse.</p>
+<p>I am well &amp; in the very best of
+<lb/> form &amp; very much looking
+<lb/> forward to my next leave
+<lb/> which I hope to have in the
+<lb/> forepart of next month.</p>
+<p>All my love to mother</p>
+<salute>Your affectionate son</salute>
+<lb/><signed><hi rend="underline">WM</hi></signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-29T12:52:58" who="#NR">
+                
+                    Page 5604 modified:
+                    <!-- 
+<lb/>a very special honour to begin
+<lb/> with. The awful pity of it is
+<lb/> that more of our home birds
+<lb/> <sic>arnt</sic> coming out to us. I would
+<lb/> rather have them than any
+<lb/> others in all the world.</p>
+<p>Well this all seems to be about
+<lb/> me, but there is so little else I
+<lb/> am permitted to write about that
+<lb/> you will please accept this fact
+<lb/> as my excuse.</p>
+<p>I am well &amp; in the very best of
+<lb/> form &amp; very much looking
+<lb/> forward to my next leave
+<lb/> which I hope to have in the
+<lb/> forepart of next month.</p>
+<p>All my love to mother</p>
+<salute>Your affectionate son</salute>
+<signed><hi rend="underline">WM</hi></signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5598 created using version from <date when="2015-06-09T20:15:52"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5598 removed (version from <date when="2015-06-09T20:15:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5598 removed (version from <date when="2016-01-28T12:50:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5598 removed (version from <date when="2016-01-28T12:53:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5598 removed (version from <date when="2016-01-29T12:33:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5603 created using version from <date when="2015-06-15T22:14:52"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5603 removed (version from <date when="2015-06-15T22:14:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5603 removed (version from <date when="2016-01-28T13:36:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5603 removed (version from <date when="2016-01-28T13:39:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5603 removed (version from <date when="2016-01-29T12:52:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5600 created using version from <date when="2015-06-09T20:52:43"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5600 removed (version from <date when="2015-06-09T20:52:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5600 removed (version from <date when="2016-01-28T13:08:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5600 removed (version from <date when="2016-01-29T12:36:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5599 created using version from <date when="2015-06-09T20:32:04"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5599 removed (version from <date when="2015-06-09T20:32:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5599 removed (version from <date when="2016-01-28T13:04:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5599 removed (version from <date when="2016-01-29T12:36:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5596 created using version from <date when="2015-06-08T20:02:27"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5596 removed (version from <date when="2015-06-08T20:02:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5596 removed (version from <date when="2016-01-28T12:43:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5604 created using version from <date when="2015-06-15T22:22:41"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5604 removed (version from <date when="2015-06-15T22:22:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5604 removed (version from <date when="2016-01-28T13:41:56"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5604 removed (version from <date when="2016-01-29T12:52:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5604 removed (version from <date when="2016-01-29T12:52:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5601 created using version from <date when="2015-06-10T20:09:15"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5601 removed (version from <date when="2015-06-10T20:09:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5601 removed (version from <date when="2015-06-15T21:43:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5601 removed (version from <date when="2016-01-28T13:12:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5601 removed (version from <date when="2016-01-29T12:40:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5597 created using version from <date when="2015-06-08T20:03:12"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5597 removed (version from <date when="2015-06-08T20:03:12"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5597 removed (version from <date when="2015-06-09T19:54:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5597 removed (version from <date when="2016-01-28T12:48:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5597 removed (version from <date when="2016-01-29T12:32:31"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5605 created using version from <date when="2015-06-15T22:28:11"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5605 removed (version from <date when="2015-06-15T22:28:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5605 removed (version from <date when="2016-01-28T13:42:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5602 created using version from <date when="2015-06-15T21:57:59"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5602 removed (version from <date when="2015-06-15T21:57:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5602 removed (version from <date when="2015-06-15T21:59:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5602 removed (version from <date when="2016-01-28T13:23:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5602 removed (version from <date when="2016-01-29T12:52:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 5598 (version from <date when="2016-01-29T12:33:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5603 added to letter (version from <date when="2016-01-29T12:52:36"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5600 added to letter (version from <date when="2016-01-29T12:36:36"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5599 added to letter (version from <date when="2016-01-29T12:36:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5596 added to letter (version from <date when="2016-01-29T12:30:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5604 added to letter (version from <date when="2016-01-29T12:52:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5601 added to letter (version from <date when="2016-01-29T12:40:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5597 added to letter (version from <date when="2016-01-29T12:32:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5605 added to letter (version from <date when="2016-01-29T12:53:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5602 added to letter (version from <date when="2016-01-29T12:52:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 5600 cleaned of 6 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 5601 cleaned of 9 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 5602 cleaned of 7 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 5603 cleaned of 7 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 5604 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 5605 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 5596 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 5597 cleaned of 4 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 5598 cleaned of 5 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 5599 cleaned of 5 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:28" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:32" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:47" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:47" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2171_img_5596" url="0947923d83afa99617f1380f90fa3985.jpg"/> 
+    
+    <graphic xml:id="L1916_2171_img_5597" url="099714c347de2ccfd94973e389e616e9.jpg"/> 
+    
+    <graphic xml:id="L1916_2171_img_5598" url="43cd2a3978d0fab2383c976d35128862.jpg"/> 
+    
+    <graphic xml:id="L1916_2171_img_5599" url="daaa88b2e846374ef7f6c342aca2a6e6.jpg"/> 
+    
+    <graphic xml:id="L1916_2171_img_5600" url="0166ac0c7db96e115727a14001df378e.jpg"/> 
+    
+    <graphic xml:id="L1916_2171_img_5601" url="dce745bd49b9470f72ad19ccb67f1577.jpg"/> 
+    
+    <graphic xml:id="L1916_2171_img_5602" url="ea1114d5f8c7f39ca239a21b0018f5c2.jpg"/> 
+    
+    <graphic xml:id="L1916_2171_img_5603" url="6101c5d8f4133873fc3f3da719cf43ef.jpg"/> 
+    
+    <graphic xml:id="L1916_2171_img_5604" url="1682d71d1d15f25af49b68de225a83d8.jpg"/> 
+    
+    <graphic xml:id="L1916_2171_img_5605" url="d35a525b3d51bbcf36d1801d2c9ef534.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="5596" facs="#L1916_2171_img_5596"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<note>Replied <opener><dateline><date><hi rend="underline">26 Octr 1916</hi></date></dateline></note>
+<address><addrLine>In the Field</addrLine></address>
+<dateline><date>19.11.16</date></dateline> 
+<salute>My Dear Father/</salute></opener>
+<p>I have to acknowledge
+<lb/> your very interesting letter of 11<hi rend="superscript"><hi rend="underline">th</hi></hi> inst
+<lb/> also to convey my thanks for the
+<lb/> bread and two pots of lemon cheese
+<lb/> which <hi rend="underline">did</hi>turn up quite all right.
+<lb/> A little more stale than you would
+<lb/>touch at home, but one afternoon
+<lb/> tea just absolutely finished the
+<lb/> whole bag of tricks <hi rend="underline">almost</hi> including
+<lb/> the paper wrappings.</p>
+<p>Yes. I would love that
+<lb/> salvage amusement. I fear for a
+<lb/> year or two after this thing finishes
+<lb/> I shall miss the movement and
+<lb/> excitement of it terribly</p>
+<p>No sign of Horace yet. There
+<lb/> would appear to be some considerable
+<lb/> delay in the arrival of his relief where
+<lb/> he is now. We are all at a loss to
+<lb/> understand what has caused this
+<lb/> delay as almost a month ago we got
+<lb/> official <unclear>information</unclear> to the effect that
+<lb/> he would be with us quite soon.</p>
+<p>Today, like other days, I of
+<lb/> course expect Horace to arrive &amp; I go
+<lb/> back to command my Coy. but instead
+        
+    
+
+    
+         
+        <pb n="5597" facs="#L1916_2171_img_5597"/>
+        
+        
+           
+            <lb/>I find myself in command of the
+<lb/> Battalion. About 4oc.p.m. the C.O. got a
+<lb/> wire telling him to take over command
+<lb/> of a Brigade. He didn't know where it was,
+<lb/> who they are, or anything but he left
+<lb/> here to take them over at <hi rend="underline">5.35</hi>p.m.</p>
+<p>Mother would think it a frightful
+<lb/> rush. Some career in this war
+<lb/> he has already had. Captain to
+<lb/> Temporary Brigadier General in two
+<lb/> years &amp; a month. He told me before
+<lb/> he left that he would send for me
+<lb/> just as soon as he finds a good job
+<lb/> for me - preferably a staff job.</p>
+<p>Our Adjutant has also had a career
+<lb/> in this war - Thro' Mons as <hi rend="underline">a Corporal
+<lb/> in the Grenadier Guards</hi>, also Aisne on
+<lb/> the Marne wounded, got his Commission
+<lb/> posted 2<hi rend="superscript">nd</hi> Lieut East Lancs. attached to
+<lb/> us as 21<hi rend="superscript">st</hi> &amp; Adjutant promoted Lieut
+<lb/> then Captain &amp; Adjutant &amp; now he will
+<lb/> probably follow the C.O. as brigade
+<lb/> Major. Before this thing finishes
+<lb/> there will be some extraordinary
+<lb/> records of service. For instance, my
+<lb/> own in its way is odd enough</p>
+<p>I have been wearing a major's crown
+<lb/> for about a week now, because I
+        
+    
+         
+        <pb n="5598" facs="#L1916_2171_img_5598"/>
+        
+        
+           
+            <lb/>have been performing the duties of 2<hi rend="superscript">nd</hi>
+<lb/> in Command of a Batt for upwards of 30
+<lb/> days. I will also continue to draw pay as
+<lb/> such until some one senior to me joins
+<lb/> when I revert to my rank as Captain.
+<lb/> Again, if by any chance, I am left in
+<lb/> command of the Batt. for 30 days I will
+<lb/> be given permission to put up a
+<lb/> star in addition &amp; become for all
+<lb/> practical purposes a Lieut. Colonel.
+<lb/> Extraordinary when one thinks of it?</p>
+<p>The responsibility is, of course, heavy
+<lb/> but I am glad to say it does not now
+<lb/> &amp; never has worried me in the very
+<lb/> slightest. Settling a £50 loss has often
+<lb/> caused me a lot more worry &amp; I didn't
+<lb/> do it as well. Some little time ago I was
+<lb/> officially approached to see if I would
+<lb/> take a permanent commission, but
+<lb/> I said most definitely &amp; finally - NO I
+<lb/> would hate it in peace time anyway
+<lb/> apart altogether from all the other
+<lb/> impossibilities. If by any chance I
+<lb/> happened to get knocked out whilst I
+<lb/> wear the crown as Major Montgomery
+<lb/> (as I just now find myself) Emmie would
+<lb/> draw a Major's pension. It is a
+<lb/> great war &amp; as my old namesake
+<lb/> foreman used to say "You never know
+        
+    
+         
+        <pb n="5599" facs="#L1916_2171_img_5599"/>
+        
+        
+           
+            <lb/>the minute". Please don't address my
+<lb/> letters as "Major". It is quite correct
+<lb/> to do so&amp; all that &amp; I sign my name
+<lb/> as such but I don't care about it
+<lb/> until such time as it may in the
+<lb/> future appear in the Gazette.</p>
+<p>The much more gratifying part
+<lb/> of the business to both you &amp; me is
+<lb/> undoubtedly the fact that a very
+<lb/> pukka regular Brigadier is satisfied
+<lb/> to leave me responsible for a Battalion
+<lb/> front in the line. It all goes down
+<lb/> on an official document known as
+<lb/> my record of service &amp;  I don't lose by
+<lb/> it in the end, even if I do revert to
+<lb/> Captain again for a bit. From what
+<lb/> Brigadier General F.P. Crozier said to me
+<lb/> just before he left, it won't be for long
+<lb/> if he can help it. I have some good
+<lb/> friends at court here apart altogether
+<lb/> from my late C.O. No more Coy.
+<lb/> cmdg. for me if I can possibly
+<lb/> avoid it. I have 13 months of it to
+<lb/> my credit &amp; I like my present
+<lb/> temporary job - <hi rend="underline">no, my this morning's
+ <lb/>temporary job</hi> much better.  I also
+<lb/> have a great curiosity to do a bit of
+<lb/> the staff end of the game. In fact
+<lb/> if it lasts as long as I think it will
+        
+    
+         
+        <pb n="5600" facs="#L1916_2171_img_5600"/>
+        
+        
+           
+            <lb/>the sooner I start the Staff side the
+<lb/> better for me. Don't bother about
+<lb/> a fountain pen nib for me thanks
+<lb/> I rather fancy a pal of mine in
+<lb/> town intends to send me a whole 
+<lb/>complete pen.</p>
+<p>This game presents extraordinary
+<lb/> contrasts conditions &amp; circumstances.
+<lb/> I was just thinking of this tonight
+<lb/> at dinner &amp; comparing our present
+<lb/> circumstances with those which
+<lb/> prevailed with us last winter. As I
+<lb/> sit commanding a Batt in the line tonight
+<lb/> I am not at all certain that I am
+<lb/> not quite as comfortable as you are.</p>
+<p>Counting a Doctor, a Chaplain &amp; an
+<lb/> Artillery <sic>Liason</sic> Officer we set down
+<lb/> 11 to dinner - <hi rend="underline">my</hi> H.Q. mess. We had
+<lb/> excellent soup. Beautiful Fresh sole,
+<lb/> very good roast beef &amp; Yorkshire
+<lb/> pudding, , stewed figs &amp; custard, Coffee.
+<lb/> <sic>Savories</sic> we cut out some ten
+<lb/> days ago because we could only
+<lb/> manage 4 kinds &amp; we are tired
+<lb/> of those for a bit. To drink we have
+<lb/> a coice of anyhting one likes.
+<lb/> The only thing there is any
+<lb/> difficulty about is liqueurs. I
+<lb/> Personally drink the best of good
+        
+    
+         
+        <pb n="5601" facs="#L1916_2171_img_5601"/>
+        
+        
+           
+            <lb/>Guinness Stout &amp; every now &amp; then
+<lb/> I get a few of the best cigars, either
+<lb/> given me or bought by me when
+<lb/> I dine out in style. You will
+<lb/> think it ridiculous, I know, but
+<lb/> nevertheless the men love their
+<lb/> officers to have good sticks &amp; whips
+<lb/> &amp; spurs &amp; <unclear>kit</unclear> &amp; to smoke good stuff.</p>
+<p>Do you remember those spurs you
+<lb/> were good enough to send me. Wel
+l<lb/> the first day I wore them, one of
+<lb/> my sergeants, accompanied by
+<lb/> a sergeant of another unit came
+<lb/> to my temporary home &amp; asked me
+<lb/> to settle a bet. It appeared he had bet
+<lb/> the other fellow they were silver. I
+<lb/> was sorry to disappoint him, but
+<lb/> that is the point &amp; the spirit. And
+<lb/> no one can even dimly estimate
+<lb/> its value when it comes to
+<lb/> leading &amp; obedience in face of
+<lb/> the last thing in grim hellishness.</p>
+<p>No one knows just what little
+<lb/> thing one does or says to a man or
+<lb/> men which makes them yours in
+<lb/> all things when the big times come.</p>
+<p>I know of several cases where
+<lb/> this has undoubtedly been so.</p>
+<p>Our men are also just as
+        
+    
+         
+        <pb n="5602" facs="#L1916_2171_img_5602"/>
+        
+        
+           
+            <lb/>comfortable as constant thought
+<lb/> &amp; unremitting labour can make
+<lb/> them. It is however necessary that
+<lb/> officers are maintained <hi rend="underline">very</hi> comfortable
+<lb/> in order that they can be at their
+<lb/> best to do the best either for their
+<lb/> men or in the use of them.</p>
+<p>The old "share the hardships of
+<lb/> their men idea" which is so truly
+<lb/> British is still with us but
+<lb/> modified. The Bosch started this
+<lb/> war so very much more scientifically
+<lb/> than we did &amp; this was one of his
+<lb/> great points.</p>
+<p>I dont suppose you get time for
+<lb/> much reading, but if you do &amp; you
+<lb/> care to read a really human
+<lb/> readable history of this war get
+<lb/> the Strand Magazine. It is
+<lb/> excellent &amp; your son knows
+<lb/> almost every little rise &amp; fall of
+<lb/> ground &amp; line of much of the line
+<lb/> that is there written of.</p>
+<p>It will give you a faint
+<lb/> impression of what our original
+<lb/> Expeditionary Force did &amp; was. No
+<lb/> one can really know just what
+<lb/> it was except those who were
+<lb/> through the first 6 months of it.</p>
+        
+    
+         
+        <pb n="5603" facs="#L1916_2171_img_5603"/>
+        
+        
+           
+            <p>But perhaps with your old Puritan
+<lb/> Blood <add>you</add> wont care about it. Still
+<lb/> as effort alone it stands as
+<lb/> colossal. I am convinced now
+<lb/> that the end is certain &amp; that we
+<lb/> will be the senior survivors. If
+<lb/> it is protracted as long as I think
+<lb/> it will be, the expression 'WIN' will
+<lb/> not be accurately applicable in its
+<lb/> popular sense. I forgot in
+<lb/> describing our mess to mention that
+<lb/> some of my young officers are
+<lb/> now playing Ping pong whilst one
+<lb/> with whom we dined is prowling
+<lb/> about NO MANS LAND on patrol &amp; 
+<lb/>others are inspecting the line &amp;
+<lb/> sentries &amp; guns etc etc etc &amp; so
+<lb/> it goes on. The really awful part
+<lb/> of the thing is that this time
+<lb/> 2 years ago I was junior 2<hi rend="superscript">nd</hi> Lieut
+<lb/> on a month's probation in the
+<lb/> Battalion I tonight command &amp; am
+<lb/> the only officer with it tonight who
+<lb/> have served in France etc right
+<lb/>thro' with it. It is one of the
+<lb/> most decorated if not <hi rend="underline">the</hi>  most
+<lb/> decorated Battalion in our Corps.
+<lb/>It is by far the most decorated
+<lb/> Batt. in our Division &amp; that is
+        
+    
+         
+        <pb n="5604" facs="#L1916_2171_img_5604"/>
+        
+        
+           
+            <lb/>a very special honour to begin
+<lb/> with. The awful pity of it is
+<lb/> that more of our home birds
+<lb/> <sic>arnt</sic> coming out to us. I would
+<lb/> rather have them than any
+<lb/> others in all the world.</p>
+<p>Well this all seems to be about
+<lb/> me, but there is so little else I
+<lb/> am permitted to write about that
+<lb/> you will please accept this fact
+<lb/> as my excuse.</p>
+<p>I am well &amp; in the very best of
+<lb/> form &amp; very much looking
+<lb/> forward to my next leave
+<lb/> which I hope to have in the
+<lb/> forepart of next month.</p>
+<p>All my love to mother</p>
+<salute>Your affectionate son</salute>
+<signed><hi rend="underline">WM</hi></signed>
+        
+    
+         
+        <pb n="5605" facs="#L1916_2171_img_5605"/>
+        
+        
+           
+            <!-- Envelope -->
+<note><date><hi rend="underline">26 October 1916</hi></date></note>
+<address>Harford H. Montgomery Esq
+<lb/> c/o Messrs W<hi rend="superscript"><hi rend="underline">m</hi></hi> Montgomery &amp; Son
+<lb/> 2 Wellington Place
+<lb/><hi rend="underline">Belfast</hi></address>
+<note>PASSED FIELD CENSOR 2188</note>
+<note><hi rend="underline">WA Montgomery</hi></note>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

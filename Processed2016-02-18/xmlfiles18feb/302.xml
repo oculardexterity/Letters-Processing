@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_302">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Austin Stack to Maureen [Cregan], 18 June 1916</title>
+                
+                <author>Austin Stack</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="BH">Brian Hughes</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BarneyDoherty">Barney Doherty</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_302</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from Austin Stack (1879-1929) presumably to Maureen (Mairín) Cregan, a prolific Irish children's writer who married James Ryan (1891-1970). The letter was written from Kilmainham Gaol before Stack was sent to prison in the United Kingdom. In the letter he speculates that he will get a long sentences as the Chief Crown Solicitor claimed he should have been executed ('backed the wall'). He complains about the use of evidence during the courts martial and hopes that Michael Collins, who had a minor role in the Rising, would get a lenient sentence, describing him as 'an unfortunate victim to circumstances'.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Austin Stack, revolutionary, politician, was commandant of the Kerry Brigade of the Irish Volunteers and made preparations to receive Roger Casement. Stack was sentenced to death for his part in the Easter Rising, but this later commuted to penal servitude for life and he was released in 1917.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: University College Dublin Archives -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF INSTITUTION REF IS CORRECT --></VERIFY>
+                        
+                        <repository ref="#UCD">University College Dublin, Archives</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Dr James Ryan Papers, P 88/55
+                             
+                        -->
+                            
+                                <collection type='public'>Dr James Ryan Papers</collection>
+                            
+                            
+                        <idno>P 88/55</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <persName ref="MISSING">Maureen [Cregan]</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Austin Stack -->
+                        
+                        <persName ref="#Stack_A">Austin Stack</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    Kilmainham Gaol 
+                    Dublin
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#Kilmainham_Gaol">Kilmainham Gaol, Dublin</placeName>
+                    
+                
+                    
+                    <date when="1916-06-18">18 June 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1929</item>
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2013-11-10T18:47:25" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-11-10T18:47:25" who="#Philcostel">
+                
+                    Page 802 modified:
+                    <!-- 
+Kilmainham Gaol
+18th June 1916
+
+My dear Maureen,
+I am sure you will not be able to see us again before we are sent away. I do not know what sentences we may receive but I am prepared for a long term as the Chief Crown Solicitor told Dr. O'Connell on Friday night that I should have "backed the wall". They failed to make out any case against us but what do the court-martial care about such trifles as legal evidence when the authorities want people out of the way?
+I hope Collins gets off light as he was an unfortunate victim to circumstances. He, at any rate, should have been acquitted.
+But we shall survive it all with God's help, and meet our friends again.
+Goodbye, brave little woman, and say an occasional prayer for 
+Ireland's unworthy son
+Austin Stack 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-08-21T10:59:30" who="#BarneyDoherty">
+                
+                    Page 802 modified:
+                    <!-- 
+Kilmainham Gaol<lb/>
+18th June 1916<lb/>
+
+<salute>My dear Maureen,</salute>
+I am sure you will<lb/>
+not be able to see us again before<lb/>
+we are sent away. I do not know<lb/>
+what sentences we may receive<lb/>
+but I am prepared for a long term<lb/>
+as the Chief Crown Solicitor told Dr.<lb/>
+O'Connell on Friday night that I<lb/>
+should have "backed the wall". They<lb/>
+failed to make out any case against us<lb/>
+but what do the court-martial care about<lb/>
+such trifles as legal evidence when the<lb/>
+authorities want people out of the way?
+I hope Collins gets off light as he was<lb/>
+an unfortunate victim to circumstances.<lb/>
+He, at any rate, should have been acquitted.<lb/>
+But we shall survive it all with God's<lb/>
+help, and meet our friends again.<lb/>
+<salute>Goodbye, brave little woman, and say an<lb/>
+occasional prayer for<lb/>
+Ireland's unworthy son<lb/>
+Austin Stack</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-08-21T11:00:03" who="#BarneyDoherty">
+                
+                    Page 802 modified:
+                    <!-- 
+<address>Kilmainham Gaol</address><lb/>
+<date>18th June 1916</date><lb/>
+
+<salute>My dear Maureen,</salute>
+I am sure you will<lb/>
+not be able to see us again before<lb/>
+we are sent away. I do not know<lb/>
+what sentences we may receive<lb/>
+but I am prepared for a long term<lb/>
+as the Chief Crown Solicitor told Dr.<lb/>
+O'Connell on Friday night that I<lb/>
+should have "backed the wall". They<lb/>
+failed to make out any case against us<lb/>
+but what do the court-martial care about<lb/>
+such trifles as legal evidence when the<lb/>
+authorities want people out of the way?
+I hope Collins gets off light as he was<lb/>
+an unfortunate victim to circumstances.<lb/>
+He, at any rate, should have been acquitted.<lb/>
+But we shall survive it all with God's<lb/>
+help, and meet our friends again.<lb/>
+<salute>Goodbye, brave little woman, and say an<lb/>
+occasional prayer for<lb/>
+Ireland's unworthy son<lb/>
+Austin Stack</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-12-08T11:15:27" who="#Tbrosnan">
+                
+                    Page 802 modified:
+                    <!-- 
+<address>Kilmainham Gaol</address><lb/>
+<date>18th June 1916</date><lb/>
+
+<salute>My dear Maureen,</salute>
+<lb/>I am sure you will
+<lb/>not be able to see us again before
+<lb/>we are sent away. I do not know
+<lb/>what sentences we may receive
+<lb/>but I am prepared for a long term
+<lb/>as the Chief Crown Solicitor told Dr.
+<lb/>O'Connell on Friday night that I
+<lb/>should have "backed the wall". They
+<lb/>failed to make out any case against us
+<lb/>but what do the Court-martial care about
+<lb/>such trifles as legal evidence when the
+<lb/>authorities want people out of the way?
+<lb/>I hope Collins gets off light as he was
+<lb/>an unfortunate victim to circumstances.
+<lb/>He, at any rate, should have been acquitted.
+<lb/>But we shall survive it all with God's
+<lb/>help, and meet our friends again.
+<lb/><salute>Goodbye, brave little woman, and say an
+<lb/>occasional prayer for
+<lb/>Ireland's unworthy son</salute>
+<lb/>Austin Stack 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-08T15:10:29" who="#BarneyDoherty">
+                
+                    Page 802 modified:
+                    <!-- 
+<add>P88/55</add>
+<address>Kilmainham Gaol</address><lb/>
+<date>18th June 1916</date><lb/>
+
+<salute>My dear Maureen,</salute>
+<lb/>I am sure you will
+<lb/>not be able to see us again before
+<lb/>we are sent away. I do not know
+<lb/>what sentences we may receive
+<lb/>but I am prepared for a long term
+<lb/>as the Chief Crown Solicitor told Dr.
+<lb/>O'Connell on Friday night that I
+<lb/>should have "backed the wall". They
+<lb/>failed to make out any case against us
+<lb/>but what do the Court-martial care about
+<lb/>such trifles as legal evidence when the
+<lb/>authorities want people out of the way?
+<lb/>I hope Collins gets off light as he was
+<lb/>an unfortunate victim to circumstances.
+<lb/>He, at any rate, should have been acquitted.
+<lb/>But we shall survive it all with God's
+<lb/>help, and meet our friends again.
+<salute>Goodbye, brave little woman, and say an
+<lb/>occasional prayer for
+<lb/>Ireland's unworthy son</salute>
+<signed>Austin Stack</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T16:05:42" who="#Tbrosnan">
+                
+                    Page 802 modified:
+                    <!-- 
+<add>P88/55</add>
+<address>Kilmainham Gaol</address><lb/>
+<date>18th June 1916</date><lb/>
+
+<salute>My dear Maureen,</salute>
+<p>I am sure you will
+<lb/>not be able to see us again before
+<lb/>we are sent away. I do not know
+<lb/>what sentences we may receive
+<lb/>but I am prepared for a long term
+<lb/>as the Chief Crown Solicitor told Dr.
+<lb/>O'Connell on Friday night that I
+<lb/>should have "backed the wall". They
+<lb/>failed to make out any case against us
+<lb/>but what do the Court-martial care about
+<lb/>such trifles as legal evidence when the
+<lb/>authorities want people out of the way?
+<lb/>I hope Collins gets off light as he was
+<lb/>an unfortunate victim to circumstances.
+<lb/>He, at any rate, should have been acquitted.
+<lb/>But we shall survive it all with God's
+<lb/>help, and meet our friends again.</p>
+<salute>Goodbye, brave little woman, and say an
+<lb/>occasional prayer for
+<lb/>Ireland's unworthy son</salute>
+<signed>Austin Stack</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-12T16:06:27" who="#Tbrosnan">
+                
+                    Page 802 modified:
+                    <!-- 
+<add>P88/55</add>
+<address>Kilmainham Gaol</address><lb/>
+<date>18th June 1916</date><lb/>
+
+<salute>My dear Maureen,</salute>
+<p>I am sure you will
+<lb/>not be able to see us again before
+<lb/>we are sent away. I do not know
+<lb/>what sentences we may receive
+<lb/>but I am prepared for a long term
+<lb/>as the Chief Crown Solicitor told Dr.
+<lb/>O'Connell on Friday night that I
+<lb/>should have "backed the wall". They
+<lb/>failed to make out any case against us
+<lb/>but what do the Court-martial care about
+<lb/>such trifles as legal evidence when the
+<lb/>authorities want people out of the way?
+<lb/>I hope Collins gets off light as he was
+<lb/>an unfortunate victim to circumstances.
+<lb/>He, at any rate, should have been acquitted.
+<lb/>But we shall survive it all with God's
+<lb/>help, and meet our friends again.</p>
+<salute>Goodbye, brave little woman, and say an
+<lb/>occasional prayer for
+<lb/>Ireland's unworthy son</salute>
+<lb/>Austin Stack 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-14T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-14T11:36:32" who="#NR">
+                
+                    Page 802 modified:
+                    <!-- 
+<add>P88/55</add>
+<address>Kilmainham Gaol</address>
+<date>18th June 1916</date>
+
+<salute>My dear Maureen,</salute>
+<p>I am sure you will
+<lb/>not be able to see us again before
+<lb/>we are sent away. I do not know
+<lb/>what sentences we may receive
+<lb/>but I am prepared for a long term
+<lb/>as the Chief Crown Solicitor told Dr.
+<lb/>O'Connell on Friday night that I
+<lb/>should have "backed the wall". They
+<lb/>failed to make out any case against us
+<lb/>but what do the Court-martial care about
+<lb/>such trifles as legal evidence when the
+<lb/>authorities want people out of the way?
+<lb/>I hope Collins gets off light as he was
+<lb/>an unfortunate victim to circumstances.
+<lb/>He, at any rate, should have been acquitted.
+<lb/>But we shall survive it all with God's
+<lb/>help, and meet our friends again.</p>
+<salute>Goodbye, brave little woman, and say an
+<lb/>occasional prayer for
+<lb/>Ireland's unworthy son</salute>
+<signed>Austin Stack</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 802 created using version from <date when="2013-11-10T18:47:25"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 802 removed (version from <date when="2013-11-10T18:47:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 802 removed (version from <date when="2014-08-21T10:59:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 802 removed (version from <date when="2014-08-21T11:00:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 802 removed (version from <date when="2015-12-08T11:15:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 802 removed (version from <date when="2016-01-08T15:10:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 802 removed (version from <date when="2016-01-12T16:05:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 802 removed (version from <date when="2016-01-12T16:06:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:40" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 802 removed (version from <date when="2016-01-14T11:36:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 802 (version from <date when="2016-01-14T11:36:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 802 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:29" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:34" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:03" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:03" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_302_img_802" url="cf4561fc818c46a030ef8a918ef12ce4.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="802" facs="#L1916_302_img_802"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<add>P88/55</add>
+<opener><address><addrLine>Kilmainham Gaol</addrLine></address>
+<dateline><date>18th June 1916</date></dateline>
+
+<salute>My dear Maureen,</salute></opener>
+<p>I am sure you will
+<lb/>not be able to see us again before
+<lb/>we are sent away. I do not know
+<lb/>what sentences we may receive
+<lb/>but I am prepared for a long term
+<lb/>as the Chief Crown Solicitor told Dr.
+<lb/>O'Connell on Friday night that I
+<lb/>should have "backed the wall". They
+<lb/>failed to make out any case against us
+<lb/>but what do the Court-martial care about
+<lb/>such trifles as legal evidence when the
+<lb/>authorities want people out of the way?
+<lb/>I hope Collins gets off light as he was
+<lb/>an unfortunate victim to circumstances.
+<lb/>He, at any rate, should have been acquitted.
+<lb/>But we shall survive it all with God's
+<lb/>help, and meet our friends again.</p>
+<closer><salute>Goodbye, brave little woman, and say an
+<lb/>occasional prayer for
+<lb/>Ireland's unworthy son</salute>
+<signed>Austin Stack</signed></closer>
+        
+    
+
+    
+                </body>
+            </text>
+
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

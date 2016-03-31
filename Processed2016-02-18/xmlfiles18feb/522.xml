@@ -1,0 +1,1539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_522">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Ella Young to Alice Stopford Green, 6 August 1916</title>
+                
+                <author>Ella Young</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Kellym60">Kellym60</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="HelenR">HelenR</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Interested">Interested</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_522</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from Ella Young (1867–1956) to Alice Stopford Green (1847-1929).  In this letter, written on 6 August 1916, Young reports on the collection of signatures for the reprieve of Roger Casement, who was hanged for treason on 3 August, as well as the local reaction to his death.</p>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                            <p>Young was a poet, republican, and mystic actively involved in the Celtic Revival. Alice Stopford Green was an Irish historian and nationalist. While not a supporter of armed rebellion, her house provided a space for leading nationalists to meet. Stopford Green had collaborated with Roger Casement on Congo Reform and, after the Easter Rising in 1916, she tried to save him from execution.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: National Library of Ireland -->
+                        
+                        <repository ref="#NLI">National Library of Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Roger Casement Papers, List no. A15; Ms. 13,088 /9
+                             
+                        -->
+                            
+                                <collection type='public'>Roger Casement Papers, List no. A15</collection>
+                            
+                            
+                        <idno>Ms. 13,088 /9</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Alice Stopford Green -->
+                        
+                        <persName ref="#StopfordGreen_A">Alice Stopford Green</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Ella Young -->
+                        
+                        <persName ref="#Young_E">Ella Young</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    Carrigaholt 
+                    Clare
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#Carrigaholt">The O&#39;Curry College, Carrigaholt, County Clare</placeName>
+                    
+                
+                    
+                    <date when="1916-08-06">6 August 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Female</item>
+                      
+                    
+                        <item n="death">1956</item>
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                            <item n="tag">politics</item>
+                            
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2013-12-14T20:26:20" who="#Kellym60">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-12-14T20:26:20" who="#HelenR">
+                
+                    Page 1443 modified:
+                    <!-- 
+The O'Curry College
+Carrigaholls [?] 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-12-14T20:34:14" who="#HelenR">
+                
+                    Page 1443 modified:
+                    <!-- 
+The O' Curry College
+Carrigaholls [?]
+Co. Clare
+
+6th August, 1916.
+
+Dear Mrs. Green,
+
+Colonel [?] has asked me to give you particulars of the petitions which a group of people working from this College originated. I am enclosing a list but think that it does not represent the total sent in, as in each case the people to whom forms were sent were asked to enlist their friends in these districts and some of them did so. Mr. Claud Cherasse wrote out a form of petition in Gaelic which he sent to some friends in Gaelic districts. I think it highly probably that in each place these petitions were signed and forwarded, but only in two instanced did the people concerned write to say they had forwarded the petitions. Mr. Claud Cherasse... 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-12-14T20:40:49" who="#Kellym60">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-12-14T20:40:49" who="#HelenR">
+                
+                    Page 1444 modified:
+                    <!-- 
+...has left the college, but if you write to him at Temple HIll Terenure [?] Dublin, he may be able to measure definite information as to the work done in each place.
+Mr. L. Mac Eochadda got many copies typed and procured nine petitions through friends in various places. He thinks that more than nine were sent in and I have asked him to procure particulars of [?] these and let you know.
+Among those who worked very hard were Mr Francis Ormsby Ranelagh Schwartz Althlone [?] and Miss Mac Mahon of this College he instructed the people in each case to send the petitions directly 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-12-14T20:43:46" who="#HelenR">
+                
+                    Page 1444 modified:
+                    <!-- 
+...has left the college, but if you write to him at Temple HIll Terenure [?] Dublin, he may be able to measure definite information as to the work done in each place.
+Mr. L. Mac Eochadda got many copies typed and procured nine petitions through friends in various places. He thinks that more than nine were sent in and I have asked him to procure particulars of [?] these and let you know.
+Among those who worked very hard were Mr Francis Ormsby Ranelagh Schwartz Althlone [?] and Miss Mac Mahon of this College he instructed the people in each case to send the petitions directly [?] [?] so [?] estimate the number of names signed. I learnt that a peak number of names were attached and the [?] and Carlin petitions  father Greghan of Frayne told me he had got all the best names in [?].  The Careywhoth petition has I think between 70 to 100 names... 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-12-14T20:50:42" who="#HelenR">
+                
+                    Page 1444 modified:
+                    <!-- 
+...has left the college, but if you write to him at Temple HIll Terenure [?] Dublin, he may be able to measure definite information as to the work done in each place.
+
+Mr. L. Mac Eochadda got many copies typed and procured nine petitions through friends in various places. He thinks that more than nine were sent in and I have asked him to provide particulars as to these and let you know.
+
+Among those who worked very hard were Mr. Francis Ormsby, Ranelagh Schwartz Althlone [?] and Miss Mac Mahon of this College. 
+
+He instructed the people in each case to send the petitions directly [?] [?] so [?] estimate the number of names signed. I learnt that a peak number of names were attached and the [?] and Carlin petitions  father Greghan of Frayne told me he had got all the best names in [?].  The Careywhoth [?] petition has I think between 70 to 100 names... 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-12-14T20:55:07" who="#HelenR">
+                
+                    Page 1444 modified:
+                    <!-- 
+...has left the college, but if you write to him at Temple HIll Terenure [?] Dublin, he may be able to measure definite information as to the work done in each place.
+
+Mr. L. Mac Eochadda got many copies typed and procured nine petitions through friends in various places. He thinks that more than nine were sent in and I have asked him to provide particulars as to these and let you know.
+
+Among those who worked very hard were Mr. Francis Ormsby, Ranelagh Schwartz Althlone [?] and Miss Mac Mahon of this College. 
+
+He instructed the people in each case to send the petitions directly to this [?] so [?] estimate the number of names signed. I learned that a peak number of names were attached and the [?] and Carlin petitions and Father Creghan of Frayne told me he had got all the best names in [?].  The Careywhoth [?] petition has I think between 70 to 100 names... 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-12-14T20:59:54" who="#Kellym60">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-12-14T20:59:54" who="#HelenR">
+                
+                    Page 1445 modified:
+                    <!-- 
+...was signed by all the local people of importance.
+
+We ere grately hampered in our work by the shortness of time and by the fact that all news reched us a day late. We had only two typewriters and Miss Nelly O'Brien and Miss Noreen [?] had and work very hard. There is not a district in Ireland that would not have sent peotitions - these people only needed the told what to do and wher to send the peitions but I am afraid many districts did not even know till too late that petitions could be sent. Letters on the subject were not allowed in the [?] papers till near the end. We got many letters as possible into local papers but many of them are only published weekly. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-12-14T21:03:28" who="#HelenR">
+                
+                    Page 1445 modified:
+                    <!-- 
+...was signed by all the local people of importance.
+
+We were greatly hampered in our work by the shortness of time and by the fact that all news reched us a day late. We had only two typewriters and Miss Nelly O'Brien and Miss Noreen [?] had and work very hard. There is not a district in Ireland that would not have sent peotitions - these people only needed the told what to do and wher to send the peitions but I am afraid many districts did not even know till too late that petitions could be sent. Letters on the subject were not allowed in the [?] papers till near the end. We got many letters as possible into local papers but many of them are only published weekly. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-12-14T21:08:28" who="#HelenR">
+                
+                    Page 1445 modified:
+                    <!-- 
+...was signed by all the local people of importance.
+
+We were greatly hampered in our work by the shortness of time and by the fact that all news reached us a day late. We had only two typewriters and Miss Nelly O'Brien and Miss Noreen [?] had to work very hard. There is not a district in Ireland that would not have sent petitions - these people only needed the told what to do and where to send the petitions, but I am afraid many districts did not even know till too late that petitions could be sent. Letters on the subject were not allowed in the [?] papers till near the end. We got as many letters as possible into local papers but many of them are only published weekly.
+
+Mass was said on Wednesday for the life of Mr. Roger [?] and you... 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-12-14T21:20:55" who="#Kellym60">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-12-14T21:20:55" who="#HelenR">
+                
+                    Page 1446 modified:
+                    <!-- 
+...on Friday. We would have had mass on Thursday but did not know the requiem had been refused. News of it [?] reached us in answer to wire in the afternoon. Everyone here was filled with rage and grief and we all hope that means [?] he listened [?] and let people all over the world and especially in America know the brutal details of this latest example of English rule in Ireland.
+
+Nothing could illustrate better than the fate of Sir Roger [?] and Sir ___Pyle. Mr. Pyle was a fishmonger who grew rich enough to get himself voted into the Lord Mayorship [?] as a strong nationalist. At the right moment when Queen Victoria makes a visit to this country she turned traitor [to] this party and [he?] was made a baronet as a reward for proposing the address of welcome [?].
+
+(Note running up the side of the sheet: Miss M. O' Farrelly the Irish College [?] Co. Donegal.
+Could you send the particulars of the wire sent from Donegal. I know that petitions were forwarded from... ) 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-02T16:17:49" who="#Comber">
+                
+                    Page 1443 modified:
+                    <!-- 
+<address>The O' Curry College Carrigaholt Co. Clare</address>
+<date>6<hi rend="superscript">th</hi> August,<lb/> 1916.<lb/></date>
+
+<salute>Dear Mrs. Green,</salute>
+
+Colonel Moore has asked<lb/> me to give you particulars of the<lb/> petitions which a group of people<lb/> working from this College originated.<lb/> I am enclosing a list but<lb/> think that it does not represent<lb/> the total sent in, as in each<lb/> case the people to whom forms<lb/> were sent were asked to enlist<lb/> their friends in these districts<lb/> and some of them did so.<lb/> Mr. Claud Chevasse wrote out a<lb/> form of petition in Gaelic which<lb/> he sent to some friends in<lb/> Gaelic districts. I think it highly<lb/> probable that in each place these<lb/> petitions were signed &amp; forwarded,<lb/> but only in two instances did<lb/> the people concerned write to<lb/> say they had forwarded the<lb/> petitions. Mr. Claud Chevasse<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-02T16:28:04" who="#Comber">
+                
+                    Page 1444 modified:
+                    <!-- 
+<pb/>has left the college, but if you<lb/> write to him at Temple HIll Terenure<lb/> Dublin, he may be able to procure <lb/> definite information as to the work<lb/> done in each place. <del>Mr L. Mac</del><lb/>
+<p>Mr. L. Mac Eochadda got many copies<lb/> typed and procured nine petitions<lb/> through friends in various places.<lb/> He thinks that more than nine<lb/> were sent in &amp; I have asked<lb/> him to provide particulars as<lb/> to these &amp; let you know.<lb/></p>
+Among those who worked very<lb/> hard were Mr. Francis Ormsby,<lb/> Ranelagh Schools Althlone &amp;<lb/> Miss Mac Mahon of this College.<lb/> He instructed the people in each<lb/> case to send the petitions directly<lb/> to Mr Asquith so cannot estimate<lb/> the number of names signed.<lb/> I heard that a <gap/> number of<lb/> names were attached to the <gap/> &amp; <unclear>Carlow</unclear> petitions &amp; Father<lb/> Creghan of <unclear>Grange</unclear> told me<lb/> he had got all the best<lb/> names in Sligo.  The<lb/> Careywhoth [?] petition has I think between 70 to 100 names... 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-02T16:30:42" who="#Comber">
+                
+                    Page 1444 modified:
+                    <!-- 
+<pb/>has left the college, but if you<lb/> write to him at Temple HIll Terenure<lb/> Dublin, he may be able to procure <lb/> definite information as to the work<lb/> done in each place. <del>Mr L. Mac</del><lb/>
+<p>Mr. L. Mac Eochadda got many copies<lb/> typed and procured nine petitions<lb/> through friends in various places.<lb/> He thinks that more than nine<lb/> were sent in &amp; I have asked<lb/> him to provide particulars as<lb/> to these &amp; let you know.<lb/></p>
+Among those who worked very<lb/> hard were Mr. Francis Ormsby,<lb/> Ranelagh Schools Althlone &amp;<lb/> Miss Mac Mahon of this College.<lb/> He instructed the people in each<lb/> case to send the petitions directly<lb/> to Mr Asquith so cannot estimate<lb/> the number of names signed.<lb/> I heard that a <gap/> number of<lb/> names were attached to the <gap/> &amp; <unclear>Carlow</unclear> petitions &amp; Father<lb/> Creghan of <unclear>Grange</unclear> told me<lb/> he had got all the best<lb/> names in Sligo.  The<lb/> Carrigaholt petition has<lb/> I think between 70 &amp; 100 names<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-02T16:37:35" who="#Comber">
+                
+                    Page 1445 modified:
+                    <!-- 
+<pb/>was signed by all the local people<lb/> of importance.<lb/>
+<p>We were greatly hampered<lb/><lb/> in our work by the shortness of time<lb/> &amp; by the fact that all news reached<lb/> us a day late. We had only two<lb/> typewriters and Miss Nellie O'Brien<lb/>&amp; Miss Noreen Fox had to work<lb/> very hard. There is not a district<lb/> in Ireland that would not have sent<lb/> petitions. These people only needed<lb/> to be told what to do &amp; where<lb/> to send the petitions, but I am<lb/> afraid many districts did not<lb/> even know till too late that<lb/> petitions could be sent. Letters<lb/> on the subject were not allowed<lb/> in the <unclear>questionable reading</unclear> papers till near<lb/> the end. We got as many letters<lb/> as possible into local papers<lb/> but many of them are only published weekly.<lb/></p>
+Mass was said on<lb/> <del>Thursday</del> Wednesday for the life<lb/> of Mr. Roger Casement &amp; you 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-02T16:38:00" who="#Comber">
+                
+                    Page 1445 modified:
+                    <!-- 
+<pb/>was signed by all the local people<lb/> of importance.<lb/>
+<p>We were greatly hampered<lb/><lb/> in our work by the shortness of time<lb/> &amp; by the fact that all news reached<lb/> us a day late. We had only two<lb/> typewriters and Miss Nellie O'Brien<lb/>&amp; Miss Noreen Fox had to work<lb/> very hard. There is not a district<lb/> in Ireland that would not have sent<lb/> petitions. These people only needed<lb/> to be told what to do &amp; where<lb/> to send the petitions, but I am<lb/> afraid many districts did not<lb/> even know till too late that<lb/> petitions could be sent. Letters<lb/> on the subject were not allowed<lb/> in the <unclear>questionable reading</unclear> papers till near<lb/> the end. We got as many letters<lb/> as possible into local papers<lb/> but many of them are only published weekly.<lb/></p>
+Mass was said on<lb/> <del>Thursday</del> Wednesday for the life<lb/> of Mr. Roger Casement &amp; you<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-02T16:45:58" who="#Comber">
+                
+                    Page 1446 modified:
+                    <!-- 
+<pb/>on Friday. We would have had Mass on<lb/> Thursday but did not know the<lb/> reprieve had been refused. News only<lb/> reached us in answer to wire in<lb/> the afternoon. Everyone here was<lb/> filled with rage &amp; grief &amp; we<lb/> all hope that means will be<lb/> taken  to let people all over<lb/> the world &amp; especially in<lb/> America know the brutal<lb/> details of this latest example<lb/> of English rule in Ireland.<lb/>
+Nothing could illustrate better<lb/> than the fate of Sir Roger Casements<lb/> and Sir &#x2014;Pyle. Mr. Pyle was a<lb/> fishmonger who grew rich enough<lb/> to get himself voted into the Lord<lb/> Mayorship of Dublin as a<lb/> strong nationalist. At the right<lb/> moment when Queen Victoria <gap/><lb/> a visit to this country he<lb/> turned traitor to his party and [he?] was made a baronet as a reward for proposing the address of welcome [?].
+
+(Note running up the side of the sheet: Miss M. O' Farrelly the Irish College [?] Co. Donegal.
+Could you send the particulars of the wire sent from Donegal. I know that petitions were forwarded from... ) 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-02T16:47:28" who="#Comber">
+                
+                    Page 1446 modified:
+                    <!-- 
+<pb/>on Friday. We would have had Mass on<lb/> Thursday but did not know the<lb/> reprieve had been refused. News only<lb/> reached us in answer to wire in<lb/> the afternoon. Everyone here was<lb/> filled with rage &amp; grief &amp; we<lb/> all hope that means will be<lb/> taken  to let people all over<lb/> the world &amp; especially in<lb/> America know the brutal<lb/> details of this latest example<lb/> of English rule in Ireland.<lb/>
+Nothing could illustrate better<lb/> than the fate of Sir Roger Casements<lb/> and Sir &#x2014;Pyle. Mr. Pyle was a<lb/> fishmonger who grew rich enough<lb/> to get himself voted into the Lord<lb/> Mayorship of Dublin as a<lb/> strong nationalist. At the right<lb/> moment when Queen Victoria <gap/><lb/> a visit to this country he<lb/> turned traitor to his party and<lb/> was made a baronet as a reward<lb/> for proposing the address of welcome<lb/>
+
+(Note running up the side of the sheet: Miss M. O' Farrelly the Irish College [?] Co. Donegal.
+Could you send the particulars of the wire sent from Donegal. I know that petitions were forwarded from... ) 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-02T16:52:35" who="#Comber">
+                
+                    Page 1446 modified:
+                    <!-- 
+<pb/>on Friday. We would have had Mass on<lb/> Thursday but did not know the<lb/> reprieve had been refused. News only<lb/> reached us in answer to wire in<lb/> the afternoon. Everyone here was<lb/> filled with rage &amp; grief &amp; we<lb/> all hope that means will be<lb/> taken  to let people all over<lb/> the world &amp; especially in<lb/> America know the brutal<lb/> details of this latest example<lb/> of English rule in Ireland.<lb/>
+Nothing could illustrate better<lb/> than the fate of Sir Roger Casements<lb/> and Sir &#x2014;Pyle. Mr. Pyle was a<lb/> fishmonger who grew rich enough<lb/> to get himself voted into the Lord<lb/> Mayorship of Dublin as a<lb/> strong nationalist. At the right<lb/> moment when Queen Victoria <gap/><lb/> a visit to this country he<lb/> turned traitor to his party and<lb/> was made a baronet as a reward<lb/> for proposing the address of welcome<lb/>
+
+<!~~ Note running up the side of the sheet: ~~>
+ Miss M. O' Farrelly the Irish College Gortahork Co. Donegal<lb/> could give you particulars of <gap/> sent from Donegal.<lb/> I know too that petitions were forwarded from<lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-02T16:53:40" who="#Comber">
+                
+                    Page 1446 modified:
+                    <!-- 
+<pb/>on Friday. We would have had Mass on<lb/> Thursday but did not know the<lb/> reprieve had been refused. News only<lb/> reached us in answer to wire in<lb/> the afternoon. Everyone here was<lb/> filled with rage &amp; grief &amp; we<lb/> all hope that means will be<lb/> taken  to let people all over<lb/> the world &amp; especially in<lb/> America know the brutal<lb/> details of this latest example<lb/> of English rule in Ireland.<lb/>
+Nothing could illustrate better<lb/> than the fate of Sir Roger Casements<lb/> and Sir &#x2014;Pyle. Mr. Pyle was a<lb/> fishmonger who grew rich enough<lb/> to get himself voted into the Lord<lb/> Mayorship of Dublin as a<lb/> strong nationalist. At the right<lb/> moment when Queen Victoria <gap/><lb/> a visit to this country he<lb/> turned traitor to his party and<lb/> was made a baronet as a reward<lb/> for proposing the address of welcome<lb/>
+
+<!~~ Note running up the side of the page: ~~>
+ Miss M. O' Farrelly the Irish College Gortahork Co. Donegal<lb/> could give you particulars of <gap/> sent from Donegal.<lb/> I know too that petitions were forwarded from<lb/>
+<!~~ Very illegible text continued along top of page ~~> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-02T16:54:34" who="#Comber">
+                
+                    Page 1446 modified:
+                    <!-- 
+<pb/>on Friday. We would have had Mass on<lb/> Thursday but did not know the<lb/> reprieve had been refused. News only<lb/> reached us in answer to wire in<lb/> the afternoon. Everyone here was<lb/> filled with rage &amp; grief &amp; we<lb/> all hope that means will be<lb/> taken  to let people all over<lb/> the world &amp; especially in<lb/> America know the brutal<lb/> details of this latest example<lb/> of English rule in Ireland.<lb/>
+Nothing could illustrate better<lb/> than the fate of Sir Roger Casements<lb/> and Sir &#x2014;Pyle. Mr. Pyle was a<lb/> fishmonger who grew rich enough<lb/> to get himself voted into the Lord<lb/> Mayorship of Dublin as a<lb/> strong nationalist. At the right<lb/> moment when Queen Victoria <gap/><lb/> a visit to this country he<lb/> turned traitor to his party and<lb/> was made a baronet as a reward<lb/> for proposing the address of welcome<lb/>
+
+<!~~ Note running up the side of the page: ~~>
+ Miss M. O' Farrelly the Irish College Gortahork Co. Donegal<lb/> could give you particulars of <gap/> sent from Donegal.<lb/> I know too that petitions were forwarded from<lb/>
+<!~~ Very illegible text continued along top of page ~~>
+<salute>Sincerely yours
+Ella Young</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-02T13:45:10" who="#Interested">
+                
+                    Page 1444 modified:
+                    <!-- 
+<pb/>has left the college, but if you<lb/> write to him at Temple HIll Terenure<lb/> Dublin, he may be able to procure <lb/> definite information as to the work<lb/> done in each place. <del>Mr L. Mac</del><lb/>
+<p>Mr. L. Mac Eochadda got many copies<lb/> typed and procured nine petitions<lb/> through friends in various places.<lb/> He thinks that more than nine<lb/> were sent in &amp; I have asked<lb/> him to provide particulars as<lb/> to these &amp; let you know.<lb/></p>
+Among those who worked very<lb/> hard were Mr. Francis Ormsby,<lb/> Ranelagh Schools Althlone &amp;<lb/> Miss Mac Mahon of this College.<lb/> He instructed the people in each<lb/> case to send the petitions directly<lb/> to Mr Asquith so cannot estimate<lb/> the number of names signed.<lb/> I heard that a great number of<lb/> names were attached to the Galway &amp; <unclear>Carlow</unclear> petitions &amp; Father<lb/> Creghan of <unclear>Grange</unclear> told me<lb/> he had got all the best<lb/> names in Sligo.  The<lb/> Carrigaholt petition has<lb/> I think between 70 &amp; 100 names<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T12:44:05" who="#NR">
+                
+                    Page 1443 modified:
+                    <!-- 
+<address>The O' Curry College 
+<lb/>Carrigaholt 
+<lb/>Co. Clare</address>
+<date>6<hi rend="superscript">th</hi> August,
+<lb/> 1916.</date>
+
+<salute>Dear Mrs. Green,</salute>
+
+<p>Colonel Moore has asked
+<lb/> me to give you particulars of the
+<lb/> petitions which a group of people
+<lb/> working from this College originated.
+<lb/> I am enclosing a list but
+<lb/> think that it does not represent
+<lb/> the total sent in, as in each
+<lb/> case the people to whom forms
+<lb/> were sent were asked to enlist
+<lb/> their friends in these districts
+<lb/> and some of them did so.
+<lb/> Mr. Claud Chevasse wrote out a
+<lb/> form of petition in Gaelic which
+<lb/> he sent to some friends in
+<lb/> Gaelic districts. I think it highly
+<lb/> probable that in each place these
+<lb/> petitions were signed &amp; forwarded,
+<lb/> but only in two instances did
+<lb/> the people concerned write to
+<lb/> say they had forwarded the
+<lb/> petitions. Mr. Claud Chevasse 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T12:48:08" who="#NR">
+                
+                    Page 1444 modified:
+                    <!-- 
+<lb/>has left the college, but if you
+<lb/> write to him at Temple HIll Terenure
+<lb/> Dublin, he may be able to procure 
+<lb/> definite information as to the work
+<lb/> done in each place. <del>Mr L. Mac</del></p>
+<p>Mr. L. Mac Eochadda got many copies
+<lb/> typed and procured nine petitions
+<lb/> through friends in various places.
+<lb/> He thinks that more than nine
+<lb/> were sent in &amp; I have asked
+<lb/> him to provide particulars as
+<lb/> to these &amp; let you know.</p>
+<p>Among those who worked very
+<lb/> hard were Mr. Francis Ormsby,
+<lb/> Ranelagh Schools Althlone &amp;
+<lb/> Miss Mac Mahon of this College.
+<lb/> He instructed the people in each
+<lb/> case to send the petitions directly
+<lb/> to Mr Asquith so cannot estimate
+<lb/> the number of names signed.
+<lb/> I heard that a great number of
+<lb/> names were attached to the Galway 
+<lb/>&amp; <unclear>Carlow</unclear> petitions &amp; Father
+<lb/> Creghan of <unclear>Grange</unclear> told me
+<lb/> he had got all the best
+<lb/> names in Sligo.  The
+<lb/> Carrigaholt petition has
+<lb/> I think between 70 &amp; 100 names 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T12:50:14" who="#NR">
+                
+                    Page 1445 modified:
+                    <!-- 
+<lb/>was signed by all the local people
+<lb/> of importance.</p>
+<p>We were greatly hampered
+<lb/> in our work by the shortness of time
+<lb/> &amp; by the fact that all news reached
+<lb/> us a day late. We had only two
+<lb/> typewriters and Miss Nellie O'Brien
+<lb/>&amp; Miss Noreen Fox had to work
+<lb/> very hard. There is not a district
+<lb/> in Ireland that would not have sent
+<lb/> petitions. These people only needed
+<lb/> to be told what to do &amp; where
+<lb/> to send the petitions, but I am
+<lb/> afraid many districts did not
+<lb/> even know till too late that
+<lb/> petitions could be sent. Letters
+<lb/> on the subject were not allowed
+<lb/> in the <unclear>Dublin</unclear> papers till near
+<lb/> the end. We got as many letters
+<lb/> as possible into local papers
+<lb/> but many of them are only published weekly.</p>
+<p>Mass was said on
+<lb/> <del>Thursday</del> Wednesday for the life
+<lb/> of Mr. Roger Casement &amp; you 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T12:53:55" who="#NR">
+                
+                    Page 1446 modified:
+                    <!-- 
+<lb/>on Friday. We would have had Mass on
+<lb/> Thursday but did not know the
+<lb/> reprieve had been refused. News only
+<lb/> reached us in answer to wire in
+<lb/> the afternoon. Everyone here was
+<lb/> filled with rage &amp; grief &amp; we
+<lb/> all hope that means will be
+<lb/> taken  to let people all over
+<lb/> the world &amp; especially in
+<lb/> America know the brutal
+<lb/> details of this latest example
+<lb/> of English rule in Ireland.</p>
+<p>Nothing could illustrate better
+<lb/> than the fate of Sir Roger Casements
+<lb/> and Sir &#x2014;Pyle. Mr. Pyle was a
+<lb/> fishmonger who grew rich enough
+<lb/> to get himself voted into the Lord
+<lb/> Mayorship of Dublin as a
+<lb/> strong nationalist. At the right
+<lb/> moment when Queen Victoria paid
+<lb/> a visit to this country he
+<lb/> turned traitor to his party and
+<lb/> was made a baronet as a reward
+<lb/> for proposing the address of welcome<lb/>
+
+<!~~ Note running up the side of the page: ~~>
+ Miss M. O' Farrelly the Irish College Gortahork Co. Donegal<lb/> could give you particulars of <gap/> sent from Donegal.<lb/> I know too that petitions were forwarded from<lb/>
+<!~~ Very illegible text continued along top of page ~~>
+<salute>Sincerely yours
+Ella Young</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T12:54:46" who="#NR">
+                
+                    Page 1446 modified:
+                    <!-- 
+<lb/>on Friday. We would have had Mass on
+<lb/> Thursday but did not know the
+<lb/> reprieve had been refused. News only
+<lb/> reached us in answer to wire in
+<lb/> the afternoon. Everyone here was
+<lb/> filled with rage &amp; grief &amp; we
+<lb/> all hope that means will be
+<lb/> taken  to let people all over
+<lb/> the world &amp; especially in
+<lb/> America know the brutal
+<lb/> details of this latest example
+<lb/> of English rule in Ireland.</p>
+<p>Nothing could illustrate better
+<lb/> than the fate of Sir Roger Casements
+<lb/> and Sir &#x2014;Pyle. Mr. Pyle was a
+<lb/> fishmonger who grew rich enough
+<lb/> to get himself voted into the Lord
+<lb/> Mayorship of Dublin as a
+<lb/> strong nationalist. At the right
+<lb/> moment when Queen Victoria paid
+<lb/> a visit to this country he
+<lb/> turned traitor to his party and
+<lb/> was made a baronet as a reward
+<lb/> for proposing the address of welcome<lb/>
+
+<!~~ Note running up the side of the page: ~~>
+<lb/> Miss M. O' Farrelly the Irish College Gortahork Co. Donegal
+<lb/> could give you particulars of those sent from Donegal.
+<lb/> I know too that petitions were forwarded from<lb/>
+<!~~ Very illegible text continued along top of page ~~>
+<salute>Sincerely yours</salute>
+<signed>Ella Young</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T12:54:48" who="#NR">
+                
+                    Page 1446 modified:
+                    <!-- 
+<lb/>on Friday. We would have had Mass on
+<lb/> Thursday but did not know the
+<lb/> reprieve had been refused. News only
+<lb/> reached us in answer to wire in
+<lb/> the afternoon. Everyone here was
+<lb/> filled with rage &amp; grief &amp; we
+<lb/> all hope that means will be
+<lb/> taken  to let people all over
+<lb/> the world &amp; especially in
+<lb/> America know the brutal
+<lb/> details of this latest example
+<lb/> of English rule in Ireland.</p>
+<p>Nothing could illustrate better
+<lb/> than the fate of Sir Roger Casements
+<lb/> and Sir &#x2014;Pyle. Mr. Pyle was a
+<lb/> fishmonger who grew rich enough
+<lb/> to get himself voted into the Lord
+<lb/> Mayorship of Dublin as a
+<lb/> strong nationalist. At the right
+<lb/> moment when Queen Victoria paid
+<lb/> a visit to this country he
+<lb/> turned traitor to his party and
+<lb/> was made a baronet as a reward
+<lb/> for proposing the address of welcome<lb/>
+
+<!~~ Note running up the side of the page: ~~>
+<lb/> Miss M. O' Farrelly the Irish College Gortahork Co. Donegal
+<lb/> could give you particulars of those sent from Donegal.
+<lb/> I know too that petitions were forwarded from<lb/>
+<!~~ Very illegible text continued along top of page ~~>
+<salute>Sincerely yours</salute>
+<signed>Ella Young</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T12:55:09" who="#NR">
+                
+                    Page 1446 modified:
+                    <!-- 
+<lb/>on Friday. We would have had Mass on
+<lb/> Thursday but did not know the
+<lb/> reprieve had been refused. News only
+<lb/> reached us in answer to wire in
+<lb/> the afternoon. Everyone here was
+<lb/> filled with rage &amp; grief &amp; we
+<lb/> all hope that means will be
+<lb/> taken  to let people all over
+<lb/> the world &amp; especially in
+<lb/> America know the brutal
+<lb/> details of this latest example
+<lb/> of English rule in Ireland.</p>
+<p>Nothing could illustrate better
+<lb/> than the fate of Sir Roger Casements
+<lb/> and Sir &#x2014;Pyle. Mr. Pyle was a
+<lb/> fishmonger who grew rich enough
+<lb/> to get himself voted into the Lord
+<lb/> Mayorship of Dublin as a
+<lb/> strong nationalist. At the right
+<lb/> moment when Queen Victoria paid
+<lb/> a visit to this country he
+<lb/> turned traitor to his party and
+<lb/> was made a baronet as a reward
+<lb/> for proposing the address of welcome<lb/>
+
+<!~~ Note running up the side of the page: ~~>
+<lb/> Miss M. O' Farrelly the Irish College Gortahork Co. Donegal
+<lb/> could give you particulars of those sent from Donegal.
+<lb/> I know too that petitions were forwarded from<lb/>
+<!~~ Very illegible text continued along top of page ~~>
+<salute>Sincerely yours</salute>
+<signed>Ella Young</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T12:58:42" who="#NR">
+                
+                    Page 1446 modified:
+                    <!-- 
+<lb/>on Friday. We would have had Mass on
+<lb/> Thursday but did not know the
+<lb/> reprieve had been refused. News only
+<lb/> reached us in answer to wire in
+<lb/> the afternoon. Everyone here was
+<lb/> filled with rage &amp; grief &amp; we
+<lb/> all hope that means will be
+<lb/> taken  to let people all over
+<lb/> the world &amp; especially in
+<lb/> America know the brutal
+<lb/> details of this latest example
+<lb/> of English rule in Ireland.</p>
+<p>Nothing could illustrate better
+<lb/> than the fate of Sir Roger Casements
+<lb/> and Sir &#x2014;Pyle. Mr. Pyle was a
+<lb/> fishmonger who grew rich enough
+<lb/> to get himself voted into the Lord
+<lb/> Mayorship of Dublin as a
+<lb/> strong nationalist. At the right
+<lb/> moment when Queen Victoria paid
+<lb/> a visit to this country he
+<lb/> turned traitor to his party and
+<lb/> was made a baronet as a reward
+<lb/> for proposing the address of welcome<lb/>
+
+<!~~ Note running up the side of the page: ~~>
+<lb/> Miss M. O' Farrelly the Irish College Gortahork Co. Donegal
+<lb/> could give you particulars of those sent from Donegal.
+<lb/> I know too that petitions were forwarded from<lb/>
+<!~~ Very illegible text continued along top of page ~~>
+<lb/>section.
+<lb/> We have
+<lb/> not
+<lb/> particularly.
+<lb/>perhaps
+<lb/>Miss Helen
+<lb/>Ui Neill
+<lb/>would tell you.</p>
+<salute>Sincerely yours</salute>
+<signed>Ella Young</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1443 created using version from <date when="2013-12-14T20:26:20"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1443 removed (version from <date when="2013-12-14T20:26:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1443 removed (version from <date when="2013-12-14T20:34:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1443 removed (version from <date when="2015-02-02T16:17:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1443 removed (version from <date when="2016-01-15T12:44:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1444 created using version from <date when="2013-12-14T20:40:49"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1444 removed (version from <date when="2013-12-14T20:40:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1444 removed (version from <date when="2013-12-14T20:43:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1444 removed (version from <date when="2013-12-14T20:50:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1444 removed (version from <date when="2013-12-14T20:55:07"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1444 removed (version from <date when="2015-02-02T16:28:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1444 removed (version from <date when="2015-02-02T16:30:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1444 removed (version from <date when="2015-09-02T13:45:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1444 removed (version from <date when="2016-01-15T12:48:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1445 created using version from <date when="2013-12-14T20:59:54"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1445 removed (version from <date when="2013-12-14T20:59:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1445 removed (version from <date when="2013-12-14T21:03:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1445 removed (version from <date when="2013-12-14T21:08:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1445 removed (version from <date when="2015-02-02T16:37:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1445 removed (version from <date when="2015-02-02T16:38:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1445 removed (version from <date when="2016-01-15T12:50:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1446 created using version from <date when="2013-12-14T21:20:55"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1446 removed (version from <date when="2013-12-14T21:20:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1446 removed (version from <date when="2015-02-02T16:45:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1446 removed (version from <date when="2015-02-02T16:47:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1446 removed (version from <date when="2015-02-02T16:52:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1446 removed (version from <date when="2015-02-02T16:53:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1446 removed (version from <date when="2015-02-02T16:54:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1446 removed (version from <date when="2016-01-15T12:53:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1446 removed (version from <date when="2016-01-15T12:54:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1446 removed (version from <date when="2016-01-15T12:54:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1446 removed (version from <date when="2016-01-15T12:55:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1446 removed (version from <date when="2016-01-15T12:58:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 1443 (version from <date when="2016-01-15T12:44:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 1444 added to letter (version from <date when="2016-01-15T12:48:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 1445 added to letter (version from <date when="2016-01-15T12:50:15"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 1446 added to letter (version from <date when="2016-01-15T12:58:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:19" who="#PythonScript">
+                
+                    Clean tags: Page 1443 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:19" who="#PythonScript">
+                
+                    Clean tags: Page 1444 cleaned of 6 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:19" who="#PythonScript">
+                
+                    Clean tags: Page 1445 cleaned of 4 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:19" who="#PythonScript">
+                
+                    Clean tags: Page 1446 cleaned of 4 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:25" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:29" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:35" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:12" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:12" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_522_img_1443" url="fc5a8c415d171a6fb5b4210d089f9ab0.jpg"/> 
+    
+    <graphic xml:id="L1916_522_img_1444" url="9fef7d5373e6502f66a5bb3438ea8939.jpg"/> 
+    
+    <graphic xml:id="L1916_522_img_1445" url="fc893cd68ef7dc58dafdb2ac96cf2cc8.jpg"/> 
+    
+    <graphic xml:id="L1916_522_img_1446" url="4224c4c6feeec48477e2191285ac0c3e.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="1443" facs="#L1916_522_img_1443"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>The O' Curry College</addrLine>
+<addrLine>Carrigaholt</addrLine>
+<addrLine>Co. Clare</addrLine></address>
+<dateline><date>6<hi rend="superscript">th</hi> August,
+ 1916.</date></dateline>
+
+<salute>Dear Mrs. Green,</salute></opener>
+
+<p>Colonel Moore has asked
+<lb/> me to give you particulars of the
+<lb/> petitions which a group of people
+<lb/> working from this College originated.
+<lb/> I am enclosing a list but
+<lb/> think that it does not represent
+<lb/> the total sent in, as in each
+<lb/> case the people to whom forms
+<lb/> were sent were asked to enlist
+<lb/> their friends in these districts
+<lb/> and some of them did so.
+<lb/> Mr. Claud Chevasse wrote out a
+<lb/> form of petition in Gaelic which
+<lb/> he sent to some friends in
+<lb/> Gaelic districts. I think it highly
+<lb/> probable that in each place these
+<lb/> petitions were signed &amp; forwarded,
+<lb/> but only in two instances did
+<lb/> the people concerned write to
+<lb/> say they had forwarded the
+<lb/> petitions. Mr. Claud Chevasse
+        
+    
+
+    
+         
+        <pb n="1444" facs="#L1916_522_img_1444"/>
+        
+        
+           
+            <lb/>has left the college, but if you
+<lb/> write to him at Temple HIll Terenure
+<lb/> Dublin, he may be able to procure 
+<lb/> definite information as to the work
+<lb/> done in each place. <del>Mr L. Mac</del></p>
+<p>Mr. L. Mac Eochadda got many copies
+<lb/> typed and procured nine petitions
+<lb/> through friends in various places.
+<lb/> He thinks that more than nine
+<lb/> were sent in &amp; I have asked
+<lb/> him to provide particulars as
+<lb/> to these &amp; let you know.</p>
+<p>Among those who worked very
+<lb/> hard were Mr. Francis Ormsby,
+<lb/> Ranelagh Schools Althlone &amp;
+<lb/> Miss Mac Mahon of this College.
+<lb/> He instructed the people in each
+<lb/> case to send the petitions directly
+<lb/> to Mr Asquith so cannot estimate
+<lb/> the number of names signed.
+<lb/> I heard that a great number of
+<lb/> names were attached to the Galway 
+<lb/>&amp; <unclear>Carlow</unclear> petitions &amp; Father
+<lb/> Creghan of <unclear>Grange</unclear> told me
+<lb/> he had got all the best
+<lb/> names in Sligo.  The
+<lb/> Carrigaholt petition has
+<lb/> I think between 70 &amp; 100 names
+        
+    
+         
+        <pb n="1445" facs="#L1916_522_img_1445"/>
+        
+        
+           
+            <lb/>was signed by all the local people
+<lb/> of importance.</p>
+<p>We were greatly hampered
+<lb/> in our work by the shortness of time
+<lb/> &amp; by the fact that all news reached
+<lb/> us a day late. We had only two
+<lb/> typewriters and Miss Nellie O'Brien
+<lb/>&amp; Miss Noreen Fox had to work
+<lb/> very hard. There is not a district
+<lb/> in Ireland that would not have sent
+<lb/> petitions. These people only needed
+<lb/> to be told what to do &amp; where
+<lb/> to send the petitions, but I am
+<lb/> afraid many districts did not
+<lb/> even know till too late that
+<lb/> petitions could be sent. Letters
+<lb/> on the subject were not allowed
+<lb/> in the <unclear>Dublin</unclear> papers till near
+<lb/> the end. We got as many letters
+<lb/> as possible into local papers
+<lb/> but many of them are only published weekly.</p>
+<p>Mass was said on
+<lb/> <del>Thursday</del> Wednesday for the life
+<lb/> of Mr. Roger Casement &amp; you
+        
+    
+         
+        <pb n="1446" facs="#L1916_522_img_1446"/>
+        
+        
+           
+            <lb/>on Friday. We would have had Mass on
+<lb/> Thursday but did not know the
+<lb/> reprieve had been refused. News only
+<lb/> reached us in answer to wire in
+<lb/> the afternoon. Everyone here was
+<lb/> filled with rage &amp; grief &amp; we
+<lb/> all hope that means will be
+<lb/> taken  to let people all over
+<lb/> the world &amp; especially in
+<lb/> America know the brutal
+<lb/> details of this latest example
+<lb/> of English rule in Ireland.</p>
+<p>Nothing could illustrate better
+<lb/> than the fate of Sir Roger Casements
+<lb/> and Sir &#x2014;Pyle. Mr. Pyle was a
+<lb/> fishmonger who grew rich enough
+<lb/> to get himself voted into the Lord
+<lb/> Mayorship of Dublin as a
+<lb/> strong nationalist. At the right
+<lb/> moment when Queen Victoria paid
+<lb/> a visit to this country he
+<lb/> turned traitor to his party and
+<lb/> was made a baronet as a reward
+<lb/> for proposing the address of welcome<lb/>
+
+<!-- Note running up the side of the page: -->
+<lb/> Miss M. O' Farrelly the Irish College Gortahork Co. Donegal
+<lb/> could give you particulars of those sent from Donegal.
+<lb/> I know too that petitions were forwarded from<lb/>
+<!-- Very illegible text continued along top of page -->
+<lb/>section.
+<lb/> We have
+<lb/> not
+<lb/> particularly.
+<lb/>perhaps
+<lb/>Miss Helen
+<lb/>Ui Neill
+<lb/>would tell you.</p>
+<closer><salute>Sincerely yours</salute>
+<signed>Ella Young</signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

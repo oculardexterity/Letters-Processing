@@ -1,0 +1,1376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2194">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Fr Joseph Wrafter SJ to his Father Provincial Thomas V Nolan SJ, 6 July 1916</title>
+                
+                <author>Joseph Wrafter</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="SKerr">SKerr</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="GillJonker">GillJonker</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Annie">Annie</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Irishjesuitarchives">Irishjesuitarchives</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2194</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>Letter from Fr Joseph Wrafter SJ (1865-1934) to his Father Provincial Thomas V Nolan SJ  (1867-1941) in which he describes the conditions of his work as a chaplain at the Front to the 8th Royal Munster Fusiliers, B.E.F. 'I have never been away from these horrible guns except one day' (6 July 1916). He writes about the work of his battalion and the Leinsters.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Fr. Joseph Wrafter SJ, M.C. was born 9 August 1865, Rosenallis, Queens County (Laois)  and died 5 September 1934, Dublin. He schooled at St. Stanislaus, College, Tullabeg. He entered the Society in 1883 and Fr. Wrafter taught in Clongowes Wood College for a number of years before going to Louvain for philosophy in 1893 and returning in 1896. From 1900-03, he was Minister at University College, St. Stephen’s Green. On returning from the war, he was Minister in Leeson Street, Clongowes Wood College and University Hall. Fr. Wrafter served as chaplain in France and Belgium and to interned prisoners in Holland (1915-1919).</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Irish Jesuit Archives -->
+                        
+                        <repository ref="#IJA">Irish Jesuit Archives</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: IE IJA/CHP1/63/10
+                             
+                        -->
+                            
+                                <collection type='public'>IE IJA/CHP1/63/10</collection>
+                            
+                            
+                        <idno>IE IJA/CHP1/63/10</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Thomas V Nolan -->
+                        
+                        <persName ref="#Nolan_T_V">Thomas V Nolan </persName>
+                    
+                
+                
+                
+                    
+                    <!-- Normalised Place Found: 
+                    Upper Rutland Street 
+                    Dublin
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName  ref="#CentralDublin">St Francis Xavier&#39;s, Upper Gardiner Street, Dublin</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Joseph Wrafter -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF RECIPIENT IS CORRECT --></VERIFY>
+                        
+                        <persName ref="#Wrafter_J">Fr Joseph Wrafter </persName>
+                    
+                
+                
+                 
+                    
+                    <placeName  ref="MISSING">8th Royal Munster Fusiliers, B.E.F., France</placeName>
+                    
+                
+                    
+                    <date when="1916-07-06">6 July 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1934</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-05-18T20:14:04" who="#Irishjesuitarchives">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-18T20:14:04" who="#Annie">
+                
+                    Page 5705 modified:
+                    <!-- 
+CHPI/53 (10) <address> 8th R. Munster Fus. <lb/> B. E. F. <date> July6/16 <lb/> <salute> My dear Fr. Provincial, <lb/> I am a very bad <lb/> correspondent & the atmosphere <lb/> we live in out here is not <lb/> conducive to letter writing. Since <lb/> I came back on Holy Thursday I <lb/> have never been away from these <lb/> horrible guns except one day for <lb/> a few hours when I took a ride <lb/> a few miles back into the country <lb/> for the sake of feeling I was out of <lb/> range. We are back "resting" now <lb/> for eight days, but we are not in <lb/> a very restful place. The Huns <lb/> shell it several times every day & <lb/> there are frequent casualties. Before <lb/> we came here on Tuesday I had been<lb/> ??? days in the front line & arriving <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-18T20:49:18" who="#Irishjesuitarchives">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-18T20:49:18" who="#Annie">
+                
+                    Page 5706 modified:
+                    <!-- 
+that time I never had my clothes <lb/> off. The Battalions relieve one another <lb/>  every four days, but <lb/>the Leinsters <lb/> had no chaplain of their own so <lb/> I stayed on with them & so was <lb/> in the whole ??? I have now been appointed officially to the <lb/> two battalions & as they always <lb/> relieve each other I expect I <lb/> <lb/>shall get as much of the game <lb/> as I want. It is a very terrible <lb/> thing where a show is on & no <lb/> one I know wants any more <lb/> of it than he has seen if he has <lb/> been in it at all. But of course <lb/> all have to see it through & the <lb/> men are really splendid. The <lb/> last sixteen days were the worst <lb/> turn we had. There was a constant <lb/> strain the whole time. Between <lb/> killed & wounded we lost in start <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-27T09:52:30" who="#Irishjesuitarchives">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-27T09:52:30" who="#GillJonker">
+                
+                    Page 5707 modified:
+                    <!-- 
+<pb/> period quite a fourth of our Battalions <lb/> of the Leinsters nearly as many. <lb/> But they did good work &amp; their enemy got a good deal more than <lb/> they gave. It is dreadful to see <lb/> the way the poor fellows are <lb/>broken &amp; many had someting out <lb/> of all recognition. When they are <lb/> killed it does not seem so bad, <lb/> but it is terrible to see the horrible <lb/> wounds &amp; the way the poor fellows <lb/> suffer. Their sufferings are added to by <lb/> the inconvenience of the trenches, <lb/> where it is often difficult for two <lb/> men to pass. It often takes hours <lb/> to get them as far as the regimental <lb/> aid port which is by no means a <lb/> Cur....? place - often only a very <lb/> dug-out &amp; the wounded can <lb/> only be sent down to the clearing <lb/> stations by night when it is dark, <lb/> so that they are often 18 or 20 hours <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-27T09:53:25" who="#GillJonker">
+                
+                    Page 5706 modified:
+                    <!-- 
+that time I never had my clothes <lb/> off. The Battalions relieve one another <lb/>  every four days, but <lb/>the Leinsters <lb/> had no chaplain of their own so <lb/> I stayed on with them & so was <lb/> in the whole ??? I have now been appointed officially to the <lb/> two battalions & as they always <lb/> relieve each other I expect I <lb/> <lb/>shall get as much of the game <lb/> as I want. It is a very terrible <lb/> thing where a show is on & no <lb/> one I know wants any more <lb/> of it than he has seen if he has <lb/> been in it at all. But of course <lb/> all have to see it through & the <lb/> men are really splendid. The <lb/> last sixteen days were the worst <lb/> turn we had. There was a constant <lb/> strain the whole time. Between <lb/> killed & wounded we lost in that <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-27T09:54:54" who="#GillJonker">
+                
+                    Page 5707 modified:
+                    <!-- 
+<pb/> period quite a fourth of our Battalions <lb/> &amp; the Leinsters nearly as many. <lb/> But they did good work &amp; their enemy got a good deal more than <lb/> they gave. It is dreadful to see <lb/> the way the poor fellows are <lb/>broken &amp; many had someting out <lb/> of all recognition. When they are <lb/> killed it does not seem so bad, <lb/> but it is terrible to see the horrible <lb/> wounds &amp; the way the poor fellows <lb/> suffer. Their sufferings are added to by <lb/> the inconvenience of the trenches, <lb/> where it is often difficult for two <lb/> men to pass. It often takes hours <lb/> to get them as far as the regimental <lb/> aid port which is by no means a <lb/> <unclear>Cur....?</unclear> place - often only a very <lb/> dug-out &amp; the wounded can <lb/> only be sent down to the clearing <lb/> stations by night when it is dark, <lb/> so that they are often 18 or 20 hours <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-27T10:15:20" who="#Irishjesuitarchives">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-05-27T10:15:20" who="#GillJonker">
+                
+                    Page 5708 modified:
+                    <!-- 
+<pb/> waiting. It can't be helped <lb/> but it causes much suffering to <lb/> the poor men.<p>paragraph</p>
+Well there is no use telling <lb/> you about war as you have had <lb/> so much of it in Dublin that <lb/> you know all its phases. <p>paragraph</p>
+I suppose visitations are <lb/> all over by this &amp; the villas <lb/> in full swing. I hope you &amp; <lb/> all in the Province are very <lb/> well. You are, I am sure busy <lb/> with retrials just now. I hope <lb/> we shall also soon be engaged <lb/> in that way - the retrial of the <lb/> Huns. <p>paragraph</p>
+With very kind regards to all <lb/> &amp;  working a re... br... in your th... <lb/> sacrifices behind me, my dear Fr. Provincial <p>paragraph</p>
+<salute>Yours most <unclear>mic... in pt</unclear></salute>
+<salute>J Wrafter</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-05-27T10:19:25" who="#GillJonker">
+                
+                    Page 5708 modified:
+                    <!-- 
+<pb/> waiting. It can't be helped <lb/> but it causes much suffering to <lb/> the poor men.<p>paragraph</p>
+Well there is no use telling <lb/> you about war as you have had <lb/> so much of it in Dublin that <lb/> you know all its phases. <p>paragraph</p>
+I suppose visitations are <lb/> all over by this &amp; the villas <lb/> in full swing. I hope you &amp; <lb/> all in the Province are very <lb/> well. You are, I am sure busy <lb/> with retrials just now. I hope <lb/> we shall also soon be engaged <lb/> in that way - the retrial of the <lb/> Huns. <p>paragraph</p>
+With very kind regards to all <lb/> &amp;  <unclear>asking a remembrance</unclear> in your Holy <lb/> sacrifices behind me, my dear Fr. Provincial <p>paragraph</p>
+<salute>Yours most sincerely <unclear>in pt</unclear> </salute>
+<salute>J Wrafter</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-07-06T08:20:30" who="#Irishjesuitarchives">
+                
+                    Page 5705 modified:
+                    <!-- 
+CHP1/63 (10) <address> 8th R. Munster Fus. <lb/> B. E. F. <date> July6/16 <lb/> <salute> My dear Fr. Provincial, P.C. <lb/> I am a very bad <lb/> correspondent & the atmosphere <lb/> we live in out here is not <lb/> conducive to letter writing. Since <lb/> I came back on Holy Thursday I <lb/> have never been away from these <lb/> horrible guns except one day for <lb/> a few hours when I took a ride <lb/> a few miles back into the country <lb/> for the sake of feeling I was out of <lb/> range. We are back "resting" now <lb/> for eight days, but we are not in <lb/> a very restful place. The Huns <lb/> shell it several times every day & <lb/> there are frequent casualties. Before <lb/> we came here on Tuesday I had been<lb/> ??? days in the front line & arriving <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-07-06T08:32:40" who="#Irishjesuitarchives">
+                
+                    Page 5707 modified:
+                    <!-- 
+<pb/> period quite a fourth of our Battalions <lb/> &amp; the Leinsters nearly as many. <lb/> But they did good work &amp; their enemy got a good deal more than <lb/> they gave. It is dreadful to see <lb/> the way the poor fellows are <lb/>broken &amp; many had someting out <lb/> of all recognition. When they are <lb/> killed it does not seem so bad, <lb/> but it is terrible to see the horrible <lb/> wounds &amp; the way the poor fellows <lb/> suffer. Their sufferings are added to by <lb/> the inconvenience of the trenches, <lb/> where it is often difficult for two <lb/> men to pass. It often takes hours <lb/> to get them as far as the regimental <lb/> aid post which is by no means a <lb/> <unclear>Cur....?</unclear> place - often only a very <lb/ small dug-out &amp; the wounded can <lb/> only be sent down to the clearing <lb/> stations by night when it is dark, <lb/> so that they are often 18 or 20 hours <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-07-06T08:41:43" who="#Irishjesuitarchives">
+                
+                    Page 5708 modified:
+                    <!-- 
+<pb/> waiting. It can't be helped <lb/> but it causes much suffering to <lb/> the poor men.<p>paragraph</p>
+Well there is no use telling <lb/> you about war as you have had <lb/> so much of it in Dublin that <lb/> you know all its phases. <p>paragraph</p>
+I suppose Visitations are <lb/> all over by this &amp; the villas <lb/> in full swing. I hope you &amp; <lb/> all in the Province are very <lb/> well. You are, I am sure busy <lb/> with retreats just now. I hope <lb/> we shall also soon be engaged <lb/> in that way - the retreat of the <lb/> Huns. <p>paragraph</p>
+With very kind regards to all <lb/> &amp; asking a remembrance in your Holy <lb/> sacrifices Believe me, my dear Fr. Provincial <p>paragraph</p>
+<salute>Yours most sincerely <unclear>in pt</unclear> </salute>
+<salute>J Wrafter S.J.</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-07-06T08:46:58" who="#Irishjesuitarchives">
+                
+                    Page 5708 modified:
+                    <!-- 
+<pb/> waiting. It can't be helped <lb/> but it causes much suffering to <lb/> the poor men.<p>paragraph</p>
+Well there is no use telling <lb/> you about war as you have had <lb/> so much of it in Dublin that <lb/> you know all its phases. <p>paragraph</p>
+I suppose Visitations are <lb/> all over by this &amp; the villas <lb/> in full swing. I hope you &amp; <lb/> all in the Province are very <lb/> well. You are, I am sure busy <lb/> with retreats just now. I hope <lb/> we shall also soon be engaged <lb/> in that way - the retreat of the <lb/> Huns. <p>paragraph</p>
+With very kind regards to all <lb/> &amp; asking a remembrance in your Holy <lb/> sacrifices Believe me, my dear Fr. Provincial <p>paragraph</p>
+<salute>Yours most sincerely in XT</salute>
+<salute>J Wrafter S.J.</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-02T10:37:55" who="#SKerr">
+                
+                    Page 5705 modified:
+                    <!-- 
+<address>8<hi rend="underline"><hi rend="superscript">th</hi></hi> R. Munster Fus. 
+<hi rend="underline">B. E. F.</hi></address> 
+<date>July <hi rend="underline">6/16</hi></date>
+<salute>My dear Fr. Provincial, 
+<hi rend="underline">P.C.</hi></salute> 
+<p> I am a very bad 
+<lb/> correspondent &amp; the atmosphere 
+<lb/> we live in out here is not 
+<lb/> conducive to letter writing. Since 
+<lb/> I came back on Holy Thursday I 
+<lb/> have never been away from these 
+<lb/> horrible guns except one day for 
+<lb/> a few hours when I took a ride 
+<lb/> a few miles back into the country 
+<lb/> for the sake of feeling I was out of 
+<lb/> range. We are back "resting" now 
+<lb/> for eight days, but we are not in 
+<lb/> a very restful place. The Huns 
+<lb/> shell it several times every day &amp; 
+<lb/> there are frequent casualties. Before 
+<lb/> we came here on Tuesday I had been
+<lb/> <unclear>14</unclear> days in the front line &amp; arriving <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-02T10:38:37" who="#SKerr">
+                
+                    Page 5705 modified:
+                    <!-- 
+<address>8<hi rend="underline"><hi rend="superscript">th</hi></hi> R. Munster Fus. 
+<hi rend="underline">B. E. F.</hi></address> 
+<date>July <hi rend="underline">6/16</hi></date>
+<salute>My dear Fr. Provincial, 
+<hi rend="underline">P.C.</hi></salute> 
+<p> I am a very bad 
+<lb/> correspondent &amp; the atmosphere 
+<lb/> we live in out here is not 
+<lb/> conducive to letter writing. Since 
+<lb/> I came back on Holy Thursday I 
+<lb/> have never been away from these 
+<lb/> horrible guns except one day for 
+<lb/> a few hours when I took a ride 
+<lb/> a few miles back into the country 
+<lb/> for the sake of feeling I was out of 
+<lb/> range. We are back "resting" now 
+<lb/> for eight days, but we are not in 
+<lb/> a very restful place. The Huns 
+<lb/> shell it several times every day &amp; 
+<lb/> there are frequent casualties. Before 
+<lb/> we came here on Tuesday I had been
+<lb/> <unclear>14</unclear> days in the front line &amp; during <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-02T10:43:46" who="#SKerr">
+                
+                    Page 5706 modified:
+                    <!-- 
+that time I never had my clothes 
+<lb/> off. The Battalions relieve one another 
+<lb/> every four days, but the Leinsters 
+<lb/> had no chaplains of their own so 
+<lb/> I stayed on with them &amp; so was 
+<lb/> in the whole <unclear>16</unclear> days. I have now 
+<lb/>been appointed officially to the 
+<lb/> two battalions &amp; as they always 
+<lb/> relieve each other I expect I 
+<lb/> shall get as much of the game 
+<lb/> as I want. It is a very terrible 
+<lb/> thing where a show is on &amp; no 
+<lb/> one I know wants any more 
+<lb/> of it than he has seen if he has 
+<lb/> been in it at all. But of course 
+<lb/> all have to see it through &amp; the 
+<lb/> men are really splendid. The 
+<lb/> last sixteen days was the worst 
+<lb/> turn we had. There was a constant 
+<lb/> strain the whole time. Between 
+<lb/> killed & wounded we lost in that <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-02T10:43:59" who="#SKerr">
+                
+                    Page 5705 modified:
+                    <!-- 
+<address>8<hi rend="underline"><hi rend="superscript">th</hi></hi> R. Munster Fus. 
+<hi rend="underline">B. E. F.</hi></address> 
+<date>July <hi rend="underline">6/16</hi></date>
+<salute>My dear Fr. Provincial, 
+<hi rend="underline">P.C.</hi></salute> 
+<p> I am a very bad 
+<lb/> correspondent &amp; the atmosphere 
+<lb/> we live in out here is not 
+<lb/> conducive to letter writing. Since 
+<lb/> I came back on Holy Thursday I 
+<lb/> have never been away from these 
+<lb/> horrible guns except one day for 
+<lb/> a few hours when I took a ride 
+<lb/> a few miles back into the country 
+<lb/> for the sake of feeling I was out of 
+<lb/> range. We are back "resting" now 
+<lb/> for eight days, but we are not in 
+<lb/> a very restful place. The Huns 
+<lb/> shell it several times every day &amp; 
+<lb/> there are frequent casualties. Before 
+<lb/> we came here on Tuesday I had been
+<lb/> <unclear>16</unclear> days in the front line &amp; during <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-02T10:49:35" who="#SKerr">
+                
+                    Page 5707 modified:
+                    <!-- 
+period quite a fourth of our Battalions 
+<lb/> &amp; the Leinsters nearly as many. 
+<lb/> But they did good work &amp; the
+<lb/>enemy got a good deal more than 
+<lb/> they gave. It is dreadful to see 
+<lb/> the way the poor fellows are 
+<lb/>broken &amp; mangled sometimes out 
+<lb/> of all recognition. When they are 
+<lb/> killed it does not seem so bad,
+<lb/> but it is terrible to see the horrible 
+<lb/> wounds &amp; the way the poor fellows 
+<lb/> suffer. Their sufferings are added to by 
+<lb/> the inconvenience of the trenches, 
+<lb/> where it is often difficult for two 
+<lb/> men to pass. It often takes hours 
+<lb/> to get them as far as the regimental 
+<lb/> aid post which is by no means a 
+<lb/> <unclear>luxurious</unclear> place &#x2014; often only a very 
+<lb/ small dug-out &amp; the wounded can 
+<lb/> only be sent down to the clearing 
+<lb/> stations by night when it is dark, 
+<lb/> so that they are often 18 or 20 hours <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-02T10:55:18" who="#SKerr">
+                
+                    Page 5708 modified:
+                    <!-- 
+waiting. It can't be helped 
+<lb/> but it causes much suffering to 
+<lb/> the poor men.</p>
+<p>Well, there is no use telling 
+<lb/> you about war as you have had 
+<lb/> so much of it in Dublin that 
+<lb/> you know all its phases.</p> 
+<p>I suppose Visitations are 
+<lb/> all over by this &amp; the villas 
+<lb/> in full swing. I hope you &amp; 
+<lb/> all in the Province are very 
+<lb/> well. You are, I am sure busy 
+<lb/> with retreats just now. I hope 
+<lb/> we shall also soon be engaged 
+<lb/> in that way &#x2014; the retreat of the 
+<lb/> Huns.</p> 
+<salute>With very kind regards to all 
+<lb/> &amp; asking a remembrance in your Holy 
+<lb/> Sacrifices Believe me, my dear Fr. Provincial. 
+<lb/>Yours most sincerely in XT</salute>
+<salute>J Wrafter S.J.</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T10:39:55" who="#NR">
+                
+                    Page 5705 modified:
+                    <!-- 
+<address>8<hi rend="underline"><hi rend="superscript">th</hi></hi> R. Munster Fus. 
+<hi rend="underline">B. E. F.</hi></address> 
+<date>July <hi rend="underline">6/16</hi></date>
+<salute>My dear Fr. Provincial, 
+<hi rend="underline">P.C.</hi></salute> 
+<p> I am a very bad 
+<lb/> correspondent &amp; the atmosphere 
+<lb/> we live in out here is not 
+<lb/> conducive to letter writing. Since 
+<lb/> I came back on Holy Thursday I 
+<lb/> have never been away from these 
+<lb/> horrible guns except one day for 
+<lb/> a few hours when I took a ride 
+<lb/> a few miles back into the country 
+<lb/> for the sake of feeling I was out of 
+<lb/> range. We are back "resting" now 
+<lb/> for eight days, but we are not in 
+<lb/> a very restful place. The Huns 
+<lb/> shell it several times every day &amp; 
+<lb/> there are frequent casualties. Before 
+<lb/> we came here on Tuesday I had been
+<lb/> <unclear>16</unclear> days in the front line &amp; during <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T10:40:35" who="#NR">
+                
+                    Page 5705 modified:
+                    <!-- 
+<address>8<hi rend="underline"><hi rend="superscript">th</hi></hi> R. Munster Fus. 
+<hi rend="underline">B. E. F.</hi></address> 
+<date>July <hi rend="underline">6/16</hi></date>
+<salute>My dear Fr. Provincial, 
+<hi rend="underline">P.C.</hi></salute> 
+<p> I am a very bad 
+<lb/> correspondent &amp; the atmosphere 
+<lb/> we live in out here is not 
+<lb/> conducive to letter writing. Since 
+<lb/> I came back on Holy Thursday I 
+<lb/> have never been away from these 
+<lb/> horrible guns except one day for 
+<lb/> a few hours when I took a ride 
+<lb/> a few miles back into the country 
+<lb/> for the sake of feeling I was out of 
+<lb/> range. We are back "resting" now 
+<lb/> for eight days, but we are not in 
+<lb/> a very restful place. The Huns 
+<lb/> shell it several times every day &amp; 
+<lb/> there are frequent casualties. Before 
+<lb/> we came here on Tuesday I had been
+<lb/> <unclear>16</unclear> days in the front line &amp; during <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T10:45:28" who="#NR">
+                
+                    Page 5705 modified:
+                    <!-- 
+<address>8<hi rend="underline"><hi rend="superscript">th</hi></hi> R. Munster Fus. 
+<hi rend="underline">B. E. F.</hi></address> 
+<date>July <hi rend="underline">6/16</hi></date>
+<salute>My dear Fr. Provincial, 
+<hi rend="underline">P.C.</hi></salute> 
+<p> I am a very bad 
+<lb/> correspondent &amp; the atmosphere 
+<lb/> we live in out here is not 
+<lb/> conducive to letter writing. Since 
+<lb/> I came back on Holy Thursday I 
+<lb/> have never been away from these 
+<lb/> horrible guns except one day for 
+<lb/> a few hours when I took a ride 
+<lb/> a few miles back into the country 
+<lb/> for the sake of feeling I was out of 
+<lb/> range. We are back "resting" now 
+<lb/> for eight days, but we are not in 
+<lb/> a very restful place. The Huns 
+<lb/> shell it several times every day &amp; 
+<lb/> there are frequent casualties. Before 
+<lb/> we came here on Tuesday I had been
+<lb/> <unclear>16</unclear> days in the front line &amp; during 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T10:46:34" who="#NR">
+                
+                    Page 5706 modified:
+                    <!-- 
+<lb/>that time I never had my clothes 
+<lb/> off. The Battalions relieve one another 
+<lb/> every four days, but the Leinsters 
+<lb/> had no chaplains of their own so 
+<lb/> I stayed on with them &amp; so was 
+<lb/> in the whole <unclear>16</unclear> days. I have now 
+<lb/>been appointed officially to the 
+<lb/> two battalions &amp; as they always 
+<lb/> relieve each other I expect I 
+<lb/> shall get as much of the game 
+<lb/> as I want. It is a very terrible 
+<lb/> thing where a show is on &amp; no 
+<lb/> one I know wants any more 
+<lb/> of it than he has seen if he has 
+<lb/> been in it at all. But of course 
+<lb/> all have to see it through &amp; the 
+<lb/> men are really splendid. The 
+<lb/> last sixteen days was the worst 
+<lb/> turn we had. There was a constant 
+<lb/> strain the whole time. Between 
+<lb/> killed & wounded we lost in that 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T10:46:42" who="#NR">
+                
+                    Page 5706 modified:
+                    <!-- 
+<lb/>that time I never had my clothes 
+<lb/> off. The Battalions relieve one another 
+<lb/> every four days, but the Leinsters 
+<lb/> had no chaplains of their own so 
+<lb/> I stayed on with them &amp; so was 
+<lb/> in the whole <unclear>16</unclear> days. I have now 
+<lb/>been appointed officially to the 
+<lb/> two battalions &amp; as they always 
+<lb/> relieve each other I expect I 
+<lb/> shall get as much of the game 
+<lb/> as I want. It is a very terrible 
+<lb/> thing where a show is on &amp; no 
+<lb/> one I know wants any more 
+<lb/> of it than he has seen if he has 
+<lb/> been in it at all. But of course 
+<lb/> all have to see it through &amp; the 
+<lb/> men are really splendid. The 
+<lb/> last sixteen days was the worst 
+<lb/> turn we had. There was a constant 
+<lb/> strain the whole time. Between 
+<lb/> killed &amp; wounded we lost in that 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T10:47:43" who="#NR">
+                
+                    Page 5707 modified:
+                    <!-- 
+<lb/>period quite a fourth of our Battalions 
+<lb/> &amp; the Leinsters nearly as many. 
+<lb/> But they did good work &amp; the
+<lb/>enemy got a good deal more than 
+<lb/> they gave. It is dreadful to see 
+<lb/> the way the poor fellows are 
+<lb/>broken &amp; mangled sometimes out 
+<lb/> of all recognition. When they are 
+<lb/> killed it does not seem so bad,
+<lb/> but it is terrible to see the horrible 
+<lb/> wounds &amp; the way the poor fellows 
+<lb/> suffer. Their sufferings are added to by 
+<lb/> the inconvenience of the trenches, 
+<lb/> where it is often difficult for two 
+<lb/> men to pass. It often takes hours 
+<lb/> to get them as far as the regimental 
+<lb/> aid post which is by no means a 
+<lb/> <unclear>luxurious</unclear> place &#x2014; often only a very 
+<lb/ small dug-out &amp; the wounded can 
+<lb/> only be sent down to the clearing 
+<lb/> stations by night when it is dark, 
+<lb/> so that they are often 18 or 20 hours 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-03T10:48:42" who="#NR">
+                
+                    Page 5708 modified:
+                    <!-- 
+<lb/>waiting. It can't be helped 
+<lb/> but it causes much suffering to 
+<lb/> the poor men.</p>
+<p>Well, there is no use telling 
+<lb/> you about war as you have had 
+<lb/> so much of it in Dublin that 
+<lb/> you know all its phases.</p> 
+<p>I suppose Visitations are 
+<lb/> all over by this &amp; the villas 
+<lb/> in full swing. I hope you &amp; 
+<lb/> all in the Province are very 
+<lb/> well. You are, I am sure busy 
+<lb/> with retreats just now. I hope 
+<lb/> we shall also soon be engaged 
+<lb/> in that way &#x2014; the retreat of the 
+<lb/> Huns.</p> 
+<salute>With very kind regards to all 
+<lb/> &amp; asking a remembrance in your Holy 
+<lb/> Sacrifices Believe me, my dear Fr. Provincial. 
+<lb/>Yours most sincerely in XT</salute>
+<signed>J Wrafter S.J.</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5705 created using version from <date when="2015-05-18T20:14:04"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5705 removed (version from <date when="2015-05-18T20:14:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5705 removed (version from <date when="2015-07-06T08:20:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5705 removed (version from <date when="2016-02-02T10:37:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5705 removed (version from <date when="2016-02-02T10:38:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5705 removed (version from <date when="2016-02-02T10:43:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5705 removed (version from <date when="2016-02-03T10:39:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5705 removed (version from <date when="2016-02-03T10:40:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5705 removed (version from <date when="2016-02-03T10:45:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:00" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5706 created using version from <date when="2015-05-18T20:49:18"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5708 created using version from <date when="2015-05-27T10:15:20"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5708 removed (version from <date when="2015-05-27T10:15:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5708 removed (version from <date when="2015-05-27T10:19:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5708 removed (version from <date when="2015-07-06T08:41:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5708 removed (version from <date when="2015-07-06T08:46:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5708 removed (version from <date when="2016-02-02T10:55:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5708 removed (version from <date when="2016-02-03T10:48:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5706 removed (version from <date when="2015-05-18T20:49:18"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5706 removed (version from <date when="2015-05-27T09:53:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5706 removed (version from <date when="2016-02-02T10:43:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5706 removed (version from <date when="2016-02-03T10:46:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5706 removed (version from <date when="2016-02-03T10:46:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5707 created using version from <date when="2015-05-27T09:52:30"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5707 removed (version from <date when="2015-05-27T09:52:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5707 removed (version from <date when="2015-05-27T09:54:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5707 removed (version from <date when="2015-07-06T08:32:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5707 removed (version from <date when="2016-02-02T10:49:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5707 removed (version from <date when="2016-02-03T10:47:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 5708 (version from <date when="2016-02-03T10:48:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5705 added to letter (version from <date when="2016-02-03T10:45:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5706 added to letter (version from <date when="2016-02-03T10:46:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5707 added to letter (version from <date when="2016-02-03T10:47:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:18" who="#PythonScript">
+                
+                    Clean tags: Page 5705 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:18" who="#PythonScript">
+                
+                    Clean tags: Page 5706 cleaned of 5 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:18" who="#PythonScript">
+                
+                    Clean tags: Page 5707 cleaned of 7 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:18" who="#PythonScript">
+                
+                    Clean tags: Page 5708 cleaned of 4 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:29" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:35" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:10" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:10" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2194_img_5705" url="3852250aad9881e2274d63dddadfa3fd.jpg"/> 
+    
+    <graphic xml:id="L1916_2194_img_5706" url="e559d9efc125916668a7ca4b8d952742.jpg"/> 
+    
+    <graphic xml:id="L1916_2194_img_5707" url="0487e57e7fb52349a9dac43885fe9292.jpg"/> 
+    
+    <graphic xml:id="L1916_2194_img_5708" url="43fb28aa54cabdfc1d405d8f4cd48567.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="5705" facs="#L1916_2194_img_5705"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>8<hi rend="underline"><hi rend="superscript">th</hi></hi> R. Munster Fus. 
+<hi rend="underline">B. E. F.</hi></addrLine></address> 
+<dateline><date>July <hi rend="underline">6/16</hi></date></dateline>
+<salute>My dear Fr. Provincial, 
+<hi rend="underline">P.C.</hi></salute></opener> 
+<p> I am a very bad 
+<lb/> correspondent &amp; the atmosphere 
+<lb/> we live in out here is not 
+<lb/> conducive to letter writing. Since 
+<lb/> I came back on Holy Thursday I 
+<lb/> have never been away from these 
+<lb/> horrible guns except one day for 
+<lb/> a few hours when I took a ride 
+<lb/> a few miles back into the country 
+<lb/> for the sake of feeling I was out of 
+<lb/> range. We are back "resting" now 
+<lb/> for eight days, but we are not in 
+<lb/> a very restful place. The Huns 
+<lb/> shell it several times every day &amp; 
+<lb/> there are frequent casualties. Before 
+<lb/> we came here on Tuesday I had been
+<lb/> <unclear>16</unclear> days in the front line &amp; during
+        
+    
+
+    
+         
+        <pb n="5706" facs="#L1916_2194_img_5706"/>
+        
+        
+           
+            <lb/>that time I never had my clothes 
+<lb/> off. The Battalions relieve one another 
+<lb/> every four days, but the Leinsters 
+<lb/> had no chaplains of their own so 
+<lb/> I stayed on with them &amp; so was 
+<lb/> in the whole <unclear>16</unclear> days. I have now 
+<lb/>been appointed officially to the 
+<lb/> two battalions &amp; as they always 
+<lb/> relieve each other I expect I 
+<lb/> shall get as much of the game 
+<lb/> as I want. It is a very terrible 
+<lb/> thing where a show is on &amp; no 
+<lb/> one I know wants any more 
+<lb/> of it than he has seen if he has 
+<lb/> been in it at all. But of course 
+<lb/> all have to see it through &amp; the 
+<lb/> men are really splendid. The 
+<lb/> last sixteen days was the worst 
+<lb/> turn we had. There was a constant 
+<lb/> strain the whole time. Between 
+<lb/> killed &amp; wounded we lost in that
+        
+    
+         
+        <pb n="5707" facs="#L1916_2194_img_5707"/>
+        
+        
+           
+            <lb/>period quite a fourth of our Battalions 
+<lb/> &amp; the Leinsters nearly as many. 
+<lb/> But they did good work &amp; the
+<lb/>enemy got a good deal more than 
+<lb/> they gave. It is dreadful to see 
+<lb/> the way the poor fellows are 
+<lb/>broken &amp; mangled sometimes out 
+<lb/> of all recognition. When they are 
+<lb/> killed it does not seem so bad,
+<lb/> but it is terrible to see the horrible 
+<lb/> wounds &amp; the way the poor fellows 
+<lb/> suffer. Their sufferings are added to by 
+<lb/> the inconvenience of the trenches, 
+<lb/> where it is often difficult for two 
+<lb/> men to pass. It often takes hours 
+<lb/> to get them as far as the regimental 
+<lb/> aid post which is by no means a 
+<lb/> <unclear>luxurious</unclear> place &#x2014; often only a very 
+<lb/> small dug-out &amp; the wounded can 
+<lb/> only be sent down to the clearing 
+<lb/> stations by night when it is dark, 
+<lb/> so that they are often 18 or 20 hours
+        
+    
+         
+        <pb n="5708" facs="#L1916_2194_img_5708"/>
+        
+        
+           
+            <lb/>waiting. It can't be helped 
+<lb/> but it causes much suffering to 
+<lb/> the poor men.</p>
+<p>Well, there is no use telling 
+<lb/> you about war as you have had 
+<lb/> so much of it in Dublin that 
+<lb/> you know all its phases.</p> 
+<p>I suppose Visitations are 
+<lb/> all over by this &amp; the villas 
+<lb/> in full swing. I hope you &amp; 
+<lb/> all in the Province are very 
+<lb/> well. You are, I am sure busy 
+<lb/> with retreats just now. I hope 
+<lb/> we shall also soon be engaged 
+<lb/> in that way &#x2014; the retreat of the 
+<lb/> Huns.</p> 
+<closer><salute>With very kind regards to all 
+<lb/> &amp; asking a remembrance in your Holy 
+<lb/> Sacrifices Believe me, my dear Fr. Provincial. 
+<lb/>Yours most sincerely in XT</salute>
+<signed>J Wrafter S.J.</signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2416">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Sir Wilfrid Spender to his wife Lady Lillian Spender, 20 December 1915</title>
+                
+                <author>Wilfrid Spender</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="RichardBreen">RichardBreen</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tnoonan1111">Tnoonan11 11</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2416</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from Sir Wilfrid Bliss Spender (1876-1960) to his wife, Lady Lillian Spender, née Dean, (1880-1968). This letter is actually comprised of three separate sheets of paper, sent on the same date, but described by Spender as "scrawls" written in his spare time. Spender discusses financial matters, plans for his upcoming leave, and Lillian's current moves to secure a new house. He expresses frustration that he has received little news of his brother Rex.  In the second section of the letter, Spender suggests that as "Mab's children may be having a dull time, the Spenders' "Xmas gift" to them could be "an outing in town". He also notes that he has enclosed a cheque for three pounds. In the third section, Spender recounts a recent trip to the trenches, and mentions his gladness that Lillian has "hit it off so well with Lady C".</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Sir Wilfrid Spender was a member of the British Army until 1913 when controversy surrounding his signature of the Ulster Solemn League and Covenant resulted in his resignation. Spender was called up for military service in 1914 and from 1915 served in the 36th (Ulster) Division. Throughout the war, Spender wrote a collection of letters to his wife Lady Lillian Spender. The letters date mainly from 1915 to 1918, when Sir Wilfrid was serving in France. The letters concern politics, the Irish question, personal life, and Wilfrid's experience of the Great War.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Lady Spender&#39;s Correspondence, D1633/1/1/112; D1633/1/1/113; D1633/1/1/114
+                             
+                        -->
+                            
+                                <collection type='public'>Lady Spender's Correspondence, D1633/1/1/112</collection>
+                            
+                            
+                        <idno>D1633/1/1/114</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Lillian Spender -->
+                        
+                        <persName ref="#Spender_L">Lillian Spender</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Wilfrid Spender -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF RECIPIENT IS CORRECT --></VERIFY>
+                        
+                        <persName ref="#Spender_W_B">Wilfrid Bliss Spender</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    France 
+                    France
+                    France
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#France">France</placeName>
+                    
+                
+                    
+                    <date when="1915-12-20">20 December 1915</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1960</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                            <item n="tag">business</item>
+                            
+                        
+                            
+                            <item n="tag">Children</item>
+                            
+                        
+                            
+                        
+                            
+                            <item n="tag">Family life</item>
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-09-12T14:56:58" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-09-12T14:56:58" who="#Tbrosnan">
+                
+                    Page 6557 modified:
+                    <!-- 
+<date>Posted 20th</date><p>I have a little spare time tonight whilst the others are out<lb/>so will begin a scrawl tho' it probably won't be worth posting<lb/>till Tuesday. </p><p>1<hi rend="superscript">st</hi> business. You might send for my passbook to be ready<lb/>for me <hi rend="underline">if</hi> I turn up, but don't ask for it till the 27<hi rend="superscript">th</hi>. I shall <lb/>also want "my cash box " please. I shall probably turn<lb/>up travelling  quite light with only my rucksack with underclothes <add>&amp; trousers</add> so<lb/>so shall be glad if you can turn out a pair of boots, shoes, <del>trouser</del> &amp; a<lb/>bag if I'm to travel anywhere.  </p><p>I think those 5% bonds may be the things for you as<lb/> you will get good interest &amp; should have no depreciation 5 years<lb/>hence. I wish I could say the same of the past !  </p><p>I have cashed a further for  <del>£</del> <foreign>f<hi rend="superscript">co</hi></foreign>  125. </p><p>I am longing to hear about the house &amp; whether you have <lb/>taken it. I expect now you will be simply dismayed at not having<lb/>got a burrow in time for  b w. Shall he  postpone his leave<lb/>if he gets it till Feb 7 ( &amp; probably a good bit further too ). </p><p>I cannot understand about Rex. Has he already gone to<lb/>Havre with a draft or as conducting officer ? The family are<lb/> very bad at forwarding letters &amp; I almost think they had better<lb/>come via me in spite of the time. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-12T14:57:05" who="#Tbrosnan">
+                
+                    Page 6557 modified:
+                    <!-- 
+<date>Posted 20th</date><p>I have a little spare time tonight whilst the others are out<lb/>so will begin a scrawl tho' it probably won't be worth posting<lb/>till Tuesday. </p><p>1<hi rend="superscript">st</hi> business. You might send for my passbook to be ready<lb/>for me <hi rend="underline">if</hi> I turn up, but don't ask for it till the 27<hi rend="superscript">th</hi>. I shall <lb/>also want "my cash box " please. I shall probably turn<lb/>up travelling  quite light with only my rucksack with underclothes <add>&amp; trousers</add> so<lb/>so shall be glad if you can turn out a pair of boots, shoes, <del>trouser</del> &amp; a<lb/>bag if I'm to travel anywhere.  </p><p>I think those 5% bonds may be the things for you as<lb/> you will get good interest &amp; should have no depreciation 5 years<lb/>hence. I wish I could say the same of the past !  </p><p>I have cashed a further for  <del>£</del> <foreign>f<hi rend="superscript">co</hi></foreign>  125. </p><p>I am longing to hear about the house &amp; whether you have <lb/>taken it. I expect now you will be simply dismayed at not having<lb/>got a burrow in time for  b w. Shall he  postpone his leave<lb/>if he gets it till Feb 7 ( &amp; probably a good bit further too ). </p><p>I cannot understand about Rex. Has he already gone to<lb/>Havre with a draft or as conducting officer ? The family are<lb/> very bad at forwarding letters &amp; I almost think they had better<lb/>come via me in spite of the time. <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-12T15:04:42" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-09-12T15:04:42" who="#Tbrosnan">
+                
+                    Page 6558 modified:
+                    <!-- 
+<p>All my Xmas letters ill be reserved strictly till the 25<hi rend="superscript">th</hi><lb/>good of me as they give me<lb/>quite a lot of curiosity already, as I only half remember them.</p><p>The date provisionally fixed for me is 1<hi rend="superscript">st</hi> Jan 17  Victoria 7.45 pm<lb/>if I turn up it will be a deferred Xmas gift. Poor pr nothing<lb/>but an empty pawed BW. I hear 107<hi rend="superscript">th</hi>are not in the lines but shall<lb/>hope to see something of them.  </p> <salute>Your bw</salute><lb/>
+<p>Genl back from boar hunt. I think he caught<lb/>the spirit of the chase, for his temper is <unclear>boorish</unclear> ! He ought to<lb/>sleep well.</p><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-12T15:04:58" who="#Tbrosnan">
+                
+                    Page 6557 modified:
+                    <!-- 
+<date>Posted 20th</date><p>I have a little spare time tonight whilst the others are out<lb/>so will begin a scrawl tho' it probably won't be worth posting<lb/>till Tuesday. </p><p>1<hi rend="superscript">st</hi> business. You might send for my passbook to be ready<lb/>for me <hi rend="underline">if</hi> I turn up, but don't ask for it till the 27<hi rend="superscript">th</hi>. I shall <lb/>also want "my cash box " please. I shall probably turn<lb/>up travelling  quite light with only my rucksack with underclothes <add>&amp; trousers</add> so<lb/>so shall be glad if you can turn out a pair of boots, shoes, <del>trouser</del> &amp; a<lb/>bag if I'm to travel anywhere.  </p><p>I think those 5% bonds may be the things for you as<lb/> you will get good interest &amp; should have no depreciation 5 years<lb/>hence. I wish I could say the same of the past !  </p><p>I have cashed a further for  <del>£</del> <foreign>f<hi rend="superscript">co</hi></foreign>  125. </p><p>I am longing to hear about the house &amp; whether you have <lb/>taken it. I expect now you will be simply dismayed at not having<lb/>got a burrow in time for  b w. Shall he  postpone his leave<lb/>if he gets it till Feb 7 ( &amp; probably a good bit further too ). </p><p>I cannot understand about Rex. Has he already gone to<lb/>Havre with a draft or as conducting officer ? The family are<lb/> very bad at forwarding letters &amp; I almost think they had better<lb/>come via me in spite of the time. </p><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-12T15:10:16" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-09-12T15:10:16" who="#Tbrosnan">
+                
+                    Page 6559 modified:
+                    <!-- 
+<add>D1633/1/1/113</add><p>As Mab's children<lb/>seem likely to have a <lb/>dull time perhaps we<lb/>could give them an outing<lb/>in town as our Xmas <lb/>.gift. Any how I leave<lb/>this to you &amp; Mab.</p><p>I have written a cheque<lb/>for £3-0-0. to <unclear>Jim</unclear>part <lb/>for the other maids at 24 </p><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-12T15:16:02" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-09-12T15:16:02" who="#Tbrosnan">
+                
+                    Page 6560 modified:
+                    <!-- 
+<add>D1633/1/1/114</add><date>Dec 20</date><lb/>
+<p>Just back from a very pleasant day in the <lb/>trenches with 107 <unclear>Bdc</unclear>. The have done<lb/>quite well. The men are anxious to come<lb/>back to the Div. The Officers are not!<lb/>Douglas was with me.</p><p>No more now.</p><lb/><salute>Your B W</salute> <lb/>WBS<lb/><p>( 2 letters from you today but rather short.<lb/> So glad you hit it off so well with Lady C &amp; Lady F.<lb/>Very likely they will appear to cool off a bit later when<lb/less keen on the work</p><p>1<hi rend="superscript">st</hi>still possible unless Huns attack.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-09-12T15:16:50" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-09-12T15:16:50" who="#Tbrosnan">
+                
+                    Page 6561 modified:
+                    <!-- 
+<date>Dec 20</date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T15:45:32" who="#RichardBreen">
+                
+                    Page 6557 modified:
+                    <!-- 
+<date>Posted 20th</date>
+<p>I have a little spare time tonight whilst the others are out<lb/>so will begin a scrawl tho' it probably won't be worth posting<lb/>till Tuesday. </p>
+<p>1<hi rend="superscript">st</hi> business. You might send for my passbook to be ready
+<lb/>for me <hi rend="underline">if</hi> I turn up, but don't ask for it till the 27<hi rend="superscript">th</hi>. I shall 
+<lb/>also want "my" cash. box  please. I shall probably turn
+<lb/>up travelling  quite light with only my rucksack with underclothes <add>&amp; trousers</add> so
+<lb/>shall be glad if you can turn out a pair of boots, shoes, <del>trouser</del> &amp; a
+<lb/>bag if I'm to travel anywhere.  </p>
+<p>I think those 5% bonds may be the things for you as<lb/> you will get good interest &amp; should have no depreciation 5 years<lb/>hence. I wish I could say the same of the past !  </p>
+<p>I have cashed a further for  <del>£</del> <foreign>f<hi rend="superscript">co</hi></foreign>  125. </p>
+<p>I am longing to hear about the house &amp; whether you have <lb/>taken it. I expect now you will be simply dismayed at not having
+<lb/>got a burrow in time for  b w. Shall he  postpone his leave
+<lb/>if he gets it till Feb 7 ( &amp; probably a good bit further too ). </p>
+<p>I cannot understand about Rex. Has he already gone to
+<lb/>Havre with a draft or as conducting officer ? The family are<lb/> very bad at forwarding letters &amp; I almost think they had better<lb/>come via me in spite of the time. </p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T15:48:33" who="#RichardBreen">
+                
+                    Page 6558 modified:
+                    <!-- 
+<p>All my Xmas letters ill be reserved strictly till the 25<hi rend="superscript">th</hi>. Very
+<lb/>good of me as they give me
+<lb/>quite a lot of curiosity already, as I only half remember them.</p>
+<p>The date provisionally fixed for me is 1<hi rend="superscript">st</hi> Jan 17  Victoria 7.45 pm
+<lb/>if I turn up it will be a deferred Xmas gift. Poor pr nothing but 
+<lb/>an empty pawed BW. I hear 107<hi rend="superscript">th</hi> are not in the lines but shall
+<lb/>hope to see something of them.  </p> <salute>Your bw</salute>
+<p>Genl back from boar hunt. I think he caught
+<lb/>the spirit of the chase, for his temper is <unclear>boorish</unclear> ! He ought to<lb/>sleep well.</p>
+
+<add><date>20 Dec</date></add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T15:49:49" who="#RichardBreen">
+                
+                    Page 6559 modified:
+                    <!-- 
+<p>As Mab's children<lb/>seem likely to have a <lb/>dull time perhaps we<lb/>could give them an outing<lb/>in town as our Xmas <lb/>gift. Any how I leave<lb/>this to you &amp; Mab</p>
+<p>I have written a cheque<lb/>for £3-0-0. to <unclear>Jim</unclear>part <lb/>for the other maids at 24 </p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-19T15:52:21" who="#RichardBreen">
+                
+                    Page 6560 modified:
+                    <!-- 
+<date>Dec 20</date>
+<p>Just back from a very pleasant day in the <lb/>trenches with 107 <unclear>Bsc</unclear>. The have done<lb/>quite well. The men are anxious to come<lb/>back to the Div. The Officers are not!<lb/>Douglas was with me.</p><p>No more now.</p>
+<salute>Your B W</salute>
+<signed> WBS </signed>
+<p>( 2 letters from you today but rather short.<lb/> So glad you hit it off so well with Lady C &amp; Lady F.
+<lb/>Very likely they will appear to cool off a bit later when
+<lb/>less keen on the work</p>
+<p>1<hi rend="superscript">st</hi>still possible unless Huns attack.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T14:46:27" who="#NR">
+                
+                    Page 6557 modified:
+                    <!-- 
+<date>Posted 20th</date>
+<p>I have a little spare time tonight whilst the others are out
+<lb/>so will begin a scrawl tho' it probably won't be worth posting
+<lb/>till Tuesday. </p>
+<p>1<hi rend="superscript">st</hi> business. You might send for my passbook to be ready
+<lb/>for me <hi rend="underline">if</hi> I turn up, but don't ask for it till the 27<hi rend="superscript">th</hi>. I shall 
+<lb/>also want "my" cash. box  please. I shall probably turn
+<lb/>up travelling  quite light with only my rucksack with underclothes <add>&amp; trousers</add> so
+<lb/>shall be glad if you can turn out a pair of boots, shoes, <del>trouser</del> &amp; a
+<lb/>bag if I'm to travel anywhere.  </p>
+<p>I think those 5% bonds may be the things for you as<lb/>
+ you will get good interest &amp; should have no depreciation 5 years<lb/>
+hence. I wish I could say the same of the past !  </p>
+<p>I have cashed a further for  <del>£</del> <foreign>f<hi rend="superscript">co</hi></foreign>  125. </p>
+<p>I am longing to hear about the house &amp; whether you have
+ <lb/>taken it. I expect now you will be simply dismayed at not having
+<lb/>got a burrow in time for  b w. Shall he  postpone his leave
+<lb/>if he gets it till Feb 7 ( &amp; probably a good bit further too ). </p>
+<p>I cannot understand about Rex. Has he already gone to
+<lb/>Havre with a draft or as conducting officer ? The family are
+<lb/> very bad at forwarding letters &amp; I almost think they had better
+<lb/>come via me in spite of the time. </p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T14:47:39" who="#NR">
+                
+                    Page 6558 modified:
+                    <!-- 
+<p>All my Xmas letters ill be reserved strictly till the 25<hi rend="superscript">th</hi>. Very
+<lb/>good of me as they give me
+<lb/>quite a lot of curiosity already, as I only half remember them.</p>
+<p>The date provisionally fixed for me is 1<hi rend="superscript">st</hi> Jan 17  Victoria 7.45 pm
+<lb/>if I turn up it will be a deferred Xmas gift. Poor pr nothing but 
+<lb/>an empty pawed BW. I hear 107<hi rend="superscript">th</hi> are not in the lines but shall
+<lb/>hope to see something of them.  </p> 
+<salute>Your bw</salute>
+<p>Genl back from boar hunt. I think he caught
+<lb/>the spirit of the chase, for his temper is <unclear>boorish</unclear> ! He ought to
+<lb/>sleep well.</p>
+
+<add><date>20 Dec</date></add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T14:50:25" who="#NR">
+                
+                    Page 6559 modified:
+                    <!-- 
+<p>As Mab's children
+<lb/>seem likely to have a 
+<lb/>dull time perhaps we
+<lb/>could give them an outing
+<lb/>in town as our Xmas 
+<lb/>gift. Any how I leave
+<lb/>this to you &amp; Mab</p>
+<p>I have written a cheque
+<lb/>for £3-0-0. to <unclear>Jim</unclear>part 
+<lb/>for the other maids at 24 </p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T14:55:19" who="#NR">
+                
+                    Page 6560 modified:
+                    <!-- 
+<date>Dec 20</date>
+<p>Just back from a very pleasant day in the 
+<lb/>trenches with 107 <unclear>Bsc</unclear>. The have done
+<lb/>quite well. The men are anxious to come
+<lb/>back to the Div. The Officers are not!
+<lb/>Douglas was with me.</p>
+<p>No more now.</p>
+<salute>Your B W</salute>
+<signed> WBS </signed>
+<p>( 2 letters from you today but rather short.
+<lb/> So glad you hit it off so well with Lady C &amp; Lady F.
+<lb/>Very likely they will appear to cool off a bit later when
+<lb/>less keen on the work</p>
+<p>1<hi rend="superscript">st</hi>still possible unless Huns attack.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6559 created using version from <date when="2015-09-12T15:10:16"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6559 removed (version from <date when="2015-09-12T15:10:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6559 removed (version from <date when="2016-01-19T15:49:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6559 removed (version from <date when="2016-01-21T14:50:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6557 created using version from <date when="2015-09-12T14:56:58"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6557 removed (version from <date when="2015-09-12T14:56:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6557 removed (version from <date when="2015-09-12T14:57:05"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6557 removed (version from <date when="2015-09-12T15:04:58"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6557 removed (version from <date when="2016-01-19T15:45:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6557 removed (version from <date when="2016-01-21T14:46:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6560 created using version from <date when="2015-09-12T15:16:02"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6560 removed (version from <date when="2015-09-12T15:16:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6560 removed (version from <date when="2016-01-19T15:52:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6560 removed (version from <date when="2016-01-21T14:55:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6558 created using version from <date when="2015-09-12T15:04:42"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6558 removed (version from <date when="2015-09-12T15:04:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6558 removed (version from <date when="2016-01-19T15:48:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6558 removed (version from <date when="2016-01-21T14:47:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6561 created using version from <date when="2015-09-12T15:16:50"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:04" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6561 removed (version from <date when="2015-09-12T15:16:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 6559 (version from <date when="2016-01-21T14:50:26"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6557 added to letter (version from <date when="2016-01-21T14:46:28"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6560 added to letter (version from <date when="2016-01-21T14:55:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6558 added to letter (version from <date when="2016-01-21T14:47:41"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6561 added to letter (version from <date when="2016-01-21T14:55:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:19" who="#PythonScript">
+                
+                    Clean tags: Page 6560 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:19" who="#PythonScript">
+                
+                    Clean tags: Page 6561 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:19" who="#PythonScript">
+                
+                    Clean tags: Page 6557 cleaned of 6 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:19" who="#PythonScript">
+                
+                    Clean tags: Page 6558 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:19" who="#PythonScript">
+                
+                    Clean tags: Page 6559 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:25" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:30" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:35" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:15" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:15" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2416_img_6557" url="0d763455a956dae0d774a1cc13395961.jpg"/> 
+    
+    <graphic xml:id="L1916_2416_img_6558" url="26bf81dd674a0c0e1af1b9b996071f59.jpg"/> 
+    
+    <graphic xml:id="L1916_2416_img_6559" url="e5ac7bf412f9f2e2e0c55ee68106f77e.jpg"/> 
+    
+    <graphic xml:id="L1916_2416_img_6560" url="0da7b61e61c4251b8d6ac395877ce69f.jpg"/> 
+    
+    <graphic xml:id="L1916_2416_img_6561" url="af16ec59d8e7376305c23e353d8eba63.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="6557" facs="#L1916_2416_img_6557"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><dateline><date>Posted 20th</date></dateline></opener>
+<p>I have a little spare time tonight whilst the others are out
+<lb/>so will begin a scrawl tho' it probably won't be worth posting
+<lb/>till Tuesday. </p>
+<p>1<hi rend="superscript">st</hi> business. You might send for my passbook to be ready
+<lb/>for me <hi rend="underline">if</hi> I turn up, but don't ask for it till the 27<hi rend="superscript">th</hi>. I shall 
+<lb/>also want "my" cash. box  please. I shall probably turn
+<lb/>up travelling  quite light with only my rucksack with underclothes <add>&amp; trousers</add> so
+<lb/>shall be glad if you can turn out a pair of boots, shoes, <del>trouser</del> &amp; a
+<lb/>bag if I'm to travel anywhere.  </p>
+<p>I think those 5% bonds may be the things for you as<lb/>
+ you will get good interest &amp; should have no depreciation 5 years<lb/>
+hence. I wish I could say the same of the past !  </p>
+<p>I have cashed a further for  <del>£</del> <foreign>f<hi rend="superscript">co</hi></foreign>  125. </p>
+<p>I am longing to hear about the house &amp; whether you have
+ <lb/>taken it. I expect now you will be simply dismayed at not having
+<lb/>got a burrow in time for  b w. Shall he  postpone his leave
+<lb/>if he gets it till Feb 7 ( &amp; probably a good bit further too ). </p>
+<p>I cannot understand about Rex. Has he already gone to
+<lb/>Havre with a draft or as conducting officer ? The family are
+<lb/> very bad at forwarding letters &amp; I almost think they had better
+<lb/>come via me in spite of the time. </p>
+        
+    
+
+    
+         
+        <pb n="6558" facs="#L1916_2416_img_6558"/>
+        
+        
+           
+            <p>All my Xmas letters ill be reserved strictly till the 25<hi rend="superscript">th</hi>. Very
+<lb/>good of me as they give me
+<lb/>quite a lot of curiosity already, as I only half remember them.</p>
+<p>The date provisionally fixed for me is 1<hi rend="superscript">st</hi> Jan 17  Victoria 7.45 pm
+<lb/>if I turn up it will be a deferred Xmas gift. Poor pr nothing but 
+<lb/>an empty pawed BW. I hear 107<hi rend="superscript">th</hi> are not in the lines but shall
+<lb/>hope to see something of them.  </p> 
+<salute>Your bw</salute>
+<p>Genl back from boar hunt. I think he caught
+<lb/>the spirit of the chase, for his temper is <unclear>boorish</unclear> ! He ought to
+<lb/>sleep well.</p>
+
+<add><date>20 Dec</date></add>
+        
+    
+         
+        <pb n="6559" facs="#L1916_2416_img_6559"/>
+        
+        
+           
+            <p>As Mab's children
+<lb/>seem likely to have a 
+<lb/>dull time perhaps we
+<lb/>could give them an outing
+<lb/>in town as our Xmas 
+<lb/>gift. Any how I leave
+<lb/>this to you &amp; Mab</p>
+<p>I have written a cheque
+<lb/>for £3-0-0. to <unclear>Jim</unclear>part 
+<lb/>for the other maids at 24 </p>
+        
+    
+         
+        <pb n="6560" facs="#L1916_2416_img_6560"/>
+        
+        
+           
+            <date>Dec 20</date>
+<p>Just back from a very pleasant day in the 
+<lb/>trenches with 107 <unclear>Bsc</unclear>. The have done
+<lb/>quite well. The men are anxious to come
+<lb/>back to the Div. The Officers are not!
+<lb/>Douglas was with me.</p>
+<p>No more now.</p>
+<salute>Your B W</salute>
+<signed> WBS </signed>
+<p>( 2 letters from you today but rather short.
+<lb/> So glad you hit it off so well with Lady C &amp; Lady F.
+<lb/>Very likely they will appear to cool off a bit later when
+<lb/>less keen on the work</p>
+<p>1<hi rend="superscript">st</hi>still possible unless Huns attack.</p>
+        
+    
+         
+        <pb n="6561" facs="#L1916_2416_img_6561"/>
+        
+        
+           
+            <date>Dec 20</date>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_510">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Clement Shorter to George Bernard Shaw, 7 July 1916</title>
+                
+                <author>Clement Shorter</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="BH">Brian Hughes</name>    
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Comber">Comber</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_510</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>The letter is from British literary critic Clement King Shorter (1857-1926) to playwright George Bernard Shaw (1856-1950). Shorter was married to Dora Sigerson (1866-1918), a friend of Casement's, and in the letter he asks Shaw to sign a petition compiled by Sir R. Conan Doyle for a reprieve for Casement. The campaign, he writes, hoped for support from 'moderates'. Shaw himself became heavily involved in the campaign.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>The letter was written while Sir Roger Casement (1864-1916) was imprisoned in London after he had been arrested while landing on the coast of Kerry in a submarine on the eve of the Easter Rising. A campaign was launched featuring many prominent figures such as W.B. Yeats and George Bernard Shaw to secure a reprieve for Casement but he was hanged on 3 August 1916.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: National Library of Ireland -->
+                        
+                        <repository ref="#NLI">National Library of Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Roger Casement Papers, Collection List No A15; Ms. 13,078 /7
+                             
+                        -->
+                            
+                                <collection type='public'>Roger Casement Papers, Collection List No A15</collection>
+                            
+                            
+                        <idno>Ms. 13,078 /7</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: George Bernard Shaw -->
+                        
+                        <persName ref="#Shaw_G_B">George Bernard Shaw</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Clement Shorter -->
+                        
+                        <persName ref="#Shorter_C">Clement Shorter</persName>
+                    
+                
+                
+                 
+                    
+                    <placeName  ref="MISSING">Knockmoroon, Great Missenden, Buckinghamshire, UK</placeName>
+                    
+                
+                    
+                    <date when="1916-07-07">7 July 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1926</item>
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2013-12-16T23:49:53" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-12-16T23:49:53" who="#Philcostel">
+                
+                    Page 1423 modified:
+                    <!-- 
+Telephone No. P.O.9
+Cnoc Mo Rúin
+Knockmaroon, Great Missenden, Buckinghamshire.
+July 7 1916
+
+My Dear Bernard Shaw
+Although you do not usually answer my letters I hope you will answer this one to the extent  of signing the enclosed petition. It is far from being 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-12-16T23:54:25" who="#BH">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-12-16T23:54:25" who="#Philcostel">
+                
+                    Page 1424 modified:
+                    <!-- 
+my own view but Sir R Conan Doyle wrote it & it represents a view that may help me to get signatures from 'moderates' & I am <gap/>it is likely to have an effect.
+Yours very truly
+Clement Shorter 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-02T15:17:48" who="#Comber">
+                
+                    Page 1423 modified:
+                    <!-- 
+<address>Telephone No. P.O.9
+<foreign>Cnoc Mo Rúin</foreign>
+Knockmaroon, Great Missenden, Buckinghamshire.</address>
+<date>July 7 1916</date>
+<salute>My Dear Bernard Shaw</salute>
+Although you do not<lb/> usually answer my letters I<lb/> hope you will answer this one to the extent  of<lb/> signing the enclosed petition.<lb/> It is far from being<lb/><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-02-02T15:19:25" who="#Comber">
+                
+                    Page 1424 modified:
+                    <!-- 
+<pb/>my own view but Sir R Conan<lb/> Doyle wrote it &amp; it represents<lb/> a view that may help me<lb/> to get signatures from 'moderates' &amp;<lb/> I am <gap/> it is likely to have<lb/> an effect.<lb/>
+<salute>Yours very truly
+Clement Shorter</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T11:53:48" who="#NR">
+                
+                    Page 1423 modified:
+                    <!-- 
+<address>Telephone No. P.O.9
+<lb/><foreign>Cnoc Mo Rúin</foreign>
+<lb/>Knockmaroon, 
+<lb/>Great Missenden, 
+<lb/>Buckinghamshire.</address>
+<date>July 7 1916</date>
+<salute>My Dear Bernard Shaw</salute>
+<p>Although you do not
+<lb/> usually answer my letters I
+<lb/> hope you will answer this
+<lb/> one to the extent  of
+<lb/> signing the enclosed petition.
+<lb/> It is far from being 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T11:55:44" who="#NR">
+                
+                    Page 1424 modified:
+                    <!-- 
+<lb/>my own view but Sir R Conan
+<lb/> Doyle wrote it &amp; it represents
+<lb/> a view that may help me
+<lb/> to get signatures from 'moderates' &amp;
+<lb/> I am led it is likely to have
+<lb/> an effect.</p>
+<salute>Yours very truly</salute>
+<signed>Clement Shorter</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1423 created using version from <date when="2013-12-16T23:49:53"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1423 removed (version from <date when="2013-12-16T23:49:53"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1423 removed (version from <date when="2015-02-02T15:17:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1423 removed (version from <date when="2016-01-15T11:53:48"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 1424 created using version from <date when="2013-12-16T23:54:25"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1424 removed (version from <date when="2013-12-16T23:54:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1424 removed (version from <date when="2015-02-02T15:19:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:43" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 1424 removed (version from <date when="2016-01-15T11:55:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 1423 (version from <date when="2016-01-15T11:53:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:10" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 1424 added to letter (version from <date when="2016-01-15T11:55:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 1424 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:16" who="#PythonScript">
+                
+                    Clean tags: Page 1423 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:28" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:33" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:53" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:53" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_510_img_1423" url="a2042ed3ef7c956ea03ee0c6cf960c18.jpg"/> 
+    
+    <graphic xml:id="L1916_510_img_1424" url="ef77b690aaecfffd87947eb2cd790e87.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="1423" facs="#L1916_510_img_1423"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>Telephone No. P.O.9</addrLine>
+<addrLine><foreign>Cnoc Mo Rúin</foreign></addrLine>
+<addrLine>Knockmaroon,</addrLine>
+<addrLine>Great Missenden,</addrLine>
+<addrLine>Buckinghamshire.</addrLine></address>
+<dateline><date>July 7 1916</date></dateline>
+<salute>My Dear Bernard Shaw</salute></opener>
+<p>Although you do not
+<lb/> usually answer my letters I
+<lb/> hope you will answer this
+<lb/> one to the extent  of
+<lb/> signing the enclosed petition.
+<lb/> It is far from being
+        
+    
+
+    
+         
+        <pb n="1424" facs="#L1916_510_img_1424"/>
+        
+        
+           
+            <lb/>my own view but Sir R Conan
+<lb/> Doyle wrote it &amp; it represents
+<lb/> a view that may help me
+<lb/> to get signatures from 'moderates' &amp;
+<lb/> I am led it is likely to have
+<lb/> an effect.</p>
+<closer><salute>Yours very truly</salute>
+<signed>Clement Shorter</signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

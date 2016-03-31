@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2297">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Sir Wilfrid Spender to his wife Lady Lillian Spender, 16 July 1916</title>
+                
+                <author>Wilfrid Spender</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Johnchambers81">Johnchambers81</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tnoonan1111">Tnoonan11 11</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2297</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from sir Wilfrid Bliss Spender (1876-1960) to his wife, Lady Lillian Spender, née Dean, (1880-1968). In this letter Spender mentions that his correspondence (other than that to Lillian) is written now with the utmost discretion, after 'past experiences' (when Spender's letters were published in newspapers without his consent). He gives the details of a pleasant day of walks and tea, and emphasises his efforts to avoid worrying about what might be in store for him next.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Sir Wilfrid Spender was a member of the British Army until 1913 when controversy surrounding his signature of the Ulster Solemn League and Covenant resulted in his resignation. Spender was called up for military service in 1914 and from 1915 served in the 36th (Ulster) Division. Throughout the war, Spender wrote a collection of letters to his wife Lady Lillian Spender. The letters date mainly from 1915 to 1918, when Sir Wilfrid was serving in France. The letters concern politics, the Irish question, personal life, and Wilfrid's experience of the Great War. Lady Lillian served in the Ulster Volunteer Nursing Corps during the war, and was an organiser of the Ulster Division Comforts Fund.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Lady Spender&#39;s Correspondence, D1633/1/1/347
+                             
+                        -->
+                            
+                                <collection type='public'>Lady Spender's Correspondence</collection>
+                            
+                            
+                        <idno>D1633/1/1/347</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Lillian Spender -->
+                        
+                        <persName ref="#Spender_L">Lillian Spender</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Wilfrid Spender -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF RECIPIENT IS CORRECT --></VERIFY>
+                        
+                        <persName ref="#Spender_W_B">Wilfrid Bliss Spender</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    France 
+                    France
+                    France
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#France">France</placeName>
+                    
+                
+                    
+                    <date when="1916-07-16">16 July 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        <item n="death">1960</item>
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                            <item n="tag">politics</item>
+                            
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-08-20T09:01:17" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-20T09:01:17" who="#Tbrosnan">
+                
+                    Page 6046 modified:
+                    <!-- 
+<date>16 July</date>
+<add>D1633/1/1/347</add>
+
+<p>I have just got a very<lb/>nice <hi rend="superscript">p</hi> letter which has<lb/>cheered me up considerably<lb/>also a letter from HP<lb/>which I shall answer<lb/>with great <unclear>discrction</unclear>. I <lb/>do not trust any one<lb/> except <unclear>a</unclear> pv now after<lb/>past experiences.</p><p>Feeling distinctly better<lb/>after a walk this morning <lb/>&amp;another this afternoon<lb/>to the RE, having tea<lb/>with Col.<unclear>deVitroy</unclear>who <lb/>is revilling in his comfort<lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-20T09:01:39" who="#Tbrosnan">
+                
+                    Page 6046 modified:
+                    <!-- 
+<date>16 July</date>
+<add>D1633/1/1/347</add>
+
+<p>I have just got a very<lb/>nice <hi rend="superscript">p</hi> letter which has<lb/>cheered me up considerably<lb/>also a letter from HP<lb/>which I shall answer<lb/>with great <unclear>discretion</unclear>. I <lb/>do not trust any one<lb/> except <unclear>a</unclear> pv now after<lb/>past experiences.</p><p>Feeling distinctly better<lb/>after a walk this morning <lb/>&amp; another this afternoon<lb/>to the RE, having tea<lb/>with Col.<unclear>deVitroy</unclear>who <lb/>is revelling in his comfort<lb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-20T09:02:51" who="#Tbrosnan">
+                
+                    Page 6046 modified:
+                    <!-- 
+<date>16 July</date>
+<add>D1633/1/1/347</add>
+
+<p>I have just got a very<lb/>nice <hi rend="superscript">p</hi> letter which has<lb/>cheered me up considerably<lb/>also a letter from HP<lb/>which I shall answer<lb/>with great <unclear>discretion</unclear>. I <lb/>do not trust any one<lb/> except <unclear>a</unclear> pv now after<lb/>past experiences.</p><p>Feeling distinctly better<lb/>after a walk this morning <lb/>&amp; another this afternoon<lb/>to the RE, having tea<lb/>with Col.<unclear>deVitroy</unclear>who <lb/>is revelling in his comfortable<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-20T09:08:45" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-20T09:08:45" who="#Tbrosnan">
+                
+                    Page 6047 modified:
+                    <!-- 
+billet - a change <lb/>after what he has had.</p> <p>I am wondering what <lb/>surprise there is in<del>f</del> store<lb/>for me but trying not<lb/>to worry unduly. Richardson<lb/>came to <del>tea</del>  lunch a very pleasant<lb/>interlude in the circumstances.<lb/> If Comyn is out too we<lb/>shall have a tete a tete<lb/>at dinner.</p>
+<salute>Best <unclear>going</unclear></salute>
+<salute>Your BW</salute>
+<salute>WB Spender</salute> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T12:39:32" who="#Johnchambers81">
+                
+                    Page 6046 modified:
+                    <!-- 
+<date>16 July</date>
+<add>D1633/1/1/347</add>
+
+<p>I have just got a very
+<lb/>nice <hi rend="superscript">p</hi> letter which has
+<lb/>cheered me up considerably
+<lb/>also a letter from HP
+<lb/>which I shall answer
+<lb/>with great <unclear>discretion</unclear>. I 
+<lb/>do not trust any one
+<lb/> except <unclear>a</unclear> pv now after
+<lb/>past experiences.</p>
+<p>Feeling distinctly better
+<lb/>after a walk this morning 
+<lb/>&amp; another this afternoon
+<lb/>to the RE, having tea
+<lb/>with Col.<unclear>deVitroy</unclear>who
+ <lb/>is revelling in his comfort 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T12:42:39" who="#Johnchambers81">
+                
+                    Page 6047 modified:
+                    <!-- 
+able billet - a change 
+<lb/>after what he has had.</p> 
+<p>I am wondering what
+<lb/>surprise there is in<del>f</del> store
+<lb/>for me but trying not to
+<lb/>worry unduly. Richardson
+<lb/>came to <del>tea</del>  lunch a very pleasant
+<lb/>interlude in the circumstances.
+<lb/> If Comyn is out too we
+<lb/>shall have a <foreign>tete a tete</foreign>
+<lb/>at dinner.</p>
+<salute>Best <unclear>going</unclear></salute>
+<salute>Your BW</salute>
+WB Spender 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-21T15:09:06" who="#Johnchambers81">
+                
+                    Page 6047 modified:
+                    <!-- 
+able billet - a change 
+<lb/>after what he has had.</p> 
+<p>I am wondering what
+<lb/>surprise there is in<del>f</del> store
+<lb/>for me but trying not to
+<lb/>worry unduly. Richardson
+<lb/>came to <del>tea</del>  lunch a very pleasant
+<lb/>interlude in the circumstances.
+<lb/> If Comyn is out too we
+<lb/>shall have a <foreign>tete a tete</foreign>
+<lb/>at dinner.</p>
+<salute>Best <unclear>going</unclear></salute>
+<salute>Your BW</salute>
+<signed>WB Spender</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T15:17:36" who="#NR">
+                
+                    Page 6046 modified:
+                    <!-- 
+<date>16 July</date>
+<p>I have just got a very
+<lb/>nice <hi rend="superscript">p</hi> letter which has
+<lb/>cheered me up considerably
+<lb/>also a letter from HP
+<lb/>which I shall answer
+<lb/>with great <unclear>discretion</unclear>. I 
+<lb/>do not trust any one
+<lb/> except <unclear>a</unclear> pv now after
+<lb/>past experiences.</p>
+<p>Feeling distinctly better
+<lb/>after a walk this morning 
+<lb/>&amp; another this afternoon
+<lb/>to the RE, having tea
+<lb/>with Col.<unclear>deVitroy</unclear>who
+ <lb/>is revelling in his comfort 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T15:17:54" who="#NR">
+                
+                    Page 6047 modified:
+                    <!-- 
+<lb/>able billet - a change 
+<lb/>after what he has had.</p> 
+<p>I am wondering what
+<lb/>surprise there is in<del>f</del> store
+<lb/>for me but trying not to
+<lb/>worry unduly. Richardson
+<lb/>came to <del>tea</del>  lunch a very pleasant
+<lb/>interlude in the circumstances.
+<lb/> If Comyn is out too we
+<lb/>shall have a <foreign>tete a tete</foreign>
+<lb/>at dinner.</p>
+<salute>Best <unclear>going</unclear></salute>
+<salute>Your BW</salute>
+<signed>WB Spender</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6047 created using version from <date when="2015-08-20T09:08:45"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6047 removed (version from <date when="2015-08-20T09:08:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6047 removed (version from <date when="2016-01-21T12:42:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6047 removed (version from <date when="2016-01-21T15:09:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6047 removed (version from <date when="2016-01-22T15:17:54"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 6046 created using version from <date when="2015-08-20T09:01:17"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6046 removed (version from <date when="2015-08-20T09:01:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6046 removed (version from <date when="2015-08-20T09:01:39"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6046 removed (version from <date when="2015-08-20T09:02:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6046 removed (version from <date when="2016-01-21T12:39:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 6046 removed (version from <date when="2016-01-22T15:17:36"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 6047 (version from <date when="2016-01-22T15:17:55"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 6046 added to letter (version from <date when="2016-01-22T15:17:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:12" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:22" who="#PythonScript">
+                
+                    Clean tags: Page 6046 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:22" who="#PythonScript">
+                
+                    Clean tags: Page 6047 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:25" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:31" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:37" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:33" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:39" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2297_img_6046" url="33e921dca48997865d0ce1b96f53ff90.jpg"/> 
+    
+    <graphic xml:id="L1916_2297_img_6047" url="6c6fc2bc6450e5bb32fd99286e768a1a.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="6046" facs="#L1916_2297_img_6046"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><dateline><date>16 July</date></dateline></opener>
+<p>I have just got a very
+<lb/>nice <hi rend="superscript">p</hi> letter which has
+<lb/>cheered me up considerably
+<lb/>also a letter from HP
+<lb/>which I shall answer
+<lb/>with great <unclear>discretion</unclear>. I 
+<lb/>do not trust any one
+<lb/> except <unclear>a</unclear> pv now after
+<lb/>past experiences.</p>
+<p>Feeling distinctly better
+<lb/>after a walk this morning 
+<lb/>&amp; another this afternoon
+<lb/>to the RE, having tea
+<lb/>with Col.<unclear>deVitroy</unclear>who
+ <lb/>is revelling in his comfort
+        
+    
+
+    
+         
+        <pb n="6047" facs="#L1916_2297_img_6047"/>
+        
+        
+           
+            <lb/>able billet - a change 
+<lb/>after what he has had.</p> 
+<p>I am wondering what
+<lb/>surprise there is in<del>f</del> store
+<lb/>for me but trying not to
+<lb/>worry unduly. Richardson
+<lb/>came to <del>tea</del>  lunch a very pleasant
+<lb/>interlude in the circumstances.
+<lb/> If Comyn is out too we
+<lb/>shall have a <foreign>tete a tete</foreign>
+<lb/>at dinner.</p>
+<closer><salute>Best <unclear>going</unclear></salute>
+<salute>Your BW</salute>
+<signed>WB Spender</signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_185">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter From John Miley in France to Diarmid Coffey, 18 January 1916</title>
+                
+                <author>John Miley</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Leemce1">Leemce1</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="BarneyDoherty">Barney Doherty</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_185</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter From John Miley to Diarmid Coffey. Miley writes about life behind the lines on the Western Front, describing an inspection by French Commander in Chief Joseph Joffre (1852-1931). Miley also makes mention of the misleading term of 'rest,' indicating that the Royal Field Artillery does more work at times of rest than when in the line. Miley closes by reminiscing about trips that Coffey and he used to take to Glendalough. </p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Diarmid Coffey (1888-1964) was a public servant and an author. He was called to the bar in 1912 and later joined the Irish Volunteers as secretary to Colonel Edmond Cotter (1852-1934).  John Miley was serving with the 39th Royal Field Artillery in January 1916.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: National Library of Ireland -->
+                        
+                        <repository ref="#NLI">National Library of Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: MS 46,307 /10
+                             
+                        -->
+                            
+                                <collection type='public'>MS 46,307 /10</collection>
+                            
+                            
+                        <idno>MS 46,307 /10</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Diarmid Coffey -->
+                        
+                        <persName ref="#Coffey_D">Diarmid Coffey</persName>
+                    
+                
+                
+                
+                    
+                    <!-- Normalised Place Found: 
+                    Dublin 
+                    Dublin
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName  ref="#Dublin">Dublin, Ireland</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">John Miley</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    France 
+                    France
+                    France
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#France">France</placeName>
+                    
+                
+                    
+                    <date when="1916-01-18">18 January 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Male</item>
+                      
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2013-09-25T18:39:10" who="#NULL">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-09-25T18:39:10" who="#Leemce1">
+                
+                    Page 441 modified:
+                    <!-- 
+39th Brigade R.F.A.
+B.E.F.
+18.1.16
+
+Dear Dermot, 
+Thanks so much for your letter and also for the box of apples which arrived in excellent condition. They are very pleasant in the morning before breakfast and quite make one think I am  home again. 
+We have come into rest again for a month. "Rest" is a most misleading term, as we work if anything harder than when in the line. The feeling of not having to fight or be fought makes up for a lot however. Our brigade has been chosen to be inspected by Joffre, which means a desperate lot of worry in the way of cleaning up and getting all sorts of equipment that no one ever sees in the ordinary way. 
+This is a rather pleasant little town for a French mining place. The people are full of kindness and we officers are all sleeping in comfortable beds. The best part of the day is when I get into bed, with a lighted candle at my head, and read myself to sleep. 
+Things must be dullish in Dublin now. Have you been having any long tramps lately? I often think of our walk from Glendalough to Wicklow and how we enjoyed it. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-09-25T18:40:51" who="#NULL">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-09-25T18:40:51" who="#Leemce1">
+                
+                    Page 442 modified:
+                    <!-- 
+Please let me know Henry Connor's address. I might be able to get to see him some time. 
+I hope to be home the 2nd week in March. 
+Kindest regards to Mrs Coffey
+Yours
+John Miley 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-09-25T18:41:59" who="#NULL">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-09-25T18:41:59" who="#Leemce1">
+                
+                    Page 443 modified:
+                    <!-- 
+O.A.S.
+J Miley
+
+Dermot Coffey Esq
+5 Harcourt Terrace
+Dublin
+Ireland 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2013-09-25T18:42:19" who="#NULL">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2013-09-25T18:42:19" who="#Leemce1">
+                
+                    Page 444 modified:
+                    <!-- 
+J Miley 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T13:23:17" who="#BarneyDoherty">
+                
+                    Page 441 modified:
+                    <!-- 
+<address>39th Brigade R.F.A.
+<lb/>B.E.F.</address>
+<date>18.1.16</date>
+<salute>Dear Dermot,</salute> 
+<p>Thanks so much for your letter and also for the box of apples 
+<lb/>which arrived in excellent condition. They are very pleasant 
+<lb/>in the morning before breakfast and quite make one think 
+<lb/>I am home again.</p>
+<p>We have come into rest again for a month. "Rest" is 
+<lb/>a most misleading term, as we work if anything harder than 
+<lb/>when in the line. The feeling of not having to fight or 
+<lb/>be fought makes up for a lot however. Our brigade has 
+<lb/>been chosen to be inspected by Joffre, which means a desperate 
+<lb/>lot of worry in the way of cleaning up and getting all sorts 
+<lb/>of equipment that no one ever sees in the ordinary way</p>. 
+<p>This is a rather pleasant little town for a French mining 
+<lb/>place. The people are full of kindness and we officers 
+<lb/>are all sleeping in comfortable beds. The best part of 
+<lb/>the day is when I get into bed, with a lighted candle 
+<lb/>at my head, and read myself to sleep. </p>
+<p>Things must be dullish in Dublin now. Have you been 
+<lb/>having any long tramps lately? I often think of our 
+<lb/>walk from Glendalough to Wicklow and how we enjoyed it.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T13:30:34" who="#BarneyDoherty">
+                
+                    Page 442 modified:
+                    <!-- 
+<p>Please let me know Henry Connor's address. I might be 
+<lb/>able to get to see him some time.</p> 
+<p>I hope to be home the 2nd week in March. </p>
+<salute>Kindest regards to Mrs Coffey
+<lb/>Yours</salute>
+<signed>John Miley</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T13:31:40" who="#BarneyDoherty">
+                
+                    Page 443 modified:
+                    <!-- 
+<lb/>J Miley O.A.S.
+
+<address>Dermot Coffey Esq
+<lb/>5 Harcourt Terrace
+<lb/>Dublin
+<lb/>Ireland</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-11T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:38" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 441 created using version from <date when="2013-09-25T18:39:10"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:38" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 441 removed (version from <date when="2013-09-25T18:39:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:38" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 441 removed (version from <date when="2016-01-22T13:23:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:38" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 442 created using version from <date when="2013-09-25T18:40:51"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:38" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 442 removed (version from <date when="2013-09-25T18:40:51"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:38" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 442 removed (version from <date when="2016-01-22T13:30:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:38" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 443 created using version from <date when="2013-09-25T18:41:59"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:38" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 443 removed (version from <date when="2013-09-25T18:41:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:38" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 443 removed (version from <date when="2016-01-22T13:31:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:38" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 444 created using version from <date when="2013-09-25T18:42:19"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:38" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 444 removed (version from <date when="2013-09-25T18:42:19"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 441 (version from <date when="2016-02-11T15:07:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 442 added to letter (version from <date when="2016-02-11T15:08:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 443 added to letter (version from <date when="2016-02-11T15:08:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 444 added to letter (version from <date when="2016-01-22T13:32:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 441 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 442 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 443 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:14" who="#PythonScript">
+                
+                    Clean tags: Page 444 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:28" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:32" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:47" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:47" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_185_img_441" url="d99ea1378851aa53d0a52623c1acba6a.jpg"/> 
+    
+    <graphic xml:id="L1916_185_img_442" url="cf1abbb35ef08cea740f76f938ac0875.jpg"/> 
+    
+    <graphic xml:id="L1916_185_img_443" url="cbbc323b9261e278535aa27fcccc81dc.jpg"/> 
+    
+    <graphic xml:id="L1916_185_img_444" url="76a4843d0b9c5fb527addd06e86bea97.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="441" facs="#L1916_185_img_441"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>39th Brigade R.F.A.</addrLine>
+<addrLine>B.E.F.</addrLine></address>
+<dateline><date>18.1.16</date></dateline>
+<salute>Dear Dermot,</salute></opener> 
+<p>Thanks so much for your letter and also for the box of apples 
+<lb/>which arrived in excellent condition. They are very pleasant 
+<lb/>in the morning before breakfast and quite make one think 
+<lb/>I am home again.</p>
+<p>We have come into rest again for a month. "Rest" is 
+<lb/>a most misleading term, as we work if anything harder than 
+<lb/>when in the line. The feeling of not having to fight or 
+<lb/>be fought makes up for a lot however. Our brigade has 
+<lb/>been chosen to be inspected by Joffre, which means a desperate 
+<lb/>lot of worry in the way of cleaning up and getting all sorts 
+<lb/>of equipment that no one ever sees in the ordinary way</p>. 
+<p>This is a rather pleasant little town for a French mining 
+<lb/>place. The people are full of kindness and we officers 
+<lb/>are all sleeping in comfortable beds. The best part of 
+<lb/>the day is when I get into bed, with a lighted candle 
+<lb/>at my head, and read myself to sleep. </p>
+<p>Things must be dullish in Dublin now. Have you been 
+<lb/>having any long tramps lately? I often think of our 
+<lb/>walk from Glendalough to Wicklow and how we enjoyed it.</p>
+        
+    
+
+    
+         
+        <pb n="442" facs="#L1916_185_img_442"/>
+        
+        
+           
+            <p>Please let me know Henry Connor's address. I might be 
+<lb/>able to get to see him some time.</p> 
+<p>I hope to be home the 2nd week in March. </p>
+<closer><salute>Kindest regards to Mrs Coffey
+<lb/>Yours</salute>
+<signed>John Miley</signed></closer>
+        
+    
+        
+        
+        
+    
+         
+        <pb n="444" facs="#L1916_185_img_444"/>
+        
+        
+           
+            <add>J Miley</add>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+            <pb n="443" facs="#L1916_185_img_443"/>
+            <text type="envelope" decls="#corresp1">
+                <body> 
+                    <ab>
+                        <add>J Miley</add>
+                    </ab>
+                </body>
+            </text>
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

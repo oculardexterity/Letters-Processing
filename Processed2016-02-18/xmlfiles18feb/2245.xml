@@ -1,0 +1,1496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2245">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from McCotter to George Hackney, 30 August 1916</title>
+                
+                <author>McCotter</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Johnchambers81">Johnchambers81</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Willow">Willow</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tnoonan1111">Tnoonan11 11</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Rosie17">Rosie17</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_2245</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from Nellie McCotter to George Hackney (1889-1977). McCotter thanks George for his recent letter, and writes that they have been wondering how George was getting on ever since 'the great & glorious charge of the Ulster division'. McCotter expresses regret that only the 'young and fresh are allowed the privilege of going in active service'. McCotter writes that the display of the Ulster battalions has silenced the pacifists and the Nationalist newspapers. McCotter gives news of 'Arthur', mentions the effects of shell-shock on men sent home from the front, and hopes that George will soon have a chance to visit home. McCotter mentions receiving a letter from a 'boy I thought had been done for' and pities the condition George and 'all you boys' are living in, declaring that 'we don't half realize all you men are doing to keep us safe here in England.' </p>
+                            
+                        
+                            
+                        
+                            
+                            <p>This letter is from the papers of George Naphthali Hackney, a  Lance Corporal from Clifton, Belfast. Before his time in the army, he worked as a book-keeper for a florist. He was the youngest in a Presbyterian family of six, with three older sisters. In 2014, his collection of photographs taken in the trenches were made available to the public in an Ulster Museum exhibition, and his life and photography became the subject of a BBC documentary, 'The Man who Shot the Great War'. In 1916 he was injured and spent some time a Hospital in Calais, France, and in Wharncliffe War Hospital, Sheffield.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: Public Record Office of Northern Ireland -->
+                        
+                        <repository ref="#PRONI">Public Record Office of Northern Ireland</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: Papers of George Hackney, Belfast; D3503/5/1-6-9
+                             
+                        -->
+                            
+                                <collection type='public'>Papers of George Hackney, Belfast</collection>
+                            
+                            
+                        <idno>D3503/5/1-6-9</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: George Hackney -->
+                        
+                        <persName ref="#Hackney_G">George Hackney</persName>
+                    
+                
+                
+                
+                    
+                    <placeName  ref="MISSING">19 Ward, 35 General Hospital, Calais, France</placeName>
+                    
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <persName ref="MISSING">McCotter</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    London 
+                    London
+                    United Kingdom
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#London">73 Charlwood Street, London S.W., England</placeName>
+                    
+                
+                    
+                    <date when="1916-08-30">30 August 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                      
+                    
+                        
+                        <item n="tag">World War 1: 1914-1918</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2015-07-10T07:50:40" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-07-10T07:50:40" who="#Rosie17">
+                
+                    Page 5902 modified:
+                    <!-- 
+<address>73 Charlwood St.,<lb/>
+London, S.W.<lb/></address>
+<date>30<hi rend="superscript">th</hi> Aug. 16<lb/>
+</date>
+<salute>My dear George,</salute>
+<p>I  was very pleased to<lb/> get your letter this morning (at<lb/> present I am Hale Common, Farnham <lb/>nr. Aldershot, so your letter went from<lb/> Mortimer House, to Charlweood S<hi rend="superscript">t</hi>. &amp; on here.<lb/>  I often wondered where you were,&amp; how <lb/>you were getting along since the great<lb/> &amp; glorious charge of the Ulster Division, <lb/>you bet your boots I felt as proud as<lb/> a peacock when I read all about it<lb/> later.  I would have given anything<lb/> just to have been at hand to help<lb/> the boys who were bowled out, but <lb/>only the young &amp; fresh are allowed <lb/>the <sic>privelege</sic> of going on active service<lb/> wish I was 20 yrs younger I'd <lb/>be near the firing line.  Our Div.<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-07-10T08:14:40" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-07-10T08:14:40" who="#Rosie17">
+                
+                    Page 5903 modified:
+                    <!-- 
+got an awful slaughtering, but<lb/> not a man showed the white <lb/>feather, "Carsons goose steppers"<lb/> made a name for themselves<lb/> which any reg<hi rend="superscript">t.</hi> might be proud<lb/> of, a friend wrote me that the <lb/>Nationalist papers were all<lb/> dumb on the subject.  The enclosed<lb/> cutting I cut out of the "Post" &amp;<lb/> had sent in to Arthur on the 6<hi rend="superscript">th</hi><lb/> not knowing then that he had<lb/> been put out of action on the way<lb/> up, bit of shrapnel through<lb/> left shoulder &amp; one of the R.A.M.C. <lb/>men turned him, the letter was<lb/> returned to me last week: so the<lb/> cutting may interest you or some<lb/> of the boys.  Arthur was in a number<lb/> of Hospitals before going to a Convalescent<lb/> Camp at Eastbourne &amp; on the 15<hi rend="superscript">th</hi> inst. he &amp; a number of the Ulster<pb/> boys crossed to Belfast on leave.<lb/>  I saw Y.C.V. on the shoulder of one <lb/>of the boys, all seemed in good<lb/> form, I had a couple of hrs with<lb/> Arthur, he expected to be sent<lb/> back to the Ulster Div. base at B. <gap/> until further orders.<lb/>  A big number suffer from shell<lb/> shovk Lieut. A Wallace was sent<lb/> home, has go another mths leave<lb/> &amp; is at Eng. sea port.  It <lb/>wd, do you good to get sent over<lb/> to Eng. or Ireland for a while<lb/> not much chance of a cure<lb/> within sound of the guns.  You<lb/> seem to be luckier in the<lb/> weather than we are, it has<lb/> been very wet, awful thunder<lb/> showers; much colder.  Sunday<lb/> it showered at intervals all day<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-07-10T08:23:59" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-07-10T08:23:59" who="#Rosie17">
+                
+                    Page 5904 modified:
+                    <!-- 
+Yest. it never ceased, today has<lb/> been fine since about 9 A.M.<lb/> but there is quite a cold feel in the atmosphere.  Your Auntie sent me a card from Euston that<lb/> she was off to Ireland &amp; felt very<lb/> sad having no one to see her off, if <lb/>she had written to me in time I<lb/> could as I was on the idle list for<lb/> a short time after leaving <lb/>Mortimer House.  Letters just in from Steele, the boy I though had<lb/> been done for, I nursed him at Tring<lb/> 1914 &amp; have been writing &amp; sending an<lb/> odd paper since he went to the Front<lb/> last year, he has been attached to another Batt. &amp; so did not get the<lb/> pcl. or papers, but said the boys<lb/> had maybe more need of them that<lb/> he had.  I do hope to hear a <lb/>good account of your mother<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-07-14T07:15:52" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-07-14T07:15:52" who="#Rosie17">
+                
+                    Page 5905 modified:
+                    <!-- 
+from your Aunt, I expect she is longing<lb/> for a sight of you, and surely<lb/> they will send you home for a<lb/> wee rest soon.  Have just heard <lb/>that Arthur is at Ballykinlar,<lb/> he will probably be sent out with<lb/> a draft soon.  I pity all you boys <lb/>when I turn into my comfy bed every<lb/> night, we do not half realize all<lb/> our men are doing to keep us safe<lb/> here in Eng.  The Rumanians<lb/> joining the Allies has given the<lb/> enemy a bad turn  &amp; it looks<lb/> jolly like as if "Tins" will have<lb/> to follow suit, the Bulgarians  &amp;<lb/> Turks must feel jolly sick now<lb/> that they ever trusted the gentle Hun.  &amp; Austria. Well we<lb/> have got the whip hand now<lb/> &amp;must keep it until Germany<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-07-14T07:41:16" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-07-14T07:41:16" who="#Rosie17">
+                
+                    Page 5906 modified:
+                    <!-- 
+is stripped bare, no peace until<lb/> they have paid for all their<lb/> deeds of destruction.  Unfortunately<lb/> we cannot take a Hun life for every<lb/> foul murder done by them, but <lb/>they must be made to pay in some<lb/> way.  I am scribbling this in my<lb/> pts. room.  I feel very ashamed<lb/> when I look at your copperplate<lb/> writing from the trenches at 11 p.m. <lb/> With many good wishes &amp; most <lb/>sincerely hoping that you will get home for a spell<p>
+
+Your very sincerely<lb/>
+Nellie McCotter<lb/>
+
+<add>I have two nephews at the front somewhere<pb/> one is in the R.A.M.C. Dr. Norman Davidson  <lb/>&amp; the other Chaplain R.C. <unclear>Mackleoun</unclear> you may come across them<lb/> sometime.</add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-07-14T07:46:25" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-07-14T07:46:25" who="#Rosie17">
+                
+                    Page 5907 modified:
+                    <!-- 
+<hi rend="underline">RC</hi>
+10/9/16
+<hi rend="underline">repd</hi>
+2/10/16
+
+<lb/><del>Hospital</del><lb/>
+Lce-Corp G. Hackney, 14/148 15<lb/>
+14th ( ) Batt. R.I. Rifles, Y.C.V.<lb/>
+<del>B. <unclear>questionable reading</unclear>
+<unclear>questionable reading</unclear>
+France</del>
+
+<address>19 Ward<lb/>
+35 General<lb/>
+Hospital</address> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2015-08-09T13:48:14" who="#Tnoonan1111">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2015-08-09T13:48:14" who="#Willow">
+                
+                    Page 5908 modified:
+                    <!-- 
+Back of envelope
+Two date stamps Army Post Office
+<date>da9 sp 16date>
+<date>da10 sp 16date> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T10:40:27" who="#Johnchambers81">
+                
+                    Page 5902 modified:
+                    <!-- 
+<address>73 Charlwood St.,<lb/>
+London, S.W.<lb/></address>
+<date>30<hi rend="superscript">th</hi> Aug. 16</date>
+<salute>My dear George,</salute>
+<p>I  was very pleased to
+<lb/> get your letter this morning (at
+<lb/> present I am at Hale Common, Farnham 
+<lb/>nr. Aldershot, so your letter went from
+<lb/> Mortimer House, to Charlweood S<hi rend="superscript">t</hi>. &amp; on here.
+<lb/>  I often wondered where you were,&amp; how 
+<lb/>you were getting along since the great
+<lb/> &amp; glorious charge of the Ulster Division, 
+<lb/>you bet your boots I felt as proud as
+<lb/> a peacock when I read all about it
+<lb/> later.  I would have given anything
+<lb/> just to have been at hand to help
+<lb/> the boys who were bowled out, but
+ <lb/>only the young &amp; fresh are allowed 
+<lb/>the <sic>privelege</sic> of going on active service
+<lb/> wish I was 20 yrs younger I'd 
+<lb/>be near the firing line.  Our Div. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T10:50:01" who="#Johnchambers81">
+                
+                    Page 5903 modified:
+                    <!-- 
+got an awful slaughtering, but
+<lb/> not a man showed the white 
+<lb/>feather, "Carsons goose steppers"
+<lb/> made a name for themselves
+<lb/> which any reg<hi rend="superscript">t.</hi> might be proud
+<lb/> of, a friend wrote me that the 
+<lb/>Nationalist papers were all
+<lb/> dumb on the subject.  The enclosed
+<lb/> cutting I cut out of the "Post" &amp;
+<lb/> had sent in to Arthur on the 6<hi rend="superscript">th</hi>
+<lb/> not knowing then that he had
+<lb/> been put out of action on the way
+<lb/> up, bit of shrapnel through
+<lb/> left shoulder &amp; one of the R.A.M.C. 
+<lb/>men turned him, the letter was
+<lb/> returned to me last week: so the
+<lb/> cutting may interest you or some
+<lb/> of the boys.  Arthur was in a number
+<lb/> of Hospitals before going to a Convalescent
+<lb/> Camp at Eastbourne &amp; on the 15<hi rend="superscript">th</hi> inst. he &amp; a number of the Ulster
+<pb/> boys crossed to Belfast on leave.
+<lb/>  I saw Y.C.V. on the shoulder of one 
+<lb/>of the boys, all seemed in good
+<lb/> form, I had a couple of hrs with
+<lb/> Arthur, he expected to be sent
+<lb/> back to the Ulster Div. base at 
+<lb/>B. <gap/> until further orders.
+<lb/>  A big number suffer from shell
+<lb/> shock Lieut. A Wallace was sent
+<lb/> home, has go another mths leave
+<lb/> &amp; is at some ng. sea port.  It 
+<lb/><sic>wd</sic> do you good to get sent over
+<lb/> to Eng. or Ireland for a while
+<lb/> not much chance of a cure
+<lb/> within sound of the guns.  You
+<lb/> seem to be luckier in the
+<lb/> weather than we are, it has
+<lb/> been very wet, awful thunder
+<lb/> showers; much colder.  Sunday
+<lb/> it showered at intervals all day 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T10:51:17" who="#Johnchambers81">
+                
+                    Page 5904 modified:
+                    <!-- 
+Yest. it never ceased, today has
+<lb/> been fine since about 9 A.M.
+<lb/> but there is quite a cold feel in the atmosphere.  Your Auntie 
+<lb/>sent me a card from Euston that
+<lb/> she was off to Ireland &amp; felt very
+<lb/> sad having no one to see her off, if 
+<lb/>she had written to me in time I
+<lb/> could as I was on the idle list for
+<lb/> a short time after leaving 
+<lb/>Mortimer House.  Letters just in from Steele, the boy I though had
+<lb/> been done for, I nursed him at Tring
+<lb/> 1914 &amp; have been writing &amp; sending an
+<lb/> odd paper since he went to the Front
+<lb/> last year, he has been attached to another Batt. &amp; so did not get the
+<lb/> pcl. or papers, but said the boys
+<lb/> had maybe more need of them that
+<lb/> he had.  I do hope to hear a 
+<lb/>good account of your mother 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T11:01:32" who="#Johnchambers81">
+                
+                    Page 5904 modified:
+                    <!-- 
+Yest. it never ceased, today has
+<lb/> been fine since about 9 A.M.
+<lb/> but there is quite a cold feel
+<lb/>in the atmosphere.  Your Auntie 
+<lb/>sent me a card from Euston that
+<lb/> she was off to Ireland &amp; felt very
+<lb/> sad having no one to see her off, if 
+<lb/>she had written to me in time I
+<lb/> could as I was on the idle list for
+<lb/> a short time after leaving 
+<lb/>Mortimer House.  Letters just in
+<lb/> from Steele, the boy I though had
+<lb/> been done for, I nursed him at Tring
+<lb/> 1914 &amp; have been writing &amp; sending an
+<lb/> odd paper since he went to the Front
+<lb/> last year, he has been attached
+<lb/> to another Batt. &amp; so did not get the
+<lb/> pcl. or papers, but said the boys
+<lb/> had maybe more need of them that
+<lb/> he had.  I do hope to hear a 
+<lb/>good account of your mother 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T11:02:33" who="#Johnchambers81">
+                
+                    Page 5905 modified:
+                    <!-- 
+from your Aunt, I expect she is longing
+<lb/> for a sight of you, and surely
+<lb/> they will send you home for a
+<lb/> wee rest soon.  Have just heard 
+<lb/>that Arthur is at Ballykinlar,
+<lb/> he will probably be sent out with
+<lb/> a draft soon.  I pity all you boys 
+<lb/>when I turn into my comfy bed every
+<lb/> night, we do not half realize all
+<lb/> our men are doing to keep us safe
+<lb/> here in Eng.  The Rumanians
+<lb/> joining the Allies has given the
+<lb/> enemy a bad turn  &amp; it looks
+<lb/> jolly like as if "Tins" will have
+<lb/> to follow suit, the Bulgarians  &amp;
+<lb/> Turks must feel jolly sick now
+<lb/> that they ever trusted the gentle Hun.  &amp; Austria. Well we
+<lb/> have got the whip hand now
+<lb/> &amp;must keep it until Germany 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T11:06:30" who="#Johnchambers81">
+                
+                    Page 5905 modified:
+                    <!-- 
+from your Aunt, I expect she is longing
+<lb/> for a sight of you, and surely
+<lb/> they will send you home for a
+<lb/> wee rest soon.  Have just heard 
+<lb/>that Arthur is at Ballykinlar,
+<lb/> he will probably be sent out with
+<lb/> a draft soon.  I pity all you boys 
+<lb/>when I turn into my comfy bed every
+<lb/> night, we do not half realize all
+<lb/> our men are doing to keep us safe
+<lb/> here in Eng.  The <sic>Rumanians</sic>
+<lb/> joining the Allies has given the
+<lb/> enemy a bad turn  &amp; it looks
+<lb/> jolly like as if <hi rend="underline">"Tins"</hi> will have
+<lb/> to follow suit, the Bulgarians  &amp;
+<lb/> Turks must feel jolly sick now
+<lb/> that they ever trusted the gentle 
+<lb/>Hun.  &amp; Austria. Well we
+<lb/> have got the whip hand now
+<lb/> &amp;must keep it until Germany 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-22T11:10:47" who="#Johnchambers81">
+                
+                    Page 5906 modified:
+                    <!-- 
+is stripped bare, no peace until
+<lb/> they have paid for all their
+<lb/> deeds of destruction.  Unfortunately
+<lb/> we cannot take a Hun life for every
+<lb/> foul murder done by them, but 
+<lb/>they must be made to pay in some
+<lb/> way.  I am scribbling this in my
+<lb/> pts. room.  I feel very ashamed
+<lb/> when I look at your copperplate
+<lb/> writing from the trenches at 11 p.m. <lb/> 
+With many good wishes &amp; most 
+<lb/>sincerely hoping that you 
+<lb/>will get home for a spell<p>
+
+<salute>Your very sincerely</salute>
+<signed>Nellie McCotter</signed>
+
+<add>I have two nephews at the front somewhere
+<lb/> one is in the R.A.M.C. Dr. Norman Davidson  
+<lb/>&amp; the other Chaplain R.C. <unclear>Mackleoun</unclear>
+<lb/> you may come across them
+<lb/> sometime.</add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T11:20:42" who="#NR">
+                
+                    Page 5903 modified:
+                    <!-- 
+<lb/>got an awful slaughtering, but
+<lb/> not a man showed the white 
+<lb/>feather, "Carsons goose steppers"
+<lb/> made a name for themselves
+<lb/> which any reg<hi rend="superscript">t.</hi> might be proud
+<lb/> of, a friend wrote me that the 
+<lb/>Nationalist papers were all
+<lb/> dumb on the subject.  The enclosed
+<lb/> cutting I cut out of the "Post" &amp;
+<lb/> had sent in to Arthur on the 6<hi rend="superscript">th</hi>
+<lb/> not knowing then that he had
+<lb/> been put out of action on the way
+<lb/> up, bit of shrapnel through
+<lb/> left shoulder &amp; one of the R.A.M.C. 
+<lb/>men turned him, the letter was
+<lb/> returned to me last week: so the
+<lb/> cutting may interest you or some
+<lb/> of the boys.  Arthur was in a number
+<lb/> of Hospitals before going to a Convalescent
+<lb/> Camp at Eastbourne &amp; on the
+<lb/> 16th<hi rend="superscript">th</hi> inst. he &amp; a number of the Ulster
+<pb/> boys crossed to Belfast on leave.
+<lb/>  I saw Y.C.V. on the shoulder of one 
+<lb/>of the boys, all seemed in good
+<lb/> form, I had a couple of hrs with
+<lb/> Arthur, he expected to be sent
+<lb/> back to the Ulster Div. base at 
+<lb/>B. <gap/> until further orders.
+<lb/>  A big number suffer from shell
+<lb/> shock Lieut. A Wallace was sent
+<lb/> home, has go another mths leave
+<lb/> &amp; is at some ng. sea port.  It 
+<lb/><sic>wd</sic> do you good to get sent over
+<lb/> to Eng. or Ireland for a while
+<lb/> not much chance of a cure
+<lb/> within sound of the guns.  You
+<lb/> seem to be luckier in the
+<lb/> weather than we are, it has
+<lb/> been very wet, awful thunder
+<lb/> showers; much colder.  Sunday
+<lb/> it showered at intervals all day 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T11:22:34" who="#NR">
+                
+                    Page 5903 modified:
+                    <!-- 
+<lb/>got an awful slaughtering, but
+<lb/> not a man showed the white 
+<lb/>feather, "Carsons goose steppers"
+<lb/> made a name for themselves
+<lb/> which any reg<hi rend="superscript">t.</hi> might be proud
+<lb/> of, a friend wrote me that the 
+<lb/>Nationalist papers were all
+<lb/> dumb on the subject.  The enclosed
+<lb/> cutting I cut out of the "Post" &amp;
+<lb/> had sent in to Arthur on the 6<hi rend="superscript">th</hi>
+<lb/> not knowing then that he had
+<lb/> been put out of action on the way
+<lb/> up, bit of shrapnel through
+<lb/> left shoulder &amp; one of the R.A.M.C. 
+<lb/>men turned him, the letter was
+<lb/> returned to me last week: so the
+<lb/> cutting may interest you or some
+<lb/> of the boys.  Arthur was in a number
+<lb/> of Hospitals before going to a Convalescent
+<lb/> Camp at Eastbourne &amp; on the
+<lb/> 16th<hi rend="superscript">th</hi> inst. he &amp; a number of the Ulster
+<pb/> boys crossed to Belfast on leave.
+<lb/>  I saw Y.C.V. on the shoulder of one 
+<lb/>of the boys, all seemed in good
+<lb/> form, I had a couple of hrs with
+<lb/> Arthur, he expected to be sent
+<lb/> back to the Ulster Div. base at 
+<lb/>B. <unclear>Sinclair</unclear> until further orders.
+<lb/>  A big number suffer from shell
+<lb/> shock Lieut. A Wallace was sent
+<lb/> home, has go another mths leave
+<lb/> &amp; is at some ng. sea port.  It 
+<lb/><sic>wd</sic> do you good to get sent over
+<lb/> to Eng. or Ireland for a while
+<lb/> not much chance of a cure
+<lb/> within sound of the guns.  You
+<lb/> seem to be luckier in the
+<lb/> weather than we are, it has
+<lb/> been very wet, awful thunder
+<lb/> showers; much colder.  Sunday
+<lb/> it showered at intervals all day 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T11:25:06" who="#NR">
+                
+                    Page 5904 modified:
+                    <!-- 
+<lb/>Yest. it never ceased, today has
+<lb/> been fine since about 9 A.M.
+<lb/> but there is quite a cold feel
+<lb/>in the atmosphere.  Your Auntie 
+<lb/>sent me a card from Euston that
+<lb/> she was off to Ireland &amp; felt very
+<lb/> sad having no one to see her off, if 
+<lb/>she had written to me in time I
+<lb/> could as I was on the idle list for
+<lb/> a short time after leaving 
+<lb/>Mortimer House.  Letters just in
+<lb/> from Steele, the boy I though had
+<lb/> been done for, I nursed him at Tring
+<lb/> 1914 &amp; have been writing &amp; sending an
+<lb/> odd paper since he went to the Front
+<lb/> last year, he has been attached
+<lb/> to another Batt. &amp; so did not get the
+<lb/> pcl. or papers, but said the boys
+<lb/> had maybe more need of them that
+<lb/> he had.  I do hope to hear a 
+<lb/>good account of your mother 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T11:25:29" who="#NR">
+                
+                    Page 5905 modified:
+                    <!-- 
+<lb/>from your Aunt, I expect she is longing
+<lb/> for a sight of you, and surely
+<lb/> they will send you home for a
+<lb/> wee rest soon.  Have just heard 
+<lb/>that Arthur is at Ballykinlar,
+<lb/> he will probably be sent out with
+<lb/> a draft soon.  I pity all you boys 
+<lb/>when I turn into my comfy bed every
+<lb/> night, we do not half realize all
+<lb/> our men are doing to keep us safe
+<lb/> here in Eng.  The <sic>Rumanians</sic>
+<lb/> joining the Allies has given the
+<lb/> enemy a bad turn  &amp; it looks
+<lb/> jolly like as if <hi rend="underline">"Tins"</hi> will have
+<lb/> to follow suit, the Bulgarians  &amp;
+<lb/> Turks must feel jolly sick now
+<lb/> that they ever trusted the gentle 
+<lb/>Hun.  &amp; Austria. Well we
+<lb/> have got the whip hand now
+<lb/> &amp;must keep it until Germany 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-28T11:26:49" who="#NR">
+                
+                    Page 5906 modified:
+                    <!-- 
+<lb/>is stripped bare, no peace until
+<lb/> they have paid for all their
+<lb/> deeds of destruction.  Unfortunately
+<lb/> we cannot take a Hun life for every
+<lb/> foul murder done by them, but 
+<lb/>they must be made to pay in some
+<lb/> way.  I am scribbling this in my
+<lb/> pts. room.  I feel very ashamed
+<lb/> when I look at your copperplate
+<lb/> writing from the trenches at 11 p.m. 
+<lb/>With many good wishes &amp; most 
+<lb/>sincerely hoping that you 
+<lb/>will get home for a spell<p>
+
+<salute>Your very sincerely</salute>
+<signed>Nellie McCotter</signed>
+
+<add>I have two nephews at the front somewhere
+<lb/> one is in the R.A.M.C. Dr. Norman Davidson  
+<lb/>&amp; the other Chaplain R.C. <unclear>Mackleoun</unclear>
+<lb/> you may come across them
+<lb/> sometime.</add> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5902 created using version from <date when="2015-07-10T07:50:40"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5902 removed (version from <date when="2015-07-10T07:50:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5902 removed (version from <date when="2016-01-22T10:40:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5903 created using version from <date when="2015-07-10T08:14:40"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5903 removed (version from <date when="2015-07-10T08:14:40"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5903 removed (version from <date when="2016-01-22T10:50:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5903 removed (version from <date when="2016-01-28T11:20:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5903 removed (version from <date when="2016-01-28T11:22:34"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:01" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5904 created using version from <date when="2015-07-10T08:23:59"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5908 created using version from <date when="2015-08-09T13:48:14"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5908 removed (version from <date when="2015-08-09T13:48:14"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5905 created using version from <date when="2015-07-14T07:15:52"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5905 removed (version from <date when="2015-07-14T07:15:52"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5905 removed (version from <date when="2016-01-22T11:02:33"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5905 removed (version from <date when="2016-01-22T11:06:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5905 removed (version from <date when="2016-01-28T11:25:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5906 created using version from <date when="2015-07-14T07:41:16"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5906 removed (version from <date when="2015-07-14T07:41:16"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5906 removed (version from <date when="2016-01-22T11:10:47"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5906 removed (version from <date when="2016-01-28T11:26:49"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 5907 created using version from <date when="2015-07-14T07:46:25"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5907 removed (version from <date when="2015-07-14T07:46:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5904 removed (version from <date when="2015-07-10T08:23:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5904 removed (version from <date when="2016-01-22T10:51:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5904 removed (version from <date when="2016-01-22T11:01:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:02" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 5904 removed (version from <date when="2016-01-28T11:25:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 5908 (version from <date when="2016-01-22T11:18:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5905 added to letter (version from <date when="2016-01-28T11:25:30"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5902 added to letter (version from <date when="2016-01-28T11:18:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5906 added to letter (version from <date when="2016-01-28T11:26:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5903 added to letter (version from <date when="2016-01-28T11:22:35"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5907 added to letter (version from <date when="2016-01-22T11:16:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 5904 added to letter (version from <date when="2016-01-28T11:25:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 5904 cleaned of 4 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 5905 cleaned of 4 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 5906 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 5907 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 5908 cleaned of 0 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 5902 cleaned of 4 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:15" who="#PythonScript">
+                
+                    Clean tags: Page 5903 cleaned of 5 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:28" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:32" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:50" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:50" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_2245_img_5902" url="ba43d9bb6ab7338bc7d6fa2e79461b7c.jpg"/> 
+    
+    <graphic xml:id="L1916_2245_img_5903" url="3bd3a0e8767344717208fc53feee8ee2.jpg"/> 
+    
+    <graphic xml:id="L1916_2245_img_5904" url="f2d39addd3ecf761829c3dd5f2707686.jpg"/> 
+    
+    <graphic xml:id="L1916_2245_img_5905" url="5040ee2bd0bf956c5957345df4b721e8.jpg"/> 
+    
+    <graphic xml:id="L1916_2245_img_5906" url="6dd6b2ac6642f12b3a36c2f1f66c9b58.jpg"/> 
+    
+    <graphic xml:id="L1916_2245_img_5907" url="d6907344fde4058a414cda4435f86dad.jpg"/> 
+    
+    <graphic xml:id="L1916_2245_img_5908" url="333539b43db826d34d7c340fee0b9443.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="5902" facs="#L1916_2245_img_5902"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<opener><address><addrLine>73 Charlwood St.,</addrLine>
+<addrLine>London, S.W.</addrLine>
+<addrLine></addrLine></address>
+<dateline><date>30<hi rend="superscript">th</hi> Aug. 16</date></dateline>
+<salute>My dear George,</salute></opener>
+<p>I  was very pleased to
+<lb/> get your letter this morning (at
+<lb/> present I am at Hale Common, Farnham 
+<lb/>nr. Aldershot, so your letter went from
+<lb/> Mortimer House, to Charlweood S<hi rend="superscript">t</hi>. &amp; on here.
+<lb/>  I often wondered where you were,&amp; how 
+<lb/>you were getting along since the great
+<lb/> &amp; glorious charge of the Ulster Division, 
+<lb/>you bet your boots I felt as proud as
+<lb/> a peacock when I read all about it
+<lb/> later.  I would have given anything
+<lb/> just to have been at hand to help
+<lb/> the boys who were bowled out, but
+ <lb/>only the young &amp; fresh are allowed 
+<lb/>the <sic>privelege</sic> of going on active service
+<lb/> wish I was 20 yrs younger I'd 
+<lb/>be near the firing line.  Our Div.
+        
+    
+
+    
+         
+        <pb n="5903" facs="#L1916_2245_img_5903"/>
+        
+        
+           
+            <lb/>got an awful slaughtering, but
+<lb/> not a man showed the white 
+<lb/>feather, "Carsons goose steppers"
+<lb/> made a name for themselves
+<lb/> which any reg<hi rend="superscript">t.</hi> might be proud
+<lb/> of, a friend wrote me that the 
+<lb/>Nationalist papers were all
+<lb/> dumb on the subject.  The enclosed
+<lb/> cutting I cut out of the "Post" &amp;
+<lb/> had sent in to Arthur on the 6<hi rend="superscript">th</hi>
+<lb/> not knowing then that he had
+<lb/> been put out of action on the way
+<lb/> up, bit of shrapnel through
+<lb/> left shoulder &amp; one of the R.A.M.C. 
+<lb/>men turned him, the letter was
+<lb/> returned to me last week: so the
+<lb/> cutting may interest you or some
+<lb/> of the boys.  Arthur was in a number
+<lb/> of Hospitals before going to a Convalescent
+<lb/> Camp at Eastbourne &amp; on the
+<lb/> 16th<hi rend="superscript">th</hi> inst. he &amp; a number of the Ulster
+<pb/> boys crossed to Belfast on leave.
+<lb/>  I saw Y.C.V. on the shoulder of one 
+<lb/>of the boys, all seemed in good
+<lb/> form, I had a couple of hrs with
+<lb/> Arthur, he expected to be sent
+<lb/> back to the Ulster Div. base at 
+<lb/>B. <unclear>Sinclair</unclear> until further orders.
+<lb/>  A big number suffer from shell
+<lb/> shock Lieut. A Wallace was sent
+<lb/> home, has go another mths leave
+<lb/> &amp; is at some ng. sea port.  It 
+<lb/><sic>wd</sic> do you good to get sent over
+<lb/> to Eng. or Ireland for a while
+<lb/> not much chance of a cure
+<lb/> within sound of the guns.  You
+<lb/> seem to be luckier in the
+<lb/> weather than we are, it has
+<lb/> been very wet, awful thunder
+<lb/> showers; much colder.  Sunday
+<lb/> it showered at intervals all day
+        
+    
+         
+        <pb n="5904" facs="#L1916_2245_img_5904"/>
+        
+        
+           
+            <lb/>Yest. it never ceased, today has
+<lb/> been fine since about 9 A.M.
+<lb/> but there is quite a cold feel
+<lb/>in the atmosphere.  Your Auntie 
+<lb/>sent me a card from Euston that
+<lb/> she was off to Ireland &amp; felt very
+<lb/> sad having no one to see her off, if 
+<lb/>she had written to me in time I
+<lb/> could as I was on the idle list for
+<lb/> a short time after leaving 
+<lb/>Mortimer House.  Letters just in
+<lb/> from Steele, the boy I though had
+<lb/> been done for, I nursed him at Tring
+<lb/> 1914 &amp; have been writing &amp; sending an
+<lb/> odd paper since he went to the Front
+<lb/> last year, he has been attached
+<lb/> to another Batt. &amp; so did not get the
+<lb/> pcl. or papers, but said the boys
+<lb/> had maybe more need of them that
+<lb/> he had.  I do hope to hear a 
+<lb/>good account of your mother
+        
+    
+         
+        <pb n="5905" facs="#L1916_2245_img_5905"/>
+        
+        
+           
+            <lb/>from your Aunt, I expect she is longing
+<lb/> for a sight of you, and surely
+<lb/> they will send you home for a
+<lb/> wee rest soon.  Have just heard 
+<lb/>that Arthur is at Ballykinlar,
+<lb/> he will probably be sent out with
+<lb/> a draft soon.  I pity all you boys 
+<lb/>when I turn into my comfy bed every
+<lb/> night, we do not half realize all
+<lb/> our men are doing to keep us safe
+<lb/> here in Eng.  The <sic>Rumanians</sic>
+<lb/> joining the Allies has given the
+<lb/> enemy a bad turn  &amp; it looks
+<lb/> jolly like as if <hi rend="underline">"Tins"</hi> will have
+<lb/> to follow suit, the Bulgarians  &amp;
+<lb/> Turks must feel jolly sick now
+<lb/> that they ever trusted the gentle 
+<lb/>Hun.  &amp; Austria. Well we
+<lb/> have got the whip hand now
+<lb/> &amp;must keep it until Germany
+        
+    
+         
+        <pb n="5906" facs="#L1916_2245_img_5906"/>
+        
+        
+           
+            <lb/>is stripped bare, no peace until
+<lb/> they have paid for all their
+<lb/> deeds of destruction.  Unfortunately
+<lb/> we cannot take a Hun life for every
+<lb/> foul murder done by them, but 
+<lb/>they must be made to pay in some
+<lb/> way.  I am scribbling this in my
+<lb/> pts. room.  I feel very ashamed
+<lb/> when I look at your copperplate
+<lb/> writing from the trenches at 11 p.m. 
+<lb/>With many good wishes &amp; most 
+<lb/>sincerely hoping that you 
+<lb/>will get home for a spell<p>
+
+<salute>Your very sincerely</salute>
+<signed>Nellie McCotter</signed>
+
+<add>I have two nephews at the front somewhere
+<lb/> one is in the R.A.M.C. Dr. Norman Davidson  
+<lb/>&amp; the other Chaplain R.C. <unclear>Mackleoun</unclear>
+<lb/> you may come across them
+<lb/> sometime.</add>
+        
+    
+         
+        <pb n="5907" facs="#L1916_2245_img_5907"/>
+        
+        
+           
+            <hi rend="underline">RC</hi>
+10/9/16
+<hi rend="underline">repd</hi>
+2/10/16
+
+<lb/><del><hi rend="underline">Hospital</hi></del>
+<lb/>APO4
+<lb/>Lce-Corp G. Hackney, 14/148 15
+<lb/><del>14</del>14th (8) Batt. R.I. Rifles, Y.C.V.
+<lb/><del>B. <unclear>Reg</unclear>
+<lb/><unclear>questionable reading</unclear>
+<lb/>France</del>
+
+<address>19 Ward
+<lb/>35 General
+Hospital</address>
+        
+    
+         
+        <pb n="5908" facs="#L1916_2245_img_5908"/>
+        
+        
+           
+            <!-- Rear of envelope
+Two date stamps Army Post Office -->
+<!-- B 9 sp 16
+B 10 sp 16 -->
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    

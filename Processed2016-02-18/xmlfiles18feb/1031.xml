@@ -1,0 +1,1840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1031">
+    <fileDesc>
+            <titleStmt>
+                <title>Letter from Margaret Pearse to Mabel FitzGerald, 16 July, 1916.</title>
+                
+                <author>Margaret Pearse</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    The Letters of 1916
+                </edition>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name xml:id="SS">Susan Schreibman</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="NR">Neale Rooney</name>    
+                </respStmt>
+                
+
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Tbrosnan">Tbrosnan</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Hughesf">Hughesf</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Philcostel">Philcostel</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Contributor</resp>
+                    <name xml:id="Brennash">Brennash</name>
+                </respStmt>
+                
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <placeName>
+                            <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
+                            <country>IRE</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno>L1916_1031</idno>
+                <availability status="restricted">
+                    <!-- PENDING -->
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+                </availability>
+                <!-- date... insert dynamically with curent year -->
+                <date when="2016">2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">
+                    
+                        
+                            
+                            <p>A letter from Margaret Mary Pearse (1878–1968) to Mabel FitzGerald, (1884-1957), the wife of Desmond FitzGerald, (1888-1947). Miss Pearse acknowledges the kind words Mrs. Fitzgerald sent to her mother (Margaret Pearse (1857-1932)) about her brother, Patrick. The writer goes on to describe her visits to HM Prison in Dartmoor and describes conditions for the Irish prisoners there, which she finds quite reasonable. She thinks it is a good thing that the Irish prisoners are segregated from ordinary criminals. She advises Mrs FitzGerald that it is possible to send books in to the prison but that the books become the property of the prison service.</p>
+                            
+                        
+                            
+                        
+                            
+                            <p>Margaret Pearse was the sister of Patrick Pearse (1879-1916), one of the leaders of the Easter Rising in 1916, who was executed on 3 May 1916. Another brother, Willie Pearse, was also executed. Mabel was a former governess in London. She later vigorously canvassed her former acquaintances in London's liberal circles for support for Francis Sheehy Skeffington (1878 -1916) during his hunger strike in 1915. Both Mabel and Desmond would serve in the GPO garrison during Easter Week.</p>
+                            
+                        
+                    
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+
+                        <!-- Unnormalised source: University College Dublin Archives -->
+                        
+                        <VERIFY><!-- REMOVE THIS IF INSTITUTION REF IS CORRECT --></VERIFY>
+                        
+                        <repository ref="#UCD">University College Dublin, Archives</repository>
+                        
+
+
+                        <!-- 
+                                Original DCN: FitzGerald Papers, P80/1606/1
+                             
+                        -->
+                            
+                                <collection type='public'>FitzGerald Papers</collection>
+                            
+                            
+                        <idno>P80/1606/1</idno>
+                            
+                       
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <correspDesc xml:id="corresp1">
+
+                <!-- TO DO: add xml:id to correspDesc and standard -->
+
+                <correspAction type="received">
+                
+                    
+                        <!-- Unnormalised name: Mabel FitzGerald -->
+                        
+                        <persName ref="#FitzGerald_M">Mabel FitzGerald</persName>
+                    
+                
+                
+                
+                </correspAction>
+                 
+                <correspAction type="sent">
+                
+                    
+                        <!-- Unnormalised name: Margaret Pearse -->
+                        
+                        <persName ref="#Pearse_M">Margaret Pearse</persName>
+                    
+                
+                
+                 
+                    
+                    <!-- Normalised Place Found: 
+                    ST ENDA 
+                    Dublin
+                    Ireland
+                    -->
+                    <VERIFY><!-- REMOVE THIS IF RECIPIENT LOCATION IS CORRECT --></VERIFY>
+                    <placeName ref="#St_Enda">St. Enda&#39;s College, Rathfarnham, Dublin, Ireland.</placeName>
+                    
+                
+                    
+                    <date when="1916-07-16">16 July 1916</date>
+                    
+                </correspAction>
+            </correspDesc>
+            <textClass>
+
+                <keywords>
+                    <list>
+                    
+                        <item n="gender">Female</item>
+                      
+                    
+                        <item n="death">1968</item>
+                    
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                    
+                    
+                        
+                            
+                        
+                           
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+     </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>
+                <!-- TO DO!!! also to be written by someone... -->
+            </p>
+        </editorialDecl>
+        <projectDesc>
+            <p><!--TO DO!!! TO BE WRITTEN BY SOMEONE...--></p>
+        </projectDesc>
+        <appInfo>
+
+            <!-- ADD OTHER APPLICATIONS HERE -->
+            <application xml:id="Omeka" ident="Omeka" version="1.5">
+                <desc>
+
+                </desc>
+            </application>
+
+            <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+               <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+               </desc>
+            </application>
+            <application xml:id="LetEd" ident="LetEd" version="1">
+               <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               </desc>
+            </application>
+         </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+        
+            <change when="2014-05-14T10:24:09" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-05-14T10:24:09" who="#Brennash">
+                
+                    Page 2664 modified:
+                    <!-- 
+St. Enda's College 
+Rathfarnham
+P80/1606(1) 16/7/'16
+
+Dear Mrs. Fitzgerald, 
+In reply to your letter this morning to my mother. First I must thank you for your kind words about my good brother. Life for us will never again be the same, and yet it is such a strange mixture of gried and pride. My God bless the boy and all who stood by him. You have your own great trial, but it won't be for very long. Time will bring many changes. About Dartmoor. We saw 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-06-22T13:05:24" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-06-22T13:05:24" who="#Hughesf">
+                
+                    Page 2665 modified:
+                    <!-- 
+only our own two personal 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-06-22T13:10:50" who="#Hughesf">
+                
+                    Page 2665 modified:
+                    <!-- 
+only our own two personal
+for which we had a special
+permit from the Home Secretary.
+The rule is 4 moths must
+lapse before a visit, but
+we got one much sooner.
+I hope to go again in October.
+The conditions were better
+than I had hoped.  I heard
+they had 4 months' solitary
+confinement.  That is not so.
+It is one month, which time in most cases had
+expired before the men
+left Dublin.
+There are 69 of ours in
+Dartmoor.  They are not
+allowed to mix with the
+ordinary convicts, & that
+in itself is a blessing.
+At recreation they walk <pb/>
+<gap/> round in some sort of
+y<del>deleted text</del>ard quite away from
+the others.  At Mass they
+(The Irish Prisoners) are all
+together, & 3 empty
+benches are left between
+them & the criminals.
+They are un 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-06-22T13:12:04" who="#Hughesf">
+                
+                    Page 2665 modified:
+                    <!-- 
+only our own two personal
+for which we had a special
+permit from the Home Secretary.
+The rule is 4 moths must
+lapse before a visit, but
+we got one much sooner.
+I hope to go again in October.
+The conditions were better
+than I had hoped.  I heard
+they had 4 months' solitary
+confinement.  That is not so.
+It is one month, which time in most cases had
+expired before the men
+left Dublin.
+There are 69 of ours in
+Dartmoor.  They are not
+allowed to mix with the
+ordinary convicts, & that
+in itself is a blessing.
+At recreation they walk <pb/>
+<gap/> round in some sort of
+y<del>deleted text</del>ard quite away from
+the others.  At Mass they
+(The Irish Prisoners) are all
+together, & 3 empty
+benches are left between
+them & the criminals.
+They are employed at
+making post bags.  I
+think the authorities did
+not think it wise to put
+them at severe work.
+The food, as far as I can judge, is good.  We had a 
+little of the prison bread
+when taking lunch with
+the priest after our visit.
+It was a bit dark, but quite all right. 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-06-22T13:14:09" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-06-22T13:14:09" who="#Hughesf">
+                
+                    Page 2666 modified:
+                    <!-- 
+Our two friends were well
+&, especially the younger,
+in good spirits.
+Another good thing, they
+have lots of books & can read a good deal.  They
+can use nothing that is
+not prison property, but the head warden explained
+a little point about books.
+He told me if I wished my young friend to have 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-06-22T13:15:00" who="#Hughesf">
+                
+                    Page 2666 modified:
+                    <!-- 
+Our two friends were well
+&, especially the younger,
+in good spirits.
+Another good thing, they
+have lots of books & can read a good deal.  They
+can use nothing that is
+not prison property, but the head warden explained
+a little point about books.
+He told me if I wished my young friend to have
+any special book treating
+of his profession I could
+send it, provided the
+book becomes prison
+property.  Needless to say
+I have just sent on a 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-06-22T13:17:01" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-06-22T13:17:01" who="#Hughesf">
+                
+                    Page 2667 modified:
+                    <!-- 
+valuable book on his
+future profession (Architecture)
+to Cionor, or rather to the
+governor as prison property.
+Perhaps you would care
+to do the same for your
+husband.
+The priest is an Irish man, from the North.
+Not quite "our way" but
+an Irishman.  Our men have confession & H. Communion
+every week.  The Bishop
+of Plymouth paid each
+one of them a personal
+visit.  Rather unusual
+for "convicts", is it not?
+The head warden who <pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-06-22T13:26:45" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-06-22T13:26:45" who="#Hughesf">
+                
+                    Page 2668 modified:
+                    <!-- 
+was on duty
+during our visits, & took many notes
+of what we said, seems a
+decent, good man.  He
+was quite a formal &
+official person when
+speaking to us, but
+when he spoke to Conor
+he was much nicer &
+more sympathetic.  I
+took this as a good sign.
+It has been explained to
+our prisoners that if their
+friends cannot visit them
+they can write an extra
+letter in lieu of the visit.
+This would mean an
+<pb/>
+ordinary letter about Oct.
+and another, instead of a visit,
+sometime in Dec!  However
+I'll do my best to go see
+my two in October.  It is
+expensive, over £4-5
+return to Princetown.
+I have just learned that
+the younger brother of the
+boy I saw in Dartmoor
+arrived home last night
+from Frongoch, also
+another of our past boys.
+I think I have told you
+the chief particulars.  If
+you could come see us I
+might remember a little
+more.  But you now have 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-06-22T13:27:22" who="#Philcostel">
+                
+                     Object initialised
+                
+
+                
+            </change>
+        
+            <change when="2014-06-22T13:27:22" who="#Hughesf">
+                
+                    Page 2669 modified:
+                    <!-- 
+as much as any visitor could gather.
+With kind regards from Mother & myself
+Yrs. very sincerely
+Margaret Pearse 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-06-22T13:28:42" who="#Hughesf">
+                
+                    Page 2668 modified:
+                    <!-- 
+was on duty during our visits, & took many notes of what we said, seems a decent, good man.  He was quite a formal & official person when speaking to us, but when he spoke to Conor he was much nicer & more sympathetic.  I took this as a good sign. It has been explained to
+our prisoners that if their friends cannot visit them they can write an extra letter in lieu of the visit.  This would mean an
+<pb/>
+ordinary letter about Oct. and another, instead of a visit, sometime in Dec!  However I'll do my best to go see my two in October.  It is expensive, over £4-5 return to Princetown.  I have just learned that the younger brother of the boy I saw in Dartmoor arrived home last night from Frongoch, also another of our past boys.  I think I have told you the chief particulars.  If you could come see us I might remember a little more.  But you now have
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-06-22T13:29:27" who="#Hughesf">
+                
+                    Page 2667 modified:
+                    <!-- 
+valuable book on his future profession (Architecture) to Conor, or rather to the
+governor as prison property.  Perhaps you would care to do the same for your husband.  The priest is an Irish man, from the North. Not quite "our way" but an Irishman.  Our men have confession & H. Communion every week.  The Bishop of Plymouth paid each one of them a personal visit.  Rather unusual for "convicts", is it not? The head warden who
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-06-22T13:29:32" who="#Hughesf">
+                
+                    Page 2667 modified:
+                    <!-- 
+valuable book on his future profession (Architecture) to Conor, or rather to the governor as prison property.  Perhaps you would care to do the same for your husband.  The priest is an Irish man, from the North. Not quite "our way" but an Irishman.  Our men have confession & H. Communion every week.  The Bishop of Plymouth paid each one of them a personal visit.  Rather unusual for "convicts", is it not? The head warden who
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-06-22T13:30:09" who="#Hughesf">
+                
+                    Page 2666 modified:
+                    <!-- 
+Our two friends were well &, especially the younger, in good spirits.  Another good thing, they have lots of books & can read a good deal.  They
+can use nothing that is not prison property, but the head warden explained a little point about books.  He told me if I wished my young friend to have any special book treating of his profession I could send it, provided the book becomes prison property.  Needless to say I have just sent on a
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2014-06-22T13:31:37" who="#Hughesf">
+                
+                    Page 2665 modified:
+                    <!-- 
+only our own two personal for which we had a special permit from the Home Secretary.  The rule is 4 months must lapse before a visit, but we got one much sooner.  I hope to go again in October.  The conditions were better than I had hoped.  I heard they had 4 months' solitary
+confinement.  That is not so.  It is one month, which time in most cases had expired before the men left Dublin.  There are 69 of ours in
+Dartmoor.  They are not allowed to mix with the ordinary convicts, & that in itself is a blessing.  At recreation they walk
+<pb/>
+<gap/> round in some sort of yard quite away from the others.  At Mass they (The Irish Prisoners) are all together, & 3 empty benches are left between them & the criminals.  They are employed at making post bags.  I think the authorities did not think it wise to put them at severe work.
+The food, as far as I can judge, is good.  We had a little of the prison bread when taking lunch with the priest after our visit.  It was a bit dark, but quite all right.
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-11T13:21:25" who="#Tbrosnan">
+                
+                    Page 2664 modified:
+                    <!-- 
+<address>St. Enda's College 
+<lb/>Rathfarnham</address>
+ 16/7/'16
+<add>P80/1606(1)</add>
+<salute>Dear Mrs. Fitzgerald,</salute> 
+<p>In reply to your letter 
+<lb/>this morning to my mother. 
+<lb/>First I must thank you for your kind words about 
+<lb/>my good brother. Life for 
+<lb/>us will never again be the 
+<lb/>same, &amp; yet it is such a 
+<lb/>strange mixture of grief &amp; 
+<lb/>pride. May God bless the 
+<lb/>boys &amp; all who stood by him. 
+<lb/>You have your own great 
+<lb/>trial, but it won't be for 
+very long. Time will bring 
+<lb/>many changes.</p>
+<p>About Dartmoor. We saw 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-11T13:21:43" who="#Tbrosnan">
+                
+                    Page 2664 modified:
+                    <!-- 
+<address>St. Enda's College 
+<lb/>Rathfarnham</address>
+ 16/7/'16
+<add>P80/1606(1)</add>
+<salute>Dear Mrs. Fitzgerald,</salute> 
+<p>In reply to your letter 
+<lb/>this morning to my mother. 
+<lb/>First I must thank you for your kind words about 
+<lb/>my good brother. Life for 
+<lb/>us will never again be the 
+<lb/>same, &amp; yet it is such a 
+<lb/>strange mixture of grief &amp; 
+<lb/>pride. May God bless the 
+<lb/>boys &amp; all who stood by him. 
+<lb/>You have your own great 
+<lb/>trial, but it won't be for 
+very long. Time will bring 
+<lb/>many changes.</p>
+<p>About Dartmoor. We saw<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-11T13:25:29" who="#Tbrosnan">
+                
+                    Page 2665 modified:
+                    <!-- 
+<lb/>only our own two personal 
+<lb/>for which we had a special 
+<lb/>permit from the Home Secretary.  
+<lb/>The rule is 4 months must 
+<lb/>lapse before a visit, but 
+<lb/>we got one much sooner.  
+<lb/>I hope to go again in October.  
+<lb/>The conditions were better 
+<lb/>than I had hoped.  I heard 
+<lb/>they had 4 months' solitary
+<lb/>confinement.  That is not so.  
+<lb/>It is one month, which 
+<lb/>time in most cases had 
+<lb/>expired before the men 
+<lb/>left Dublin.</p> 
+<p>There are 69 of ours in
+<lb/>Dartmoor.  They are not 
+<lb/>allowed to mix with the 
+<lb/>ordinary convicts, &amp; that 
+<lb/>in itself is a blessing.</p> 
+<p>At recreation they walk<pb/>
+<pb/>
+<gap/> round in some sort of yard quite away from the others.  At Mass they (The Irish Prisoners) are all together, & 3 empty benches are left between them & the criminals.  They are employed at making post bags.  I think the authorities did not think it wise to put them at severe work.
+The food, as far as I can judge, is good.  We had a little of the prison bread when taking lunch with the priest after our visit.  It was a bit dark, but quite all right.
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-11T14:00:17" who="#Tbrosnan">
+                
+                    Page 2665 modified:
+                    <!-- 
+<lb/>only our own two personal 
+<lb/>for which we had a special 
+<lb/>permit from the Home Secretary.  
+<lb/>The rule is 4 months must 
+<lb/>lapse before a visit, but 
+<lb/>we got one much sooner.  
+<lb/>I hope to go again in October.  
+<lb/>The conditions were better 
+<lb/>than I had hoped.  I heard 
+<lb/>they had 4 months' solitary
+<lb/>confinement.  That is not so.  
+<lb/>It is one month, which 
+<lb/>time in most cases had 
+<lb/>expired before the men 
+<lb/>left Dublin.</p> 
+<p>There are 69 of ours in
+<lb/>Dartmoor.  They are not 
+<lb/>allowed to mix with the 
+<lb/>ordinary convicts, &amp; that 
+<lb/>in itself is a blessing.</p> 
+<p>At recreation they walk<pb/>
+
+<lb/><del><gap/></del> round in some sort of 
+<lb/>yard quite away from 
+<lb/>the others.  At Mass they 
+<lb/>(The Irish Prisoners) are all 
+<lb/>together, &amp; 3 empty 
+<lb/>benches are left between 
+<lb/>them &amp; the criminals.  
+<lb/>They are employed at 
+<lb/>making post bags.  
+<lb/>I think the authorities did 
+<lb/>not think it wise to put 
+<lb/>them at severe work.
+<lb/>The food, as far as I can 
+<lb/>judge, is good.  We had a 
+<lb/>little of the prison bread 
+<lb/>when taking lunch with 
+<lb/>the priest after our visit.  
+<lb/>It was a bit dark, but quite 
+<lb/>all right.</p><pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-11T14:03:20" who="#Tbrosnan">
+                
+                    Page 2666 modified:
+                    <!-- 
+<lb/>Our two friends were well 
+<lb/>&amp; especially the younger,
+<lb/> in good spirits. </p>
+<p>Another good thing, they 
+<lb/>have lots of books &amp; can 
+<lb/>read a good deal.  They
+<lb/>can use nothing that is 
+<lb/>not prison property, but t
+<lb/>he head warden explained 
+<lb/>a little point about books.  
+<lb/>He told me if I wished 
+<lb/>my young friend to have 
+<lb/>any special book treating 
+<lb/>of his profession I could 
+<lb/>send it, provided the 
+<lb/>book becomes prison 
+<lb/>property.  Needless to say 
+<lb/>I have just sent on a<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-11T14:13:21" who="#Tbrosnan">
+                
+                    Page 2667 modified:
+                    <!-- 
+<lb/>valuable book on his 
+<lb/>future profession (Architecture) 
+<lb/>to Conor, or rather to the 
+<lb/>governor as prison property.  
+Perhaps you would care 
+<lb/>to do the same for your 
+<lb/>husband. </p> 
+<p>The priest is an Irish 
+<lb/>man, from the North. 
+<lb/>Not quite "our way" but 
+<lb/>an Irishman.  Our men 
+<lb/>have confession &amp; H. Communion 
+<lb/>every week.  The Bishop 
+<lb/>of Plymouth paid each 
+<lb/>one of them a personal 
+<lb/>visit.  Rather unusual 
+<lb/>for "convicts", is it not? 
+<lb/>The head warden who<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-11T14:19:07" who="#Tbrosnan">
+                
+                    Page 2668 modified:
+                    <!-- 
+<lb/>was on duty during our 
+<lb/>visits, &amp; took many notes of 
+<lb/>what we said, seems a 
+<lb/>decent, good man.  He 
+<lb/>was quite a formal &amp; 
+<lb/>official person when 
+<lb/>speaking to us, but 
+<lb/>when he spoke to Conor 
+<lb/>he was much nicer &amp; 
+<lb/>more sympathetic.  I 
+<lb/>took this as a good sign.</p> 
+<p>It has been explained to
+<lb/>our prisoners that if their 
+<lb/>friends cannot visit them 
+<lb/>they can write an extra 
+<lb/>letter in lieu of the visit.  
+<lb/>This would mean an<pb/>
+
+<lb/>ordinary letter about Oct. 
+<lb/>&amp; another, instead of a visit, 
+<lb/>sometime in Dec!  However 
+<lb/>I'll do my best to go see 
+<lb/>my two in October.  It is 
+<lb/>expensive, over £4-5 return to Princetown. </p>
+<p> I have just learned that 
+<lb/>the younger brother of the 
+<lb/>boy I saw in Dartmoor 
+<lb/>arrived home last night 
+<lb/>from Frongoch, also 
+<lb/>another of our past boys. 
+<lb/> I think I have told you 
+<lb/>the chief particulars.  If you could come see us I might remember a little more.  But you now have
+<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-11T14:33:43" who="#Tbrosnan">
+                
+                    Page 2668 modified:
+                    <!-- 
+<lb/>was on duty during our 
+<lb/>visits, &amp; took many notes of 
+<lb/>what we said, seems a 
+<lb/>decent, good man.  He 
+<lb/>was quite a formal &amp; 
+<lb/>official person when 
+<lb/>speaking to us, but 
+<lb/>when he spoke to Conor 
+<lb/>he was much nicer &amp; 
+<lb/>more sympathetic.  I 
+<lb/>took this as a good sign.</p> 
+<p>It has been explained to
+<lb/>our prisoners that if their 
+<lb/>friends cannot visit them 
+<lb/>they can write an extra 
+<lb/>letter in lieu of the visit.  
+<lb/>This would mean an<pb/>
+
+<lb/>ordinary letter about Oct. 
+<lb/>&amp; another, instead of a visit, 
+<lb/>sometime in Dec!  However 
+<lb/>I'll do my best to go see 
+<lb/>my two in October.  It is 
+<lb/>expensive, over £4-5 return to Princetown. </p>
+<p> I have just learned that 
+<lb/>the younger brother of the 
+<lb/>boy I saw in Dartmoor 
+<lb/>arrived home last night 
+<lb/>from Frongoch, also 
+<lb/>another of our past boys. 
+<lb/> I think I have told you 
+<lb/>the chief particulars.  If 
+<lb/>you could come see us I 
+<lb/>might remember a little 
+<lb/>more.  But you now have<pb/> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-11T14:34:46" who="#Tbrosnan">
+                
+                    Page 2669 modified:
+                    <!-- 
+<lb/>as much as any visitor 
+<lb/>could gather.</p>
+<salute>With kind regards from Mother & myself
+<lb/>Yrs. very sincerely</salute>
+<lb/>Margaret Pearse 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-11T14:35:13" who="#Tbrosnan">
+                
+                    Page 2669 modified:
+                    <!-- 
+<lb/>as much as any visitor 
+<lb/>could gather.</p>
+<lb/>With kind regards from Mother & myself
+<salute>Yrs. very sincerely</salute>
+<lb/>Margaret Pearse 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T00:00:00" who="#NR">
+                
+                    Proofing of transcription and XML tags begun in <ref target="#omeka">Omeka</ref>.
+                    (Further edits by <name ref="#NR" /> should be
+                    considered as proofing by project editors.)
+
+                    [Abstract Proofed]
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T14:57:59" who="#NR">
+                
+                    Page 2664 modified:
+                    <!-- 
+<address>St. Enda's College 
+<lb/>Rathfarnham</address>
+ <date>16/7/'16</date>
+<add>P80/1606(1)</add>
+<salute>Dear Mrs. Fitzgerald,</salute> 
+<p>In reply to your letter 
+<lb/>this morning to my mother. 
+<lb/>First I must thank you for your kind words about 
+<lb/>my good brother. Life for 
+<lb/>us will never again be the 
+<lb/>same, &amp; yet it is such a 
+<lb/>strange mixture of grief &amp; 
+<lb/>pride. May God bless the 
+<lb/>boys &amp; all who stood by him. 
+<lb/>You have your own great 
+<lb/>trial, but it won't be for 
+very long. Time will bring 
+<lb/>many changes.</p>
+<p>About Dartmoor. We saw 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T14:59:24" who="#NR">
+                
+                    Page 2665 modified:
+                    <!-- 
+<lb/>only our own two personal 
+<lb/>for which we had a special 
+<lb/>permit from the Home Secretary.  
+<lb/>The rule is 4 months must 
+<lb/>lapse before a visit, but 
+<lb/>we got one much sooner.  
+<lb/>I hope to go again in October.  
+<lb/>The conditions were better 
+<lb/>than I had hoped.  I heard 
+<lb/>they had 4 months' solitary
+<lb/>confinement.  That is not so.  
+<lb/>It is one month, which 
+<lb/>time in most cases had 
+<lb/>expired before the men 
+<lb/>left Dublin.</p> 
+<p>There are 69 of ours in
+<lb/>Dartmoor.  They are not 
+<lb/>allowed to mix with the 
+<lb/>ordinary convicts, &amp; that 
+<lb/>in itself is a blessing.</p> 
+<p>At recreation they walk<pb/>
+
+<lb/> round in some sort of 
+<lb/>yard quite away from 
+<lb/>the others.  At Mass they 
+<lb/>(The Irish Prisoners) are all 
+<lb/>together, &amp; 3 empty 
+<lb/>benches are left between 
+<lb/>them &amp; the criminals.  
+<lb/>They are employed at 
+<lb/>making post bags.  
+<lb/>I think the authorities did 
+<lb/>not think it wise to put 
+<lb/>them at severe work.
+<lb/>The food, as far as I can 
+<lb/>judge, is good.  We had a 
+<lb/>little of the prison bread 
+<lb/>when taking lunch with 
+<lb/>the priest after our visit.  
+<lb/>It was a bit dark, but quite 
+<lb/>all right.</p> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T15:00:06" who="#NR">
+                
+                    Page 2666 modified:
+                    <!-- 
+<lb/>Our two friends were well 
+<lb/>&amp; especially the younger,
+<lb/> in good spirits. </p>
+<p>Another good thing, they 
+<lb/>have lots of books &amp; can 
+<lb/>read a good deal.  They
+<lb/>can use nothing that is 
+<lb/>not prison property, but t
+<lb/>he head warden explained 
+<lb/>a little point about books.  
+<lb/>He told me if I wished 
+<lb/>my young friend to have 
+<lb/>any special book treating 
+<lb/>of his profession I could 
+<lb/>send it, provided the 
+<lb/>book becomes prison 
+<lb/>property.  Needless to say 
+<lb/>I have just sent on a 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T15:01:10" who="#NR">
+                
+                    Page 2667 modified:
+                    <!-- 
+<lb/>valuable book on his 
+<lb/>future profession (Architecture) 
+<lb/>to Conor, or rather to the 
+<lb/>governor as prison property.  
+<lb/>Perhaps you would care 
+<lb/>to do the same for your 
+<lb/>husband. </p> 
+<p>The priest is an Irish 
+<lb/>man, from the North. 
+<lb/>Not quite "our way" but 
+<lb/>an Irishman.  Our men 
+<lb/>have confession &amp; H. Communion 
+<lb/>every week.  The Bishop 
+<lb/>of Plymouth paid each 
+<lb/>one of them a personal 
+<lb/>visit.  Rather unusual 
+<lb/>for "convicts", is it not? 
+<lb/>The head warden who 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T15:02:02" who="#NR">
+                
+                    Page 2668 modified:
+                    <!-- 
+<lb/>was on duty during our 
+<lb/>visits, &amp; took many notes of 
+<lb/>what we said, seems a 
+<lb/>decent, good man.  He 
+<lb/>was quite a formal &amp; 
+<lb/>official person when 
+<lb/>speaking to us, but 
+<lb/>when he spoke to Conor 
+<lb/>he was much nicer &amp; 
+<lb/>more sympathetic.  I 
+<lb/>took this as a good sign.</p> 
+<p>It has been explained to
+<lb/>our prisoners that if their 
+<lb/>friends cannot visit them 
+<lb/>they can write an extra 
+<lb/>letter in lieu of the visit.  
+<lb/>This would mean an<pb/>
+
+<lb/>ordinary letter about Oct. 
+<lb/>&amp; another, instead of a visit, 
+<lb/>sometime in Dec!  However 
+<lb/>I'll do my best to go see 
+<lb/>my two in October.  It is 
+<lb/>expensive, over £4-5 return to Princetown. </p>
+<p> I have just learned that 
+<lb/>the younger brother of the 
+<lb/>boy I saw in Dartmoor 
+<lb/>arrived home last night 
+<lb/>from Frongoch, also 
+<lb/>another of our past boys. 
+<lb/> I think I have told you 
+<lb/>the chief particulars.  If 
+<lb/>you could come see us I 
+<lb/>might remember a little 
+<lb/>more.  But you now have 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-01-15T15:02:43" who="#NR">
+                
+                    Page 2669 modified:
+                    <!-- 
+<lb/>as much as any visitor 
+<lb/>could gather.</p>
+<lb/>With kind regards from Mother &amp; myself
+<salute>Yrs. very sincerely</salute>
+<signed>Margaret Pearse</signed> 
+-->
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2667 created using version from <date when="2014-06-22T13:17:01"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2667 removed (version from <date when="2014-06-22T13:17:01"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2667 removed (version from <date when="2014-06-22T13:29:27"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2667 removed (version from <date when="2014-06-22T13:29:32"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2667 removed (version from <date when="2016-01-11T14:13:21"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2667 removed (version from <date when="2016-01-15T15:01:10"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2664 created using version from <date when="2014-05-14T10:24:09"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2664 removed (version from <date when="2014-05-14T10:24:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2664 removed (version from <date when="2016-01-11T13:21:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2664 removed (version from <date when="2016-01-11T13:21:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2664 removed (version from <date when="2016-01-15T14:57:59"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2668 created using version from <date when="2014-06-22T13:26:45"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2668 removed (version from <date when="2014-06-22T13:26:45"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2668 removed (version from <date when="2014-06-22T13:28:42"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2668 removed (version from <date when="2016-01-11T14:19:07"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2668 removed (version from <date when="2016-01-11T14:33:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2668 removed (version from <date when="2016-01-15T15:02:02"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2665 created using version from <date when="2014-06-22T13:05:24"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2665 removed (version from <date when="2014-06-22T13:05:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2665 removed (version from <date when="2014-06-22T13:10:50"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2665 removed (version from <date when="2014-06-22T13:12:04"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2665 removed (version from <date when="2014-06-22T13:31:37"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2665 removed (version from <date when="2016-01-11T13:25:29"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2665 removed (version from <date when="2016-01-11T14:00:17"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2665 removed (version from <date when="2016-01-15T14:59:24"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2669 created using version from <date when="2014-06-22T13:27:22"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2669 removed (version from <date when="2014-06-22T13:27:22"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2669 removed (version from <date when="2016-01-11T14:34:46"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2669 removed (version from <date when="2016-01-11T14:35:13"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2669 removed (version from <date when="2016-01-15T15:02:43"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    New instance of page 2666 created using version from <date when="2014-06-22T13:14:09"/>
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2666 removed (version from <date when="2014-06-22T13:14:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2666 removed (version from <date when="2014-06-22T13:15:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2666 removed (version from <date when="2014-06-22T13:30:09"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2666 removed (version from <date when="2016-01-11T14:03:20"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:42:47" who="#PythonScript">
+                
+                    Importing to <ref target="#PythonScript"/>:
+                    Old revision of page 2666 removed (version from <date when="2016-01-15T15:00:06"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    New letter created with initial page 2667 (version from <date when="2016-01-15T15:01:11"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:06" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2664 added to letter (version from <date when="2016-01-15T14:58:00"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:07" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2668 added to letter (version from <date when="2016-01-15T15:02:03"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:08" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2665 added to letter (version from <date when="2016-01-15T14:59:25"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2669 added to letter (version from <date when="2016-01-15T15:02:44"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:09" who="#PythonScript">
+                
+                    Creating Letter object in <ref target="#PythonScript"/>:
+                    Page 2666 added to letter (version from <date when="2016-01-15T15:00:08"/>)
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:11" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 2664 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 2665 cleaned of 3 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 2666 cleaned of 2 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 2667 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 2668 cleaned of 4 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:17" who="#PythonScript">
+                
+                    Clean tags: Page 2669 cleaned of 1 tag errors.
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:23" who="#PythonScript">
+                
+                     Page types determined
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:24" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:26" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:27" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:29" who="#PythonScript">
+                
+                     Try to normalise institution refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:43:34" who="#PythonScript">
+                
+                     Try to normalise sender and recipient places and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:44:05" who="#PythonScript">
+                
+                     Try to normalise sender and recipient names and refs
+                
+
+                
+            </change>
+        
+            <change when="2016-02-18T16:45:04" who="#PythonScript">
+                
+                     TEI template built
+                
+
+                
+            </change>
+        
+           
+    </revisionDesc>
+</teiHeader>
+    
+<facsimile> 
+    
+    <graphic xml:id="L1916_1031_img_2664" url="5ee78af1f579e354e0c29adf0a5352cb.jpg"/> 
+    
+    <graphic xml:id="L1916_1031_img_2665" url="f1a05954fe962f51f6e2c8adaae1ada5.jpg"/> 
+    
+    <graphic xml:id="L1916_1031_img_2666" url="a4ebb33d63af1103b47b6efc115a254b.jpg"/> 
+    
+    <graphic xml:id="L1916_1031_img_2667" url="ceabeffa99450f77131cf5a89ef8873d.jpg"/> 
+    
+    <graphic xml:id="L1916_1031_img_2668" url="611276aa6a2271d81cd455f5c56650ee.jpg"/> 
+    
+    <graphic xml:id="L1916_1031_img_2669" url="5e13e9f7a42d884ef61e2fca5593e858.jpg"/> 
+    
+</facsimile>               
+
+<text>
+    <group>
+       
+    
+    <!-- type is letter -->
+
+    
+        
+        <pb n="2664" facs="#L1916_1031_img_2664"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    
+
+<address>St. Enda's College 
+<lb/>Rathfarnham</address>
+ <date>16/7/'16</date>
+<add>P80/1606(1)</add>
+<salute>Dear Mrs. Fitzgerald,</salute> 
+<p>In reply to your letter 
+<lb/>this morning to my mother. 
+<lb/>First I must thank you for your kind words about 
+<lb/>my good brother. Life for 
+<lb/>us will never again be the 
+<lb/>same, &amp; yet it is such a 
+<lb/>strange mixture of grief &amp; 
+<lb/>pride. May God bless the 
+<lb/>boys &amp; all who stood by him. 
+<lb/>You have your own great 
+<lb/>trial, but it won't be for 
+very long. Time will bring 
+<lb/>many changes.</p>
+<p>About Dartmoor. We saw
+        
+    
+
+    
+         
+        <pb n="2665" facs="#L1916_1031_img_2665"/>
+        
+        
+           
+            <lb/>only our own two personal 
+<lb/>for which we had a special 
+<lb/>permit from the Home Secretary.  
+<lb/>The rule is 4 months must 
+<lb/>lapse before a visit, but 
+<lb/>we got one much sooner.  
+<lb/>I hope to go again in October.  
+<lb/>The conditions were better 
+<lb/>than I had hoped.  I heard 
+<lb/>they had 4 months' solitary
+<lb/>confinement.  That is not so.  
+<lb/>It is one month, which 
+<lb/>time in most cases had 
+<lb/>expired before the men 
+<lb/>left Dublin.</p> 
+<p>There are 69 of ours in
+<lb/>Dartmoor.  They are not 
+<lb/>allowed to mix with the 
+<lb/>ordinary convicts, &amp; that 
+<lb/>in itself is a blessing.</p> 
+<p>At recreation they walk<pb/>
+
+<lb/> round in some sort of 
+<lb/>yard quite away from 
+<lb/>the others.  At Mass they 
+<lb/>(The Irish Prisoners) are all 
+<lb/>together, &amp; 3 empty 
+<lb/>benches are left between 
+<lb/>them &amp; the criminals.  
+<lb/>They are employed at 
+<lb/>making post bags.  
+<lb/>I think the authorities did 
+<lb/>not think it wise to put 
+<lb/>them at severe work.
+<lb/>The food, as far as I can 
+<lb/>judge, is good.  We had a 
+<lb/>little of the prison bread 
+<lb/>when taking lunch with 
+<lb/>the priest after our visit.  
+<lb/>It was a bit dark, but quite 
+<lb/>all right.</p>
+        
+    
+         
+        <pb n="2666" facs="#L1916_1031_img_2666"/>
+        
+        
+           
+            <lb/>Our two friends were well 
+<lb/>&amp; especially the younger,
+<lb/> in good spirits. </p>
+<p>Another good thing, they 
+<lb/>have lots of books &amp; can 
+<lb/>read a good deal.  They
+<lb/>can use nothing that is 
+<lb/>not prison property, but t
+<lb/>he head warden explained 
+<lb/>a little point about books.  
+<lb/>He told me if I wished 
+<lb/>my young friend to have 
+<lb/>any special book treating 
+<lb/>of his profession I could 
+<lb/>send it, provided the 
+<lb/>book becomes prison 
+<lb/>property.  Needless to say 
+<lb/>I have just sent on a
+        
+    
+         
+        <pb n="2667" facs="#L1916_1031_img_2667"/>
+        
+        
+           
+            <lb/>valuable book on his 
+<lb/>future profession (Architecture) 
+<lb/>to Conor, or rather to the 
+<lb/>governor as prison property.  
+<lb/>Perhaps you would care 
+<lb/>to do the same for your 
+<lb/>husband. </p> 
+<p>The priest is an Irish 
+<lb/>man, from the North. 
+<lb/>Not quite "our way" but 
+<lb/>an Irishman.  Our men 
+<lb/>have confession &amp; H. Communion 
+<lb/>every week.  The Bishop 
+<lb/>of Plymouth paid each 
+<lb/>one of them a personal 
+<lb/>visit.  Rather unusual 
+<lb/>for "convicts", is it not? 
+<lb/>The head warden who
+        
+    
+         
+        <pb n="2668" facs="#L1916_1031_img_2668"/>
+        
+        
+           
+            <lb/>was on duty during our 
+<lb/>visits, &amp; took many notes of 
+<lb/>what we said, seems a 
+<lb/>decent, good man.  He 
+<lb/>was quite a formal &amp; 
+<lb/>official person when 
+<lb/>speaking to us, but 
+<lb/>when he spoke to Conor 
+<lb/>he was much nicer &amp; 
+<lb/>more sympathetic.  I 
+<lb/>took this as a good sign.</p> 
+<p>It has been explained to
+<lb/>our prisoners that if their 
+<lb/>friends cannot visit them 
+<lb/>they can write an extra 
+<lb/>letter in lieu of the visit.  
+<lb/>This would mean an<pb/>
+
+<lb/>ordinary letter about Oct. 
+<lb/>&amp; another, instead of a visit, 
+<lb/>sometime in Dec!  However 
+<lb/>I'll do my best to go see 
+<lb/>my two in October.  It is 
+<lb/>expensive, over £4-5 return to Princetown. </p>
+<p> I have just learned that 
+<lb/>the younger brother of the 
+<lb/>boy I saw in Dartmoor 
+<lb/>arrived home last night 
+<lb/>from Frongoch, also 
+<lb/>another of our past boys. 
+<lb/> I think I have told you 
+<lb/>the chief particulars.  If 
+<lb/>you could come see us I 
+<lb/>might remember a little 
+<lb/>more.  But you now have
+        
+    
+         
+        <pb n="2669" facs="#L1916_1031_img_2669"/>
+        
+        
+           
+            <lb/>as much as any visitor 
+<lb/>could gather.</p>
+<lb/>With kind regards from Mother &amp; myself
+<closer><salute>Yrs. very sincerely</salute>
+<signed>Margaret Pearse</signed></closer>
+        
+    
+                </body>
+            </text>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+         
+
+    </group>
+</text>
+     
+
+</TEI>
+
+
+    
