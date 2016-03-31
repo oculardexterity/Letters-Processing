@@ -143,6 +143,11 @@ class ProcessQueue:
 		b = BuildInstitutionRefs.BuildInstitutionRefs(self.input_file_path(), self.output_file_path(), self.buildInstitutionRefs_configs['instListFile'])
 		b.process()
 
+	def run_BuildNameRefs(self):
+		self.update_file_names('BuildNameRefs')
+		b =  BuildNameRefs.BuildNameRefs(self.input_file_path(), self.output_file_path(), self.buildNameRefs_configs['nameListFile'])
+		b.process()
+
 	def run_Templater(self):
 		self.update_file_names('Templateable')
 		#print(self.input_file_path())
