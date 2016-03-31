@@ -1,0 +1,21 @@
+---
+outputFolder: Output/
+processingFolderPrefix: TEST
+inputFilePath: spreadsheets/test_dump16022016.xlsx
+filter_configs:
+    inclusionFilePath: spreadsheets/ProofingTranscriptionsAbstracts16022016.xlsx
+    inclusionColumnHeader: ID
+    inclusionCutoffDate: 15 February 2016
+    inclusionDirectoryPath: Processed2016-02-16/xmlfiles
+    #"exclusionDirectoryPath": "Letters 2015-12-08 0"
+    #"exclusionURL": "http://xl1916mono.mucampus.ie:5001/currentFiles",
+
+    #"inclusionListObject": arbitraryInclusionList,
+    #"exclusionListObject": arbitraryExclusionList
+
+editLogger_configs:
+    editFilePath: spreadsheets/CompleteListJan2.xlsx
+
+buildInstitutionRefs_configs:
+    instListFile: spreadsheets/institution_ID.xlsx
+    instListSheet: Foglio1
