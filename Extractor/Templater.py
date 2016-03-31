@@ -34,7 +34,8 @@ def abstract_split(abstract):
 	else:
 		return [abstract]
 
-def run_templater(inputFile, outputDir, templateFile):#, templateFolder):
+def run_templater(inputFile, outputDir, templateFilePath):#, templateFolder):
+	print(templateFilePath)
 	editors = []
 	contributors = []
 	wf = 0
@@ -96,9 +97,10 @@ def run_templater(inputFile, outputDir, templateFile):#, templateFolder):
 		item["Edits"] = sorted(item["Edits"], key=lambda f: datetime.datetime.strptime(f['datetime'], "%Y-%m-%dT%H:%M:%S"))
 
 		
-
-		templateFile = open(templateFile).read()
-
+		print(templateFilePath)
+		templateFile = open(templateFilePath).read()
+		#print(templateFile)
+	
 		env = jinja2.Environment()
 		env.globals.update(sorted=sorted, to_snake=to_snake_case,replace_contribs=replace_contrib_names,
 			 abstract_split=abstract_split) 
@@ -108,8 +110,8 @@ def run_templater(inputFile, outputDir, templateFile):#, templateFolder):
 
 	
 	
-		print(item["DocCollection"])
-		print(item["Document_Collection"],"~", item["Document_Number"])
+		#print(item["DocCollection"])
+		#print(item["Document_Collection"],"~", item["Document_Number"])
 	
 
 
@@ -134,7 +136,7 @@ def run_templater(inputFile, outputDir, templateFile):#, templateFolder):
 		except Exception as e:
 			#print(key, " is BAD:: ", e)
 			bf += 1
-
+			
 	#print('GOOD: ', wf)
 	#print('BAD: ', bf)
 	#print(editors)
@@ -152,10 +154,10 @@ if __name__ == '__main__':
 
 	inputFilePath = parser.parse_args().inputFilePath
 	outputDir = parser.parse_args().outputDir
-	#templateFolder = parser.parse_args().templateFolder
+	templateFile = parser.parse_args().templateFile
 
 	if not (inputFilePath and outputDir): #and templateFolder):
 		raise ValueError('You are missing necessary arguments. Run --help for more information.')
-	
+	#print(templateFile)
 	run_templater(inputFilePath, outputDir, templateFile)
 
