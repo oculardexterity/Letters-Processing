@@ -17,7 +17,7 @@ Processed *
 Regenerate/*
 Output
 Output/*
-
+!Output/info.txt
 
 xmlfiles/*.xml
 temp_xmlFiles/*.xml
