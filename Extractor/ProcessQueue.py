@@ -99,7 +99,7 @@ class ProcessQueue:
 
 		if 'inclusionFilePath' in self.filter_configs:
 			incList = FilterLists.ListFromExcel(self.filter_configs["inclusionFilePath"], 
-				self.filter_configs["inclusionColumnHeader"], self.filter_configs["inclusionCutoffDate"])
+				'ID', self.filter_configs["inclusionCutoffDate"])
 			f.inclusionListAdd(incList)
 		
 		if 'exclusionDirectoryPath' in self.filter_configs:
@@ -147,10 +147,9 @@ class ProcessQueue:
 
 	def run_BuildInstitutionRefs(self):
 		self.update_file_names('BuildInstitutionRefs')
-		if 'instColumn' in self.buildInstitutionRefs_configs:
-			b = BuildInstitutionRefs.BuildInstitutionRefs(self.input_file_path(), self.output_file_path(), self.buildInstitutionRefs_configs['instListFile'], self.buildInstitutionRefs_configs["instColumn"])
-		else:
-			b = BuildInstitutionRefs.BuildInstitutionRefs(self.input_file_path(), self.output_file_path(), self.buildInstitutionRefs_configs['instListFile'])
+		
+		
+		b = BuildInstitutionRefs.BuildInstitutionRefs(self.input_file_path(), self.output_file_path(), self.buildInstitutionRefs_configs['instListFile'])
 
 		b.process()
 
