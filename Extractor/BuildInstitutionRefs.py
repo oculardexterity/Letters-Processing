@@ -9,7 +9,7 @@ from EditLogger import EditLogger
 editLogger = EditLogger()
 
 class BuildInstitutionRefs(Processor):
-	def __init__(self, inputFilePath, outputFilePath, instListFile, instSheet='Foglio1', instColumn='NAME'):
+	def __init__(self, inputFilePath, outputFilePath, instListFile, instSheet='MAIN', instColumn='NAME'):
 		self.resolve = self._addInstitutionRef
 		self.transform = self._addInstitutionRef
 		self.dict_key = 'Letter'
